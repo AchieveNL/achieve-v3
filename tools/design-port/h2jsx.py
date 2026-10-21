@@ -32,11 +32,13 @@ ATTR_MAP = { 'viewbox':'viewBox','preserveaspectratio':'preserveAspectRatio','gr
 BOOL = {'wide','plain','muted','loop','playsinline','autoplay','controls','disabled','checked','required','hidden','open','novalidate','readonly','selected','multiple','allowfullscreen','defer','async'}
 TA = {'aria-label','alt','title','placeholder','label'}
 HOLE = re.compile(r'\{\{\s*([^}]+?)\s*\}\}')
-LOOPVARS = []
+LOOPVARS = []  # (design name, js name)
 def hx(name):
     name = name.strip()
     root = re.split(r'[.\[]', name)[0]
-    return name if root in LOOPVARS else 'h.' + name
+    for dn, jn in reversed(LOOPVARS):
+        if root == dn: return jn + name[len(dn):]
+    return 'h.' + name
 
 BLOBMAP = {}
 ROUTE = lambda name: name
@@ -148,9 +150,10 @@ class Conv(HTMLParser):
         if tag == 'dc-import':
             self.out.append('<' + 'Import_' + dict(attrs).get('name', 'X') + ' />'); return
         if tag == 'sc-for':
-            d = dict(attrs); m = HOLE.search(d.get('list', '')); var = d.get('as', 'it')
+            d = dict(attrs); m = HOLE.search(d.get('list', '')); dvar = d.get('as', 'it')
+            var = dvar + dvar if dvar in ('h', 't') else dvar
             self.out.append('{' + (hx(m.group(1)) if m else '[]') + '.map((' + var + ', ' + var + '_i) => (<Fragment key={' + var + '_i}>')
-            LOOPVARS.append(var)
+            LOOPVARS.append((dvar, var))
             self.stack.append(('sc-for', False)); return
         if tag == 'svg': self.svg += 1
         tag = TAG_MAP.get(tag, tag)

@@ -1,4 +1,3 @@
- 
 "use client";
 
 import { useTr } from "@/i18n/I18nProvider";
@@ -783,7 +782,7 @@ export function Header() {
           >
             <div className={`nav-dd ${h.dienstenCls}`}>
               <a
-                href="#diensten"
+                href={href("Main", "diensten")}
                 aria-haspopup="true"
                 aria-expanded={h.dienstenOpen}
                 onClick={h.tapDiensten}
@@ -1111,12 +1110,18 @@ export function Header() {
                 </div>
               </div>
             </div>
-            <a href={href("Projecten")} style={{ color: "#0E1116", textDecoration: "none", padding: "12px 12px", fontWeight: "500" }}>
+            <a
+              href={href("Projecten")}
+              aria-current={page === "Projecten" ? "page" : undefined}
+              className={page === "Projecten" ? "nav-current" : undefined}
+              style={{ color: "#0E1116", textDecoration: "none", padding: "12px 12px", fontWeight: "500" }}
+            >
               {t("Projecten")}
             </a>
             <div className={`nav-dd ${h.tarievenCls}`}>
               <a
                 href={href("Tarieven")}
+                aria-current={page === "Tarieven" ? "page" : undefined}
                 aria-haspopup="true"
                 aria-expanded={h.tarievenOpen}
                 onClick={h.tapTarieven}
@@ -1489,13 +1494,26 @@ export function Header() {
                 </div>
               </div>
             </div>
-            <a href={href("WerkenBij")} style={{ color: "#0E1116", textDecoration: "none", padding: "12px 12px", fontWeight: "500" }}>
+            <a
+              href={href("WerkenBij")}
+              aria-current={page === "WerkenBij" ? "page" : undefined}
+              className={page === "WerkenBij" ? "nav-current" : undefined}
+              style={{ color: "#0E1116", textDecoration: "none", padding: "12px 12px", fontWeight: "500" }}
+            >
               {t("Werken bij")}
             </a>
-            <a href="#over-ons" style={{ color: "#0E1116", textDecoration: "none", padding: "12px 12px", fontWeight: "500" }}>
+            <a
+              href={href("Main", "over-ons")}
+              style={{ color: "#0E1116", textDecoration: "none", padding: "12px 12px", fontWeight: "500" }}
+            >
               {t("Over ons")}
             </a>
-            <a href={href("Contact")} style={{ color: "#0E1116", textDecoration: "none", padding: "12px 12px", fontWeight: "500" }}>
+            <a
+              href={href("Contact")}
+              aria-current={page === "Contact" ? "page" : undefined}
+              className={page === "Contact" ? "nav-current" : undefined}
+              style={{ color: "#0E1116", textDecoration: "none", padding: "12px 12px", fontWeight: "500" }}
+            >
               {t("Contact")}
             </a>
             <div style={{ position: "relative", marginLeft: "4px" }}>

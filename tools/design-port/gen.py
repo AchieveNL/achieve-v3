@@ -6,6 +6,8 @@ import sys
 src, out, name, kind = sys.argv[1:5]
 pre = open(sys.argv[5]).read() if len(sys.argv) > 5 else ''
 jsx = open(src).read()
+import re
+jsx = re.sub(r'\{\.\.\.ref_\("set([A-Za-z0-9]+)"\)\}', lambda m: 'ref={' + m.group(1)[0].lower() + m.group(1)[1:] + 'Ref}', jsx)
 AUTO = [('<Accent', 'import { Accent } from "@/components/ui/Accent";'), ('<Tip', 'import { Tip } from "@/components/ui/Tip";'),
         ('<LogoMarquee', 'import { LogoMarquee } from "@/components/ui/LogoMarquee";'), ('<LazyVideo', 'import { LazyVideo } from "@/components/ui/LazyVideo";'),
         ('<Stars', 'import { Stars } from "@/components/ui/Stars";')]
@@ -17,4 +19,4 @@ if kind == 'server':
 else:
     head = '"use client";\n\nimport { useTr } from "@/i18n/I18nProvider";\n' + (pre.split('//BODY')[0] if '//BODY' in pre else '')
     body = f'\nexport function {name}() {{\n  const {{ t, ta, href }} = useTr();\n' + (pre.split('//BODY')[1] if '//BODY' in pre else '') + f'  return (\n    <>\n{jsx}\n    </>\n  );\n}}\n'
-open(out, 'w').write('/* eslint-disable @typescript-eslint/no-unused-vars */\n' + head + body)
+open(out, 'w').write(head + body)

@@ -351,3 +351,5 @@ body{margin:0}
 /* Fixes on top of the design CSS */
 /* Hidden tooltips near the right edge made the page 14px wider than the screen. */
 html,body{overflow-x:clip}
+/* Current page in the menu */
+.nav-current{color:#8639FA !important}

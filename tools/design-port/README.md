@@ -12,6 +12,8 @@ translations of the design 1:1, so the site matches the canvas.
 - `gen.py` — wraps converted JSX into a component file with a hand-written
   preamble (state, effects and the `h` object with the values for the holes).
 - `post.py` — replaces logo marquees with `<LogoMarquee>` and lazy videos with `<LazyVideo>`.
+- `split_page.py` — splits a page artboard into its top-level sections, converts each one and collects the page CSS that is not yet in `achieve.css`.
+- `post_shell.py` — makes header/footer page-aware (current page, links back to homepage anchors).
 - `extract_i18n.js` — pulls the 7 translation dictionaries out of every artboard
   into `src/i18n/dict/<locale>/<Page>.json`.
 

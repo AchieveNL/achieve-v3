@@ -1,9 +1,9 @@
- 
 import type { ServerTr } from "@/i18n/server";
 
 export function Footer({ tr }: { tr: ServerTr }) {
   const { t, ta, href } = tr;
 
+  const { page } = tr;
   const h = { curYear: String(new Date().getFullYear()) };
   return (
     <>
@@ -445,6 +445,7 @@ export function Footer({ tr }: { tr: ServerTr }) {
                   <li>
                     <a
                       href={href("Main")}
+                      aria-current={page === "Main" ? "page" : undefined}
                       className="foot-link"
                       style={{ color: "#D5DAE3", textDecoration: "none", padding: "6px 0", display: "inline-block" }}
                     >
@@ -453,7 +454,7 @@ export function Footer({ tr }: { tr: ServerTr }) {
                   </li>
                   <li>
                     <a
-                      href="#diensten"
+                      href={href("Main", "diensten")}
                       className="foot-link"
                       style={{ color: "#D5DAE3", textDecoration: "none", padding: "6px 0", display: "inline-block" }}
                     >
@@ -463,6 +464,7 @@ export function Footer({ tr }: { tr: ServerTr }) {
                   <li>
                     <a
                       href={href("Projecten")}
+                      aria-current={page === "Projecten" ? "page" : undefined}
                       className="foot-link"
                       style={{ color: "#D5DAE3", textDecoration: "none", padding: "6px 0", display: "inline-block" }}
                     >
@@ -472,6 +474,7 @@ export function Footer({ tr }: { tr: ServerTr }) {
                   <li>
                     <a
                       href={href("Tarieven")}
+                      aria-current={page === "Tarieven" ? "page" : undefined}
                       className="foot-link"
                       style={{ color: "#D5DAE3", textDecoration: "none", padding: "6px 0", display: "inline-block" }}
                     >
@@ -481,6 +484,7 @@ export function Footer({ tr }: { tr: ServerTr }) {
                   <li>
                     <a
                       href={href("WerkenBij")}
+                      aria-current={page === "WerkenBij" ? "page" : undefined}
                       className="foot-link"
                       style={{ color: "#D5DAE3", textDecoration: "none", padding: "6px 0", display: "inline-block" }}
                     >
@@ -489,7 +493,7 @@ export function Footer({ tr }: { tr: ServerTr }) {
                   </li>
                   <li>
                     <a
-                      href="#over-ons"
+                      href={href("Main", "over-ons")}
                       className="foot-link"
                       style={{ color: "#D5DAE3", textDecoration: "none", padding: "6px 0", display: "inline-block" }}
                     >
@@ -499,6 +503,7 @@ export function Footer({ tr }: { tr: ServerTr }) {
                   <li>
                     <a
                       href={href("Contact")}
+                      aria-current={page === "Contact" ? "page" : undefined}
                       className="foot-link"
                       style={{ color: "#D5DAE3", textDecoration: "none", padding: "6px 0", display: "inline-block" }}
                     >
@@ -550,6 +555,7 @@ export function Footer({ tr }: { tr: ServerTr }) {
                   <li>
                     <a
                       href={href("DienstStrategy")}
+                      aria-current={page === "DienstStrategy" ? "page" : undefined}
                       className="foot-link"
                       style={{ color: "#D5DAE3", textDecoration: "none", padding: "6px 0", display: "inline-block" }}
                     >
@@ -559,6 +565,7 @@ export function Footer({ tr }: { tr: ServerTr }) {
                   <li>
                     <a
                       href={href("DienstLegal")}
+                      aria-current={page === "DienstLegal" ? "page" : undefined}
                       className="foot-link"
                       style={{ color: "#D5DAE3", textDecoration: "none", padding: "6px 0", display: "inline-block" }}
                     >
@@ -568,6 +575,7 @@ export function Footer({ tr }: { tr: ServerTr }) {
                   <li>
                     <a
                       href={href("DienstBrandBook")}
+                      aria-current={page === "DienstBrandBook" ? "page" : undefined}
                       className="foot-link"
                       style={{ color: "#D5DAE3", textDecoration: "none", padding: "6px 0", display: "inline-block" }}
                     >
@@ -577,6 +585,7 @@ export function Footer({ tr }: { tr: ServerTr }) {
                   <li>
                     <a
                       href={href("DienstWebDevelopment")}
+                      aria-current={page === "DienstWebDevelopment" ? "page" : undefined}
                       className="foot-link"
                       style={{ color: "#D5DAE3", textDecoration: "none", padding: "6px 0", display: "inline-block" }}
                     >
@@ -586,6 +595,7 @@ export function Footer({ tr }: { tr: ServerTr }) {
                   <li>
                     <a
                       href={href("DienstEmailMarketing")}
+                      aria-current={page === "DienstEmailMarketing" ? "page" : undefined}
                       className="foot-link"
                       style={{ color: "#D5DAE3", textDecoration: "none", padding: "6px 0", display: "inline-block" }}
                     >
@@ -595,6 +605,7 @@ export function Footer({ tr }: { tr: ServerTr }) {
                   <li>
                     <a
                       href={href("DienstVideoMarketing")}
+                      aria-current={page === "DienstVideoMarketing" ? "page" : undefined}
                       className="foot-link"
                       style={{ color: "#D5DAE3", textDecoration: "none", padding: "6px 0", display: "inline-block" }}
                     >
@@ -604,6 +615,7 @@ export function Footer({ tr }: { tr: ServerTr }) {
                   <li>
                     <a
                       href={href("DienstUGCMarketing")}
+                      aria-current={page === "DienstUGCMarketing" ? "page" : undefined}
                       className="foot-link"
                       style={{ color: "#D5DAE3", textDecoration: "none", padding: "6px 0", display: "inline-block" }}
                     >
@@ -613,6 +625,7 @@ export function Footer({ tr }: { tr: ServerTr }) {
                   <li>
                     <a
                       href={href("DienstSEA")}
+                      aria-current={page === "DienstSEA" ? "page" : undefined}
                       className="foot-link"
                       style={{ color: "#D5DAE3", textDecoration: "none", padding: "6px 0", display: "inline-block" }}
                     >
@@ -622,6 +635,7 @@ export function Footer({ tr }: { tr: ServerTr }) {
                   <li>
                     <a
                       href={href("DienstSMA")}
+                      aria-current={page === "DienstSMA" ? "page" : undefined}
                       className="foot-link"
                       style={{ color: "#D5DAE3", textDecoration: "none", padding: "6px 0", display: "inline-block" }}
                     >
@@ -631,6 +645,7 @@ export function Footer({ tr }: { tr: ServerTr }) {
                   <li>
                     <a
                       href={href("DienstSMM")}
+                      aria-current={page === "DienstSMM" ? "page" : undefined}
                       className="foot-link"
                       style={{ color: "#D5DAE3", textDecoration: "none", padding: "6px 0", display: "inline-block" }}
                     >
@@ -640,6 +655,7 @@ export function Footer({ tr }: { tr: ServerTr }) {
                   <li>
                     <a
                       href={href("DienstDashboard")}
+                      aria-current={page === "DienstDashboard" ? "page" : undefined}
                       className="foot-link"
                       style={{ color: "#D5DAE3", textDecoration: "none", padding: "6px 0", display: "inline-block" }}
                     >
@@ -700,6 +716,7 @@ export function Footer({ tr }: { tr: ServerTr }) {
                   <li>
                     <a
                       href={href("Privacy")}
+                      aria-current={page === "Privacy" ? "page" : undefined}
                       className="foot-link"
                       style={{ color: "#D5DAE3", textDecoration: "none", padding: "6px 0", display: "inline-block" }}
                     >
@@ -709,6 +726,7 @@ export function Footer({ tr }: { tr: ServerTr }) {
                   <li>
                     <a
                       href={href("Voorwaarden")}
+                      aria-current={page === "Voorwaarden" ? "page" : undefined}
                       className="foot-link"
                       style={{ color: "#D5DAE3", textDecoration: "none", padding: "6px 0", display: "inline-block" }}
                     >
@@ -718,6 +736,7 @@ export function Footer({ tr }: { tr: ServerTr }) {
                   <li>
                     <a
                       href={href("Disclaimer")}
+                      aria-current={page === "Disclaimer" ? "page" : undefined}
                       className="foot-link"
                       style={{ color: "#D5DAE3", textDecoration: "none", padding: "6px 0", display: "inline-block" }}
                     >
@@ -727,6 +746,7 @@ export function Footer({ tr }: { tr: ServerTr }) {
                   <li>
                     <a
                       href={href("Contact")}
+                      aria-current={page === "Contact" ? "page" : undefined}
                       className="foot-link"
                       style={{ color: "#D5DAE3", textDecoration: "none", padding: "6px 0", display: "inline-block" }}
                     >

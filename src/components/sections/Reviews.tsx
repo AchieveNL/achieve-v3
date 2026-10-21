@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
 "use client";
 
 import { useTr } from "@/i18n/I18nProvider";
@@ -398,8 +397,8 @@ export function Reviews() {
                             whiteSpace: "nowrap",
                           }}
                         >
-                          {c.tags.map((t, t_i) => (
-                            <Fragment key={t_i}>
+                          {c.tags.map((tt, tt_i) => (
+                            <Fragment key={tt_i}>
                               <span
                                 translate="no"
                                 style={{
@@ -407,13 +406,13 @@ export function Reviews() {
                                   fontWeight: "600",
                                   letterSpacing: "0.06em",
                                   textTransform: "uppercase",
-                                  color: t.c,
-                                  background: t.b,
+                                  color: tt.c,
+                                  background: tt.b,
                                   padding: "4px 10px",
                                   borderRadius: "999px",
                                 }}
                               >
-                                {t.t}
+                                {tt.t}
                               </span>
                             </Fragment>
                           ))}
@@ -652,8 +651,8 @@ export function Reviews() {
                             whiteSpace: "nowrap",
                           }}
                         >
-                          {c.tags.map((t, t_i) => (
-                            <Fragment key={t_i}>
+                          {c.tags.map((tt, tt_i) => (
+                            <Fragment key={tt_i}>
                               <span
                                 translate="no"
                                 style={{
@@ -661,13 +660,13 @@ export function Reviews() {
                                   fontWeight: "600",
                                   letterSpacing: "0.06em",
                                   textTransform: "uppercase",
-                                  color: t.c,
-                                  background: t.b,
+                                  color: tt.c,
+                                  background: tt.b,
                                   padding: "4px 10px",
                                   borderRadius: "999px",
                                 }}
                               >
-                                {t.t}
+                                {tt.t}
                               </span>
                             </Fragment>
                           ))}
