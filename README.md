@@ -21,6 +21,10 @@ src/
     layout/            Header (menu, dropdowns, taalkiezer), Footer, PageShell
     sections/          homepage-secties (Hero, Achiever, Services, Approach,
                        FeaturedCases, Team, Reviews, ContactCta)
+    projects/          Projecten-pagina (hero, logostrook, uitgelichte case, grid, quotes, CTA)
+    cases/             de 7 case-pagina's
+    services/          de dienstpagina's (+ ServicePage-shell)
+    pages/             Tarieven, Contact, Werken bij, vacatures, Bedankt, 404, juridisch
     ui/                kleine bouwstenen: Accent (penseelstreep), Tip (i-bolletje),
                        LogoMarquee, LazyVideo
     motion/            één pauzeknop voor alle animaties + prefers-reduced-motion
@@ -31,6 +35,20 @@ src/
 public/media/          logo's (SVG, wit), teamportretten, video's, foto's
 tools/design-port/     scripts om canvas-artboards om te zetten naar componenten
 ```
+
+## Pagina's
+
+| Pagina | NL-adres |
+| --- | --- |
+| Home | `/` |
+| Projecten + 7 cases | `/projecten`, `/projecten/sharkys` … |
+| Diensten (13 + SMA-looptijd) | `/diensten/strategy` … `/diensten/social-media-advertising/looptijd` |
+| Tarieven, Contact | `/tarieven`, `/contact` |
+| Werken bij + vacatures | `/werken-bij`, `/werken-bij/sales`, `/werken-bij/content` |
+| Bedankt, juridisch | `/bedankt`, `/privacy`, `/voorwaarden`, `/disclaimer` |
+
+Andere talen: zet de taalcode ervoor (`/en/tarieven`). Onbekende adressen tonen de 404-pagina in de juiste taal.
+Sitemap: `/sitemap.xml` (alle pagina's × 8 talen, met hreflang).
 
 ## Talen
 
@@ -43,4 +61,4 @@ niet vertaald.
 
 | Naam | Waarvoor |
 | --- | --- |
-| `CONTACT_WEBHOOK_URL` | Waar aanvragen uit het contactformulier heen gaan (Make, Zapier, n8n of CRM). |
+| `CONTACT_WEBHOOK_URL` | Waar aanvragen uit het contactformulier, het CTA-formulier en sollicitaties (met cv) heen gaan (Make, Zapier, n8n of CRM). |

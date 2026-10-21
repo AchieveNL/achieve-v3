@@ -353,3 +353,6 @@ body{margin:0}
 html,body{overflow-x:clip}
 /* Current page in the menu */
 .nav-current{color:#8639FA !important}
+
+/* Thank-you, 404 and legal pages have no sticky mobile CTA bar */
+.no-cta-bar .m-cta-bar{display:none !important}

@@ -8,11 +8,11 @@ page, out = sys.argv[1], sys.argv[2]
 P = '/tmp/claude-0/-home-claude/6aa46157-b766-5539-964a-17bed77f96ab/scratchpad/artifact-files/8505e679-cfc6-4d1e-9a5b-046fda58f0d0/project/'
 s = open(P + page + '.dc.html').read()
 body = s[s.find('</helmet>') + 9:s.find('</x-dc>')]
-i = body.find('<main>'); j = body.find('</main>')
+mm = re.search(r'<main[^>]*>', body); i = mm.end() if mm else -1; j = body.find('</main>')
 if i < 0:
     i = body.find('</header>'); i = body.find('</div>', i) + 6; j = body.find('<footer')
 else:
-    i += 6
+    pass
 main = body[i:j]
 # split on top-level tags by tracking depth
 parts = []; depth = 0; start = None
