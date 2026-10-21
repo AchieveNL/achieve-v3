@@ -1,0 +1,63 @@
+export const locales = ["nl", "en", "es", "fr", "de", "pl", "tr", "ar"] as const;
+export type Locale = (typeof locales)[number];
+export const defaultLocale: Locale = "nl";
+
+export function isLocale(v: string): v is Locale {
+  return (locales as readonly string[]).includes(v);
+}
+
+/** Page ids match the design files (Main.dc.html -> "Main"). */
+export const routes = {
+  Main: "",
+  Projecten: "projecten",
+  Tarieven: "tarieven",
+  WerkenBij: "werken-bij",
+  VacatureSales: "werken-bij/sales",
+  VacatureContent: "werken-bij/content",
+  Contact: "contact",
+  Bedankt: "bedankt",
+  NietGevonden: "404",
+  Privacy: "privacy",
+  Voorwaarden: "voorwaarden",
+  Disclaimer: "disclaimer",
+  DienstStrategy: "diensten/strategy",
+  DienstLegal: "diensten/legal",
+  DienstBrandBook: "diensten/brand-book",
+  DienstWebDevelopment: "diensten/web-development",
+  DienstEmailMarketing: "diensten/email-marketing",
+  DienstVideoMarketing: "diensten/video-marketing",
+  DienstUGCMarketing: "diensten/ugc-marketing",
+  DienstSEA: "diensten/search-engine-advertising",
+  DienstSMA: "diensten/social-media-advertising",
+  DienstSMALooptijd: "diensten/social-media-advertising/looptijd",
+  DienstSMM: "diensten/social-media-management",
+  DienstDashboard: "diensten/dashboard",
+  DienstHosting: "diensten/hosting",
+  DienstOnderhoud: "diensten/onderhoud",
+  CaseSharkys: "projecten/sharkys",
+  CaseSushiToday: "projecten/sushi-today",
+  CaseRCpeptides: "projecten/rcpeptides",
+  CaseADirect: "projecten/a-direct",
+  CaseBeddenenzo: "projecten/beddenenzo",
+  CaseMinimasters: "projecten/minimasters",
+  CaseRonVanDam: "projecten/ron-van-dam",
+} as const;
+export type PageId = keyof typeof routes;
+
+export function pathFor(locale: Locale, page: PageId | string, anchor?: string): string {
+  const slug = (routes as Record<string, string>)[page] ?? "";
+  const base = locale === defaultLocale ? "" : `/${locale}`;
+  const p = `${base}/${slug}`.replace(/\/+$/, "") || "/";
+  return anchor ? `${p}#${anchor}` : p;
+}
+
+export const localeNames: Record<Locale, string> = {
+  nl: "Nederlands",
+  en: "English",
+  es: "Español",
+  fr: "Français",
+  de: "Deutsch",
+  pl: "Polski",
+  tr: "Türkçe",
+  ar: "العربية",
+};

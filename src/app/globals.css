@@ -1,0 +1,48 @@
+@import "tailwindcss";
+@import "../styles/achieve.css";
+
+/* Design tokens from the style guide (Kleuren + Typografie). Use as Tailwind
+   classes (bg-m3, text-n3, font-display ...) or as CSS variables. */
+@theme {
+  --color-m1: #8639fa; /* Achieve-paars */
+  --color-m2: #0f8ae5; /* Achieve-blauw */
+  --color-m3: #1f246c; /* Nachtblauw */
+  --color-m4: #fae84e; /* Stergeel */
+  --color-m5: #7fbef0; /* Hemelsblauw */
+  --color-n1: #ffffff;
+  --color-n2: #0e1116;
+  --color-n3: #3a4150;
+  --color-n4: #5a6273;
+  --color-n5: #b8bfcc;
+  --color-n6: #d5dae3;
+  --color-n7: #e4e6ea;
+  --color-n8: #f2f8fe;
+  --color-t1-fg: #6b2bd9;
+  --color-t1-bg: #efe8fd;
+  --color-t2-fg: #0b6db8;
+  --color-t2-bg: #e3f1fd;
+  --color-t3-fg: #6e5a00;
+  --color-t3-bg: #fff6c7;
+  --color-s1: #e8defc;
+  --color-s2: #f0eafd;
+  --color-s3: #f5f1fe;
+  --color-s4: #f8f6fe;
+  --color-s5: #dbeaf9;
+  --color-s6: #e8f1fb;
+  --color-s7: #f0f6fc;
+  --color-s8: #f5f9fd;
+
+  --font-body: var(--font-poppins), "Poppins", system-ui, sans-serif;
+  --font-display: var(--font-source-sans), "Source Sans 3", system-ui, sans-serif;
+  --font-logo: "Gotham Pro", var(--font-montserrat), "Montserrat", sans-serif;
+  --font-logo-sub: "Industry", var(--font-rajdhani), "Rajdhani", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
