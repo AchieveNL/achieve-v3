@@ -18,7 +18,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
   return pageMetadata(locale as Locale, "Projecten", {
     title: "Projecten | Achieve – merken, websites en campagnes",
-    description: "Bekijk projecten van Achieve: merken, websites, webshops, campagnes en video voor ondernemers met ambitie. Met resultaten en reviews van onze klanten.",
+    description:
+      "Bekijk projecten van Achieve: merken, websites, webshops, campagnes en video voor ondernemers met ambitie. Met resultaten en reviews van onze klanten.",
   });
 }
 

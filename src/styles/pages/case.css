@@ -1,0 +1,55 @@
+/* Case pages (Case*.dc.html): rules on top of projecten.css */
+@media (max-width: 720px){
+.cs-facts{display:flex !important;flex-direction:column !important;gap:0 !important;padding:8px 24px !important}
+.cs-facts>div{flex-direction:row !important;justify-content:space-between !important;align-items:baseline !important;gap:20px !important;padding:15px 0 !important;border-top:1px solid #E6E9F2}
+.cs-facts>div:first-child{border-top:0}
+.cs-facts>div>dt{flex-shrink:0}
+.cs-facts>div>dd{text-align:right;min-width:0}
+.cs-facts>div:nth-child(3)>dd>span[translate="no"]{display:block;font-size:14px;font-weight:500;color:#5A6273}
+.cs-facts>div:nth-child(6){order:9;align-items:center !important;padding-bottom:20px !important}
+.cs-facts>div:nth-child(6)>dd{flex:1;justify-content:flex-end}
+.cs-facts>div:nth-child(6)>dd>span{display:flex !important;justify-content:flex-end}
+}
+@media (max-width: 720px){
+ol.cs-steps{display:flex !important;overflow-x:auto;scroll-snap-type:x mandatory;gap:14px !important;margin:0 -20px !important;padding:0 20px 6px !important;scrollbar-width:none;align-items:stretch}
+ol.cs-steps::-webkit-scrollbar{display:none}
+ol.cs-steps > li{flex:0 0 84%;scroll-snap-align:start;padding:28px !important}
+}
+@media (max-width: 720px){
+.pjh{height:720px !important}
+.pjh-top{padding-top:16px !important}
+.pjh-bottom{padding-bottom:138px !important;gap:20px !important}
+.pjh-bottom .pj-stats{display:none !important}
+.pjh-thumbs{gap:20px !important;justify-content:flex-start;overflow-x:auto !important;overflow-y:hidden !important;padding:12px 14px !important}
+.pjh-thumb{width:64px !important;height:64px !important}
+.pjh-thumbs-wrap{bottom:12px !important}
+.pjh .pj-stats{flex-wrap:nowrap !important}
+}
+@media (max-width: 720px){.mk-car{border-radius:16px !important;aspect-ratio:1 / 1 !important}}
+.cs-qdark .about-link:hover .l2-txt,.cs-qdark .about-link:focus-visible .l2-txt{background:linear-gradient(90deg,#B48DFF 0%,#5EC0FA 50%,#B48DFF 100%) 0 0/200% 100% !important;-webkit-background-clip:text !important;background-clip:text !important}
+@media (max-width: 720px){.cs-qdark{padding:48px 22px !important;border-radius:20px !important}}
+@media (max-width: 900px){.cs-review{grid-template-columns:minmax(0,1fr) !important}}
+.cs-float{opacity:0;visibility:hidden;transform:translateY(16px);pointer-events:none;transition:opacity .35s ease,transform .35s ease,visibility .35s}
+.cs-float.is-on{opacity:1;visibility:visible;transform:none;pointer-events:auto}
+@media (prefers-reduced-motion: reduce){.cs-float{transition:none}}
+@media (max-width: 600px){.cs-float{display:none !important}}
+.vid-btn{transition:background-color .25s ease,border-color .25s ease}
+.vid-btn:hover,.vid-btn:focus-visible{background:rgba(14,17,40,0.7) !important;border-color:#FFFFFF !important}
+@media (max-width: 720px){.cs-hero .vid-btn{right:20px !important;bottom:20px !important}}
+@media (max-width: 900px){.cs-facts{grid-template-columns:repeat(2,minmax(0,1fr)) !important;grid-template-rows:none !important;grid-auto-flow:row !important;justify-content:stretch !important}}
+@media (max-width: 720px){.cs-media{aspect-ratio:4 / 5 !important;border-radius:18px !important}}
+@media (max-width: 1024px){.cs-more{grid-template-columns:repeat(2,minmax(0,1fr)) !important}}
+@media (max-width: 720px){.cs-more{grid-template-columns:minmax(0,1fr) !important}}
+@media (max-width: 1100px){.cs-steps{grid-template-columns:repeat(2,minmax(0,1fr)) !important}}
+@media (max-width: 720px){
+.cs-hero{min-height:560px !important;height:min(720px, calc(100svh - 80px))}
+.cs-hero-body{padding-bottom:56px !important}
+.cs-facts{padding:32px 24px !important}
+.cs-steps{grid-template-columns:minmax(0,1fr) !important}
+.cs-review-main{padding:32px 24px !important}
+.cs-review-side{padding:28px 24px !important}
+}
+@media (max-width: 720px){section.cs-hero.m-hero{min-height:0 !important;height:auto !important}section.m-hero .pj-wrap.cs-hero-body{margin-top:0 !important;padding-top:50px !important;padding-bottom:58px !important;gap:18px !important}}
+@media (max-width: 720px){.rc-chart-d{display:none !important}.rc-chart-m{display:block !important}.rc-bars text{font-size:20px}}
+@media (max-width: 1024px){.rc-kpis,.rc-kpis2{grid-template-columns:repeat(2,minmax(0,1fr)) !important}.rc-two{grid-template-columns:minmax(0,1fr) !important}}
+@media (max-width: 720px){.rc-kpis{grid-template-columns:minmax(0,1fr) !important}.rc-roas{grid-column:auto !important}.rc-card{padding:24px 20px !important}.rc-media{grid-template-columns:minmax(0,1fr) !important}}

@@ -2,7 +2,7 @@
 
 import { useTr } from "@/i18n/I18nProvider";
 import { useEffect, useRef, useState, type MouseEvent } from "react";
-import { localeNames, pathFor, type Locale } from "@/i18n/config";
+import { localeNames, navSection, pathFor, type Locale } from "@/i18n/config";
 import { Tip } from "@/components/ui/Tip";
 
 export function Header() {
@@ -1112,8 +1112,8 @@ export function Header() {
             </div>
             <a
               href={href("Projecten")}
-              aria-current={page === "Projecten" ? "page" : undefined}
-              className={page === "Projecten" ? "nav-current" : undefined}
+              aria-current={navSection(page) === "Projecten" ? "page" : undefined}
+              className={navSection(page) === "Projecten" ? "nav-current" : undefined}
               style={{ color: "#0E1116", textDecoration: "none", padding: "12px 12px", fontWeight: "500" }}
             >
               {t("Projecten")}
@@ -1121,7 +1121,6 @@ export function Header() {
             <div className={`nav-dd ${h.tarievenCls}`}>
               <a
                 href={href("Tarieven")}
-                aria-current={page === "Tarieven" ? "page" : undefined}
                 aria-haspopup="true"
                 aria-expanded={h.tarievenOpen}
                 onClick={h.tapTarieven}
@@ -1496,8 +1495,8 @@ export function Header() {
             </div>
             <a
               href={href("WerkenBij")}
-              aria-current={page === "WerkenBij" ? "page" : undefined}
-              className={page === "WerkenBij" ? "nav-current" : undefined}
+              aria-current={navSection(page) === "WerkenBij" ? "page" : undefined}
+              className={navSection(page) === "WerkenBij" ? "nav-current" : undefined}
               style={{ color: "#0E1116", textDecoration: "none", padding: "12px 12px", fontWeight: "500" }}
             >
               {t("Werken bij")}
@@ -1510,8 +1509,8 @@ export function Header() {
             </a>
             <a
               href={href("Contact")}
-              aria-current={page === "Contact" ? "page" : undefined}
-              className={page === "Contact" ? "nav-current" : undefined}
+              aria-current={navSection(page) === "Contact" ? "page" : undefined}
+              className={navSection(page) === "Contact" ? "nav-current" : undefined}
               style={{ color: "#0E1116", textDecoration: "none", padding: "12px 12px", fontWeight: "500" }}
             >
               {t("Contact")}

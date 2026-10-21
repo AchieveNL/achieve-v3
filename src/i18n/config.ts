@@ -61,3 +61,10 @@ export const localeNames: Record<Locale, string> = {
   tr: "Türkçe",
   ar: "العربية",
 };
+
+/** Menu item that counts as "current" for a page (case pages live under Projecten, vacancies under Werken bij). */
+export function navSection(page: string): string {
+  if (page.startsWith("Case")) return "Projecten";
+  if (page.startsWith("Vacature")) return "WerkenBij";
+  return page;
+}
