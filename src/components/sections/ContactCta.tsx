@@ -1,4 +1,4 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
+ 
 "use client";
 
 import { useTr } from "@/i18n/I18nProvider";
@@ -17,8 +17,9 @@ export function ContactCta() {
     reviews.findIndex((r) => r.name === "Sara Kamah"),
   );
   const [revIdx, setRevIdx] = useState(0);
-  const hoverRef = useRef(false);
-  useTick(6000, () => !hoverRef.current && setRevIdx((i) => i + 1));
+  const [hovered, setHovered] = useState(false);
+  useTick(6000, () => !hovered && setRevIdx((i) => i + 1));
+  const thanksLinkRef = useRef<HTMLAnchorElement>(null);
   const rv = reviews[(ctaStart + revIdx) % reviews.length];
 
   const [sent, setSent] = useState(false);
@@ -59,9 +60,8 @@ export function ContactCta() {
     } catch {
       /* the thank-you page still shows; the team follows up by phone/e-mail */
     }
-    window.location.href = href("Bedankt");
+    window.location.assign(href("Bedankt"));
   };
-  const ref_ = (_n: string) => ({});
   const h = {
     motionPaused: paused,
     motionRunning: !paused,
@@ -73,8 +73,8 @@ export function ContactCta() {
     ctaRevRole: rv.role,
     ctaRevHasRole: !!rv.role,
     ctaRevLogo: rv.src === "trustpilot" ? "/media/icons/trustpilot.svg" : "/media/icons/google.svg",
-    ctaRevPause: () => (hoverRef.current = true),
-    ctaRevPlay: () => (hoverRef.current = false),
+    ctaRevPause: () => setHovered(true),
+    ctaRevPlay: () => setHovered(false),
     ctaSent: sent,
     ctaOpen: !sent,
     ctaSend: send,
@@ -318,7 +318,7 @@ export function ContactCta() {
               boxShadow: "0 30px 60px rgba(0, 0, 0, 0.25)",
             }}
           >
-            <a href={href("Bedankt")} {...ref_("setThanksLink")} tabIndex={-1} aria-hidden="true" style={{ display: "none" }}>
+            <a href={href("Bedankt")} ref={thanksLinkRef} tabIndex={-1} aria-hidden="true" style={{ display: "none" }}>
               {t("Bedankt")}
             </a>
             {h.ctaSent && (

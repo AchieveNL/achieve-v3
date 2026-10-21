@@ -1,4 +1,4 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
+ 
 "use client";
 
 import { useTr } from "@/i18n/I18nProvider";
@@ -8,17 +8,17 @@ import { Accent } from "@/components/ui/Accent";
 export function Services() {
   const { t, ta, href } = useTr();
 
-  const track = useRef<HTMLDivElement | null>(null);
+  const svcTrackRef = useRef<HTMLDivElement>(null);
   const [edge, setEdge] = useState({ start: true, end: false });
   const sync = useCallback(() => {
-    const el = track.current;
+    const el = svcTrackRef.current;
     if (!el) return;
     const start = el.scrollLeft < 8;
     const end = el.scrollLeft + el.clientWidth >= el.scrollWidth - 8;
     setEdge((e) => (e.start === start && e.end === end ? e : { start, end }));
   }, []);
   useEffect(() => {
-    const el = track.current;
+    const el = svcTrackRef.current;
     if (!el) return;
     sync();
     el.addEventListener("scroll", sync, { passive: true });
@@ -28,8 +28,7 @@ export function Services() {
       window.removeEventListener("resize", sync);
     };
   }, [sync]);
-  const move = (d: number) => track.current?.scrollBy({ left: d * 360, behavior: "smooth" });
-  const ref_ = (_name: string) => ({ ref: track });
+  const move = (d: number) => svcTrackRef.current?.scrollBy({ left: d * 360, behavior: "smooth" });
   const h = {
     svcPrev: () => move(-1),
     svcNext: () => move(1),
@@ -151,7 +150,7 @@ export function Services() {
             </div>
           </div>
           <div
-            {...ref_("setSvcTrack")}
+            ref={svcTrackRef}
             className="svc-scroll"
             style={{
               overflowX: "auto",

@@ -2,16 +2,20 @@
 "use client";
 
 import { useTr } from "@/i18n/I18nProvider";
-import { useState } from "react";
+import { useRef, useState } from "react";
 import { useFrame, useMotion, useTick } from "@/components/motion/MotionProvider";
-import { useNamedRefs } from "@/lib/useNamedRefs";
 import { Accent } from "@/components/ui/Accent";
 import { Tip } from "@/components/ui/Tip";
 
 export function Hero() {
   const { t, ta, href } = useTr();
 
-  const { els, ref_ } = useNamedRefs();
+  const fc0Ref = useRef<HTMLDivElement>(null),
+    fc1Ref = useRef<HTMLDivElement>(null),
+    fc2Ref = useRef<HTMLDivElement>(null);
+  const orbRef = useRef<HTMLDivElement>(null),
+    orb2Ref = useRef<HTMLDivElement>(null),
+    orbWRef = useRef<HTMLDivElement>(null);
   const { paused, toggle } = useMotion();
   const [ti, setTi] = useState(0);
   useTick(5000, () => setTi((i) => (i + 1) % 4));
@@ -19,13 +23,12 @@ export function Hero() {
   // Floating review cards: fade/slide in one after another, then bob gently.
   // The three orbs drift and shift colour behind them.
   useFrame((now, _dt, t) => {
-    const cards: [string, number, number, number][] = [
-      ["setFc0", 0, 10, 0],
-      ["setFc1", 1.6, 12, 1],
-      ["setFc2", 3.2, 9, 2],
-    ];
-    for (const [k, ph, amp, idx] of cards) {
-      const el = els.current[k] as HTMLElement | null;
+    const cards = [
+      [fc0Ref.current, 0, 10, 0],
+      [fc1Ref.current, 1.6, 12, 1],
+      [fc2Ref.current, 3.2, 9, 2],
+    ] as const;
+    for (const [el, ph, amp, idx] of cards) {
       if (!el) continue;
       const pr = Math.max(0, Math.min(1, (t - 0.4 - idx * 0.6) / 0.9));
       const ez = 1 - Math.pow(1 - pr, 3);
@@ -39,12 +42,11 @@ export function Hero() {
       [140, 200, 255],
       [134, 57, 250],
     ];
-    const orbs: [string, number, number, number, number, number, number][] = [
-      ["setOrb", 0, 0.5, 0, 15, 16, 0.8],
-      ["setOrb2", 2, 0.42, Math.PI, 15, 16, 0.8],
-    ];
-    for (const [k, off, sp, ph0, rx, ry, wa] of orbs) {
-      const el = els.current[k] as HTMLElement | null;
+    const orbs = [
+      [orbRef.current, 0, 0.5, 0, 15, 16, 0.8],
+      [orb2Ref.current, 2, 0.42, Math.PI, 15, 16, 0.8],
+    ] as const;
+    for (const [el, off, sp, ph0, rx, ry, wa] of orbs) {
       if (!el) continue;
       const cyc = (t / 14 + off) % 4,
         ci = Math.floor(cyc),
@@ -60,7 +62,7 @@ export function Hero() {
       el.style.top = (52 + Math.sin(th) * ry).toFixed(2) + "%";
       el.style.transform = `scale(${(1 + Math.sin(t * sp + off) * 0.06).toFixed(3)})`;
     }
-    const w = els.current.setOrbW as HTMLElement | null;
+    const w = orbWRef.current;
     if (w) {
       w.style.left = (50 + Math.sin(t * 0.23) * 12).toFixed(2) + "%";
       w.style.top = (52 + Math.cos(t * 0.19) * 12).toFixed(2) + "%";
@@ -410,7 +412,7 @@ export function Hero() {
             <div
               aria-hidden="true"
               className="hero-orb"
-              {...ref_("setOrb")}
+              ref={orbRef}
               style={{
                 position: "absolute",
                 top: "38%",
@@ -427,7 +429,7 @@ export function Hero() {
             <div
               aria-hidden="true"
               className="hero-orb"
-              {...ref_("setOrb2")}
+              ref={orb2Ref}
               style={{
                 position: "absolute",
                 top: "66%",
@@ -444,7 +446,7 @@ export function Hero() {
             <div
               aria-hidden="true"
               className="hero-orb"
-              {...ref_("setOrbW")}
+              ref={orbWRef}
               style={{
                 position: "absolute",
                 top: "52%",
@@ -460,7 +462,7 @@ export function Hero() {
               }}
             ></div>
             <div
-              {...ref_("setFc0")}
+              ref={fc0Ref}
               style={{
                 boxSizing: "border-box",
                 position: "absolute",
@@ -537,7 +539,7 @@ export function Hero() {
               </span>
             </div>
             <div
-              {...ref_("setFc1")}
+              ref={fc1Ref}
               className="result-arrows"
               style={{
                 zIndex: "3",
@@ -569,7 +571,7 @@ export function Hero() {
               </span>
             </div>
             <div
-              {...ref_("setFc2")}
+              ref={fc2Ref}
               style={{
                 zIndex: "2",
                 boxSizing: "border-box",

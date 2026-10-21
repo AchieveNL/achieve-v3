@@ -1,4 +1,4 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
+ 
 "use client";
 
 import { useTr } from "@/i18n/I18nProvider";
@@ -13,14 +13,13 @@ export function FeaturedCases() {
 
   // Three featured cases rotate every 7 seconds; the bar under the active tab fills up.
   const DUR = 7000;
-  const [ci, setCi] = useState(0);
-  const started = useRef(0);
+  const [sel, setSel] = useState({ ci: 0, n: 0 });
+  const ci = sel.ci;
   const elapsed = useRef(0);
   const root = useRef<HTMLElement>(null);
   useEffect(() => {
-    started.current = performance.now();
     elapsed.current = 0;
-  }, [ci]);
+  }, [sel]);
   useFrame((_now, dt) => {
     elapsed.current += dt * 1000;
     const cp = Math.min(1, elapsed.current / DUR);
@@ -30,13 +29,10 @@ export function FeaturedCases() {
     });
     if (cp >= 1) {
       elapsed.current = 0;
-      setCi((c) => (c + 1) % 3);
+      setSel((s) => ({ ci: (s.ci + 1) % 3, n: s.n + 1 }));
     }
   });
-  const pick = (i: number) => () => {
-    elapsed.current = 0;
-    setCi(i);
-  };
+  const pick = (i: number) => () => setSel((s) => ({ ci: i, n: s.n + 1 }));
   const h = {
     cs0: ci === 0,
     cs1: ci === 1,

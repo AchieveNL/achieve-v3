@@ -33,7 +33,7 @@ export function LogoMarquee({
       <div ref={track} style={{ display: "flex", alignItems: "center", width: "max-content", willChange: "transform" }}>
         {[0, 1, 2, 3].map((copy) =>
           clientLogos.map((l) => (
-            // eslint-disable-next-line @next/next/no-img-element
+             
             <img
               key={`${copy}-${l.name}`}
               className="trust-logo trust-light"

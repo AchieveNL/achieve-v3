@@ -1,29 +1,30 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
+ 
 "use client";
 
 import { useTr } from "@/i18n/I18nProvider";
 import { useEffect, useRef, useState, type MouseEvent } from "react";
 import { localeNames, pathFor, type Locale } from "@/i18n/config";
-import { useNamedRefs } from "@/lib/useNamedRefs";
 import { Tip } from "@/components/ui/Tip";
 
 export function Header() {
   const { t, ta, href } = useTr();
 
   const { locale, page } = useTr();
-  const { els, ref_ } = useNamedRefs();
+  const headRef = useRef<HTMLDivElement>(null);
   const [langOpen, setLangOpen] = useState(false);
   const [navOpen, setNavOpen] = useState(false);
   const [dienstenOpen, setDienstenOpen] = useState(false);
   const [tarievenOpen, setTarievenOpen] = useState(false);
   const navOpenRef = useRef(false);
-  navOpenRef.current = navOpen;
+  useEffect(() => {
+    navOpenRef.current = navOpen;
+  }, [navOpen]);
 
   // Hide the sticky header while scrolling down on tablet/phone, show it again when scrolling up.
   useEffect(() => {
     let lastY = window.scrollY || 0;
     const onScroll = () => {
-      const el = els.current.setHead;
+      const el = headRef.current;
       if (!el) return;
       const y = window.scrollY || 0;
       const d = y - lastY;
@@ -34,7 +35,7 @@ export function Header() {
     };
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);
-  }, [els]);
+  }, []);
 
   // Close the language menu on outside click / Escape.
   useEffect(() => {
@@ -57,7 +58,7 @@ export function Header() {
   };
   const pick = (l: Locale) => () => {
     setLangOpen(false);
-    window.location.href = pathFor(l, page) + window.location.hash;
+    window.location.assign(pathFor(l, page) + window.location.hash);
   };
   const cur = locale.toUpperCase();
   const flag = (l: Locale) => ({
@@ -116,7 +117,7 @@ export function Header() {
     <>
       <div
         className="site-head"
-        {...ref_("setHead")}
+        ref={headRef}
         style={{
           position: "sticky",
           top: "0",

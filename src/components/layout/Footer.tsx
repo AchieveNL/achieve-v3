@@ -1,4 +1,4 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
+ 
 import type { ServerTr } from "@/i18n/server";
 
 export function Footer({ tr }: { tr: ServerTr }) {

@@ -5,16 +5,16 @@ import { useTr } from "@/i18n/I18nProvider";
 import { Fragment, useEffect, useMemo, useRef, useState } from "react";
 import { useFrame, useMotion } from "@/components/motion/MotionProvider";
 import { reviewCards, reviewLinks, reviews, tagColor } from "@/data/reviews";
-import { useNamedRefs } from "@/lib/useNamedRefs";
 import { Accent } from "@/components/ui/Accent";
 
 export function Reviews() {
   const { t, ta, href } = useTr();
 
-  const { els, ref_ } = useNamedRefs();
+  const revTrackRef = useRef<HTMLDivElement>(null);
+  const revTrack2Ref = useRef<HTMLDivElement>(null);
   const { paused, toggle } = useMotion();
   const [openIdx, setOpenIdx] = useState(-1);
-  const hover = useRef(false);
+  const [hovered, setHovered] = useState(false);
 
   // Three copies of all cards per row; each row shows its own shuffled half.
   const revCards = useMemo(() => {
@@ -30,13 +30,7 @@ export function Reviews() {
           quote: c.quote,
           long: c.open >= 0,
           short: c.open < 0,
-          open:
-            c.open >= 0
-              ? () => {
-                  hover.current = true;
-                  setOpenIdx(c.open);
-                }
-              : undefined,
+          open: c.open >= 0 ? () => setOpenIdx(c.open) : undefined,
           hasTags: c.tags.length > 0,
           tags: c.tags,
           wrap: "nowrap" as const,
@@ -51,7 +45,7 @@ export function Reviews() {
     return list;
   }, []);
 
-  const rows = useRef<{ p: number }[]>([{ p: 0 }, { p: 0 }]);
+  const pos = useRef([0, 0]);
   const counts = useRef<[number, number]>([0, 0]);
   useEffect(() => {
     // Shuffle once on the client and split the cards over the two rows.
@@ -64,44 +58,43 @@ export function Reviews() {
       [perm[j], perm[r]] = [perm[r], perm[j]];
     }
     const split = [perm.slice(0, n1), perm.slice(n1)];
-    [els.current.setRevTrack, els.current.setRevTrack2].forEach((tr, k) => {
+    [revTrackRef.current, revTrack2Ref.current].forEach((tr, k) => {
       if (!tr) return;
       const mine = split[k];
       Array.from(tr.querySelectorAll<HTMLElement>(":scope > article")).forEach((el, idx) => {
-        const pos = mine.indexOf(idx % N);
-        if (pos < 0) el.style.display = "none";
+        const p = mine.indexOf(idx % N);
+        if (p < 0) el.style.display = "none";
         else {
           el.style.display = "";
-          el.style.order = String(Math.floor(idx / N) * mine.length + pos);
+          el.style.order = String(Math.floor(idx / N) * mine.length + p);
         }
       });
     });
-  }, [els]);
+  }, []);
+  // Rows drift slowly in opposite directions; they hold still while hovered or while a review is open.
   useFrame((_now, dt) => {
-    const a = els.current.setRevTrack as HTMLElement | null,
-      b = els.current.setRevTrack2 as HTMLElement | null;
+    const a = revTrackRef.current,
+      b = revTrack2Ref.current;
     if (!a && !b) return;
     const step = window.innerWidth <= 600 ? 340 : 540;
-    rows.current.forEach((r, k) => {
-      if (!hover.current) r.p += 18 * dt;
+    const still = hovered || openIdx >= 0;
+    pos.current = pos.current.map((p, k) => {
       const L = (counts.current[k] || 4) * step;
-      if (r.p >= L) r.p -= L;
+      const np = still ? p : p + 18 * dt;
+      return np >= L ? np - L : np;
     });
     const L0 = counts.current[0] * step;
-    if (a) a.style.transform = `translate3d(${(-L0 + rows.current[0].p).toFixed(2)}px,0,0)`;
-    if (b) b.style.transform = `translate3d(${(-rows.current[1].p - step / 2).toFixed(2)}px,0,0)`;
+    if (a) a.style.transform = `translate3d(${(-L0 + pos.current[0]).toFixed(2)}px,0,0)`;
+    if (b) b.style.transform = `translate3d(${(-pos.current[1] - step / 2).toFixed(2)}px,0,0)`;
   });
 
+  const close = () => setOpenIdx(-1);
   useEffect(() => {
     if (openIdx < 0) return;
-    const onKey = (e: KeyboardEvent) => e.key === "Escape" && close();
+    const onKey = (e: KeyboardEvent) => e.key === "Escape" && setOpenIdx(-1);
     document.addEventListener("keydown", onKey);
     return () => document.removeEventListener("keydown", onKey);
-  });
-  const close = () => {
-    hover.current = false;
-    setOpenIdx(-1);
-  };
+  }, [openIdx]);
   const rv = openIdx >= 0 ? reviews[openIdx] : null;
   const rvt = rv && rv.tags ? rv.tags.split(" · ") : [];
   const tg = (i: number) => ({ has: !!rvt[i], t: rvt[i] || "", c: tagColor(rvt[i] || "")[0], b: tagColor(rvt[i] || "")[1] });
@@ -112,8 +105,8 @@ export function Reviews() {
     motionPressed: paused,
     motionLabel: paused ? "Animaties afspelen" : "Animaties pauzeren",
     toggleMotion: toggle,
-    pauseRev: () => (hover.current = true),
-    playRev: () => (hover.current = openIdx >= 0),
+    pauseRev: () => setHovered(true),
+    playRev: () => setHovered(false),
     closeRev: close,
     revOpen: rv !== null,
     revName: rv?.name ?? "",
@@ -179,7 +172,7 @@ export function Reviews() {
           style={{ display: "flex", flexDirection: "column", gap: "20px", padding: "4px 0 8px" }}
         >
           <div className="rev-wrap" style={{ overflow: "hidden" }}>
-            <div {...ref_("setRevTrack")} style={{ display: "flex", width: "max-content", alignItems: "stretch" }}>
+            <div ref={revTrackRef} style={{ display: "flex", width: "max-content", alignItems: "stretch" }}>
               {h.revCards.map((c, c_i) => (
                 <Fragment key={c_i}>
                   <article
@@ -433,7 +426,7 @@ export function Reviews() {
             </div>
           </div>
           <div className="rev-wrap" style={{ overflow: "hidden" }}>
-            <div {...ref_("setRevTrack2")} style={{ display: "flex", width: "max-content", alignItems: "stretch" }}>
+            <div ref={revTrack2Ref} style={{ display: "flex", width: "max-content", alignItems: "stretch" }}>
               {h.revCards.map((c, c_i) => (
                 <Fragment key={c_i}>
                   <article

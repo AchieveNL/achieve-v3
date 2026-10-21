@@ -11,7 +11,10 @@ export function Approach() {
 
   // Steps light up one by one (01 → 04), hold, then start over.
   const [tick, setTick] = useState<number | null>(null);
-  useEffect(() => setTick(0), []);
+  useEffect(() => {
+    const id = setTimeout(() => setTick(0), 0);
+    return () => clearTimeout(id);
+  }, []);
   useTick(5000, () => setTick((v) => ((v ?? 0) + 1) % 6));
   const si = tick === null ? 3 : Math.min(tick, 3);
   const h = { op0: si === 0 ? 1 : 0, op1: si === 1 ? 1 : 0, op2: si === 2 ? 1 : 0, op3: si === 3 ? 1 : 0 };

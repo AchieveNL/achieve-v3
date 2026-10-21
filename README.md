@@ -1,6 +1,6 @@
 # Achieve v3 — achieve.nl
 
-Next.js 15 (App Router) + Tailwind 4, gebouwd vanuit het Claude Design-canvas
+Next.js 16 (App Router) + Tailwind 4, gebouwd vanuit het Claude Design-canvas
 "Achieve.nl – nieuwe website".
 
 ## Starten

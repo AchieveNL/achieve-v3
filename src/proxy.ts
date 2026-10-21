@@ -5,7 +5,7 @@ import { defaultLocale, isLocale } from "@/i18n/config";
  * Dutch lives at the root (/projecten), other languages get a prefix (/en/projecten).
  * Internally every page sits under /[locale], so root URLs are rewritten to /nl.
  */
-export function middleware(req: NextRequest) {
+export function proxy(req: NextRequest) {
   const { pathname } = req.nextUrl;
   const first = pathname.split("/")[1] ?? "";
   if (first === defaultLocale) {
