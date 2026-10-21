@@ -11,10 +11,11 @@ type Props = { params: Promise<{ locale: string }> };
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
-  return pageMetadata(locale as Locale, "DienstOnderhoud", {
+  const meta = await pageMetadata(locale as Locale, "DienstOnderhoud", {
     title: "Website onderhoud: veilig, snel en up-to-date | Achieve",
     description: "Wij houden je website veilig, snel en up-to-date, ook als hij niet door ons is gebouwd. Een vast bedrag per maand.",
   });
+  return meta;
 }
 
 export default async function Page({ params }: Props) {

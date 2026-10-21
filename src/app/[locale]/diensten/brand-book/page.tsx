@@ -11,11 +11,12 @@ type Props = { params: Promise<{ locale: string }> };
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
-  return pageMetadata(locale as Locale, "DienstBrandBook", {
+  const meta = await pageMetadata(locale as Locale, "DienstBrandBook", {
     title: "Brand Book: je huisstijl in één handboek | Achieve",
     description:
       "Een huisstijlhandboek met je logo, pay-off, kleuren, letters en vormentaal, plus volledig gebruiksrecht. Vanaf €1.497 eenmalig.",
   });
+  return meta;
 }
 
 export default async function Page({ params }: Props) {

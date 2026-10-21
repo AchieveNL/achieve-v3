@@ -9,6 +9,7 @@ META = [
 ["DienstUGCMarketing", "UGC Marketing: video's van echte creators | Achieve", "Video's van echte creators die passen bij jouw merk. Wij zoeken de creator, regelen het contract en bedenken het concept. Vanaf €997 per maand."],
 ["DienstSEA", "Search Engine Advertising: adverteren in Google | Achieve", "Adverteren in Google met Achieve. We zetten je campagnes op en sturen ze samen met jou bij, vanaf €1.197 per maand."],
 ["DienstSMA", "Social Media Advertising: adverteren op social media | Achieve", "Adverteren op Meta, TikTok, LinkedIn en meer met Achieve. Vanaf €497 per maand, plus opstartkosten en advertentiebudget."],
+["DienstSMALooptijd", "Voorbeeld SMA looptijden – Social Media Advertising | Achieve", "Adverteren op Meta, TikTok, LinkedIn en meer met Achieve. Vanaf €497 per maand, plus opstartkosten en advertentiebudget."],
 ["DienstSMM", "Social Media Management: beheer van je social media | Achieve", "Achieve maakt je content, plant je posts en houdt je social media actief. Social Media Management vanaf €497 per maand."],
 ["DienstDashboard", "Dashboard: al je cijfers in één overzicht | Achieve", "Achieve koppelt je databronnen aan één helder dashboard, zodat je in één oogopslag ziet hoe je bedrijf ervoor staat. Dashboard vanaf €997, eenmalig."],
 ["DienstHosting", "Hosting: snel en veilig online | Achieve", "Hosting van Achieve: de server waarop je website draait, zodat hij altijd online is. Servers in Amsterdam, vanaf €10,99 per maand."],
@@ -34,10 +35,11 @@ type Props = {{ params: Promise<{{ locale: string }}> }};
 
 export async function generateMetadata({{ params }}: Props): Promise<Metadata> {{
   const {{ locale }} = await params;
-  return pageMetadata(locale as Locale, "{pid}", {{
+  const meta = await pageMetadata(locale as Locale, "{pid}", {{
     title: {json.dumps(title, ensure_ascii=False)},
     description: {json.dumps(desc, ensure_ascii=False)},
   }});
+  return {"{ ...meta, robots: { index: false, follow: true } }" if pid == "DienstSMALooptijd" else "meta"};
 }}
 
 export default async function Page({{ params }}: Props) {{

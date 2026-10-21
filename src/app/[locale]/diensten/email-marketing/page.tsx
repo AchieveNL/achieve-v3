@@ -11,10 +11,11 @@ type Props = { params: Promise<{ locale: string }> };
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
-  return pageMetadata(locale as Locale, "DienstEmailMarketing", {
+  const meta = await pageMetadata(locale as Locale, "DienstEmailMarketing", {
     title: "Email Marketing: nieuwsbrieven en automatische e-mails | Achieve",
     description: "Nieuwsbrieven en automatische e-mails die je klanten op het juiste moment bereiken. Begeleiding vanaf €997.",
   });
+  return meta;
 }
 
 export default async function Page({ params }: Props) {

@@ -1,6 +1,6 @@
 """Generate one client component per service page (Dienst*.dc.html)."""
 import json, re, os, subprocess, sys
-SVCS = ['Strategy', 'Legal', 'BrandBook', 'WebDevelopment', 'EmailMarketing', 'VideoMarketing', 'UGCMarketing', 'SEA', 'SMA', 'SMM', 'Dashboard', 'Hosting', 'Onderhoud']
+SVCS = ['Strategy', 'Legal', 'BrandBook', 'WebDevelopment', 'EmailMarketing', 'VideoMarketing', 'UGCMarketing', 'SEA', 'SMA', 'SMALooptijd', 'SMM', 'Dashboard', 'Hosting', 'Onderhoud']
 D = '/home/claude/achieve-v3/src/components/services'; os.makedirs(D, exist_ok=True)
 PRE = r'''import { Fragment, useCallback, useEffect, useRef, useState } from "react";
 import { Reviews } from "@/components/sections/Reviews";
