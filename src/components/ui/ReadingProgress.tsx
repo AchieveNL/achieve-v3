@@ -7,12 +7,16 @@ import { useTr } from "@/i18n/I18nProvider";
 export function ReadingProgress() {
   const { ta } = useTr();
   const [pct, setPct] = useState(0);
+  const [bottom, setBottom] = useState(0);
   useEffect(() => {
     const onScroll = () => {
       const t = document.scrollingElement || document.documentElement;
       const max = t.scrollHeight - t.clientHeight;
       if (max < 40) return;
       setPct(Math.min(100, Math.max(0, Math.round((t.scrollTop / max) * 100))));
+      // On phones the sticky "Plan je groeigesprek" bar sits at the bottom; keep the progress bar just above it.
+      const cta = document.querySelector<HTMLElement>(".m-cta-bar");
+      setBottom(cta && getComputedStyle(cta).display !== "none" ? cta.offsetHeight : 0);
     };
     onScroll();
     window.addEventListener("scroll", onScroll, { passive: true });
@@ -34,7 +38,7 @@ export function ReadingProgress() {
         position: "fixed",
         left: 0,
         right: 0,
-        bottom: 0,
+        bottom,
         zIndex: 49,
         height: 8,
         background: "rgba(31, 36, 108, 0.22)",
