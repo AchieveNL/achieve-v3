@@ -1,14 +1,24 @@
 "use client";
 
 import { useTr } from "@/i18n/I18nProvider";
-import { useMotion } from "@/components/motion/MotionProvider";
+import { useRef } from "react";
+import { useFrame } from "@/components/motion/MotionProvider";
 import { clientLogos } from "@/data/logos";
 
 export function ClientStrip() {
   const { t, ta, href } = useTr();
 
-  const { paused } = useMotion();
-  const h = { stripCls: paused ? "is-paused" : "" };
+  // Same calm pace as the other logo rows (px per second). Moves half the track, then wraps.
+  const track = useRef<HTMLDivElement>(null);
+  const pos = useRef(0);
+  useFrame((_now, dt) => {
+    const el = track.current;
+    if (!el) return;
+    const half = el.scrollWidth / 2;
+    if (!half) return;
+    pos.current = (pos.current + 22 * dt) % half;
+    el.style.transform = `translateX(${(-pos.current).toFixed(1)}px)`;
+  });
   const logos = [0, 1, 2, 3].flatMap((copy) =>
     clientLogos.map((l) => (
       <img
@@ -63,7 +73,7 @@ export function ClientStrip() {
             maskImage: "linear-gradient(90deg, transparent 0, #000 6%, #000 94%, transparent 100%)",
           }}
         >
-          <div className={`pjl-track ${h.stripCls}`} style={{ display: "flex", alignItems: "center", width: "max-content" }}>
+          <div ref={track} className="pjl-track" style={{ display: "flex", alignItems: "center", width: "max-content", willChange: "transform" }}>
             {logos}
           </div>
         </div>

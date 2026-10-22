@@ -26,10 +26,6 @@
 .qt-dot:hover,.qt-dot:focus-visible{background:#FAE84E !important}
 .qt-dot:focus-visible{outline:2px solid #FFFFFF;outline-offset:3px}
 @media (max-width: 600px){.cta-team{flex-direction:column !important;gap:10px !important}.cta-team > span:last-child{text-align:center !important}}
-.pjl-track{animation:pjlMove 40s linear infinite}
-.pjl-track.is-paused{animation-play-state:paused}
-@keyframes pjlMove{from{transform:translateX(0)}to{transform:translateX(-50%)}}
-@media (prefers-reduced-motion: reduce){.pjl-track{animation:none}}
 .pjh-slide{opacity:0;z-index:0}
 .pjh-slide.is-prev{opacity:1;z-index:1}
 .pjh-slide.is-active{opacity:1;z-index:2;animation:pjhWipe 1.1s cubic-bezier(.77,0,.18,1) both}
