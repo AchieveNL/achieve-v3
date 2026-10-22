@@ -45,7 +45,8 @@
 @keyframes ooWspin{to{transform:rotate(360deg)}}
 @keyframes ooWbob{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
 @media (prefers-reduced-motion: reduce){.oo-wdeco *{animation:none !important}}
-@media (max-width: 1024px){.oo-wlogo-wrap{margin-bottom:24px !important}.oo-wdeco{display:none}}
+@media (max-width: 1024px){.oo-wlogo-wrap{margin-bottom:96px !important}}
+@media (max-width: 600px){.oo-wdeco{width:340px !important;height:227px !important;bottom:-104px !important}.oo-wlogo-wrap{margin-bottom:72px !important}}
 .oo-chat-typing .oo-t2{display:none}
 .oo-chat-typing.is-alt .oo-t1{display:none}
 .oo-chat-typing.is-alt .oo-t2{display:inline}
