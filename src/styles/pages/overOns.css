@@ -15,7 +15,7 @@
 .oo-team .oo-person:nth-child(5):hover > div:first-child{box-shadow:0 0 0 3px #FFFFFF,0 0 0 5px #E3F1FD}
 .oo-team .oo-person:nth-child(6):hover > div:first-child{box-shadow:0 0 0 3px #FFFFFF,0 0 0 5px #FFF6CC}
 .oo-person img{transition:transform .5s cubic-bezier(.2,.7,.2,1);transform-origin:50% 100%}
-.oo-person:hover img{transform:scale(1.14) translateY(-9%) rotate(-2deg)}
+.oo-person:hover img{transform:scale(1.16) translateY(-12%) rotate(-2deg)}
 .oo-person strong{transition:color .25s ease}
 .oo-mail{transition:background .25s ease,color .25s ease,transform .25s ease}
 .oo-mail:hover,.oo-mail:focus-visible{background:linear-gradient(90deg,#8639FA 0%,#0F8AE5 100%) !important;color:#FFFFFF !important;transform:scale(1.06)}
