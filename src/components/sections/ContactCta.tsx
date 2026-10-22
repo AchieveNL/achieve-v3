@@ -1,6 +1,7 @@
 "use client";
 
 import { useTr } from "@/i18n/I18nProvider";
+import { sendLead } from "@/lib/sendLead";
 import { useRef, useState, type MouseEvent } from "react";
 import { useMotion, useTick } from "@/components/motion/MotionProvider";
 import { reviews } from "@/data/reviews";
@@ -25,7 +26,7 @@ export function ContactCta() {
   const [err, setErr] = useState<{ naam: boolean; email: boolean; consent: boolean } | null>(null);
   const clr = (k: "naam" | "email" | "consent") => () => err?.[k] && setErr({ ...err, [k]: false });
 
-  // Same validation as the design. Sending goes through /api/contact; on success we go to the thank-you page.
+  // Same validation as the design, then the lead goes to info@achieve.nl (see lib/sendLead) and the thank-you page.
   const send = async (e: MouseEvent<HTMLButtonElement>) => {
     const box = e.currentTarget.parentNode as HTMLElement | null;
     const q = <T extends Element>(nm: string) => box?.querySelector<T>(`[name="${nm}"]`) ?? null;
@@ -44,22 +45,17 @@ export function ContactCta() {
     }
     setErr(null);
     setSent(true);
-    try {
-      await fetch("/api/contact", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          naam: naam!.value,
-          email: mail!.value,
-          telefoon: tel?.value ?? "",
-          bericht: msg?.value ?? "",
-          bron: window.location.pathname,
-        }),
-      });
-    } catch {
-      /* the thank-you page still shows; the team follows up by phone/e-mail */
-    }
-    window.location.assign(href("Bedankt"));
+    await sendLead(
+      {
+        naam: naam!.value,
+        email: mail!.value,
+        telefoon: tel?.value ?? "",
+        bericht: msg?.value ?? "",
+        toestemming: "ja",
+        bron: window.location.pathname,
+      },
+      href("Bedankt"),
+    );
   };
   const h = {
     motionPaused: paused,

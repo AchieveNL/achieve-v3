@@ -16,7 +16,6 @@ npm run build      # productie-build (zelfde als Vercel)
 ```
 src/
   app/[locale]/        pagina's per taal (nl op de root, /en, /es, /fr, /de, /pl, /tr, /ar)
-  app/api/contact/     contactformulier → CONTACT_WEBHOOK_URL
   components/
     layout/            Header (menu, dropdowns, taalkiezer), Footer, PageShell
     sections/          homepage-secties (Hero, Achiever, Services, Approach,
@@ -57,8 +56,8 @@ code en wordt opgezocht in `src/i18n/dict/<taal>/<Pagina>.json` (dezelfde
 woordenboeken als in het design). Labels, klantnamen, logo en tagline worden
 niet vertaald.
 
-## Omgevingsvariabelen
+## Formulieren
 
-| Naam | Waarvoor |
-| --- | --- |
-| `CONTACT_WEBHOOK_URL` | Waar aanvragen uit het contactformulier, het CTA-formulier en sollicitaties (met cv) heen gaan (Make, Zapier, n8n of CRM). |
+Contactformulier, CTA-formulier en sollicitaties (met cv/motivatie) gaan via
+FormSubmit naar info@achieve.nl, net als op de vorige site (`src/lib/sendLead.ts`).
+Er zijn geen omgevingsvariabelen nodig.

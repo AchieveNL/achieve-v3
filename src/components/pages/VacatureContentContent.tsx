@@ -1,13 +1,14 @@
 "use client";
 
 import { useTr } from "@/i18n/I18nProvider";
+import { sendLead, type LeadValue } from "@/lib/sendLead";
 import React, { useEffect, useState } from "react";
 import { Accent } from "@/components/ui/Accent";
 
 export function VacatureContentContent() {
   const { t, ta, href } = useTr();
 
-  // Contact/application form: native validation, then send everything (files included) to /api/contact and show the thank-you page.
+  // Contact/application form: native validation, then send everything (files included) to info@achieve.nl (lib/sendLead) and show the thank-you page.
   const send = async (e: React.MouseEvent<HTMLButtonElement>) => {
     const btn = e.currentTarget;
     const box = btn.closest("section") ?? document.body;
@@ -17,22 +18,18 @@ export function VacatureContentContent() {
       bad.reportValidity();
       return;
     }
-    const fd = new FormData();
+    const lead: Record<string, LeadValue> = {};
     for (const f of fields) {
       if (!f.name) continue;
       if (f instanceof HTMLInputElement && f.type === "file") {
-        if (f.files?.[0]) fd.append(f.name, f.files[0]);
-      } else if (f instanceof HTMLInputElement && f.type === "checkbox") fd.append(f.name, f.checked ? "ja" : "nee");
-      else fd.append(f.name, f.value);
+        if (f.files?.[0]) lead[f.name] = f.files[0];
+      } else if (f instanceof HTMLInputElement && f.type === "checkbox") lead[f.name] = f.checked ? "ja" : "nee";
+      else lead[f.name] = f.value;
     }
-    fd.append("bron", window.location.pathname);
+    lead.bron = window.location.pathname;
     btn.disabled = true;
-    try {
-      await fetch("/api/contact", { method: "POST", body: fd });
-    } catch {
-      /* the thank-you page still shows; the team follows up */
-    }
-    window.location.assign(href("Bedankt"));
+    await sendLead(lead, href("Bedankt"));
+    btn.disabled = false;
   };
 
   // Intern reviews: scrolling row (pause button) and a dialog with the full review.
