@@ -15,7 +15,7 @@
 .oo-team .oo-person:nth-child(5):hover > div:first-child{box-shadow:0 0 0 3px #FFFFFF,0 0 0 5px #E3F1FD}
 .oo-team .oo-person:nth-child(6):hover > div:first-child{box-shadow:0 0 0 3px #FFFFFF,0 0 0 5px #FFF6CC}
 .oo-person img{transition:transform .5s cubic-bezier(.2,.7,.2,1);transform-origin:50% 100%}
-.oo-person:hover img{transform:scale(1.1) translateY(-4%) rotate(-2deg)}
+.oo-person:hover img{transform:scale(1.14) translateY(-9%) rotate(-2deg)}
 .oo-person strong{transition:color .25s ease}
 .oo-mail{transition:background .25s ease,color .25s ease,transform .25s ease}
 .oo-mail:hover,.oo-mail:focus-visible{background:linear-gradient(90deg,#8639FA 0%,#0F8AE5 100%) !important;color:#FFFFFF !important;transform:scale(1.06)}
@@ -38,6 +38,9 @@
 @media (max-width: 600px){.oo-org{padding:36px 22px !important;margin-bottom:48px !important}.oo-org-dept{padding:22px 18px !important}.oo-org-av{width:44px !important;height:44px !important;margin-left:-10px !important}.oo-org-av:first-child{margin-left:0 !important}}
 @media (max-width: 900px){.oo-steps3{grid-template-columns:minmax(0,1fr) !important;gap:12px !important}}
 @media (max-width: 900px){.oo-cult3{grid-template-columns:minmax(0,1fr) !important}}
+.oo-pop{transition:opacity .2s ease}
+.oo-person:hover .oo-pop{opacity:1}
+@media (prefers-reduced-motion: reduce){.oo-pop{display:none}}
 .oo-wdeco-dot1{animation:ooWbob 3.2s ease-in-out infinite}
 .oo-wdeco-plus{transform-box:fill-box;transform-origin:center;animation:ooWspin 8s linear infinite}
 @keyframes ooWspin{to{transform:rotate(360deg)}}
