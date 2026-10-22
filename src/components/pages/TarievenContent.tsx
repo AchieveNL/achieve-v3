@@ -5,6 +5,9 @@ import { useCallback, useEffect, useRef, useState, Fragment } from "react";
 import { Accent } from "@/components/ui/Accent";
 import { Tip } from "@/components/ui/Tip";
 
+/** Services on the price list; /tarieven#<id> opens one of them. */
+const TF_IDS = ["strategy", "legal", "brand", "custom", "shopify", "hosting", "onderhoud", "email", "ugc", "video", "sea", "sma", "smm", "dash"];
+
 export function TarievenContent() {
   const { t, ta, href } = useTr();
 
@@ -68,6 +71,22 @@ export function TarievenContent() {
     const b = row?.querySelector<HTMLElement>('[aria-pressed="true"]');
     if (row && b) row.scrollTo({ left: b.offsetLeft - row.offsetLeft - (row.clientWidth - b.offsetWidth) / 2, behavior: "smooth" });
   }, [sel]);
+  // /tarieven#strategy (from the menu) opens that service straight away.
+  useEffect(() => {
+    const fromHash = () => {
+      const h = decodeURIComponent(window.location.hash.slice(1));
+      if (!TF_IDS.includes(h)) return;
+      setSel(h);
+      setTfmI(1);
+      document.getElementById("kies-je-dienst")?.scrollIntoView({ behavior: "smooth", block: "start" });
+    };
+    const t = window.setTimeout(fromHash, 0);
+    window.addEventListener("hashchange", fromHash);
+    return () => {
+      window.clearTimeout(t);
+      window.removeEventListener("hashchange", fromHash);
+    };
+  }, []);
   const pickSvc = (id: string) => () => {
     setSel(id);
     setTfmI(1);
@@ -299,7 +318,7 @@ export function TarievenContent() {
           </div>
         </div>
       </section>
-      <section className="pj-wrap pj-sec" style={{ background: "#F2F8FE", padding: "96px 40px 0" }}>
+      <section id="kies-je-dienst" className="pj-wrap pj-sec" style={{ background: "#F2F8FE", padding: "96px 40px 0", scrollMarginTop: "96px" }}>
         <div
           style={{
             maxWidth: "1280px",

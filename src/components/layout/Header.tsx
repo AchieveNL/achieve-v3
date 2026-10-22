@@ -1226,7 +1226,7 @@ export function Header() {
                   </div>
                 </div>
                 <div className="nav-dd-grid">
-                  <a href={href("DienstStrategy")} className="nav-dd-link" data-svc="brand-strategy">
+                  <a href={href("Tarieven", "strategy")} className="nav-dd-link" data-svc="brand-strategy">
                     <span className="nav-dd-name">
                       {t("Strategy")}
                       <svg
@@ -1248,7 +1248,7 @@ export function Header() {
                       {t("Vanaf")} <strong style={{ color: "#1F246C", fontWeight: "700" }}>{t("€1.747")}</strong> {t("ex. btw")}
                     </span>
                   </a>
-                  <a href={href("Tarieven")} className="nav-dd-link" data-svc="legal">
+                  <a href={href("Tarieven", "legal")} className="nav-dd-link" data-svc="legal">
                     <span className="nav-dd-name">
                       {t("Legal")}
                       <svg
@@ -1270,7 +1270,7 @@ export function Header() {
                       {t("Vanaf")} <strong style={{ color: "#1F246C", fontWeight: "700" }}>{t("€197")}</strong> {t("ex. btw")}
                     </span>
                   </a>
-                  <a href={href("Tarieven")} className="nav-dd-link" data-svc="brand-book">
+                  <a href={href("Tarieven", "brand")} className="nav-dd-link" data-svc="brand-book">
                     <span className="nav-dd-name">
                       {t("Brand Book")}
                       <svg
@@ -1292,7 +1292,7 @@ export function Header() {
                       {t("Vanaf")} <strong style={{ color: "#1F246C", fontWeight: "700" }}>{t("€1.497")}</strong> {t("ex. btw")}
                     </span>
                   </a>
-                  <a href={href("Tarieven")} className="nav-dd-link" data-svc="custom-website">
+                  <a href={href("Tarieven", "custom")} className="nav-dd-link" data-svc="custom-website">
                     <span className="nav-dd-name">
                       {t("Custom website")}
                       <svg
@@ -1314,7 +1314,7 @@ export function Header() {
                       {t("Vanaf")} <strong style={{ color: "#1F246C", fontWeight: "700" }}>{t("€4.497")}</strong> {t("ex. btw")}
                     </span>
                   </a>
-                  <a href={href("Tarieven")} className="nav-dd-link" data-svc="shopify-webshop">
+                  <a href={href("Tarieven", "shopify")} className="nav-dd-link" data-svc="shopify-webshop">
                     <span className="nav-dd-name">
                       {t("Shopify webshop")}
                       <svg
@@ -1336,7 +1336,7 @@ export function Header() {
                       {t("Vanaf")} <strong style={{ color: "#1F246C", fontWeight: "700" }}>{t("€4.497")}</strong> {t("ex. btw")}
                     </span>
                   </a>
-                  <a href={href("Tarieven")} className="nav-dd-link" data-svc="email-marketing">
+                  <a href={href("Tarieven", "email")} className="nav-dd-link" data-svc="email-marketing">
                     <span className="nav-dd-name">
                       {t("Email Marketing")}
                       <svg
@@ -1358,7 +1358,7 @@ export function Header() {
                       {t("Vanaf")} <strong style={{ color: "#1F246C", fontWeight: "700" }}>{t("€997")}</strong> {t("ex. btw")}
                     </span>
                   </a>
-                  <a href={href("Tarieven")} className="nav-dd-link" data-svc="video-marketing">
+                  <a href={href("Tarieven", "video")} className="nav-dd-link" data-svc="video-marketing">
                     <span className="nav-dd-name">
                       {t("Video Marketing")}
                       <svg
@@ -1380,7 +1380,7 @@ export function Header() {
                       {t("Vanaf")} <strong style={{ color: "#1F246C", fontWeight: "700" }}>{t("€1.447")}</strong> {t("ex. btw")}
                     </span>
                   </a>
-                  <a href={href("Tarieven")} className="nav-dd-link" data-svc="ugc-marketing">
+                  <a href={href("Tarieven", "ugc")} className="nav-dd-link" data-svc="ugc-marketing">
                     <span className="nav-dd-name">
                       {t("UGC Marketing")}
                       <svg
@@ -1402,7 +1402,7 @@ export function Header() {
                       {t("Vanaf")} <strong style={{ color: "#1F246C", fontWeight: "700" }}>{t("€997")}</strong> {t("ex. btw")}
                     </span>
                   </a>
-                  <a href={href("Tarieven")} className="nav-dd-link" data-svc="search-engine-advertising">
+                  <a href={href("Tarieven", "sea")} className="nav-dd-link" data-svc="search-engine-advertising">
                     <span className="nav-dd-name">
                       {t("Search Engine Advertising")}
                       <svg
@@ -1424,7 +1424,7 @@ export function Header() {
                       {t("Vanaf")} <strong style={{ color: "#1F246C", fontWeight: "700" }}>{t("€1.197")}</strong> {t("ex. btw")}
                     </span>
                   </a>
-                  <a href={href("Tarieven")} className="nav-dd-link" data-svc="social-media-advertising">
+                  <a href={href("Tarieven", "sma")} className="nav-dd-link" data-svc="social-media-advertising">
                     <span className="nav-dd-name">
                       {t("Social Media Advertising")}
                       <svg
@@ -1446,7 +1446,7 @@ export function Header() {
                       {t("Vanaf")} <strong style={{ color: "#1F246C", fontWeight: "700" }}>{t("€497")}</strong> {t("ex. btw")}
                     </span>
                   </a>
-                  <a href={href("Tarieven")} className="nav-dd-link" data-svc="social-media-management">
+                  <a href={href("Tarieven", "smm")} className="nav-dd-link" data-svc="social-media-management">
                     <span className="nav-dd-name">
                       {t("Social Media Management")}
                       <svg
@@ -1468,7 +1468,7 @@ export function Header() {
                       {t("Vanaf")} <strong style={{ color: "#1F246C", fontWeight: "700" }}>{t("€497")}</strong> {t("ex. btw")}
                     </span>
                   </a>
-                  <a href={href("Tarieven")} className="nav-dd-link" data-svc="dashboard">
+                  <a href={href("Tarieven", "dash")} className="nav-dd-link" data-svc="dashboard">
                     <span className="nav-dd-name">
                       {t("Dashboard")}
                       <svg
