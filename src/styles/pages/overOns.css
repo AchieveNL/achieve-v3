@@ -38,15 +38,12 @@
 @media (max-width: 600px){.oo-org{padding:36px 22px !important;margin-bottom:48px !important}.oo-org-dept{padding:22px 18px !important}.oo-org-av{width:44px !important;height:44px !important;margin-left:-10px !important}.oo-org-av:first-child{margin-left:0 !important}}
 @media (max-width: 900px){.oo-steps3{grid-template-columns:minmax(0,1fr) !important;gap:12px !important}}
 @media (max-width: 900px){.oo-cult3{grid-template-columns:minmax(0,1fr) !important}}
-.oo-wdeco-ring{transform-box:fill-box;transform-origin:center;animation:ooWspin 60s linear infinite}
 .oo-wdeco-dot1{animation:ooWbob 3.2s ease-in-out infinite}
-.oo-wdeco-dot2{animation:ooWbob 4s ease-in-out infinite reverse}
 .oo-wdeco-plus{transform-box:fill-box;transform-origin:center;animation:ooWspin 8s linear infinite}
 @keyframes ooWspin{to{transform:rotate(360deg)}}
 @keyframes ooWbob{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
-@media (prefers-reduced-motion: reduce){.oo-wdeco *{animation:none !important}}
-@media (max-width: 1024px){.oo-wlogo-wrap{margin-bottom:96px !important}}
-@media (max-width: 600px){.oo-wdeco{width:340px !important;height:227px !important;bottom:-104px !important}.oo-wlogo-wrap{margin-bottom:72px !important}}
+@media (prefers-reduced-motion: reduce){.oo-wdeco-sparks *{animation:none !important}}
+@media (max-width: 600px){.oo-wdeco{transform:translate(10px,10px) rotate(3deg) !important}}
 .oo-chat-typing .oo-t2{display:none}
 .oo-chat-typing.is-alt .oo-t1{display:none}
 .oo-chat-typing.is-alt .oo-t2{display:inline}
