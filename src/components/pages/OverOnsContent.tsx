@@ -42,14 +42,18 @@ export function OverOnsContent() {
     if (!o.box) o.box = document.querySelector<HTMLElement>(".oo-hero .wbt");
     if (!o.box) return;
     const W = 25.455, R = 35.9, CY = 50.45, SPEED = 4;
+    // Move with transform (GPU, sub-pixel smooth) instead of left/top, which snaps to whole pixels and jitters.
+    const bw = o.box.clientWidth, bh = o.box.clientHeight;
     o.box.querySelectorAll<HTMLElement>(".wbt-b").forEach((el, i) => {
       if (o.a0[i] === undefined) {
         const l = parseFloat(el.style.left) + W / 2, tp = parseFloat(el.style.top) + W / 2;
         o.a0[i] = (Math.atan2(tp - CY, l - 50) * 180) / Math.PI;
+        el.style.left = 50 - W / 2 + "%";
+        el.style.top = CY - W / 2 + "%";
+        el.style.willChange = "transform";
       }
       const a = ((o.a0[i] + time * SPEED) * Math.PI) / 180;
-      el.style.left = (50 + Math.cos(a) * R - W / 2).toFixed(3) + "%";
-      el.style.top = (CY + Math.sin(a) * R - W / 2).toFixed(3) + "%";
+      el.style.transform = `translate3d(${((Math.cos(a) * R * bw) / 100).toFixed(2)}px, ${((Math.sin(a) * R * bh) / 100).toFixed(2)}px, 0)`;
     });
     const hl = document.querySelector<HTMLElement>(".oo-hallo");
     if (hl) hl.style.transform = `rotate(${(-4 + Math.sin(time * 2.4) * 6).toFixed(2)}deg)`;
