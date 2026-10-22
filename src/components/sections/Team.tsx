@@ -106,7 +106,7 @@ export function Team() {
               <div
                 className="team-bubble"
                 data-name="Karim"
-                style={{ position: "absolute", left: "0", top: "2%", width: "46%", aspectRatio: "1 / 1" }}
+                style={{ position: "absolute", left: "7.387%", top: "7.387%", width: "23%", aspectRatio: "1 / 1" }}
               >
                 <div
                   style={{
@@ -133,7 +133,7 @@ export function Team() {
                       src="/media/team/karim.svg"
                       alt={ta("Portret van Karim")}
                       className="team-img"
-                      style={{ position: "absolute", left: "-14%", top: "0", width: "128%", height: "auto" }}
+                      style={{ maxWidth: "none", position: "absolute", left: "-14%", top: "0", width: "128%", height: "auto" }}
                     />
                   </div>
                 </div>
@@ -162,7 +162,7 @@ export function Team() {
               <div
                 className="team-bubble"
                 data-name="Abdelmonim"
-                style={{ position: "absolute", right: "6%", top: "0", width: "30%", aspectRatio: "1 / 1" }}
+                style={{ position: "absolute", left: "49.888%", top: "-4.001%", width: "23%", aspectRatio: "1 / 1" }}
               >
                 <div
                   style={{
@@ -189,7 +189,7 @@ export function Team() {
                       src="/media/team/abdelmonim.svg"
                       alt={ta("Portret van Abdelmonim")}
                       className="team-img"
-                      style={{ position: "absolute", left: "-14%", top: "0", width: "128%", height: "auto" }}
+                      style={{ maxWidth: "none", position: "absolute", left: "-14%", top: "0", width: "128%", height: "auto" }}
                     />
                   </div>
                 </div>
@@ -218,7 +218,7 @@ export function Team() {
               <div
                 className="team-bubble"
                 data-name="Niek"
-                style={{ position: "absolute", right: "0", bottom: "10%", width: "28%", aspectRatio: "1 / 1" }}
+                style={{ position: "absolute", left: "81.001%", top: "27.112%", width: "23%", aspectRatio: "1 / 1" }}
               >
                 <div
                   style={{
@@ -245,7 +245,7 @@ export function Team() {
                       src="/media/team/niek.svg"
                       alt={ta("Portret van Niek")}
                       className="team-img"
-                      style={{ position: "absolute", left: "-14%", top: "0", width: "128%", height: "auto" }}
+                      style={{ maxWidth: "none", position: "absolute", left: "-14%", top: "0", width: "128%", height: "auto" }}
                     />
                   </div>
                 </div>
@@ -274,7 +274,7 @@ export function Team() {
               <div
                 className="team-bubble"
                 data-name="Jonas"
-                style={{ position: "absolute", left: "50%", top: "34%", width: "24%", aspectRatio: "1 / 1" }}
+                style={{ position: "absolute", left: "27.112%", top: "81.001%", width: "23%", aspectRatio: "1 / 1" }}
               >
                 <div
                   style={{
@@ -301,7 +301,7 @@ export function Team() {
                       src="/media/team/jonas.svg"
                       alt={ta("Portret van Jonas")}
                       className="team-img"
-                      style={{ position: "absolute", left: "-14%", top: "0", width: "128%", height: "auto" }}
+                      style={{ maxWidth: "none", position: "absolute", left: "-14%", top: "0", width: "128%", height: "auto" }}
                     />
                   </div>
                 </div>
@@ -330,7 +330,7 @@ export function Team() {
               <div
                 className="team-bubble"
                 data-name="Seyma"
-                style={{ position: "absolute", left: "4%", bottom: "0", width: "36%", aspectRatio: "1 / 1" }}
+                style={{ position: "absolute", left: "69.613%", top: "69.613%", width: "23%", aspectRatio: "1 / 1" }}
               >
                 <div
                   style={{
@@ -357,7 +357,7 @@ export function Team() {
                       src="/media/team/seyma.svg"
                       alt={ta("Portret van Seyma")}
                       className="team-img"
-                      style={{ position: "absolute", left: "-5%", top: "0", width: "110%", height: "auto" }}
+                      style={{ maxWidth: "none", position: "absolute", left: "-5%", top: "0", width: "110%", height: "auto" }}
                     />
                   </div>
                 </div>
@@ -386,7 +386,7 @@ export function Team() {
               <div
                 className="team-bubble"
                 data-name="Denise"
-                style={{ position: "absolute", left: "4%", bottom: "0", width: "36%", aspectRatio: "1 / 1" }}
+                style={{ position: "absolute", left: "-4.001%", top: "49.888%", width: "23%", aspectRatio: "1 / 1" }}
               >
                 <div
                   style={{
@@ -413,7 +413,7 @@ export function Team() {
                       src="/media/team/denise.svg"
                       alt={ta("Portret van Denise")}
                       className="team-img"
-                      style={{ position: "absolute", left: "-5%", top: "0", width: "110%", height: "auto" }}
+                      style={{ maxWidth: "none", position: "absolute", left: "-5%", top: "0", width: "110%", height: "auto" }}
                     />
                   </div>
                 </div>
