@@ -84,7 +84,7 @@ a:hover{color:#8639FA}
 .nf-card:hover .l2-txt,.nf-card:focus-visible .l2-txt{color:transparent !important;background:linear-gradient(90deg,#8639FA 0%,#0F8AE5 50%,#8639FA 100%) 0 0/200% 100%;-webkit-background-clip:text;background-clip:text;animation:tyFlow 2.4s linear infinite}
 .ty-head-r{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
 [dir="rtl"] .ty-arr svg,[dir="rtl"] .nf-arr svg{transform:scaleX(-1)}
-[dir="rtl"] .lang-m > sc-if > div,[dir="rtl"] .lang-m div[style*="right: 0"]{right:auto !important;left:0}
+[dir="rtl"] .lang-m > sc-if > div,[dir="rtl"] .lang-m div:is([style*="right: 0"],[style*="right:0"]){right:auto !important;left:0}
 .lg-tab{transition:background-color .25s ease,border-color .25s ease}
 .lg-tab:hover,.lg-tab:focus-visible{background:#F2F8FE !important;border-color:#1F246C !important}
 .lg-toc{transition:color .2s ease,transform .2s ease}
@@ -106,7 +106,7 @@ a:hover{color:#8639FA}
 @media (prefers-reduced-motion: reduce){.social-btn:hover::after,.social-btn:focus-visible::after{animation:none;opacity:0}
 .social-btn:hover,.social-btn:focus-visible{animation:none}}
 @media (max-width: 600px){footer > div{padding-left:20px !important;padding-right:20px !important}}
-@media (max-width: 600px){footer [style*="flex: 0 1 820px"]{grid-template-columns:minmax(0,1fr) !important;gap:0 !important;flex:1 1 100% !important;max-width:none !important}
+@media (max-width: 600px){footer :is([style*="flex: 0 1 820px"],[style*="flex:0 1 820px"]){grid-template-columns:minmax(0,1fr) !important;gap:0 !important;flex:1 1 100% !important;max-width:none !important}
 footer nav[style*="border-left"]{border-left:none !important;border-top:1px solid rgba(255,255,255,0.14) !important;padding:28px 0 !important;gap:16px !important}
 footer nav[aria-label="Onze diensten"] ul{display:grid !important;grid-template-columns:repeat(2,minmax(0,1fr));gap:2px 16px !important}
 footer nav ul{font-size:15px !important}

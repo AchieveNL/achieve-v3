@@ -58,4 +58,4 @@ a:hover{color:#8639FA}
 @media (prefers-reduced-motion: reduce){.ty-ill svg *{animation:none !important;stroke-dashoffset:0 !important}}
 .ty-head-r{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
 [dir="rtl"] .ty-arr svg,[dir="rtl"] .nf-arr svg{transform:scaleX(-1)}
-[dir="rtl"] .lang-m > sc-if > div,[dir="rtl"] .lang-m div[style*="right: 0"]{right:auto !important;left:0}
+[dir="rtl"] .lang-m > sc-if > div,[dir="rtl"] .lang-m div:is([style*="right: 0"],[style*="right:0"]){right:auto !important;left:0}
