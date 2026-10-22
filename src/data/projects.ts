@@ -377,6 +377,8 @@ export type HeroProject = {
   img?: string;
   video?: string;
   poster?: string;
+  /** Thumbnail in the hero strip; defaults to img. */
+  thumb?: string;
   pool?: string[];
 };
 /** Slides in the hero of the projects page. `pool`: one random photo is picked per visit. */
@@ -435,6 +437,7 @@ export const heroProjects: HeroProject[] = [
     bg: "#2B3190",
     video: "/media/cases/sharkys.mp4",
     poster: "/media/cases/sharkys-poster.webp",
+    thumb: "/media/projects/sharkys-thumb.webp",
   },
   {
     name: "Sushi Today",

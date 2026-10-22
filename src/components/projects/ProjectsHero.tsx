@@ -30,6 +30,7 @@ export function ProjectsHero() {
       return {
         ...p,
         img,
+        thumb: p.thumb ?? img,
         hasImg: !!img,
         noImg: !img && !p.video,
         showImg: !!img && !p.video,
@@ -305,7 +306,7 @@ export function ProjectsHero() {
                   >
                     {hh.hasImg && (
                       <>
-                        <img src={hh.img} alt="" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+                        <img src={hh.thumb} alt="" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
                       </>
                     )}
                     {hh.noImg && (

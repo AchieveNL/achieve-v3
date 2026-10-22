@@ -165,7 +165,7 @@ section > div, footer > div{padding-left:20px !important;padding-right:20px !imp
 @media (max-width: 1024px){
 .nav-burger{display:inline-flex}
 .main-nav{display:none !important;width:100%;flex-direction:column;align-items:stretch !important;gap:0 !important;padding:8px 0 12px;border-top:1px solid #E4E6EA}
-.main-nav.is-open{display:flex !important;max-height:calc(100vh - 88px);overflow-y:auto;overscroll-behavior:contain}
+.main-nav.is-open{display:flex !important;flex-wrap:nowrap !important;max-height:calc(100dvh - 88px);overflow-y:auto;overscroll-behavior:contain}
 .main-nav > a:not(.glow), .main-nav .nav-dd > a{display:flex !important;justify-content:space-between;padding:16px 4px !important;border-bottom:1px solid #E4E6EA;font-size:18px}
 .main-nav .nav-dd-panel{display:none !important}
 .main-nav > div:is([style*="position: relative"],[style*="position:relative"]){margin:8px 0 0 !important}
