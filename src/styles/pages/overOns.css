@@ -1,4 +1,8 @@
 /* OverOns.dc.html: rules on top of projecten.css, case.css and werkenBij.css */
+.pjl-track{animation:pjlMove 40s linear infinite}
+.pjl-track.is-paused{animation-play-state:paused}
+@keyframes pjlMove{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+@media (prefers-reduced-motion: reduce){.pjl-track{animation:none}}
 .oo-team .oo-person img{max-width:none}
 @media (max-width: 600px){.oo-pair{grid-template-columns:minmax(0,1fr) !important;gap:6px}.oo-pair-arrow{transform:rotate(90deg);height:24px}}
 .oo-person{transition:transform .35s cubic-bezier(.2,.7,.2,1),box-shadow .35s ease}
