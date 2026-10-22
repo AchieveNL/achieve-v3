@@ -1,0 +1,78 @@
+/* OverOns.dc.html: rules on top of projecten.css, case.css and werkenBij.css */
+.pjl-track{animation:pjlMove 40s linear infinite}
+.pjl-track.is-paused{animation-play-state:paused}
+@keyframes pjlMove{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+@media (prefers-reduced-motion: reduce){.pjl-track{animation:none}}
+.oo-team .oo-person img{max-width:none}
+@media (max-width: 600px){.oo-pair{grid-template-columns:minmax(0,1fr) !important;gap:6px}.oo-pair-arrow{transform:rotate(90deg);height:24px}}
+.oo-person{transition:transform .9s cubic-bezier(.45,0,.2,1),box-shadow .9s ease}
+.oo-person:hover{transform:translateY(-8px);box-shadow:0 4px 8px rgba(31,36,108,.06),0 28px 52px rgba(31,36,108,.18) !important}
+.oo-person > div:first-child{transition:box-shadow .35s ease}
+.oo-team .oo-person:nth-child(1):hover > div:first-child{box-shadow:0 0 0 3px #FFFFFF,0 0 0 5px #EFE8FD}
+.oo-team .oo-person:nth-child(2):hover > div:first-child{box-shadow:0 0 0 3px #FFFFFF,0 0 0 5px #E3F1FD}
+.oo-team .oo-person:nth-child(3):hover > div:first-child{box-shadow:0 0 0 3px #FFFFFF,0 0 0 5px #FFF6CC}
+.oo-team .oo-person:nth-child(4):hover > div:first-child{box-shadow:0 0 0 3px #FFFFFF,0 0 0 5px #EFE8FD}
+.oo-team .oo-person:nth-child(5):hover > div:first-child{box-shadow:0 0 0 3px #FFFFFF,0 0 0 5px #E3F1FD}
+.oo-team .oo-person:nth-child(6):hover > div:first-child{box-shadow:0 0 0 3px #FFFFFF,0 0 0 5px #FFF6CC}
+.oo-person img{transition:transform 1.1s cubic-bezier(.45,0,.2,1);transform-origin:50% 92%;will-change:transform}
+.oo-person:hover img{transform:translateY(-10%) scale(1.3) rotate(-2deg)}
+.oo-person strong{transition:color .25s ease}
+.oo-mail{transition:background .25s ease,color .25s ease,transform .25s ease}
+.oo-mail:hover,.oo-mail:focus-visible{background:linear-gradient(90deg,#8639FA 0%,#0F8AE5 100%) !important;color:#FFFFFF !important;transform:scale(1.06)}
+.oo-person:hover strong{color:#8639FA !important}
+.oo-join{transition:transform .35s cubic-bezier(.2,.7,.2,1)}
+.oo-join:hover{transform:translateY(-8px)}
+.oo-join > div:first-child{transition:transform .6s cubic-bezier(.2,.7,.2,1)}
+.oo-join:hover > div:first-child{transform:rotate(-12deg) scale(1.08)}
+@media (prefers-reduced-motion: reduce){.oo-person,.oo-person img,.oo-join,.oo-join > div:first-child{transition:none}}
+.oo-hero .wbt{animation:none}
+.main-nav > a:not(.glow):hover, .main-nav > .nav-dd:hover > a{color:#8639FA !important}
+.oo-hero .oo-spark{transform-box:fill-box;transform-origin:center}
+.oo-hero .wbt-ring{animation:none;transform-box:view-box;transform-origin:220px 222px}
+@media (max-width: 1024px){.oo-recog{grid-template-columns:repeat(2,minmax(0,1fr)) !important}.oo-recog > li{margin-top:0 !important}.oo-bridge{grid-template-columns:minmax(0,1fr) !important}}
+@media (max-width: 600px){.oo-recog{grid-template-columns:minmax(0,1fr) !important}}
+@media (max-width: 1024px){.oo-vals{grid-template-columns:repeat(2,minmax(0,1fr)) !important}.oo-team{grid-template-columns:repeat(3,minmax(0,1fr)) !important}.oo-join{grid-column:span 3 !important}.oo-story{grid-template-columns:minmax(0,1fr) !important}.oo-disc{grid-template-columns:repeat(2,minmax(0,1fr)) !important}.oo-help{padding:36px 28px !important}.oo-quote{padding:36px 24px 32px !important}.oo-steps-line{display:none}.oo-mind{grid-template-columns:minmax(0,1fr) !important}.oo-steps{grid-template-columns:minmax(0,1fr) !important}}
+@media (max-width: 600px){.oo-disc{grid-template-columns:minmax(0,1fr) !important;margin-top:40px !important}}
+@media (max-width: 1024px){.oo-why-top,.oo-why-card{grid-template-columns:minmax(0,1fr) !important}}
+@media (max-width: 1024px){.oo-org{grid-template-columns:minmax(0,1fr) !important}}
+@media (max-width: 600px){.oo-org{padding:36px 22px !important;margin-bottom:48px !important}.oo-org-dept{padding:22px 18px !important}.oo-org-av{width:44px !important;height:44px !important;margin-left:-10px !important}.oo-org-av:first-child{margin-left:0 !important}}
+@media (max-width: 900px){.oo-steps3{grid-template-columns:minmax(0,1fr) !important;gap:12px !important}}
+@media (max-width: 900px){.oo-cult3{grid-template-columns:minmax(0,1fr) !important}}
+@media (max-width: 1024px){.oo-vals{gap:40px 0 !important}.oo-valcol:nth-child(3){border-left:0 !important;padding-left:0 !important}}
+@media (max-width: 600px){.oo-valcol{border-left:0 !important;padding:0 0 28px !important;border-bottom:1px solid rgba(255,255,255,.16)}.oo-valcol:last-child{border-bottom:0;padding-bottom:0 !important}.oo-vals{gap:28px !important}}
+.oo-hero .about-link:hover .l2-txt,.oo-hero .about-link:focus-visible .l2-txt{background:linear-gradient(90deg,#B48DFF 0%,#5EC0FA 50%,#B48DFF 100%) 0 0/200% 100% !important;-webkit-background-clip:text !important;background-clip:text !important}
+.oo-pop{opacity:1 !important;clip-path:ellipse(31.25% 45.4545% at 50% 100%);transition:clip-path 1.1s cubic-bezier(.45,0,.2,1)}
+.oo-person:hover .oo-pop{clip-path:ellipse(200% 200% at 50% 100%)}
+@media (prefers-reduced-motion: reduce){.oo-pop{display:none}}
+.oo-wdeco-dot1{animation:ooWbob 3.2s ease-in-out infinite}
+.oo-wdeco-plus{transform-box:fill-box;transform-origin:center;animation:ooWspin 8s linear infinite}
+@keyframes ooWspin{to{transform:rotate(360deg)}}
+@keyframes ooWbob{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+@media (prefers-reduced-motion: reduce){.oo-wdeco-sparks *{animation:none !important}}
+@media (max-width: 600px){.oo-wdeco{transform:translate(10px,10px) rotate(3deg) !important}}
+.oo-chat-typing .oo-t2{display:none}
+.oo-chat-typing.is-alt .oo-t1{display:none}
+.oo-chat-typing.is-alt .oo-t2{display:inline}
+.oo-chat-typing.is-alt span.oo-t2[aria-hidden]{display:block}
+.oo-chat-anim .oo-chat-msg{opacity:0;transform:translateY(10px);transition:opacity .45s ease,transform .45s ease}
+.oo-chat-anim.is-on .oo-chat-msg{opacity:1;transform:none}
+.oo-chat-anim.is-on .oo-chat-msg:nth-child(1){transition-delay:0.0s}
+.oo-chat-anim.is-on .oo-chat-msg:nth-child(2){transition-delay:0.7s}
+.oo-chat-anim.is-on .oo-chat-msg:nth-child(3){transition-delay:1.4s}
+.oo-chat-anim.is-on .oo-chat-msg:nth-child(4){transition-delay:2.1s}
+.oo-chat-anim.is-on .oo-chat-msg:nth-child(5){transition-delay:2.8s}
+.oo-chat-anim.is-on .oo-chat-msg:nth-child(6){transition-delay:3.5s}
+@keyframes ooDot{0%,60%,100%{transform:translateY(0)}30%{transform:translateY(-4px)}}
+.oo-chat-typing .oo-dot{animation:ooDot 1.2s ease-in-out infinite}
+.oo-chat-typing .oo-dot:nth-child(2){animation-delay:.15s}
+.oo-chat-typing .oo-dot:nth-child(3){animation-delay:.3s}
+@media (prefers-reduced-motion: reduce){.oo-chat-anim .oo-chat-msg{opacity:1;transform:none;transition:none}.oo-chat-typing .oo-dot{animation:none}}
+@media (max-width: 600px){.oo-wie-logo{padding:22px 26px 24px !important}.oo-wie-logo span:first-child{font-size:44px !important}.oo-wie-logo span:last-child{font-size:16px !important}}
+.oo-meet-link{display:inline-block;transition:transform .25s ease,color .25s ease}
+.oo-meet-link .oo-arr{transition:transform .25s ease}
+.oo-meet-link:hover,.oo-meet-link:focus-visible{transform:translateY(-2px);color:#0F8AE5 !important}
+.oo-meet-link:hover .oo-arr,.oo-meet-link:focus-visible .oo-arr{transform:translateX(4px)}
+@media (prefers-reduced-motion: reduce){.oo-meet-link,.oo-meet-link .oo-arr{transition:none}.oo-meet-link:hover,.oo-meet-link:focus-visible{transform:none}}
+@media (max-width: 600px){.oo-wlogo-wrap{align-self:stretch !important}.oo-wie-logo{padding:26px 20px 56px !important}.oo-meet{gap:10px !important;padding:10px 16px 10px 10px !important;max-width:calc(100% - 24px) !important}.oo-meet > span:first-child > span{width:32px !important;height:32px !important;margin-left:-10px !important;box-shadow:0 0 0 3px #FFFFFF !important}.oo-meet > span:first-child > span:first-child{margin-left:0 !important}.oo-meet strong{font-size:14px !important}.oo-meet .oo-meet-link{font-size:13px !important}}
+@media (max-width: 600px){.oo-why{padding:80px 20px !important}.oo-why-card{padding:32px 24px !important}}
+@media (max-width: 600px){.oo-vals{grid-template-columns:minmax(0,1fr) !important}.oo-team{grid-template-columns:repeat(2,minmax(0,1fr)) !important;gap:14px !important}.oo-join{grid-column:span 2 !important;padding:28px !important}.oo-person{padding:20px 12px !important}.oo-person strong{font-size:20px !important}.oo-person span{font-size:13px !important}}

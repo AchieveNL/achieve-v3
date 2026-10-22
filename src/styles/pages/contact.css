@@ -1,0 +1,55 @@
+/* Contact.dc.html: rules on top of projecten.css and case.css */
+@media (max-width: 1000px){.ct-ways{grid-template-columns:minmax(0,1fr) !important}.ct-form{grid-template-columns:minmax(0,1fr) !important}.ct-form > div:first-child{position:static !important}}
+@media (max-width: 720px){.ct-ways{margin-top:40px !important}.ct-card{padding:28px !important}.ct-two{grid-template-columns:minmax(0,1fr) !important}.ct-wb{padding:28px 24px !important}section.wb-hero{min-height:0 !important}.wb-map{height:520px !important}.wb-map-card{left:12px !important;right:12px !important;top:auto !important;bottom:12px !important;max-width:none !important}}
+.sv-hero-ill{animation:svIllFloat 6s ease-in-out infinite}
+@keyframes svIllFloat{0%,100%{transform:translateY(-50%)}50%{transform:translateY(calc(-50% - 10px))}}
+@media (prefers-reduced-motion: reduce){.sv-hero-ill{animation:none}}
+@media (min-width: 961px){.wb-hero h1{font-size:clamp(44px, 5vw, 74px) !important;max-width:760px !important}}
+@media (max-width: 1180px){.sv-hero-ill{width:260px !important;height:260px !important;opacity:.9}}
+@media (max-width: 960px){.sv-hero-ill{display:none !important}}
+.sv-hero-ill svg{animation:iaIn .7s cubic-bezier(.2,.8,.3,1.2) both}
+.sv-hero-ill svg *{transform-box:fill-box;transform-origin:center}
+.ia-ring{animation:iaSpin 50s linear infinite}
+.ia-tw{animation:iaTw 2.8s ease-in-out var(--d,0s) infinite}
+.ia-pop{animation:iaPop .5s cubic-bezier(.2,.8,.3,1.5) var(--d,.8s) both}
+.ia-draw{stroke-dasharray:1;stroke-dashoffset:1;animation:iaDraw .7s ease-out var(--d,.8s) both}
+.ia-grow{transform-origin:50% 100% !important;animation:iaGrow .6s cubic-bezier(.2,.8,.3,1.2) var(--d,.6s) both}
+.ia-prog{transform-origin:0 50% !important;animation:iaProg 5s ease-in-out var(--d,.8s) infinite}
+.ia-click{transform-origin:10% 10% !important;animation:iaFlyIn .6s ease-out var(--d,1s) both,iaClick 3.2s ease-in-out calc(var(--d,1s) + .8s) infinite}
+.ia-pulse{animation:iaPulse 2.6s ease-in-out var(--d,1.2s) infinite}
+.ia-beat{animation:iaPop .5s cubic-bezier(.2,.8,.3,1.5) var(--d,1s) both,iaBeat 1.8s ease-in-out calc(var(--d,1s) + .8s) infinite}
+.ia-rise{animation:iaRise 3.6s ease-in-out var(--d,1s) infinite both}
+.ia-blink{animation:iaBlink 1.8s ease-in-out var(--d,0s) infinite}
+.ia-type{animation:iaType 1.4s ease-in-out var(--d,.8s) infinite}
+.ia-march{animation:iaMarch 1s linear infinite}
+.ia-drop{animation:iaDrop .8s cubic-bezier(.3,1.5,.5,1) var(--d,.7s) both}
+.ia-slide{animation:iaSlide .7s cubic-bezier(.2,.8,.3,1.2) var(--d,.5s) both}
+.ia-wig{transform-origin:50% 100% !important;animation:iaPop .5s cubic-bezier(.2,.8,.3,1.5) var(--d,1s) both,iaWig 3s ease-in-out calc(var(--d,1s) + .6s) infinite}
+.ia-swing{transform-origin:0% 50% !important;animation:iaPop .5s cubic-bezier(.2,.8,.3,1.5) var(--d,1s) both,iaWig 3.4s ease-in-out calc(var(--d,1s) + .6s) infinite}
+@keyframes iaIn{from{opacity:0;transform:scale(.85)}to{opacity:1;transform:none}}
+@keyframes iaSpin{to{transform:rotate(360deg)}}
+@keyframes iaTw{0%,100%{opacity:1;transform:none}50%{opacity:.35;transform:scale(.7)}}
+@keyframes iaPop{from{opacity:0;transform:scale(0)}to{opacity:1;transform:none}}
+@keyframes iaDraw{to{stroke-dashoffset:0}}
+@keyframes iaGrow{from{transform:scaleY(0)}to{transform:none}}
+@keyframes iaProg{0%{transform:scaleX(.15)}60%,100%{transform:scaleX(1)}}
+@keyframes iaFlyIn{from{opacity:0;transform:translate(40px,40px)}to{opacity:1;transform:none}}
+@keyframes iaClick{0%,70%,100%{transform:none}78%{transform:scale(.82)}86%{transform:none}}
+@keyframes iaPulse{0%,100%{transform:none}50%{transform:scale(1.1)}}
+@keyframes iaBeat{0%,100%{transform:none}15%{transform:scale(1.18)}30%{transform:none}45%{transform:scale(1.1)}}
+@keyframes iaRise{0%{opacity:0;transform:translateY(16px) scale(.7)}20%,70%{opacity:1;transform:none}100%{opacity:0;transform:translateY(-22px)}}
+@keyframes iaBlink{0%,100%{opacity:1}50%{opacity:.25}}
+@keyframes iaType{0%,60%,100%{transform:none}30%{transform:translateY(-7px)}}
+@keyframes iaMarch{to{stroke-dashoffset:-13}}
+@keyframes iaDrop{from{opacity:0;transform:translateY(-60px)}to{opacity:1;transform:none}}
+@keyframes iaSlide{from{opacity:0;transform:translateY(40px)}to{opacity:1;transform:none}}
+@keyframes iaWig{0%,100%{transform:none}50%{transform:rotate(-5deg)}}
+@media (prefers-reduced-motion: reduce){.sv-hero-ill svg,.sv-hero-ill svg *{animation:none !important;stroke-dashoffset:0 !important}}
+@media (max-width: 720px){.wb-map{height:auto !important;grid-template-columns:minmax(0,1fr) !important;gap:16px !important}.wb-map-card{order:0 !important;padding:26px 24px !important}.wb-map .wb-art{width:1103px !important;height:380px !important;left:calc(50% - 551px) !important;right:auto !important;bottom:auto !important}}
+.kb-pin{transform-box:fill-box;transform-origin:50% 100%;animation:kbSway 4s ease-in-out infinite alternate}
+@keyframes kbSway{0%{transform:rotate(-8deg)}100%{transform:rotate(8deg)}}
+@media (prefers-reduced-motion: reduce){.kb-pin{animation:none}}
+.kb-ring{transform-box:fill-box;transform-origin:center;animation:kbPulse 2.8s ease-out infinite}
+.kb-ring2{animation-delay:1.4s}
+@keyframes kbPulse{0%{transform:scale(.3);opacity:1}100%{transform:scale(1.4);opacity:0}}
+@media (prefers-reduced-motion: reduce){.kb-ring{animation:none;opacity:.6}}

@@ -1,0 +1,120 @@
+/* Privacy.dc.html: rules on top of projecten.css and case.css */
+body{margin:0;background:#FFFFFF;font-family:'Poppins',system-ui,sans-serif;color:#1F246C}
+a{color:#1F246C}
+a:hover{color:#8639FA}
+.grad-text{background:linear-gradient(90deg,#8639FA 0%,#0F8AE5 100%);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;color:#8639FA}
+.ty-btn{position:relative;overflow:hidden;isolation:isolate;transition:background-color .3s ease,transform .3s ease,box-shadow .3s ease}
+.ty-btn:hover,.ty-btn:focus-visible{background:#FAE84E !important;transform:translateY(-2px);box-shadow:none}
+.ty-btn::after{content:"";position:absolute;top:0;left:0;width:45%;height:100%;background:linear-gradient(100deg,rgba(255,255,255,0) 0%,rgba(255,255,255,.28) 50%,rgba(255,255,255,0) 100%);transform:translateX(-160%) skewX(-18deg);pointer-events:none}
+.ty-btn:hover::after,.ty-btn:focus-visible::after{animation:tyWink .9s ease-out 1 forwards}
+@keyframes tyWink{0%{transform:translateX(-160%) skewX(-18deg)}100%{transform:translateX(320%) skewX(-18deg)}}
+.ty-ghost{transition:background-color .25s ease,color .25s ease,transform .25s ease}
+.ty-ghost:hover,.ty-ghost:focus-visible{background:#FFFFFF !important;color:#1F246C !important;transform:translateY(-2px)}
+.ty-sa{flex-shrink:0;max-width:0;opacity:0;margin-left:0;transform:translateX(-8px);transition:max-width .35s ease,opacity .3s ease,margin-left .35s ease,transform .35s ease}
+.ty-btn:hover .ty-sa,.ty-btn:focus-visible .ty-sa,.ty-ghost:hover .ty-sa,.ty-ghost:focus-visible .ty-sa{max-width:18px;opacity:1;margin-left:10px;transform:none}
+.ty-arr{width:36px;height:36px;border-radius:999px;border:1px solid #D5D8E3;display:inline-flex;align-items:center;justify-content:center;transition:background .3s ease,color .3s ease,border-color .3s ease,transform .3s ease}
+.ty-back:hover .ty-arr,.ty-back:focus-visible .ty-arr{background:#0F8AE5;border-color:transparent;color:#FFFFFF;transform:translateX(-4px)}
+@media (prefers-reduced-motion: reduce){.ty-btn,.ty-ghost,.ty-arr,.ty-sa{transition:none}.ty-btn:hover,.ty-ghost:hover{transform:none}.ty-btn:hover::after{animation:none}}
+@media (max-width: 720px){
+.ty-wrap{padding-left:20px !important;padding-right:20px !important}
+.ty-hero{padding-top:48px !important;padding-bottom:56px !important}
+.ty-steps{grid-template-columns:minmax(0,1fr) !important}
+.ty-cta{padding:28px 24px !important}
+}
+.ty-back{transition:transform .25s ease}
+.ty-back:hover,.ty-back:focus-visible{transform:translateY(-2px)}
+@media (prefers-reduced-motion: reduce){.ty-back:hover,.ty-back:focus-visible{transform:none}}
+.ty-back:hover .l2-txt,.ty-back:focus-visible .l2-txt{color:transparent !important;background:linear-gradient(90deg,#8639FA 0%,#0F8AE5 50%,#8639FA 100%) 0 0/200% 100%;-webkit-background-clip:text;background-clip:text;animation:tyFlow 2.4s linear infinite}
+@media (prefers-reduced-motion: reduce){.ty-back:hover .l2-txt,.ty-back:focus-visible .l2-txt{animation:none}}
+@keyframes tyFlow{0%{background-position:0% 0}100%{background-position:200% 0}}
+.ty-ill{width:240px;height:240px;margin-bottom:-8px;animation:tyIllFloat 6s ease-in-out infinite}
+@keyframes tyIllFloat{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+@media (prefers-reduced-motion: reduce){.ty-ill{animation:none}}
+@media (max-width: 720px){.ty-ill{width:180px;height:180px}}
+.ty-ill svg *{transform-box:view-box}
+.ty-a-env{transform-origin:224px 246px;animation:tyPop .6s cubic-bezier(.2,.8,.3,1.2) .1s both}
+.ty-a-cal{transform-origin:127px 136px;animation:tyDrop .6s cubic-bezier(.2,.8,.3,1.2) .45s both}
+.ty-a-day{transform-origin:148px 140px;animation:tyPulse 2.4s ease-in-out 2.2s infinite}
+.ty-a-badge{transform-origin:300px 300px;animation:tyPop .55s cubic-bezier(.2,.8,.3,1.4) 1.3s both}
+.ty-a-check{stroke-dasharray:1;stroke-dashoffset:1;animation:tyDraw .4s ease-out 1.65s both}
+.ty-a-tw1,.ty-a-tw2,.ty-a-tw3{animation:tyTwinkle 2.8s ease-in-out infinite}
+.ty-a-tw1{transform-origin:70px 300px;animation-delay:2s}
+.ty-a-tw2{transform-origin:360px 318px;animation-delay:2.6s}
+.ty-a-tw3{transform-origin:352px 190px;animation-delay:2.3s}
+.ty-a-ring{transform-origin:210px 215px;animation:tySpin 40s linear infinite}
+.ty-a-star{transform-origin:300px 116px;animation:tyStar .6s cubic-bezier(.2,.8,.3,1.5) 1.75s both,tyGlow 3s ease-in-out 2.6s infinite}
+.ty-a-rays{stroke-dasharray:1;stroke-dashoffset:1;animation:tyDraw .35s ease-out 2s both}
+.ty-a-conf{animation:tyBurst .7s cubic-bezier(.2,.9,.3,1) 1.85s both,tyBob 3.4s ease-in-out 2.6s infinite}
+@keyframes tyStar{from{opacity:0;transform:scale(0) rotate(-120deg)}to{opacity:1;transform:none}}
+@keyframes tyGlow{0%,100%{transform:none}50%{transform:scale(1.12) rotate(12deg)}}
+@keyframes tyBurst{from{opacity:0;transform:translate(var(--dx),var(--dy)) scale(.3)}to{opacity:1;transform:none}}
+@keyframes tyBob{0%,100%{translate:0 0}50%{translate:0 -5px}}
+@keyframes tyPop{from{opacity:0;transform:scale(.6)}to{opacity:1;transform:none}}
+@keyframes tyDrop{from{opacity:0;transform:translateY(-26px) rotate(-10deg)}to{opacity:1;transform:none}}
+@keyframes tyDraw{to{stroke-dashoffset:0}}
+@keyframes tyPulse{0%,100%{transform:none}50%{transform:scale(1.35)}}
+@keyframes tyTwinkle{0%,100%{opacity:1;transform:none}50%{opacity:.35;transform:scale(.7)}}
+@keyframes tySpin{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion: reduce){.ty-ill svg *{animation:none !important;stroke-dashoffset:0 !important}}
+.nf-ill{width:260px;height:260px;margin-bottom:-8px;animation:nfFloat 6s ease-in-out infinite}
+@keyframes nfFloat{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+.nf-ill svg *{transform-box:fill-box;transform-origin:center}
+.nf-ground{animation:nfPop .5s ease-out .1s both}
+.nf-post{transform-origin:50% 100% !important;animation:nfGrow .6s cubic-bezier(.2,.8,.3,1.2) .2s both}
+.nf-b1,.nf-b2,.nf-b3{animation:nfPop .5s cubic-bezier(.2,.8,.3,1.5) both,nfSwing 4s ease-in-out infinite}
+.nf-b1{transform-origin:0% 50% !important;animation-delay:.7s,1.8s}
+.nf-b2{transform-origin:100% 50% !important;animation-delay:.9s,2.4s}
+.nf-b3{transform-origin:0% 50% !important;animation-delay:1.1s,3s}
+@keyframes nfGrow{from{transform:scaleY(0)}to{transform:none}}
+@keyframes nfSwing{0%,100%{transform:none}50%{transform:rotate(-4deg)}}
+.nf-ring{animation:nfSpin 50s linear infinite}
+.nf-tw{animation:nfTw 2.8s ease-in-out var(--d,0s) infinite}
+@keyframes nfPop{from{opacity:0;transform:scale(.4)}to{opacity:1;transform:none}}
+@keyframes nfSpin{to{transform:rotate(360deg)}}
+@keyframes nfTw{0%,100%{opacity:1;transform:none}50%{opacity:.35;transform:scale(.7)}}
+@media (prefers-reduced-motion: reduce){.nf-ill,.nf-ill svg *{animation:none !important}}
+@media (max-width: 720px){.nf-ill{width:190px;height:190px}.nf-links{grid-template-columns:minmax(0,1fr) !important}}
+.btn-outline{position:relative;overflow:hidden;isolation:isolate;display:inline-flex;align-items:center;transition:background-color .3s ease,color .3s ease,transform .25s ease}
+.btn-outline:hover,.btn-outline:focus-visible{background:#1F246C !important;color:#FFFFFF !important;transform:translateY(-2px)}
+.btn-outline::after{content:"";position:absolute;top:0;left:0;width:45%;height:100%;background:linear-gradient(100deg,rgba(255,255,255,0) 0%,rgba(255,255,255,.28) 50%,rgba(255,255,255,0) 100%);transform:translateX(-160%) skewX(-18deg);pointer-events:none}
+.btn-outline:hover::after,.btn-outline:focus-visible::after{animation:tyWink .9s ease-out 1 forwards}
+.nf-card{transition:transform .25s ease,box-shadow .25s ease}
+.nf-card:hover,.nf-card:focus-visible{transform:translateY(-4px);box-shadow:0 14px 30px rgba(31,36,108,.10)}
+.nf-card:hover .ty-arr,.nf-card:focus-visible .ty-arr{background:#0F8AE5;border-color:transparent;color:#FFFFFF;transform:translateX(4px)}
+.nf-card:hover .l2-txt,.nf-card:focus-visible .l2-txt{color:transparent !important;background:linear-gradient(90deg,#8639FA 0%,#0F8AE5 50%,#8639FA 100%) 0 0/200% 100%;-webkit-background-clip:text;background-clip:text;animation:tyFlow 2.4s linear infinite}
+.ty-head-r{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+[dir="rtl"] .ty-arr svg,[dir="rtl"] .nf-arr svg{transform:scaleX(-1)}
+[dir="rtl"] .lang-m > sc-if > div,[dir="rtl"] .lang-m div:is([style*="right: 0"],[style*="right:0"]){right:auto !important;left:0}
+.lg-tab{transition:background-color .25s ease,border-color .25s ease}
+.lg-tab:hover,.lg-tab:focus-visible{background:#F2F8FE !important;border-color:#1F246C !important}
+.lg-toc{transition:color .2s ease,transform .2s ease}
+.lg-toc:hover,.lg-toc:focus-visible{color:#8639FA !important;transform:translateX(3px)}
+.lg-acc summary::-webkit-details-marker{display:none}
+.lg-acc summary:hover .lg-chev,.lg-acc summary:focus-visible .lg-chev{background:#0F8AE5;border-color:transparent;color:#FFFFFF !important}
+.lg-chev{transition:transform .3s ease,background .25s ease,color .25s ease}
+.lg-acc[open] .lg-chev{transform:rotate(180deg)}
+.lg-acc[open]{border-color:#B9C4F2 !important;box-shadow:0 10px 28px rgba(31,36,108,.06)}
+@media (prefers-reduced-motion: reduce){.lg-toc,.lg-chev{transition:none}}
+@media (max-width: 720px){
+.lg-aside{max-width:none !important}
+.lg-list{grid-template-columns:minmax(0,1fr) !important}
+.lg-card{grid-template-columns:minmax(0,1fr) !important;padding:24px !important}
+.lg-acc summary{padding:16px 18px !important;flex-wrap:wrap;gap:6px 12px !important}
+.lg-acc summary > span:first-child{min-width:0 !important;flex-basis:100% !important}
+.lg-acc > div{padding:4px 18px 22px !important}
+}
+@media (prefers-reduced-motion: reduce){.social-btn:hover::after,.social-btn:focus-visible::after{animation:none;opacity:0}
+.social-btn:hover,.social-btn:focus-visible{animation:none}}
+@media (max-width: 600px){footer > div{padding-left:20px !important;padding-right:20px !important}}
+@media (max-width: 600px){footer :is([style*="flex: 0 1 820px"],[style*="flex:0 1 820px"]){grid-template-columns:minmax(0,1fr) !important;gap:0 !important;flex:1 1 100% !important;max-width:none !important}
+footer nav[style*="border-left"]{border-left:none !important;border-top:1px solid rgba(255,255,255,0.14) !important;padding:28px 0 !important;gap:16px !important}
+footer nav[aria-label="Onze diensten"] ul{display:grid !important;grid-template-columns:repeat(2,minmax(0,1fr));gap:2px 16px !important}
+footer nav ul{font-size:15px !important}
+footer nav ul a{padding:8px 0 !important}}
+@media (max-width: 600px){footer{padding-bottom:76px}}
+.social-btn::after{background:linear-gradient(100deg,rgba(255,255,255,0) 0%,rgba(255,255,255,0.28) 50%,rgba(255,255,255,0) 100%) !important;opacity:1 !important;transform:translateX(-160%) skewX(-18deg)}
+.social-btn:hover::after,.social-btn:focus-visible::after{opacity:1 !important;animation:featWink .9s ease-out 1 forwards !important}
+@media (prefers-reduced-motion: reduce){.social-btn:hover::after,.social-btn:focus-visible::after{animation:none !important}}
+.social-btn{transition:background-color .25s ease,color .25s ease,border-color .25s ease,transform .25s ease !important}
+.social-btn:hover,.social-btn:focus-visible{transform:translateY(-2px) !important}
+@media (prefers-reduced-motion: reduce){.social-btn:hover{transform:none !important}}

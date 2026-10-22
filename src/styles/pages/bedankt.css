@@ -1,0 +1,61 @@
+/* Bedankt.dc.html: rules on top of projecten.css and case.css */
+body{margin:0;background:#FFFFFF;font-family:'Poppins',system-ui,sans-serif;color:#1F246C}
+a{color:#1F246C}
+a:hover{color:#8639FA}
+.grad-text{background:linear-gradient(90deg,#8639FA 0%,#0F8AE5 100%);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;color:#8639FA}
+.ty-btn{position:relative;overflow:hidden;isolation:isolate;transition:background-color .3s ease,transform .3s ease,box-shadow .3s ease}
+.ty-btn:hover,.ty-btn:focus-visible{background:#FAE84E !important;transform:translateY(-2px);box-shadow:none}
+.ty-btn::after{content:"";position:absolute;top:0;left:0;width:45%;height:100%;background:linear-gradient(100deg,rgba(255,255,255,0) 0%,rgba(255,255,255,.28) 50%,rgba(255,255,255,0) 100%);transform:translateX(-160%) skewX(-18deg);pointer-events:none}
+.ty-btn:hover::after,.ty-btn:focus-visible::after{animation:tyWink .9s ease-out 1 forwards}
+@keyframes tyWink{0%{transform:translateX(-160%) skewX(-18deg)}100%{transform:translateX(320%) skewX(-18deg)}}
+.ty-ghost{transition:background-color .25s ease,color .25s ease,transform .25s ease}
+.ty-ghost:hover,.ty-ghost:focus-visible{background:#FFFFFF !important;color:#1F246C !important;transform:translateY(-2px)}
+.ty-sa{flex-shrink:0;max-width:0;opacity:0;margin-left:0;transform:translateX(-8px);transition:max-width .35s ease,opacity .3s ease,margin-left .35s ease,transform .35s ease}
+.ty-btn:hover .ty-sa,.ty-btn:focus-visible .ty-sa,.ty-ghost:hover .ty-sa,.ty-ghost:focus-visible .ty-sa{max-width:18px;opacity:1;margin-left:10px;transform:none}
+.ty-arr{width:36px;height:36px;border-radius:999px;border:1px solid #D5D8E3;display:inline-flex;align-items:center;justify-content:center;transition:background .3s ease,color .3s ease,border-color .3s ease,transform .3s ease}
+.ty-back:hover .ty-arr,.ty-back:focus-visible .ty-arr{background:#0F8AE5;border-color:transparent;color:#FFFFFF;transform:translateX(-4px)}
+@media (prefers-reduced-motion: reduce){.ty-btn,.ty-ghost,.ty-arr,.ty-sa{transition:none}.ty-btn:hover,.ty-ghost:hover{transform:none}.ty-btn:hover::after{animation:none}}
+@media (max-width: 720px){
+.ty-wrap{padding-left:20px !important;padding-right:20px !important}
+.ty-hero{padding-top:48px !important;padding-bottom:56px !important}
+.ty-steps{grid-template-columns:minmax(0,1fr) !important}
+.ty-cta{padding:28px 24px !important}
+}
+.ty-back{transition:transform .25s ease}
+.ty-back:hover,.ty-back:focus-visible{transform:translateY(-2px)}
+@media (prefers-reduced-motion: reduce){.ty-back:hover,.ty-back:focus-visible{transform:none}}
+.ty-back:hover .l2-txt,.ty-back:focus-visible .l2-txt{color:transparent !important;background:linear-gradient(90deg,#8639FA 0%,#0F8AE5 50%,#8639FA 100%) 0 0/200% 100%;-webkit-background-clip:text;background-clip:text;animation:tyFlow 2.4s linear infinite}
+@media (prefers-reduced-motion: reduce){.ty-back:hover .l2-txt,.ty-back:focus-visible .l2-txt{animation:none}}
+@keyframes tyFlow{0%{background-position:0% 0}100%{background-position:200% 0}}
+.ty-ill{width:240px;height:240px;margin-bottom:-8px;animation:tyIllFloat 6s ease-in-out infinite}
+@keyframes tyIllFloat{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+@media (prefers-reduced-motion: reduce){.ty-ill{animation:none}}
+@media (max-width: 720px){.ty-ill{width:180px;height:180px}}
+.ty-ill svg *{transform-box:view-box}
+.ty-a-env{transform-origin:224px 246px;animation:tyPop .6s cubic-bezier(.2,.8,.3,1.2) .1s both}
+.ty-a-cal{transform-origin:127px 136px;animation:tyDrop .6s cubic-bezier(.2,.8,.3,1.2) .45s both}
+.ty-a-day{transform-origin:148px 140px;animation:tyPulse 2.4s ease-in-out 2.2s infinite}
+.ty-a-badge{transform-origin:300px 300px;animation:tyPop .55s cubic-bezier(.2,.8,.3,1.4) 1.3s both}
+.ty-a-check{stroke-dasharray:1;stroke-dashoffset:1;animation:tyDraw .4s ease-out 1.65s both}
+.ty-a-tw1,.ty-a-tw2,.ty-a-tw3{animation:tyTwinkle 2.8s ease-in-out infinite}
+.ty-a-tw1{transform-origin:70px 300px;animation-delay:2s}
+.ty-a-tw2{transform-origin:360px 318px;animation-delay:2.6s}
+.ty-a-tw3{transform-origin:352px 190px;animation-delay:2.3s}
+.ty-a-ring{transform-origin:210px 215px;animation:tySpin 40s linear infinite}
+.ty-a-star{transform-origin:300px 116px;animation:tyStar .6s cubic-bezier(.2,.8,.3,1.5) 1.75s both,tyGlow 3s ease-in-out 2.6s infinite}
+.ty-a-rays{stroke-dasharray:1;stroke-dashoffset:1;animation:tyDraw .35s ease-out 2s both}
+.ty-a-conf{animation:tyBurst .7s cubic-bezier(.2,.9,.3,1) 1.85s both,tyBob 3.4s ease-in-out 2.6s infinite}
+@keyframes tyStar{from{opacity:0;transform:scale(0) rotate(-120deg)}to{opacity:1;transform:none}}
+@keyframes tyGlow{0%,100%{transform:none}50%{transform:scale(1.12) rotate(12deg)}}
+@keyframes tyBurst{from{opacity:0;transform:translate(var(--dx),var(--dy)) scale(.3)}to{opacity:1;transform:none}}
+@keyframes tyBob{0%,100%{translate:0 0}50%{translate:0 -5px}}
+@keyframes tyPop{from{opacity:0;transform:scale(.6)}to{opacity:1;transform:none}}
+@keyframes tyDrop{from{opacity:0;transform:translateY(-26px) rotate(-10deg)}to{opacity:1;transform:none}}
+@keyframes tyDraw{to{stroke-dashoffset:0}}
+@keyframes tyPulse{0%,100%{transform:none}50%{transform:scale(1.35)}}
+@keyframes tyTwinkle{0%,100%{opacity:1;transform:none}50%{opacity:.35;transform:scale(.7)}}
+@keyframes tySpin{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion: reduce){.ty-ill svg *{animation:none !important;stroke-dashoffset:0 !important}}
+.ty-head-r{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+[dir="rtl"] .ty-arr svg,[dir="rtl"] .nf-arr svg{transform:scaleX(-1)}
+[dir="rtl"] .lang-m > sc-if > div,[dir="rtl"] .lang-m div:is([style*="right: 0"],[style*="right:0"]){right:auto !important;left:0}

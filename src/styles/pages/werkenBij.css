@@ -1,0 +1,44 @@
+/* WerkenBij.dc.html: rules on top of projecten.css and case.css */
+@media (max-width: 600px){
+.m-cta-bar{display:flex}
+}
+.wbr-row{overflow:hidden}
+.wbr-track{display:flex;width:max-content;animation:wbrL 70s linear infinite}
+.wbr-track.wbr-r{animation-name:wbrR;animation-duration:80s}
+@keyframes wbrL{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+@keyframes wbrR{from{transform:translateX(-50%)}to{transform:translateX(0)}}
+.wbr-rows:hover .wbr-track,.wbr.is-paused .wbr-track{animation-play-state:paused}
+@media (prefers-reduced-motion: reduce){.wbr-track{animation:none}}
+.wbr-card{position:relative;box-sizing:border-box;width:440px;min-height:300px;flex-shrink:0;margin-right:20px;background:#FFFFFF;border-radius:20px;padding:32px 36px 28px;display:flex;flex-direction:column;align-items:flex-start;gap:10px}
+.wbr-qwrap{position:relative;margin-top:8px;width:100%;flex:1;display:flex;flex-direction:column;gap:14px}
+.wbr-q{margin:0;font-size:16px;line-height:1.75;color:#3A4150;display:-webkit-box;-webkit-line-clamp:5;-webkit-box-orient:vertical;overflow:hidden}
+.wbr-more{position:static;align-self:flex-end;margin-top:auto;flex-shrink:0;width:36px;height:36px;border-radius:999px;border:1px solid #D5D8E3;background:#FFFFFF;color:#1F246C;display:inline-flex;align-items:center;justify-content:center;cursor:pointer;padding:0}
+.wbr-more:hover{background:#1F246C;color:#FFFFFF}
+@media (max-width: 720px){.wbr-card{width:300px;min-height:280px;padding:26px 24px 24px}}
+@media (max-width: 1100px){.wb-plus{grid-template-columns:repeat(2,minmax(0,1fr)) !important}.wb-plus > li{grid-column:auto !important}.wb-rev{grid-template-columns:repeat(2,minmax(0,1fr)) !important}}
+@media (max-width: 720px){.wb-two{grid-template-columns:minmax(0,1fr) !important}.wb-plus,.wb-rev{display:flex !important;overflow-x:auto;scroll-snap-type:x mandatory;gap:14px !important;margin:0 -20px !important;padding:0 20px 6px !important;scrollbar-width:none}.wb-plus::-webkit-scrollbar,.wb-rev::-webkit-scrollbar{display:none}.wb-plus > li,.wb-rev > figure{flex:0 0 82%;scroll-snap-align:start;grid-column:auto !important}.wb-two article{padding:28px !important}section.wb-hero{min-height:0 !important}#solliciteren{padding:72px 20px !important}.wb-dark{padding:72px 20px !important;margin-bottom:0 !important}#stagiairs{padding-top:72px !important}}
+.wb-map a.about-link{min-height:40px}
+@media (max-width: 720px){.wb-map{height:520px !important}.wb-map-card{left:12px !important;right:12px !important;top:auto !important;bottom:12px !important;max-width:none !important}}
+.wb-plus > li:nth-child(-n+3){grid-column:span 2}
+@media (max-width: 900px){.wb-why{grid-template-columns:minmax(0,1fr) !important}.wb-why-head{position:static !important}}
+@media (max-width: 720px){.wb-why-item{grid-template-columns:56px minmax(0,1fr) !important;gap:14px !important;padding:22px 0 !important}.wb-why-item > span{font-size:40px !important}}
+.wb-plus > li:nth-child(n+4){grid-column:span 3}
+.wbt-n{position:absolute;left:50%;bottom:-17px;transform:translateX(-50%);background:#FFFFFF;color:#1F246C;border-radius:999px;padding:4px 10px;font-size:12px;font-weight:700;white-space:nowrap;box-shadow:0 6px 16px rgba(14,17,40,.25)}
+.wbt{animation:wbtFloat 6s ease-in-out infinite}
+@keyframes wbtFloat{0%,100%{transform:translateY(-50%)}50%{transform:translateY(calc(-50% - 10px))}}
+.wbt-you{animation:wbtPulse 2.8s ease-in-out infinite}
+@keyframes wbtPulse{0%,100%{transform:scale(1)}50%{transform:scale(1.06)}}
+.wbt-ring{transform-origin:220px 222px;animation:wbtSpin 60s linear infinite}
+@keyframes wbtSpin{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion: reduce){.wbt,.wbt-you,.wbt-ring{animation:none}}
+@media (min-width: 961px){.wb-hero h1{font-size:clamp(44px, 5vw, 74px) !important;max-width:640px !important}}
+@media (max-width: 1180px){.wbt{width:340px !important;height:340px !important}.wbt-n{font-size:11px;padding:3px 8px}.wbt-you span{font-size:25px !important}}
+@media (max-width: 960px){.wbt{display:none !important}}
+@media (max-width: 720px){.wb-map{height:auto !important;grid-template-columns:minmax(0,1fr) !important;gap:16px !important}.wb-map-card{order:0 !important;padding:26px 24px !important}.wb-map .wb-art{width:1103px !important;height:380px !important;left:calc(50% - 551px) !important;right:auto !important;bottom:auto !important}}
+.kb-pin{transform-box:fill-box;transform-origin:50% 100%;animation:kbSway 4s ease-in-out infinite alternate}
+@keyframes kbSway{0%{transform:rotate(-8deg)}100%{transform:rotate(8deg)}}
+@media (prefers-reduced-motion: reduce){.kb-pin{animation:none}}
+.kb-ring{transform-box:fill-box;transform-origin:center;animation:kbPulse 2.8s ease-out infinite}
+.kb-ring2{animation-delay:1.4s}
+@keyframes kbPulse{0%{transform:scale(.3);opacity:1}100%{transform:scale(1.4);opacity:0}}
+@media (prefers-reduced-motion: reduce){.kb-ring{animation:none;opacity:.6}}
