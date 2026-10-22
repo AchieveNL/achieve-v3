@@ -34,6 +34,7 @@
 @media (max-width: 600px){.oo-org{padding:36px 22px !important;margin-bottom:48px !important}.oo-org-dept{padding:22px 18px !important}.oo-org-av{width:44px !important;height:44px !important;margin-left:-10px !important}.oo-org-av:first-child{margin-left:0 !important}}
 @media (max-width: 900px){.oo-steps3{grid-template-columns:minmax(0,1fr) !important;gap:12px !important}}
 @media (max-width: 900px){.oo-cult3{grid-template-columns:minmax(0,1fr) !important}}
+@media (max-width: 600px){.oo-wie-logo span:first-child{font-size:48px !important}.oo-wie-logo span:last-child{font-size:18px !important}}
 .oo-meet-link{display:inline-block;transition:transform .25s ease}
 .oo-meet-link .oo-arr{transition:transform .25s ease,color .25s ease}
 .oo-meet-link:hover,.oo-meet-link:focus-visible{transform:translateY(-2px);color:transparent !important;background:linear-gradient(90deg,#8639FA 0%,#0F8AE5 50%,#8639FA 100%) 0 0/200% 100%;-webkit-background-clip:text;background-clip:text;animation:featFlow 2.4s linear infinite}
