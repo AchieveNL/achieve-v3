@@ -40548,10 +40548,10 @@ export function TarievenContent() {
               letterSpacing: "-0.025em",
             }}
           >
+            {t("Klaar om te")}{" "}
             <Accent from="#FFFFFF" to="#FFFFFF">
-              <span style={{ color: "#FFFFFF" }}>{t("Twijfel")}</span>
-            </Accent>{" "}
-            {t("je nog?")}
+              <span style={{ color: "#FFFFFF" }}>{t("groeien?")}</span>
+            </Accent>
           </h2>
           <p style={{ margin: "0", maxWidth: "560px", fontSize: "18px", lineHeight: "1.6", color: "#FFFFFF" }}>
             {t("Vertel ons waar je naartoe wilt. Wij laten zien welk pakket je daar brengt.")}
