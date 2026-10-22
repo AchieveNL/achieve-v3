@@ -1,6 +1,7 @@
 /* OverOns.dc.html: rules on top of projecten.css, case.css and werkenBij.css */
 .oo-team .oo-person img{max-width:none}
 .oo-hero .wbt{animation:none}
+.oo-hero .oo-spark{transform-box:fill-box;transform-origin:center}
 .oo-hero .wbt-ring{animation:none;transform-box:view-box;transform-origin:220px 222px}
 @media (max-width: 1024px){.oo-recog{grid-template-columns:repeat(2,minmax(0,1fr)) !important}.oo-achiever{grid-template-columns:minmax(0,1fr) !important;padding:36px 28px !important}}
 @media (max-width: 600px){.oo-recog{grid-template-columns:minmax(0,1fr) !important}}
