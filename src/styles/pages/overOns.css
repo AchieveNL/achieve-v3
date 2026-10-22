@@ -15,7 +15,7 @@
 .oo-team .oo-person:nth-child(5):hover > div:first-child{box-shadow:0 0 0 3px #FFFFFF,0 0 0 5px #E3F1FD}
 .oo-team .oo-person:nth-child(6):hover > div:first-child{box-shadow:0 0 0 3px #FFFFFF,0 0 0 5px #FFF6CC}
 .oo-person img{transition:transform .5s cubic-bezier(.2,.7,.2,1);transform-origin:50% 100%}
-.oo-person:hover img{transform:scale(1.16) translateY(-12%) rotate(-2deg)}
+.oo-person:hover img{transform:scale(1.22) translateY(-17%) rotate(-2deg)}
 .oo-person strong{transition:color .25s ease}
 .oo-mail{transition:background .25s ease,color .25s ease,transform .25s ease}
 .oo-mail:hover,.oo-mail:focus-visible{background:linear-gradient(90deg,#8639FA 0%,#0F8AE5 100%) !important;color:#FFFFFF !important;transform:scale(1.06)}
@@ -38,8 +38,9 @@
 @media (max-width: 600px){.oo-org{padding:36px 22px !important;margin-bottom:48px !important}.oo-org-dept{padding:22px 18px !important}.oo-org-av{width:44px !important;height:44px !important;margin-left:-10px !important}.oo-org-av:first-child{margin-left:0 !important}}
 @media (max-width: 900px){.oo-steps3{grid-template-columns:minmax(0,1fr) !important;gap:12px !important}}
 @media (max-width: 900px){.oo-cult3{grid-template-columns:minmax(0,1fr) !important}}
+.oo-hero .about-link:hover .l2-txt,.oo-hero .about-link:focus-visible .l2-txt{color:#FFFFFF !important;background:none !important;-webkit-text-fill-color:#FFFFFF;animation:none !important}
 .oo-pop{transition:opacity .2s ease}
-.oo-person:hover .oo-pop{opacity:1}
+.oo-person:hover .oo-pop{opacity:1 !important}
 @media (prefers-reduced-motion: reduce){.oo-pop{display:none}}
 .oo-wdeco-dot1{animation:ooWbob 3.2s ease-in-out infinite}
 .oo-wdeco-plus{transform-box:fill-box;transform-origin:center;animation:ooWspin 8s linear infinite}
@@ -70,6 +71,6 @@
 .oo-meet-link:hover,.oo-meet-link:focus-visible{transform:translateY(-2px);color:#0F8AE5 !important}
 .oo-meet-link:hover .oo-arr,.oo-meet-link:focus-visible .oo-arr{transform:translateX(4px)}
 @media (prefers-reduced-motion: reduce){.oo-meet-link,.oo-meet-link .oo-arr{transition:none}.oo-meet-link:hover,.oo-meet-link:focus-visible{transform:none}}
-@media (max-width: 600px){.oo-meet{flex-direction:column;align-items:flex-start !important;border-radius:24px !important;padding:20px !important;gap:14px !important}}
+@media (max-width: 600px){.oo-wlogo-wrap{align-self:stretch !important}.oo-wie-logo{padding:26px 20px 56px !important}.oo-meet{gap:10px !important;padding:10px 16px 10px 10px !important;max-width:calc(100% - 24px) !important}.oo-meet > span:first-child > span{width:32px !important;height:32px !important;margin-left:-10px !important;box-shadow:0 0 0 3px #FFFFFF !important}.oo-meet > span:first-child > span:first-child{margin-left:0 !important}.oo-meet strong{font-size:14px !important}.oo-meet .oo-meet-link{font-size:13px !important}}
 @media (max-width: 600px){.oo-why{padding:80px 20px !important}.oo-why-card{padding:32px 24px !important}}
 @media (max-width: 600px){.oo-vals{grid-template-columns:minmax(0,1fr) !important}.oo-team{grid-template-columns:repeat(2,minmax(0,1fr)) !important;gap:14px !important}.oo-join{grid-column:span 2 !important;padding:28px !important}.oo-person{padding:20px 12px !important}.oo-person strong{font-size:20px !important}.oo-person span{font-size:13px !important}}
