@@ -373,3 +373,20 @@ html,body{overflow-x:clip}
 /* Main menu: links turn purple on hover, like the current page. */
 .main-nav > a:not(.glow), .main-nav > .nav-dd > a{transition:color .2s ease}
 .main-nav > a:not(.glow):hover, .main-nav > a:not(.glow):focus-visible, .main-nav > .nav-dd:hover > a, .main-nav > .nav-dd > a:focus-visible{color:#8639FA !important}
+
+/* Jump menu ("Op deze pagina") used outside the service pages: components/ui/JumpNav.tsx.
+   Same look as the .em-jump bar on the service pages. */
+.jn-bar{position:sticky;top:0;z-index:40;background:rgba(255,255,255,.92);-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px);border-bottom:1px solid #E4E6EA;transition:top .3s ease}
+.jn-in{max-width:1280px;margin:0 auto;padding:0 40px;box-sizing:border-box;display:flex;align-items:center;gap:4px;overflow-x:auto;scrollbar-width:none}
+.jn-in::-webkit-scrollbar{display:none}
+.jn-lbl{flex-shrink:0;margin-right:12px;font-size:13px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:#5A6273}
+.jn-bar .em-jl{position:relative;flex-shrink:0;display:inline-flex;align-items:center;min-height:52px;padding:0 12px;font-size:14px;font-weight:600;color:#3A4150;text-decoration:none;white-space:nowrap;transition:color .2s ease}
+.jn-bar .em-jl::after{content:"";position:absolute;left:12px;right:12px;bottom:0;height:3px;border-radius:3px 3px 0 0;background:linear-gradient(90deg,#8639FA 0%,#0F8AE5 100%);transform:scaleX(0);transition:transform .25s ease}
+.jn-bar .em-jl:hover,.jn-bar .em-jl:focus-visible,.jn-bar .em-jl.is-on{color:#1F246C}
+.jn-bar .em-jl.is-on::after{transform:scaleX(1)}
+.jn-bar .em-jl-cta{margin-left:auto;min-height:38px;padding:0 18px;border-radius:999px;background:#EFE8FD;color:#6B2BD9}
+.jn-bar .em-jl-cta::after{display:none}
+.jn-bar .em-jl-cta:hover,.jn-bar .em-jl-cta:focus-visible,.jn-bar .em-jl-cta.is-on{background:linear-gradient(90deg,#8639FA 0%,#0F8AE5 100%);color:#FFFFFF}
+html:has(.jn-bar){scroll-behavior:smooth}
+@media (prefers-reduced-motion: reduce){html:has(.jn-bar){scroll-behavior:auto}.jn-bar,.jn-bar .em-jl,.jn-bar .em-jl::after{transition:none !important}}
+@media (max-width: 720px){.jn-in{padding:0 12px}.jn-lbl{display:none}.jn-bar .em-jl{min-height:48px}.jn-bar .em-jl-cta{margin-left:4px}}

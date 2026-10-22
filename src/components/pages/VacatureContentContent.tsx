@@ -4,6 +4,7 @@ import { useTr } from "@/i18n/I18nProvider";
 import { sendLead, type LeadValue } from "@/lib/sendLead";
 import React, { useEffect, useState } from "react";
 import { Accent } from "@/components/ui/Accent";
+import { JumpNav } from "@/components/ui/JumpNav";
 
 export function VacatureContentContent() {
   const { t, ta, href } = useTr();
@@ -399,6 +400,7 @@ export function VacatureContentContent() {
           </a>
         </div>
       </section>
+      <JumpNav items={[{ id: "functie", label: t("De functie") }, { id: "profiel", label: t("Wie we zoeken") }, { id: "stagiairs", label: t("Ervaringen") }, { id: "locatie", label: t("Locatie") }, { id: "procedure", label: t("Procedure") }]} cta={{ id: "solliciteren", label: t("Solliciteer") }} />
       <section className="pj-wrap pj-sec" style={{ background: "#F2F8FE", padding: "96px 40px" }}>
         <div style={{ maxWidth: "1280px", margin: "0 auto", background: "#FFFFFF", borderRadius: "24px", overflow: "hidden" }}>
           <dl
@@ -453,6 +455,7 @@ export function VacatureContentContent() {
         </div>
       </section>
       <section
+        id="functie"
         className="pj-wrap pj-sec vc-dark"
         style={{ position: "relative", overflow: "hidden", background: "#1F246C", padding: "112px 40px" }}
       >
@@ -779,7 +782,7 @@ export function VacatureContentContent() {
           </ol>
         </div>
       </section>
-      <section className="pj-wrap pj-sec" style={{ background: "#F2F8FE", padding: "112px 40px" }}>
+      <section id="profiel" className="pj-wrap pj-sec" style={{ background: "#F2F8FE", padding: "112px 40px" }}>
         <div
           className="vc-split"
           style={{
@@ -2929,7 +2932,7 @@ export function VacatureContentContent() {
           </div>
         </div>
       </section>
-      <section className="pj-wrap pj-sec" style={{ background: "#F2F8FE", padding: "0 40px 112px" }}>
+      <section id="procedure" className="pj-wrap pj-sec" style={{ background: "#F2F8FE", padding: "0 40px 112px" }}>
         <div
           className="vc-route"
           style={{

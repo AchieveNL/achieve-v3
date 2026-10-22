@@ -4,6 +4,7 @@ import { useTr } from "@/i18n/I18nProvider";
 import { sendLead, type LeadValue } from "@/lib/sendLead";
 import React, { useEffect, useState } from "react";
 import { Accent } from "@/components/ui/Accent";
+import { JumpNav } from "@/components/ui/JumpNav";
 
 export function WerkenBijContent() {
   const { t, ta, href } = useTr();
@@ -469,6 +470,7 @@ export function WerkenBijContent() {
           </a>
         </div>
       </section>
+      <JumpNav items={[{ id: "vacatures", label: t("Vacatures") }, { id: "waarom", label: t("Waarom Achieve") }, { id: "stagiairs", label: t("Ervaringen") }, { id: "locatie", label: t("Locatie") }]} cta={{ id: "solliciteren", label: t("Solliciteer") }} />
       <section id="vacatures" className="pj-wrap pj-sec" style={{ background: "#F2F8FE", padding: "96px 40px 112px" }}>
         <div style={{ maxWidth: "1280px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "40px" }}>
           <div style={{ display: "flex", flexDirection: "column", gap: "14px", maxWidth: "720px" }}>
@@ -869,6 +871,7 @@ export function WerkenBijContent() {
         </div>
       </section>
       <section
+        id="waarom"
         className="pj-wrap pj-sec wb-dark"
         style={{ position: "relative", overflow: "hidden", background: "#1F246C", padding: "112px 40px", marginBottom: "0" }}
       >
