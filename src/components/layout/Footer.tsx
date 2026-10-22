@@ -22,6 +22,7 @@ export function Footer({ tr }: { tr: ServerTr }) {
             }}
           >
             <span
+              className="foot-logo"
               style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "2px", color: "#FFFFFF", marginLeft: "-5.6px" }}
             >
               <span

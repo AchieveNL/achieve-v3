@@ -401,3 +401,9 @@ html:has(.jn-bar){scroll-behavior:smooth}
 
 /* Mobile: images are centered, no rule-of-thirds crop. */
 @media (max-width: 720px){img,video{object-position:50% 50% !important}}
+
+/* Jump menu: the "Plan je groeigesprek" item is a link, not a filled button. */
+.jn-bar .em-jl-cta,.em-jump .em-jl-cta{background:none !important;padding:0 4px !important;min-height:38px;color:#6B2BD9 !important;font-weight:700}
+.jn-bar .em-jl-cta:hover,.jn-bar .em-jl-cta:focus-visible,.jn-bar .em-jl-cta.is-on,.em-jump .em-jl-cta:hover,.em-jump .em-jl-cta:focus-visible,.em-jump .em-jl-cta.is-on{background:none !important;color:#0F8AE5 !important}
+/* Footer logo keeps the header logo's proportions (sub line = 0.41 × ACHIEVE) when it scales down on phones. */
+@media (max-width: 600px){.foot-logo > span:first-child{font-size:32px !important}.foot-logo > span:last-child{font-size:13px !important}}

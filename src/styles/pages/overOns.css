@@ -1,4 +1,20 @@
 /* OverOns.dc.html: rules on top of projecten.css, case.css and werkenBij.css */
+@media (max-width: 1024px){
+.nav-burger{display:inline-flex}
+.main-nav{display:none !important;width:100%;flex-direction:column;align-items:stretch !important;gap:0 !important;padding:8px 0 12px;border-top:1px solid #E4E6EA}
+.main-nav.is-open{display:flex !important;max-height:calc(100vh - 88px);overflow-y:auto;overscroll-behavior:contain}
+.main-nav > a:not(.glow), .main-nav .nav-dd > a{display:flex !important;justify-content:space-between;padding:16px 4px !important;border-bottom:1px solid #E4E6EA;font-size:18px}
+.main-nav .nav-dd-panel{display:none !important}
+.main-nav > div:is([style*="position: relative"],[style*="position:relative"]){margin:8px 0 0 !important}
+.main-nav .glow{margin:12px 0 0 !important;justify-content:center}
+}
+@media (max-width: 600px){
+footer :is([style*="flex: 0 1 820px"],[style*="flex:0 1 820px"]){grid-template-columns:minmax(0,1fr) !important;gap:0 !important;flex:1 1 100% !important;max-width:none !important}
+footer nav[style*="border-left"]{border-left:none !important;border-top:1px solid rgba(255,255,255,0.14) !important;padding:28px 0 !important;gap:16px !important}
+footer nav[aria-label="Onze diensten"] ul{display:grid !important;grid-template-columns:repeat(2,minmax(0,1fr));gap:2px 16px !important}
+footer nav ul{font-size:15px !important}
+footer nav ul a{padding:8px 0 !important}
+}
 .pjl-track{animation:pjlMove 40s linear infinite}
 .pjl-track.is-paused{animation-play-state:paused}
 @keyframes pjlMove{from{transform:translateX(0)}to{transform:translateX(-50%)}}
@@ -76,3 +92,5 @@
 @media (max-width: 600px){.oo-wlogo-wrap{align-self:stretch !important}.oo-wie-logo{padding:26px 20px 56px !important}.oo-meet{gap:10px !important;padding:10px 16px 10px 10px !important;max-width:calc(100% - 24px) !important}.oo-meet > span:first-child > span{width:32px !important;height:32px !important;margin-left:-10px !important;box-shadow:0 0 0 3px #FFFFFF !important}.oo-meet > span:first-child > span:first-child{margin-left:0 !important}.oo-meet strong{font-size:14px !important}.oo-meet .oo-meet-link{font-size:13px !important}}
 @media (max-width: 600px){.oo-why{padding:80px 20px !important}.oo-why-card{padding:32px 24px !important}}
 @media (max-width: 600px){.oo-vals{grid-template-columns:minmax(0,1fr) !important}.oo-team{grid-template-columns:repeat(2,minmax(0,1fr)) !important;gap:14px !important}.oo-join{grid-column:span 2 !important;padding:28px !important}.oo-person{padding:20px 12px !important}.oo-person strong{font-size:20px !important}.oo-person span{font-size:13px !important}}
+.oo-dot{flex:0 0 8px;width:8px !important;height:8px !important;min-height:8px;aspect-ratio:1/1;border-radius:50% !important;align-self:center}
+@media (max-width: 600px){.oo-meet-faces{position:relative;width:50px;height:50px;flex-shrink:0}.oo-meet-faces > span{position:absolute !important;inset:0;margin-left:0 !important;opacity:0;transition:opacity .6s ease}.oo-meet-faces > span.is-on{opacity:1}}
