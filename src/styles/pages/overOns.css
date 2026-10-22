@@ -38,6 +38,10 @@
 @media (max-width: 600px){.oo-org{padding:36px 22px !important;margin-bottom:48px !important}.oo-org-dept{padding:22px 18px !important}.oo-org-av{width:44px !important;height:44px !important;margin-left:-10px !important}.oo-org-av:first-child{margin-left:0 !important}}
 @media (max-width: 900px){.oo-steps3{grid-template-columns:minmax(0,1fr) !important;gap:12px !important}}
 @media (max-width: 900px){.oo-cult3{grid-template-columns:minmax(0,1fr) !important}}
+.oo-chat-typing .oo-t2{display:none}
+.oo-chat-typing.is-alt .oo-t1{display:none}
+.oo-chat-typing.is-alt .oo-t2{display:inline}
+.oo-chat-typing.is-alt span.oo-t2[aria-hidden]{display:block}
 .oo-chat-anim .oo-chat-msg{opacity:0;transform:translateY(10px);transition:opacity .45s ease,transform .45s ease}
 .oo-chat-anim.is-on .oo-chat-msg{opacity:1;transform:none}
 .oo-chat-anim.is-on .oo-chat-msg:nth-child(1){transition-delay:0.0s}
