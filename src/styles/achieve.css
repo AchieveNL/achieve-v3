@@ -369,3 +369,7 @@ html,body{overflow-x:clip}
 
 /* Team portraits in circles are drawn wider than their circle on purpose (design offset). */
 .wbt-b img{max-width:none}
+
+/* Main menu: links turn purple on hover, like the current page. */
+.main-nav > a:not(.glow), .main-nav > .nav-dd > a{transition:color .2s ease}
+.main-nav > a:not(.glow):hover, .main-nav > a:not(.glow):focus-visible, .main-nav > .nav-dd:hover > a, .main-nav > .nav-dd > a:focus-visible{color:#8639FA !important}
