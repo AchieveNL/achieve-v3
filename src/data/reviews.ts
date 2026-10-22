@@ -163,7 +163,7 @@ export const reviews: Review[] = [
     name: "Melike Cagan",
     role: "Docente",
     quote: "“Ze doen geweldig werk. Dankzij hen heb ik nu een zeer stijlvolle, moderne en creatieve website. 😇”",
-    tags: "Custom Website",
+    tags: "Custom Website · Branding",
     src: "google",
   },
   {
@@ -653,6 +653,11 @@ export const reviewCards: ReviewCard[] = [
         c: "#0B6DB8",
         b: "#E3F1FD",
       },
+      {
+        t: "Branding",
+        c: "#6B2BD9",
+        b: "#EFE8FD",
+      },
     ],
   },
   {
@@ -852,6 +857,7 @@ export const tagColors: Record<string, [string, string]> = {
   "Custom Website": ["#0B6DB8", "#E3F1FD"],
   "Video Marketing": ["#6E5A00", "#FFF6C7"],
   "Brand Book": ["#6B2BD9", "#EFE8FD"],
+  Branding: ["#6B2BD9", "#EFE8FD"],
   "Window Graphics": ["#6B2BD9", "#EFE8FD"],
   Photoshoot: ["#6E5A00", "#FFF6C7"],
   "Web App": ["#0B6DB8", "#E3F1FD"],
