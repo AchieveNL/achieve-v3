@@ -38,6 +38,8 @@
 @media (max-width: 600px){.oo-org{padding:36px 22px !important;margin-bottom:48px !important}.oo-org-dept{padding:22px 18px !important}.oo-org-av{width:44px !important;height:44px !important;margin-left:-10px !important}.oo-org-av:first-child{margin-left:0 !important}}
 @media (max-width: 900px){.oo-steps3{grid-template-columns:minmax(0,1fr) !important;gap:12px !important}}
 @media (max-width: 900px){.oo-cult3{grid-template-columns:minmax(0,1fr) !important}}
+@media (max-width: 1024px){.oo-vals{gap:40px 0 !important}.oo-valcol:nth-child(3){border-left:0 !important;padding-left:0 !important}}
+@media (max-width: 600px){.oo-valcol{border-left:0 !important;padding:0 0 28px !important;border-bottom:1px solid rgba(255,255,255,.16)}.oo-valcol:last-child{border-bottom:0;padding-bottom:0 !important}.oo-vals{gap:28px !important}}
 .oo-hero .about-link:hover .l2-txt,.oo-hero .about-link:focus-visible .l2-txt{color:#FFFFFF !important;background:none !important;-webkit-text-fill-color:#FFFFFF;animation:none !important}
 .oo-pop{transition:opacity .45s ease}
 .oo-person:hover .oo-pop{opacity:1 !important}
