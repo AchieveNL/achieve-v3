@@ -146,7 +146,7 @@ export function Header() {
               flexDirection: "column",
               alignItems: "center",
               gap: "2px",
-              color: "#0E1116",
+              color: "#1F246C",
               textDecoration: "none",
               padding: "4px 0",
             }}
