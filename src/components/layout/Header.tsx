@@ -1502,7 +1502,9 @@ export function Header() {
               {t("Werken bij")}
             </a>
             <a
-              href={href("Main", "over-ons")}
+              href={href("OverOns")}
+              aria-current={navSection(page) === "OverOns" ? "page" : undefined}
+              className={navSection(page) === "OverOns" ? "nav-current" : undefined}
               style={{ color: "#0E1116", textDecoration: "none", padding: "12px 12px", fontWeight: "500" }}
             >
               {t("Over ons")}

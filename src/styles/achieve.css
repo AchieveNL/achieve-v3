@@ -366,3 +366,6 @@ html,body{overflow-x:clip}
 /* Orbiting team bubbles move constantly; a hover lift would make them jump up and
    down as they slide in and out under the cursor. */
 #over-ons .team-bubble:hover{transform:none}
+
+/* Team portraits in circles are drawn wider than their circle on purpose (design offset). */
+.wbt-b img{max-width:none}

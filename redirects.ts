@@ -36,7 +36,7 @@ function forLocale(nl: boolean): Redirect[] {
   const out: Redirect[] = [];
   const old = (nlPath: string, enPath: string) => (nl ? nlPath : `/en${enPath}`);
 
-  out.push(r(old("/over-ons", "/about"), `${p || "/"}#over-ons`));
+  if (!nl) out.push(r("/en/about", "/en/over-ons"));
   out.push(r(old("/diensten", "/services"), `${p || "/"}#diensten`));
   for (const s of services) {
     const src = s === "legal" && nl ? "/juridisch/legal" : old(`/diensten/${s}`, `/services/${s}`);

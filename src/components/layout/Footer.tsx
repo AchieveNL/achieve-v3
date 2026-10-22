@@ -494,7 +494,7 @@ export function Footer({ tr }: { tr: ServerTr }) {
                   </li>
                   <li>
                     <a
-                      href={href("Main", "over-ons")}
+                      href={href("OverOns")}
                       className="foot-link"
                       style={{ color: "#D5DAE3", textDecoration: "none", padding: "6px 0", display: "inline-block" }}
                     >

@@ -12,6 +12,7 @@ export const routes = {
   Projecten: "projecten",
   Tarieven: "tarieven",
   WerkenBij: "werken-bij",
+  OverOns: "over-ons",
   VacatureSales: "werken-bij/sales",
   VacatureContent: "werken-bij/content",
   Contact: "contact",
