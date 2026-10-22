@@ -38,6 +38,19 @@
 @media (max-width: 600px){.oo-org{padding:36px 22px !important;margin-bottom:48px !important}.oo-org-dept{padding:22px 18px !important}.oo-org-av{width:44px !important;height:44px !important;margin-left:-10px !important}.oo-org-av:first-child{margin-left:0 !important}}
 @media (max-width: 900px){.oo-steps3{grid-template-columns:minmax(0,1fr) !important;gap:12px !important}}
 @media (max-width: 900px){.oo-cult3{grid-template-columns:minmax(0,1fr) !important}}
+.oo-chat-anim .oo-chat-msg{opacity:0;transform:translateY(10px);transition:opacity .45s ease,transform .45s ease}
+.oo-chat-anim.is-on .oo-chat-msg{opacity:1;transform:none}
+.oo-chat-anim.is-on .oo-chat-msg:nth-child(1){transition-delay:0.0s}
+.oo-chat-anim.is-on .oo-chat-msg:nth-child(2){transition-delay:0.7s}
+.oo-chat-anim.is-on .oo-chat-msg:nth-child(3){transition-delay:1.4s}
+.oo-chat-anim.is-on .oo-chat-msg:nth-child(4){transition-delay:2.1s}
+.oo-chat-anim.is-on .oo-chat-msg:nth-child(5){transition-delay:2.8s}
+.oo-chat-anim.is-on .oo-chat-msg:nth-child(6){transition-delay:3.5s}
+@keyframes ooDot{0%,60%,100%{transform:translateY(0)}30%{transform:translateY(-4px)}}
+.oo-chat-typing .oo-dot{animation:ooDot 1.2s ease-in-out infinite}
+.oo-chat-typing .oo-dot:nth-child(2){animation-delay:.15s}
+.oo-chat-typing .oo-dot:nth-child(3){animation-delay:.3s}
+@media (prefers-reduced-motion: reduce){.oo-chat-anim .oo-chat-msg{opacity:1;transform:none;transition:none}.oo-chat-typing .oo-dot{animation:none}}
 @media (max-width: 600px){.oo-wie-logo{padding:22px 26px 24px !important}.oo-wie-logo span:first-child{font-size:44px !important}.oo-wie-logo span:last-child{font-size:16px !important}}
 .oo-meet-link{display:inline-block;transition:transform .25s ease,color .25s ease}
 .oo-meet-link .oo-arr{transition:transform .25s ease}
