@@ -390,3 +390,7 @@ html,body{overflow-x:clip}
 html:has(.jn-bar){scroll-behavior:smooth}
 @media (prefers-reduced-motion: reduce){html:has(.jn-bar){scroll-behavior:auto}.jn-bar,.jn-bar .em-jl,.jn-bar .em-jl::after{transition:none !important}}
 @media (max-width: 720px){.jn-in{padding:0 12px}.jn-lbl{display:none}.jn-bar .em-jl{min-height:48px}.jn-bar .em-jl-cta{margin-left:4px}}
+
+/* Contact: big phone number and e-mail address */
+.ct-big{transition:color .2s ease}
+.ct-big:hover,.ct-big:focus-visible{color:#8639FA !important}

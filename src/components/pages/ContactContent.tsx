@@ -265,6 +265,7 @@ export function ContactContent() {
               {t("Kies zelf een moment in de agenda. Vrijblijvend, en daarna weet je wat je volgende stap is.")}
             </p>
             <a
+              className="btn-white"
               href="https://calendly.com/vrijblijvendgesprek/"
               target="_blank"
               rel="noopener"
@@ -314,6 +315,7 @@ export function ContactContent() {
             </h2>
             <a
               href="tel:+31854016590"
+              className="ct-big"
               style={{
                 fontFamily: "var(--font-display)",
                 fontSize: "30px",
@@ -360,6 +362,7 @@ export function ContactContent() {
             <a
               href="mailto:info@achieve.nl"
               translate="no"
+              className="ct-big"
               style={{
                 fontFamily: "var(--font-display)",
                 fontSize: "30px",
