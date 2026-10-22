@@ -1,6 +1,5 @@
 /* OverOns.dc.html: rules on top of projecten.css, case.css and werkenBij.css */
 .oo-team .oo-person img{max-width:none}
-.oo-recog > li:nth-child(even){margin-top:28px}
 .oo-person{transition:transform .35s cubic-bezier(.2,.7,.2,1),box-shadow .35s ease}
 .oo-person:hover{transform:translateY(-8px);box-shadow:0 4px 8px rgba(31,36,108,.06),0 28px 52px rgba(31,36,108,.18) !important}
 .oo-person > div:first-child{transition:box-shadow .35s ease}
