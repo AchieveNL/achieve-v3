@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { Montserrat, Poppins, Rajdhani, Source_Sans_3 } from "next/font/google";
 import { notFound } from "next/navigation";
+import { preconnect } from "react-dom";
 import { MotionProvider } from "@/components/motion/MotionProvider";
 import { locales, isLocale } from "@/i18n/config";
 import "../globals.css";
@@ -38,6 +39,9 @@ export function generateStaticParams() {
 
 export default async function LocaleLayout({ children, params }: { children: React.ReactNode; params: Promise<{ locale: string }> }) {
   const { locale } = await params;
+  // Booking calendar opens in a popup; open the connection early so it boots faster.
+  preconnect("https://calendly.com");
+  preconnect("https://assets.calendly.com");
   if (!isLocale(locale)) notFound();
   return (
     <html
