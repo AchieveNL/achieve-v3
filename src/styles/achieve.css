@@ -398,3 +398,6 @@ html:has(.jn-bar){scroll-behavior:smooth}
 /* Contact: big phone number and e-mail address */
 .ct-big{transition:color .2s ease}
 .ct-big:hover,.ct-big:focus-visible{color:#8639FA !important}
+
+/* Mobile: images are centered, no rule-of-thirds crop. */
+@media (max-width: 720px){img,video{object-position:50% 50% !important}}
