@@ -24,7 +24,7 @@
 .main-nav > a:not(.glow):hover, .main-nav > .nav-dd:hover > a{color:#8639FA !important}
 .oo-hero .oo-spark{transform-box:fill-box;transform-origin:center}
 .oo-hero .wbt-ring{animation:none;transform-box:view-box;transform-origin:220px 222px}
-@media (max-width: 1024px){.oo-recog{grid-template-columns:repeat(2,minmax(0,1fr)) !important}.oo-recog > li{margin-top:0 !important}.oo-achiever{grid-template-columns:minmax(0,1fr) !important;padding:36px 28px !important}}
+@media (max-width: 1024px){.oo-recog{grid-template-columns:repeat(2,minmax(0,1fr)) !important}.oo-recog > li{margin-top:0 !important}.oo-achiever{padding:40px 24px !important}}
 @media (max-width: 600px){.oo-recog{grid-template-columns:minmax(0,1fr) !important}}
 @media (max-width: 1024px){.oo-vals{grid-template-columns:repeat(2,minmax(0,1fr)) !important}.oo-team{grid-template-columns:repeat(3,minmax(0,1fr)) !important}.oo-join{grid-column:span 3 !important}.oo-story{grid-template-columns:minmax(0,1fr) !important}.oo-help{padding:36px 28px !important}.oo-quote{padding:36px 24px 32px !important}.oo-steps-line{display:none}.oo-mind{grid-template-columns:minmax(0,1fr) !important}.oo-steps{grid-template-columns:minmax(0,1fr) !important}}
 @media (max-width: 600px){.oo-vals{grid-template-columns:minmax(0,1fr) !important}.oo-team{grid-template-columns:repeat(2,minmax(0,1fr)) !important;gap:14px !important}.oo-join{grid-column:span 2 !important;padding:28px !important}.oo-person{padding:20px 12px !important}.oo-person strong{font-size:20px !important}.oo-person span{font-size:13px !important}}
