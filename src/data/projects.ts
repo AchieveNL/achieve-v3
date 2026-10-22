@@ -47,7 +47,7 @@ export const projects: Project[] = [
     ],
     result: "Zichtbaar in Google met Search en Shopping",
     quote: "",
-    challenge: "[Startpunt: waar stond Beddenenzo voordat we begonnen?]",
+    challenge: "Een online beddenspecialist in een markt vol concurrenten. Klanten vergelijken veel, waardoor het lastig was om in Google op te vallen bij de juiste kopers.",
     initials: "B",
     tile: "linear-gradient(135deg, #1F246C 0%, #0F8AE5 100%)",
     hasImg: true,
@@ -65,7 +65,7 @@ export const projects: Project[] = [
   {
     name: "Minimasters Playground",
     href: "CaseMinimasters",
-    sector: "Recreatie · Sofia Hu",
+    sector: "Recreatie",
     cats: ["web", "brand"],
     tags: [
       {
@@ -81,7 +81,7 @@ export const projects: Project[] = [
     ],
     result: "Website en raamstickering, van idee tot oplevering",
     quote: "“Wat ik vooral waardeer, is hoe hun team mij van A tot Z heeft begeleid.”",
-    challenge: "[Startpunt: waar stond Minimasters Playground voordat we begonnen?]",
+    challenge: "Een volledig nieuw concept, zonder bestaande basis. Het merk moest ouders direct vertrouwen geven en kinderen een speelse, leerzame wereld.",
     initials: "K",
     tile: "linear-gradient(135deg, #0F8AE5 0%, #1F246C 100%)",
     hasImg: true,
@@ -211,7 +211,7 @@ export const projects: Project[] = [
   {
     name: "Sushi Today",
     href: "CaseSushiToday",
-    sector: "Horeca · W Feng",
+    sector: "Horeca",
     cats: ["video"],
     tags: [
       {
@@ -227,7 +227,7 @@ export const projects: Project[] = [
     ],
     result: "Fotoshoot en content met foodie influencers",
     quote: "“Het ontwerp van de website is eenvoudig en vrijgevig, precies wat ik wilde.”",
-    challenge: "[Startpunt: waar stond Sushi Today voordat we begonnen?]",
+    challenge: "Door de lockdowns moest het restaurant tijdelijk dicht. Het aantal bezoekers en de naamsbekendheid liepen sterk terug.",
     initials: "ST",
     tile: "linear-gradient(135deg, #8639FA 0%, #0F8AE5 100%)",
     hasImg: true,
@@ -250,7 +250,7 @@ export const projects: Project[] = [
     ],
     result: "Webshop voor mixed media portretten",
     quote: "“Achieve heeft gezorgd voor een overzichtelijke en goed functionerende website voor al mijn mixed media portretten.”",
-    challenge: "[Startpunt: waar stond Ron van Dam voordat we begonnen?]",
+    challenge: "Een kunstenaar die zijn werk rechtstreeks wilde verkopen, via een webshop die hij zelf kan bijhouden en waarin de kunst centraal staat.",
     initials: "RV",
     tile: "linear-gradient(135deg, #1F246C 0%, #8639FA 100%)",
     hasImg: true,
@@ -290,7 +290,7 @@ export const projects: Project[] = [
     ],
     result: "Nieuw merk en website in eigen huisstijl",
     quote: "“De persoonlijke communicatie zorgde ervoor dat het project soepel verliep.”",
-    challenge: "[Startpunt: waar stond A-direct Automaterialen voordat we begonnen?]",
+    challenge: "Een familiebedrijf met een breed aanbod, van onderdelen tot kentekenplaten, maar zonder heldere structuur en met een verouderde uitstraling.",
     img: "/media/projects/a-direct-automaterialen-01.webp",
     alt: "Bedrijfsbus van A-direct Autoparts met logo en belettering",
     initials: "AD",
