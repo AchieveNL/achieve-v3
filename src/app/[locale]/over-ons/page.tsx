@@ -14,7 +14,7 @@ type Props = { params: Promise<{ locale: string }> };
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
   return pageMetadata(locale as Locale, "OverOns", {
-    title: "Over ons: het team achter Achieve | Achieve",
+    title: "Over ons: de club voor ondernemers die meer willen | Achieve",
     description:
       "Maak kennis met Achieve: de digital agency voor ondernemers die meer willen. Ons verhaal, waar we voor staan en het team achter je groei.",
   });
