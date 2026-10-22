@@ -19,20 +19,19 @@ export function Hero() {
   const [ti, setTi] = useState(0);
   useTick(5000, () => setTi((i) => (i + 1) % 4));
 
-  // Floating review cards: fade/slide in one after another, then bob gently.
+  // Floating review cards: visible from first paint (CSS entrance in achieve.css,
+  // so they don't wait for JavaScript), then bob gently once the page is live.
   // The three orbs drift and shift colour behind them.
   useFrame((now, _dt, t) => {
     const cards = [
-      [fc0Ref.current, 0, 10, 0],
-      [fc1Ref.current, 1.6, 12, 1],
-      [fc2Ref.current, 3.2, 9, 2],
+      [fc0Ref.current, 0, 10],
+      [fc1Ref.current, 1.6, 12],
+      [fc2Ref.current, 3.2, 9],
     ] as const;
-    for (const [el, ph, amp, idx] of cards) {
+    const ramp = Math.min(1, t / 1.2);
+    for (const [el, ph, amp] of cards) {
       if (!el) continue;
-      const pr = Math.max(0, Math.min(1, (t - 0.4 - idx * 0.6) / 0.9));
-      const ez = 1 - Math.pow(1 - pr, 3);
-      el.style.opacity = ez.toFixed(3);
-      el.style.transform = `translateY(${(Math.sin(t * 0.9 + ph) * amp * ez + (1 - ez) * 32).toFixed(2)}px) scale(${(0.95 + 0.05 * ez).toFixed(3)})`;
+      el.style.transform = `translateY(${(Math.sin(t * 0.9 + ph) * amp * ramp).toFixed(2)}px)`;
     }
     const cols = [
       [134, 57, 250],
@@ -462,7 +461,9 @@ export function Hero() {
             ></div>
             <div
               ref={fc0Ref}
+              className="hero-card-in"
               style={{
+                animationDelay: "0s",
                 boxSizing: "border-box",
                 position: "absolute",
                 top: "0",
@@ -539,8 +540,9 @@ export function Hero() {
             </div>
             <div
               ref={fc1Ref}
-              className="result-arrows"
+              className="result-arrows hero-card-in"
               style={{
+                animationDelay: ".12s",
                 zIndex: "3",
                 boxSizing: "border-box",
                 position: "absolute",
@@ -571,7 +573,9 @@ export function Hero() {
             </div>
             <div
               ref={fc2Ref}
+              className="hero-card-in"
               style={{
+                animationDelay: ".24s",
                 zIndex: "2",
                 boxSizing: "border-box",
                 position: "absolute",
