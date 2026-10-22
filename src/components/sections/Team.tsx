@@ -25,13 +25,18 @@ export function Team() {
       const ang = ((-135 + slot * (360 / N) + t * SPEED) * Math.PI) / 180;
       const cx = 50 + Math.cos(ang) * R,
         cy = 50 + Math.sin(ang) * R;
+      // Anchor at the centre and move with `translate` (sub-pixel smooth), not left/top (snaps to pixels and jitters).
+      const box = el.offsetParent as HTMLElement | null;
+      const bw = box?.clientWidth ?? 0,
+        bh = box?.clientHeight ?? 0;
       el.style.transition = "none";
       el.style.right = "auto";
       el.style.bottom = "auto";
-      el.style.left = (cx - W / 2).toFixed(3) + "%";
-      el.style.top = (cy - W / 2).toFixed(3) + "%";
+      el.style.left = 50 - W / 2 + "%";
+      el.style.top = 50 - W / 2 + "%";
       el.style.width = W + "%";
-      el.style.translate = "0 0";
+      el.style.willChange = "translate";
+      el.style.translate = `${(((cx - 50) * bw) / 100).toFixed(2)}px ${(((cy - 50) * bh) / 100).toFixed(2)}px`;
     });
     r.querySelectorAll("[data-orbit]").forEach((el) => el.setAttribute("transform", `rotate(${((t * 4) % 360).toFixed(2)} 50 50)`));
   });
