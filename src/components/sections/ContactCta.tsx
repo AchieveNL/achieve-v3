@@ -609,7 +609,7 @@ export function ContactCta() {
                   </span>
                   <span style={{ fontSize: "14px", color: "#5A6273", textAlign: "center", marginTop: "-8px" }}>
                     {t("Nog vragen?")}{" "}
-                    <a href={href("Tarieven", "faq")} style={{ color: "#1F246C", fontWeight: "600" }}>
+                    <a href={href("FAQ")} style={{ color: "#1F246C", fontWeight: "600" }}>
                       {t("Bekijk de veelgestelde vragen")}
                     </a>
                   </span>

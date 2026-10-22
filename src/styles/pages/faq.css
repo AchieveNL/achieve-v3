@@ -1,0 +1,19 @@
+/* FAQ.dc.html: rules on top of projecten.css, case.css, werkenBij.css and overOns.css */
+.fq-item summary::-webkit-details-marker{display:none}
+.fq-item summary::marker{content:""}
+.fq-item{transition:background-color .3s ease,box-shadow .3s ease}
+.fq-item:hover{box-shadow:0 0 0 1px #D6E4F5}
+.fq-item[open]{background:#FFFFFF !important;box-shadow:0 0 0 1px #E3ECF8,0 16px 32px rgba(31,36,108,.08)}
+.fq-ic{transition:transform .35s cubic-bezier(.45,0,.2,1),background-color .3s ease,color .3s ease}
+.fq-item[open] .fq-ic{transform:rotate(45deg);background:#8639FA !important;color:#FFFFFF !important}
+.fq-item summary:focus-visible{outline:2px solid #8639FA;outline-offset:4px;border-radius:8px}
+.fq-chip{transition:background-color .25s ease,color .25s ease,border-color .25s ease,transform .25s ease}
+.fq-chip:hover,.fq-chip:focus-visible{background:#1F246C !important;color:#FFFFFF !important;border-color:#1F246C !important;transform:translateY(-2px)}
+.fq-chip:hover span,.fq-chip:focus-visible span{color:#FAE84E !important}
+.fq-link{color:#6B2BD9;font-weight:600;text-decoration:underline;text-decoration-thickness:1.5px;text-underline-offset:3px;text-decoration-color:rgba(107,43,217,.35);transition:color .25s ease,text-decoration-color .25s ease}
+.fq-link:hover,.fq-link:focus-visible{color:#0F8AE5;text-decoration-color:#0F8AE5}
+.fq-line{transition:color .25s ease}
+.fq-line:hover,.fq-line:focus-visible{color:#FAE84E !important}
+@media (max-width: 1024px){.fq-grid{grid-template-columns:minmax(0,1fr) !important;gap:56px !important}.fq-aside{position:static !important}}
+@media (max-width: 600px){.fq-hero{padding:48px 20px 56px !important}.fq-chips{display:none !important}.fq-body{padding:64px 20px 80px !important}.fq-item{padding:0 18px !important}.fq-item summary{font-size:18px !important;padding:18px 0 !important}.fq-item summary + div{padding:0 0 20px !important}.fq-aside > div{padding:26px !important}}
+@media (prefers-reduced-motion: reduce){.fq-item,.fq-ic,.fq-chip{transition:none}}

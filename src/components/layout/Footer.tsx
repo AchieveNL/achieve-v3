@@ -707,7 +707,7 @@ export function Footer({ tr }: { tr: ServerTr }) {
                 >
                   <li>
                     <a
-                      href={href("Tarieven", "faq")}
+                      href={href("FAQ")}
                       className="foot-link"
                       style={{ color: "#D5DAE3", textDecoration: "none", padding: "6px 0", display: "inline-block" }}
                     >

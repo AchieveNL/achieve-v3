@@ -44,7 +44,8 @@ function forLocale(nl: boolean): Redirect[] {
   }
   out.push(r(old("/tarieven/:slug", "/pricing/:slug"), `${p}/tarieven`));
   if (!nl) out.push(r("/en/pricing", "/en/tarieven"));
-  out.push(r(old("/veelgestelde-vragen", "/faq"), `${p}/tarieven#faq`));
+  // The old Dutch FAQ moves to /faq. The old English FAQ already lived at /en/faq, which is the new page itself.
+  if (nl) out.push(r("/veelgestelde-vragen", "/faq"));
   if (!nl) out.push(r("/en/projects", "/en/projecten"));
   for (const [from, to] of Object.entries(caseMap)) {
     if (nl && from === to) continue;
