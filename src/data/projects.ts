@@ -192,7 +192,7 @@ export const projects: Project[] = [
         bg: "#E3F1FD",
       },
     ],
-    result: "Nieuwe klanten op dag 1",
+    result: "Nieuwe website, gekoppeld aan het ledensysteem van de gym",
     quote: "“Achieve heeft voor ons een top website gecreëerd die op dag 1 al heeft gezorgd voor nieuwe klanten.”",
     challenge: "Meer leden binnenhalen, maar de oude website was geen goed visitekaartje: bezoekers zagen niet snel wat Sharkys aanbiedt.",
     gallery: [
