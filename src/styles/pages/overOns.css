@@ -34,10 +34,11 @@
 @media (max-width: 600px){.oo-org{padding:36px 22px !important;margin-bottom:48px !important}.oo-org-dept{padding:22px 18px !important}.oo-org-av{width:44px !important;height:44px !important;margin-left:-10px !important}.oo-org-av:first-child{margin-left:0 !important}}
 @media (max-width: 900px){.oo-steps3{grid-template-columns:minmax(0,1fr) !important;gap:12px !important}}
 @media (max-width: 900px){.oo-cult3{grid-template-columns:minmax(0,1fr) !important}}
-.oo-meet-link{transition:color .25s ease}
-.oo-meet-link .oo-arr{transition:transform .25s ease}
-.oo-meet-link:hover,.oo-meet-link:focus-visible{color:#0F8AE5 !important;text-decoration:underline !important;text-underline-offset:4px}
-.oo-meet-link:hover .oo-arr,.oo-meet-link:focus-visible .oo-arr{transform:translateX(4px)}
+.oo-meet-link{display:inline-block;transition:transform .25s ease}
+.oo-meet-link .oo-arr{transition:transform .25s ease,color .25s ease}
+.oo-meet-link:hover,.oo-meet-link:focus-visible{transform:translateY(-2px);color:transparent !important;background:linear-gradient(90deg,#8639FA 0%,#0F8AE5 50%,#8639FA 100%) 0 0/200% 100%;-webkit-background-clip:text;background-clip:text;animation:featFlow 2.4s linear infinite}
+.oo-meet-link:hover .oo-arr,.oo-meet-link:focus-visible .oo-arr{transform:translateX(4px);color:#0F8AE5;-webkit-text-fill-color:#0F8AE5}
+@media (prefers-reduced-motion: reduce){.oo-meet-link:hover,.oo-meet-link:focus-visible{transform:none;animation:none}.oo-meet-link .oo-arr{transition:none}}
 @media (max-width: 600px){.oo-meet{flex-direction:column;align-items:flex-start !important;border-radius:24px !important;padding:20px !important;gap:14px !important}}
 @media (max-width: 600px){.oo-why{padding:80px 20px !important}.oo-why-card{padding:32px 24px !important}}
 @media (max-width: 600px){.oo-vals{grid-template-columns:minmax(0,1fr) !important}.oo-team{grid-template-columns:repeat(2,minmax(0,1fr)) !important;gap:14px !important}.oo-join{grid-column:span 2 !important;padding:28px !important}.oo-person{padding:20px 12px !important}.oo-person strong{font-size:20px !important}.oo-person span{font-size:13px !important}}
