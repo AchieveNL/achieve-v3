@@ -3,6 +3,7 @@ import { Montserrat, Poppins, Rajdhani, Source_Sans_3 } from "next/font/google";
 import { notFound } from "next/navigation";
 import { preconnect } from "react-dom";
 import { MotionProvider } from "@/components/motion/MotionProvider";
+import { FaviconMotion } from "@/components/ui/FaviconMotion";
 import { locales, isLocale } from "@/i18n/config";
 import "../globals.css";
 
@@ -51,6 +52,7 @@ export default async function LocaleLayout({ children, params }: { children: Rea
     >
       <body>
         <MotionProvider>{children}</MotionProvider>
+        <FaviconMotion />
       </body>
     </html>
   );

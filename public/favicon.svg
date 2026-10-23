@@ -1,4 +1,24 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" aria-hidden="true">
+<style>
+.fav-shine{transform:skewX(-18deg) translateX(0);animation:favShine 4.5s ease-in-out infinite}
+@keyframes favShine{0%,70%{transform:skewX(-18deg) translateX(0)}100%{transform:skewX(-18deg) translateX(150px)}}
+.fav-bg{animation:favBg 9s ease-in-out infinite}
+@keyframes favBg{0%,100%{fill:#1F246C}33%{fill:#8639FA}66%{fill:#0F8AE5}}
+.fav-cluster{animation:favCl 12s ease-in-out infinite}
+@keyframes favCl{0%,100%{transform:translate(0,0)}25%{transform:translate(10px,8px)}50%{transform:translate(-8px,10px)}75%{transform:translate(-10px,-8px)}}
+.fav-o1{animation:favO1 5s ease-in-out infinite,favO1op 9s ease-in-out infinite}
+@keyframes favO1op{0%,66%,100%{opacity:0}33%{opacity:1}}
+@keyframes favO1{0%,100%{transform:translate(0,0)}33%{transform:translate(4px,-3px)}66%{transform:translate(-2px,3px)}}
+.fav-o2{animation:favO2 6s ease-in-out infinite,favO2op 9s ease-in-out infinite}
+@keyframes favO2op{0%,33%,100%{opacity:0}66%{opacity:1}}
+@keyframes favO2{0%,100%{transform:translate(0,0)}33%{transform:translate(-4px,3px)}66%{transform:translate(2px,-3px)}}
+.fav-ow{animation:favOw 4.5s ease-in-out infinite}
+@keyframes favOw{0%,100%{transform:translate(0,0)}33%{transform:translate(4px,4px)}66%{transform:translate(-3px,2px)}}
+.fav-o3{animation:favO3 5.5s ease-in-out infinite,favO3op 9s ease-in-out infinite}
+@keyframes favO3{0%,100%{transform:translate(0,0)}33%{transform:translate(4px,-3px)}66%{transform:translate(-3px,3px)}}
+@keyframes favO3op{0%,100%{opacity:1}33%,66%{opacity:0}}
+@media (prefers-reduced-motion: reduce){.fav-shine,.fav-bg,.fav-o1,.fav-o2,.fav-o3,.fav-ow,.fav-cluster{animation:none}}
+</style>
   <defs>
     <linearGradient id="gL" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#8639FA"/>
