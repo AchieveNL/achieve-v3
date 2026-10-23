@@ -9,6 +9,23 @@
 .main-nav .glow{margin:12px 0 0 !important;justify-content:center}
 }
 @media (max-width: 600px){
+html,body{max-width:100%;overflow-x:clip}
+section{overflow-x:clip}
+:is([style*="max-width: 540px; position: relative; height: 480px"],[style*="max-width:540px;position:relative;height:480px"]){height:auto !important;max-width:none !important;display:flex;flex-direction:column;gap:16px}
+:is([style*="max-width: 540px; position: relative; height: 480px"],[style*="max-width:540px;position:relative;height:480px"]) > div:not(.hero-orb){position:relative !important;top:auto !important;left:auto !important;right:auto !important;width:100% !important;padding:24px !important}
+:is([style*="max-width: 540px; position: relative; height: 480px"],[style*="max-width:540px;position:relative;height:480px"]) p:is([style*="font-size: 27px"],[style*="font-size:27px"]){font-size:21px !important}
+h1{font-size:38px !important}
+:is([style*="font-size: 21px; line-height: 1.55"],[style*="font-size:21px;line-height:1.55"]){font-size:18px !important}
+:is([style*="padding: 88px 40px 112px"],[style*="padding:88px 40px 112px"]){padding-top:40px !important;padding-bottom:56px !important}
+:is([style*="padding: 112px 40px 72px"],[style*="padding:112px 40px 72px"]){padding-top:64px !important;padding-bottom:48px !important}
+:is([style*="padding: 64px 40px 0"],[style*="padding:64px 40px 0"]){padding-top:48px !important}
+:is([style*="gap: 56px 80px"],[style*="gap:56px 80px"]),:is([style*="gap: 48px 80px"],[style*="gap:48px 80px"]),:is([style*="gap: 48px 72px"],[style*="gap:48px 72px"]),:is([style*="gap: 28px 64px"],[style*="gap:28px 64px"]){gap:32px !important}
+:is([style*="font-size: 72px"],[style*="font-size:72px"]){font-size:48px !important}
+:is([style*="font-size: 40px"],[style*="font-size:40px"]){font-size:32px !important}
+:is([style*="padding: 18px 30px"],[style*="padding:18px 30px"]),:is([style*="padding: 18px 28px"],[style*="padding:18px 28px"]){padding:15px 22px !important;font-size:17px !important}
+.main-nav .glow{font-size:17px !important}
+}
+@media (max-width: 600px){
 footer :is([style*="flex: 0 1 820px"],[style*="flex:0 1 820px"]){grid-template-columns:minmax(0,1fr) !important;gap:0 !important;flex:1 1 100% !important;max-width:none !important}
 footer nav[style*="border-left"]{border-left:none !important;border-top:1px solid rgba(255,255,255,0.14) !important;padding:28px 0 !important;gap:16px !important}
 footer nav[aria-label="Onze diensten"] ul{display:grid !important;grid-template-columns:repeat(2,minmax(0,1fr));gap:2px 16px !important}
@@ -93,4 +110,4 @@ footer nav ul a{padding:8px 0 !important}
 @media (max-width: 600px){.oo-why{padding:80px 20px !important}.oo-why-card{padding:32px 24px !important}}
 @media (max-width: 600px){.oo-vals{grid-template-columns:minmax(0,1fr) !important}.oo-team{grid-template-columns:repeat(2,minmax(0,1fr)) !important;gap:14px !important}.oo-join{grid-column:span 2 !important;padding:28px !important}.oo-person{padding:20px 12px !important}.oo-person strong{font-size:20px !important}.oo-person span{font-size:13px !important}}
 .oo-dot{flex:0 0 8px;width:8px !important;height:8px !important;min-height:8px;aspect-ratio:1/1;border-radius:50% !important;align-self:center}
-@media (max-width: 600px){.oo-meet-faces{position:relative;width:50px;height:50px;flex-shrink:0}.oo-meet-faces > span{position:absolute !important;inset:0;margin-left:0 !important;opacity:0;transition:opacity .6s ease}.oo-meet-faces > span.is-on{opacity:1}}
+@media (max-width: 600px){.oo-meet > .oo-meet-faces.oo-meet-faces{position:relative;width:60px;height:60px;flex-shrink:0}.oo-meet > .oo-meet-faces.oo-meet-faces > span{position:absolute !important;inset:0;width:100% !important;height:100% !important;margin-left:0 !important;opacity:0;transition:opacity .6s ease}.oo-meet > .oo-meet-faces.oo-meet-faces > span.is-on{opacity:1}}
