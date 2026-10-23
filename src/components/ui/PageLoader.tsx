@@ -18,15 +18,20 @@ const TEAM = [
   { name: "Denise", img: "/media/team/small/denise.webp", bg: "#FFF6CC", left: "-5%", w: "110%" },
 ];
 const LINES = [
-  "Momentje, we halen je pagina op.",
+  "Momentje…",
   "Nog heel even…",
-  "We zetten alles voor je klaar.",
-  "Bijna daar.",
-  "Even de laatste details rechtzetten.",
+  "Bijna daar…",
+  "Even geduld…",
+  "Komt eraan…",
+  "Nog één tel…",
+  "Bijna klaar…",
+  "Daar gaan we…",
+  "Eén momentje…",
+  "Hij komt eraan…",
+  "Nog een tikje…",
 ];
 /** "One moment" in a few languages: the joke works everywhere, so these are never translated. */
 const WORLD = [
-  "Momentje, graag.",
   "Just a sec…",
   "Uno momento, por favor.",
   "Einen Moment, bitte.",
