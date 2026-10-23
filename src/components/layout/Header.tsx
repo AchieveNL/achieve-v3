@@ -15,6 +15,18 @@ export function Header() {
   const [dienstenOpen, setDienstenOpen] = useState(false);
   const [tarievenOpen, setTarievenOpen] = useState(false);
   const navOpenRef = useRef(false);
+  /** Already on the home page: the logo glides back to the top (with a short press), instead of doing nothing. */
+  const onLogo = (e: MouseEvent<HTMLAnchorElement>) => {
+    if (page !== "Main" || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey || e.button !== 0) return;
+    e.preventDefault();
+    const a = e.currentTarget;
+    a.classList.remove("is-pressed");
+    void a.offsetWidth; // restart the press animation on repeated clicks
+    a.classList.add("is-pressed");
+    const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    window.scrollTo({ top: 0, behavior: reduce ? "auto" : "smooth" });
+    setNavOpen(false);
+  };
   useEffect(() => {
     navOpenRef.current = navOpen;
   }, [navOpen]);
@@ -141,6 +153,8 @@ export function Header() {
         >
           <a
             href={href("Main")}
+            className="logo-link"
+            onClick={onLogo}
             style={{
               display: "flex",
               flexDirection: "column",
