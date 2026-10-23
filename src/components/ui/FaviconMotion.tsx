@@ -111,6 +111,14 @@ export function FaviconMotion() {
         ctx.fillRect(x, 0, 28, 64);
       }
       ctx.restore();
+      // Next can put its own icon links back on navigation; keep ours the only active one.
+      document.querySelectorAll<HTMLLinkElement>('link[rel~="icon"]').forEach((l) => {
+        if (l !== link) {
+          l.rel = "x-static-icon";
+          if (!statics.includes(l)) statics.push(l);
+        }
+      });
+      if (!link.isConnected) document.head.appendChild(link);
       link.href = cv.toDataURL("image/png");
     };
     draw();
