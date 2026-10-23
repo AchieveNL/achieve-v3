@@ -24,16 +24,12 @@ const LINES = [
   "Bijna daar.",
   "Even de laatste details rechtzetten.",
 ];
-/** "One moment" in every language the site is offered in: the joke works everywhere, so these are never translated. */
+/** "One moment" in a few languages: the joke works everywhere, so these are never translated. */
 const WORLD = [
   "Momentje, graag.",
   "Just a sec…",
   "Uno momento, por favor.",
-  "Un instant, s'il vous plaît.",
   "Einen Moment, bitte.",
-  "Chwileczkę…",
-  "Bir saniye lütfen…",
-  "لحظة من فضلك…",
 ];
 const ALL = LINES.length + WORLD.length;
 /** Short enough that a slow page shows the loader quickly, long enough that fast pages never flash it. */
