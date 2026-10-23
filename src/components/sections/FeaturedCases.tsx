@@ -51,6 +51,21 @@ export function FeaturedCases() {
   ];
   const bars = (
     <div className="fc-bars">
+      <div className="fc-pager">
+        <button type="button" className="gal-btn" onClick={pick((ci + 2) % 3)} aria-label={ta("Vorige case")}>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+            <path d="M15 18l-6-6 6-6"></path>
+          </svg>
+        </button>
+        <span className="fc-count" aria-hidden="true">
+          {ci + 1} / 3
+        </span>
+        <button type="button" className="gal-btn" onClick={pick((ci + 1) % 3)} aria-label={ta("Volgende case")}>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+            <path d="M9 18l6-6-6-6"></path>
+          </svg>
+        </button>
+      </div>
       {CASES.map((c, i) => (
         <button key={c.name} type="button" onClick={pick(i)} aria-label={c.label} aria-current={ci === i ? "true" : undefined} className={ci === i ? "is-on" : undefined}>
           <span className="fc-bar" aria-hidden="true">
