@@ -124,6 +124,7 @@ export function Footer({ tr }: { tr: ServerTr }) {
           <div style={{ display: "flex", flexWrap: "wrap", gap: "48px 56px", justifyContent: "space-between", padding: "56px 0" }}>
             <div style={{ flex: "1.3 1 260px", minWidth: "0", display: "flex", flexDirection: "column", gap: "20px" }}>
               <span
+                className="foot-tagline"
                 style={{ fontFamily: "var(--font-display)", fontSize: "24px", fontWeight: "700", fontStyle: "italic", color: "#FAE84E" }}
               >
                 {t("Ambition, delivered.")}
