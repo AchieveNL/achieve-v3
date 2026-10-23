@@ -24,10 +24,33 @@ const LINES = [
   "Bijna daar.",
   "Even de laatste details rechtzetten.",
 ];
-/** "One moment" in other languages: the joke works in every language, so these are never translated. */
-const WORLD = ["Uno momento, por favor.", "Un instant, s'il vous plaît.", "Einen Moment, bitte.", "Just a sec…", "Un attimo, per favore.", "Chwileczkę…"];
+/** "One moment" in every language the site is offered in: the joke works everywhere, so these are never translated. */
+const WORLD = [
+  "Momentje, graag.",
+  "Just a sec…",
+  "Uno momento, por favor.",
+  "Un instant, s'il vous plaît.",
+  "Einen Moment, bitte.",
+  "Chwileczkę…",
+  "Bir saniye lütfen…",
+  "لحظة من فضلك…",
+];
 const ALL = LINES.length + WORLD.length;
 const DELAY = 300;
+const LAST = "achieve-loader-last";
+
+/** Random index below n, never the one shown last (links are full page loads, so remember it per tab). */
+function pickNew(n: number, last: number | undefined) {
+  const i = Math.floor(Math.random() * (n - 1));
+  return last === undefined || last < 0 || last >= n ? Math.floor(Math.random() * n) : i >= last ? i + 1 : i;
+}
+function readLast(): { m?: number; l?: number } {
+  try {
+    return JSON.parse(sessionStorage.getItem(LAST) || "{}") as { m?: number; l?: number };
+  } catch {
+    return {};
+  }
+}
 
 export function PageLoader() {
   const { t } = useTr();
@@ -52,8 +75,15 @@ export function PageLoader() {
         if (e.defaultPrevented) return;
         window.clearTimeout(timer.current);
         timer.current = window.setTimeout(() => {
+          const last = readLast();
+          const next = { m: pickNew(TEAM.length, last.m), l: pickNew(ALL, last.l) };
+          try {
+            sessionStorage.setItem(LAST, JSON.stringify(next));
+          } catch {
+            /* private mode: a repeat is possible, nothing breaks */
+          }
           setTyped(0);
-          setPick({ m: Math.floor(Math.random() * TEAM.length), l: Math.floor(Math.random() * ALL) });
+          setPick(next);
         }, DELAY);
       }, 0);
     };
@@ -89,7 +119,7 @@ export function PageLoader() {
         </span>
         <div className="pl-bubble">
           <span className="pl-name">{m.name}</span>
-          <span className="pl-line">
+          <span className="pl-line" dir="auto">
             <span aria-hidden="true">{line.slice(0, typed)}</span>
             <span className="pl-sr">{line}</span>
           </span>
