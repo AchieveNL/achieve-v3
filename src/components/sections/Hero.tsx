@@ -112,7 +112,6 @@ export function Hero() {
                 fontWeight: "700",
                 letterSpacing: "0.06em",
                 color: "#1F246C",
-                marginBottom: "-12px",
               }}
             >
               <span style={{ display: "inline-flex", alignItems: "center", gap: "8px" }}>
