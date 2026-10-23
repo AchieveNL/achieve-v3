@@ -421,10 +421,10 @@ html:has(.jn-bar){scroll-behavior:smooth}
 @media (prefers-reduced-motion: reduce){.pl-overlay,.pl-dots i{animation:none}}
 
 /* Team avatars in round frames: one framing for everyone, face centred in the circle. */
-:is([style*="border-radius: 50%"],[style*="border-radius:50%"],.pl-face) > img[src*="/media/team/"]{width:118% !important;max-width:none !important;height:auto !important}
-:is([style*="border-radius: 50%"],[style*="border-radius:50%"],.pl-face) > img[src*="/karim."]{left:-7.8% !important;top:-6.4% !important}
-:is([style*="border-radius: 50%"],[style*="border-radius:50%"],.pl-face) > img[src*="/abdelmonim."]{left:-9.0% !important;top:-4.6% !important}
-:is([style*="border-radius: 50%"],[style*="border-radius:50%"],.pl-face) > img[src*="/niek."]{left:-9.6% !important;top:-5.8% !important}
-:is([style*="border-radius: 50%"],[style*="border-radius:50%"],.pl-face) > img[src*="/seyma."]{left:-6.6% !important;top:-12.3% !important}
-:is([style*="border-radius: 50%"],[style*="border-radius:50%"],.pl-face) > img[src*="/jonas."]{left:-8.7% !important;top:-5.8% !important}
-:is([style*="border-radius: 50%"],[style*="border-radius:50%"],.pl-face) > img[src*="/denise."]{left:-8.4% !important;top:-11.1% !important}
+:is([style*="border-radius: 50%"],[style*="border-radius:50%"],.pl-face,.oo-pop > div) > img[src*="/media/team/"]{width:118% !important;max-width:none !important;height:auto !important}
+:is([style*="border-radius: 50%"],[style*="border-radius:50%"],.pl-face,.oo-pop > div) > img[src*="/karim."]{left:-7.8% !important;top:-6.4% !important}
+:is([style*="border-radius: 50%"],[style*="border-radius:50%"],.pl-face,.oo-pop > div) > img[src*="/abdelmonim."]{left:-9.0% !important;top:-4.6% !important}
+:is([style*="border-radius: 50%"],[style*="border-radius:50%"],.pl-face,.oo-pop > div) > img[src*="/niek."]{left:-9.6% !important;top:-5.8% !important}
+:is([style*="border-radius: 50%"],[style*="border-radius:50%"],.pl-face,.oo-pop > div) > img[src*="/seyma."]{left:-6.6% !important;top:-12.3% !important}
+:is([style*="border-radius: 50%"],[style*="border-radius:50%"],.pl-face,.oo-pop > div) > img[src*="/jonas."]{left:-8.7% !important;top:-5.8% !important}
+:is([style*="border-radius: 50%"],[style*="border-radius:50%"],.pl-face,.oo-pop > div) > img[src*="/denise."]{left:-8.4% !important;top:-11.1% !important}
