@@ -422,9 +422,9 @@ html:has(.jn-bar){scroll-behavior:smooth}
 
 /* Team avatars in round frames: one framing for everyone, face centred in the circle. */
 :is([style*="border-radius: 50%"],[style*="border-radius:50%"],.pl-face) > img[src*="/media/team/"]{width:118% !important;max-width:none !important;height:auto !important}
-:is([style*="border-radius: 50%"],[style*="border-radius:50%"],.pl-face) > img[src$="/team/karim.svg"]{left:-7.8% !important;top:-6.4% !important}
-:is([style*="border-radius: 50%"],[style*="border-radius:50%"],.pl-face) > img[src$="/team/abdelmonim.svg"]{left:-9.0% !important;top:-4.6% !important}
-:is([style*="border-radius: 50%"],[style*="border-radius:50%"],.pl-face) > img[src$="/team/niek.svg"]{left:-9.6% !important;top:-5.8% !important}
-:is([style*="border-radius: 50%"],[style*="border-radius:50%"],.pl-face) > img[src$="/team/seyma.svg"]{left:-6.6% !important;top:-12.3% !important}
-:is([style*="border-radius: 50%"],[style*="border-radius:50%"],.pl-face) > img[src$="/team/jonas.svg"]{left:-8.7% !important;top:-5.8% !important}
-:is([style*="border-radius: 50%"],[style*="border-radius:50%"],.pl-face) > img[src$="/team/denise.svg"]{left:-8.4% !important;top:-11.1% !important}
+:is([style*="border-radius: 50%"],[style*="border-radius:50%"],.pl-face) > img[src*="/karim."]{left:-7.8% !important;top:-6.4% !important}
+:is([style*="border-radius: 50%"],[style*="border-radius:50%"],.pl-face) > img[src*="/abdelmonim."]{left:-9.0% !important;top:-4.6% !important}
+:is([style*="border-radius: 50%"],[style*="border-radius:50%"],.pl-face) > img[src*="/niek."]{left:-9.6% !important;top:-5.8% !important}
+:is([style*="border-radius: 50%"],[style*="border-radius:50%"],.pl-face) > img[src*="/seyma."]{left:-6.6% !important;top:-12.3% !important}
+:is([style*="border-radius: 50%"],[style*="border-radius:50%"],.pl-face) > img[src*="/jonas."]{left:-8.7% !important;top:-5.8% !important}
+:is([style*="border-radius: 50%"],[style*="border-radius:50%"],.pl-face) > img[src*="/denise."]{left:-8.4% !important;top:-11.1% !important}

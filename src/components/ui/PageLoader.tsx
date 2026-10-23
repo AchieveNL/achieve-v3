@@ -4,18 +4,18 @@ import { useEffect, useRef, useState } from "react";
 import { useTr } from "@/i18n/I18nProvider";
 
 /**
- * Shown only when the next page takes longer than 0.3 s: a team member "types" a short line in a
+ * Shown only when the next page takes longer than 0.15 s: a team member "types" a short line in a
  * chat bubble, in the same style as the team chat on Over ons. Links are plain <a> tags, so the
  * browser keeps the current page on screen while the next one loads; the new page replaces this.
  */
 
 const TEAM = [
-  { name: "Karim", img: "/media/team/karim.svg", bg: "#EFE8FD", left: "-14%", w: "128%" },
-  { name: "Abdelmonim", img: "/media/team/abdelmonim.svg", bg: "#E3F1FD", left: "-14%", w: "128%" },
-  { name: "Niek", img: "/media/team/niek.svg", bg: "#FFF6CC", left: "-14%", w: "128%" },
-  { name: "Seyma", img: "/media/team/seyma.svg", bg: "#EFE8FD", left: "-5%", w: "110%" },
-  { name: "Jonas", img: "/media/team/jonas.svg", bg: "#E3F1FD", left: "-14%", w: "128%" },
-  { name: "Denise", img: "/media/team/denise.svg", bg: "#FFF6CC", left: "-5%", w: "110%" },
+  { name: "Karim", img: "/media/team/small/karim.webp", bg: "#EFE8FD", left: "-14%", w: "128%" },
+  { name: "Abdelmonim", img: "/media/team/small/abdelmonim.webp", bg: "#E3F1FD", left: "-14%", w: "128%" },
+  { name: "Niek", img: "/media/team/small/niek.webp", bg: "#FFF6CC", left: "-14%", w: "128%" },
+  { name: "Seyma", img: "/media/team/small/seyma.webp", bg: "#EFE8FD", left: "-5%", w: "110%" },
+  { name: "Jonas", img: "/media/team/small/jonas.webp", bg: "#E3F1FD", left: "-14%", w: "128%" },
+  { name: "Denise", img: "/media/team/small/denise.webp", bg: "#FFF6CC", left: "-5%", w: "110%" },
 ];
 const LINES = [
   "Momentje, we halen je pagina op.",
@@ -36,7 +36,8 @@ const WORLD = [
   "لحظة من فضلك…",
 ];
 const ALL = LINES.length + WORLD.length;
-const DELAY = 300;
+/** Short enough that a slow page shows the loader quickly, long enough that fast pages never flash it. */
+const DELAY = 150;
 const LAST = "achieve-loader-last";
 
 /** Random index below n, never the one shown last (links are full page loads, so remember it per tab). */
@@ -87,6 +88,9 @@ export function PageLoader() {
         }, DELAY);
       }, 0);
     };
+    // Fetch the six small faces once the page is idle, so the loader never waits for its picture.
+    const preload = () => TEAM.forEach((m) => (new Image().src = m.img));
+    const idle = window.requestIdleCallback?.(preload, { timeout: 3000 }) ?? window.setTimeout(preload, 1500);
     const onShow = () => hide(); // back/forward cache restores the old page
     document.addEventListener("click", onClick);
     window.addEventListener("pageshow", onShow);
@@ -94,6 +98,8 @@ export function PageLoader() {
       document.removeEventListener("click", onClick);
       window.removeEventListener("pageshow", onShow);
       window.clearTimeout(timer.current);
+      if (window.cancelIdleCallback) window.cancelIdleCallback(idle);
+      else window.clearTimeout(idle);
     };
   }, []);
 
