@@ -100,6 +100,7 @@ export function Hero() {
               className="ai-pill"
               style={{
                 alignSelf: "flex-start",
+                marginBottom: "16px",
                 display: "inline-flex",
                 flexWrap: "wrap",
                 alignItems: "center",
