@@ -866,7 +866,7 @@ export function FeaturedCases() {
               </>
             )}
             <div style={{ maxWidth: "1280px", width: "100%", boxSizing: "border-box", margin: "0 auto", padding: "0 40px" }}>
-              <div style={{ display: "flex", justifyContent: "center", marginTop: "16px" }}>
+              <div className="fc-more" style={{ display: "flex", justifyContent: "center", marginTop: "16px" }}>
                 <a
                   href={href("Projecten")}
                   className="about-link"

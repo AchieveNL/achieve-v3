@@ -486,3 +486,6 @@ html:has(.jn-bar){scroll-behavior:smooth}
 .fc-bars .fc-pager .gal-btn[aria-label]:nth-child(1):hover svg{transform:translateX(-3px)}
 .fc-bars .fc-pager .gal-btn[aria-label]:nth-child(3):hover svg{transform:translateX(3px)}
 @media (max-width: 600px){.fc-bars .fc-pager .gal-btn{width:36px;height:36px}}
+/* "Bekijk de hele oogst": same space above and below, so it sits centred between the cases and the next section. */
+#werk > div{padding-bottom:72px !important}
+.fc-more{margin-top:48px !important}
