@@ -51,8 +51,8 @@ export default async function LocaleLayout({ children, params }: { children: Rea
       className={`${poppins.variable} ${sourceSans.variable} ${montserrat.variable} ${rajdhani.variable}`}
     >
       <body>
-        <MotionProvider>{children}</MotionProvider>
         <FaviconMotion />
+        <MotionProvider>{children}</MotionProvider>
       </body>
     </html>
   );

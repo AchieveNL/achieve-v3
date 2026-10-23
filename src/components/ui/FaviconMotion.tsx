@@ -1,110 +1,33 @@
-"use client";
-
-import { useEffect } from "react";
-
 /**
  * Animated favicon. Firefox animates the SVG favicon by itself; Chrome, Edge and Safari only show
  * its first frame. So we draw the same animation on a small canvas and swap the tab icon about
- * ten times a second (browsers slow this down to ~1/s in background tabs, which is fine).
- * Matches the design: background drifting navy → purple → blue, and a light streak sliding
- * over the A every 4.5 s.
+ * ten times a second (browsers slow this down in background tabs).
+ * Background fades navy → purple → blue over 9 s; a light streak slides over the A every 4.5 s.
+ *
+ * It runs as a small inline script at the top of <body>, so it takes over the tab icon while the
+ * page is still loading. The colour follows the clock (not page load), so moving to another page
+ * carries on the fade where it was instead of jumping back to navy.
  */
-
-const A_PATH = "M26.6 12h10.8l14.6 40h-10.4l-2.9-8.4H25.3L22.4 52H12zM27.9 36.2h8.2L32 23.8z";
-const NAVY: RGB = [31, 36, 108];
-const PURPLE: RGB = [134, 57, 250];
-const BLUE: RGB = [15, 138, 229];
-
-type RGB = [number, number, number];
-type Stop = [number, number];
-
-const ease = (x: number) => x * x * (3 - 2 * x);
-/** Value at time t (seconds) for keyframes [fraction, value] over `dur`, eased per segment like CSS ease-in-out. */
-function key(t: number, dur: number, stops: Stop[]) {
-  const p = (t % dur) / dur;
-  for (let i = 0; i < stops.length - 1; i++) {
-    const [a, va] = stops[i];
-    const [b, vb] = stops[i + 1];
-    if (p >= a && p <= b) return va + (vb - va) * ease(b === a ? 0 : (p - a) / (b - a));
-  }
-  return stops[stops.length - 1][1];
-}
-const mix = (c1: RGB, c2: RGB, k: number) => c1.map((v, i) => Math.round(v + (c2[i] - v) * k)) as RGB;
-function bgColor(t: number): RGB {
-  const p = (t % 9) / 9;
-  if (p < 1 / 3) return mix(NAVY, PURPLE, ease(p * 3));
-  if (p < 2 / 3) return mix(PURPLE, BLUE, ease((p - 1 / 3) * 3));
-  return mix(BLUE, NAVY, ease((p - 2 / 3) * 3));
-}
+const SCRIPT = `(function(){
+if(window.__favMotion)return;window.__favMotion=1;
+if(matchMedia("(prefers-reduced-motion: reduce)").matches||/firefox/i.test(navigator.userAgent))return;
+var S=64,cv=document.createElement("canvas");cv.width=S;cv.height=S;var c=cv.getContext("2d");if(!c||!window.Path2D||!window.DOMMatrix)return;
+var a=new Path2D();a.addPath(new Path2D("M26.6 12h10.8l14.6 40h-10.4l-2.9-8.4H25.3L22.4 52H12zM27.9 36.2h8.2L32 23.8z"),new DOMMatrix().translate(32,32).scale(1.1).translate(-32,-32));
+var bg=new Path2D();if(bg.roundRect)bg.roundRect(0,0,64,64,9);else bg.rect(0,0,64,64);
+var N=[31,36,108],P=[134,57,250],B=[15,138,229];
+function e(x){return x*x*(3-2*x)}
+function m(p,q,k){return[0,1,2].map(function(i){return Math.round(p[i]+(q[i]-p[i])*k)})}
+function col(t){var p=(t%9)/9;return p<1/3?m(N,P,e(p*3)):p<2/3?m(P,B,e((p-1/3)*3)):m(B,N,e((p-2/3)*3))}
+var link=document.createElement("link");link.rel="icon";link.type="image/png";
+function park(){var l=document.querySelectorAll('link[rel~="icon"]');for(var i=0;i<l.length;i++)if(l[i]!==link)l[i].rel="x-static-icon";if(!link.isConnected)document.head.appendChild(link)}
+function draw(){var t=Date.now()/1000;c.clearRect(0,0,S,S);c.save();c.clip(bg);var k=col(t);c.fillStyle="rgb("+k.join(",")+")";c.fillRect(0,0,S,S);c.restore();
+c.save();c.clip(a,"evenodd");c.fillStyle="#FFFFFF";c.fillRect(0,0,S,S);
+var p=(t%4.5)/4.5,sx=p<.7?0:150*e((p-.7)/.3);
+if(sx>0&&sx<150){c.setTransform(1,0,Math.tan(-18*Math.PI/180),1,0,0);var x=-40+sx,g=c.createLinearGradient(x,0,x+28,0);g.addColorStop(0,"rgba(134,57,250,0)");g.addColorStop(.5,"rgba(134,57,250,0.4)");g.addColorStop(1,"rgba(134,57,250,0)");c.fillStyle=g;c.fillRect(x,0,28,64)}
+c.restore();park();link.href=cv.toDataURL("image/png")}
+draw();setInterval(draw,100);
+})();`;
 
 export function FaviconMotion() {
-  useEffect(() => {
-    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
-    if (/firefox/i.test(navigator.userAgent)) return; // animates the SVG itself
-    const S = 64;
-    const cv = document.createElement("canvas");
-    cv.width = S;
-    cv.height = S;
-    const ctx = cv.getContext("2d");
-    if (!ctx) return;
-    const aPath = new Path2D();
-    aPath.addPath(new Path2D(A_PATH), new DOMMatrix().translate(32, 32).scale(1.1).translate(-32, -32));
-    const bg = new Path2D();
-    bg.roundRect(0, 0, 64, 64, 9);
-
-    // One icon link we own; the static SVG stays in the HTML for crawlers and no-JS.
-    // Chrome prefers an SVG icon over a PNG one, so park the static icon while we animate.
-    const statics = Array.from(document.querySelectorAll<HTMLLinkElement>('link[rel~="icon"]'));
-    statics.forEach((l) => (l.rel = "x-static-icon"));
-    const link = document.createElement("link");
-    link.rel = "icon";
-    link.type = "image/png";
-    document.head.appendChild(link);
-
-    const start = performance.now();
-    const draw = () => {
-      const t = (performance.now() - start) / 1000;
-      ctx.clearRect(0, 0, S, S);
-      ctx.save();
-      ctx.clip(bg);
-      const [r, g, b] = bgColor(t);
-      ctx.fillStyle = `rgb(${r},${g},${b})`;
-      ctx.fillRect(0, 0, S, S);
-      ctx.restore();
-      // the A, with a light streak passing over it
-      ctx.save();
-      ctx.clip(aPath, "evenodd");
-      ctx.fillStyle = "#FFFFFF";
-      ctx.fillRect(0, 0, S, S);
-      const sx = key(t, 4.5, [[0, 0], [0.7, 0], [1, 150]]);
-      if (sx > 0 && sx < 150) {
-        ctx.setTransform(1, 0, Math.tan((-18 * Math.PI) / 180), 1, 0, 0);
-        const x = -40 + sx;
-        const sg = ctx.createLinearGradient(x, 0, x + 28, 0);
-        sg.addColorStop(0, "rgba(134,57,250,0)");
-        sg.addColorStop(0.5, "rgba(134,57,250,0.4)");
-        sg.addColorStop(1, "rgba(134,57,250,0)");
-        ctx.fillStyle = sg;
-        ctx.fillRect(x, 0, 28, 64);
-      }
-      ctx.restore();
-      // Next can put its own icon links back on navigation; keep ours the only active one.
-      document.querySelectorAll<HTMLLinkElement>('link[rel~="icon"]').forEach((l) => {
-        if (l !== link) {
-          l.rel = "x-static-icon";
-          if (!statics.includes(l)) statics.push(l);
-        }
-      });
-      if (!link.isConnected) document.head.appendChild(link);
-      link.href = cv.toDataURL("image/png");
-    };
-    draw();
-    const id = window.setInterval(draw, 100);
-    return () => {
-      window.clearInterval(id);
-      link.remove();
-      statics.forEach((l) => (l.rel = "icon"));
-    };
-  }, []);
-  return null;
+  return <script dangerouslySetInnerHTML={{ __html: SCRIPT }} />;
 }
