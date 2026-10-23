@@ -745,9 +745,10 @@ export function Header() {
                 font: "inherit",
                 width: "48px",
                 height: "48px",
-                border: "1px solid #E4E6EA",
+                border: "none",
                 borderRadius: "10px",
-                background: "#FFFFFF",
+                background: "transparent",
+                padding: "0",
                 color: "#1F246C",
                 alignItems: "center",
                 justifyContent: "center",
@@ -757,32 +758,32 @@ export function Header() {
               {h.navClosed && (
                 <>
                   <svg
-                    width="22"
-                    height="22"
+                    width="32"
+                    height="32"
                     viewBox="0 0 24 24"
                     fill="none"
                     stroke="currentColor"
-                    strokeWidth="2.2"
+                    strokeWidth="2"
                     strokeLinecap="round"
                     aria-hidden="true"
                   >
-                    <path d="M4 7h16M4 12h16M4 17h16"></path>
+                    <path d="M3 6.5h18M3 12h18M3 17.5h18"></path>
                   </svg>
                 </>
               )}
               {h.navOpen && (
                 <>
                   <svg
-                    width="22"
-                    height="22"
+                    width="30"
+                    height="30"
                     viewBox="0 0 24 24"
                     fill="none"
                     stroke="currentColor"
-                    strokeWidth="2.2"
+                    strokeWidth="2"
                     strokeLinecap="round"
                     aria-hidden="true"
                   >
-                    <path d="M6 6l12 12M18 6L6 18"></path>
+                    <path d="M5 5l14 14M19 5L5 19"></path>
                   </svg>
                 </>
               )}

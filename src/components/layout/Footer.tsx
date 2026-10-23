@@ -129,7 +129,7 @@ export function Footer({ tr }: { tr: ServerTr }) {
               >
                 {t("Ambition, delivered.")}
               </span>
-              <div style={{ display: "grid", gridTemplateColumns: "repeat(2, minmax(0, 1fr))", gap: "8px", maxWidth: "300px" }}>
+              <div className="foot-social" style={{ display: "grid", gridTemplateColumns: "repeat(2, minmax(0, 1fr))", gap: "8px", maxWidth: "300px" }}>
                 <a
                   href="https://www.facebook.com/achieve.nl/"
                   target="_blank"
@@ -762,6 +762,7 @@ export function Footer({ tr }: { tr: ServerTr }) {
           </div>
         </div>
         <div
+          className="foot-bottom"
           style={{
             maxWidth: "1280px",
             margin: "0 auto",
