@@ -2,8 +2,8 @@
 <style>
 .fav-shine{transform:skewX(-18deg) translateX(0);animation:favShine 4.5s ease-in-out infinite}
 @keyframes favShine{0%,70%{transform:skewX(-18deg) translateX(0)}100%{transform:skewX(-18deg) translateX(150px)}}
-.fav-bg{animation:favBg 9s ease-in-out infinite}
-@keyframes favBg{0%,100%{fill:#1F246C}33%{fill:#8639FA}66%{fill:#0F8AE5}}
+.fav-bg{animation:favBg 9s step-end infinite}
+@keyframes favBg{0%{fill:#1F246C}33.333%{fill:#8639FA}66.667%{fill:#0F8AE5}100%{fill:#1F246C}}
 .fav-cluster{animation:favCl 12s ease-in-out infinite}
 @keyframes favCl{0%,100%{transform:translate(0,0)}25%{transform:translate(10px,8px)}50%{transform:translate(-8px,10px)}75%{transform:translate(-10px,-8px)}}
 .fav-o1{animation:favO1 5s ease-in-out infinite,favO1op 9s ease-in-out infinite}
