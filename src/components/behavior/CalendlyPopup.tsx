@@ -15,8 +15,23 @@ import { useTr } from "@/i18n/I18nProvider";
  */
 const SEL = 'a[href*="calendly.com"]:not([data-cal-direct])';
 
+/**
+ * Calendly shows a booking page in the language set on its event type, so each site language
+ * links to its own event type. Calendly offers Dutch, English, Spanish, French and German;
+ * Polish, Turkish and Arabic visitors get the English one. Empty = keep the link as written (Dutch).
+ */
+const CAL_BY_LOCALE: Partial<Record<string, string>> = {
+  en: "",
+  es: "",
+  fr: "",
+  de: "",
+  pl: "",
+  tr: "",
+  ar: "",
+};
+
 export function CalendlyPopup() {
-  const { t, ta } = useTr();
+  const { t, ta, locale } = useTr();
   useEffect(() => {
     const esc = (s: string) => s.replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/</g, "&lt;");
     const popups = new Map<string, HTMLDivElement>();
@@ -35,7 +50,8 @@ export function CalendlyPopup() {
       document.head.appendChild(st);
     }
 
-    const build = (base: string) => {
+    const build = (href: string) => {
+      const base = CAL_BY_LOCALE[locale] || href;
       const existing = popups.get(base);
       if (existing) return existing;
       const url = `${base}${base.includes("?") ? "&" : "?"}hide_gdpr_banner=1&embed_type=Inline&embed_domain=1`;
@@ -112,6 +128,6 @@ export function CalendlyPopup() {
       popups.forEach((ov) => ov.remove());
       document.body.style.overflow = current?.prevOverflow ?? document.body.style.overflow;
     };
-  }, [t, ta]);
+  }, [t, ta, locale]);
   return null;
 }
