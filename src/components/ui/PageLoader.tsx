@@ -27,13 +27,11 @@ const LINES = [
   "Bijna klaar…",
   "Daar gaan we…",
   "Eén momentje…",
-  "Hij komt eraan…",
-  "Nog een tikje…",
 ];
 /** "One moment" in a few languages: the joke works everywhere, so these are never translated. */
 const WORLD = [
   "Just a sec…",
-  "Uno momento, por favor.",
+  "Un momento, por favor.",
   "Einen Moment, bitte.",
 ];
 const ALL = LINES.length + WORLD.length;
