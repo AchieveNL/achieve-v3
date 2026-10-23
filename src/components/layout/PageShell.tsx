@@ -1,5 +1,6 @@
 import type { ReactNode } from "react";
 import { I18nProvider } from "@/i18n/I18nProvider";
+import { PageLoader } from "@/components/ui/PageLoader";
 import { getDicts, getTr } from "@/i18n/server";
 import type { Locale, PageId } from "@/i18n/config";
 import { CalendlyPopup } from "@/components/behavior/CalendlyPopup";
@@ -21,6 +22,7 @@ export async function PageShell({ locale, page, children }: { locale: Locale; pa
         <Footer tr={tr} />
       </div>
       <CalendlyPopup />
+      <PageLoader />
       <DragScroll />
     </I18nProvider>
   );
