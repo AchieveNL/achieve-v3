@@ -148,7 +148,7 @@ export function FeaturedCases() {
                       gap: "28px",
                     }}
                   >
-                    <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: "16px" }}>
+                    <div className="fc-head" style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: "16px" }}>
                       <span style={{ display: "flex", flexDirection: "column", gap: "2px" }}>
                         <strong
                           style={{
@@ -163,7 +163,7 @@ export function FeaturedCases() {
                         </strong>
                         <span style={{ fontSize: "15px", color: "#5A6273" }}>{t("Life sciences")}</span>
                       </span>
-                      <span style={{ flexShrink: "0", display: "flex", gap: "8px" }}>
+                      <span className="fc-tags" style={{ flexShrink: "0", display: "flex", gap: "8px" }}>
                         <span
                           translate="no"
                           style={{
@@ -392,7 +392,7 @@ export function FeaturedCases() {
                       gap: "28px",
                     }}
                   >
-                    <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: "16px" }}>
+                    <div className="fc-head" style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: "16px" }}>
                       <span style={{ display: "flex", flexDirection: "column", gap: "2px" }}>
                         <strong
                           style={{
@@ -628,7 +628,7 @@ export function FeaturedCases() {
                       gap: "28px",
                     }}
                   >
-                    <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: "16px" }}>
+                    <div className="fc-head" style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: "16px" }}>
                       <span style={{ display: "flex", flexDirection: "column", gap: "2px" }}>
                         <strong
                           style={{
@@ -643,7 +643,7 @@ export function FeaturedCases() {
                         </strong>
                         <span style={{ fontSize: "15px", color: "#5A6273" }}>{t("Familiebedrijf")}</span>
                       </span>
-                      <span style={{ flexShrink: "0", display: "flex", gap: "8px" }}>
+                      <span className="fc-tags" style={{ flexShrink: "0", display: "flex", gap: "8px" }}>
                         <span
                           translate="no"
                           style={{
