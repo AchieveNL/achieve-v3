@@ -105,7 +105,7 @@ export function FeaturedCases() {
                   className="rot-in"
                   style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(380px, 1fr))", gap: "0", background: "#FFFFFF" }}
                 >
-                  <div style={{ position: "relative", minHeight: "600px", overflow: "hidden" }}>
+                  <div className="fc-img" style={{ position: "relative", minHeight: "600px", overflow: "hidden" }}>
                     <img
                       src="/media/cases/rcpeptides-lab.webp"
                       alt={ta("De webshop RCpeptides op een laptop en een telefoon in een modern lab")}
@@ -186,7 +186,7 @@ export function FeaturedCases() {
                         {t("in de eerste maand")}
                       </span>
                     </div>
-                    <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "20px" }}>
+                    <div className="fc-detail" style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "20px" }}>
                       <div style={{ display: "flex", flexDirection: "column", gap: "6px" }}>
                         <span
                           style={{
@@ -227,6 +227,7 @@ export function FeaturedCases() {
                       </div>
                     </div>
                     <blockquote
+                      className="fc-quote"
                       style={{
                         margin: "0",
                         marginTop: "auto",
@@ -311,7 +312,7 @@ export function FeaturedCases() {
                         href="https://calendly.com/vrijblijvendgesprek/"
                         target="_blank"
                         rel="noopener"
-                        className="feat-link"
+                        className="feat-link fc-sub"
                         style={{
                           display: "inline-flex",
                           alignItems: "center",
@@ -350,7 +351,7 @@ export function FeaturedCases() {
                   className="rot-in"
                   style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(380px, 1fr))", gap: "0", background: "#FFFFFF" }}
                 >
-                  <div style={{ position: "relative", minHeight: "600px", overflow: "hidden" }}>
+                  <div className="fc-img" style={{ position: "relative", minHeight: "600px", overflow: "hidden" }}>
                     <LazyVideo
                       preload="none"
                       src="/media/cases/sharkys.mp4"
@@ -419,7 +420,7 @@ export function FeaturedCases() {
                       </span>
                       <span style={{ fontSize: "17px", fontWeight: "600", color: "#1F246C" }}>{t("op dag 1")}</span>
                     </div>
-                    <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "20px" }}>
+                    <div className="fc-detail" style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "20px" }}>
                       <div style={{ display: "flex", flexDirection: "column", gap: "6px" }}>
                         <span
                           style={{
@@ -458,6 +459,7 @@ export function FeaturedCases() {
                       </div>
                     </div>
                     <blockquote
+                      className="fc-quote"
                       style={{
                         margin: "0",
                         marginTop: "auto",
@@ -542,7 +544,7 @@ export function FeaturedCases() {
                         href="https://calendly.com/vrijblijvendgesprek/"
                         target="_blank"
                         rel="noopener"
-                        className="feat-link"
+                        className="feat-link fc-sub"
                         style={{
                           display: "inline-flex",
                           alignItems: "center",
@@ -581,7 +583,7 @@ export function FeaturedCases() {
                   className="rot-in"
                   style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(380px, 1fr))", gap: "0", background: "#FFFFFF" }}
                 >
-                  <div style={{ position: "relative", minHeight: "600px", overflow: "hidden" }}>
+                  <div className="fc-img" style={{ position: "relative", minHeight: "600px", overflow: "hidden" }}>
                     <img
                       src="/media/cases/a-direct-pand.webp"
                       alt={ta("Het pand van A-direct Autoparts met bedrijfsbussen voor de deur")}
@@ -671,7 +673,7 @@ export function FeaturedCases() {
                         {t("merk en website in eigen huisstijl")}
                       </span>
                     </div>
-                    <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "20px" }}>
+                    <div className="fc-detail" style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "20px" }}>
                       <div style={{ display: "flex", flexDirection: "column", gap: "6px" }}>
                         <span
                           style={{
@@ -706,6 +708,7 @@ export function FeaturedCases() {
                       </div>
                     </div>
                     <blockquote
+                      className="fc-quote"
                       style={{
                         margin: "0",
                         marginTop: "auto",
@@ -792,7 +795,7 @@ export function FeaturedCases() {
                         href="https://calendly.com/vrijblijvendgesprek/"
                         target="_blank"
                         rel="noopener"
-                        className="feat-link"
+                        className="feat-link fc-sub"
                         style={{
                           display: "inline-flex",
                           alignItems: "center",

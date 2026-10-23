@@ -399,3 +399,5 @@ html:has(.jn-bar){scroll-behavior:smooth}
 .jn-bar .em-jl-cta:hover,.jn-bar .em-jl-cta:focus-visible,.jn-bar .em-jl-cta.is-on,.em-jump .em-jl-cta:hover,.em-jump .em-jl-cta:focus-visible,.em-jump .em-jl-cta.is-on{background:none !important;color:#0F8AE5 !important}
 /* Footer logo keeps the header logo's proportions (sub line = 0.41 × ACHIEVE) when it scales down on phones. */
 @media (max-width: 600px){.foot-logo > span:first-child{font-size:32px !important}.foot-logo > span:last-child{font-size:13px !important}}
+/* Home, "Ons werk" on phones: short cards. Photo, result and one button; the full story is on the case page. */
+@media (max-width: 600px){.fc-detail,.fc-quote,.fc-sub{display:none !important}.fc-img{min-height:220px !important;max-height:240px}}
