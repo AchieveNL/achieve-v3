@@ -43,6 +43,25 @@ export function FeaturedCases() {
     pickCase1: pick(1),
     pickCase2: pick(2),
   };
+  // Progress bars for the three cases, laid over the bottom of the case image.
+  const CASES = [
+    { name: "RCpeptides", label: ta("Toon case RCpeptides") },
+    { name: "Sharkys", label: ta("Toon case Sharkys") },
+    { name: "A-direct Automaterialen", label: ta("Toon case A-direct Automaterialen") },
+  ];
+  const bars = (
+    <div className="fc-bars">
+      {CASES.map((c, i) => (
+        <button key={c.name} type="button" onClick={pick(i)} aria-label={c.label} aria-current={ci === i ? "true" : undefined} className={ci === i ? "is-on" : undefined}>
+          <span className="fc-bar" aria-hidden="true">
+            <span data-casebar={i}></span>
+          </span>
+          <span className="fc-num">{t(["01", "02", "03"][i])}</span>
+          <span className="fc-name">{t(c.name)}</span>
+        </button>
+      ))}
+    </div>
+  );
   return (
     <>
       <section id="werk" ref={root} style={{ background: "#F2F8FE" }}>
@@ -106,6 +125,7 @@ export function FeaturedCases() {
                   style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(380px, 1fr))", gap: "0", background: "#FFFFFF" }}
                 >
                   <div className="fc-img" style={{ position: "relative", minHeight: "600px", overflow: "hidden" }}>
+                    {bars}
                     <img
                       src="/media/cases/rcpeptides-lab.webp"
                       alt={ta("De webshop RCpeptides op een laptop en een telefoon in een modern lab")}
@@ -352,6 +372,7 @@ export function FeaturedCases() {
                   style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(380px, 1fr))", gap: "0", background: "#FFFFFF" }}
                 >
                   <div className="fc-img" style={{ position: "relative", minHeight: "600px", overflow: "hidden" }}>
+                    {bars}
                     <LazyVideo
                       preload="none"
                       src="/media/cases/sharkys.mp4"
@@ -584,6 +605,7 @@ export function FeaturedCases() {
                   style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(380px, 1fr))", gap: "0", background: "#FFFFFF" }}
                 >
                   <div className="fc-img" style={{ position: "relative", minHeight: "600px", overflow: "hidden" }}>
+                    {bars}
                     <img
                       src="/media/cases/a-direct-pand.webp"
                       alt={ta("Het pand van A-direct Autoparts met bedrijfsbussen voor de deur")}
@@ -829,167 +851,7 @@ export function FeaturedCases() {
               </>
             )}
             <div style={{ maxWidth: "1280px", width: "100%", boxSizing: "border-box", margin: "0 auto", padding: "0 40px" }}>
-              <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))", gap: "32px", marginTop: "8px" }}>
-                <button
-                  type="button"
-                  onClick={h.pickCase0}
-                  aria-label={ta("Toon case RCpeptides")}
-                  style={{
-                    position: "relative",
-                    display: "flex",
-                    flexDirection: "column",
-                    gap: "6px",
-                    padding: "22px 0 0",
-                    border: "none",
-                    background: "transparent",
-                    textAlign: "left",
-                    font: "inherit",
-                    cursor: "pointer",
-                    opacity: h.caseOp0,
-                    transition: "opacity .3s ease",
-                  }}
-                >
-                  <span
-                    aria-hidden="true"
-                    style={{
-                      position: "absolute",
-                      top: "0",
-                      left: "0",
-                      right: "0",
-                      height: "3px",
-                      borderRadius: "2px",
-                      background: "rgba(31,36,108,0.15)",
-                    }}
-                  ></span>
-                  <span
-                    aria-hidden="true"
-                    style={{
-                      position: "absolute",
-                      top: "0",
-                      left: "0",
-                      height: "3px",
-                      borderRadius: "2px",
-                      width: "0%",
-                      background: "linear-gradient(90deg, #8639FA 0%, #0F8AE5 100%)",
-                    }}
-                    data-casebar="0"
-                  ></span>
-                  <span style={{ fontFamily: "var(--font-display)", fontSize: "15px", fontWeight: "700", color: "#8639FA" }}>
-                    {t("01")}
-                  </span>
-                  <strong style={{ fontSize: "18px", fontWeight: "600", color: "#1F246C" }}>{t("RCpeptides")}</strong>
-                  <span style={{ fontSize: "15px", color: "#5A6273" }}>
-                    {t("8,3x ROAS")}
-                    <Tip label={ta("Uitleg")}>
-                      {t(
-                        "ROAS (return on ad spend): hoeveel omzet elke euro aan advertenties oplevert. 8,3x betekent € 8,30 omzet per euro.",
-                      )}
-                    </Tip>{" "}
-                    {t("in de eerste maand")}
-                  </span>
-                </button>
-                <button
-                  type="button"
-                  onClick={h.pickCase1}
-                  aria-label={ta("Toon case Sharkys")}
-                  style={{
-                    position: "relative",
-                    display: "flex",
-                    flexDirection: "column",
-                    gap: "6px",
-                    padding: "22px 0 0",
-                    border: "none",
-                    background: "transparent",
-                    textAlign: "left",
-                    font: "inherit",
-                    cursor: "pointer",
-                    opacity: h.caseOp1,
-                    transition: "opacity .3s ease",
-                  }}
-                >
-                  <span
-                    aria-hidden="true"
-                    style={{
-                      position: "absolute",
-                      top: "0",
-                      left: "0",
-                      right: "0",
-                      height: "3px",
-                      borderRadius: "2px",
-                      background: "rgba(31,36,108,0.15)",
-                    }}
-                  ></span>
-                  <span
-                    aria-hidden="true"
-                    style={{
-                      position: "absolute",
-                      top: "0",
-                      left: "0",
-                      height: "3px",
-                      borderRadius: "2px",
-                      width: "0%",
-                      background: "linear-gradient(90deg, #8639FA 0%, #0F8AE5 100%)",
-                    }}
-                    data-casebar="1"
-                  ></span>
-                  <span style={{ fontFamily: "var(--font-display)", fontSize: "15px", fontWeight: "700", color: "#8639FA" }}>
-                    {t("02")}
-                  </span>
-                  <strong style={{ fontSize: "18px", fontWeight: "600", color: "#1F246C" }}>{t("Sharkys")}</strong>
-                  <span style={{ fontSize: "15px", color: "#5A6273" }}>{t("Nieuwe klanten op dag 1")}</span>
-                </button>
-                <button
-                  type="button"
-                  onClick={h.pickCase2}
-                  aria-label={ta("Toon case A-direct Automaterialen")}
-                  style={{
-                    position: "relative",
-                    display: "flex",
-                    flexDirection: "column",
-                    gap: "6px",
-                    padding: "22px 0 0",
-                    border: "none",
-                    background: "transparent",
-                    textAlign: "left",
-                    font: "inherit",
-                    cursor: "pointer",
-                    opacity: h.caseOp2,
-                    transition: "opacity .3s ease",
-                  }}
-                >
-                  <span
-                    aria-hidden="true"
-                    style={{
-                      position: "absolute",
-                      top: "0",
-                      left: "0",
-                      right: "0",
-                      height: "3px",
-                      borderRadius: "2px",
-                      background: "rgba(31,36,108,0.15)",
-                    }}
-                  ></span>
-                  <span
-                    aria-hidden="true"
-                    style={{
-                      position: "absolute",
-                      top: "0",
-                      left: "0",
-                      height: "3px",
-                      borderRadius: "2px",
-                      width: "0%",
-                      background: "linear-gradient(90deg, #8639FA 0%, #0F8AE5 100%)",
-                    }}
-                    data-casebar="2"
-                  ></span>
-                  <span style={{ fontFamily: "var(--font-display)", fontSize: "15px", fontWeight: "700", color: "#8639FA" }}>
-                    {t("03")}
-                  </span>
-                  <strong style={{ fontSize: "18px", fontWeight: "600", color: "#1F246C" }}>{t("A-direct Automaterialen")}</strong>
-                  <span style={{ fontSize: "15px", color: "#5A6273" }}>{t("Strategie, branding en website")}</span>
-                </button>
-              </div>
-              <div style={{ display: "flex", justifyContent: "center", marginTop: "40px" }}>
+              <div style={{ display: "flex", justifyContent: "center", marginTop: "16px" }}>
                 <a
                   href={href("Projecten")}
                   className="about-link"
