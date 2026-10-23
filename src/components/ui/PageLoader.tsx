@@ -24,6 +24,9 @@ const LINES = [
   "Bijna daar.",
   "Even de laatste details rechtzetten.",
 ];
+/** "One moment" in other languages: the joke works in every language, so these are never translated. */
+const WORLD = ["Uno momento, por favor.", "Un instant, s'il vous plaît.", "Einen Moment, bitte.", "Just a sec…", "Un attimo, per favore.", "Chwileczkę…"];
+const ALL = LINES.length + WORLD.length;
 const DELAY = 300;
 
 export function PageLoader() {
@@ -50,7 +53,7 @@ export function PageLoader() {
         window.clearTimeout(timer.current);
         timer.current = window.setTimeout(() => {
           setTyped(0);
-          setPick({ m: Math.floor(Math.random() * TEAM.length), l: Math.floor(Math.random() * LINES.length) });
+          setPick({ m: Math.floor(Math.random() * TEAM.length), l: Math.floor(Math.random() * ALL) });
         }, DELAY);
       }, 0);
     };
@@ -64,7 +67,7 @@ export function PageLoader() {
     };
   }, []);
 
-  const line = pick ? t(LINES[pick.l]) : "";
+  const line = !pick ? "" : pick.l < LINES.length ? t(LINES[pick.l]) : WORLD[pick.l - LINES.length];
   useEffect(() => {
     if (!pick) return;
     const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
