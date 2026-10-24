@@ -718,12 +718,12 @@ export function Footer({ tr }: { tr: ServerTr }) {
                   </li>
                   <li>
                     <a
-                      href={href("Privacy")}
-                      aria-current={navSection(page) === "Privacy" ? "page" : undefined}
+                      href={href("Disclaimer")}
+                      aria-current={navSection(page) === "Disclaimer" ? "page" : undefined}
                       className="foot-link"
                       style={{ color: "#D5DAE3", textDecoration: "none", padding: "6px 0", display: "inline-block" }}
                     >
-                      {t("Privacy Policy")}
+                      {t("Disclaimer")}
                     </a>
                   </li>
                   <li>
@@ -738,12 +738,12 @@ export function Footer({ tr }: { tr: ServerTr }) {
                   </li>
                   <li>
                     <a
-                      href={href("Disclaimer")}
-                      aria-current={navSection(page) === "Disclaimer" ? "page" : undefined}
+                      href={href("Privacy")}
+                      aria-current={navSection(page) === "Privacy" ? "page" : undefined}
                       className="foot-link"
                       style={{ color: "#D5DAE3", textDecoration: "none", padding: "6px 0", display: "inline-block" }}
                     >
-                      {t("Disclaimer")}
+                      {t("Privacy Policy")}
                     </a>
                   </li>
                   <li>
