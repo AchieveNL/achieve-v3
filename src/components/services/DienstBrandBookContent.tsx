@@ -1301,7 +1301,7 @@ export function DienstBrandBookContent() {
           </figcaption>
         </figure>
       </section>
-      <section id="pakketten" className="pj-wrap pj-sec tf-res1" style={{ background: "#F2F8FE", padding: "88px 40px 112px" }}>
+      <section id="pakketten" className="pj-wrap pj-sec" style={{ background: "#F2F8FE", padding: "112px 40px 112px" }}>
         <div style={{ maxWidth: "1280px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "40px" }}>
           <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "14px", textAlign: "center" }}>
             <h2
