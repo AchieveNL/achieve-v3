@@ -15,23 +15,11 @@ import { useTr } from "@/i18n/I18nProvider";
  */
 const SEL = 'a[href*="calendly.com"]:not([data-cal-direct])';
 
-/**
- * Calendly shows a booking page in the language set on its event type, so each site language
- * links to its own event type. Calendly offers Dutch, English, Spanish, French and German;
- * Polish, Turkish and Arabic visitors get the English one. Empty = keep the link as written (Dutch).
- */
-const CAL_BY_LOCALE: Partial<Record<string, string>> = {
-  en: "",
-  es: "",
-  fr: "",
-  de: "",
-  pl: "",
-  tr: "",
-  ar: "",
-};
 
 export function CalendlyPopup() {
   const { t, ta, locale } = useTr();
+  // The calendar itself is always Dutch (one Calendly event type), so other languages get a short heads-up.
+  const dutchNote = locale === "nl" ? "" : t("De agenda is in het Nederlands; kies gewoon een moment dat jou past.");
   useEffect(() => {
     const esc = (s: string) => s.replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/</g, "&lt;");
     const popups = new Map<string, HTMLDivElement>();
@@ -50,8 +38,7 @@ export function CalendlyPopup() {
       document.head.appendChild(st);
     }
 
-    const build = (href: string) => {
-      const base = CAL_BY_LOCALE[locale] || href;
+    const build = (base: string) => {
       const existing = popups.get(base);
       if (existing) return existing;
       const url = `${base}${base.includes("?") ? "&" : "?"}hide_gdpr_banner=1&embed_type=Inline&embed_domain=1`;
@@ -69,6 +56,7 @@ export function CalendlyPopup() {
         '<div class="cal-dots" aria-hidden="true"><i></i><i></i><i></i></div>' +
         `<iframe title="${esc(ta("Plan je groeigesprek"))}" src="${esc(url)}" style="position:relative;z-index:1;display:block;width:100%;height:100%;border:0;background:transparent"></iframe>` +
         "</div>" +
+        (dutchNote ? `<div style="flex-shrink:0;padding:12px 20px 0;font:600 14px var(--font-body);color:#1F246C;text-align:center">${esc(dutchNote)}</div>` : "") +
         `<div style="flex-shrink:0;padding:16px 20px;border-top:1px solid #E4E6EA;font:500 14px var(--font-body);color:#3A4150;text-align:center">${esc(t("Laadt de agenda niet?"))} <a href="${esc(base)}" target="_blank" rel="noopener" data-cal-direct="1" style="color:#1F246C;font-weight:700">${esc(t("Open hem in een nieuw tabblad"))}</a></div>` +
         "</div></div>";
       ov.querySelector("iframe")!.addEventListener("load", () => ov.querySelector(".cal-box")!.classList.add("cal-ready"));
@@ -128,6 +116,6 @@ export function CalendlyPopup() {
       popups.forEach((ov) => ov.remove());
       document.body.style.overflow = current?.prevOverflow ?? document.body.style.overflow;
     };
-  }, [t, ta, locale]);
+  }, [t, ta, dutchNote]);
   return null;
 }
