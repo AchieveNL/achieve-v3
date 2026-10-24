@@ -69,7 +69,7 @@ export function CalendlyPopup() {
         '<div class="cal-dots" aria-hidden="true"><i></i><i></i><i></i></div>' +
         `<iframe title="${esc(ta("Plan je groeigesprek"))}" src="${esc(url)}" style="position:relative;z-index:1;display:block;width:100%;height:100%;border:0;background:transparent"></iframe>` +
         "</div>" +
-        `<div style="flex-shrink:0;padding:14px 20px;border-top:1px solid #E4E6EA;font:500 14px var(--font-body);color:#3A4150;text-align:center">${esc(t("Laadt de agenda niet?"))} <a href="${esc(base)}" target="_blank" rel="noopener" data-cal-direct="1" style="color:#1F246C;font-weight:700">${esc(t("Open hem in een nieuw tabblad"))}</a></div>` +
+        `<div style="flex-shrink:0;padding:16px 20px;border-top:1px solid #E4E6EA;font:500 14px var(--font-body);color:#3A4150;text-align:center">${esc(t("Laadt de agenda niet?"))} <a href="${esc(base)}" target="_blank" rel="noopener" data-cal-direct="1" style="color:#1F246C;font-weight:700">${esc(t("Open hem in een nieuw tabblad"))}</a></div>` +
         "</div></div>";
       ov.querySelector("iframe")!.addEventListener("load", () => ov.querySelector(".cal-box")!.classList.add("cal-ready"));
       ov.addEventListener("click", (ev) => ev.target === ov && close());

@@ -160,7 +160,7 @@ export function ContactContent() {
             <a href={href("Main")} style={{ color: "#C9CFF0", textDecoration: "none" }}>
               {t("Home")}
             </a>{" "}
-            <span aria-hidden="true" style={{ margin: "0 6px" }}>
+            <span aria-hidden="true" style={{ margin: "0 8px" }}>
               {t("/")}
             </span>{" "}
             <span aria-current="page" style={{ color: "#FFFFFF", fontWeight: "600" }}>
@@ -183,7 +183,7 @@ export function ContactContent() {
             display: "flex",
             flexDirection: "column",
             alignItems: "flex-start",
-            gap: "22px",
+            gap: "24px",
           }}
         >
           <span style={{ fontSize: "13px", fontWeight: "700", letterSpacing: "0.12em", textTransform: "uppercase", color: "#FAE84E" }}>
@@ -390,7 +390,7 @@ export function ContactContent() {
             alignItems: "start",
           }}
         >
-          <div style={{ display: "flex", flexDirection: "column", gap: "18px", position: "sticky", top: "120px" }}>
+          <div style={{ display: "flex", flexDirection: "column", gap: "20px", position: "sticky", top: "120px" }}>
             <h2
               style={{
                 margin: "0",
@@ -462,7 +462,7 @@ export function ContactContent() {
                 alignItems: "center",
                 gap: "16px",
                 marginTop: "4px",
-                padding: "14px 18px",
+                padding: "16px 20px",
                 borderRadius: "16px",
                 background: "#FFFFFF",
                 border: "1px solid #E4E6EA",
@@ -653,7 +653,7 @@ export function ContactContent() {
           >
             <div className="ct-two" style={{ display: "grid", gridTemplateColumns: "repeat(2, minmax(0, 1fr))", gap: "16px" }}>
               <label
-                style={{ display: "flex", flexDirection: "column", gap: "6px", fontSize: "14px", fontWeight: "600", color: "#1F246C" }}
+                style={{ display: "flex", flexDirection: "column", gap: "8px", fontSize: "14px", fontWeight: "600", color: "#1F246C" }}
               >
                 <span>
                   {t("Naam")}
@@ -669,8 +669,8 @@ export function ContactContent() {
                   style={{
                     font: "inherit",
                     fontSize: "16px",
-                    padding: "15px 16px",
-                    borderRadius: "10px",
+                    padding: "16px 16px",
+                    borderRadius: "8px",
                     border: "1px solid #D5DAE3",
                     background: "#FFFFFF",
                     color: "#1F246C",
@@ -680,7 +680,7 @@ export function ContactContent() {
                 />
               </label>
               <label
-                style={{ display: "flex", flexDirection: "column", gap: "6px", fontSize: "14px", fontWeight: "600", color: "#1F246C" }}
+                style={{ display: "flex", flexDirection: "column", gap: "8px", fontSize: "14px", fontWeight: "600", color: "#1F246C" }}
               >
                 {t("Bedrijfsnaam")}
                 <input
@@ -690,8 +690,8 @@ export function ContactContent() {
                   style={{
                     font: "inherit",
                     fontSize: "16px",
-                    padding: "15px 16px",
-                    borderRadius: "10px",
+                    padding: "16px 16px",
+                    borderRadius: "8px",
                     border: "1px solid #D5DAE3",
                     background: "#FFFFFF",
                     color: "#1F246C",
@@ -701,7 +701,7 @@ export function ContactContent() {
                 />
               </label>
               <label
-                style={{ display: "flex", flexDirection: "column", gap: "6px", fontSize: "14px", fontWeight: "600", color: "#1F246C" }}
+                style={{ display: "flex", flexDirection: "column", gap: "8px", fontSize: "14px", fontWeight: "600", color: "#1F246C" }}
               >
                 <span>
                   {t("E-mailadres")}
@@ -717,8 +717,8 @@ export function ContactContent() {
                   style={{
                     font: "inherit",
                     fontSize: "16px",
-                    padding: "15px 16px",
-                    borderRadius: "10px",
+                    padding: "16px 16px",
+                    borderRadius: "8px",
                     border: "1px solid #D5DAE3",
                     background: "#FFFFFF",
                     color: "#1F246C",
@@ -728,7 +728,7 @@ export function ContactContent() {
                 />
               </label>
               <label
-                style={{ display: "flex", flexDirection: "column", gap: "6px", fontSize: "14px", fontWeight: "600", color: "#1F246C" }}
+                style={{ display: "flex", flexDirection: "column", gap: "8px", fontSize: "14px", fontWeight: "600", color: "#1F246C" }}
               >
                 {t("Telefoonnummer")}
                 <input
@@ -738,8 +738,8 @@ export function ContactContent() {
                   style={{
                     font: "inherit",
                     fontSize: "16px",
-                    padding: "15px 16px",
-                    borderRadius: "10px",
+                    padding: "16px 16px",
+                    borderRadius: "8px",
                     border: "1px solid #D5DAE3",
                     background: "#FFFFFF",
                     color: "#1F246C",
@@ -749,15 +749,15 @@ export function ContactContent() {
                 />
               </label>
             </div>
-            <label style={{ display: "flex", flexDirection: "column", gap: "6px", fontSize: "14px", fontWeight: "600", color: "#1F246C" }}>
+            <label style={{ display: "flex", flexDirection: "column", gap: "8px", fontSize: "14px", fontWeight: "600", color: "#1F246C" }}>
               {t("Waar kunnen we je mee helpen?")}
               <select
                 name="dienst"
                 style={{
                   font: "inherit",
                   fontSize: "16px",
-                  padding: "15px 16px",
-                  borderRadius: "10px",
+                  padding: "16px 16px",
+                  borderRadius: "8px",
                   border: "1px solid #D5DAE3",
                   background: "#FFFFFF",
                   color: "#1F246C",
@@ -782,7 +782,7 @@ export function ContactContent() {
                 <option>{t("Weet ik nog niet")}</option>
               </select>
             </label>
-            <label style={{ display: "flex", flexDirection: "column", gap: "6px", fontSize: "14px", fontWeight: "600", color: "#1F246C" }}>
+            <label style={{ display: "flex", flexDirection: "column", gap: "8px", fontSize: "14px", fontWeight: "600", color: "#1F246C" }}>
               {t("Je bericht")}
               <textarea
                 name="bericht"
@@ -790,8 +790,8 @@ export function ContactContent() {
                 style={{
                   font: "inherit",
                   fontSize: "16px",
-                  padding: "15px 16px",
-                  borderRadius: "10px",
+                  padding: "16px 16px",
+                  borderRadius: "8px",
                   border: "1px solid #D5DAE3",
                   background: "#FFFFFF",
                   color: "#1F246C",
@@ -806,7 +806,7 @@ export function ContactContent() {
               style={{
                 display: "flex",
                 alignItems: "flex-start",
-                gap: "10px",
+                gap: "12px",
                 fontSize: "13px",
                 fontWeight: "400",
                 lineHeight: "1.5",
@@ -835,7 +835,7 @@ export function ContactContent() {
               onClick={h.send}
               style={{
                 alignSelf: "flex-start",
-                marginTop: "6px",
+                marginTop: "8px",
                 font: "inherit",
                 fontSize: "18px",
                 fontWeight: "700",
@@ -854,7 +854,7 @@ export function ContactContent() {
       </section>
       <section id="locatie" className="pj-wrap pj-sec" style={{ background: "#F2F8FE", padding: "0 40px 112px" }}>
         <div style={{ maxWidth: "1280px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "32px" }}>
-          <div style={{ display: "flex", flexDirection: "column", gap: "14px", maxWidth: "720px" }}>
+          <div style={{ display: "flex", flexDirection: "column", gap: "16px", maxWidth: "720px" }}>
             <h2
               style={{
                 margin: "0",
@@ -908,11 +908,11 @@ export function ContactContent() {
                 order: "-1",
                 background: "#FFFFFF",
                 borderRadius: "24px",
-                padding: "36px 34px",
+                padding: "36px 36px",
                 display: "flex",
                 flexDirection: "column",
                 justifyContent: "center",
-                gap: "6px",
+                gap: "8px",
               }}
             >
               <strong translate="no" style={{ fontFamily: "var(--font-display)", fontSize: "24px", fontWeight: "700", color: "#1F246C" }}>
@@ -928,7 +928,7 @@ export function ContactContent() {
                 <br />
                 {t("Zaterdag – zondag: gesloten")}
               </span>
-              <div style={{ marginTop: "6px" }}>
+              <div style={{ marginTop: "8px" }}>
                 <a
                   href="https://www.google.com/maps/dir/?api=1&destination=Achieve,+Cypresbaan+3,+2908+LT+Capelle+aan+den+IJssel"
                   className="about-link"
@@ -936,7 +936,7 @@ export function ContactContent() {
                     alignSelf: "flex-start",
                     display: "inline-flex",
                     alignItems: "center",
-                    gap: "10px",
+                    gap: "12px",
                     minHeight: "44px",
                     fontSize: "16px",
                     fontWeight: "600",
@@ -995,7 +995,7 @@ export function ContactContent() {
             gap: "16px 32px",
           }}
         >
-          <div style={{ display: "flex", flexDirection: "column", gap: "6px" }}>
+          <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
             <strong style={{ fontFamily: "var(--font-display)", fontSize: "26px", fontWeight: "700", color: "#1F246C" }}>
               {t("Op zoek naar een")}{" "}
               <Accent from="#8639FA" to="#0F8AE5">
@@ -1021,7 +1021,7 @@ export function ContactContent() {
               alignSelf: "center",
               display: "inline-flex",
               alignItems: "center",
-              gap: "10px",
+              gap: "12px",
               minHeight: "44px",
               fontSize: "16px",
               fontWeight: "600",

@@ -240,13 +240,13 @@ export function DienstOnderhoudContent() {
             <a href={href("Main")} style={{ color: "#C9CFF0", textDecoration: "none" }}>
               {t("Home")}
             </a>{" "}
-            <span aria-hidden="true" style={{ margin: "0 6px" }}>
+            <span aria-hidden="true" style={{ margin: "0 8px" }}>
               {t("/")}
             </span>{" "}
             <a href={href("Main")} style={{ color: "#C9CFF0", textDecoration: "none" }}>
               {t("Diensten")}
             </a>{" "}
-            <span aria-hidden="true" style={{ margin: "0 6px" }}>
+            <span aria-hidden="true" style={{ margin: "0 8px" }}>
               {t("/")}
             </span>{" "}
             <span aria-current="page" style={{ color: "#FFFFFF", fontWeight: "600" }}>
@@ -280,7 +280,7 @@ export function DienstOnderhoudContent() {
               textTransform: "uppercase",
               color: "#6B2BD9",
               background: "#EFE8FD",
-              padding: "7px 14px",
+              padding: "8px 16px",
               borderRadius: "999px",
             }}
           >
@@ -327,7 +327,7 @@ export function DienstOnderhoudContent() {
                 background: "linear-gradient(90deg, #8639FA 0%, #0F8AE5 100%)",
                 color: "#FFFFFF",
                 textDecoration: "none",
-                padding: "18px 30px",
+                padding: "20px 32px",
                 borderRadius: "8px",
                 fontWeight: "700",
                 fontSize: "19px",
@@ -412,7 +412,7 @@ export function DienstOnderhoudContent() {
       </nav>
       <section id="uitdagingen" className="pj-wrap pj-sec" style={{ background: "#F2F8FE", padding: "112px 40px 112px" }}>
         <div style={{ maxWidth: "1280px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "40px" }}>
-          <div style={{ display: "flex", flexDirection: "column", gap: "14px", maxWidth: "760px" }}>
+          <div style={{ display: "flex", flexDirection: "column", gap: "16px", maxWidth: "760px" }}>
             <h2
               style={{
                 margin: "0",
@@ -535,7 +535,7 @@ export function DienstOnderhoudContent() {
             alignItems: "center",
           }}
         >
-          <div style={{ display: "flex", flexDirection: "column", gap: "18px" }}>
+          <div style={{ display: "flex", flexDirection: "column", gap: "20px" }}>
             <h2
               style={{
                 margin: "0",
@@ -636,7 +636,7 @@ export function DienstOnderhoudContent() {
                 background: "linear-gradient(90deg, #8639FA 0%, #0F8AE5 100%)",
                 color: "#FFFFFF",
                 textDecoration: "none",
-                padding: "18px 30px",
+                padding: "20px 32px",
                 borderRadius: "8px",
                 fontWeight: "700",
                 fontSize: "19px",
@@ -654,7 +654,7 @@ export function DienstOnderhoudContent() {
               padding: "48px",
               display: "flex",
               flexDirection: "column",
-              gap: "22px",
+              gap: "24px",
             }}
           >
             <span style={{ fontSize: "13px", fontWeight: "700", letterSpacing: "0.1em", textTransform: "uppercase", color: "#FAE84E" }}>
@@ -796,7 +796,7 @@ export function DienstOnderhoudContent() {
       </section>
       <section id="waarom-wij" className="pj-wrap pj-sec" style={{ background: "#FFFFFF", padding: "112px 40px 112px" }}>
         <div style={{ maxWidth: "1280px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "40px" }}>
-          <div style={{ display: "flex", flexDirection: "column", gap: "14px", maxWidth: "760px" }}>
+          <div style={{ display: "flex", flexDirection: "column", gap: "16px", maxWidth: "760px" }}>
             <h2
               style={{
                 margin: "0",
@@ -1066,7 +1066,7 @@ export function DienstOnderhoudContent() {
                     textTransform: "uppercase",
                     color: "#1F246C",
                     background: "#FAE84E",
-                    padding: "5px 10px",
+                    padding: "4px 12px",
                     borderRadius: "999px",
                   }}
                 >
@@ -1234,7 +1234,7 @@ export function DienstOnderhoudContent() {
             display: "flex",
             flexDirection: "column",
             alignItems: "center",
-            gap: "22px",
+            gap: "24px",
             textAlign: "center",
           }}
         >
@@ -1285,7 +1285,7 @@ export function DienstOnderhoudContent() {
       </section>
       <section id="pakketten" className="pj-wrap pj-sec" style={{ background: "#F2F8FE", padding: "112px 40px 112px" }}>
         <div style={{ maxWidth: "1280px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "40px" }}>
-          <div style={{ display: "flex", flexDirection: "column", gap: "14px", maxWidth: "760px" }}>
+          <div style={{ display: "flex", flexDirection: "column", gap: "16px", maxWidth: "760px" }}>
             <h2
               style={{
                 margin: "0",
@@ -1322,7 +1322,7 @@ export function DienstOnderhoudContent() {
             className="sv-plans sv-plans3"
             style={{
               margin: "0",
-              padding: "14px 0 0",
+              padding: "16px 0 0",
               listStyle: "none",
               display: "grid",
               gridTemplateColumns: "repeat(3, minmax(0, 1fr))",
@@ -1339,10 +1339,10 @@ export function DienstOnderhoudContent() {
                 background: "#FFFFFF",
                 color: "#1F246C",
                 borderRadius: "24px",
-                padding: "36px 26px 28px",
+                padding: "36px 28px 28px",
                 display: "flex",
                 flexDirection: "column",
-                gap: "6px",
+                gap: "8px",
               }}
             >
               <h3
@@ -1372,10 +1372,10 @@ export function DienstOnderhoudContent() {
                 {t("€100")}
               </span>
               <span style={{ fontSize: "14px", fontWeight: "600", color: "#5A6273" }}>{t("per maand, ex. btw")}</span>
-              <span style={{ width: "100%", height: "1px", background: "#E4E6EA", margin: "18px 0 14px" }}></span>
-              <ul style={{ margin: "0 0 24px", padding: "0", listStyle: "none", display: "flex", flexDirection: "column", gap: "10px" }}>
+              <span style={{ width: "100%", height: "1px", background: "#E4E6EA", margin: "20px 0 16px" }}></span>
+              <ul style={{ margin: "0 0 24px", padding: "0", listStyle: "none", display: "flex", flexDirection: "column", gap: "12px" }}>
                 <li
-                  style={{ display: "flex", gap: "10px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#3A4150" }}
+                  style={{ display: "flex", gap: "12px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#3A4150" }}
                 >
                   <svg
                     width="18"
@@ -1394,7 +1394,7 @@ export function DienstOnderhoudContent() {
                   <span>{t("Updates van software en plugins")}</span>
                 </li>
                 <li
-                  style={{ display: "flex", gap: "10px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#3A4150" }}
+                  style={{ display: "flex", gap: "12px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#3A4150" }}
                 >
                   <svg
                     width="18"
@@ -1413,7 +1413,7 @@ export function DienstOnderhoudContent() {
                   <span>{t("Beveiligingscontrole")}</span>
                 </li>
                 <li
-                  style={{ display: "flex", gap: "10px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#3A4150" }}
+                  style={{ display: "flex", gap: "12px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#3A4150" }}
                 >
                   <svg
                     width="18"
@@ -1432,7 +1432,7 @@ export function DienstOnderhoudContent() {
                   <span>{t("Dagelijkse back-up")}</span>
                 </li>
                 <li
-                  style={{ display: "flex", gap: "10px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#3A4150" }}
+                  style={{ display: "flex", gap: "12px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#3A4150" }}
                 >
                   <svg
                     width="18"
@@ -1460,7 +1460,7 @@ export function DienstOnderhoudContent() {
                   color: "#1F246C",
                   border: "1px solid #1F246C",
                   textDecoration: "none",
-                  padding: "14px 18px",
+                  padding: "16px 20px",
                   borderRadius: "8px",
                   fontWeight: "700",
                   fontSize: "16px",
@@ -1493,10 +1493,10 @@ export function DienstOnderhoudContent() {
                 background: "linear-gradient(160deg, #8639FA 0%, #0F8AE5 100%)",
                 color: "#FFFFFF",
                 borderRadius: "24px",
-                padding: "36px 26px 28px",
+                padding: "36px 28px 28px",
                 display: "flex",
                 flexDirection: "column",
-                gap: "6px",
+                gap: "8px",
                 boxShadow: "0 24px 50px rgba(134, 57, 250, 0.25)",
               }}
             >
@@ -1513,7 +1513,7 @@ export function DienstOnderhoudContent() {
                   color: "#6B2BD9",
                   background: "#FFFFFF",
                   border: "1px solid #EFE8FD",
-                  padding: "5px 12px",
+                  padding: "4px 12px",
                   borderRadius: "999px",
                   whiteSpace: "nowrap",
                 }}
@@ -1547,10 +1547,10 @@ export function DienstOnderhoudContent() {
                 {t("€199")}
               </span>
               <span style={{ fontSize: "14px", fontWeight: "600", color: "#E6E9F8" }}>{t("per maand, ex. btw")}</span>
-              <span style={{ width: "100%", height: "1px", background: "rgba(255, 255, 255, 0.3)", margin: "18px 0 14px" }}></span>
-              <ul style={{ margin: "0 0 24px", padding: "0", listStyle: "none", display: "flex", flexDirection: "column", gap: "10px" }}>
+              <span style={{ width: "100%", height: "1px", background: "rgba(255, 255, 255, 0.3)", margin: "20px 0 16px" }}></span>
+              <ul style={{ margin: "0 0 24px", padding: "0", listStyle: "none", display: "flex", flexDirection: "column", gap: "12px" }}>
                 <li
-                  style={{ display: "flex", gap: "10px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#FFFFFF" }}
+                  style={{ display: "flex", gap: "12px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#FFFFFF" }}
                 >
                   <svg
                     width="18"
@@ -1569,7 +1569,7 @@ export function DienstOnderhoudContent() {
                   <span>{t("Alles uit Basic")}</span>
                 </li>
                 <li
-                  style={{ display: "flex", gap: "10px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#FFFFFF" }}
+                  style={{ display: "flex", gap: "12px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#FFFFFF" }}
                 >
                   <svg
                     width="18"
@@ -1593,7 +1593,7 @@ export function DienstOnderhoudContent() {
                   </span>
                 </li>
                 <li
-                  style={{ display: "flex", gap: "10px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#FFFFFF" }}
+                  style={{ display: "flex", gap: "12px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#FFFFFF" }}
                 >
                   <svg
                     width="18"
@@ -1612,7 +1612,7 @@ export function DienstOnderhoudContent() {
                   <span>{t("1 uur aanpassingen per maand")}</span>
                 </li>
                 <li
-                  style={{ display: "flex", gap: "10px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#FFFFFF" }}
+                  style={{ display: "flex", gap: "12px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#FFFFFF" }}
                 >
                   <svg
                     width="18"
@@ -1639,7 +1639,7 @@ export function DienstOnderhoudContent() {
                   background: "#FFFFFF",
                   color: "#1F246C",
                   textDecoration: "none",
-                  padding: "14px 18px",
+                  padding: "16px 20px",
                   borderRadius: "8px",
                   fontWeight: "700",
                   fontSize: "16px",
@@ -1659,10 +1659,10 @@ export function DienstOnderhoudContent() {
                 background: "#FFFFFF",
                 color: "#1F246C",
                 borderRadius: "24px",
-                padding: "36px 26px 28px",
+                padding: "36px 28px 28px",
                 display: "flex",
                 flexDirection: "column",
-                gap: "6px",
+                gap: "8px",
               }}
             >
               <h3
@@ -1692,10 +1692,10 @@ export function DienstOnderhoudContent() {
                 {t("€399")}
               </span>
               <span style={{ fontSize: "14px", fontWeight: "600", color: "#5A6273" }}>{t("per maand, ex. btw")}</span>
-              <span style={{ width: "100%", height: "1px", background: "#E4E6EA", margin: "18px 0 14px" }}></span>
-              <ul style={{ margin: "0 0 24px", padding: "0", listStyle: "none", display: "flex", flexDirection: "column", gap: "10px" }}>
+              <span style={{ width: "100%", height: "1px", background: "#E4E6EA", margin: "20px 0 16px" }}></span>
+              <ul style={{ margin: "0 0 24px", padding: "0", listStyle: "none", display: "flex", flexDirection: "column", gap: "12px" }}>
                 <li
-                  style={{ display: "flex", gap: "10px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#3A4150" }}
+                  style={{ display: "flex", gap: "12px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#3A4150" }}
                 >
                   <svg
                     width="18"
@@ -1714,7 +1714,7 @@ export function DienstOnderhoudContent() {
                   <span>{t("Alles uit Standard")}</span>
                 </li>
                 <li
-                  style={{ display: "flex", gap: "10px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#3A4150" }}
+                  style={{ display: "flex", gap: "12px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#3A4150" }}
                 >
                   <svg
                     width="18"
@@ -1733,7 +1733,7 @@ export function DienstOnderhoudContent() {
                   <span>{t("Reactie binnen 4 uur")}</span>
                 </li>
                 <li
-                  style={{ display: "flex", gap: "10px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#3A4150" }}
+                  style={{ display: "flex", gap: "12px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#3A4150" }}
                 >
                   <svg
                     width="18"
@@ -1752,7 +1752,7 @@ export function DienstOnderhoudContent() {
                   <span>{t("3 uur aanpassingen per maand")}</span>
                 </li>
                 <li
-                  style={{ display: "flex", gap: "10px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#3A4150" }}
+                  style={{ display: "flex", gap: "12px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#3A4150" }}
                 >
                   <svg
                     width="18"
@@ -1780,7 +1780,7 @@ export function DienstOnderhoudContent() {
                   color: "#1F246C",
                   border: "1px solid #1F246C",
                   textDecoration: "none",
-                  padding: "14px 18px",
+                  padding: "16px 20px",
                   borderRadius: "8px",
                   fontWeight: "700",
                   fontSize: "16px",
@@ -1827,7 +1827,7 @@ export function DienstOnderhoudContent() {
             flexDirection: "column",
             alignItems: "center",
             textAlign: "center",
-            gap: "22px",
+            gap: "24px",
           }}
         >
           <p
@@ -1861,7 +1861,7 @@ export function DienstOnderhoudContent() {
           <p style={{ margin: "0", maxWidth: "560px", fontSize: "18px", lineHeight: "1.6", color: "#FFFFFF" }}>
             {t("Vertel ons waar je naartoe wilt. Wij laten zien hoe je er komt.")}
           </p>
-          <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "14px", paddingTop: "8px" }}>
+          <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px", paddingTop: "8px" }}>
             <a
               href="https://calendly.com/vrijblijvendgesprek/"
               target="_blank"
@@ -1871,7 +1871,7 @@ export function DienstOnderhoudContent() {
                 display: "inline-flex",
                 alignItems: "center",
                 minHeight: "56px",
-                padding: "0 30px",
+                padding: "0 32px",
                 borderRadius: "8px",
                 background: "#FFFFFF",
                 color: "#1F246C",
@@ -1903,7 +1903,7 @@ export function DienstOnderhoudContent() {
                 display: "inline-flex",
                 alignItems: "center",
                 minHeight: "56px",
-                padding: "0 26px",
+                padding: "0 28px",
                 borderRadius: "8px",
                 border: "1px solid rgba(255, 255, 255, 0.7)",
                 color: "#FFFFFF",
@@ -1929,7 +1929,7 @@ export function DienstOnderhoudContent() {
               </svg>
             </a>
           </div>
-          <div className="cta-team" style={{ display: "flex", alignItems: "center", gap: "14px", paddingTop: "6px" }}>
+          <div className="cta-team" style={{ display: "flex", alignItems: "center", gap: "16px", paddingTop: "8px" }}>
             <span style={{ display: "flex" }}>
               <span
                 style={{
@@ -1962,7 +1962,7 @@ export function DienstOnderhoudContent() {
                   background: "#FFF6C7",
                   border: "3px solid #FFFFFF",
                   boxSizing: "border-box",
-                  marginLeft: "-14px",
+                  marginLeft: "-16px",
                   zIndex: "9",
                   flexShrink: "0",
                 }}
@@ -1983,7 +1983,7 @@ export function DienstOnderhoudContent() {
                   background: "#E3F1FD",
                   border: "3px solid #FFFFFF",
                   boxSizing: "border-box",
-                  marginLeft: "-14px",
+                  marginLeft: "-16px",
                   zIndex: "8",
                   flexShrink: "0",
                 }}
@@ -2004,7 +2004,7 @@ export function DienstOnderhoudContent() {
                   background: "#FFF6C7",
                   border: "3px solid #FFFFFF",
                   boxSizing: "border-box",
-                  marginLeft: "-14px",
+                  marginLeft: "-16px",
                   zIndex: "7",
                   flexShrink: "0",
                 }}

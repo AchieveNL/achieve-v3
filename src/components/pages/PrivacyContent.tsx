@@ -21,7 +21,7 @@ export function PrivacyContent() {
             flexDirection: "column",
             alignItems: "center",
             textAlign: "center",
-            gap: "18px",
+            gap: "20px",
           }}
         >
           <p
@@ -55,7 +55,7 @@ export function PrivacyContent() {
           <p style={{ margin: "0", fontSize: "15px", fontWeight: "600", color: "#5A6273" }}>{t("Laatst gewijzigd op 29 september 2021")}</p>
           <nav
             aria-label={ta("Juridische pagina's")}
-            style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "10px", paddingTop: "12px" }}
+            style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "12px", paddingTop: "12px" }}
           >
             <a
               href={href("Privacy")}
@@ -141,7 +141,7 @@ export function PrivacyContent() {
                   className="lg-toc"
                   style={{
                     display: "block",
-                    padding: "9px 0",
+                    padding: "8px 0",
                     color: "#1F246C",
                     textDecoration: "none",
                     fontSize: "15px",
@@ -158,7 +158,7 @@ export function PrivacyContent() {
                   className="lg-toc"
                   style={{
                     display: "block",
-                    padding: "9px 0",
+                    padding: "8px 0",
                     color: "#1F246C",
                     textDecoration: "none",
                     fontSize: "15px",
@@ -175,7 +175,7 @@ export function PrivacyContent() {
                   className="lg-toc"
                   style={{
                     display: "block",
-                    padding: "9px 0",
+                    padding: "8px 0",
                     color: "#1F246C",
                     textDecoration: "none",
                     fontSize: "15px",
@@ -192,7 +192,7 @@ export function PrivacyContent() {
                   className="lg-toc"
                   style={{
                     display: "block",
-                    padding: "9px 0",
+                    padding: "8px 0",
                     color: "#1F246C",
                     textDecoration: "none",
                     fontSize: "15px",
@@ -209,7 +209,7 @@ export function PrivacyContent() {
                   className="lg-toc"
                   style={{
                     display: "block",
-                    padding: "9px 0",
+                    padding: "8px 0",
                     color: "#1F246C",
                     textDecoration: "none",
                     fontSize: "15px",
@@ -226,7 +226,7 @@ export function PrivacyContent() {
                   className="lg-toc"
                   style={{
                     display: "block",
-                    padding: "9px 0",
+                    padding: "8px 0",
                     color: "#1F246C",
                     textDecoration: "none",
                     fontSize: "15px",
@@ -243,7 +243,7 @@ export function PrivacyContent() {
                   className="lg-toc"
                   style={{
                     display: "block",
-                    padding: "9px 0",
+                    padding: "8px 0",
                     color: "#1F246C",
                     textDecoration: "none",
                     fontSize: "15px",
@@ -260,7 +260,7 @@ export function PrivacyContent() {
                   className="lg-toc"
                   style={{
                     display: "block",
-                    padding: "9px 0",
+                    padding: "8px 0",
                     color: "#1F246C",
                     textDecoration: "none",
                     fontSize: "15px",
@@ -277,7 +277,7 @@ export function PrivacyContent() {
                   className="lg-toc"
                   style={{
                     display: "block",
-                    padding: "9px 0",
+                    padding: "8px 0",
                     color: "#1F246C",
                     textDecoration: "none",
                     fontSize: "15px",
@@ -294,7 +294,7 @@ export function PrivacyContent() {
                   className="lg-toc"
                   style={{
                     display: "block",
-                    padding: "9px 0",
+                    padding: "8px 0",
                     color: "#1F246C",
                     textDecoration: "none",
                     fontSize: "15px",
@@ -313,8 +313,8 @@ export function PrivacyContent() {
                 <p
                   style={{
                     margin: "0 0 8px",
-                    padding: "14px 18px",
-                    borderRadius: "12px",
+                    padding: "16px 20px",
+                    borderRadius: "16px",
                     background: "#FFF6C7",
                     color: "#6E5A00",
                     fontSize: "15px",
@@ -325,7 +325,7 @@ export function PrivacyContent() {
                 </p>
               </>
             )}
-            <div style={{ display: "flex", flexDirection: "column", gap: "18px" }}>
+            <div style={{ display: "flex", flexDirection: "column", gap: "20px" }}>
               <p style={{ margin: "0", fontSize: "19px", lineHeight: "1.7", color: "#1F246C" }}>
                 {t(
                   "U bezoekt een website die deel uitmaakt van het online netwerk van Achieve Deze privacyverklaring is van toepassing op alle websites die behoren tot het netwerk van Achieve, hierna te noemen Achieve, tenzij anders vermeld. Achieve is verantwoordelijk voor de verwerking van persoonsgegevens zoals weergegeven in deze privacy verklaring.",
@@ -369,7 +369,7 @@ export function PrivacyContent() {
                   listStyle: "none",
                   display: "grid",
                   gridTemplateColumns: "repeat(2, minmax(0, 1fr))",
-                  gap: "10px 24px",
+                  gap: "12px 24px",
                 }}
               >
                 <li
@@ -381,7 +381,7 @@ export function PrivacyContent() {
                       flex: "none",
                       width: "8px",
                       height: "8px",
-                      marginTop: "9px",
+                      marginTop: "8px",
                       borderRadius: "999px",
                       background: "linear-gradient(135deg, #8639FA 0%, #0F8AE5 100%)",
                     }}
@@ -397,7 +397,7 @@ export function PrivacyContent() {
                       flex: "none",
                       width: "8px",
                       height: "8px",
-                      marginTop: "9px",
+                      marginTop: "8px",
                       borderRadius: "999px",
                       background: "linear-gradient(135deg, #8639FA 0%, #0F8AE5 100%)",
                     }}
@@ -413,7 +413,7 @@ export function PrivacyContent() {
                       flex: "none",
                       width: "8px",
                       height: "8px",
-                      marginTop: "9px",
+                      marginTop: "8px",
                       borderRadius: "999px",
                       background: "linear-gradient(135deg, #8639FA 0%, #0F8AE5 100%)",
                     }}
@@ -429,7 +429,7 @@ export function PrivacyContent() {
                       flex: "none",
                       width: "8px",
                       height: "8px",
-                      marginTop: "9px",
+                      marginTop: "8px",
                       borderRadius: "999px",
                       background: "linear-gradient(135deg, #8639FA 0%, #0F8AE5 100%)",
                     }}
@@ -445,7 +445,7 @@ export function PrivacyContent() {
                       flex: "none",
                       width: "8px",
                       height: "8px",
-                      marginTop: "9px",
+                      marginTop: "8px",
                       borderRadius: "999px",
                       background: "linear-gradient(135deg, #8639FA 0%, #0F8AE5 100%)",
                     }}
@@ -461,7 +461,7 @@ export function PrivacyContent() {
                       flex: "none",
                       width: "8px",
                       height: "8px",
-                      marginTop: "9px",
+                      marginTop: "8px",
                       borderRadius: "999px",
                       background: "linear-gradient(135deg, #8639FA 0%, #0F8AE5 100%)",
                     }}
@@ -477,7 +477,7 @@ export function PrivacyContent() {
                       flex: "none",
                       width: "8px",
                       height: "8px",
-                      marginTop: "9px",
+                      marginTop: "8px",
                       borderRadius: "999px",
                       background: "linear-gradient(135deg, #8639FA 0%, #0F8AE5 100%)",
                     }}
@@ -493,7 +493,7 @@ export function PrivacyContent() {
                       flex: "none",
                       width: "8px",
                       height: "8px",
-                      marginTop: "9px",
+                      marginTop: "8px",
                       borderRadius: "999px",
                       background: "linear-gradient(135deg, #8639FA 0%, #0F8AE5 100%)",
                     }}
@@ -509,7 +509,7 @@ export function PrivacyContent() {
                       flex: "none",
                       width: "8px",
                       height: "8px",
-                      marginTop: "9px",
+                      marginTop: "8px",
                       borderRadius: "999px",
                       background: "linear-gradient(135deg, #8639FA 0%, #0F8AE5 100%)",
                     }}
@@ -868,7 +868,7 @@ export function PrivacyContent() {
                 gap: "20px",
               }}
             >
-              <div style={{ display: "flex", flexDirection: "column", gap: "6px", flex: "1 1 320px" }}>
+              <div style={{ display: "flex", flexDirection: "column", gap: "8px", flex: "1 1 320px" }}>
                 <h2
                   style={{
                     margin: "0",
@@ -899,7 +899,7 @@ export function PrivacyContent() {
                 style={{
                   color: "#1F246C",
                   textDecoration: "none",
-                  padding: "16px 26px",
+                  padding: "16px 28px",
                   borderRadius: "8px",
                   fontWeight: "700",
                   fontSize: "16px",

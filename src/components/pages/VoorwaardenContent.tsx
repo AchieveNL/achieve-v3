@@ -21,7 +21,7 @@ export function VoorwaardenContent() {
             flexDirection: "column",
             alignItems: "center",
             textAlign: "center",
-            gap: "18px",
+            gap: "20px",
           }}
         >
           <p
@@ -54,7 +54,7 @@ export function VoorwaardenContent() {
           </h1>
           <nav
             aria-label={ta("Juridische pagina's")}
-            style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "10px", paddingTop: "12px" }}
+            style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "12px", paddingTop: "12px" }}
           >
             <a
               href={href("Privacy")}
@@ -122,8 +122,8 @@ export function VoorwaardenContent() {
               <p
                 style={{
                   margin: "0 0 8px",
-                  padding: "14px 18px",
-                  borderRadius: "12px",
+                  padding: "16px 20px",
+                  borderRadius: "16px",
                   background: "#FFF6C7",
                   color: "#6E5A00",
                   fontSize: "15px",
@@ -207,7 +207,7 @@ export function VoorwaardenContent() {
                   </svg>
                 </span>
               </summary>
-              <div style={{ padding: "4px 24px 26px", display: "flex", flexDirection: "column", gap: "12px" }}>
+              <div style={{ padding: "4px 24px 28px", display: "flex", flexDirection: "column", gap: "12px" }}>
                 <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.75", color: "#3A4150" }}>
                   {t("In de navolgende bepalingen wordt verstaan onder:")}
                 </p>
@@ -321,7 +321,7 @@ export function VoorwaardenContent() {
                   </svg>
                 </span>
               </summary>
-              <div style={{ padding: "4px 24px 26px", display: "flex", flexDirection: "column", gap: "12px" }}>
+              <div style={{ padding: "4px 24px 28px", display: "flex", flexDirection: "column", gap: "12px" }}>
                 <div style={{ display: "grid", gridTemplateColumns: "52px minmax(0, 1fr)", gap: "8px" }}>
                   <span style={{ fontWeight: "700", color: "#1F246C", fontSize: "16px", lineHeight: "1.75" }}>{t("2.1")}</span>
                   <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.75", color: "#3A4150" }}>
@@ -466,7 +466,7 @@ export function VoorwaardenContent() {
                   </svg>
                 </span>
               </summary>
-              <div style={{ padding: "4px 24px 26px", display: "flex", flexDirection: "column", gap: "12px" }}>
+              <div style={{ padding: "4px 24px 28px", display: "flex", flexDirection: "column", gap: "12px" }}>
                 <div style={{ display: "grid", gridTemplateColumns: "52px minmax(0, 1fr)", gap: "8px" }}>
                   <span style={{ fontWeight: "700", color: "#1F246C", fontSize: "16px", lineHeight: "1.75" }}>{t("3.1")}</span>
                   <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.75", color: "#3A4150" }}>
@@ -587,7 +587,7 @@ export function VoorwaardenContent() {
                   </svg>
                 </span>
               </summary>
-              <div style={{ padding: "4px 24px 26px", display: "flex", flexDirection: "column", gap: "12px" }}>
+              <div style={{ padding: "4px 24px 28px", display: "flex", flexDirection: "column", gap: "12px" }}>
                 <div style={{ display: "grid", gridTemplateColumns: "52px minmax(0, 1fr)", gap: "8px" }}>
                   <span style={{ fontWeight: "700", color: "#1F246C", fontSize: "16px", lineHeight: "1.75" }}>{t("4.1")}</span>
                   <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.75", color: "#3A4150" }}>
@@ -742,7 +742,7 @@ export function VoorwaardenContent() {
                   </svg>
                 </span>
               </summary>
-              <div style={{ padding: "4px 24px 26px", display: "flex", flexDirection: "column", gap: "12px" }}>
+              <div style={{ padding: "4px 24px 28px", display: "flex", flexDirection: "column", gap: "12px" }}>
                 <div style={{ display: "grid", gridTemplateColumns: "52px minmax(0, 1fr)", gap: "8px" }}>
                   <span style={{ fontWeight: "700", color: "#1F246C", fontSize: "16px", lineHeight: "1.75" }}>{t("5.1")}</span>
                   <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.75", color: "#3A4150" }}>
@@ -1003,7 +1003,7 @@ export function VoorwaardenContent() {
                   </svg>
                 </span>
               </summary>
-              <div style={{ padding: "4px 24px 26px", display: "flex", flexDirection: "column", gap: "12px" }}>
+              <div style={{ padding: "4px 24px 28px", display: "flex", flexDirection: "column", gap: "12px" }}>
                 <div style={{ display: "grid", gridTemplateColumns: "52px minmax(0, 1fr)", gap: "8px" }}>
                   <span style={{ fontWeight: "700", color: "#1F246C", fontSize: "16px", lineHeight: "1.75" }}>{t("6.1")}</span>
                   <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.75", color: "#3A4150" }}>
@@ -1176,7 +1176,7 @@ export function VoorwaardenContent() {
                   </svg>
                 </span>
               </summary>
-              <div style={{ padding: "4px 24px 26px", display: "flex", flexDirection: "column", gap: "12px" }}>
+              <div style={{ padding: "4px 24px 28px", display: "flex", flexDirection: "column", gap: "12px" }}>
                 <div style={{ display: "grid", gridTemplateColumns: "52px minmax(0, 1fr)", gap: "8px" }}>
                   <span style={{ fontWeight: "700", color: "#1F246C", fontSize: "16px", lineHeight: "1.75" }}>{t("7.1")}</span>
                   <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.75", color: "#3A4150" }}>
@@ -1265,7 +1265,7 @@ export function VoorwaardenContent() {
                   </svg>
                 </span>
               </summary>
-              <div style={{ padding: "4px 24px 26px", display: "flex", flexDirection: "column", gap: "12px" }}>
+              <div style={{ padding: "4px 24px 28px", display: "flex", flexDirection: "column", gap: "12px" }}>
                 <div style={{ display: "grid", gridTemplateColumns: "52px minmax(0, 1fr)", gap: "8px" }}>
                   <span style={{ fontWeight: "700", color: "#1F246C", fontSize: "16px", lineHeight: "1.75" }}>{t("8.1")}</span>
                   <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.75", color: "#3A4150" }}>
@@ -1394,7 +1394,7 @@ export function VoorwaardenContent() {
                   </svg>
                 </span>
               </summary>
-              <div style={{ padding: "4px 24px 26px", display: "flex", flexDirection: "column", gap: "12px" }}>
+              <div style={{ padding: "4px 24px 28px", display: "flex", flexDirection: "column", gap: "12px" }}>
                 <div style={{ display: "grid", gridTemplateColumns: "52px minmax(0, 1fr)", gap: "8px" }}>
                   <span style={{ fontWeight: "700", color: "#1F246C", fontSize: "16px", lineHeight: "1.75" }}>{t("9.1")}</span>
                   <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.75", color: "#3A4150" }}>
@@ -1553,7 +1553,7 @@ export function VoorwaardenContent() {
                   </svg>
                 </span>
               </summary>
-              <div style={{ padding: "4px 24px 26px", display: "flex", flexDirection: "column", gap: "12px" }}>
+              <div style={{ padding: "4px 24px 28px", display: "flex", flexDirection: "column", gap: "12px" }}>
                 <div style={{ display: "grid", gridTemplateColumns: "52px minmax(0, 1fr)", gap: "8px" }}>
                   <span style={{ fontWeight: "700", color: "#1F246C", fontSize: "16px", lineHeight: "1.75" }}>{t("10.1")}</span>
                   <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.75", color: "#3A4150" }}>
@@ -1634,7 +1634,7 @@ export function VoorwaardenContent() {
                   </svg>
                 </span>
               </summary>
-              <div style={{ padding: "4px 24px 26px", display: "flex", flexDirection: "column", gap: "12px" }}>
+              <div style={{ padding: "4px 24px 28px", display: "flex", flexDirection: "column", gap: "12px" }}>
                 <div style={{ display: "grid", gridTemplateColumns: "52px minmax(0, 1fr)", gap: "8px" }}>
                   <span style={{ fontWeight: "700", color: "#1F246C", fontSize: "16px", lineHeight: "1.75" }}>{t("11.1")}</span>
                   <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.75", color: "#3A4150" }}>
@@ -1729,7 +1729,7 @@ export function VoorwaardenContent() {
                   </svg>
                 </span>
               </summary>
-              <div style={{ padding: "4px 24px 26px", display: "flex", flexDirection: "column", gap: "12px" }}>
+              <div style={{ padding: "4px 24px 28px", display: "flex", flexDirection: "column", gap: "12px" }}>
                 <div style={{ display: "grid", gridTemplateColumns: "52px minmax(0, 1fr)", gap: "8px" }}>
                   <span style={{ fontWeight: "700", color: "#1F246C", fontSize: "16px", lineHeight: "1.75" }}>{t("12.1")}</span>
                   <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.75", color: "#3A4150" }}>
@@ -1834,7 +1834,7 @@ export function VoorwaardenContent() {
                   </svg>
                 </span>
               </summary>
-              <div style={{ padding: "4px 24px 26px", display: "flex", flexDirection: "column", gap: "12px" }}>
+              <div style={{ padding: "4px 24px 28px", display: "flex", flexDirection: "column", gap: "12px" }}>
                 <div style={{ display: "grid", gridTemplateColumns: "52px minmax(0, 1fr)", gap: "8px" }}>
                   <span style={{ fontWeight: "700", color: "#1F246C", fontSize: "16px", lineHeight: "1.75" }}>{t("13.1")}</span>
                   <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.75", color: "#3A4150" }}>
@@ -1923,7 +1923,7 @@ export function VoorwaardenContent() {
                   </svg>
                 </span>
               </summary>
-              <div style={{ padding: "4px 24px 26px", display: "flex", flexDirection: "column", gap: "12px" }}>
+              <div style={{ padding: "4px 24px 28px", display: "flex", flexDirection: "column", gap: "12px" }}>
                 <div style={{ display: "grid", gridTemplateColumns: "52px minmax(0, 1fr)", gap: "8px" }}>
                   <span style={{ fontWeight: "700", color: "#1F246C", fontSize: "16px", lineHeight: "1.75" }}>{t("14.1")}</span>
                   <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.75", color: "#3A4150" }}>
@@ -2036,7 +2036,7 @@ export function VoorwaardenContent() {
                   </svg>
                 </span>
               </summary>
-              <div style={{ padding: "4px 24px 26px", display: "flex", flexDirection: "column", gap: "12px" }}>
+              <div style={{ padding: "4px 24px 28px", display: "flex", flexDirection: "column", gap: "12px" }}>
                 <div style={{ display: "grid", gridTemplateColumns: "52px minmax(0, 1fr)", gap: "8px" }}>
                   <span style={{ fontWeight: "700", color: "#1F246C", fontSize: "16px", lineHeight: "1.75" }}>{t("15.1")}</span>
                   <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.75", color: "#3A4150" }}>
@@ -2133,7 +2133,7 @@ export function VoorwaardenContent() {
                   </svg>
                 </span>
               </summary>
-              <div style={{ padding: "4px 24px 26px", display: "flex", flexDirection: "column", gap: "12px" }}>
+              <div style={{ padding: "4px 24px 28px", display: "flex", flexDirection: "column", gap: "12px" }}>
                 <div style={{ display: "grid", gridTemplateColumns: "52px minmax(0, 1fr)", gap: "8px" }}>
                   <span style={{ fontWeight: "700", color: "#1F246C", fontSize: "16px", lineHeight: "1.75" }}>{t("16.1")}</span>
                   <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.75", color: "#3A4150" }}>
@@ -2286,7 +2286,7 @@ export function VoorwaardenContent() {
                   </svg>
                 </span>
               </summary>
-              <div style={{ padding: "4px 24px 26px", display: "flex", flexDirection: "column", gap: "12px" }}>
+              <div style={{ padding: "4px 24px 28px", display: "flex", flexDirection: "column", gap: "12px" }}>
                 <div style={{ display: "grid", gridTemplateColumns: "52px minmax(0, 1fr)", gap: "8px" }}>
                   <span style={{ fontWeight: "700", color: "#1F246C", fontSize: "16px", lineHeight: "1.75" }}>{t("17.1")}</span>
                   <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.75", color: "#3A4150" }}>
@@ -2391,7 +2391,7 @@ export function VoorwaardenContent() {
                   </svg>
                 </span>
               </summary>
-              <div style={{ padding: "4px 24px 26px", display: "flex", flexDirection: "column", gap: "12px" }}>
+              <div style={{ padding: "4px 24px 28px", display: "flex", flexDirection: "column", gap: "12px" }}>
                 <div style={{ display: "grid", gridTemplateColumns: "52px minmax(0, 1fr)", gap: "8px" }}>
                   <span style={{ fontWeight: "700", color: "#1F246C", fontSize: "16px", lineHeight: "1.75" }}>{t("18.1")}</span>
                   <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.75", color: "#3A4150" }}>
@@ -2472,7 +2472,7 @@ export function VoorwaardenContent() {
                   </svg>
                 </span>
               </summary>
-              <div style={{ padding: "4px 24px 26px", display: "flex", flexDirection: "column", gap: "12px" }}>
+              <div style={{ padding: "4px 24px 28px", display: "flex", flexDirection: "column", gap: "12px" }}>
                 <div style={{ display: "grid", gridTemplateColumns: "52px minmax(0, 1fr)", gap: "8px" }}>
                   <span style={{ fontWeight: "700", color: "#1F246C", fontSize: "16px", lineHeight: "1.75" }}>{t("19.1")}</span>
                   <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.75", color: "#3A4150" }}>
@@ -2575,7 +2575,7 @@ export function VoorwaardenContent() {
                   </svg>
                 </span>
               </summary>
-              <div style={{ padding: "4px 24px 26px", display: "flex", flexDirection: "column", gap: "12px" }}>
+              <div style={{ padding: "4px 24px 28px", display: "flex", flexDirection: "column", gap: "12px" }}>
                 <div style={{ display: "grid", gridTemplateColumns: "52px minmax(0, 1fr)", gap: "8px" }}>
                   <span style={{ fontWeight: "700", color: "#1F246C", fontSize: "16px", lineHeight: "1.75" }}>{t("20.1")}</span>
                   <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.75", color: "#3A4150" }}>
@@ -2670,7 +2670,7 @@ export function VoorwaardenContent() {
                   </svg>
                 </span>
               </summary>
-              <div style={{ padding: "4px 24px 26px", display: "flex", flexDirection: "column", gap: "12px" }}>
+              <div style={{ padding: "4px 24px 28px", display: "flex", flexDirection: "column", gap: "12px" }}>
                 <div style={{ display: "grid", gridTemplateColumns: "52px minmax(0, 1fr)", gap: "8px" }}>
                   <span style={{ fontWeight: "700", color: "#1F246C", fontSize: "16px", lineHeight: "1.75" }}>{t("21.1")}</span>
                   <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.75", color: "#3A4150" }}>
@@ -2702,7 +2702,7 @@ export function VoorwaardenContent() {
               background: "#F2F8FE",
               display: "grid",
               gridTemplateColumns: "repeat(3, minmax(0, 1fr))",
-              gap: "14px 24px",
+              gap: "16px 24px",
             }}
             className="lg-card"
           >

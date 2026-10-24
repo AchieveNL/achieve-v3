@@ -1,12 +1,12 @@
 /* Contact.dc.html: rules on top of projecten.css and case.css */
-@media (max-width: 1000px){.ct-ways{grid-template-columns:minmax(0,1fr) !important}.ct-form{grid-template-columns:minmax(0,1fr) !important}.ct-form > div:first-child{position:static !important}}
+@media (max-width: 1024px){.ct-ways{grid-template-columns:minmax(0,1fr) !important}.ct-form{grid-template-columns:minmax(0,1fr) !important}.ct-form > div:first-child{position:static !important}}
 @media (max-width: 720px){.ct-ways{margin-top:40px !important}.ct-card{padding:28px !important}.ct-two{grid-template-columns:minmax(0,1fr) !important}.ct-wb{padding:28px 24px !important}section.wb-hero{min-height:0 !important}.wb-map{height:520px !important}.wb-map-card{left:12px !important;right:12px !important;top:auto !important;bottom:12px !important;max-width:none !important}}
 .sv-hero-ill{animation:svIllFloat 6s ease-in-out infinite}
 @keyframes svIllFloat{0%,100%{transform:translateY(-50%)}50%{transform:translateY(calc(-50% - 10px))}}
 @media (prefers-reduced-motion: reduce){.sv-hero-ill{animation:none}}
-@media (min-width: 961px){.wb-hero h1{font-size:clamp(44px, 5vw, 74px) !important;max-width:760px !important}}
-@media (max-width: 1180px){.sv-hero-ill{width:260px !important;height:260px !important;opacity:.9}}
-@media (max-width: 960px){.sv-hero-ill{display:none !important}}
+@media (min-width: 1025px){.wb-hero h1{font-size:clamp(44px, 5vw, 74px) !important;max-width:760px !important}}
+@media (max-width: 1100px){.sv-hero-ill{width:260px !important;height:260px !important;opacity:.9}}
+@media (max-width: 1024px){.sv-hero-ill{display:none !important}}
 .sv-hero-ill svg{animation:iaIn .7s cubic-bezier(.2,.8,.3,1.2) both}
 .sv-hero-ill svg *{transform-box:fill-box;transform-origin:center}
 .ia-ring{animation:iaSpin 50s linear infinite}
@@ -45,7 +45,7 @@
 @keyframes iaSlide{from{opacity:0;transform:translateY(40px)}to{opacity:1;transform:none}}
 @keyframes iaWig{0%,100%{transform:none}50%{transform:rotate(-5deg)}}
 @media (prefers-reduced-motion: reduce){.sv-hero-ill svg,.sv-hero-ill svg *{animation:none !important;stroke-dashoffset:0 !important}}
-@media (max-width: 720px){.wb-map{height:auto !important;grid-template-columns:minmax(0,1fr) !important;gap:16px !important}.wb-map-card{order:0 !important;padding:26px 24px !important}.wb-map .wb-art{width:1103px !important;height:380px !important;left:calc(50% - 551px) !important;right:auto !important;bottom:auto !important}}
+@media (max-width: 720px){.wb-map{height:auto !important;grid-template-columns:minmax(0,1fr) !important;gap:16px !important}.wb-map-card{order:0 !important;padding:28px 24px !important}.wb-map .wb-art{width:1103px !important;height:380px !important;left:calc(50% - 551px) !important;right:auto !important;bottom:auto !important}}
 .kb-pin{transform-box:fill-box;transform-origin:50% 100%;animation:kbSway 4s ease-in-out infinite alternate}
 @keyframes kbSway{0%{transform:rotate(-8deg)}100%{transform:rotate(8deg)}}
 @media (prefers-reduced-motion: reduce){.kb-pin{animation:none}}

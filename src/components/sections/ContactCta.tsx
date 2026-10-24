@@ -99,7 +99,7 @@ export function ContactCta() {
             gap: "48px 72px",
           }}
         >
-          <div style={{ flex: "1 1 440px", minWidth: "0", display: "flex", flexDirection: "column", gap: "22px" }}>
+          <div style={{ flex: "1 1 440px", minWidth: "0", display: "flex", flexDirection: "column", gap: "24px" }}>
             <p
               style={{
                 margin: "0",
@@ -190,13 +190,13 @@ export function ContactCta() {
               style={{
                 margin: "12px 0 0",
                 maxWidth: "480px",
-                padding: "20px 22px",
+                padding: "20px 24px",
                 borderRadius: "16px",
                 background: "rgba(255, 255, 255, 0.12)",
                 border: "1px solid rgba(255, 255, 255, 0.24)",
                 display: "flex",
                 flexDirection: "column",
-                gap: "10px",
+                gap: "12px",
               }}
             >
               <span style={{ display: "flex", alignItems: "center", gap: "8px", justifyContent: "space-between" }}>
@@ -265,7 +265,7 @@ export function ContactCta() {
                     color: "#FFFFFF",
                     width: "36px",
                     height: "36px",
-                    margin: "-6px -8px -6px 0",
+                    margin: "-8px -8px -8px 0",
                   }}
                 >
                   {h.motionRunning && (
@@ -369,7 +369,7 @@ export function ContactCta() {
                     {t("Plan je groeigesprek")}
                   </h3>
                   <label
-                    style={{ display: "flex", flexDirection: "column", gap: "6px", fontSize: "14px", fontWeight: "600", color: "#1F246C" }}
+                    style={{ display: "flex", flexDirection: "column", gap: "8px", fontSize: "14px", fontWeight: "600", color: "#1F246C" }}
                   >
                     {t("Naam")}
                     <input
@@ -382,8 +382,8 @@ export function ContactCta() {
                       style={{
                         font: "inherit",
                         fontSize: "16px",
-                        padding: "15px 16px",
-                        borderRadius: "10px",
+                        padding: "16px 16px",
+                        borderRadius: "8px",
                         border: `1px solid ${h.naamBorder}`,
                         background: "#FFFFFF",
                         color: "#1F246C",
@@ -398,7 +398,7 @@ export function ContactCta() {
                           style={{
                             display: "flex",
                             alignItems: "center",
-                            gap: "6px",
+                            gap: "8px",
                             fontSize: "13px",
                             fontWeight: "500",
                             color: "#C2261A",
@@ -423,7 +423,7 @@ export function ContactCta() {
                     )}
                   </label>
                   <label
-                    style={{ display: "flex", flexDirection: "column", gap: "6px", fontSize: "14px", fontWeight: "600", color: "#1F246C" }}
+                    style={{ display: "flex", flexDirection: "column", gap: "8px", fontSize: "14px", fontWeight: "600", color: "#1F246C" }}
                   >
                     {t("E-mailadres")}
                     <input
@@ -436,8 +436,8 @@ export function ContactCta() {
                       style={{
                         font: "inherit",
                         fontSize: "16px",
-                        padding: "15px 16px",
-                        borderRadius: "10px",
+                        padding: "16px 16px",
+                        borderRadius: "8px",
                         border: `1px solid ${h.emailBorder}`,
                         background: "#FFFFFF",
                         color: "#1F246C",
@@ -452,7 +452,7 @@ export function ContactCta() {
                           style={{
                             display: "flex",
                             alignItems: "center",
-                            gap: "6px",
+                            gap: "8px",
                             fontSize: "13px",
                             fontWeight: "500",
                             color: "#C2261A",
@@ -477,7 +477,7 @@ export function ContactCta() {
                     )}
                   </label>
                   <label
-                    style={{ display: "flex", flexDirection: "column", gap: "6px", fontSize: "14px", fontWeight: "600", color: "#1F246C" }}
+                    style={{ display: "flex", flexDirection: "column", gap: "8px", fontSize: "14px", fontWeight: "600", color: "#1F246C" }}
                   >
                     {t("Telefoonnummer")}
                     <input
@@ -487,8 +487,8 @@ export function ContactCta() {
                       style={{
                         font: "inherit",
                         fontSize: "16px",
-                        padding: "15px 16px",
-                        borderRadius: "10px",
+                        padding: "16px 16px",
+                        borderRadius: "8px",
                         border: "1px solid #D5DAE3",
                         background: "#FFFFFF",
                         color: "#1F246C",
@@ -498,7 +498,7 @@ export function ContactCta() {
                     />
                   </label>
                   <label
-                    style={{ display: "flex", flexDirection: "column", gap: "6px", fontSize: "14px", fontWeight: "600", color: "#1F246C" }}
+                    style={{ display: "flex", flexDirection: "column", gap: "8px", fontSize: "14px", fontWeight: "600", color: "#1F246C" }}
                   >
                     <span>
                       {t("Waar kunnen we je mee helpen?")} <span style={{ fontWeight: "400", color: "#5A6273" }}>{t("(optioneel)")}</span>
@@ -510,8 +510,8 @@ export function ContactCta() {
                       style={{
                         font: "inherit",
                         fontSize: "16px",
-                        padding: "15px 16px",
-                        borderRadius: "10px",
+                        padding: "16px 16px",
+                        borderRadius: "8px",
                         border: "1px solid #D5DAE3",
                         background: "#FFFFFF",
                         color: "#1F246C",
@@ -527,7 +527,7 @@ export function ContactCta() {
                     style={{
                       display: "flex",
                       alignItems: "flex-start",
-                      gap: "10px",
+                      gap: "12px",
                       fontSize: "13px",
                       fontWeight: "400",
                       lineHeight: "1.5",
@@ -563,7 +563,7 @@ export function ContactCta() {
                     <>
                       <span
                         role="alert"
-                        style={{ display: "flex", alignItems: "center", gap: "6px", fontSize: "13px", fontWeight: "500", color: "#C2261A" }}
+                        style={{ display: "flex", alignItems: "center", gap: "8px", fontSize: "13px", fontWeight: "500", color: "#C2261A" }}
                       >
                         <svg
                           width="14"
@@ -587,7 +587,7 @@ export function ContactCta() {
                     onClick={h.ctaSend}
                     className="glow"
                     style={{
-                      marginTop: "6px",
+                      marginTop: "8px",
                       font: "inherit",
                       fontSize: "18px",
                       fontWeight: "700",

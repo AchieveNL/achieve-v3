@@ -172,7 +172,7 @@ export function FeaturedCase() {
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
-                    padding: "0 6px",
+                    padding: "0 8px",
                     minWidth: "44px",
                     textAlign: "center",
                     fontVariantNumeric: "tabular-nums",
@@ -251,7 +251,7 @@ export function FeaturedCase() {
                       textTransform: "uppercase",
                       color: "#6E5A00",
                       background: "#FFF6C7",
-                      padding: "5px 11px",
+                      padding: "4px 12px",
                       borderRadius: "999px",
                     }}
                   >
@@ -285,7 +285,7 @@ export function FeaturedCase() {
                 </span>
               </div>
               <div className="pj-feat-cols" style={{ display: "grid", gridTemplateColumns: "repeat(2, minmax(0, 1fr))", gap: "20px" }}>
-                <div style={{ display: "flex", flexDirection: "column", gap: "6px" }}>
+                <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
                   <span
                     style={{ fontSize: "12px", fontWeight: "700", letterSpacing: "0.1em", textTransform: "uppercase", color: "#8639FA" }}
                   >
@@ -295,7 +295,7 @@ export function FeaturedCase() {
                     {t("Een jonge webshop, nog zonder bewezen advertentiekanaal.")}
                   </p>
                 </div>
-                <div style={{ display: "flex", flexDirection: "column", gap: "6px" }}>
+                <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
                   <span
                     style={{ fontSize: "12px", fontWeight: "700", letterSpacing: "0.1em", textTransform: "uppercase", color: "#8639FA" }}
                   >
@@ -315,8 +315,8 @@ export function FeaturedCase() {
               <blockquote
                 style={{
                   margin: "auto 0 0",
-                  padding: "28px 30px",
-                  borderRadius: "18px",
+                  padding: "28px 32px",
+                  borderRadius: "16px",
                   background: "#F8F5FE",
                   display: "flex",
                   flexDirection: "column",
@@ -369,7 +369,7 @@ export function FeaturedCase() {
                     "“Nog nooit zo snel een goede band met een agency opgebouwd. Eerste pilotmaand met alleen Google Shopping en meteen 6,4 ROAS. Bewijs praat dus voor zichzelf.”",
                   )}
                 </p>
-                <footer style={{ paddingTop: "18px", borderTop: "1px solid #E6DEFA" }}>
+                <footer style={{ paddingTop: "20px", borderTop: "1px solid #E6DEFA" }}>
                   <cite style={{ fontStyle: "normal", fontSize: "14px", fontWeight: "600", color: "#1F246C" }}>
                     {t("Boris Boot · Webshopeigenaar")}
                   </cite>
@@ -382,9 +382,9 @@ export function FeaturedCase() {
                   style={{
                     display: "inline-flex",
                     alignItems: "center",
-                    gap: "10px",
+                    gap: "12px",
                     minHeight: "52px",
-                    padding: "0 26px",
+                    padding: "0 28px",
                     borderRadius: "8px",
                     background: "linear-gradient(90deg, #8639FA 0%, #0F8AE5 100%)",
                     color: "#FFFFFF",

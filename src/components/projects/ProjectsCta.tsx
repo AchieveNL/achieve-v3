@@ -19,7 +19,7 @@ export function ProjectsCta({ tr }: { tr: ServerTr }) {
             flexDirection: "column",
             alignItems: "center",
             textAlign: "center",
-            gap: "22px",
+            gap: "24px",
           }}
         >
           <p
@@ -53,7 +53,7 @@ export function ProjectsCta({ tr }: { tr: ServerTr }) {
           <p style={{ margin: "0", maxWidth: "560px", fontSize: "18px", lineHeight: "1.6", color: "#FFFFFF" }}>
             {t("Vertel ons waar je naartoe wilt. Wij laten zien hoe je er komt.")}
           </p>
-          <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "14px", paddingTop: "8px" }}>
+          <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px", paddingTop: "8px" }}>
             <a
               href="https://calendly.com/vrijblijvendgesprek/"
               target="_blank"
@@ -63,7 +63,7 @@ export function ProjectsCta({ tr }: { tr: ServerTr }) {
                 display: "inline-flex",
                 alignItems: "center",
                 minHeight: "56px",
-                padding: "0 30px",
+                padding: "0 32px",
                 borderRadius: "8px",
                 background: "#FFFFFF",
                 color: "#1F246C",
@@ -95,7 +95,7 @@ export function ProjectsCta({ tr }: { tr: ServerTr }) {
                 display: "inline-flex",
                 alignItems: "center",
                 minHeight: "56px",
-                padding: "0 26px",
+                padding: "0 28px",
                 borderRadius: "8px",
                 border: "1px solid rgba(255, 255, 255, 0.7)",
                 color: "#FFFFFF",
@@ -121,7 +121,7 @@ export function ProjectsCta({ tr }: { tr: ServerTr }) {
               </svg>
             </a>
           </div>
-          <div className="cta-team" style={{ display: "flex", alignItems: "center", gap: "14px", paddingTop: "6px" }}>
+          <div className="cta-team" style={{ display: "flex", alignItems: "center", gap: "16px", paddingTop: "8px" }}>
             <span style={{ display: "flex" }}>
               <span
                 style={{
@@ -154,7 +154,7 @@ export function ProjectsCta({ tr }: { tr: ServerTr }) {
                   background: "#FFF6C7",
                   border: "3px solid #FFFFFF",
                   boxSizing: "border-box",
-                  marginLeft: "-14px",
+                  marginLeft: "-16px",
                   zIndex: "9",
                   flexShrink: "0",
                 }}
@@ -175,7 +175,7 @@ export function ProjectsCta({ tr }: { tr: ServerTr }) {
                   background: "#E3F1FD",
                   border: "3px solid #FFFFFF",
                   boxSizing: "border-box",
-                  marginLeft: "-14px",
+                  marginLeft: "-16px",
                   zIndex: "8",
                   flexShrink: "0",
                 }}
@@ -196,7 +196,7 @@ export function ProjectsCta({ tr }: { tr: ServerTr }) {
                   background: "#FFF6C7",
                   border: "3px solid #FFFFFF",
                   boxSizing: "border-box",
-                  marginLeft: "-14px",
+                  marginLeft: "-16px",
                   zIndex: "7",
                   flexShrink: "0",
                 }}

@@ -85,7 +85,7 @@ export function Achiever() {
               <li
                 style={{
                   display: "flex",
-                  gap: "14px",
+                  gap: "16px",
                   alignItems: "flex-start",
                   padding: "24px 0",
                   borderTop: "1px solid rgba(255, 255, 255, 0.18)",
@@ -112,7 +112,7 @@ export function Achiever() {
               <li
                 style={{
                   display: "flex",
-                  gap: "14px",
+                  gap: "16px",
                   alignItems: "flex-start",
                   padding: "24px 0",
                   borderTop: "1px solid rgba(255, 255, 255, 0.18)",
@@ -139,7 +139,7 @@ export function Achiever() {
               <li
                 style={{
                   display: "flex",
-                  gap: "14px",
+                  gap: "16px",
                   alignItems: "flex-start",
                   padding: "24px 0",
                   borderTop: "1px solid rgba(255, 255, 255, 0.18)",
@@ -166,7 +166,7 @@ export function Achiever() {
               <li
                 style={{
                   display: "flex",
-                  gap: "14px",
+                  gap: "16px",
                   alignItems: "flex-start",
                   padding: "24px 0",
                   borderTop: "1px solid rgba(255, 255, 255, 0.18)",

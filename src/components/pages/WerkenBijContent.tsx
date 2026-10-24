@@ -363,7 +363,7 @@ export function WerkenBijContent() {
             <a href={href("Main")} style={{ color: "#C9CFF0", textDecoration: "none" }}>
               {t("Home")}
             </a>{" "}
-            <span aria-hidden="true" style={{ margin: "0 6px" }}>
+            <span aria-hidden="true" style={{ margin: "0 8px" }}>
               {t("/")}
             </span>{" "}
             <span aria-current="page" style={{ color: "#FFFFFF", fontWeight: "600" }}>
@@ -386,7 +386,7 @@ export function WerkenBijContent() {
             display: "flex",
             flexDirection: "column",
             alignItems: "flex-start",
-            gap: "22px",
+            gap: "24px",
           }}
         >
           <span style={{ fontSize: "13px", fontWeight: "700", letterSpacing: "0.12em", textTransform: "uppercase", color: "#FAE84E" }}>
@@ -431,7 +431,7 @@ export function WerkenBijContent() {
               alignSelf: "flex-start",
               display: "inline-flex",
               alignItems: "center",
-              gap: "10px",
+              gap: "12px",
               minHeight: "44px",
               fontSize: "16px",
               fontWeight: "600",
@@ -473,7 +473,7 @@ export function WerkenBijContent() {
       <JumpNav items={[{ id: "vacatures", label: t("Vacatures") }, { id: "waarom", label: t("Waarom Achieve") }, { id: "stagiairs", label: t("Ervaringen") }, { id: "locatie", label: t("Locatie") }]} cta={{ id: "solliciteren", label: t("Solliciteer") }} />
       <section id="vacatures" className="pj-wrap pj-sec" style={{ background: "#F2F8FE", padding: "96px 40px 112px" }}>
         <div style={{ maxWidth: "1280px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "40px" }}>
-          <div style={{ display: "flex", flexDirection: "column", gap: "14px", maxWidth: "720px" }}>
+          <div style={{ display: "flex", flexDirection: "column", gap: "16px", maxWidth: "720px" }}>
             <h2
               style={{
                 margin: "0",
@@ -513,7 +513,7 @@ export function WerkenBijContent() {
                 padding: "40px",
                 display: "flex",
                 flexDirection: "column",
-                gap: "18px",
+                gap: "20px",
               }}
             >
               <span style={{ display: "flex", flexWrap: "wrap", gap: "8px" }}>
@@ -526,7 +526,7 @@ export function WerkenBijContent() {
                     textTransform: "uppercase",
                     color: "#6B2BD9",
                     background: "#EFE8FD",
-                    padding: "5px 11px",
+                    padding: "4px 12px",
                     borderRadius: "999px",
                   }}
                 >
@@ -541,7 +541,7 @@ export function WerkenBijContent() {
                     textTransform: "uppercase",
                     color: "#0B6DB8",
                     background: "#E3F1FD",
-                    padding: "5px 11px",
+                    padding: "4px 12px",
                     borderRadius: "999px",
                   }}
                 >
@@ -569,8 +569,8 @@ export function WerkenBijContent() {
               <span style={{ fontSize: "13px", fontWeight: "700", letterSpacing: "0.1em", textTransform: "uppercase", color: "#8639FA" }}>
                 {t("Dit ga je doen")}
               </span>
-              <ul style={{ margin: "0", padding: "0", listStyle: "none", display: "flex", flexDirection: "column", gap: "10px" }}>
-                <li style={{ display: "flex", gap: "10px", fontSize: "16px", lineHeight: "1.6", color: "#3A4150" }}>
+              <ul style={{ margin: "0", padding: "0", listStyle: "none", display: "flex", flexDirection: "column", gap: "12px" }}>
+                <li style={{ display: "flex", gap: "12px", fontSize: "16px", lineHeight: "1.6", color: "#3A4150" }}>
                   <svg
                     width="18"
                     height="18"
@@ -587,7 +587,7 @@ export function WerkenBijContent() {
                   </svg>
                   <span>{t("Je draait mee in het hele salesproces, van nieuwe klanten zoeken tot de deal sluiten.")}</span>
                 </li>
-                <li style={{ display: "flex", gap: "10px", fontSize: "16px", lineHeight: "1.6", color: "#3A4150" }}>
+                <li style={{ display: "flex", gap: "12px", fontSize: "16px", lineHeight: "1.6", color: "#3A4150" }}>
                   <svg
                     width="18"
                     height="18"
@@ -604,7 +604,7 @@ export function WerkenBijContent() {
                   </svg>
                   <span>{t("Je denkt mee over de salesstrategie en werkt samen met je begeleider.")}</span>
                 </li>
-                <li style={{ display: "flex", gap: "10px", fontSize: "16px", lineHeight: "1.6", color: "#3A4150" }}>
+                <li style={{ display: "flex", gap: "12px", fontSize: "16px", lineHeight: "1.6", color: "#3A4150" }}>
                   <svg
                     width="18"
                     height="18"
@@ -621,7 +621,7 @@ export function WerkenBijContent() {
                   </svg>
                   <span>{t("Je gaat mee op pad naar klanten en pakt zelfstandig werk op.")}</span>
                 </li>
-                <li style={{ display: "flex", gap: "10px", fontSize: "16px", lineHeight: "1.6", color: "#3A4150" }}>
+                <li style={{ display: "flex", gap: "12px", fontSize: "16px", lineHeight: "1.6", color: "#3A4150" }}>
                   <svg
                     width="18"
                     height="18"
@@ -647,7 +647,7 @@ export function WerkenBijContent() {
                     alignSelf: "flex-start",
                     display: "inline-flex",
                     alignItems: "center",
-                    gap: "10px",
+                    gap: "12px",
                     minHeight: "44px",
                     fontSize: "16px",
                     fontWeight: "600",
@@ -694,7 +694,7 @@ export function WerkenBijContent() {
                 padding: "40px",
                 display: "flex",
                 flexDirection: "column",
-                gap: "18px",
+                gap: "20px",
               }}
             >
               <span style={{ display: "flex", flexWrap: "wrap", gap: "8px" }}>
@@ -707,7 +707,7 @@ export function WerkenBijContent() {
                     textTransform: "uppercase",
                     color: "#6B2BD9",
                     background: "#EFE8FD",
-                    padding: "5px 11px",
+                    padding: "4px 12px",
                     borderRadius: "999px",
                   }}
                 >
@@ -722,7 +722,7 @@ export function WerkenBijContent() {
                     textTransform: "uppercase",
                     color: "#0B6DB8",
                     background: "#E3F1FD",
-                    padding: "5px 11px",
+                    padding: "4px 12px",
                     borderRadius: "999px",
                   }}
                 >
@@ -750,8 +750,8 @@ export function WerkenBijContent() {
               <span style={{ fontSize: "13px", fontWeight: "700", letterSpacing: "0.1em", textTransform: "uppercase", color: "#8639FA" }}>
                 {t("Dit ga je doen")}
               </span>
-              <ul style={{ margin: "0", padding: "0", listStyle: "none", display: "flex", flexDirection: "column", gap: "10px" }}>
-                <li style={{ display: "flex", gap: "10px", fontSize: "16px", lineHeight: "1.6", color: "#3A4150" }}>
+              <ul style={{ margin: "0", padding: "0", listStyle: "none", display: "flex", flexDirection: "column", gap: "12px" }}>
+                <li style={{ display: "flex", gap: "12px", fontSize: "16px", lineHeight: "1.6", color: "#3A4150" }}>
                   <svg
                     width="18"
                     height="18"
@@ -768,7 +768,7 @@ export function WerkenBijContent() {
                   </svg>
                   <span>{t("Je werkt samen met je begeleider aan echte klantprojecten.")}</span>
                 </li>
-                <li style={{ display: "flex", gap: "10px", fontSize: "16px", lineHeight: "1.6", color: "#3A4150" }}>
+                <li style={{ display: "flex", gap: "12px", fontSize: "16px", lineHeight: "1.6", color: "#3A4150" }}>
                   <svg
                     width="18"
                     height="18"
@@ -785,7 +785,7 @@ export function WerkenBijContent() {
                   </svg>
                   <span>{t("Je denkt mee over de contentstrategie, van social media tot kennisartikelen.")}</span>
                 </li>
-                <li style={{ display: "flex", gap: "10px", fontSize: "16px", lineHeight: "1.6", color: "#3A4150" }}>
+                <li style={{ display: "flex", gap: "12px", fontSize: "16px", lineHeight: "1.6", color: "#3A4150" }}>
                   <svg
                     width="18"
                     height="18"
@@ -802,7 +802,7 @@ export function WerkenBijContent() {
                   </svg>
                   <span>{t("Je maakt social media posts, online en offline advertenties en meer.")}</span>
                 </li>
-                <li style={{ display: "flex", gap: "10px", fontSize: "16px", lineHeight: "1.6", color: "#3A4150" }}>
+                <li style={{ display: "flex", gap: "12px", fontSize: "16px", lineHeight: "1.6", color: "#3A4150" }}>
                   <svg
                     width="18"
                     height="18"
@@ -828,7 +828,7 @@ export function WerkenBijContent() {
                     alignSelf: "flex-start",
                     display: "inline-flex",
                     alignItems: "center",
-                    gap: "10px",
+                    gap: "12px",
                     minHeight: "44px",
                     fontSize: "16px",
                     fontWeight: "600",
@@ -886,7 +886,7 @@ export function WerkenBijContent() {
           }}
         ></div>
         <div style={{ position: "relative", maxWidth: "1280px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "40px" }}>
-          <div style={{ display: "flex", flexDirection: "column", gap: "14px", maxWidth: "720px" }}>
+          <div style={{ display: "flex", flexDirection: "column", gap: "16px", maxWidth: "720px" }}>
             <h2
               style={{
                 margin: "0",
@@ -936,7 +936,7 @@ export function WerkenBijContent() {
                 padding: "36px",
                 display: "flex",
                 flexDirection: "column",
-                gap: "14px",
+                gap: "16px",
               }}
             >
               <span
@@ -983,7 +983,7 @@ export function WerkenBijContent() {
                 padding: "36px",
                 display: "flex",
                 flexDirection: "column",
-                gap: "14px",
+                gap: "16px",
               }}
             >
               <span
@@ -1030,7 +1030,7 @@ export function WerkenBijContent() {
                 padding: "36px",
                 display: "flex",
                 flexDirection: "column",
-                gap: "14px",
+                gap: "16px",
               }}
             >
               <span
@@ -1077,7 +1077,7 @@ export function WerkenBijContent() {
                 padding: "36px",
                 display: "flex",
                 flexDirection: "column",
-                gap: "14px",
+                gap: "16px",
               }}
             >
               <span
@@ -1124,7 +1124,7 @@ export function WerkenBijContent() {
                 padding: "36px",
                 display: "flex",
                 flexDirection: "column",
-                gap: "14px",
+                gap: "16px",
               }}
             >
               <span
@@ -1311,7 +1311,7 @@ export function WerkenBijContent() {
                     style={{
                       display: "inline-flex",
                       alignItems: "center",
-                      gap: "6px",
+                      gap: "8px",
                       fontSize: "13px",
                       fontWeight: "600",
                       color: "#3A4150",
@@ -1409,7 +1409,7 @@ export function WerkenBijContent() {
                     style={{
                       display: "inline-flex",
                       alignItems: "center",
-                      gap: "6px",
+                      gap: "8px",
                       fontSize: "13px",
                       fontWeight: "600",
                       color: "#3A4150",
@@ -1512,7 +1512,7 @@ export function WerkenBijContent() {
                     style={{
                       display: "inline-flex",
                       alignItems: "center",
-                      gap: "6px",
+                      gap: "8px",
                       fontSize: "13px",
                       fontWeight: "600",
                       color: "#3A4150",
@@ -1615,7 +1615,7 @@ export function WerkenBijContent() {
                     style={{
                       display: "inline-flex",
                       alignItems: "center",
-                      gap: "6px",
+                      gap: "8px",
                       fontSize: "13px",
                       fontWeight: "600",
                       color: "#3A4150",
@@ -1718,7 +1718,7 @@ export function WerkenBijContent() {
                     style={{
                       display: "inline-flex",
                       alignItems: "center",
-                      gap: "6px",
+                      gap: "8px",
                       fontSize: "13px",
                       fontWeight: "600",
                       color: "#3A4150",
@@ -1816,7 +1816,7 @@ export function WerkenBijContent() {
                     style={{
                       display: "inline-flex",
                       alignItems: "center",
-                      gap: "6px",
+                      gap: "8px",
                       fontSize: "13px",
                       fontWeight: "600",
                       color: "#3A4150",
@@ -1917,7 +1917,7 @@ export function WerkenBijContent() {
                     style={{
                       display: "inline-flex",
                       alignItems: "center",
-                      gap: "6px",
+                      gap: "8px",
                       fontSize: "13px",
                       fontWeight: "600",
                       color: "#3A4150",
@@ -2015,7 +2015,7 @@ export function WerkenBijContent() {
                     style={{
                       display: "inline-flex",
                       alignItems: "center",
-                      gap: "6px",
+                      gap: "8px",
                       fontSize: "13px",
                       fontWeight: "600",
                       color: "#3A4150",
@@ -2118,7 +2118,7 @@ export function WerkenBijContent() {
                     style={{
                       display: "inline-flex",
                       alignItems: "center",
-                      gap: "6px",
+                      gap: "8px",
                       fontSize: "13px",
                       fontWeight: "600",
                       color: "#3A4150",
@@ -2221,7 +2221,7 @@ export function WerkenBijContent() {
                     style={{
                       display: "inline-flex",
                       alignItems: "center",
-                      gap: "6px",
+                      gap: "8px",
                       fontSize: "13px",
                       fontWeight: "600",
                       color: "#3A4150",
@@ -2324,7 +2324,7 @@ export function WerkenBijContent() {
                     style={{
                       display: "inline-flex",
                       alignItems: "center",
-                      gap: "6px",
+                      gap: "8px",
                       fontSize: "13px",
                       fontWeight: "600",
                       color: "#3A4150",
@@ -2422,7 +2422,7 @@ export function WerkenBijContent() {
                     style={{
                       display: "inline-flex",
                       alignItems: "center",
-                      gap: "6px",
+                      gap: "8px",
                       fontSize: "13px",
                       fontWeight: "600",
                       color: "#3A4150",
@@ -2527,7 +2527,7 @@ export function WerkenBijContent() {
                     style={{
                       display: "inline-flex",
                       alignItems: "center",
-                      gap: "6px",
+                      gap: "8px",
                       fontSize: "13px",
                       fontWeight: "600",
                       color: "#3A4150",
@@ -2625,7 +2625,7 @@ export function WerkenBijContent() {
                     style={{
                       display: "inline-flex",
                       alignItems: "center",
-                      gap: "6px",
+                      gap: "8px",
                       fontSize: "13px",
                       fontWeight: "600",
                       color: "#3A4150",
@@ -2723,7 +2723,7 @@ export function WerkenBijContent() {
                     style={{
                       display: "inline-flex",
                       alignItems: "center",
-                      gap: "6px",
+                      gap: "8px",
                       fontSize: "13px",
                       fontWeight: "600",
                       color: "#3A4150",
@@ -2821,7 +2821,7 @@ export function WerkenBijContent() {
                     style={{
                       display: "inline-flex",
                       alignItems: "center",
-                      gap: "6px",
+                      gap: "8px",
                       fontSize: "13px",
                       fontWeight: "600",
                       color: "#3A4150",
@@ -2919,7 +2919,7 @@ export function WerkenBijContent() {
                     style={{
                       display: "inline-flex",
                       alignItems: "center",
-                      gap: "6px",
+                      gap: "8px",
                       fontSize: "13px",
                       fontWeight: "600",
                       color: "#3A4150",
@@ -3018,7 +3018,7 @@ export function WerkenBijContent() {
                     style={{
                       display: "inline-flex",
                       alignItems: "center",
-                      gap: "6px",
+                      gap: "8px",
                       fontSize: "13px",
                       fontWeight: "600",
                       color: "#3A4150",
@@ -3116,7 +3116,7 @@ export function WerkenBijContent() {
                     style={{
                       display: "inline-flex",
                       alignItems: "center",
-                      gap: "6px",
+                      gap: "8px",
                       fontSize: "13px",
                       fontWeight: "600",
                       color: "#3A4150",
@@ -3214,7 +3214,7 @@ export function WerkenBijContent() {
                     style={{
                       display: "inline-flex",
                       alignItems: "center",
-                      gap: "6px",
+                      gap: "8px",
                       fontSize: "13px",
                       fontWeight: "600",
                       color: "#3A4150",
@@ -3312,7 +3312,7 @@ export function WerkenBijContent() {
                     style={{
                       display: "inline-flex",
                       alignItems: "center",
-                      gap: "6px",
+                      gap: "8px",
                       fontSize: "13px",
                       fontWeight: "600",
                       color: "#3A4150",
@@ -3410,7 +3410,7 @@ export function WerkenBijContent() {
                     style={{
                       display: "inline-flex",
                       alignItems: "center",
-                      gap: "6px",
+                      gap: "8px",
                       fontSize: "13px",
                       fontWeight: "600",
                       color: "#3A4150",
@@ -3513,7 +3513,7 @@ export function WerkenBijContent() {
       </section>
       <section id="locatie" className="pj-wrap pj-sec" style={{ background: "#F2F8FE", padding: "0 40px 112px" }}>
         <div style={{ maxWidth: "1280px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "32px" }}>
-          <div style={{ display: "flex", flexDirection: "column", gap: "14px", maxWidth: "720px" }}>
+          <div style={{ display: "flex", flexDirection: "column", gap: "16px", maxWidth: "720px" }}>
             <h2
               style={{
                 margin: "0",
@@ -3565,11 +3565,11 @@ export function WerkenBijContent() {
                 order: "-1",
                 background: "#FFFFFF",
                 borderRadius: "24px",
-                padding: "36px 34px",
+                padding: "36px 36px",
                 display: "flex",
                 flexDirection: "column",
                 justifyContent: "center",
-                gap: "6px",
+                gap: "8px",
               }}
             >
               <strong translate="no" style={{ fontFamily: "var(--font-display)", fontSize: "24px", fontWeight: "700", color: "#1F246C" }}>
@@ -3585,7 +3585,7 @@ export function WerkenBijContent() {
                 <br />
                 {t("Zaterdag – zondag: gesloten")}
               </span>
-              <div style={{ marginTop: "6px" }}>
+              <div style={{ marginTop: "8px" }}>
                 <a
                   href="https://www.google.com/maps/dir/?api=1&destination=Achieve,+Cypresbaan+3,+2908+LT+Capelle+aan+den+IJssel"
                   className="about-link"
@@ -3593,7 +3593,7 @@ export function WerkenBijContent() {
                     alignSelf: "flex-start",
                     display: "inline-flex",
                     alignItems: "center",
-                    gap: "10px",
+                    gap: "12px",
                     minHeight: "44px",
                     fontSize: "16px",
                     fontWeight: "600",
@@ -3644,7 +3644,7 @@ export function WerkenBijContent() {
           className="wb-form"
           style={{ maxWidth: "1280px", margin: "0 auto", display: "flex", flexWrap: "wrap", alignItems: "center", gap: "48px 72px" }}
         >
-          <div style={{ flex: "1 1 440px", minWidth: "0", display: "flex", flexDirection: "column", gap: "22px" }}>
+          <div style={{ flex: "1 1 440px", minWidth: "0", display: "flex", flexDirection: "column", gap: "24px" }}>
             <p
               style={{
                 margin: "0",
@@ -3738,7 +3738,7 @@ export function WerkenBijContent() {
             <h3 style={{ margin: "0 0 4px", fontFamily: "var(--font-display)", fontSize: "26px", fontWeight: "700" }}>
               {t("Jouw sollicitatie")}
             </h3>
-            <label style={{ display: "flex", flexDirection: "column", gap: "6px", fontSize: "14px", fontWeight: "600", color: "#1F246C" }}>
+            <label style={{ display: "flex", flexDirection: "column", gap: "8px", fontSize: "14px", fontWeight: "600", color: "#1F246C" }}>
               {t("Naam")}
               <input
                 type="text"
@@ -3748,8 +3748,8 @@ export function WerkenBijContent() {
                 style={{
                   font: "inherit",
                   fontSize: "16px",
-                  padding: "15px 16px",
-                  borderRadius: "10px",
+                  padding: "16px 16px",
+                  borderRadius: "8px",
                   border: "1px solid #D5DAE3",
                   background: "#FFFFFF",
                   color: "#1F246C",
@@ -3758,7 +3758,7 @@ export function WerkenBijContent() {
                 }}
               />
             </label>
-            <label style={{ display: "flex", flexDirection: "column", gap: "6px", fontSize: "14px", fontWeight: "600", color: "#1F246C" }}>
+            <label style={{ display: "flex", flexDirection: "column", gap: "8px", fontSize: "14px", fontWeight: "600", color: "#1F246C" }}>
               {t("E-mailadres")}
               <input
                 type="email"
@@ -3768,8 +3768,8 @@ export function WerkenBijContent() {
                 style={{
                   font: "inherit",
                   fontSize: "16px",
-                  padding: "15px 16px",
-                  borderRadius: "10px",
+                  padding: "16px 16px",
+                  borderRadius: "8px",
                   border: "1px solid #D5DAE3",
                   background: "#FFFFFF",
                   color: "#1F246C",
@@ -3778,7 +3778,7 @@ export function WerkenBijContent() {
                 }}
               />
             </label>
-            <label style={{ display: "flex", flexDirection: "column", gap: "6px", fontSize: "14px", fontWeight: "600", color: "#1F246C" }}>
+            <label style={{ display: "flex", flexDirection: "column", gap: "8px", fontSize: "14px", fontWeight: "600", color: "#1F246C" }}>
               {t("Telefoonnummer")}
               <input
                 type="tel"
@@ -3787,8 +3787,8 @@ export function WerkenBijContent() {
                 style={{
                   font: "inherit",
                   fontSize: "16px",
-                  padding: "15px 16px",
-                  borderRadius: "10px",
+                  padding: "16px 16px",
+                  borderRadius: "8px",
                   border: "1px solid #D5DAE3",
                   background: "#FFFFFF",
                   color: "#1F246C",
@@ -3797,15 +3797,15 @@ export function WerkenBijContent() {
                 }}
               />
             </label>
-            <label style={{ display: "flex", flexDirection: "column", gap: "6px", fontSize: "14px", fontWeight: "600", color: "#1F246C" }}>
+            <label style={{ display: "flex", flexDirection: "column", gap: "8px", fontSize: "14px", fontWeight: "600", color: "#1F246C" }}>
               {t("Vacature")}
               <select
                 name="vacature"
                 style={{
                   font: "inherit",
                   fontSize: "16px",
-                  padding: "15px 16px",
-                  borderRadius: "10px",
+                  padding: "16px 16px",
+                  borderRadius: "8px",
                   border: "1px solid #D5DAE3",
                   background: "#FFFFFF",
                   color: "#1F246C",
@@ -3819,7 +3819,7 @@ export function WerkenBijContent() {
                 <option>{t("Open sollicitatie")}</option>
               </select>
             </label>
-            <label style={{ display: "flex", flexDirection: "column", gap: "6px", fontSize: "14px", fontWeight: "600", color: "#1F246C" }}>
+            <label style={{ display: "flex", flexDirection: "column", gap: "8px", fontSize: "14px", fontWeight: "600", color: "#1F246C" }}>
               {t("Upload je cv")}
               <input
                 type="file"
@@ -3829,7 +3829,7 @@ export function WerkenBijContent() {
                   font: "inherit",
                   fontSize: "14px",
                   padding: "12px",
-                  borderRadius: "10px",
+                  borderRadius: "8px",
                   border: "1px dashed #B9BFD3",
                   background: "#F2F8FE",
                   color: "#1F246C",
@@ -3839,7 +3839,7 @@ export function WerkenBijContent() {
                 }}
               />
             </label>
-            <label style={{ display: "flex", flexDirection: "column", gap: "6px", fontSize: "14px", fontWeight: "600", color: "#1F246C" }}>
+            <label style={{ display: "flex", flexDirection: "column", gap: "8px", fontSize: "14px", fontWeight: "600", color: "#1F246C" }}>
               {t("Upload je motivatie")}
               <input
                 type="file"
@@ -3849,7 +3849,7 @@ export function WerkenBijContent() {
                   font: "inherit",
                   fontSize: "14px",
                   padding: "12px",
-                  borderRadius: "10px",
+                  borderRadius: "8px",
                   border: "1px dashed #B9BFD3",
                   background: "#F2F8FE",
                   color: "#1F246C",
@@ -3859,14 +3859,14 @@ export function WerkenBijContent() {
                 }}
               />
             </label>
-            <span style={{ fontSize: "13px", color: "#5A6273", marginTop: "-6px" }}>
+            <span style={{ fontSize: "13px", color: "#5A6273", marginTop: "-8px" }}>
               {t("Geaccepteerde bestanden: .pdf, .txt, .doc, .docx")}
             </span>
             <label
               style={{
                 display: "flex",
                 alignItems: "flex-start",
-                gap: "10px",
+                gap: "12px",
                 fontSize: "13px",
                 fontWeight: "400",
                 lineHeight: "1.5",
@@ -3894,7 +3894,7 @@ export function WerkenBijContent() {
               className="glow"
               onClick={h.send}
               style={{
-                marginTop: "6px",
+                marginTop: "8px",
                 font: "inherit",
                 fontSize: "18px",
                 fontWeight: "700",

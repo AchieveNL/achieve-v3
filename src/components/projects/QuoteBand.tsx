@@ -117,7 +117,7 @@ export function QuoteBand() {
               >
                 {t("“Discipline is de brug tussen doelen en resultaat.”")}
               </blockquote>
-              <figcaption style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "6px" }}>
+              <figcaption style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "8px" }}>
                 <span
                   style={{ fontSize: "13px", fontWeight: "700", letterSpacing: "0.12em", textTransform: "uppercase", color: "#FAE84E" }}
                 >
@@ -154,7 +154,7 @@ export function QuoteBand() {
               >
                 {t("“Je stijgt niet naar het niveau van je doelen. Je valt terug op het niveau van je systemen.”")}
               </blockquote>
-              <figcaption style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "6px" }}>
+              <figcaption style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "8px" }}>
                 <span
                   style={{ fontSize: "13px", fontWeight: "700", letterSpacing: "0.12em", textTransform: "uppercase", color: "#FAE84E" }}
                 >
@@ -191,7 +191,7 @@ export function QuoteBand() {
               >
                 {t("“Je houding, niet je aanleg, bepaalt hoe hoog je komt.”")}
               </blockquote>
-              <figcaption style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "6px" }}>
+              <figcaption style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "8px" }}>
                 <span
                   style={{ fontSize: "13px", fontWeight: "700", letterSpacing: "0.12em", textTransform: "uppercase", color: "#FAE84E" }}
                 >
@@ -228,7 +228,7 @@ export function QuoteBand() {
               >
                 {t("“Werk áán je bedrijf, niet ín je bedrijf.”")}
               </blockquote>
-              <figcaption style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "6px" }}>
+              <figcaption style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "8px" }}>
                 <span
                   style={{ fontSize: "13px", fontWeight: "700", letterSpacing: "0.12em", textTransform: "uppercase", color: "#FAE84E" }}
                 >
@@ -238,7 +238,7 @@ export function QuoteBand() {
               </figcaption>
             </figure>
           </div>
-          <div style={{ display: "flex", gap: "10px", alignItems: "center" }}>
+          <div style={{ display: "flex", gap: "12px", alignItems: "center" }}>
             <button
               type="button"
               className="qt-dot"

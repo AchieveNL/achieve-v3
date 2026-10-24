@@ -242,13 +242,13 @@ export function DienstSMALooptijdContent() {
             <a href={href("Main")} style={{ color: "#C9CFF0", textDecoration: "none" }}>
               {t("Home")}
             </a>{" "}
-            <span aria-hidden="true" style={{ margin: "0 6px" }}>
+            <span aria-hidden="true" style={{ margin: "0 8px" }}>
               {t("/")}
             </span>{" "}
             <a href={href("Main")} style={{ color: "#C9CFF0", textDecoration: "none" }}>
               {t("Diensten")}
             </a>{" "}
-            <span aria-hidden="true" style={{ margin: "0 6px" }}>
+            <span aria-hidden="true" style={{ margin: "0 8px" }}>
               {t("/")}
             </span>{" "}
             <span aria-current="page" translate="no" style={{ color: "#FFFFFF", fontWeight: "600" }}>
@@ -283,7 +283,7 @@ export function DienstSMALooptijdContent() {
               textTransform: "uppercase",
               color: "#6E5A00",
               background: "#FFF6C7",
-              padding: "7px 14px",
+              padding: "8px 16px",
               borderRadius: "999px",
             }}
           >
@@ -330,7 +330,7 @@ export function DienstSMALooptijdContent() {
                 background: "linear-gradient(90deg, #8639FA 0%, #0F8AE5 100%)",
                 color: "#FFFFFF",
                 textDecoration: "none",
-                padding: "18px 30px",
+                padding: "20px 32px",
                 borderRadius: "8px",
                 fontWeight: "700",
                 fontSize: "19px",
@@ -418,7 +418,7 @@ export function DienstSMALooptijdContent() {
       </nav>
       <section id="uitdagingen" className="pj-wrap pj-sec" style={{ background: "#F2F8FE", padding: "112px 40px 112px" }}>
         <div style={{ maxWidth: "1280px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "40px" }}>
-          <div style={{ display: "flex", flexDirection: "column", gap: "14px", maxWidth: "760px" }}>
+          <div style={{ display: "flex", flexDirection: "column", gap: "16px", maxWidth: "760px" }}>
             <h2
               style={{
                 margin: "0",
@@ -536,7 +536,7 @@ export function DienstSMALooptijdContent() {
             className="sv-grip"
             style={{ display: "grid", gridTemplateColumns: "minmax(0, 1fr) minmax(0, 1fr)", gap: "56px", alignItems: "center" }}
           >
-            <div style={{ display: "flex", flexDirection: "column", gap: "18px" }}>
+            <div style={{ display: "flex", flexDirection: "column", gap: "20px" }}>
               <h2
                 style={{
                   margin: "0",
@@ -575,7 +575,7 @@ export function DienstSMALooptijdContent() {
                 )}
               </p>
             </div>
-            <ul style={{ margin: "0", padding: "0", listStyle: "none", display: "flex", flexDirection: "column", gap: "22px" }}>
+            <ul style={{ margin: "0", padding: "0", listStyle: "none", display: "flex", flexDirection: "column", gap: "24px" }}>
               <li
                 style={{
                   paddingLeft: "20px",
@@ -692,7 +692,7 @@ export function DienstSMALooptijdContent() {
                 background: "linear-gradient(90deg, #8639FA 0%, #0F8AE5 100%)",
                 color: "#FFFFFF",
                 textDecoration: "none",
-                padding: "18px 30px",
+                padding: "20px 32px",
                 borderRadius: "8px",
                 fontWeight: "700",
                 fontSize: "19px",
@@ -710,7 +710,7 @@ export function DienstSMALooptijdContent() {
               padding: "48px",
               display: "flex",
               flexDirection: "column",
-              gap: "22px",
+              gap: "24px",
             }}
           >
             <span style={{ fontSize: "13px", fontWeight: "700", letterSpacing: "0.1em", textTransform: "uppercase", color: "#FAE84E" }}>
@@ -794,7 +794,7 @@ export function DienstSMALooptijdContent() {
       </section>
       <section id="cijfers" className="pj-wrap pj-sec" style={{ background: "#F2F8FE", padding: "112px 40px 112px" }}>
         <div style={{ maxWidth: "1280px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "40px" }}>
-          <div style={{ display: "flex", flexDirection: "column", gap: "14px", maxWidth: "760px" }}>
+          <div style={{ display: "flex", flexDirection: "column", gap: "16px", maxWidth: "760px" }}>
             <h2
               style={{
                 margin: "0",
@@ -855,7 +855,7 @@ export function DienstSMALooptijdContent() {
                 {t("van alle zoekopdrachten wereldwijd gaat via Google. In Nederland is dat 89,1%.")}
               </p>
             </div>
-            <div style={{ display: "flex", flexDirection: "column", gap: "14px" }}>
+            <div style={{ display: "flex", flexDirection: "column", gap: "16px" }}>
               <span style={{ fontSize: "13px", fontWeight: "700", letterSpacing: "0.1em", textTransform: "uppercase", color: "#FAE84E" }}>
                 {t("Marktaandeel zoekmachines wereldwijd")}
               </span>
@@ -864,7 +864,7 @@ export function DienstSMALooptijdContent() {
                   display: "grid",
                   gridTemplateColumns: "96px minmax(0, 1fr) 56px",
                   alignItems: "center",
-                  gap: "14px",
+                  gap: "16px",
                   fontSize: "15px",
                   fontWeight: "600",
                   color: "#FFFFFF",
@@ -888,7 +888,7 @@ export function DienstSMALooptijdContent() {
                   display: "grid",
                   gridTemplateColumns: "96px minmax(0, 1fr) 56px",
                   alignItems: "center",
-                  gap: "14px",
+                  gap: "16px",
                   fontSize: "15px",
                   fontWeight: "600",
                   color: "#FFFFFF",
@@ -905,7 +905,7 @@ export function DienstSMALooptijdContent() {
                   display: "grid",
                   gridTemplateColumns: "96px minmax(0, 1fr) 56px",
                   alignItems: "center",
-                  gap: "14px",
+                  gap: "16px",
                   fontSize: "15px",
                   fontWeight: "600",
                   color: "#FFFFFF",
@@ -922,7 +922,7 @@ export function DienstSMALooptijdContent() {
                   display: "grid",
                   gridTemplateColumns: "96px minmax(0, 1fr) 56px",
                   alignItems: "center",
-                  gap: "14px",
+                  gap: "16px",
                   fontSize: "15px",
                   fontWeight: "600",
                   color: "#FFFFFF",
@@ -939,7 +939,7 @@ export function DienstSMALooptijdContent() {
                   display: "grid",
                   gridTemplateColumns: "96px minmax(0, 1fr) 56px",
                   alignItems: "center",
-                  gap: "14px",
+                  gap: "16px",
                   fontSize: "15px",
                   fontWeight: "600",
                   color: "#FFFFFF",
@@ -956,7 +956,7 @@ export function DienstSMALooptijdContent() {
                   display: "grid",
                   gridTemplateColumns: "96px minmax(0, 1fr) 56px",
                   alignItems: "center",
-                  gap: "14px",
+                  gap: "16px",
                   fontSize: "15px",
                   fontWeight: "600",
                   color: "#FFFFFF",
@@ -995,7 +995,7 @@ export function DienstSMALooptijdContent() {
                   "radial-gradient(45% 70% at 0% 0%, rgba(134, 57, 250, 0.35) 0%, rgba(134, 57, 250, 0) 70%), radial-gradient(40% 60% at 100% 100%, rgba(15, 138, 229, 0.3) 0%, rgba(15, 138, 229, 0) 70%)",
               }}
             ></div>
-            <div style={{ position: "relative", display: "flex", flexDirection: "column", gap: "10px", maxWidth: "760px" }}>
+            <div style={{ position: "relative", display: "flex", flexDirection: "column", gap: "12px", maxWidth: "760px" }}>
               <span style={{ fontSize: "13px", fontWeight: "700", letterSpacing: "0.1em", textTransform: "uppercase", color: "#FAE84E" }}>
                 {t("Zoeken met AI")}
               </span>
@@ -1028,9 +1028,9 @@ export function DienstSMALooptijdContent() {
                 style={{
                   display: "flex",
                   flexDirection: "column",
-                  gap: "10px",
+                  gap: "12px",
                   padding: "24px",
-                  borderRadius: "18px",
+                  borderRadius: "16px",
                   background: "rgba(255, 255, 255, 0.06)",
                   border: "1px solid rgba(255, 255, 255, 0.14)",
                 }}
@@ -1058,9 +1058,9 @@ export function DienstSMALooptijdContent() {
                 style={{
                   display: "flex",
                   flexDirection: "column",
-                  gap: "10px",
+                  gap: "12px",
                   padding: "24px",
-                  borderRadius: "18px",
+                  borderRadius: "16px",
                   background: "rgba(255, 255, 255, 0.06)",
                   border: "1px solid rgba(255, 255, 255, 0.14)",
                 }}
@@ -1088,9 +1088,9 @@ export function DienstSMALooptijdContent() {
                 style={{
                   display: "flex",
                   flexDirection: "column",
-                  gap: "10px",
+                  gap: "12px",
                   padding: "24px",
-                  borderRadius: "18px",
+                  borderRadius: "16px",
                   background: "rgba(255, 255, 255, 0.06)",
                   border: "1px solid rgba(255, 255, 255, 0.14)",
                 }}
@@ -1281,7 +1281,7 @@ export function DienstSMALooptijdContent() {
       </section>
       <section id="waarom-wij" className="pj-wrap pj-sec" style={{ background: "#FFFFFF", padding: "112px 40px 112px" }}>
         <div style={{ maxWidth: "1280px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "40px" }}>
-          <div style={{ display: "flex", flexDirection: "column", gap: "14px", maxWidth: "760px" }}>
+          <div style={{ display: "flex", flexDirection: "column", gap: "16px", maxWidth: "760px" }}>
             <h2
               style={{
                 margin: "0",
@@ -1544,7 +1544,7 @@ export function DienstSMALooptijdContent() {
                     textTransform: "uppercase",
                     color: "#1F246C",
                     background: "#FAE84E",
-                    padding: "5px 10px",
+                    padding: "4px 12px",
                     borderRadius: "999px",
                   }}
                 >
@@ -1712,7 +1712,7 @@ export function DienstSMALooptijdContent() {
             display: "flex",
             flexDirection: "column",
             alignItems: "center",
-            gap: "22px",
+            gap: "24px",
             textAlign: "center",
           }}
         >
@@ -1763,7 +1763,7 @@ export function DienstSMALooptijdContent() {
       </section>
       <section id="pakketten" className="pj-wrap pj-sec" style={{ background: "#F2F8FE", padding: "112px 40px 112px" }}>
         <div style={{ maxWidth: "1280px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "48px" }}>
-          <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "14px", textAlign: "center" }}>
+          <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "16px", textAlign: "center" }}>
             <h2
               style={{
                 margin: "0",
@@ -1798,7 +1798,7 @@ export function DienstSMALooptijdContent() {
               {t(". Leg je je langer vast, dan zakt dat tarief.")}
             </p>
           </div>
-          <div className="tf-scroll" style={{ width: "100%", maxWidth: "1200px", margin: "0 auto", paddingTop: "14px" }}>
+          <div className="tf-scroll" style={{ width: "100%", maxWidth: "1200px", margin: "0 auto", paddingTop: "16px" }}>
             <div
               className="tf-table tf-combo"
               data-sel={h.tfmPlan}
@@ -1816,7 +1816,7 @@ export function DienstSMALooptijdContent() {
                       background: "#FFFFFF",
                       color: "#1F246C",
                       borderRadius: "24px 24px 0 0",
-                      padding: "40px 22px 28px",
+                      padding: "40px 24px 28px",
                       height: "100%",
                       width: "100%",
                       boxSizing: "border-box",
@@ -1824,7 +1824,7 @@ export function DienstSMALooptijdContent() {
                       flexDirection: "column",
                       alignItems: "center",
                       textAlign: "center",
-                      gap: "6px",
+                      gap: "8px",
                     }}
                   >
                     <h3
@@ -1850,7 +1850,7 @@ export function DienstSMALooptijdContent() {
                         fontSize: "56px",
                         lineHeight: "1",
                         letterSpacing: "-0.02em",
-                        marginTop: "14px",
+                        marginTop: "16px",
                         color: "inherit",
                       }}
                     >
@@ -1859,7 +1859,7 @@ export function DienstSMALooptijdContent() {
                     <span className="tf-pm" style={{ fontSize: "14px", fontWeight: "600", color: "#5A6273" }}>
                       {t("per maand, ex. btw")}
                     </span>
-                    <span style={{ width: "100%", height: "1px", background: "#E4E6EA", margin: "16px 0 10px" }}></span>
+                    <span style={{ width: "100%", height: "1px", background: "#E4E6EA", margin: "16px 0 12px" }}></span>
                     <span style={{ fontSize: "16px", fontWeight: "700", color: "inherit" }}>{t("€2.691 in totaal")}</span>
                     <span
                       style={{
@@ -1873,7 +1873,7 @@ export function DienstSMALooptijdContent() {
                     >
                       {t("€300 voordeel")}
                     </span>
-                    <p className="tf-who" style={{ margin: "14px 0 18px", fontSize: "15px", lineHeight: "1.55", color: "#5A6273" }}>
+                    <p className="tf-who" style={{ margin: "16px 0 20px", fontSize: "15px", lineHeight: "1.55", color: "#5A6273" }}>
                       {t("Voor wie eerst wil ervaren wat het kanaal oplevert.")}
                     </p>
                     <div style={{ marginTop: "auto", width: "100%" }}>
@@ -1887,7 +1887,7 @@ export function DienstSMALooptijdContent() {
                           color: "#1F246C",
                           border: "1px solid #1F246C",
                           textDecoration: "none",
-                          padding: "14px 18px",
+                          padding: "16px 20px",
                           borderRadius: "8px",
                           fontWeight: "700",
                           fontSize: "16px",
@@ -1923,7 +1923,7 @@ export function DienstSMALooptijdContent() {
                       background: "linear-gradient(160deg, #8639FA 0%, #0F8AE5 100%)",
                       color: "#FFFFFF",
                       borderRadius: "24px 24px 0 0",
-                      padding: "40px 22px 28px",
+                      padding: "40px 24px 28px",
                       height: "100%",
                       width: "100%",
                       boxSizing: "border-box",
@@ -1931,7 +1931,7 @@ export function DienstSMALooptijdContent() {
                       flexDirection: "column",
                       alignItems: "center",
                       textAlign: "center",
-                      gap: "6px",
+                      gap: "8px",
                     }}
                   >
                     <span
@@ -1948,7 +1948,7 @@ export function DienstSMALooptijdContent() {
                         color: "#6B2BD9",
                         background: "#FFFFFF",
                         border: "1px solid #EFE8FD",
-                        padding: "5px 12px",
+                        padding: "4px 12px",
                         borderRadius: "999px",
                         whiteSpace: "nowrap",
                       }}
@@ -1978,7 +1978,7 @@ export function DienstSMALooptijdContent() {
                         fontSize: "56px",
                         lineHeight: "1",
                         letterSpacing: "-0.02em",
-                        marginTop: "14px",
+                        marginTop: "16px",
                         color: "inherit",
                       }}
                     >
@@ -1987,7 +1987,7 @@ export function DienstSMALooptijdContent() {
                     <span className="tf-pm" style={{ fontSize: "14px", fontWeight: "600", color: "#E6E9F8" }}>
                       {t("per maand, ex. btw")}
                     </span>
-                    <span style={{ width: "100%", height: "1px", background: "rgba(255,255,255,.25)", margin: "16px 0 10px" }}></span>
+                    <span style={{ width: "100%", height: "1px", background: "rgba(255,255,255,.25)", margin: "16px 0 12px" }}></span>
                     <span style={{ fontSize: "16px", fontWeight: "700", color: "inherit" }}>{t("€4.182 in totaal")}</span>
                     <span
                       style={{
@@ -2001,7 +2001,7 @@ export function DienstSMALooptijdContent() {
                     >
                       {t("€1.800 voordeel")}
                     </span>
-                    <p className="tf-who" style={{ margin: "14px 0 18px", fontSize: "15px", lineHeight: "1.55", color: "#E6E9F8" }}>
+                    <p className="tf-who" style={{ margin: "16px 0 20px", fontSize: "15px", lineHeight: "1.55", color: "#E6E9F8" }}>
                       {t("Voor wie wil groeien met een duidelijk plan en vaste basis.")}
                     </p>
                     <div style={{ marginTop: "auto", width: "100%" }}>
@@ -2014,7 +2014,7 @@ export function DienstSMALooptijdContent() {
                           background: "#FFFFFF",
                           color: "#1F246C",
                           textDecoration: "none",
-                          padding: "14px 18px",
+                          padding: "16px 20px",
                           borderRadius: "8px",
                           fontWeight: "700",
                           fontSize: "16px",
@@ -2051,7 +2051,7 @@ export function DienstSMALooptijdContent() {
                       background: "#FFFFFF",
                       color: "#1F246C",
                       borderRadius: "24px 24px 0 0",
-                      padding: "40px 22px 28px",
+                      padding: "40px 24px 28px",
                       height: "100%",
                       width: "100%",
                       boxSizing: "border-box",
@@ -2059,7 +2059,7 @@ export function DienstSMALooptijdContent() {
                       flexDirection: "column",
                       alignItems: "center",
                       textAlign: "center",
-                      gap: "6px",
+                      gap: "8px",
                     }}
                   >
                     <h3
@@ -2085,7 +2085,7 @@ export function DienstSMALooptijdContent() {
                         fontSize: "56px",
                         lineHeight: "1",
                         letterSpacing: "-0.02em",
-                        marginTop: "14px",
+                        marginTop: "16px",
                         color: "inherit",
                       }}
                     >
@@ -2094,7 +2094,7 @@ export function DienstSMALooptijdContent() {
                     <span className="tf-pm" style={{ fontSize: "14px", fontWeight: "600", color: "#5A6273" }}>
                       {t("per maand, ex. btw")}
                     </span>
-                    <span style={{ width: "100%", height: "1px", background: "#E4E6EA", margin: "16px 0 10px" }}></span>
+                    <span style={{ width: "100%", height: "1px", background: "#E4E6EA", margin: "16px 0 12px" }}></span>
                     <span style={{ fontSize: "16px", fontWeight: "700", color: "inherit" }}>{t("€7.164 in totaal")}</span>
                     <span
                       style={{
@@ -2108,7 +2108,7 @@ export function DienstSMALooptijdContent() {
                     >
                       {t("€4.800 voordeel")}
                     </span>
-                    <p className="tf-who" style={{ margin: "14px 0 18px", fontSize: "15px", lineHeight: "1.55", color: "#5A6273" }}>
+                    <p className="tf-who" style={{ margin: "16px 0 20px", fontSize: "15px", lineHeight: "1.55", color: "#5A6273" }}>
                       {t("Voor wie structureel op marge en groei wil sturen.")}
                     </p>
                     <div style={{ marginTop: "auto", width: "100%" }}>
@@ -2122,7 +2122,7 @@ export function DienstSMALooptijdContent() {
                           color: "#1F246C",
                           border: "1px solid #1F246C",
                           textDecoration: "none",
-                          padding: "14px 18px",
+                          padding: "16px 20px",
                           borderRadius: "8px",
                           fontWeight: "700",
                           fontSize: "16px",
@@ -2160,7 +2160,7 @@ export function DienstSMALooptijdContent() {
                   borderTop: "1px solid #E4E6EA",
                 }}
               >
-                <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "6px" }}>
+                <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "8px" }}>
                   <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Advertentiebudget")}</strong>
                   <span style={{ fontSize: "14px", lineHeight: "1.55", color: "#3A4150" }}>
                     {t(
@@ -2177,7 +2177,7 @@ export function DienstSMALooptijdContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -2193,7 +2193,7 @@ export function DienstSMALooptijdContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -2211,7 +2211,7 @@ export function DienstSMALooptijdContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -2228,7 +2228,7 @@ export function DienstSMALooptijdContent() {
                   borderTop: "1px solid #E4E6EA",
                 }}
               >
-                <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "6px" }}>
+                <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "8px" }}>
                   <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Opstartkosten")}</strong>
                   <span style={{ fontSize: "14px", lineHeight: "1.55", color: "#3A4150" }}>
                     {t("Geen opstartkosten. Deze zijn volledig inbegrepen in het maandtarief.")}
@@ -2243,7 +2243,7 @@ export function DienstSMALooptijdContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -2259,7 +2259,7 @@ export function DienstSMALooptijdContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -2277,7 +2277,7 @@ export function DienstSMALooptijdContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -2294,7 +2294,7 @@ export function DienstSMALooptijdContent() {
                   borderTop: "1px solid #E4E6EA",
                 }}
               >
-                <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "6px" }}>
+                <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "8px" }}>
                   <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Tussentijds stoppen")}</strong>
                   <span style={{ fontSize: "14px", lineHeight: "1.55", color: "#3A4150" }}>
                     {t(
@@ -2311,7 +2311,7 @@ export function DienstSMALooptijdContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -2327,7 +2327,7 @@ export function DienstSMALooptijdContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -2345,7 +2345,7 @@ export function DienstSMALooptijdContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -2362,7 +2362,7 @@ export function DienstSMALooptijdContent() {
                   borderTop: "1px solid #E4E6EA",
                 }}
               >
-                <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "6px" }}>
+                <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "8px" }}>
                   <strong style={{ fontSize: "15px", color: "#8639FA" }}>{t("Elke maand")}</strong>
                   <span style={{ fontSize: "14px", lineHeight: "1.55", color: "#3A4150" }}>
                     {t("Nieuwe advertenties & creatives")}
@@ -2383,7 +2383,7 @@ export function DienstSMALooptijdContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -2430,7 +2430,7 @@ export function DienstSMALooptijdContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -2479,7 +2479,7 @@ export function DienstSMALooptijdContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -2527,7 +2527,7 @@ export function DienstSMALooptijdContent() {
                   borderTop: "1px solid #E4E6EA",
                 }}
               >
-                <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "6px" }}>
+                <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "8px" }}>
                   <strong style={{ fontSize: "15px", color: "#1F246C" }}>
                     {t("Maand 1")}
                     <span aria-hidden="true"> {t("–")} </span>
@@ -2546,7 +2546,7 @@ export function DienstSMALooptijdContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -2593,7 +2593,7 @@ export function DienstSMALooptijdContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -2642,7 +2642,7 @@ export function DienstSMALooptijdContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -2690,7 +2690,7 @@ export function DienstSMALooptijdContent() {
                   borderTop: "1px solid #E4E6EA",
                 }}
               >
-                <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "6px" }}>
+                <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "8px" }}>
                   <strong style={{ fontSize: "15px", color: "#1F246C" }}>
                     {t("Maand 2")}
                     <span aria-hidden="true"> {t("–")} </span>
@@ -2709,7 +2709,7 @@ export function DienstSMALooptijdContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -2756,7 +2756,7 @@ export function DienstSMALooptijdContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -2805,7 +2805,7 @@ export function DienstSMALooptijdContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -2853,7 +2853,7 @@ export function DienstSMALooptijdContent() {
                   borderTop: "1px solid #E4E6EA",
                 }}
               >
-                <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "6px" }}>
+                <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "8px" }}>
                   <strong style={{ fontSize: "15px", color: "#1F246C" }}>
                     {t("Maand 3")}
                     <span aria-hidden="true"> {t("–")} </span>
@@ -2872,7 +2872,7 @@ export function DienstSMALooptijdContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -2919,7 +2919,7 @@ export function DienstSMALooptijdContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -2968,7 +2968,7 @@ export function DienstSMALooptijdContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -3016,7 +3016,7 @@ export function DienstSMALooptijdContent() {
                   borderTop: "1px solid #E4E6EA",
                 }}
               >
-                <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "6px" }}>
+                <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "8px" }}>
                   <strong style={{ fontSize: "15px", color: "#1F246C" }}>
                     {t("Maand 4")}
                     <span aria-hidden="true"> {t("–")} </span>
@@ -3035,7 +3035,7 @@ export function DienstSMALooptijdContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -3059,7 +3059,7 @@ export function DienstSMALooptijdContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -3108,7 +3108,7 @@ export function DienstSMALooptijdContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -3156,7 +3156,7 @@ export function DienstSMALooptijdContent() {
                   borderTop: "1px solid #E4E6EA",
                 }}
               >
-                <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "6px" }}>
+                <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "8px" }}>
                   <strong style={{ fontSize: "15px", color: "#1F246C" }}>
                     {t("Maand 5")}
                     <span aria-hidden="true"> {t("–")} </span>
@@ -3175,7 +3175,7 @@ export function DienstSMALooptijdContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -3199,7 +3199,7 @@ export function DienstSMALooptijdContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -3248,7 +3248,7 @@ export function DienstSMALooptijdContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -3296,7 +3296,7 @@ export function DienstSMALooptijdContent() {
                   borderTop: "1px solid #E4E6EA",
                 }}
               >
-                <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "6px" }}>
+                <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "8px" }}>
                   <strong style={{ fontSize: "15px", color: "#1F246C" }}>
                     {t("Maand 6")}
                     <span aria-hidden="true"> {t("–")} </span>
@@ -3315,7 +3315,7 @@ export function DienstSMALooptijdContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -3339,7 +3339,7 @@ export function DienstSMALooptijdContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -3388,7 +3388,7 @@ export function DienstSMALooptijdContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -3436,7 +3436,7 @@ export function DienstSMALooptijdContent() {
                   borderTop: "1px solid #E4E6EA",
                 }}
               >
-                <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "6px" }}>
+                <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "8px" }}>
                   <strong style={{ fontSize: "15px", color: "#1F246C" }}>
                     {t("Maand 7")}
                     <span aria-hidden="true"> {t("–")} </span>
@@ -3455,7 +3455,7 @@ export function DienstSMALooptijdContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -3479,7 +3479,7 @@ export function DienstSMALooptijdContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -3505,7 +3505,7 @@ export function DienstSMALooptijdContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -3553,7 +3553,7 @@ export function DienstSMALooptijdContent() {
                   borderTop: "1px solid #E4E6EA",
                 }}
               >
-                <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "6px" }}>
+                <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "8px" }}>
                   <strong style={{ fontSize: "15px", color: "#1F246C" }}>
                     {t("Maand 8")}
                     <span aria-hidden="true"> {t("–")} </span>
@@ -3572,7 +3572,7 @@ export function DienstSMALooptijdContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -3596,7 +3596,7 @@ export function DienstSMALooptijdContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -3622,7 +3622,7 @@ export function DienstSMALooptijdContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -3670,7 +3670,7 @@ export function DienstSMALooptijdContent() {
                   borderTop: "1px solid #E4E6EA",
                 }}
               >
-                <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "6px" }}>
+                <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "8px" }}>
                   <strong style={{ fontSize: "15px", color: "#1F246C" }}>
                     {t("Maand 9")}
                     <span aria-hidden="true"> {t("–")} </span>
@@ -3689,7 +3689,7 @@ export function DienstSMALooptijdContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -3713,7 +3713,7 @@ export function DienstSMALooptijdContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -3739,7 +3739,7 @@ export function DienstSMALooptijdContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -3787,7 +3787,7 @@ export function DienstSMALooptijdContent() {
                   borderTop: "1px solid #E4E6EA",
                 }}
               >
-                <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "6px" }}>
+                <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "8px" }}>
                   <strong style={{ fontSize: "15px", color: "#1F246C" }}>
                     {t("Maand 10")}
                     <span aria-hidden="true"> {t("–")} </span>
@@ -3806,7 +3806,7 @@ export function DienstSMALooptijdContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -3830,7 +3830,7 @@ export function DienstSMALooptijdContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -3856,7 +3856,7 @@ export function DienstSMALooptijdContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -3904,7 +3904,7 @@ export function DienstSMALooptijdContent() {
                   borderTop: "1px solid #E4E6EA",
                 }}
               >
-                <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "6px" }}>
+                <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "8px" }}>
                   <strong style={{ fontSize: "15px", color: "#1F246C" }}>
                     {t("Maand 11")}
                     <span aria-hidden="true"> {t("–")} </span>
@@ -3923,7 +3923,7 @@ export function DienstSMALooptijdContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -3947,7 +3947,7 @@ export function DienstSMALooptijdContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -3973,7 +3973,7 @@ export function DienstSMALooptijdContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -4021,7 +4021,7 @@ export function DienstSMALooptijdContent() {
                   borderTop: "1px solid #E4E6EA",
                 }}
               >
-                <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "6px" }}>
+                <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "8px" }}>
                   <strong style={{ fontSize: "15px", color: "#1F246C" }}>
                     {t("Maand 12")}
                     <span aria-hidden="true"> {t("–")} </span>
@@ -4040,7 +4040,7 @@ export function DienstSMALooptijdContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -4064,7 +4064,7 @@ export function DienstSMALooptijdContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -4090,7 +4090,7 @@ export function DienstSMALooptijdContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -4138,7 +4138,7 @@ export function DienstSMALooptijdContent() {
                   borderTop: "1px solid #E4E6EA",
                 }}
               >
-                <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "6px" }}>
+                <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "8px" }}>
                   <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Meerwerk")}</strong>
                   <span style={{ fontSize: "14px", lineHeight: "1.55", color: "#3A4150" }}>
                     {t("Bespreken we altijd vooraf en voeren we alleen uit na jouw akkoord.")}
@@ -4153,7 +4153,7 @@ export function DienstSMALooptijdContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -4169,7 +4169,7 @@ export function DienstSMALooptijdContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -4187,7 +4187,7 @@ export function DienstSMALooptijdContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -4211,7 +4211,7 @@ export function DienstSMALooptijdContent() {
                 scrollSnapType: "x mandatory",
                 scrollbarWidth: "none",
                 margin: "0 -20px",
-                padding: "18px 7% 6px",
+                padding: "20px 7% 8px",
                 alignItems: "flex-start",
               }}
             >
@@ -4234,13 +4234,13 @@ export function DienstSMALooptijdContent() {
                     background: "#FFFFFF",
                     color: "#1F246C",
                     borderRadius: "24px 24px 0 0",
-                    padding: "40px 22px 28px",
+                    padding: "40px 24px 28px",
                     boxSizing: "border-box",
                     display: "flex",
                     flexDirection: "column",
                     alignItems: "center",
                     textAlign: "center",
-                    gap: "6px",
+                    gap: "8px",
                   }}
                 >
                   <h3
@@ -4266,7 +4266,7 @@ export function DienstSMALooptijdContent() {
                       fontSize: "56px",
                       lineHeight: "1",
                       letterSpacing: "-0.02em",
-                      marginTop: "14px",
+                      marginTop: "16px",
                       color: "inherit",
                     }}
                   >
@@ -4275,7 +4275,7 @@ export function DienstSMALooptijdContent() {
                   <span className="tf-pm" style={{ fontSize: "14px", fontWeight: "600", color: "#5A6273" }}>
                     {t("per maand, ex. btw")}
                   </span>
-                  <span style={{ width: "100%", height: "1px", background: "#E4E6EA", margin: "16px 0 10px" }}></span>
+                  <span style={{ width: "100%", height: "1px", background: "#E4E6EA", margin: "16px 0 12px" }}></span>
                   <span style={{ fontSize: "16px", fontWeight: "700", color: "inherit" }}>{t("€2.691 in totaal")}</span>
                   <span
                     style={{
@@ -4289,7 +4289,7 @@ export function DienstSMALooptijdContent() {
                   >
                     {t("€300 voordeel")}
                   </span>
-                  <p className="tf-who" style={{ margin: "14px 0 18px", fontSize: "15px", lineHeight: "1.55", color: "#5A6273" }}>
+                  <p className="tf-who" style={{ margin: "16px 0 20px", fontSize: "15px", lineHeight: "1.55", color: "#5A6273" }}>
                     {t("Voor wie eerst wil ervaren wat het kanaal oplevert.")}
                   </p>
                   <div style={{ marginTop: "auto", width: "100%" }}>
@@ -4303,7 +4303,7 @@ export function DienstSMALooptijdContent() {
                         color: "#1F246C",
                         border: "1px solid #1F246C",
                         textDecoration: "none",
-                        padding: "14px 18px",
+                        padding: "16px 20px",
                         borderRadius: "8px",
                         fontWeight: "700",
                         fontSize: "16px",
@@ -4331,7 +4331,7 @@ export function DienstSMALooptijdContent() {
                     </a>
                   </div>
                 </div>
-                <div style={{ padding: "16px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}>
+                <div style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}>
                   <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Advertentiebudget")}</strong>
                   <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("Minimaal €20 per dag")}</span>
                   <span style={{ fontSize: "13px", lineHeight: "1.55", color: "#5A6273" }}>
@@ -4340,14 +4340,14 @@ export function DienstSMALooptijdContent() {
                     )}
                   </span>
                 </div>
-                <div style={{ padding: "16px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}>
+                <div style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}>
                   <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Opstartkosten")}</strong>
                   <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("Inbegrepen")}</span>
                   <span style={{ fontSize: "13px", lineHeight: "1.55", color: "#5A6273" }}>
                     {t("Geen opstartkosten. Deze zijn volledig inbegrepen in het maandtarief.")}
                   </span>
                 </div>
-                <div style={{ padding: "16px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}>
+                <div style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}>
                   <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Tussentijds stoppen")}</strong>
                   <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("Looptijd 3 maanden")}</span>
                   <span style={{ fontSize: "13px", lineHeight: "1.55", color: "#5A6273" }}>
@@ -4356,7 +4356,7 @@ export function DienstSMALooptijdContent() {
                     )}
                   </span>
                 </div>
-                <div style={{ padding: "16px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}>
+                <div style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}>
                   <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: "12px" }}>
                     <strong style={{ fontSize: "15px", color: "#8639FA" }}>{t("Elke maand")}</strong>
                     <span style={{ flexShrink: "0", display: "inline-flex" }}>
@@ -4404,7 +4404,7 @@ export function DienstSMALooptijdContent() {
                     {t("| Bijsturen doelgroepen & budgetverdeling | Maandelijkse rapportage | Evaluatiecall")}
                   </span>
                 </div>
-                <div style={{ padding: "16px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}>
+                <div style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}>
                   <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: "12px" }}>
                     <strong style={{ fontSize: "15px", color: "#8639FA" }}>{t("Elk kwartaal")}</strong>
                     <span style={{ flexShrink: "0", display: "inline-flex" }}>
@@ -4451,7 +4451,7 @@ export function DienstSMALooptijdContent() {
                     </Tip>
                   </span>
                 </div>
-                <div style={{ padding: "16px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}>
+                <div style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}>
                   <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Meerwerk")}</strong>
                   <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("€130 p/uur")}</span>
                   <span style={{ fontSize: "13px", lineHeight: "1.55", color: "#5A6273" }}>
@@ -4479,13 +4479,13 @@ export function DienstSMALooptijdContent() {
                     background: "linear-gradient(160deg, #8639FA 0%, #0F8AE5 100%)",
                     color: "#FFFFFF",
                     borderRadius: "24px 24px 0 0",
-                    padding: "40px 22px 28px",
+                    padding: "40px 24px 28px",
                     boxSizing: "border-box",
                     display: "flex",
                     flexDirection: "column",
                     alignItems: "center",
                     textAlign: "center",
-                    gap: "6px",
+                    gap: "8px",
                   }}
                 >
                   <span
@@ -4502,7 +4502,7 @@ export function DienstSMALooptijdContent() {
                       color: "#6B2BD9",
                       background: "#FFFFFF",
                       border: "1px solid #EFE8FD",
-                      padding: "5px 12px",
+                      padding: "4px 12px",
                       borderRadius: "999px",
                       whiteSpace: "nowrap",
                     }}
@@ -4532,7 +4532,7 @@ export function DienstSMALooptijdContent() {
                       fontSize: "56px",
                       lineHeight: "1",
                       letterSpacing: "-0.02em",
-                      marginTop: "14px",
+                      marginTop: "16px",
                       color: "inherit",
                     }}
                   >
@@ -4541,7 +4541,7 @@ export function DienstSMALooptijdContent() {
                   <span className="tf-pm" style={{ fontSize: "14px", fontWeight: "600", color: "#E6E9F8" }}>
                     {t("per maand, ex. btw")}
                   </span>
-                  <span style={{ width: "100%", height: "1px", background: "rgba(255,255,255,.25)", margin: "16px 0 10px" }}></span>
+                  <span style={{ width: "100%", height: "1px", background: "rgba(255,255,255,.25)", margin: "16px 0 12px" }}></span>
                   <span style={{ fontSize: "16px", fontWeight: "700", color: "inherit" }}>{t("€4.182 in totaal")}</span>
                   <span
                     style={{
@@ -4555,7 +4555,7 @@ export function DienstSMALooptijdContent() {
                   >
                     {t("€1.800 voordeel")}
                   </span>
-                  <p className="tf-who" style={{ margin: "14px 0 18px", fontSize: "15px", lineHeight: "1.55", color: "#E6E9F8" }}>
+                  <p className="tf-who" style={{ margin: "16px 0 20px", fontSize: "15px", lineHeight: "1.55", color: "#E6E9F8" }}>
                     {t("Voor wie wil groeien met een duidelijk plan en vaste basis.")}
                   </p>
                   <div style={{ marginTop: "auto", width: "100%" }}>
@@ -4568,7 +4568,7 @@ export function DienstSMALooptijdContent() {
                         background: "#FFFFFF",
                         color: "#1F246C",
                         textDecoration: "none",
-                        padding: "14px 18px",
+                        padding: "16px 20px",
                         borderRadius: "8px",
                         fontWeight: "700",
                         fontSize: "16px",
@@ -4597,7 +4597,7 @@ export function DienstSMALooptijdContent() {
                     </a>
                   </div>
                 </div>
-                <div style={{ padding: "16px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}>
+                <div style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}>
                   <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Advertentiebudget")}</strong>
                   <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("Minimaal €20 per dag")}</span>
                   <span style={{ fontSize: "13px", lineHeight: "1.55", color: "#5A6273" }}>
@@ -4606,14 +4606,14 @@ export function DienstSMALooptijdContent() {
                     )}
                   </span>
                 </div>
-                <div style={{ padding: "16px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}>
+                <div style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}>
                   <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Opstartkosten")}</strong>
                   <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("Inbegrepen")}</span>
                   <span style={{ fontSize: "13px", lineHeight: "1.55", color: "#5A6273" }}>
                     {t("Geen opstartkosten. Deze zijn volledig inbegrepen in het maandtarief.")}
                   </span>
                 </div>
-                <div style={{ padding: "16px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}>
+                <div style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}>
                   <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Tussentijds stoppen")}</strong>
                   <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("Looptijd 6 maanden")}</span>
                   <span style={{ fontSize: "13px", lineHeight: "1.55", color: "#5A6273" }}>
@@ -4622,7 +4622,7 @@ export function DienstSMALooptijdContent() {
                     )}
                   </span>
                 </div>
-                <div style={{ padding: "16px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}>
+                <div style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}>
                   <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: "12px" }}>
                     <strong style={{ fontSize: "15px", color: "#8639FA" }}>{t("Elke maand")}</strong>
                     <span style={{ flexShrink: "0", display: "inline-flex" }}>
@@ -4670,7 +4670,7 @@ export function DienstSMALooptijdContent() {
                     {t("| Bijsturen doelgroepen & budgetverdeling | Maandelijkse rapportage | Evaluatiecall")}
                   </span>
                 </div>
-                <div style={{ padding: "16px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}>
+                <div style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}>
                   <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: "12px" }}>
                     <strong style={{ fontSize: "15px", color: "#8639FA" }}>{t("Elk kwartaal")}</strong>
                     <span style={{ flexShrink: "0", display: "inline-flex" }}>
@@ -4717,7 +4717,7 @@ export function DienstSMALooptijdContent() {
                     </Tip>
                   </span>
                 </div>
-                <div style={{ padding: "16px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}>
+                <div style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}>
                   <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Meerwerk")}</strong>
                   <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("€130 p/uur")}</span>
                   <span style={{ fontSize: "13px", lineHeight: "1.55", color: "#5A6273" }}>
@@ -4744,13 +4744,13 @@ export function DienstSMALooptijdContent() {
                     background: "#FFFFFF",
                     color: "#1F246C",
                     borderRadius: "24px 24px 0 0",
-                    padding: "40px 22px 28px",
+                    padding: "40px 24px 28px",
                     boxSizing: "border-box",
                     display: "flex",
                     flexDirection: "column",
                     alignItems: "center",
                     textAlign: "center",
-                    gap: "6px",
+                    gap: "8px",
                   }}
                 >
                   <h3
@@ -4776,7 +4776,7 @@ export function DienstSMALooptijdContent() {
                       fontSize: "56px",
                       lineHeight: "1",
                       letterSpacing: "-0.02em",
-                      marginTop: "14px",
+                      marginTop: "16px",
                       color: "inherit",
                     }}
                   >
@@ -4785,7 +4785,7 @@ export function DienstSMALooptijdContent() {
                   <span className="tf-pm" style={{ fontSize: "14px", fontWeight: "600", color: "#5A6273" }}>
                     {t("per maand, ex. btw")}
                   </span>
-                  <span style={{ width: "100%", height: "1px", background: "#E4E6EA", margin: "16px 0 10px" }}></span>
+                  <span style={{ width: "100%", height: "1px", background: "#E4E6EA", margin: "16px 0 12px" }}></span>
                   <span style={{ fontSize: "16px", fontWeight: "700", color: "inherit" }}>{t("€7.164 in totaal")}</span>
                   <span
                     style={{
@@ -4799,7 +4799,7 @@ export function DienstSMALooptijdContent() {
                   >
                     {t("€4.800 voordeel")}
                   </span>
-                  <p className="tf-who" style={{ margin: "14px 0 18px", fontSize: "15px", lineHeight: "1.55", color: "#5A6273" }}>
+                  <p className="tf-who" style={{ margin: "16px 0 20px", fontSize: "15px", lineHeight: "1.55", color: "#5A6273" }}>
                     {t("Voor wie structureel op marge en groei wil sturen.")}
                   </p>
                   <div style={{ marginTop: "auto", width: "100%" }}>
@@ -4813,7 +4813,7 @@ export function DienstSMALooptijdContent() {
                         color: "#1F246C",
                         border: "1px solid #1F246C",
                         textDecoration: "none",
-                        padding: "14px 18px",
+                        padding: "16px 20px",
                         borderRadius: "8px",
                         fontWeight: "700",
                         fontSize: "16px",
@@ -4841,7 +4841,7 @@ export function DienstSMALooptijdContent() {
                     </a>
                   </div>
                 </div>
-                <div style={{ padding: "16px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}>
+                <div style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}>
                   <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Advertentiebudget")}</strong>
                   <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("Minimaal €20 per dag")}</span>
                   <span style={{ fontSize: "13px", lineHeight: "1.55", color: "#5A6273" }}>
@@ -4850,14 +4850,14 @@ export function DienstSMALooptijdContent() {
                     )}
                   </span>
                 </div>
-                <div style={{ padding: "16px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}>
+                <div style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}>
                   <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Opstartkosten")}</strong>
                   <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("Inbegrepen")}</span>
                   <span style={{ fontSize: "13px", lineHeight: "1.55", color: "#5A6273" }}>
                     {t("Geen opstartkosten. Deze zijn volledig inbegrepen in het maandtarief.")}
                   </span>
                 </div>
-                <div style={{ padding: "16px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}>
+                <div style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}>
                   <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Tussentijds stoppen")}</strong>
                   <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("Looptijd 12 maanden")}</span>
                   <span style={{ fontSize: "13px", lineHeight: "1.55", color: "#5A6273" }}>
@@ -4866,7 +4866,7 @@ export function DienstSMALooptijdContent() {
                     )}
                   </span>
                 </div>
-                <div style={{ padding: "16px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}>
+                <div style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}>
                   <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: "12px" }}>
                     <strong style={{ fontSize: "15px", color: "#8639FA" }}>{t("Elke maand")}</strong>
                     <span style={{ flexShrink: "0", display: "inline-flex" }}>
@@ -4914,7 +4914,7 @@ export function DienstSMALooptijdContent() {
                     {t("| Bijsturen doelgroepen & budgetverdeling | Maandelijkse rapportage | Evaluatiecall")}
                   </span>
                 </div>
-                <div style={{ padding: "16px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}>
+                <div style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}>
                   <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: "12px" }}>
                     <strong style={{ fontSize: "15px", color: "#8639FA" }}>{t("Elk kwartaal")}</strong>
                     <span style={{ flexShrink: "0", display: "inline-flex" }}>
@@ -4961,7 +4961,7 @@ export function DienstSMALooptijdContent() {
                     </Tip>
                   </span>
                 </div>
-                <div style={{ padding: "16px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}>
+                <div style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}>
                   <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Meerwerk")}</strong>
                   <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("€130 p/uur")}</span>
                   <span style={{ fontSize: "13px", lineHeight: "1.55", color: "#5A6273" }}>
@@ -5066,7 +5066,7 @@ export function DienstSMALooptijdContent() {
             flexDirection: "column",
             alignItems: "center",
             textAlign: "center",
-            gap: "22px",
+            gap: "24px",
           }}
         >
           <p
@@ -5100,7 +5100,7 @@ export function DienstSMALooptijdContent() {
           <p style={{ margin: "0", maxWidth: "560px", fontSize: "18px", lineHeight: "1.6", color: "#FFFFFF" }}>
             {t("Vertel ons waar je naartoe wilt. Wij laten zien hoe je er komt.")}
           </p>
-          <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "14px", paddingTop: "8px" }}>
+          <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px", paddingTop: "8px" }}>
             <a
               href="https://calendly.com/vrijblijvendgesprek/"
               target="_blank"
@@ -5110,7 +5110,7 @@ export function DienstSMALooptijdContent() {
                 display: "inline-flex",
                 alignItems: "center",
                 minHeight: "56px",
-                padding: "0 30px",
+                padding: "0 32px",
                 borderRadius: "8px",
                 background: "#FFFFFF",
                 color: "#1F246C",
@@ -5142,7 +5142,7 @@ export function DienstSMALooptijdContent() {
                 display: "inline-flex",
                 alignItems: "center",
                 minHeight: "56px",
-                padding: "0 26px",
+                padding: "0 28px",
                 borderRadius: "8px",
                 border: "1px solid rgba(255, 255, 255, 0.7)",
                 color: "#FFFFFF",
@@ -5168,7 +5168,7 @@ export function DienstSMALooptijdContent() {
               </svg>
             </a>
           </div>
-          <div className="cta-team" style={{ display: "flex", alignItems: "center", gap: "14px", paddingTop: "6px" }}>
+          <div className="cta-team" style={{ display: "flex", alignItems: "center", gap: "16px", paddingTop: "8px" }}>
             <span style={{ display: "flex" }}>
               <span
                 style={{
@@ -5201,7 +5201,7 @@ export function DienstSMALooptijdContent() {
                   background: "#FFF6C7",
                   border: "3px solid #FFFFFF",
                   boxSizing: "border-box",
-                  marginLeft: "-14px",
+                  marginLeft: "-16px",
                   zIndex: "9",
                   flexShrink: "0",
                 }}
@@ -5222,7 +5222,7 @@ export function DienstSMALooptijdContent() {
                   background: "#E3F1FD",
                   border: "3px solid #FFFFFF",
                   boxSizing: "border-box",
-                  marginLeft: "-14px",
+                  marginLeft: "-16px",
                   zIndex: "8",
                   flexShrink: "0",
                 }}
@@ -5243,7 +5243,7 @@ export function DienstSMALooptijdContent() {
                   background: "#FFF6C7",
                   border: "3px solid #FFFFFF",
                   boxSizing: "border-box",
-                  marginLeft: "-14px",
+                  marginLeft: "-16px",
                   zIndex: "7",
                   flexShrink: "0",
                 }}

@@ -146,7 +146,7 @@ export function ProjectsHero() {
             <a href={href("Main")} style={{ color: "#C9CFF0", textDecoration: "none" }}>
               {t("Home")}
             </a>{" "}
-            <span aria-hidden="true" style={{ margin: "0 6px" }}>
+            <span aria-hidden="true" style={{ margin: "0 8px" }}>
               {t("/")}
             </span>{" "}
             <span aria-current="page" style={{ color: "#FFFFFF", fontWeight: "600" }}>
@@ -204,7 +204,7 @@ export function ProjectsHero() {
             flexDirection: "column",
             alignItems: "center",
             textAlign: "center",
-            gap: "22px",
+            gap: "24px",
           }}
         >
           <div
@@ -215,7 +215,7 @@ export function ProjectsHero() {
               display: "flex",
               flexDirection: "column",
               alignItems: "center",
-              gap: "22px",
+              gap: "24px",
             }}
           >
             <span style={{ fontSize: "13px", fontWeight: "700", letterSpacing: "0.12em", textTransform: "uppercase", color: "#FAE84E" }}>
@@ -254,7 +254,7 @@ export function ProjectsHero() {
             display: "flex",
             flexDirection: "column",
             alignItems: "center",
-            gap: "14px",
+            gap: "16px",
             padding: "0 24px",
           }}
         >
@@ -268,7 +268,7 @@ export function ProjectsHero() {
               gap: "20px",
               maxWidth: "100%",
               overflow: "visible",
-              padding: "12px 14px",
+              padding: "12px 16px",
               scrollbarWidth: "none",
             }}
           >

@@ -238,7 +238,7 @@ export function TarievenContent() {
             <a href={href("Main")} style={{ color: "#C9CFF0", textDecoration: "none" }}>
               {t("Home")}
             </a>{" "}
-            <span aria-hidden="true" style={{ margin: "0 6px" }}>
+            <span aria-hidden="true" style={{ margin: "0 8px" }}>
               {t("/")}
             </span>{" "}
             <span aria-current="page" style={{ color: "#FFFFFF", fontWeight: "600" }}>
@@ -306,7 +306,7 @@ export function TarievenContent() {
                 background: "linear-gradient(90deg, #8639FA 0%, #0F8AE5 100%)",
                 color: "#FFFFFF",
                 textDecoration: "none",
-                padding: "18px 30px",
+                padding: "20px 32px",
                 borderRadius: "8px",
                 fontWeight: "700",
                 fontSize: "19px",
@@ -361,7 +361,7 @@ export function TarievenContent() {
             aria-label={ta("Diensten")}
             className="tfc-row"
             ref={tfcRowRef}
-            style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "10px", maxWidth: "1040px" }}
+            style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "12px", maxWidth: "1040px" }}
           >
             {h.tfChips.map((c, c_i) => (
               <Fragment key={c_i}>
@@ -375,7 +375,7 @@ export function TarievenContent() {
                   style={{
                     font: "inherit",
                     minHeight: "44px",
-                    padding: "10px 18px",
+                    padding: "12px 20px",
                     borderRadius: "999px",
                     border: `1px solid ${c.border}`,
                     background: c.bg,
@@ -397,7 +397,7 @@ export function TarievenContent() {
         <>
           <section className="pj-wrap pj-sec tf-res1" style={{ background: "#F2F8FE", padding: "88px 40px 112px" }}>
             <div style={{ maxWidth: "1280px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "48px" }}>
-              <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "14px", textAlign: "center" }}>
+              <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "16px", textAlign: "center" }}>
                 <h2
                   style={{
                     margin: "0",
@@ -432,7 +432,7 @@ export function TarievenContent() {
                   {t(". Leg je je langer vast, dan zakt dat tarief.")}
                 </p>
               </div>
-              <div className="tf-scroll" style={{ width: "100%", maxWidth: "1200px", margin: "0 auto", paddingTop: "14px" }}>
+              <div className="tf-scroll" style={{ width: "100%", maxWidth: "1200px", margin: "0 auto", paddingTop: "16px" }}>
                 <div
                   className="tf-table tf-combo"
                   data-sel={h.tfmPlan}
@@ -450,7 +450,7 @@ export function TarievenContent() {
                           background: "#FFFFFF",
                           color: "#1F246C",
                           borderRadius: "24px 24px 0 0",
-                          padding: "40px 22px 28px",
+                          padding: "40px 24px 28px",
                           height: "100%",
                           width: "100%",
                           boxSizing: "border-box",
@@ -458,7 +458,7 @@ export function TarievenContent() {
                           flexDirection: "column",
                           alignItems: "center",
                           textAlign: "center",
-                          gap: "6px",
+                          gap: "8px",
                         }}
                       >
                         <h3
@@ -484,7 +484,7 @@ export function TarievenContent() {
                             fontSize: "56px",
                             lineHeight: "1",
                             letterSpacing: "-0.02em",
-                            marginTop: "14px",
+                            marginTop: "16px",
                             color: "inherit",
                           }}
                         >
@@ -493,7 +493,7 @@ export function TarievenContent() {
                         <span className="tf-pm" style={{ fontSize: "14px", fontWeight: "600", color: "#5A6273" }}>
                           {t("per maand, ex. btw")}
                         </span>
-                        <span style={{ width: "100%", height: "1px", background: "#E4E6EA", margin: "16px 0 10px" }}></span>
+                        <span style={{ width: "100%", height: "1px", background: "#E4E6EA", margin: "16px 0 12px" }}></span>
                         <span style={{ fontSize: "16px", fontWeight: "700", color: "inherit" }}>{t("€3.591 in totaal")}</span>
                         <span
                           style={{
@@ -507,7 +507,7 @@ export function TarievenContent() {
                         >
                           {t("€300 voordeel")}
                         </span>
-                        <p className="tf-who" style={{ margin: "14px 0 18px", fontSize: "15px", lineHeight: "1.55", color: "#5A6273" }}>
+                        <p className="tf-who" style={{ margin: "16px 0 20px", fontSize: "15px", lineHeight: "1.55", color: "#5A6273" }}>
                           {t("Voor wie eerst wil ervaren wat het kanaal oplevert.")}
                         </p>
                         <div style={{ marginTop: "auto", width: "100%" }}>
@@ -521,7 +521,7 @@ export function TarievenContent() {
                               color: "#1F246C",
                               border: "1px solid #1F246C",
                               textDecoration: "none",
-                              padding: "14px 18px",
+                              padding: "16px 20px",
                               borderRadius: "8px",
                               fontWeight: "700",
                               fontSize: "16px",
@@ -557,7 +557,7 @@ export function TarievenContent() {
                           background: "linear-gradient(160deg, #8639FA 0%, #0F8AE5 100%)",
                           color: "#FFFFFF",
                           borderRadius: "24px 24px 0 0",
-                          padding: "40px 22px 28px",
+                          padding: "40px 24px 28px",
                           height: "100%",
                           width: "100%",
                           boxSizing: "border-box",
@@ -565,7 +565,7 @@ export function TarievenContent() {
                           flexDirection: "column",
                           alignItems: "center",
                           textAlign: "center",
-                          gap: "6px",
+                          gap: "8px",
                         }}
                       >
                         <span
@@ -582,7 +582,7 @@ export function TarievenContent() {
                             color: "#6B2BD9",
                             background: "#FFFFFF",
                             border: "1px solid #EFE8FD",
-                            padding: "5px 12px",
+                            padding: "4px 12px",
                             borderRadius: "999px",
                             whiteSpace: "nowrap",
                           }}
@@ -612,7 +612,7 @@ export function TarievenContent() {
                             fontSize: "56px",
                             lineHeight: "1",
                             letterSpacing: "-0.02em",
-                            marginTop: "14px",
+                            marginTop: "16px",
                             color: "inherit",
                           }}
                         >
@@ -621,7 +621,7 @@ export function TarievenContent() {
                         <span className="tf-pm" style={{ fontSize: "14px", fontWeight: "600", color: "#E6E9F8" }}>
                           {t("per maand, ex. btw")}
                         </span>
-                        <span style={{ width: "100%", height: "1px", background: "rgba(255,255,255,.25)", margin: "16px 0 10px" }}></span>
+                        <span style={{ width: "100%", height: "1px", background: "rgba(255,255,255,.25)", margin: "16px 0 12px" }}></span>
                         <span style={{ fontSize: "16px", fontWeight: "700", color: "inherit" }}>{t("€5.982 in totaal")}</span>
                         <span
                           style={{
@@ -635,7 +635,7 @@ export function TarievenContent() {
                         >
                           {t("€1.800 voordeel")}
                         </span>
-                        <p className="tf-who" style={{ margin: "14px 0 18px", fontSize: "15px", lineHeight: "1.55", color: "#E6E9F8" }}>
+                        <p className="tf-who" style={{ margin: "16px 0 20px", fontSize: "15px", lineHeight: "1.55", color: "#E6E9F8" }}>
                           {t("Voor wie wil groeien met een duidelijk plan en vaste basis.")}
                         </p>
                         <div style={{ marginTop: "auto", width: "100%" }}>
@@ -648,7 +648,7 @@ export function TarievenContent() {
                               background: "#FFFFFF",
                               color: "#1F246C",
                               textDecoration: "none",
-                              padding: "14px 18px",
+                              padding: "16px 20px",
                               borderRadius: "8px",
                               fontWeight: "700",
                               fontSize: "16px",
@@ -685,7 +685,7 @@ export function TarievenContent() {
                           background: "#FFFFFF",
                           color: "#1F246C",
                           borderRadius: "24px 24px 0 0",
-                          padding: "40px 22px 28px",
+                          padding: "40px 24px 28px",
                           height: "100%",
                           width: "100%",
                           boxSizing: "border-box",
@@ -693,7 +693,7 @@ export function TarievenContent() {
                           flexDirection: "column",
                           alignItems: "center",
                           textAlign: "center",
-                          gap: "6px",
+                          gap: "8px",
                         }}
                       >
                         <h3
@@ -719,7 +719,7 @@ export function TarievenContent() {
                             fontSize: "56px",
                             lineHeight: "1",
                             letterSpacing: "-0.02em",
-                            marginTop: "14px",
+                            marginTop: "16px",
                             color: "inherit",
                           }}
                         >
@@ -728,7 +728,7 @@ export function TarievenContent() {
                         <span className="tf-pm" style={{ fontSize: "14px", fontWeight: "600", color: "#5A6273" }}>
                           {t("per maand, ex. btw")}
                         </span>
-                        <span style={{ width: "100%", height: "1px", background: "#E4E6EA", margin: "16px 0 10px" }}></span>
+                        <span style={{ width: "100%", height: "1px", background: "#E4E6EA", margin: "16px 0 12px" }}></span>
                         <span style={{ fontSize: "16px", fontWeight: "700", color: "inherit" }}>{t("€10.764 in totaal")}</span>
                         <span
                           style={{
@@ -742,7 +742,7 @@ export function TarievenContent() {
                         >
                           {t("€4.800 voordeel")}
                         </span>
-                        <p className="tf-who" style={{ margin: "14px 0 18px", fontSize: "15px", lineHeight: "1.55", color: "#5A6273" }}>
+                        <p className="tf-who" style={{ margin: "16px 0 20px", fontSize: "15px", lineHeight: "1.55", color: "#5A6273" }}>
                           {t("Voor wie structureel op marge en groei wil sturen.")}
                         </p>
                         <div style={{ marginTop: "auto", width: "100%" }}>
@@ -756,7 +756,7 @@ export function TarievenContent() {
                               color: "#1F246C",
                               border: "1px solid #1F246C",
                               textDecoration: "none",
-                              padding: "14px 18px",
+                              padding: "16px 20px",
                               borderRadius: "8px",
                               fontWeight: "700",
                               fontSize: "16px",
@@ -794,7 +794,7 @@ export function TarievenContent() {
                       borderTop: "1px solid #E4E6EA",
                     }}
                   >
-                    <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "6px" }}>
+                    <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "8px" }}>
                       <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Advertentiebudget")}</strong>
                       <span style={{ fontSize: "14px", lineHeight: "1.55", color: "#3A4150" }}>
                         {t(
@@ -811,7 +811,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -827,7 +827,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -845,7 +845,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -862,7 +862,7 @@ export function TarievenContent() {
                       borderTop: "1px solid #E4E6EA",
                     }}
                   >
-                    <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "6px" }}>
+                    <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "8px" }}>
                       <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Opstartkosten")}</strong>
                       <span style={{ fontSize: "14px", lineHeight: "1.55", color: "#3A4150" }}>
                         {t("Geen opstartkosten. Deze zijn volledig inbegrepen in het maandtarief.")}
@@ -877,7 +877,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -893,7 +893,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -911,7 +911,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -928,7 +928,7 @@ export function TarievenContent() {
                       borderTop: "1px solid #E4E6EA",
                     }}
                   >
-                    <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "6px" }}>
+                    <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "8px" }}>
                       <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Tussentijds stoppen")}</strong>
                       <span style={{ fontSize: "14px", lineHeight: "1.55", color: "#3A4150" }}>
                         {t(
@@ -945,7 +945,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -961,7 +961,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -979,7 +979,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -996,7 +996,7 @@ export function TarievenContent() {
                       borderTop: "1px solid #E4E6EA",
                     }}
                   >
-                    <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "6px" }}>
+                    <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "8px" }}>
                       <strong style={{ fontSize: "15px", color: "#8639FA" }}>{t("Elke maand")}</strong>
                       <span style={{ fontSize: "14px", lineHeight: "1.55", color: "#3A4150" }}>
                         {t("Zoektermenanalyse & uitsluitingen")}
@@ -1017,7 +1017,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -1064,7 +1064,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -1113,7 +1113,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -1161,7 +1161,7 @@ export function TarievenContent() {
                       borderTop: "1px solid #E4E6EA",
                     }}
                   >
-                    <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "6px" }}>
+                    <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "8px" }}>
                       <strong style={{ fontSize: "15px", color: "#8639FA" }}>{t("Elk kwartaal")}</strong>
                       <span style={{ fontSize: "14px", lineHeight: "1.55", color: "#3A4150" }}>
                         {t(
@@ -1181,7 +1181,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -1228,7 +1228,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -1277,7 +1277,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -1325,7 +1325,7 @@ export function TarievenContent() {
                       borderTop: "1px solid #E4E6EA",
                     }}
                   >
-                    <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "6px" }}>
+                    <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "8px" }}>
                       <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Meerwerk")}</strong>
                       <span style={{ fontSize: "14px", lineHeight: "1.55", color: "#3A4150" }}>
                         {t("Bespreken we altijd vooraf en voeren we alleen uit na jouw akkoord.")}
@@ -1340,7 +1340,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -1356,7 +1356,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -1374,7 +1374,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -1398,7 +1398,7 @@ export function TarievenContent() {
                     scrollSnapType: "x mandatory",
                     scrollbarWidth: "none",
                     margin: "0 -20px",
-                    padding: "18px 7% 6px",
+                    padding: "20px 7% 8px",
                     alignItems: "flex-start",
                   }}
                 >
@@ -1421,13 +1421,13 @@ export function TarievenContent() {
                         background: "#FFFFFF",
                         color: "#1F246C",
                         borderRadius: "24px 24px 0 0",
-                        padding: "40px 22px 28px",
+                        padding: "40px 24px 28px",
                         boxSizing: "border-box",
                         display: "flex",
                         flexDirection: "column",
                         alignItems: "center",
                         textAlign: "center",
-                        gap: "6px",
+                        gap: "8px",
                       }}
                     >
                       <h3
@@ -1453,7 +1453,7 @@ export function TarievenContent() {
                           fontSize: "56px",
                           lineHeight: "1",
                           letterSpacing: "-0.02em",
-                          marginTop: "14px",
+                          marginTop: "16px",
                           color: "inherit",
                         }}
                       >
@@ -1462,7 +1462,7 @@ export function TarievenContent() {
                       <span className="tf-pm" style={{ fontSize: "14px", fontWeight: "600", color: "#5A6273" }}>
                         {t("per maand, ex. btw")}
                       </span>
-                      <span style={{ width: "100%", height: "1px", background: "#E4E6EA", margin: "16px 0 10px" }}></span>
+                      <span style={{ width: "100%", height: "1px", background: "#E4E6EA", margin: "16px 0 12px" }}></span>
                       <span style={{ fontSize: "16px", fontWeight: "700", color: "inherit" }}>{t("€3.591 in totaal")}</span>
                       <span
                         style={{
@@ -1476,7 +1476,7 @@ export function TarievenContent() {
                       >
                         {t("€300 voordeel")}
                       </span>
-                      <p className="tf-who" style={{ margin: "14px 0 18px", fontSize: "15px", lineHeight: "1.55", color: "#5A6273" }}>
+                      <p className="tf-who" style={{ margin: "16px 0 20px", fontSize: "15px", lineHeight: "1.55", color: "#5A6273" }}>
                         {t("Voor wie eerst wil ervaren wat het kanaal oplevert.")}
                       </p>
                       <div style={{ marginTop: "auto", width: "100%" }}>
@@ -1490,7 +1490,7 @@ export function TarievenContent() {
                             color: "#1F246C",
                             border: "1px solid #1F246C",
                             textDecoration: "none",
-                            padding: "14px 18px",
+                            padding: "16px 20px",
                             borderRadius: "8px",
                             fontWeight: "700",
                             fontSize: "16px",
@@ -1519,7 +1519,7 @@ export function TarievenContent() {
                       </div>
                     </div>
                     <div
-                      style={{ padding: "16px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Advertentiebudget")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("Minimaal €1.500 p/mnd")}</span>
@@ -1530,7 +1530,7 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "16px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Opstartkosten")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("Inbegrepen")}</span>
@@ -1539,7 +1539,7 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "16px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Tussentijds stoppen")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("Looptijd 3 maanden")}</span>
@@ -1550,7 +1550,7 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "16px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: "12px" }}>
                         <strong style={{ fontSize: "15px", color: "#8639FA" }}>{t("Elke maand")}</strong>
@@ -1600,7 +1600,7 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "16px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: "12px" }}>
                         <strong style={{ fontSize: "15px", color: "#8639FA" }}>{t("Elk kwartaal")}</strong>
@@ -1649,7 +1649,7 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "16px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Meerwerk")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("€130 p/uur")}</span>
@@ -1678,13 +1678,13 @@ export function TarievenContent() {
                         background: "linear-gradient(160deg, #8639FA 0%, #0F8AE5 100%)",
                         color: "#FFFFFF",
                         borderRadius: "24px 24px 0 0",
-                        padding: "40px 22px 28px",
+                        padding: "40px 24px 28px",
                         boxSizing: "border-box",
                         display: "flex",
                         flexDirection: "column",
                         alignItems: "center",
                         textAlign: "center",
-                        gap: "6px",
+                        gap: "8px",
                       }}
                     >
                       <span
@@ -1701,7 +1701,7 @@ export function TarievenContent() {
                           color: "#6B2BD9",
                           background: "#FFFFFF",
                           border: "1px solid #EFE8FD",
-                          padding: "5px 12px",
+                          padding: "4px 12px",
                           borderRadius: "999px",
                           whiteSpace: "nowrap",
                         }}
@@ -1731,7 +1731,7 @@ export function TarievenContent() {
                           fontSize: "56px",
                           lineHeight: "1",
                           letterSpacing: "-0.02em",
-                          marginTop: "14px",
+                          marginTop: "16px",
                           color: "inherit",
                         }}
                       >
@@ -1740,7 +1740,7 @@ export function TarievenContent() {
                       <span className="tf-pm" style={{ fontSize: "14px", fontWeight: "600", color: "#E6E9F8" }}>
                         {t("per maand, ex. btw")}
                       </span>
-                      <span style={{ width: "100%", height: "1px", background: "rgba(255,255,255,.25)", margin: "16px 0 10px" }}></span>
+                      <span style={{ width: "100%", height: "1px", background: "rgba(255,255,255,.25)", margin: "16px 0 12px" }}></span>
                       <span style={{ fontSize: "16px", fontWeight: "700", color: "inherit" }}>{t("€5.982 in totaal")}</span>
                       <span
                         style={{
@@ -1754,7 +1754,7 @@ export function TarievenContent() {
                       >
                         {t("€1.800 voordeel")}
                       </span>
-                      <p className="tf-who" style={{ margin: "14px 0 18px", fontSize: "15px", lineHeight: "1.55", color: "#E6E9F8" }}>
+                      <p className="tf-who" style={{ margin: "16px 0 20px", fontSize: "15px", lineHeight: "1.55", color: "#E6E9F8" }}>
                         {t("Voor wie wil groeien met een duidelijk plan en vaste basis.")}
                       </p>
                       <div style={{ marginTop: "auto", width: "100%" }}>
@@ -1767,7 +1767,7 @@ export function TarievenContent() {
                             background: "#FFFFFF",
                             color: "#1F246C",
                             textDecoration: "none",
-                            padding: "14px 18px",
+                            padding: "16px 20px",
                             borderRadius: "8px",
                             fontWeight: "700",
                             fontSize: "16px",
@@ -1797,7 +1797,7 @@ export function TarievenContent() {
                       </div>
                     </div>
                     <div
-                      style={{ padding: "16px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Advertentiebudget")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("Minimaal €1.500 p/mnd")}</span>
@@ -1808,7 +1808,7 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "16px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Opstartkosten")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("Inbegrepen")}</span>
@@ -1817,7 +1817,7 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "16px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Tussentijds stoppen")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("Looptijd 6 maanden")}</span>
@@ -1828,7 +1828,7 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "16px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: "12px" }}>
                         <strong style={{ fontSize: "15px", color: "#8639FA" }}>{t("Elke maand")}</strong>
@@ -1878,7 +1878,7 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "16px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: "12px" }}>
                         <strong style={{ fontSize: "15px", color: "#8639FA" }}>{t("Elk kwartaal")}</strong>
@@ -1927,7 +1927,7 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "16px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Meerwerk")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("€130 p/uur")}</span>
@@ -1955,13 +1955,13 @@ export function TarievenContent() {
                         background: "#FFFFFF",
                         color: "#1F246C",
                         borderRadius: "24px 24px 0 0",
-                        padding: "40px 22px 28px",
+                        padding: "40px 24px 28px",
                         boxSizing: "border-box",
                         display: "flex",
                         flexDirection: "column",
                         alignItems: "center",
                         textAlign: "center",
-                        gap: "6px",
+                        gap: "8px",
                       }}
                     >
                       <h3
@@ -1987,7 +1987,7 @@ export function TarievenContent() {
                           fontSize: "56px",
                           lineHeight: "1",
                           letterSpacing: "-0.02em",
-                          marginTop: "14px",
+                          marginTop: "16px",
                           color: "inherit",
                         }}
                       >
@@ -1996,7 +1996,7 @@ export function TarievenContent() {
                       <span className="tf-pm" style={{ fontSize: "14px", fontWeight: "600", color: "#5A6273" }}>
                         {t("per maand, ex. btw")}
                       </span>
-                      <span style={{ width: "100%", height: "1px", background: "#E4E6EA", margin: "16px 0 10px" }}></span>
+                      <span style={{ width: "100%", height: "1px", background: "#E4E6EA", margin: "16px 0 12px" }}></span>
                       <span style={{ fontSize: "16px", fontWeight: "700", color: "inherit" }}>{t("€10.764 in totaal")}</span>
                       <span
                         style={{
@@ -2010,7 +2010,7 @@ export function TarievenContent() {
                       >
                         {t("€4.800 voordeel")}
                       </span>
-                      <p className="tf-who" style={{ margin: "14px 0 18px", fontSize: "15px", lineHeight: "1.55", color: "#5A6273" }}>
+                      <p className="tf-who" style={{ margin: "16px 0 20px", fontSize: "15px", lineHeight: "1.55", color: "#5A6273" }}>
                         {t("Voor wie structureel op marge en groei wil sturen.")}
                       </p>
                       <div style={{ marginTop: "auto", width: "100%" }}>
@@ -2024,7 +2024,7 @@ export function TarievenContent() {
                             color: "#1F246C",
                             border: "1px solid #1F246C",
                             textDecoration: "none",
-                            padding: "14px 18px",
+                            padding: "16px 20px",
                             borderRadius: "8px",
                             fontWeight: "700",
                             fontSize: "16px",
@@ -2053,7 +2053,7 @@ export function TarievenContent() {
                       </div>
                     </div>
                     <div
-                      style={{ padding: "16px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Advertentiebudget")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("Minimaal €1.500 p/mnd")}</span>
@@ -2064,7 +2064,7 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "16px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Opstartkosten")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("Inbegrepen")}</span>
@@ -2073,7 +2073,7 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "16px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Tussentijds stoppen")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("Looptijd 12 maanden")}</span>
@@ -2084,7 +2084,7 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "16px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: "12px" }}>
                         <strong style={{ fontSize: "15px", color: "#8639FA" }}>{t("Elke maand")}</strong>
@@ -2134,7 +2134,7 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "16px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: "12px" }}>
                         <strong style={{ fontSize: "15px", color: "#8639FA" }}>{t("Elk kwartaal")}</strong>
@@ -2183,7 +2183,7 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "16px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Meerwerk")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("€130 p/uur")}</span>
@@ -2277,7 +2277,7 @@ export function TarievenContent() {
           </section>
           <section className="pj-wrap pj-sec" style={{ background: "#F2F8FE", padding: "112px 40px 112px" }}>
             <div style={{ maxWidth: "1280px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "40px" }}>
-              <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "14px", textAlign: "center" }}>
+              <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "16px", textAlign: "center" }}>
                 <h2
                   style={{
                     margin: "0",
@@ -2331,7 +2331,7 @@ export function TarievenContent() {
                   <div
                     translate="no"
                     style={{
-                      padding: "18px 12px",
+                      padding: "20px 12px",
                       textAlign: "center",
                       fontFamily: "var(--font-display)",
                       fontWeight: "700",
@@ -2344,7 +2344,7 @@ export function TarievenContent() {
                   <div
                     translate="no"
                     style={{
-                      padding: "18px 12px",
+                      padding: "20px 12px",
                       textAlign: "center",
                       fontFamily: "var(--font-display)",
                       fontWeight: "700",
@@ -2358,7 +2358,7 @@ export function TarievenContent() {
                   <div
                     translate="no"
                     style={{
-                      padding: "18px 12px",
+                      padding: "20px 12px",
                       textAlign: "center",
                       fontFamily: "var(--font-display)",
                       fontWeight: "700",
@@ -2377,7 +2377,7 @@ export function TarievenContent() {
                     borderTop: "1px solid #E4E6EA",
                   }}
                 >
-                  <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "6px" }}>
+                  <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "8px" }}>
                     <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Maand 1 - Meting en fundament")}</strong>
                     <span style={{ fontSize: "14px", lineHeight: "1.55", color: "#3A4150" }}>
                       {t("Analyse van huidig account, doelgroep & concurrentie | Conversiemeting inrichten & controleren")}
@@ -2399,7 +2399,7 @@ export function TarievenContent() {
                       alignItems: "center",
                       justifyContent: "center",
                       textAlign: "center",
-                      padding: "18px 12px",
+                      padding: "20px 12px",
                       fontSize: "14px",
                       fontWeight: "600",
                       color: "#1F246C",
@@ -2446,7 +2446,7 @@ export function TarievenContent() {
                       alignItems: "center",
                       justifyContent: "center",
                       textAlign: "center",
-                      padding: "18px 12px",
+                      padding: "20px 12px",
                       fontSize: "14px",
                       fontWeight: "600",
                       color: "#1F246C",
@@ -2494,7 +2494,7 @@ export function TarievenContent() {
                       alignItems: "center",
                       justifyContent: "center",
                       textAlign: "center",
-                      padding: "18px 12px",
+                      padding: "20px 12px",
                       fontSize: "14px",
                       fontWeight: "600",
                       color: "#1F246C",
@@ -2542,7 +2542,7 @@ export function TarievenContent() {
                     borderTop: "1px solid #E4E6EA",
                   }}
                 >
-                  <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "6px" }}>
+                  <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "8px" }}>
                     <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Maand 2 - Opschonen")}</strong>
                     <span style={{ fontSize: "14px", lineHeight: "1.55", color: "#3A4150" }}>
                       {t("Eerste optimalisatieronde na de leerperiode")}
@@ -2562,7 +2562,7 @@ export function TarievenContent() {
                       alignItems: "center",
                       justifyContent: "center",
                       textAlign: "center",
-                      padding: "18px 12px",
+                      padding: "20px 12px",
                       fontSize: "14px",
                       fontWeight: "600",
                       color: "#1F246C",
@@ -2609,7 +2609,7 @@ export function TarievenContent() {
                       alignItems: "center",
                       justifyContent: "center",
                       textAlign: "center",
-                      padding: "18px 12px",
+                      padding: "20px 12px",
                       fontSize: "14px",
                       fontWeight: "600",
                       color: "#1F246C",
@@ -2657,7 +2657,7 @@ export function TarievenContent() {
                       alignItems: "center",
                       justifyContent: "center",
                       textAlign: "center",
-                      padding: "18px 12px",
+                      padding: "20px 12px",
                       fontSize: "14px",
                       fontWeight: "600",
                       color: "#1F246C",
@@ -2705,7 +2705,7 @@ export function TarievenContent() {
                     borderTop: "1px solid #E4E6EA",
                   }}
                 >
-                  <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "6px" }}>
+                  <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "8px" }}>
                     <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Maand 3 - Sturen op resultaat")}</strong>
                     <span style={{ fontSize: "14px", lineHeight: "1.55", color: "#3A4150" }}>
                       {t("Overstap naar biedstrategie op doel (kosten per aanvraag), zodra er voldoende conversies zijn")}
@@ -2725,7 +2725,7 @@ export function TarievenContent() {
                       alignItems: "center",
                       justifyContent: "center",
                       textAlign: "center",
-                      padding: "18px 12px",
+                      padding: "20px 12px",
                       fontSize: "14px",
                       fontWeight: "600",
                       color: "#1F246C",
@@ -2772,7 +2772,7 @@ export function TarievenContent() {
                       alignItems: "center",
                       justifyContent: "center",
                       textAlign: "center",
-                      padding: "18px 12px",
+                      padding: "20px 12px",
                       fontSize: "14px",
                       fontWeight: "600",
                       color: "#1F246C",
@@ -2820,7 +2820,7 @@ export function TarievenContent() {
                       alignItems: "center",
                       justifyContent: "center",
                       textAlign: "center",
-                      padding: "18px 12px",
+                      padding: "20px 12px",
                       fontSize: "14px",
                       fontWeight: "600",
                       color: "#1F246C",
@@ -2868,7 +2868,7 @@ export function TarievenContent() {
                     borderTop: "1px solid #E4E6EA",
                   }}
                 >
-                  <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "6px" }}>
+                  <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "8px" }}>
                     <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Maand 4 - Verbreden")}</strong>
                     <span style={{ fontSize: "14px", lineHeight: "1.55", color: "#3A4150" }}>
                       {t("Performance Max toevoegen naast bestaande campagnes")}
@@ -2888,7 +2888,7 @@ export function TarievenContent() {
                       alignItems: "center",
                       justifyContent: "center",
                       textAlign: "center",
-                      padding: "18px 12px",
+                      padding: "20px 12px",
                       fontSize: "14px",
                       fontWeight: "600",
                       color: "#1F246C",
@@ -2906,7 +2906,7 @@ export function TarievenContent() {
                       alignItems: "center",
                       justifyContent: "center",
                       textAlign: "center",
-                      padding: "18px 12px",
+                      padding: "20px 12px",
                       fontSize: "14px",
                       fontWeight: "600",
                       color: "#1F246C",
@@ -2954,7 +2954,7 @@ export function TarievenContent() {
                       alignItems: "center",
                       justifyContent: "center",
                       textAlign: "center",
-                      padding: "18px 12px",
+                      padding: "20px 12px",
                       fontSize: "14px",
                       fontWeight: "600",
                       color: "#1F246C",
@@ -3002,7 +3002,7 @@ export function TarievenContent() {
                     borderTop: "1px solid #E4E6EA",
                   }}
                 >
-                  <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "6px" }}>
+                  <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "8px" }}>
                     <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Maand 5 - Conversie verbeteren")}</strong>
                     <span style={{ fontSize: "14px", lineHeight: "1.55", color: "#3A4150" }}>
                       {t(
@@ -3018,7 +3018,7 @@ export function TarievenContent() {
                       alignItems: "center",
                       justifyContent: "center",
                       textAlign: "center",
-                      padding: "18px 12px",
+                      padding: "20px 12px",
                       fontSize: "14px",
                       fontWeight: "600",
                       color: "#1F246C",
@@ -3036,7 +3036,7 @@ export function TarievenContent() {
                       alignItems: "center",
                       justifyContent: "center",
                       textAlign: "center",
-                      padding: "18px 12px",
+                      padding: "20px 12px",
                       fontSize: "14px",
                       fontWeight: "600",
                       color: "#1F246C",
@@ -3084,7 +3084,7 @@ export function TarievenContent() {
                       alignItems: "center",
                       justifyContent: "center",
                       textAlign: "center",
-                      padding: "18px 12px",
+                      padding: "20px 12px",
                       fontSize: "14px",
                       fontWeight: "600",
                       color: "#1F246C",
@@ -3132,7 +3132,7 @@ export function TarievenContent() {
                     borderTop: "1px solid #E4E6EA",
                   }}
                 >
-                  <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "6px" }}>
+                  <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "8px" }}>
                     <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Maand 6 - Halfjaarevaluatie")}</strong>
                     <span style={{ fontSize: "14px", lineHeight: "1.55", color: "#3A4150" }}>
                       {t(
@@ -3148,7 +3148,7 @@ export function TarievenContent() {
                       alignItems: "center",
                       justifyContent: "center",
                       textAlign: "center",
-                      padding: "18px 12px",
+                      padding: "20px 12px",
                       fontSize: "14px",
                       fontWeight: "600",
                       color: "#1F246C",
@@ -3166,7 +3166,7 @@ export function TarievenContent() {
                       alignItems: "center",
                       justifyContent: "center",
                       textAlign: "center",
-                      padding: "18px 12px",
+                      padding: "20px 12px",
                       fontSize: "14px",
                       fontWeight: "600",
                       color: "#1F246C",
@@ -3214,7 +3214,7 @@ export function TarievenContent() {
                       alignItems: "center",
                       justifyContent: "center",
                       textAlign: "center",
-                      padding: "18px 12px",
+                      padding: "20px 12px",
                       fontSize: "14px",
                       fontWeight: "600",
                       color: "#1F246C",
@@ -3262,7 +3262,7 @@ export function TarievenContent() {
                     borderTop: "1px solid #E4E6EA",
                   }}
                 >
-                  <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "6px" }}>
+                  <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "8px" }}>
                     <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Maand 7 - Structuur verfijnen")}</strong>
                     <span style={{ fontSize: "14px", lineHeight: "1.55", color: "#3A4150" }}>
                       {t("Best presterende campagnes verder segmenteren")}
@@ -3282,7 +3282,7 @@ export function TarievenContent() {
                       alignItems: "center",
                       justifyContent: "center",
                       textAlign: "center",
-                      padding: "18px 12px",
+                      padding: "20px 12px",
                       fontSize: "14px",
                       fontWeight: "600",
                       color: "#1F246C",
@@ -3300,7 +3300,7 @@ export function TarievenContent() {
                       alignItems: "center",
                       justifyContent: "center",
                       textAlign: "center",
-                      padding: "18px 12px",
+                      padding: "20px 12px",
                       fontSize: "14px",
                       fontWeight: "600",
                       color: "#1F246C",
@@ -3319,7 +3319,7 @@ export function TarievenContent() {
                       alignItems: "center",
                       justifyContent: "center",
                       textAlign: "center",
-                      padding: "18px 12px",
+                      padding: "20px 12px",
                       fontSize: "14px",
                       fontWeight: "600",
                       color: "#1F246C",
@@ -3367,7 +3367,7 @@ export function TarievenContent() {
                     borderTop: "1px solid #E4E6EA",
                   }}
                 >
-                  <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "6px" }}>
+                  <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "8px" }}>
                     <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Maand 8 - Nieuwe vraag aanboren")}</strong>
                     <span style={{ fontSize: "14px", lineHeight: "1.55", color: "#3A4150" }}>
                       {t("Campagnes opzetten om nieuwe vraag te creëren (Video, Demand Gen)")}
@@ -3385,7 +3385,7 @@ export function TarievenContent() {
                       alignItems: "center",
                       justifyContent: "center",
                       textAlign: "center",
-                      padding: "18px 12px",
+                      padding: "20px 12px",
                       fontSize: "14px",
                       fontWeight: "600",
                       color: "#1F246C",
@@ -3403,7 +3403,7 @@ export function TarievenContent() {
                       alignItems: "center",
                       justifyContent: "center",
                       textAlign: "center",
-                      padding: "18px 12px",
+                      padding: "20px 12px",
                       fontSize: "14px",
                       fontWeight: "600",
                       color: "#1F246C",
@@ -3422,7 +3422,7 @@ export function TarievenContent() {
                       alignItems: "center",
                       justifyContent: "center",
                       textAlign: "center",
-                      padding: "18px 12px",
+                      padding: "20px 12px",
                       fontSize: "14px",
                       fontWeight: "600",
                       color: "#1F246C",
@@ -3470,7 +3470,7 @@ export function TarievenContent() {
                     borderTop: "1px solid #E4E6EA",
                   }}
                 >
-                  <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "6px" }}>
+                  <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "8px" }}>
                     <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Maand 9 - Klaar voor de piek")}</strong>
                     <span style={{ fontSize: "14px", lineHeight: "1.55", color: "#3A4150" }}>
                       {t("Seizoensplan & budgetplanning | Advertenties en aanbod voorbereiden op de piekperiode")}
@@ -3484,7 +3484,7 @@ export function TarievenContent() {
                       alignItems: "center",
                       justifyContent: "center",
                       textAlign: "center",
-                      padding: "18px 12px",
+                      padding: "20px 12px",
                       fontSize: "14px",
                       fontWeight: "600",
                       color: "#1F246C",
@@ -3502,7 +3502,7 @@ export function TarievenContent() {
                       alignItems: "center",
                       justifyContent: "center",
                       textAlign: "center",
-                      padding: "18px 12px",
+                      padding: "20px 12px",
                       fontSize: "14px",
                       fontWeight: "600",
                       color: "#1F246C",
@@ -3521,7 +3521,7 @@ export function TarievenContent() {
                       alignItems: "center",
                       justifyContent: "center",
                       textAlign: "center",
-                      padding: "18px 12px",
+                      padding: "20px 12px",
                       fontSize: "14px",
                       fontWeight: "600",
                       color: "#1F246C",
@@ -3569,7 +3569,7 @@ export function TarievenContent() {
                     borderTop: "1px solid #E4E6EA",
                   }}
                 >
-                  <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "6px" }}>
+                  <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "8px" }}>
                     <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Maand 10 - Sturen op marge")}</strong>
                     <span style={{ fontSize: "14px", lineHeight: "1.55", color: "#3A4150" }}>
                       {t(
@@ -3585,7 +3585,7 @@ export function TarievenContent() {
                       alignItems: "center",
                       justifyContent: "center",
                       textAlign: "center",
-                      padding: "18px 12px",
+                      padding: "20px 12px",
                       fontSize: "14px",
                       fontWeight: "600",
                       color: "#1F246C",
@@ -3603,7 +3603,7 @@ export function TarievenContent() {
                       alignItems: "center",
                       justifyContent: "center",
                       textAlign: "center",
-                      padding: "18px 12px",
+                      padding: "20px 12px",
                       fontSize: "14px",
                       fontWeight: "600",
                       color: "#1F246C",
@@ -3622,7 +3622,7 @@ export function TarievenContent() {
                       alignItems: "center",
                       justifyContent: "center",
                       textAlign: "center",
-                      padding: "18px 12px",
+                      padding: "20px 12px",
                       fontSize: "14px",
                       fontWeight: "600",
                       color: "#1F246C",
@@ -3670,7 +3670,7 @@ export function TarievenContent() {
                     borderTop: "1px solid #E4E6EA",
                   }}
                 >
-                  <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "6px" }}>
+                  <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "8px" }}>
                     <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Maand 11 - Meting verbeteren")}</strong>
                     <span style={{ fontSize: "14px", lineHeight: "1.55", color: "#3A4150" }}>
                       {t("Server-side meting & consent inrichten")}
@@ -3690,7 +3690,7 @@ export function TarievenContent() {
                       alignItems: "center",
                       justifyContent: "center",
                       textAlign: "center",
-                      padding: "18px 12px",
+                      padding: "20px 12px",
                       fontSize: "14px",
                       fontWeight: "600",
                       color: "#1F246C",
@@ -3708,7 +3708,7 @@ export function TarievenContent() {
                       alignItems: "center",
                       justifyContent: "center",
                       textAlign: "center",
-                      padding: "18px 12px",
+                      padding: "20px 12px",
                       fontSize: "14px",
                       fontWeight: "600",
                       color: "#1F246C",
@@ -3727,7 +3727,7 @@ export function TarievenContent() {
                       alignItems: "center",
                       justifyContent: "center",
                       textAlign: "center",
-                      padding: "18px 12px",
+                      padding: "20px 12px",
                       fontSize: "14px",
                       fontWeight: "600",
                       color: "#1F246C",
@@ -3775,7 +3775,7 @@ export function TarievenContent() {
                     borderTop: "1px solid #E4E6EA",
                   }}
                 >
-                  <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "6px" }}>
+                  <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "8px" }}>
                     <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Maand 12 - Jaaranalyse")}</strong>
                     <span style={{ fontSize: "14px", lineHeight: "1.55", color: "#3A4150" }}>
                       {t(
@@ -3791,7 +3791,7 @@ export function TarievenContent() {
                       alignItems: "center",
                       justifyContent: "center",
                       textAlign: "center",
-                      padding: "18px 12px",
+                      padding: "20px 12px",
                       fontSize: "14px",
                       fontWeight: "600",
                       color: "#1F246C",
@@ -3809,7 +3809,7 @@ export function TarievenContent() {
                       alignItems: "center",
                       justifyContent: "center",
                       textAlign: "center",
-                      padding: "18px 12px",
+                      padding: "20px 12px",
                       fontSize: "14px",
                       fontWeight: "600",
                       color: "#1F246C",
@@ -3828,7 +3828,7 @@ export function TarievenContent() {
                       alignItems: "center",
                       justifyContent: "center",
                       textAlign: "center",
-                      padding: "18px 12px",
+                      padding: "20px 12px",
                       fontSize: "14px",
                       fontWeight: "600",
                       color: "#1F246C",
@@ -3873,7 +3873,7 @@ export function TarievenContent() {
           </section>
           <section id="faq" className="pj-wrap pj-sec" style={{ background: "#FFFFFF", padding: "112px 40px 112px" }}>
             <div style={{ maxWidth: "900px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "32px" }}>
-              <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "14px", textAlign: "center" }}>
+              <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "16px", textAlign: "center" }}>
                 <h2
                   style={{
                     margin: "0",
@@ -4099,7 +4099,7 @@ export function TarievenContent() {
         <>
           <section className="pj-wrap pj-sec tf-res1" style={{ background: "#F2F8FE", padding: "88px 40px 112px" }}>
             <div style={{ maxWidth: "1280px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "48px" }}>
-              <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "14px", textAlign: "center" }}>
+              <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "16px", textAlign: "center" }}>
                 <h2
                   style={{
                     margin: "0",
@@ -4133,7 +4133,7 @@ export function TarievenContent() {
                   {t("Eén traject, één vaste prijs. Hoe groter het pakket, hoe verder we samen vooruitkijken.")}
                 </p>
               </div>
-              <div className="tf-scroll" style={{ width: "100%", maxWidth: "1200px", margin: "0 auto", paddingTop: "14px" }}>
+              <div className="tf-scroll" style={{ width: "100%", maxWidth: "1200px", margin: "0 auto", paddingTop: "16px" }}>
                 <div
                   className="tf-table tf-combo"
                   data-sel={h.tfmPlan}
@@ -4151,7 +4151,7 @@ export function TarievenContent() {
                           background: "#FFFFFF",
                           color: "#1F246C",
                           borderRadius: "24px 24px 0 0",
-                          padding: "40px 22px 28px",
+                          padding: "40px 24px 28px",
                           height: "100%",
                           width: "100%",
                           boxSizing: "border-box",
@@ -4159,7 +4159,7 @@ export function TarievenContent() {
                           flexDirection: "column",
                           alignItems: "center",
                           textAlign: "center",
-                          gap: "6px",
+                          gap: "8px",
                         }}
                       >
                         <h3
@@ -4185,7 +4185,7 @@ export function TarievenContent() {
                             fontSize: "56px",
                             lineHeight: "1",
                             letterSpacing: "-0.02em",
-                            marginTop: "14px",
+                            marginTop: "16px",
                             color: "inherit",
                           }}
                         >
@@ -4194,7 +4194,7 @@ export function TarievenContent() {
                         <span className="tf-pm" style={{ fontSize: "14px", fontWeight: "600", color: "#5A6273" }}>
                           {t("eenmalig, ex. btw")}
                         </span>
-                        <span style={{ width: "100%", height: "1px", background: "#E4E6EA", margin: "16px 0 10px" }}></span>
+                        <span style={{ width: "100%", height: "1px", background: "#E4E6EA", margin: "16px 0 12px" }}></span>
                         <span style={{ fontSize: "16px", fontWeight: "700", color: "inherit" }}>{t("2 persoonlijke consults")}</span>
                         <span
                           style={{
@@ -4208,7 +4208,7 @@ export function TarievenContent() {
                         >
                           {t("Max. 1 correctieronde")}
                         </span>
-                        <p className="tf-who" style={{ margin: "14px 0 18px", fontSize: "15px", lineHeight: "1.55", color: "#5A6273" }}>
+                        <p className="tf-who" style={{ margin: "16px 0 20px", fontSize: "15px", lineHeight: "1.55", color: "#5A6273" }}>
                           {t("Voor wie zijn merk scherp wil neerzetten en de basis wil vastleggen.")}
                         </p>
                         <div style={{ marginTop: "auto", width: "100%" }}>
@@ -4222,7 +4222,7 @@ export function TarievenContent() {
                               color: "#1F246C",
                               border: "1px solid #1F246C",
                               textDecoration: "none",
-                              padding: "14px 18px",
+                              padding: "16px 20px",
                               borderRadius: "8px",
                               fontWeight: "700",
                               fontSize: "16px",
@@ -4258,7 +4258,7 @@ export function TarievenContent() {
                           background: "linear-gradient(160deg, #8639FA 0%, #0F8AE5 100%)",
                           color: "#FFFFFF",
                           borderRadius: "24px 24px 0 0",
-                          padding: "40px 22px 28px",
+                          padding: "40px 24px 28px",
                           height: "100%",
                           width: "100%",
                           boxSizing: "border-box",
@@ -4266,7 +4266,7 @@ export function TarievenContent() {
                           flexDirection: "column",
                           alignItems: "center",
                           textAlign: "center",
-                          gap: "6px",
+                          gap: "8px",
                         }}
                       >
                         <span
@@ -4283,7 +4283,7 @@ export function TarievenContent() {
                             color: "#6B2BD9",
                             background: "#FFFFFF",
                             border: "1px solid #EFE8FD",
-                            padding: "5px 12px",
+                            padding: "4px 12px",
                             borderRadius: "999px",
                             whiteSpace: "nowrap",
                           }}
@@ -4313,7 +4313,7 @@ export function TarievenContent() {
                             fontSize: "56px",
                             lineHeight: "1",
                             letterSpacing: "-0.02em",
-                            marginTop: "14px",
+                            marginTop: "16px",
                             color: "inherit",
                           }}
                         >
@@ -4322,7 +4322,7 @@ export function TarievenContent() {
                         <span className="tf-pm" style={{ fontSize: "14px", fontWeight: "600", color: "#E6E9F8" }}>
                           {t("eenmalig, ex. btw")}
                         </span>
-                        <span style={{ width: "100%", height: "1px", background: "rgba(255,255,255,.25)", margin: "16px 0 10px" }}></span>
+                        <span style={{ width: "100%", height: "1px", background: "rgba(255,255,255,.25)", margin: "16px 0 12px" }}></span>
                         <span style={{ fontSize: "16px", fontWeight: "700", color: "inherit" }}>{t("3 persoonlijke consults")}</span>
                         <span
                           style={{
@@ -4336,7 +4336,7 @@ export function TarievenContent() {
                         >
                           {t("Max. 2 correctierondes")}
                         </span>
-                        <p className="tf-who" style={{ margin: "14px 0 18px", fontSize: "15px", lineHeight: "1.55", color: "#E6E9F8" }}>
+                        <p className="tf-who" style={{ margin: "16px 0 20px", fontSize: "15px", lineHeight: "1.55", color: "#E6E9F8" }}>
                           {t("Voor wie zijn positie in de markt wil onderbouwen met onderzoek.")}
                         </p>
                         <div style={{ marginTop: "auto", width: "100%" }}>
@@ -4349,7 +4349,7 @@ export function TarievenContent() {
                               background: "#FFFFFF",
                               color: "#1F246C",
                               textDecoration: "none",
-                              padding: "14px 18px",
+                              padding: "16px 20px",
                               borderRadius: "8px",
                               fontWeight: "700",
                               fontSize: "16px",
@@ -4386,7 +4386,7 @@ export function TarievenContent() {
                           background: "#FFFFFF",
                           color: "#1F246C",
                           borderRadius: "24px 24px 0 0",
-                          padding: "40px 22px 28px",
+                          padding: "40px 24px 28px",
                           height: "100%",
                           width: "100%",
                           boxSizing: "border-box",
@@ -4394,7 +4394,7 @@ export function TarievenContent() {
                           flexDirection: "column",
                           alignItems: "center",
                           textAlign: "center",
-                          gap: "6px",
+                          gap: "8px",
                         }}
                       >
                         <h3
@@ -4420,7 +4420,7 @@ export function TarievenContent() {
                             fontSize: "56px",
                             lineHeight: "1",
                             letterSpacing: "-0.02em",
-                            marginTop: "14px",
+                            marginTop: "16px",
                             color: "inherit",
                           }}
                         >
@@ -4429,7 +4429,7 @@ export function TarievenContent() {
                         <span className="tf-pm" style={{ fontSize: "14px", fontWeight: "600", color: "#5A6273" }}>
                           {t("eenmalig, ex. btw")}
                         </span>
-                        <span style={{ width: "100%", height: "1px", background: "#E4E6EA", margin: "16px 0 10px" }}></span>
+                        <span style={{ width: "100%", height: "1px", background: "#E4E6EA", margin: "16px 0 12px" }}></span>
                         <span style={{ fontSize: "16px", fontWeight: "700", color: "inherit" }}>{t("4 persoonlijke consults")}</span>
                         <span
                           style={{
@@ -4443,7 +4443,7 @@ export function TarievenContent() {
                         >
                           {t("Max. 3 correctierondes")}
                         </span>
-                        <p className="tf-who" style={{ margin: "14px 0 18px", fontSize: "15px", lineHeight: "1.55", color: "#5A6273" }}>
+                        <p className="tf-who" style={{ margin: "16px 0 20px", fontSize: "15px", lineHeight: "1.55", color: "#5A6273" }}>
                           {t("Voor wie van strategie meteen door wil naar uitvoering.")}
                         </p>
                         <div style={{ marginTop: "auto", width: "100%" }}>
@@ -4457,7 +4457,7 @@ export function TarievenContent() {
                               color: "#1F246C",
                               border: "1px solid #1F246C",
                               textDecoration: "none",
-                              padding: "14px 18px",
+                              padding: "16px 20px",
                               borderRadius: "8px",
                               fontWeight: "700",
                               fontSize: "16px",
@@ -4495,7 +4495,7 @@ export function TarievenContent() {
                       borderTop: "1px solid #E4E6EA",
                     }}
                   >
-                    <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "6px" }}>
+                    <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "8px" }}>
                       <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Persoonlijke begeleiding")}</strong>
                       <span style={{ fontSize: "14px", lineHeight: "1.55", color: "#3A4150" }}>
                         {t("1-op-1-consults met je strateeg, online of op locatie.")}
@@ -4510,7 +4510,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -4526,7 +4526,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -4544,7 +4544,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -4561,7 +4561,7 @@ export function TarievenContent() {
                       borderTop: "1px solid #E4E6EA",
                     }}
                   >
-                    <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "6px" }}>
+                    <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "8px" }}>
                       <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Correctierondes")}</strong>
                       <span style={{ fontSize: "14px", lineHeight: "1.55", color: "#3A4150" }}>
                         {t("Feedbackrondes op de opgeleverde strategie, tot jij er helemaal achter staat.")}
@@ -4576,7 +4576,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -4592,7 +4592,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -4610,7 +4610,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -4627,7 +4627,7 @@ export function TarievenContent() {
                       borderTop: "1px solid #E4E6EA",
                     }}
                   >
-                    <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "6px" }}>
+                    <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "8px" }}>
                       <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Levertijd")}</strong>
                       <span style={{ fontSize: "14px", lineHeight: "1.55", color: "#3A4150" }}>
                         {t("Vanaf de intake tot de oplevering van je strategie.")}
@@ -4642,7 +4642,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -4658,7 +4658,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -4676,7 +4676,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -4693,7 +4693,7 @@ export function TarievenContent() {
                       borderTop: "1px solid #E4E6EA",
                     }}
                   >
-                    <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "6px" }}>
+                    <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "8px" }}>
                       <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Eenmalig bedrag")}</strong>
                       <span style={{ fontSize: "14px", lineHeight: "1.55", color: "#3A4150" }}>
                         {t("Je betaalt één keer. Geen abonnement, geen doorlopende kosten.")}
@@ -4708,7 +4708,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -4755,7 +4755,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -4804,7 +4804,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -4852,7 +4852,7 @@ export function TarievenContent() {
                       borderTop: "1px solid #E4E6EA",
                     }}
                   >
-                    <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "6px" }}>
+                    <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "8px" }}>
                       <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Meerwerk")}</strong>
                       <span style={{ fontSize: "14px", lineHeight: "1.55", color: "#3A4150" }}>
                         {t("Bespreken we altijd vooraf en voeren we alleen uit na jouw akkoord.")}
@@ -4867,7 +4867,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -4883,7 +4883,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -4901,7 +4901,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -4925,7 +4925,7 @@ export function TarievenContent() {
                     scrollSnapType: "x mandatory",
                     scrollbarWidth: "none",
                     margin: "0 -20px",
-                    padding: "18px 7% 6px",
+                    padding: "20px 7% 8px",
                     alignItems: "flex-start",
                   }}
                 >
@@ -4948,7 +4948,7 @@ export function TarievenContent() {
                         background: "#FFFFFF",
                         color: "#1F246C",
                         borderRadius: "24px 24px 0 0",
-                        padding: "40px 22px 28px",
+                        padding: "40px 24px 28px",
                         height: "100%",
                         width: "100%",
                         boxSizing: "border-box",
@@ -4956,7 +4956,7 @@ export function TarievenContent() {
                         flexDirection: "column",
                         alignItems: "center",
                         textAlign: "center",
-                        gap: "6px",
+                        gap: "8px",
                       }}
                     >
                       <h3
@@ -4982,7 +4982,7 @@ export function TarievenContent() {
                           fontSize: "56px",
                           lineHeight: "1",
                           letterSpacing: "-0.02em",
-                          marginTop: "14px",
+                          marginTop: "16px",
                           color: "inherit",
                         }}
                       >
@@ -4991,7 +4991,7 @@ export function TarievenContent() {
                       <span className="tf-pm" style={{ fontSize: "14px", fontWeight: "600", color: "#5A6273" }}>
                         {t("eenmalig, ex. btw")}
                       </span>
-                      <span style={{ width: "100%", height: "1px", background: "#E4E6EA", margin: "16px 0 10px" }}></span>
+                      <span style={{ width: "100%", height: "1px", background: "#E4E6EA", margin: "16px 0 12px" }}></span>
                       <span style={{ fontSize: "16px", fontWeight: "700", color: "inherit" }}>{t("2 persoonlijke consults")}</span>
                       <span
                         style={{
@@ -5005,7 +5005,7 @@ export function TarievenContent() {
                       >
                         {t("Max. 1 correctieronde")}
                       </span>
-                      <p className="tf-who" style={{ margin: "14px 0 18px", fontSize: "15px", lineHeight: "1.55", color: "#5A6273" }}>
+                      <p className="tf-who" style={{ margin: "16px 0 20px", fontSize: "15px", lineHeight: "1.55", color: "#5A6273" }}>
                         {t("Voor wie zijn merk scherp wil neerzetten en de basis wil vastleggen.")}
                       </p>
                       <div style={{ marginTop: "auto", width: "100%" }}>
@@ -5019,7 +5019,7 @@ export function TarievenContent() {
                             color: "#1F246C",
                             border: "1px solid #1F246C",
                             textDecoration: "none",
-                            padding: "14px 18px",
+                            padding: "16px 20px",
                             borderRadius: "8px",
                             fontWeight: "700",
                             fontSize: "16px",
@@ -5048,7 +5048,7 @@ export function TarievenContent() {
                       </div>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Persoonlijke begeleiding")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("2 consults")}</span>
@@ -5057,7 +5057,7 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Correctierondes")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("Max. 1")}</span>
@@ -5066,7 +5066,7 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Levertijd")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("± 3 weken")}</span>
@@ -5075,7 +5075,7 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: "12px" }}>
                         <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Eenmalig bedrag")}</strong>
@@ -5119,7 +5119,7 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Meerwerk")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("€130 p/uur")}</span>
@@ -5148,7 +5148,7 @@ export function TarievenContent() {
                         background: "linear-gradient(160deg, #8639FA 0%, #0F8AE5 100%)",
                         color: "#FFFFFF",
                         borderRadius: "24px 24px 0 0",
-                        padding: "40px 22px 28px",
+                        padding: "40px 24px 28px",
                         height: "100%",
                         width: "100%",
                         boxSizing: "border-box",
@@ -5156,7 +5156,7 @@ export function TarievenContent() {
                         flexDirection: "column",
                         alignItems: "center",
                         textAlign: "center",
-                        gap: "6px",
+                        gap: "8px",
                       }}
                     >
                       <span
@@ -5173,7 +5173,7 @@ export function TarievenContent() {
                           color: "#6B2BD9",
                           background: "#FFFFFF",
                           border: "1px solid #EFE8FD",
-                          padding: "5px 12px",
+                          padding: "4px 12px",
                           borderRadius: "999px",
                           whiteSpace: "nowrap",
                         }}
@@ -5203,7 +5203,7 @@ export function TarievenContent() {
                           fontSize: "56px",
                           lineHeight: "1",
                           letterSpacing: "-0.02em",
-                          marginTop: "14px",
+                          marginTop: "16px",
                           color: "inherit",
                         }}
                       >
@@ -5212,7 +5212,7 @@ export function TarievenContent() {
                       <span className="tf-pm" style={{ fontSize: "14px", fontWeight: "600", color: "#E6E9F8" }}>
                         {t("eenmalig, ex. btw")}
                       </span>
-                      <span style={{ width: "100%", height: "1px", background: "rgba(255,255,255,.25)", margin: "16px 0 10px" }}></span>
+                      <span style={{ width: "100%", height: "1px", background: "rgba(255,255,255,.25)", margin: "16px 0 12px" }}></span>
                       <span style={{ fontSize: "16px", fontWeight: "700", color: "inherit" }}>{t("3 persoonlijke consults")}</span>
                       <span
                         style={{
@@ -5226,7 +5226,7 @@ export function TarievenContent() {
                       >
                         {t("Max. 2 correctierondes")}
                       </span>
-                      <p className="tf-who" style={{ margin: "14px 0 18px", fontSize: "15px", lineHeight: "1.55", color: "#E6E9F8" }}>
+                      <p className="tf-who" style={{ margin: "16px 0 20px", fontSize: "15px", lineHeight: "1.55", color: "#E6E9F8" }}>
                         {t("Voor wie zijn positie in de markt wil onderbouwen met onderzoek.")}
                       </p>
                       <div style={{ marginTop: "auto", width: "100%" }}>
@@ -5239,7 +5239,7 @@ export function TarievenContent() {
                             background: "#FFFFFF",
                             color: "#1F246C",
                             textDecoration: "none",
-                            padding: "14px 18px",
+                            padding: "16px 20px",
                             borderRadius: "8px",
                             fontWeight: "700",
                             fontSize: "16px",
@@ -5269,7 +5269,7 @@ export function TarievenContent() {
                       </div>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Persoonlijke begeleiding")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("3 consults")}</span>
@@ -5278,7 +5278,7 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Correctierondes")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("Max. 2")}</span>
@@ -5287,7 +5287,7 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Levertijd")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("± 4 weken")}</span>
@@ -5296,7 +5296,7 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: "12px" }}>
                         <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Eenmalig bedrag")}</strong>
@@ -5340,7 +5340,7 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Meerwerk")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("€130 p/uur")}</span>
@@ -5368,7 +5368,7 @@ export function TarievenContent() {
                         background: "#FFFFFF",
                         color: "#1F246C",
                         borderRadius: "24px 24px 0 0",
-                        padding: "40px 22px 28px",
+                        padding: "40px 24px 28px",
                         height: "100%",
                         width: "100%",
                         boxSizing: "border-box",
@@ -5376,7 +5376,7 @@ export function TarievenContent() {
                         flexDirection: "column",
                         alignItems: "center",
                         textAlign: "center",
-                        gap: "6px",
+                        gap: "8px",
                       }}
                     >
                       <h3
@@ -5402,7 +5402,7 @@ export function TarievenContent() {
                           fontSize: "56px",
                           lineHeight: "1",
                           letterSpacing: "-0.02em",
-                          marginTop: "14px",
+                          marginTop: "16px",
                           color: "inherit",
                         }}
                       >
@@ -5411,7 +5411,7 @@ export function TarievenContent() {
                       <span className="tf-pm" style={{ fontSize: "14px", fontWeight: "600", color: "#5A6273" }}>
                         {t("eenmalig, ex. btw")}
                       </span>
-                      <span style={{ width: "100%", height: "1px", background: "#E4E6EA", margin: "16px 0 10px" }}></span>
+                      <span style={{ width: "100%", height: "1px", background: "#E4E6EA", margin: "16px 0 12px" }}></span>
                       <span style={{ fontSize: "16px", fontWeight: "700", color: "inherit" }}>{t("4 persoonlijke consults")}</span>
                       <span
                         style={{
@@ -5425,7 +5425,7 @@ export function TarievenContent() {
                       >
                         {t("Max. 3 correctierondes")}
                       </span>
-                      <p className="tf-who" style={{ margin: "14px 0 18px", fontSize: "15px", lineHeight: "1.55", color: "#5A6273" }}>
+                      <p className="tf-who" style={{ margin: "16px 0 20px", fontSize: "15px", lineHeight: "1.55", color: "#5A6273" }}>
                         {t("Voor wie van strategie meteen door wil naar uitvoering.")}
                       </p>
                       <div style={{ marginTop: "auto", width: "100%" }}>
@@ -5439,7 +5439,7 @@ export function TarievenContent() {
                             color: "#1F246C",
                             border: "1px solid #1F246C",
                             textDecoration: "none",
-                            padding: "14px 18px",
+                            padding: "16px 20px",
                             borderRadius: "8px",
                             fontWeight: "700",
                             fontSize: "16px",
@@ -5468,7 +5468,7 @@ export function TarievenContent() {
                       </div>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Persoonlijke begeleiding")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("4 consults")}</span>
@@ -5477,7 +5477,7 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Correctierondes")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("Max. 3")}</span>
@@ -5486,7 +5486,7 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Levertijd")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("Vanaf 5 weken")}</span>
@@ -5495,7 +5495,7 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: "12px" }}>
                         <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Eenmalig bedrag")}</strong>
@@ -5539,7 +5539,7 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Meerwerk")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("€130 p/uur")}</span>
@@ -5633,7 +5633,7 @@ export function TarievenContent() {
           </section>
           <section className="pj-wrap pj-sec" style={{ background: "#F2F8FE", padding: "112px 40px 112px" }}>
             <div style={{ maxWidth: "1280px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "40px" }}>
-              <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "14px", textAlign: "center" }}>
+              <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "16px", textAlign: "center" }}>
                 <h2
                   style={{
                     margin: "0",
@@ -5673,7 +5673,7 @@ export function TarievenContent() {
                   <div
                     translate="no"
                     style={{
-                      padding: "18px 12px",
+                      padding: "20px 12px",
                       textAlign: "center",
                       fontFamily: "var(--font-display)",
                       fontWeight: "700",
@@ -5686,7 +5686,7 @@ export function TarievenContent() {
                   <div
                     translate="no"
                     style={{
-                      padding: "18px 12px",
+                      padding: "20px 12px",
                       textAlign: "center",
                       fontFamily: "var(--font-display)",
                       fontWeight: "700",
@@ -5700,7 +5700,7 @@ export function TarievenContent() {
                   <div
                     translate="no"
                     style={{
-                      padding: "18px 12px",
+                      padding: "20px 12px",
                       textAlign: "center",
                       fontFamily: "var(--font-display)",
                       fontWeight: "700",
@@ -5719,7 +5719,7 @@ export function TarievenContent() {
                     borderTop: "1px solid #E4E6EA",
                   }}
                 >
-                  <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "6px" }}>
+                  <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "8px" }}>
                     <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Fase 1 - Kennismaken")}</strong>
                     <span style={{ fontSize: "14px", lineHeight: "1.55", color: "#3A4150" }}>
                       {t("Intake en vragenlijst | Eerste consult")}
@@ -5734,7 +5734,7 @@ export function TarievenContent() {
                       alignItems: "center",
                       justifyContent: "center",
                       textAlign: "center",
-                      padding: "18px 12px",
+                      padding: "20px 12px",
                       fontSize: "14px",
                       fontWeight: "600",
                       color: "#1F246C",
@@ -5781,7 +5781,7 @@ export function TarievenContent() {
                       alignItems: "center",
                       justifyContent: "center",
                       textAlign: "center",
-                      padding: "18px 12px",
+                      padding: "20px 12px",
                       fontSize: "14px",
                       fontWeight: "600",
                       color: "#1F246C",
@@ -5830,7 +5830,7 @@ export function TarievenContent() {
                       alignItems: "center",
                       justifyContent: "center",
                       textAlign: "center",
-                      padding: "18px 12px",
+                      padding: "20px 12px",
                       fontSize: "14px",
                       fontWeight: "600",
                       color: "#1F246C",
@@ -5878,7 +5878,7 @@ export function TarievenContent() {
                     borderTop: "1px solid #E4E6EA",
                   }}
                 >
-                  <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "6px" }}>
+                  <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "8px" }}>
                     <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Fase 2 - Onderzoek")}</strong>
                     <span style={{ fontSize: "14px", lineHeight: "1.55", color: "#3A4150" }}>
                       {t("SWOT-analyse")}
@@ -5899,7 +5899,7 @@ export function TarievenContent() {
                       alignItems: "center",
                       justifyContent: "center",
                       textAlign: "center",
-                      padding: "18px 12px",
+                      padding: "20px 12px",
                       fontSize: "14px",
                       fontWeight: "600",
                       color: "#1F246C",
@@ -5923,7 +5923,7 @@ export function TarievenContent() {
                       alignItems: "center",
                       justifyContent: "center",
                       textAlign: "center",
-                      padding: "18px 12px",
+                      padding: "20px 12px",
                       fontSize: "14px",
                       fontWeight: "600",
                       color: "#1F246C",
@@ -5972,7 +5972,7 @@ export function TarievenContent() {
                       alignItems: "center",
                       justifyContent: "center",
                       textAlign: "center",
-                      padding: "18px 12px",
+                      padding: "20px 12px",
                       fontSize: "14px",
                       fontWeight: "600",
                       color: "#1F246C",
@@ -6020,7 +6020,7 @@ export function TarievenContent() {
                     borderTop: "1px solid #E4E6EA",
                   }}
                 >
-                  <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "6px" }}>
+                  <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "8px" }}>
                     <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Fase 3 - Merkfundament")}</strong>
                     <span style={{ fontSize: "14px", lineHeight: "1.55", color: "#3A4150" }}>
                       {t("Missie en visie | USP's")}
@@ -6047,7 +6047,7 @@ export function TarievenContent() {
                       alignItems: "center",
                       justifyContent: "center",
                       textAlign: "center",
-                      padding: "18px 12px",
+                      padding: "20px 12px",
                       fontSize: "14px",
                       fontWeight: "600",
                       color: "#1F246C",
@@ -6094,7 +6094,7 @@ export function TarievenContent() {
                       alignItems: "center",
                       justifyContent: "center",
                       textAlign: "center",
-                      padding: "18px 12px",
+                      padding: "20px 12px",
                       fontSize: "14px",
                       fontWeight: "600",
                       color: "#1F246C",
@@ -6143,7 +6143,7 @@ export function TarievenContent() {
                       alignItems: "center",
                       justifyContent: "center",
                       textAlign: "center",
-                      padding: "18px 12px",
+                      padding: "20px 12px",
                       fontSize: "14px",
                       fontWeight: "600",
                       color: "#1F246C",
@@ -6191,7 +6191,7 @@ export function TarievenContent() {
                     borderTop: "1px solid #E4E6EA",
                   }}
                 >
-                  <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "6px" }}>
+                  <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "8px" }}>
                     <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Fase 4 - Positionering")}</strong>
                     <span style={{ fontSize: "14px", lineHeight: "1.55", color: "#3A4150" }}>
                       {t("Strategische positionering | Merkverhaal / merkstrategie")}
@@ -6206,7 +6206,7 @@ export function TarievenContent() {
                       alignItems: "center",
                       justifyContent: "center",
                       textAlign: "center",
-                      padding: "18px 12px",
+                      padding: "20px 12px",
                       fontSize: "14px",
                       fontWeight: "600",
                       color: "#1F246C",
@@ -6230,7 +6230,7 @@ export function TarievenContent() {
                       alignItems: "center",
                       justifyContent: "center",
                       textAlign: "center",
-                      padding: "18px 12px",
+                      padding: "20px 12px",
                       fontSize: "14px",
                       fontWeight: "600",
                       color: "#1F246C",
@@ -6279,7 +6279,7 @@ export function TarievenContent() {
                       alignItems: "center",
                       justifyContent: "center",
                       textAlign: "center",
-                      padding: "18px 12px",
+                      padding: "20px 12px",
                       fontSize: "14px",
                       fontWeight: "600",
                       color: "#1F246C",
@@ -6327,7 +6327,7 @@ export function TarievenContent() {
                     borderTop: "1px solid #E4E6EA",
                   }}
                 >
-                  <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "6px" }}>
+                  <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "8px" }}>
                     <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Fase 5 - Van plan naar actie")}</strong>
                     <span style={{ fontSize: "14px", lineHeight: "1.55", color: "#3A4150" }}>
                       {t("Actieplan social media | Kanalen en tools | Planning en tijdlijn | Conceptvoorbeelden")}
@@ -6342,7 +6342,7 @@ export function TarievenContent() {
                       alignItems: "center",
                       justifyContent: "center",
                       textAlign: "center",
-                      padding: "18px 12px",
+                      padding: "20px 12px",
                       fontSize: "14px",
                       fontWeight: "600",
                       color: "#1F246C",
@@ -6366,7 +6366,7 @@ export function TarievenContent() {
                       alignItems: "center",
                       justifyContent: "center",
                       textAlign: "center",
-                      padding: "18px 12px",
+                      padding: "20px 12px",
                       fontSize: "14px",
                       fontWeight: "600",
                       color: "#1F246C",
@@ -6392,7 +6392,7 @@ export function TarievenContent() {
                       alignItems: "center",
                       justifyContent: "center",
                       textAlign: "center",
-                      padding: "18px 12px",
+                      padding: "20px 12px",
                       fontSize: "14px",
                       fontWeight: "600",
                       color: "#1F246C",
@@ -6440,7 +6440,7 @@ export function TarievenContent() {
                     borderTop: "1px solid #E4E6EA",
                   }}
                 >
-                  <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "6px" }}>
+                  <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "8px" }}>
                     <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Fase 6 - Overdracht")}</strong>
                     <span style={{ fontSize: "14px", lineHeight: "1.55", color: "#3A4150" }}>
                       {t("Online teampresentatie of onboarding deck")}
@@ -6458,7 +6458,7 @@ export function TarievenContent() {
                       alignItems: "center",
                       justifyContent: "center",
                       textAlign: "center",
-                      padding: "18px 12px",
+                      padding: "20px 12px",
                       fontSize: "14px",
                       fontWeight: "600",
                       color: "#1F246C",
@@ -6482,7 +6482,7 @@ export function TarievenContent() {
                       alignItems: "center",
                       justifyContent: "center",
                       textAlign: "center",
-                      padding: "18px 12px",
+                      padding: "20px 12px",
                       fontSize: "14px",
                       fontWeight: "600",
                       color: "#1F246C",
@@ -6508,7 +6508,7 @@ export function TarievenContent() {
                       alignItems: "center",
                       justifyContent: "center",
                       textAlign: "center",
-                      padding: "18px 12px",
+                      padding: "20px 12px",
                       fontSize: "14px",
                       fontWeight: "600",
                       color: "#1F246C",
@@ -6553,7 +6553,7 @@ export function TarievenContent() {
           </section>
           <section className="pj-wrap pj-sec" style={{ background: "#FFFFFF", padding: "112px 40px 112px" }}>
             <div style={{ maxWidth: "900px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "32px" }}>
-              <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "14px", textAlign: "center" }}>
+              <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "16px", textAlign: "center" }}>
                 <h2
                   style={{
                     margin: "0",
@@ -6742,7 +6742,7 @@ export function TarievenContent() {
         <>
           <section className="pj-wrap pj-sec tf-res1" style={{ background: "#F2F8FE", padding: "88px 40px 112px" }}>
             <div style={{ maxWidth: "1280px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "40px" }}>
-              <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "14px", textAlign: "center" }}>
+              <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "16px", textAlign: "center" }}>
                 <h2
                   style={{
                     margin: "0",
@@ -6773,7 +6773,7 @@ export function TarievenContent() {
                   {t("Juridisch advies voor ondernemers, voor een vast bedrag, zodat je precies weet waar je aan toe bent.")}
                 </p>
               </div>
-              <div className="tf-scroll" style={{ width: "100%", maxWidth: "1200px", margin: "0 auto", paddingTop: "14px" }}>
+              <div className="tf-scroll" style={{ width: "100%", maxWidth: "1200px", margin: "0 auto", paddingTop: "16px" }}>
                 <div
                   className="tf-table tf-combo"
                   data-sel={h.tfmPlan}
@@ -6791,7 +6791,7 @@ export function TarievenContent() {
                           background: "#FFFFFF",
                           color: "#1F246C",
                           borderRadius: "24px 24px 0 0",
-                          padding: "40px 22px 28px",
+                          padding: "40px 24px 28px",
                           height: "100%",
                           width: "100%",
                           boxSizing: "border-box",
@@ -6799,7 +6799,7 @@ export function TarievenContent() {
                           flexDirection: "column",
                           alignItems: "center",
                           textAlign: "center",
-                          gap: "6px",
+                          gap: "8px",
                         }}
                       >
                         <h3
@@ -6823,7 +6823,7 @@ export function TarievenContent() {
                             fontSize: "56px",
                             lineHeight: "1",
                             letterSpacing: "-0.02em",
-                            marginTop: "14px",
+                            marginTop: "16px",
                             color: "inherit",
                           }}
                         >
@@ -6843,7 +6843,7 @@ export function TarievenContent() {
                               color: "#1F246C",
                               border: "1px solid #1F246C",
                               textDecoration: "none",
-                              padding: "14px 18px",
+                              padding: "16px 20px",
                               borderRadius: "8px",
                               fontWeight: "700",
                               fontSize: "16px",
@@ -6879,7 +6879,7 @@ export function TarievenContent() {
                           background: "linear-gradient(160deg, #8639FA 0%, #0F8AE5 100%)",
                           color: "#FFFFFF",
                           borderRadius: "24px 24px 0 0",
-                          padding: "40px 22px 28px",
+                          padding: "40px 24px 28px",
                           height: "100%",
                           width: "100%",
                           boxSizing: "border-box",
@@ -6887,7 +6887,7 @@ export function TarievenContent() {
                           flexDirection: "column",
                           alignItems: "center",
                           textAlign: "center",
-                          gap: "6px",
+                          gap: "8px",
                         }}
                       >
                         <span
@@ -6904,7 +6904,7 @@ export function TarievenContent() {
                             color: "#6B2BD9",
                             background: "#FFFFFF",
                             border: "1px solid #EFE8FD",
-                            padding: "5px 12px",
+                            padding: "4px 12px",
                             borderRadius: "999px",
                             whiteSpace: "nowrap",
                           }}
@@ -6932,7 +6932,7 @@ export function TarievenContent() {
                             fontSize: "56px",
                             lineHeight: "1",
                             letterSpacing: "-0.02em",
-                            marginTop: "14px",
+                            marginTop: "16px",
                             color: "inherit",
                           }}
                         >
@@ -6951,7 +6951,7 @@ export function TarievenContent() {
                               background: "#FFFFFF",
                               color: "#1F246C",
                               textDecoration: "none",
-                              padding: "14px 18px",
+                              padding: "16px 20px",
                               borderRadius: "8px",
                               fontWeight: "700",
                               fontSize: "16px",
@@ -6988,7 +6988,7 @@ export function TarievenContent() {
                           background: "#FFFFFF",
                           color: "#1F246C",
                           borderRadius: "24px 24px 0 0",
-                          padding: "40px 22px 28px",
+                          padding: "40px 24px 28px",
                           height: "100%",
                           width: "100%",
                           boxSizing: "border-box",
@@ -6996,7 +6996,7 @@ export function TarievenContent() {
                           flexDirection: "column",
                           alignItems: "center",
                           textAlign: "center",
-                          gap: "6px",
+                          gap: "8px",
                         }}
                       >
                         <h3
@@ -7020,7 +7020,7 @@ export function TarievenContent() {
                             fontSize: "56px",
                             lineHeight: "1",
                             letterSpacing: "-0.02em",
-                            marginTop: "14px",
+                            marginTop: "16px",
                             color: "inherit",
                           }}
                         >
@@ -7040,7 +7040,7 @@ export function TarievenContent() {
                               color: "#1F246C",
                               border: "1px solid #1F246C",
                               textDecoration: "none",
-                              padding: "14px 18px",
+                              padding: "16px 20px",
                               borderRadius: "8px",
                               fontWeight: "700",
                               fontSize: "16px",
@@ -7090,7 +7090,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -7137,7 +7137,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -7163,7 +7163,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -7202,7 +7202,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -7249,7 +7249,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -7275,7 +7275,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -7312,7 +7312,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -7336,7 +7336,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -7385,7 +7385,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -7427,7 +7427,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -7451,7 +7451,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -7477,7 +7477,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -7542,7 +7542,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -7566,7 +7566,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -7592,7 +7592,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -7652,7 +7652,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -7668,7 +7668,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -7686,7 +7686,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -7715,7 +7715,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -7731,7 +7731,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -7749,7 +7749,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -7773,7 +7773,7 @@ export function TarievenContent() {
                     scrollSnapType: "x mandatory",
                     scrollbarWidth: "none",
                     margin: "0 -20px",
-                    padding: "18px 7% 6px",
+                    padding: "20px 7% 8px",
                     alignItems: "flex-start",
                   }}
                 >
@@ -7796,7 +7796,7 @@ export function TarievenContent() {
                         background: "#FFFFFF",
                         color: "#1F246C",
                         borderRadius: "24px 24px 0 0",
-                        padding: "40px 22px 28px",
+                        padding: "40px 24px 28px",
                         height: "100%",
                         width: "100%",
                         boxSizing: "border-box",
@@ -7804,7 +7804,7 @@ export function TarievenContent() {
                         flexDirection: "column",
                         alignItems: "center",
                         textAlign: "center",
-                        gap: "6px",
+                        gap: "8px",
                       }}
                     >
                       <h3
@@ -7828,7 +7828,7 @@ export function TarievenContent() {
                           fontSize: "56px",
                           lineHeight: "1",
                           letterSpacing: "-0.02em",
-                          marginTop: "14px",
+                          marginTop: "16px",
                           color: "inherit",
                         }}
                       >
@@ -7848,7 +7848,7 @@ export function TarievenContent() {
                             color: "#1F246C",
                             border: "1px solid #1F246C",
                             textDecoration: "none",
-                            padding: "14px 18px",
+                            padding: "16px 20px",
                             borderRadius: "8px",
                             fontWeight: "700",
                             fontSize: "16px",
@@ -7878,7 +7878,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -7924,7 +7924,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -7972,7 +7972,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -7995,7 +7995,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -8023,7 +8023,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -8050,7 +8050,7 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>
                         {t("Optioneel: privacyverklaring + disclaimer")}
@@ -8058,7 +8058,7 @@ export function TarievenContent() {
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("€145")}</span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>
                         {t("Optioneel: toelichtend gesprek")}
@@ -8086,7 +8086,7 @@ export function TarievenContent() {
                         background: "linear-gradient(160deg, #8639FA 0%, #0F8AE5 100%)",
                         color: "#FFFFFF",
                         borderRadius: "24px 24px 0 0",
-                        padding: "40px 22px 28px",
+                        padding: "40px 24px 28px",
                         height: "100%",
                         width: "100%",
                         boxSizing: "border-box",
@@ -8094,7 +8094,7 @@ export function TarievenContent() {
                         flexDirection: "column",
                         alignItems: "center",
                         textAlign: "center",
-                        gap: "6px",
+                        gap: "8px",
                       }}
                     >
                       <span
@@ -8111,7 +8111,7 @@ export function TarievenContent() {
                           color: "#6B2BD9",
                           background: "#FFFFFF",
                           border: "1px solid #EFE8FD",
-                          padding: "5px 12px",
+                          padding: "4px 12px",
                           borderRadius: "999px",
                           whiteSpace: "nowrap",
                         }}
@@ -8139,7 +8139,7 @@ export function TarievenContent() {
                           fontSize: "56px",
                           lineHeight: "1",
                           letterSpacing: "-0.02em",
-                          marginTop: "14px",
+                          marginTop: "16px",
                           color: "inherit",
                         }}
                       >
@@ -8158,7 +8158,7 @@ export function TarievenContent() {
                             background: "#FFFFFF",
                             color: "#1F246C",
                             textDecoration: "none",
-                            padding: "14px 18px",
+                            padding: "16px 20px",
                             borderRadius: "8px",
                             fontWeight: "700",
                             fontSize: "16px",
@@ -8189,7 +8189,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -8212,7 +8212,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -8237,7 +8237,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -8283,7 +8283,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -8311,7 +8311,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -8338,7 +8338,7 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>
                         {t("Optioneel: privacyverklaring + disclaimer")}
@@ -8346,7 +8346,7 @@ export function TarievenContent() {
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("€145")}</span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>
                         {t("Optioneel: toelichtend gesprek")}
@@ -8373,7 +8373,7 @@ export function TarievenContent() {
                         background: "#FFFFFF",
                         color: "#1F246C",
                         borderRadius: "24px 24px 0 0",
-                        padding: "40px 22px 28px",
+                        padding: "40px 24px 28px",
                         height: "100%",
                         width: "100%",
                         boxSizing: "border-box",
@@ -8381,7 +8381,7 @@ export function TarievenContent() {
                         flexDirection: "column",
                         alignItems: "center",
                         textAlign: "center",
-                        gap: "6px",
+                        gap: "8px",
                       }}
                     >
                       <h3
@@ -8405,7 +8405,7 @@ export function TarievenContent() {
                           fontSize: "56px",
                           lineHeight: "1",
                           letterSpacing: "-0.02em",
-                          marginTop: "14px",
+                          marginTop: "16px",
                           color: "inherit",
                         }}
                       >
@@ -8425,7 +8425,7 @@ export function TarievenContent() {
                             color: "#1F246C",
                             border: "1px solid #1F246C",
                             textDecoration: "none",
-                            padding: "14px 18px",
+                            padding: "16px 20px",
                             borderRadius: "8px",
                             fontWeight: "700",
                             fontSize: "16px",
@@ -8455,7 +8455,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -8478,7 +8478,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -8503,7 +8503,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -8526,7 +8526,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -8577,7 +8577,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -8627,7 +8627,7 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>
                         {t("Optioneel: privacyverklaring + disclaimer")}
@@ -8635,7 +8635,7 @@ export function TarievenContent() {
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("€145")}</span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>
                         {t("Optioneel: toelichtend gesprek")}
@@ -8732,7 +8732,7 @@ export function TarievenContent() {
         <>
           <section className="pj-wrap pj-sec tf-res1" style={{ background: "#F2F8FE", padding: "88px 40px 112px" }}>
             <div style={{ maxWidth: "1280px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "40px" }}>
-              <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "14px", textAlign: "center" }}>
+              <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "16px", textAlign: "center" }}>
                 <h2
                   style={{
                     margin: "0",
@@ -8763,7 +8763,7 @@ export function TarievenContent() {
                   {t("Je huisstijlhandboek voor een vast bedrag, zodat je precies weet waar je aan toe bent.")}
                 </p>
               </div>
-              <div className="tf-scroll" style={{ width: "100%", maxWidth: "1200px", margin: "0 auto", paddingTop: "14px" }}>
+              <div className="tf-scroll" style={{ width: "100%", maxWidth: "1200px", margin: "0 auto", paddingTop: "16px" }}>
                 <div
                   className="tf-table tf-combo"
                   data-sel={h.tfmPlan}
@@ -8781,7 +8781,7 @@ export function TarievenContent() {
                           background: "#FFFFFF",
                           color: "#1F246C",
                           borderRadius: "24px 24px 0 0",
-                          padding: "40px 22px 28px",
+                          padding: "40px 24px 28px",
                           height: "100%",
                           width: "100%",
                           boxSizing: "border-box",
@@ -8789,7 +8789,7 @@ export function TarievenContent() {
                           flexDirection: "column",
                           alignItems: "center",
                           textAlign: "center",
-                          gap: "6px",
+                          gap: "8px",
                         }}
                       >
                         <h3
@@ -8814,7 +8814,7 @@ export function TarievenContent() {
                             fontSize: "56px",
                             lineHeight: "1",
                             letterSpacing: "-0.02em",
-                            marginTop: "14px",
+                            marginTop: "16px",
                             color: "inherit",
                           }}
                         >
@@ -8834,7 +8834,7 @@ export function TarievenContent() {
                               color: "#1F246C",
                               border: "1px solid #1F246C",
                               textDecoration: "none",
-                              padding: "14px 18px",
+                              padding: "16px 20px",
                               borderRadius: "8px",
                               fontWeight: "700",
                               fontSize: "16px",
@@ -8870,7 +8870,7 @@ export function TarievenContent() {
                           background: "linear-gradient(160deg, #8639FA 0%, #0F8AE5 100%)",
                           color: "#FFFFFF",
                           borderRadius: "24px 24px 0 0",
-                          padding: "40px 22px 28px",
+                          padding: "40px 24px 28px",
                           height: "100%",
                           width: "100%",
                           boxSizing: "border-box",
@@ -8878,7 +8878,7 @@ export function TarievenContent() {
                           flexDirection: "column",
                           alignItems: "center",
                           textAlign: "center",
-                          gap: "6px",
+                          gap: "8px",
                         }}
                       >
                         <span
@@ -8895,7 +8895,7 @@ export function TarievenContent() {
                             color: "#6B2BD9",
                             background: "#FFFFFF",
                             border: "1px solid #EFE8FD",
-                            padding: "5px 12px",
+                            padding: "4px 12px",
                             borderRadius: "999px",
                             whiteSpace: "nowrap",
                           }}
@@ -8924,7 +8924,7 @@ export function TarievenContent() {
                             fontSize: "56px",
                             lineHeight: "1",
                             letterSpacing: "-0.02em",
-                            marginTop: "14px",
+                            marginTop: "16px",
                             color: "inherit",
                           }}
                         >
@@ -8943,7 +8943,7 @@ export function TarievenContent() {
                               background: "#FFFFFF",
                               color: "#1F246C",
                               textDecoration: "none",
-                              padding: "14px 18px",
+                              padding: "16px 20px",
                               borderRadius: "8px",
                               fontWeight: "700",
                               fontSize: "16px",
@@ -8980,7 +8980,7 @@ export function TarievenContent() {
                           background: "#FFFFFF",
                           color: "#1F246C",
                           borderRadius: "24px 24px 0 0",
-                          padding: "40px 22px 28px",
+                          padding: "40px 24px 28px",
                           height: "100%",
                           width: "100%",
                           boxSizing: "border-box",
@@ -8988,7 +8988,7 @@ export function TarievenContent() {
                           flexDirection: "column",
                           alignItems: "center",
                           textAlign: "center",
-                          gap: "6px",
+                          gap: "8px",
                         }}
                       >
                         <h3
@@ -9013,7 +9013,7 @@ export function TarievenContent() {
                             fontSize: "56px",
                             lineHeight: "1",
                             letterSpacing: "-0.02em",
-                            marginTop: "14px",
+                            marginTop: "16px",
                             color: "inherit",
                           }}
                         >
@@ -9033,7 +9033,7 @@ export function TarievenContent() {
                               color: "#1F246C",
                               border: "1px solid #1F246C",
                               textDecoration: "none",
-                              padding: "14px 18px",
+                              padding: "16px 20px",
                               borderRadius: "8px",
                               fontWeight: "700",
                               fontSize: "16px",
@@ -9083,7 +9083,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -9130,7 +9130,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -9156,7 +9156,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -9193,7 +9193,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -9217,7 +9217,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -9266,7 +9266,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -9326,7 +9326,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -9350,7 +9350,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -9399,7 +9399,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -9464,7 +9464,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -9488,7 +9488,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -9537,7 +9537,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -9600,7 +9600,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -9624,7 +9624,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -9673,7 +9673,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -9733,7 +9733,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -9757,7 +9757,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -9783,7 +9783,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -9812,7 +9812,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -9836,7 +9836,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -9862,7 +9862,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -9922,7 +9922,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -9938,7 +9938,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -9956,7 +9956,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -9988,7 +9988,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -10035,7 +10035,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -10084,7 +10084,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -10144,7 +10144,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -10191,7 +10191,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -10240,7 +10240,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -10300,7 +10300,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -10347,7 +10347,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -10396,7 +10396,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -10459,7 +10459,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -10506,7 +10506,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -10555,7 +10555,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -10615,7 +10615,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -10639,7 +10639,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -10665,7 +10665,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -10725,7 +10725,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -10749,7 +10749,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -10798,7 +10798,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -10858,7 +10858,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -10905,7 +10905,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -10954,7 +10954,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -11019,7 +11019,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -11035,7 +11035,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -11053,7 +11053,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -11085,7 +11085,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -11109,7 +11109,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -11135,7 +11135,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -11195,7 +11195,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -11219,7 +11219,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -11268,7 +11268,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -11328,7 +11328,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -11352,7 +11352,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -11378,7 +11378,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -11407,7 +11407,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -11423,7 +11423,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -11441,7 +11441,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -11470,7 +11470,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -11486,7 +11486,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -11504,7 +11504,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -11533,7 +11533,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -11549,7 +11549,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -11567,7 +11567,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -11591,7 +11591,7 @@ export function TarievenContent() {
                     scrollSnapType: "x mandatory",
                     scrollbarWidth: "none",
                     margin: "0 -20px",
-                    padding: "18px 7% 6px",
+                    padding: "20px 7% 8px",
                     alignItems: "flex-start",
                   }}
                 >
@@ -11614,7 +11614,7 @@ export function TarievenContent() {
                         background: "#FFFFFF",
                         color: "#1F246C",
                         borderRadius: "24px 24px 0 0",
-                        padding: "40px 22px 28px",
+                        padding: "40px 24px 28px",
                         height: "100%",
                         width: "100%",
                         boxSizing: "border-box",
@@ -11622,7 +11622,7 @@ export function TarievenContent() {
                         flexDirection: "column",
                         alignItems: "center",
                         textAlign: "center",
-                        gap: "6px",
+                        gap: "8px",
                       }}
                     >
                       <h3
@@ -11647,7 +11647,7 @@ export function TarievenContent() {
                           fontSize: "56px",
                           lineHeight: "1",
                           letterSpacing: "-0.02em",
-                          marginTop: "14px",
+                          marginTop: "16px",
                           color: "inherit",
                         }}
                       >
@@ -11667,7 +11667,7 @@ export function TarievenContent() {
                             color: "#1F246C",
                             border: "1px solid #1F246C",
                             textDecoration: "none",
-                            padding: "14px 18px",
+                            padding: "16px 20px",
                             borderRadius: "8px",
                             fontWeight: "700",
                             fontSize: "16px",
@@ -11697,7 +11697,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -11743,7 +11743,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -11766,7 +11766,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -11789,7 +11789,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -11817,7 +11817,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -11843,7 +11843,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -11866,7 +11866,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -11888,14 +11888,14 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Logovoorstellen")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("3")}</span>
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -11944,7 +11944,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -11990,7 +11990,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -12036,7 +12036,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -12085,7 +12085,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -12108,7 +12108,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -12131,7 +12131,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -12176,7 +12176,7 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>
                         {t("Bestandsformaten")}
@@ -12188,7 +12188,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -12214,7 +12214,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -12237,7 +12237,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -12259,19 +12259,19 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Correctierondes")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("Max. 2")}</span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Levertijd")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("± 2 weken")}</span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Meerwerk")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("€130 p/uur")}</span>
@@ -12297,7 +12297,7 @@ export function TarievenContent() {
                         background: "linear-gradient(160deg, #8639FA 0%, #0F8AE5 100%)",
                         color: "#FFFFFF",
                         borderRadius: "24px 24px 0 0",
-                        padding: "40px 22px 28px",
+                        padding: "40px 24px 28px",
                         height: "100%",
                         width: "100%",
                         boxSizing: "border-box",
@@ -12305,7 +12305,7 @@ export function TarievenContent() {
                         flexDirection: "column",
                         alignItems: "center",
                         textAlign: "center",
-                        gap: "6px",
+                        gap: "8px",
                       }}
                     >
                       <span
@@ -12322,7 +12322,7 @@ export function TarievenContent() {
                           color: "#6B2BD9",
                           background: "#FFFFFF",
                           border: "1px solid #EFE8FD",
-                          padding: "5px 12px",
+                          padding: "4px 12px",
                           borderRadius: "999px",
                           whiteSpace: "nowrap",
                         }}
@@ -12351,7 +12351,7 @@ export function TarievenContent() {
                           fontSize: "56px",
                           lineHeight: "1",
                           letterSpacing: "-0.02em",
-                          marginTop: "14px",
+                          marginTop: "16px",
                           color: "inherit",
                         }}
                       >
@@ -12370,7 +12370,7 @@ export function TarievenContent() {
                             background: "#FFFFFF",
                             color: "#1F246C",
                             textDecoration: "none",
-                            padding: "14px 18px",
+                            padding: "16px 20px",
                             borderRadius: "8px",
                             fontWeight: "700",
                             fontSize: "16px",
@@ -12401,7 +12401,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -12424,7 +12424,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -12470,7 +12470,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -12516,7 +12516,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -12567,7 +12567,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -12616,7 +12616,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -12639,7 +12639,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -12661,14 +12661,14 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Logovoorstellen")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("4")}</span>
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -12717,7 +12717,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -12763,7 +12763,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -12809,7 +12809,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -12858,7 +12858,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -12881,7 +12881,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -12927,7 +12927,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -12972,7 +12972,7 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>
                         {t("Bestandsformaten")}
@@ -12984,7 +12984,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -13010,7 +13010,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -13056,7 +13056,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -13078,19 +13078,19 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Correctierondes")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("Max. 3")}</span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Levertijd")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("± 3 weken")}</span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Meerwerk")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("€130 p/uur")}</span>
@@ -13115,7 +13115,7 @@ export function TarievenContent() {
                         background: "#FFFFFF",
                         color: "#1F246C",
                         borderRadius: "24px 24px 0 0",
-                        padding: "40px 22px 28px",
+                        padding: "40px 24px 28px",
                         height: "100%",
                         width: "100%",
                         boxSizing: "border-box",
@@ -13123,7 +13123,7 @@ export function TarievenContent() {
                         flexDirection: "column",
                         alignItems: "center",
                         textAlign: "center",
-                        gap: "6px",
+                        gap: "8px",
                       }}
                     >
                       <h3
@@ -13148,7 +13148,7 @@ export function TarievenContent() {
                           fontSize: "56px",
                           lineHeight: "1",
                           letterSpacing: "-0.02em",
-                          marginTop: "14px",
+                          marginTop: "16px",
                           color: "inherit",
                         }}
                       >
@@ -13168,7 +13168,7 @@ export function TarievenContent() {
                             color: "#1F246C",
                             border: "1px solid #1F246C",
                             textDecoration: "none",
-                            padding: "14px 18px",
+                            padding: "16px 20px",
                             borderRadius: "8px",
                             fontWeight: "700",
                             fontSize: "16px",
@@ -13198,7 +13198,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -13221,7 +13221,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -13267,7 +13267,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -13313,7 +13313,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -13364,7 +13364,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -13412,14 +13412,14 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Merkverhaal / merkstrategie")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("Incl. 2 strategische sessies")}</span>
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -13464,14 +13464,14 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Logovoorstellen")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("5")}</span>
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -13520,7 +13520,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -13566,7 +13566,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -13612,7 +13612,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -13661,7 +13661,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -13707,7 +13707,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -13753,7 +13753,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -13798,7 +13798,7 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>
                         {t("Bestandsformaten")}
@@ -13810,7 +13810,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -13859,7 +13859,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -13904,25 +13904,25 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Extra online consultancy")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("Tot 3 begeleidende sessies")}</span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Correctierondes")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("Max. 5")}</span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Levertijd")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("Vanaf 4 weken")}</span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Meerwerk")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("€130 p/uur")}</span>
@@ -14017,7 +14017,7 @@ export function TarievenContent() {
         <>
           <section className="pj-wrap pj-sec tf-res1" style={{ background: "#F2F8FE", padding: "88px 40px 112px" }}>
             <div style={{ maxWidth: "1280px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "40px" }}>
-              <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "14px", textAlign: "center" }}>
+              <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "16px", textAlign: "center" }}>
                 <h2
                   style={{
                     margin: "0",
@@ -14048,7 +14048,7 @@ export function TarievenContent() {
                   {t("Een website op maat, voor een vast bedrag, zodat je precies weet waar je aan toe bent.")}
                 </p>
               </div>
-              <div className="tf-scroll" style={{ width: "100%", maxWidth: "1200px", margin: "0 auto", paddingTop: "14px" }}>
+              <div className="tf-scroll" style={{ width: "100%", maxWidth: "1200px", margin: "0 auto", paddingTop: "16px" }}>
                 <div
                   className="tf-table tf-combo"
                   data-sel={h.tfmPlan}
@@ -14066,7 +14066,7 @@ export function TarievenContent() {
                           background: "#FFFFFF",
                           color: "#1F246C",
                           borderRadius: "24px 24px 0 0",
-                          padding: "40px 22px 28px",
+                          padding: "40px 24px 28px",
                           height: "100%",
                           width: "100%",
                           boxSizing: "border-box",
@@ -14074,7 +14074,7 @@ export function TarievenContent() {
                           flexDirection: "column",
                           alignItems: "center",
                           textAlign: "center",
-                          gap: "6px",
+                          gap: "8px",
                         }}
                       >
                         <h3
@@ -14091,7 +14091,7 @@ export function TarievenContent() {
                         >
                           {"Basic"}
                         </h3>
-                        <span style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273", marginTop: "14px" }}>{t("vanaf")}</span>
+                        <span style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273", marginTop: "16px" }}>{t("vanaf")}</span>
                         <span
                           className="tf-price"
                           style={{
@@ -14120,7 +14120,7 @@ export function TarievenContent() {
                               color: "#1F246C",
                               border: "1px solid #1F246C",
                               textDecoration: "none",
-                              padding: "14px 18px",
+                              padding: "16px 20px",
                               borderRadius: "8px",
                               fontWeight: "700",
                               fontSize: "16px",
@@ -14156,7 +14156,7 @@ export function TarievenContent() {
                           background: "linear-gradient(160deg, #8639FA 0%, #0F8AE5 100%)",
                           color: "#FFFFFF",
                           borderRadius: "24px 24px 0 0",
-                          padding: "40px 22px 28px",
+                          padding: "40px 24px 28px",
                           height: "100%",
                           width: "100%",
                           boxSizing: "border-box",
@@ -14164,7 +14164,7 @@ export function TarievenContent() {
                           flexDirection: "column",
                           alignItems: "center",
                           textAlign: "center",
-                          gap: "6px",
+                          gap: "8px",
                         }}
                       >
                         <span
@@ -14181,7 +14181,7 @@ export function TarievenContent() {
                             color: "#6B2BD9",
                             background: "#FFFFFF",
                             border: "1px solid #EFE8FD",
-                            padding: "5px 12px",
+                            padding: "4px 12px",
                             borderRadius: "999px",
                             whiteSpace: "nowrap",
                           }}
@@ -14202,7 +14202,7 @@ export function TarievenContent() {
                         >
                           {"Standard"}
                         </h3>
-                        <span style={{ fontSize: "13px", fontWeight: "600", color: "#E6E9F8", marginTop: "14px" }}>{t("vanaf")}</span>
+                        <span style={{ fontSize: "13px", fontWeight: "600", color: "#E6E9F8", marginTop: "16px" }}>{t("vanaf")}</span>
                         <span
                           className="tf-price"
                           style={{
@@ -14230,7 +14230,7 @@ export function TarievenContent() {
                               background: "#FFFFFF",
                               color: "#1F246C",
                               textDecoration: "none",
-                              padding: "14px 18px",
+                              padding: "16px 20px",
                               borderRadius: "8px",
                               fontWeight: "700",
                               fontSize: "16px",
@@ -14267,7 +14267,7 @@ export function TarievenContent() {
                           background: "#FFFFFF",
                           color: "#1F246C",
                           borderRadius: "24px 24px 0 0",
-                          padding: "40px 22px 28px",
+                          padding: "40px 24px 28px",
                           height: "100%",
                           width: "100%",
                           boxSizing: "border-box",
@@ -14275,7 +14275,7 @@ export function TarievenContent() {
                           flexDirection: "column",
                           alignItems: "center",
                           textAlign: "center",
-                          gap: "6px",
+                          gap: "8px",
                         }}
                       >
                         <h3
@@ -14292,7 +14292,7 @@ export function TarievenContent() {
                         >
                           {"Premium"}
                         </h3>
-                        <span style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273", marginTop: "14px" }}>{t("vanaf")}</span>
+                        <span style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273", marginTop: "16px" }}>{t("vanaf")}</span>
                         <span
                           className="tf-price"
                           style={{
@@ -14321,7 +14321,7 @@ export function TarievenContent() {
                               color: "#1F246C",
                               border: "1px solid #1F246C",
                               textDecoration: "none",
-                              padding: "14px 18px",
+                              padding: "16px 20px",
                               borderRadius: "8px",
                               fontWeight: "700",
                               fontSize: "16px",
@@ -14371,7 +14371,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -14418,7 +14418,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -14467,7 +14467,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -14527,7 +14527,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -14543,7 +14543,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -14561,7 +14561,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -14593,7 +14593,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -14640,7 +14640,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -14689,7 +14689,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -14754,7 +14754,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -14770,7 +14770,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -14788,7 +14788,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -14823,7 +14823,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -14870,7 +14870,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -14919,7 +14919,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -14984,7 +14984,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -15031,7 +15031,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -15080,7 +15080,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -15143,7 +15143,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -15190,7 +15190,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -15239,7 +15239,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -15304,7 +15304,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -15328,7 +15328,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -15346,7 +15346,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -15375,7 +15375,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -15391,7 +15391,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -15409,7 +15409,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -15438,7 +15438,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -15454,7 +15454,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -15472,7 +15472,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -15501,7 +15501,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -15517,7 +15517,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -15535,7 +15535,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -15564,7 +15564,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -15580,7 +15580,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -15598,7 +15598,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -15627,7 +15627,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -15643,7 +15643,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -15661,7 +15661,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -15697,7 +15697,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -15713,7 +15713,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -15731,7 +15731,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -15763,7 +15763,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -15779,7 +15779,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -15797,7 +15797,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -15829,7 +15829,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -15878,7 +15878,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -15929,7 +15929,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -15991,7 +15991,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -16007,7 +16007,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -16025,7 +16025,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -16054,7 +16054,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -16070,7 +16070,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -16088,7 +16088,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -16112,7 +16112,7 @@ export function TarievenContent() {
                     scrollSnapType: "x mandatory",
                     scrollbarWidth: "none",
                     margin: "0 -20px",
-                    padding: "18px 7% 6px",
+                    padding: "20px 7% 8px",
                     alignItems: "flex-start",
                   }}
                 >
@@ -16135,7 +16135,7 @@ export function TarievenContent() {
                         background: "#FFFFFF",
                         color: "#1F246C",
                         borderRadius: "24px 24px 0 0",
-                        padding: "40px 22px 28px",
+                        padding: "40px 24px 28px",
                         height: "100%",
                         width: "100%",
                         boxSizing: "border-box",
@@ -16143,7 +16143,7 @@ export function TarievenContent() {
                         flexDirection: "column",
                         alignItems: "center",
                         textAlign: "center",
-                        gap: "6px",
+                        gap: "8px",
                       }}
                     >
                       <h3
@@ -16160,7 +16160,7 @@ export function TarievenContent() {
                       >
                         {"Basic"}
                       </h3>
-                      <span style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273", marginTop: "14px" }}>{t("vanaf")}</span>
+                      <span style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273", marginTop: "16px" }}>{t("vanaf")}</span>
                       <span
                         className="tf-price"
                         style={{
@@ -16189,7 +16189,7 @@ export function TarievenContent() {
                             color: "#1F246C",
                             border: "1px solid #1F246C",
                             textDecoration: "none",
-                            padding: "14px 18px",
+                            padding: "16px 20px",
                             borderRadius: "8px",
                             fontWeight: "700",
                             fontSize: "16px",
@@ -16219,7 +16219,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -16264,14 +16264,14 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Pagina's")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("Tot 5")}</span>
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -16319,7 +16319,7 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>
                         {t("Betaal- en verzendmethodes instellen")}
@@ -16331,7 +16331,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -16383,7 +16383,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -16434,7 +16434,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -16483,7 +16483,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -16510,7 +16510,7 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Geschreven content")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>
@@ -16518,31 +16518,31 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Algemene voorwaarden")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("Klant levert aan")}</span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Privacybeleid")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("Klant levert aan")}</span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Retour- en garantiebeleid")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("Klant levert aan")}</span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Social-media-accounts")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("Klant levert aan")}</span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>
                         {t("Cookiebot (indien nodig)")}
@@ -16555,7 +16555,7 @@ export function TarievenContent() {
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("€7 per maand")}</span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>
                         {t("Domeinregistratie (verplicht)")}
@@ -16564,7 +16564,7 @@ export function TarievenContent() {
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("Afhankelijk van domeinnaam")}</span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>
                         {t("Hosting")}
@@ -16608,13 +16608,13 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Levertijd")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("Vanaf 1 maand*")}</span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Meerwerk")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("€130 p/uur")}</span>
@@ -16640,7 +16640,7 @@ export function TarievenContent() {
                         background: "linear-gradient(160deg, #8639FA 0%, #0F8AE5 100%)",
                         color: "#FFFFFF",
                         borderRadius: "24px 24px 0 0",
-                        padding: "40px 22px 28px",
+                        padding: "40px 24px 28px",
                         height: "100%",
                         width: "100%",
                         boxSizing: "border-box",
@@ -16648,7 +16648,7 @@ export function TarievenContent() {
                         flexDirection: "column",
                         alignItems: "center",
                         textAlign: "center",
-                        gap: "6px",
+                        gap: "8px",
                       }}
                     >
                       <span
@@ -16665,7 +16665,7 @@ export function TarievenContent() {
                           color: "#6B2BD9",
                           background: "#FFFFFF",
                           border: "1px solid #EFE8FD",
-                          padding: "5px 12px",
+                          padding: "4px 12px",
                           borderRadius: "999px",
                           whiteSpace: "nowrap",
                         }}
@@ -16686,7 +16686,7 @@ export function TarievenContent() {
                       >
                         {"Standard"}
                       </h3>
-                      <span style={{ fontSize: "13px", fontWeight: "600", color: "#E6E9F8", marginTop: "14px" }}>{t("vanaf")}</span>
+                      <span style={{ fontSize: "13px", fontWeight: "600", color: "#E6E9F8", marginTop: "16px" }}>{t("vanaf")}</span>
                       <span
                         className="tf-price"
                         style={{
@@ -16714,7 +16714,7 @@ export function TarievenContent() {
                             background: "#FFFFFF",
                             color: "#1F246C",
                             textDecoration: "none",
-                            padding: "14px 18px",
+                            padding: "16px 20px",
                             borderRadius: "8px",
                             fontWeight: "700",
                             fontSize: "16px",
@@ -16745,7 +16745,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -16790,14 +16790,14 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Pagina's")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("Tot 15")}</span>
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -16845,7 +16845,7 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>
                         {t("Betaal- en verzendmethodes instellen")}
@@ -16857,7 +16857,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -16909,7 +16909,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -16960,7 +16960,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -17008,7 +17008,7 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>
                         {t("E-mailmarketingintegratie")}
@@ -17021,7 +17021,7 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Geschreven content")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>
@@ -17029,31 +17029,31 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Algemene voorwaarden")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("Klant levert aan")}</span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Privacybeleid")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("Klant levert aan")}</span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Retour- en garantiebeleid")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("Klant levert aan")}</span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Social-media-accounts")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("Klant levert aan")}</span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>
                         {t("Cookiebot (indien nodig)")}
@@ -17066,7 +17066,7 @@ export function TarievenContent() {
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("€7 per maand")}</span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>
                         {t("Domeinregistratie (verplicht)")}
@@ -17075,7 +17075,7 @@ export function TarievenContent() {
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("Afhankelijk van domeinnaam")}</span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>
                         {t("Hosting")}
@@ -17119,13 +17119,13 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Levertijd")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("Vanaf 1,5 maand*")}</span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Meerwerk")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("€130 p/uur")}</span>
@@ -17150,7 +17150,7 @@ export function TarievenContent() {
                         background: "#FFFFFF",
                         color: "#1F246C",
                         borderRadius: "24px 24px 0 0",
-                        padding: "40px 22px 28px",
+                        padding: "40px 24px 28px",
                         height: "100%",
                         width: "100%",
                         boxSizing: "border-box",
@@ -17158,7 +17158,7 @@ export function TarievenContent() {
                         flexDirection: "column",
                         alignItems: "center",
                         textAlign: "center",
-                        gap: "6px",
+                        gap: "8px",
                       }}
                     >
                       <h3
@@ -17175,7 +17175,7 @@ export function TarievenContent() {
                       >
                         {"Premium"}
                       </h3>
-                      <span style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273", marginTop: "14px" }}>{t("vanaf")}</span>
+                      <span style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273", marginTop: "16px" }}>{t("vanaf")}</span>
                       <span
                         className="tf-price"
                         style={{
@@ -17204,7 +17204,7 @@ export function TarievenContent() {
                             color: "#1F246C",
                             border: "1px solid #1F246C",
                             textDecoration: "none",
-                            padding: "14px 18px",
+                            padding: "16px 20px",
                             borderRadius: "8px",
                             fontWeight: "700",
                             fontSize: "16px",
@@ -17234,7 +17234,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -17279,14 +17279,14 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Pagina's")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("Tot 25")}</span>
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -17334,7 +17334,7 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>
                         {t("Betaal- en verzendmethodes instellen")}
@@ -17346,7 +17346,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -17398,7 +17398,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -17449,7 +17449,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -17497,7 +17497,7 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>
                         {t("E-mailmarketingintegratie")}
@@ -17510,7 +17510,7 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Geschreven content")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>
@@ -17518,31 +17518,31 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Algemene voorwaarden")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("Maatwerk door onze jurist")}</span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Privacybeleid")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("Maatwerk door onze jurist")}</span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Retour- en garantiebeleid")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("Maatwerk door onze jurist")}</span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Social-media-accounts")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("Klant levert aan")}</span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>
                         {t("Cookiebot (indien nodig)")}
@@ -17555,7 +17555,7 @@ export function TarievenContent() {
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("€7 per maand")}</span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>
                         {t("Domeinregistratie (verplicht)")}
@@ -17564,7 +17564,7 @@ export function TarievenContent() {
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("Afhankelijk van domeinnaam")}</span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>
                         {t("Hosting")}
@@ -17608,13 +17608,13 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Levertijd")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("Vanaf 2 maanden*")}</span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Meerwerk")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("€130 p/uur")}</span>
@@ -17712,7 +17712,7 @@ export function TarievenContent() {
         <>
           <section className="pj-wrap pj-sec tf-res1" style={{ background: "#F2F8FE", padding: "88px 40px 112px" }}>
             <div style={{ maxWidth: "1280px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "40px" }}>
-              <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "14px", textAlign: "center" }}>
+              <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "16px", textAlign: "center" }}>
                 <h2
                   style={{
                     margin: "0",
@@ -17743,7 +17743,7 @@ export function TarievenContent() {
                   {t("Een webshop in Shopify, voor een vast bedrag, zodat je precies weet waar je aan toe bent.")}
                 </p>
               </div>
-              <div className="tf-scroll" style={{ width: "100%", maxWidth: "1200px", margin: "0 auto", paddingTop: "14px" }}>
+              <div className="tf-scroll" style={{ width: "100%", maxWidth: "1200px", margin: "0 auto", paddingTop: "16px" }}>
                 <div
                   className="tf-table tf-combo"
                   data-sel={h.tfmPlan}
@@ -17761,7 +17761,7 @@ export function TarievenContent() {
                           background: "#FFFFFF",
                           color: "#1F246C",
                           borderRadius: "24px 24px 0 0",
-                          padding: "40px 22px 28px",
+                          padding: "40px 24px 28px",
                           height: "100%",
                           width: "100%",
                           boxSizing: "border-box",
@@ -17769,7 +17769,7 @@ export function TarievenContent() {
                           flexDirection: "column",
                           alignItems: "center",
                           textAlign: "center",
-                          gap: "6px",
+                          gap: "8px",
                         }}
                       >
                         <h3
@@ -17786,7 +17786,7 @@ export function TarievenContent() {
                         >
                           {"Basic"}
                         </h3>
-                        <span style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273", marginTop: "14px" }}>{t("vanaf")}</span>
+                        <span style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273", marginTop: "16px" }}>{t("vanaf")}</span>
                         <span
                           className="tf-price"
                           style={{
@@ -17815,7 +17815,7 @@ export function TarievenContent() {
                               color: "#1F246C",
                               border: "1px solid #1F246C",
                               textDecoration: "none",
-                              padding: "14px 18px",
+                              padding: "16px 20px",
                               borderRadius: "8px",
                               fontWeight: "700",
                               fontSize: "16px",
@@ -17851,7 +17851,7 @@ export function TarievenContent() {
                           background: "linear-gradient(160deg, #8639FA 0%, #0F8AE5 100%)",
                           color: "#FFFFFF",
                           borderRadius: "24px 24px 0 0",
-                          padding: "40px 22px 28px",
+                          padding: "40px 24px 28px",
                           height: "100%",
                           width: "100%",
                           boxSizing: "border-box",
@@ -17859,7 +17859,7 @@ export function TarievenContent() {
                           flexDirection: "column",
                           alignItems: "center",
                           textAlign: "center",
-                          gap: "6px",
+                          gap: "8px",
                         }}
                       >
                         <span
@@ -17876,7 +17876,7 @@ export function TarievenContent() {
                             color: "#6B2BD9",
                             background: "#FFFFFF",
                             border: "1px solid #EFE8FD",
-                            padding: "5px 12px",
+                            padding: "4px 12px",
                             borderRadius: "999px",
                             whiteSpace: "nowrap",
                           }}
@@ -17897,7 +17897,7 @@ export function TarievenContent() {
                         >
                           {"Standard"}
                         </h3>
-                        <span style={{ fontSize: "13px", fontWeight: "600", color: "#E6E9F8", marginTop: "14px" }}>{t("vanaf")}</span>
+                        <span style={{ fontSize: "13px", fontWeight: "600", color: "#E6E9F8", marginTop: "16px" }}>{t("vanaf")}</span>
                         <span
                           className="tf-price"
                           style={{
@@ -17925,7 +17925,7 @@ export function TarievenContent() {
                               background: "#FFFFFF",
                               color: "#1F246C",
                               textDecoration: "none",
-                              padding: "14px 18px",
+                              padding: "16px 20px",
                               borderRadius: "8px",
                               fontWeight: "700",
                               fontSize: "16px",
@@ -17962,7 +17962,7 @@ export function TarievenContent() {
                           background: "#FFFFFF",
                           color: "#1F246C",
                           borderRadius: "24px 24px 0 0",
-                          padding: "40px 22px 28px",
+                          padding: "40px 24px 28px",
                           height: "100%",
                           width: "100%",
                           boxSizing: "border-box",
@@ -17970,7 +17970,7 @@ export function TarievenContent() {
                           flexDirection: "column",
                           alignItems: "center",
                           textAlign: "center",
-                          gap: "6px",
+                          gap: "8px",
                         }}
                       >
                         <h3
@@ -17987,7 +17987,7 @@ export function TarievenContent() {
                         >
                           {"Premium"}
                         </h3>
-                        <span style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273", marginTop: "14px" }}>{t("vanaf")}</span>
+                        <span style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273", marginTop: "16px" }}>{t("vanaf")}</span>
                         <span
                           className="tf-price"
                           style={{
@@ -18016,7 +18016,7 @@ export function TarievenContent() {
                               color: "#1F246C",
                               border: "1px solid #1F246C",
                               textDecoration: "none",
-                              padding: "14px 18px",
+                              padding: "16px 20px",
                               borderRadius: "8px",
                               fontWeight: "700",
                               fontSize: "16px",
@@ -18066,7 +18066,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -18082,7 +18082,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -18100,7 +18100,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -18129,7 +18129,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -18176,7 +18176,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -18225,7 +18225,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -18259,7 +18259,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -18275,7 +18275,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -18298,7 +18298,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -18330,7 +18330,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -18377,7 +18377,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -18426,7 +18426,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -18491,7 +18491,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -18507,7 +18507,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -18525,7 +18525,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -18560,7 +18560,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -18607,7 +18607,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -18656,7 +18656,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -18721,7 +18721,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -18768,7 +18768,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -18817,7 +18817,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -18880,7 +18880,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -18927,7 +18927,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -18976,7 +18976,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -19036,7 +19036,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -19052,7 +19052,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -19070,7 +19070,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -19104,7 +19104,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -19120,7 +19120,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -19138,7 +19138,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -19167,7 +19167,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -19183,7 +19183,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -19201,7 +19201,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -19230,7 +19230,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -19254,7 +19254,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -19280,7 +19280,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -19309,7 +19309,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -19325,7 +19325,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -19343,7 +19343,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -19372,7 +19372,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -19388,7 +19388,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -19406,7 +19406,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -19435,7 +19435,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -19451,7 +19451,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -19469,7 +19469,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -19498,7 +19498,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -19514,7 +19514,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -19532,7 +19532,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -19561,7 +19561,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -19577,7 +19577,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -19595,7 +19595,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -19631,7 +19631,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -19647,7 +19647,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -19665,7 +19665,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -19697,7 +19697,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -19748,7 +19748,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -19801,7 +19801,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -19868,7 +19868,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -19884,7 +19884,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -19902,7 +19902,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -19931,7 +19931,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -19947,7 +19947,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -19965,7 +19965,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -19994,7 +19994,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -20010,7 +20010,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -20028,7 +20028,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -20052,7 +20052,7 @@ export function TarievenContent() {
                     scrollSnapType: "x mandatory",
                     scrollbarWidth: "none",
                     margin: "0 -20px",
-                    padding: "18px 7% 6px",
+                    padding: "20px 7% 8px",
                     alignItems: "flex-start",
                   }}
                 >
@@ -20075,7 +20075,7 @@ export function TarievenContent() {
                         background: "#FFFFFF",
                         color: "#1F246C",
                         borderRadius: "24px 24px 0 0",
-                        padding: "40px 22px 28px",
+                        padding: "40px 24px 28px",
                         height: "100%",
                         width: "100%",
                         boxSizing: "border-box",
@@ -20083,7 +20083,7 @@ export function TarievenContent() {
                         flexDirection: "column",
                         alignItems: "center",
                         textAlign: "center",
-                        gap: "6px",
+                        gap: "8px",
                       }}
                     >
                       <h3
@@ -20100,7 +20100,7 @@ export function TarievenContent() {
                       >
                         {"Basic"}
                       </h3>
-                      <span style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273", marginTop: "14px" }}>{t("vanaf")}</span>
+                      <span style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273", marginTop: "16px" }}>{t("vanaf")}</span>
                       <span
                         className="tf-price"
                         style={{
@@ -20129,7 +20129,7 @@ export function TarievenContent() {
                             color: "#1F246C",
                             border: "1px solid #1F246C",
                             textDecoration: "none",
-                            padding: "14px 18px",
+                            padding: "16px 20px",
                             borderRadius: "8px",
                             fontWeight: "700",
                             fontSize: "16px",
@@ -20158,14 +20158,14 @@ export function TarievenContent() {
                       </div>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Ontwerp")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("Op basis van bestaand theme")}</span>
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -20210,7 +20210,7 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>
                         {t("Producten toevoegen")}
@@ -20222,7 +20222,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -20270,7 +20270,7 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>
                         {t("Betaal- en verzendmethodes instellen")}
@@ -20282,7 +20282,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -20334,7 +20334,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -20385,7 +20385,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -20433,13 +20433,13 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Correcties en verbeteringen")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("Tot 1 week na oplevering")}</span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>
                         {t("E-mailmarketingintegratie")}
@@ -20450,7 +20450,7 @@ export function TarievenContent() {
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("Shopify Email (basisinstelling)")}</span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Training en overdracht")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>
@@ -20459,7 +20459,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -20481,7 +20481,7 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Geschreven content")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>
@@ -20489,31 +20489,31 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Algemene voorwaarden")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("Klant levert aan")}</span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Privacybeleid")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("Klant levert aan")}</span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Retour- en garantiebeleid")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("Klant levert aan")}</span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Social-media-accounts")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("Klant levert aan")}</span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>
                         {t("Cookiebot (indien nodig)")}
@@ -20526,7 +20526,7 @@ export function TarievenContent() {
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("€7 per maand")}</span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>
                         {t("Hosting (via Shopify)")}
@@ -20572,7 +20572,7 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>
                         {t("Domeinregistratie")}
@@ -20581,13 +20581,13 @@ export function TarievenContent() {
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("Afhankelijk van domeinnaam")}</span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Levertijd")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("Vanaf 1 maand*")}</span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Meerwerk")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("€130 p/uur")}</span>
@@ -20613,7 +20613,7 @@ export function TarievenContent() {
                         background: "linear-gradient(160deg, #8639FA 0%, #0F8AE5 100%)",
                         color: "#FFFFFF",
                         borderRadius: "24px 24px 0 0",
-                        padding: "40px 22px 28px",
+                        padding: "40px 24px 28px",
                         height: "100%",
                         width: "100%",
                         boxSizing: "border-box",
@@ -20621,7 +20621,7 @@ export function TarievenContent() {
                         flexDirection: "column",
                         alignItems: "center",
                         textAlign: "center",
-                        gap: "6px",
+                        gap: "8px",
                       }}
                     >
                       <span
@@ -20638,7 +20638,7 @@ export function TarievenContent() {
                           color: "#6B2BD9",
                           background: "#FFFFFF",
                           border: "1px solid #EFE8FD",
-                          padding: "5px 12px",
+                          padding: "4px 12px",
                           borderRadius: "999px",
                           whiteSpace: "nowrap",
                         }}
@@ -20659,7 +20659,7 @@ export function TarievenContent() {
                       >
                         {"Standard"}
                       </h3>
-                      <span style={{ fontSize: "13px", fontWeight: "600", color: "#E6E9F8", marginTop: "14px" }}>{t("vanaf")}</span>
+                      <span style={{ fontSize: "13px", fontWeight: "600", color: "#E6E9F8", marginTop: "16px" }}>{t("vanaf")}</span>
                       <span
                         className="tf-price"
                         style={{
@@ -20687,7 +20687,7 @@ export function TarievenContent() {
                             background: "#FFFFFF",
                             color: "#1F246C",
                             textDecoration: "none",
-                            padding: "14px 18px",
+                            padding: "16px 20px",
                             borderRadius: "8px",
                             fontWeight: "700",
                             fontSize: "16px",
@@ -20717,14 +20717,14 @@ export function TarievenContent() {
                       </div>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Ontwerp")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("Volledig op maat")}</span>
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -20769,7 +20769,7 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>
                         {t("Producten toevoegen")}
@@ -20783,7 +20783,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -20831,7 +20831,7 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>
                         {t("Betaal- en verzendmethodes instellen")}
@@ -20843,7 +20843,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -20895,7 +20895,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -20946,7 +20946,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -20994,13 +20994,13 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Correcties en verbeteringen")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("Tot 2 weken na oplevering")}</span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>
                         {t("E-mailmarketingintegratie")}
@@ -21013,14 +21013,14 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Training en overdracht")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("Persoonlijke walkthrough")}</span>
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -21042,7 +21042,7 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Geschreven content")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>
@@ -21050,31 +21050,31 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Algemene voorwaarden")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("Klant levert aan")}</span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Privacybeleid")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("Klant levert aan")}</span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Retour- en garantiebeleid")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("Klant levert aan")}</span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Social-media-accounts")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("Klant levert aan")}</span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>
                         {t("Cookiebot (indien nodig)")}
@@ -21087,7 +21087,7 @@ export function TarievenContent() {
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("€7 per maand")}</span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>
                         {t("Hosting (via Shopify)")}
@@ -21133,7 +21133,7 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>
                         {t("Domeinregistratie")}
@@ -21142,13 +21142,13 @@ export function TarievenContent() {
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("Afhankelijk van domeinnaam")}</span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Levertijd")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("Vanaf 1,5 maand*")}</span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Meerwerk")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("€130 p/uur")}</span>
@@ -21173,7 +21173,7 @@ export function TarievenContent() {
                         background: "#FFFFFF",
                         color: "#1F246C",
                         borderRadius: "24px 24px 0 0",
-                        padding: "40px 22px 28px",
+                        padding: "40px 24px 28px",
                         height: "100%",
                         width: "100%",
                         boxSizing: "border-box",
@@ -21181,7 +21181,7 @@ export function TarievenContent() {
                         flexDirection: "column",
                         alignItems: "center",
                         textAlign: "center",
-                        gap: "6px",
+                        gap: "8px",
                       }}
                     >
                       <h3
@@ -21198,7 +21198,7 @@ export function TarievenContent() {
                       >
                         {"Premium"}
                       </h3>
-                      <span style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273", marginTop: "14px" }}>{t("vanaf")}</span>
+                      <span style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273", marginTop: "16px" }}>{t("vanaf")}</span>
                       <span
                         className="tf-price"
                         style={{
@@ -21227,7 +21227,7 @@ export function TarievenContent() {
                             color: "#1F246C",
                             border: "1px solid #1F246C",
                             textDecoration: "none",
-                            padding: "14px 18px",
+                            padding: "16px 20px",
                             borderRadius: "8px",
                             fontWeight: "700",
                             fontSize: "16px",
@@ -21256,7 +21256,7 @@ export function TarievenContent() {
                       </div>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Ontwerp")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>
@@ -21264,7 +21264,7 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>
                         {t("Shopify-setup en configuratie")}
@@ -21272,7 +21272,7 @@ export function TarievenContent() {
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("Incl. geavanceerde instellingen")}</span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>
                         {t("Producten toevoegen")}
@@ -21286,7 +21286,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -21334,7 +21334,7 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>
                         {t("Betaal- en verzendmethodes instellen")}
@@ -21346,7 +21346,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -21398,7 +21398,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -21449,7 +21449,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -21497,13 +21497,13 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Correcties en verbeteringen")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("Tot 1 maand na oplevering")}</span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>
                         {t("E-mailmarketingintegratie")}
@@ -21516,7 +21516,7 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Training en overdracht")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>
@@ -21524,13 +21524,13 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Strategie en begeleiding")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("Incl. 2 sessies")}</span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Geschreven content")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>
@@ -21538,25 +21538,25 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Algemene voorwaarden")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("Maatwerk door onze jurist")}</span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Privacybeleid")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("Maatwerk door onze jurist")}</span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Retour- en garantiebeleid")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("Maatwerk door onze jurist")}</span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Social-media-accounts")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>
@@ -21564,7 +21564,7 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>
                         {t("Cookiebot (indien nodig)")}
@@ -21577,7 +21577,7 @@ export function TarievenContent() {
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("€7 per maand")}</span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>
                         {t("Hosting (via Shopify)")}
@@ -21623,7 +21623,7 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>
                         {t("Domeinregistratie")}
@@ -21632,13 +21632,13 @@ export function TarievenContent() {
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("Afhankelijk van domeinnaam")}</span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Levertijd")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("Vanaf 2 maanden*")}</span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Meerwerk")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("€130 p/uur")}</span>
@@ -21736,7 +21736,7 @@ export function TarievenContent() {
         <>
           <section className="pj-wrap pj-sec tf-res1" style={{ background: "#F2F8FE", padding: "88px 40px 112px" }}>
             <div style={{ maxWidth: "1280px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "40px" }}>
-              <div style={{ display: "flex", flexDirection: "column", gap: "14px", maxWidth: "760px" }}>
+              <div style={{ display: "flex", flexDirection: "column", gap: "16px", maxWidth: "760px" }}>
                 <h2
                   style={{
                     margin: "0",
@@ -21773,7 +21773,7 @@ export function TarievenContent() {
                 className="sv-plans"
                 style={{
                   margin: "0",
-                  padding: "14px 0 0",
+                  padding: "16px 0 0",
                   listStyle: "none",
                   display: "grid",
                   gridTemplateColumns: "repeat(4, minmax(0, 1fr))",
@@ -21787,10 +21787,10 @@ export function TarievenContent() {
                     background: "#FFFFFF",
                     color: "#1F246C",
                     borderRadius: "24px",
-                    padding: "36px 26px 28px",
+                    padding: "36px 28px 28px",
                     display: "flex",
                     flexDirection: "column",
-                    gap: "6px",
+                    gap: "8px",
                   }}
                 >
                   <h3
@@ -21820,14 +21820,14 @@ export function TarievenContent() {
                     {t("€10,99")}
                   </span>
                   <span style={{ fontSize: "14px", fontWeight: "600", color: "#5A6273" }}>{t("per maand, ex. btw")}</span>
-                  <span style={{ width: "100%", height: "1px", background: "#E4E6EA", margin: "18px 0 14px" }}></span>
+                  <span style={{ width: "100%", height: "1px", background: "#E4E6EA", margin: "20px 0 16px" }}></span>
                   <ul
-                    style={{ margin: "0 0 24px", padding: "0", listStyle: "none", display: "flex", flexDirection: "column", gap: "10px" }}
+                    style={{ margin: "0 0 24px", padding: "0", listStyle: "none", display: "flex", flexDirection: "column", gap: "12px" }}
                   >
                     <li
                       style={{
                         display: "flex",
-                        gap: "10px",
+                        gap: "12px",
                         alignItems: "flex-start",
                         fontSize: "15px",
                         lineHeight: "1.5",
@@ -21858,7 +21858,7 @@ export function TarievenContent() {
                     <li
                       style={{
                         display: "flex",
-                        gap: "10px",
+                        gap: "12px",
                         alignItems: "flex-start",
                         fontSize: "15px",
                         lineHeight: "1.5",
@@ -21889,7 +21889,7 @@ export function TarievenContent() {
                     <li
                       style={{
                         display: "flex",
-                        gap: "10px",
+                        gap: "12px",
                         alignItems: "flex-start",
                         fontSize: "15px",
                         lineHeight: "1.5",
@@ -21915,7 +21915,7 @@ export function TarievenContent() {
                     <li
                       style={{
                         display: "flex",
-                        gap: "10px",
+                        gap: "12px",
                         alignItems: "flex-start",
                         fontSize: "15px",
                         lineHeight: "1.5",
@@ -21941,7 +21941,7 @@ export function TarievenContent() {
                     <li
                       style={{
                         display: "flex",
-                        gap: "10px",
+                        gap: "12px",
                         alignItems: "flex-start",
                         fontSize: "15px",
                         lineHeight: "1.5",
@@ -21974,7 +21974,7 @@ export function TarievenContent() {
                     <li
                       style={{
                         display: "flex",
-                        gap: "10px",
+                        gap: "12px",
                         alignItems: "flex-start",
                         fontSize: "15px",
                         lineHeight: "1.5",
@@ -22002,7 +22002,7 @@ export function TarievenContent() {
                     <li
                       style={{
                         display: "flex",
-                        gap: "10px",
+                        gap: "12px",
                         alignItems: "flex-start",
                         fontSize: "15px",
                         lineHeight: "1.5",
@@ -22028,7 +22028,7 @@ export function TarievenContent() {
                     <li
                       style={{
                         display: "flex",
-                        gap: "10px",
+                        gap: "12px",
                         alignItems: "flex-start",
                         fontSize: "15px",
                         lineHeight: "1.5",
@@ -22054,7 +22054,7 @@ export function TarievenContent() {
                     <li
                       style={{
                         display: "flex",
-                        gap: "10px",
+                        gap: "12px",
                         alignItems: "flex-start",
                         fontSize: "15px",
                         lineHeight: "1.5",
@@ -22080,7 +22080,7 @@ export function TarievenContent() {
                     <li
                       style={{
                         display: "flex",
-                        gap: "10px",
+                        gap: "12px",
                         alignItems: "flex-start",
                         fontSize: "15px",
                         lineHeight: "1.5",
@@ -22106,7 +22106,7 @@ export function TarievenContent() {
                     <li
                       style={{
                         display: "flex",
-                        gap: "10px",
+                        gap: "12px",
                         alignItems: "flex-start",
                         fontSize: "15px",
                         lineHeight: "1.5",
@@ -22141,7 +22141,7 @@ export function TarievenContent() {
                         width: "100%",
                         boxSizing: "border-box",
                         minHeight: "50px",
-                        padding: "0 18px",
+                        padding: "0 20px",
                         borderRadius: "8px",
                         border: "1px solid #1F246C",
                         color: "#1F246C",
@@ -22173,10 +22173,10 @@ export function TarievenContent() {
                     background: "linear-gradient(160deg, #8639FA 0%, #0F8AE5 100%)",
                     color: "#FFFFFF",
                     borderRadius: "24px",
-                    padding: "36px 26px 28px",
+                    padding: "36px 28px 28px",
                     display: "flex",
                     flexDirection: "column",
-                    gap: "6px",
+                    gap: "8px",
                     boxShadow: "0 24px 50px rgba(134, 57, 250, 0.25)",
                   }}
                 >
@@ -22193,7 +22193,7 @@ export function TarievenContent() {
                       color: "#6B2BD9",
                       background: "#FFFFFF",
                       border: "1px solid #EFE8FD",
-                      padding: "5px 12px",
+                      padding: "4px 12px",
                       borderRadius: "999px",
                       whiteSpace: "nowrap",
                     }}
@@ -22227,14 +22227,14 @@ export function TarievenContent() {
                     {t("€12,99")}
                   </span>
                   <span style={{ fontSize: "14px", fontWeight: "600", color: "#E6E9F8" }}>{t("per maand, ex. btw")}</span>
-                  <span style={{ width: "100%", height: "1px", background: "rgba(255, 255, 255, 0.25)", margin: "18px 0 14px" }}></span>
+                  <span style={{ width: "100%", height: "1px", background: "rgba(255, 255, 255, 0.25)", margin: "20px 0 16px" }}></span>
                   <ul
-                    style={{ margin: "0 0 24px", padding: "0", listStyle: "none", display: "flex", flexDirection: "column", gap: "10px" }}
+                    style={{ margin: "0 0 24px", padding: "0", listStyle: "none", display: "flex", flexDirection: "column", gap: "12px" }}
                   >
                     <li
                       style={{
                         display: "flex",
-                        gap: "10px",
+                        gap: "12px",
                         alignItems: "flex-start",
                         fontSize: "15px",
                         lineHeight: "1.5",
@@ -22260,7 +22260,7 @@ export function TarievenContent() {
                     <li
                       style={{
                         display: "flex",
-                        gap: "10px",
+                        gap: "12px",
                         alignItems: "flex-start",
                         fontSize: "15px",
                         lineHeight: "1.5",
@@ -22286,7 +22286,7 @@ export function TarievenContent() {
                     <li
                       style={{
                         display: "flex",
-                        gap: "10px",
+                        gap: "12px",
                         alignItems: "flex-start",
                         fontSize: "15px",
                         lineHeight: "1.5",
@@ -22312,7 +22312,7 @@ export function TarievenContent() {
                     <li
                       style={{
                         display: "flex",
-                        gap: "10px",
+                        gap: "12px",
                         alignItems: "flex-start",
                         fontSize: "15px",
                         lineHeight: "1.5",
@@ -22338,7 +22338,7 @@ export function TarievenContent() {
                     <li
                       style={{
                         display: "flex",
-                        gap: "10px",
+                        gap: "12px",
                         alignItems: "flex-start",
                         fontSize: "15px",
                         lineHeight: "1.5",
@@ -22366,7 +22366,7 @@ export function TarievenContent() {
                     <li
                       style={{
                         display: "flex",
-                        gap: "10px",
+                        gap: "12px",
                         alignItems: "flex-start",
                         fontSize: "15px",
                         lineHeight: "1.5",
@@ -22394,7 +22394,7 @@ export function TarievenContent() {
                     <li
                       style={{
                         display: "flex",
-                        gap: "10px",
+                        gap: "12px",
                         alignItems: "flex-start",
                         fontSize: "15px",
                         lineHeight: "1.5",
@@ -22420,7 +22420,7 @@ export function TarievenContent() {
                     <li
                       style={{
                         display: "flex",
-                        gap: "10px",
+                        gap: "12px",
                         alignItems: "flex-start",
                         fontSize: "15px",
                         lineHeight: "1.5",
@@ -22446,7 +22446,7 @@ export function TarievenContent() {
                     <li
                       style={{
                         display: "flex",
-                        gap: "10px",
+                        gap: "12px",
                         alignItems: "flex-start",
                         fontSize: "15px",
                         lineHeight: "1.5",
@@ -22472,7 +22472,7 @@ export function TarievenContent() {
                     <li
                       style={{
                         display: "flex",
-                        gap: "10px",
+                        gap: "12px",
                         alignItems: "flex-start",
                         fontSize: "15px",
                         lineHeight: "1.5",
@@ -22498,7 +22498,7 @@ export function TarievenContent() {
                     <li
                       style={{
                         display: "flex",
-                        gap: "10px",
+                        gap: "12px",
                         alignItems: "flex-start",
                         fontSize: "15px",
                         lineHeight: "1.5",
@@ -22530,7 +22530,7 @@ export function TarievenContent() {
                         background: "#FFFFFF",
                         color: "#1F246C",
                         textDecoration: "none",
-                        padding: "14px 18px",
+                        padding: "16px 20px",
                         borderRadius: "8px",
                         fontWeight: "700",
                         fontSize: "16px",
@@ -22565,10 +22565,10 @@ export function TarievenContent() {
                     background: "#FFFFFF",
                     color: "#1F246C",
                     borderRadius: "24px",
-                    padding: "36px 26px 28px",
+                    padding: "36px 28px 28px",
                     display: "flex",
                     flexDirection: "column",
-                    gap: "6px",
+                    gap: "8px",
                   }}
                 >
                   <h3
@@ -22598,14 +22598,14 @@ export function TarievenContent() {
                     {t("€15,99")}
                   </span>
                   <span style={{ fontSize: "14px", fontWeight: "600", color: "#5A6273" }}>{t("per maand, ex. btw")}</span>
-                  <span style={{ width: "100%", height: "1px", background: "#E4E6EA", margin: "18px 0 14px" }}></span>
+                  <span style={{ width: "100%", height: "1px", background: "#E4E6EA", margin: "20px 0 16px" }}></span>
                   <ul
-                    style={{ margin: "0 0 24px", padding: "0", listStyle: "none", display: "flex", flexDirection: "column", gap: "10px" }}
+                    style={{ margin: "0 0 24px", padding: "0", listStyle: "none", display: "flex", flexDirection: "column", gap: "12px" }}
                   >
                     <li
                       style={{
                         display: "flex",
-                        gap: "10px",
+                        gap: "12px",
                         alignItems: "flex-start",
                         fontSize: "15px",
                         lineHeight: "1.5",
@@ -22631,7 +22631,7 @@ export function TarievenContent() {
                     <li
                       style={{
                         display: "flex",
-                        gap: "10px",
+                        gap: "12px",
                         alignItems: "flex-start",
                         fontSize: "15px",
                         lineHeight: "1.5",
@@ -22657,7 +22657,7 @@ export function TarievenContent() {
                     <li
                       style={{
                         display: "flex",
-                        gap: "10px",
+                        gap: "12px",
                         alignItems: "flex-start",
                         fontSize: "15px",
                         lineHeight: "1.5",
@@ -22683,7 +22683,7 @@ export function TarievenContent() {
                     <li
                       style={{
                         display: "flex",
-                        gap: "10px",
+                        gap: "12px",
                         alignItems: "flex-start",
                         fontSize: "15px",
                         lineHeight: "1.5",
@@ -22709,7 +22709,7 @@ export function TarievenContent() {
                     <li
                       style={{
                         display: "flex",
-                        gap: "10px",
+                        gap: "12px",
                         alignItems: "flex-start",
                         fontSize: "15px",
                         lineHeight: "1.5",
@@ -22737,7 +22737,7 @@ export function TarievenContent() {
                     <li
                       style={{
                         display: "flex",
-                        gap: "10px",
+                        gap: "12px",
                         alignItems: "flex-start",
                         fontSize: "15px",
                         lineHeight: "1.5",
@@ -22765,7 +22765,7 @@ export function TarievenContent() {
                     <li
                       style={{
                         display: "flex",
-                        gap: "10px",
+                        gap: "12px",
                         alignItems: "flex-start",
                         fontSize: "15px",
                         lineHeight: "1.5",
@@ -22791,7 +22791,7 @@ export function TarievenContent() {
                     <li
                       style={{
                         display: "flex",
-                        gap: "10px",
+                        gap: "12px",
                         alignItems: "flex-start",
                         fontSize: "15px",
                         lineHeight: "1.5",
@@ -22817,7 +22817,7 @@ export function TarievenContent() {
                     <li
                       style={{
                         display: "flex",
-                        gap: "10px",
+                        gap: "12px",
                         alignItems: "flex-start",
                         fontSize: "15px",
                         lineHeight: "1.5",
@@ -22843,7 +22843,7 @@ export function TarievenContent() {
                     <li
                       style={{
                         display: "flex",
-                        gap: "10px",
+                        gap: "12px",
                         alignItems: "flex-start",
                         fontSize: "15px",
                         lineHeight: "1.5",
@@ -22869,7 +22869,7 @@ export function TarievenContent() {
                     <li
                       style={{
                         display: "flex",
-                        gap: "10px",
+                        gap: "12px",
                         alignItems: "flex-start",
                         fontSize: "15px",
                         lineHeight: "1.5",
@@ -22904,7 +22904,7 @@ export function TarievenContent() {
                         width: "100%",
                         boxSizing: "border-box",
                         minHeight: "50px",
-                        padding: "0 18px",
+                        padding: "0 20px",
                         borderRadius: "8px",
                         border: "1px solid #1F246C",
                         color: "#1F246C",
@@ -22936,10 +22936,10 @@ export function TarievenContent() {
                     background: "#FFFFFF",
                     color: "#1F246C",
                     borderRadius: "24px",
-                    padding: "36px 26px 28px",
+                    padding: "36px 28px 28px",
                     display: "flex",
                     flexDirection: "column",
-                    gap: "6px",
+                    gap: "8px",
                   }}
                 >
                   <h3
@@ -22969,14 +22969,14 @@ export function TarievenContent() {
                     {t("€22,09")}
                   </span>
                   <span style={{ fontSize: "14px", fontWeight: "600", color: "#5A6273" }}>{t("per maand, ex. btw")}</span>
-                  <span style={{ width: "100%", height: "1px", background: "#E4E6EA", margin: "18px 0 14px" }}></span>
+                  <span style={{ width: "100%", height: "1px", background: "#E4E6EA", margin: "20px 0 16px" }}></span>
                   <ul
-                    style={{ margin: "0 0 24px", padding: "0", listStyle: "none", display: "flex", flexDirection: "column", gap: "10px" }}
+                    style={{ margin: "0 0 24px", padding: "0", listStyle: "none", display: "flex", flexDirection: "column", gap: "12px" }}
                   >
                     <li
                       style={{
                         display: "flex",
-                        gap: "10px",
+                        gap: "12px",
                         alignItems: "flex-start",
                         fontSize: "15px",
                         lineHeight: "1.5",
@@ -23002,7 +23002,7 @@ export function TarievenContent() {
                     <li
                       style={{
                         display: "flex",
-                        gap: "10px",
+                        gap: "12px",
                         alignItems: "flex-start",
                         fontSize: "15px",
                         lineHeight: "1.5",
@@ -23028,7 +23028,7 @@ export function TarievenContent() {
                     <li
                       style={{
                         display: "flex",
-                        gap: "10px",
+                        gap: "12px",
                         alignItems: "flex-start",
                         fontSize: "15px",
                         lineHeight: "1.5",
@@ -23054,7 +23054,7 @@ export function TarievenContent() {
                     <li
                       style={{
                         display: "flex",
-                        gap: "10px",
+                        gap: "12px",
                         alignItems: "flex-start",
                         fontSize: "15px",
                         lineHeight: "1.5",
@@ -23080,7 +23080,7 @@ export function TarievenContent() {
                     <li
                       style={{
                         display: "flex",
-                        gap: "10px",
+                        gap: "12px",
                         alignItems: "flex-start",
                         fontSize: "15px",
                         lineHeight: "1.5",
@@ -23108,7 +23108,7 @@ export function TarievenContent() {
                     <li
                       style={{
                         display: "flex",
-                        gap: "10px",
+                        gap: "12px",
                         alignItems: "flex-start",
                         fontSize: "15px",
                         lineHeight: "1.5",
@@ -23136,7 +23136,7 @@ export function TarievenContent() {
                     <li
                       style={{
                         display: "flex",
-                        gap: "10px",
+                        gap: "12px",
                         alignItems: "flex-start",
                         fontSize: "15px",
                         lineHeight: "1.5",
@@ -23162,7 +23162,7 @@ export function TarievenContent() {
                     <li
                       style={{
                         display: "flex",
-                        gap: "10px",
+                        gap: "12px",
                         alignItems: "flex-start",
                         fontSize: "15px",
                         lineHeight: "1.5",
@@ -23188,7 +23188,7 @@ export function TarievenContent() {
                     <li
                       style={{
                         display: "flex",
-                        gap: "10px",
+                        gap: "12px",
                         alignItems: "flex-start",
                         fontSize: "15px",
                         lineHeight: "1.5",
@@ -23214,7 +23214,7 @@ export function TarievenContent() {
                     <li
                       style={{
                         display: "flex",
-                        gap: "10px",
+                        gap: "12px",
                         alignItems: "flex-start",
                         fontSize: "15px",
                         lineHeight: "1.5",
@@ -23240,7 +23240,7 @@ export function TarievenContent() {
                     <li
                       style={{
                         display: "flex",
-                        gap: "10px",
+                        gap: "12px",
                         alignItems: "flex-start",
                         fontSize: "15px",
                         lineHeight: "1.5",
@@ -23275,7 +23275,7 @@ export function TarievenContent() {
                         width: "100%",
                         boxSizing: "border-box",
                         minHeight: "50px",
-                        padding: "0 18px",
+                        padding: "0 20px",
                         borderRadius: "8px",
                         border: "1px solid #1F246C",
                         color: "#1F246C",
@@ -23310,7 +23310,7 @@ export function TarievenContent() {
         <>
           <section className="pj-wrap pj-sec tf-res1" style={{ background: "#F2F8FE", padding: "88px 40px 112px" }}>
             <div style={{ maxWidth: "1280px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "40px" }}>
-              <div style={{ display: "flex", flexDirection: "column", gap: "14px", maxWidth: "760px" }}>
+              <div style={{ display: "flex", flexDirection: "column", gap: "16px", maxWidth: "760px" }}>
                 <h2
                   style={{
                     margin: "0",
@@ -23347,7 +23347,7 @@ export function TarievenContent() {
                 className="sv-plans sv-plans3"
                 style={{
                   margin: "0",
-                  padding: "14px 0 0",
+                  padding: "16px 0 0",
                   listStyle: "none",
                   display: "grid",
                   gridTemplateColumns: "repeat(3, minmax(0, 1fr))",
@@ -23364,10 +23364,10 @@ export function TarievenContent() {
                     background: "#FFFFFF",
                     color: "#1F246C",
                     borderRadius: "24px",
-                    padding: "36px 26px 28px",
+                    padding: "36px 28px 28px",
                     display: "flex",
                     flexDirection: "column",
-                    gap: "6px",
+                    gap: "8px",
                   }}
                 >
                   <h3
@@ -23397,14 +23397,14 @@ export function TarievenContent() {
                     {t("€100")}
                   </span>
                   <span style={{ fontSize: "14px", fontWeight: "600", color: "#5A6273" }}>{t("per maand, ex. btw")}</span>
-                  <span style={{ width: "100%", height: "1px", background: "#E4E6EA", margin: "18px 0 14px" }}></span>
+                  <span style={{ width: "100%", height: "1px", background: "#E4E6EA", margin: "20px 0 16px" }}></span>
                   <ul
-                    style={{ margin: "0 0 24px", padding: "0", listStyle: "none", display: "flex", flexDirection: "column", gap: "10px" }}
+                    style={{ margin: "0 0 24px", padding: "0", listStyle: "none", display: "flex", flexDirection: "column", gap: "12px" }}
                   >
                     <li
                       style={{
                         display: "flex",
-                        gap: "10px",
+                        gap: "12px",
                         alignItems: "flex-start",
                         fontSize: "15px",
                         lineHeight: "1.5",
@@ -23430,7 +23430,7 @@ export function TarievenContent() {
                     <li
                       style={{
                         display: "flex",
-                        gap: "10px",
+                        gap: "12px",
                         alignItems: "flex-start",
                         fontSize: "15px",
                         lineHeight: "1.5",
@@ -23456,7 +23456,7 @@ export function TarievenContent() {
                     <li
                       style={{
                         display: "flex",
-                        gap: "10px",
+                        gap: "12px",
                         alignItems: "flex-start",
                         fontSize: "15px",
                         lineHeight: "1.5",
@@ -23482,7 +23482,7 @@ export function TarievenContent() {
                     <li
                       style={{
                         display: "flex",
-                        gap: "10px",
+                        gap: "12px",
                         alignItems: "flex-start",
                         fontSize: "15px",
                         lineHeight: "1.5",
@@ -23515,7 +23515,7 @@ export function TarievenContent() {
                       color: "#1F246C",
                       border: "1px solid #1F246C",
                       textDecoration: "none",
-                      padding: "14px 18px",
+                      padding: "16px 20px",
                       borderRadius: "8px",
                       fontWeight: "700",
                       fontSize: "16px",
@@ -23548,10 +23548,10 @@ export function TarievenContent() {
                     background: "linear-gradient(160deg, #8639FA 0%, #0F8AE5 100%)",
                     color: "#FFFFFF",
                     borderRadius: "24px",
-                    padding: "36px 26px 28px",
+                    padding: "36px 28px 28px",
                     display: "flex",
                     flexDirection: "column",
-                    gap: "6px",
+                    gap: "8px",
                     boxShadow: "0 24px 50px rgba(134, 57, 250, 0.25)",
                   }}
                 >
@@ -23568,7 +23568,7 @@ export function TarievenContent() {
                       color: "#6B2BD9",
                       background: "#FFFFFF",
                       border: "1px solid #EFE8FD",
-                      padding: "5px 12px",
+                      padding: "4px 12px",
                       borderRadius: "999px",
                       whiteSpace: "nowrap",
                     }}
@@ -23602,14 +23602,14 @@ export function TarievenContent() {
                     {t("€199")}
                   </span>
                   <span style={{ fontSize: "14px", fontWeight: "600", color: "#E6E9F8" }}>{t("per maand, ex. btw")}</span>
-                  <span style={{ width: "100%", height: "1px", background: "rgba(255, 255, 255, 0.3)", margin: "18px 0 14px" }}></span>
+                  <span style={{ width: "100%", height: "1px", background: "rgba(255, 255, 255, 0.3)", margin: "20px 0 16px" }}></span>
                   <ul
-                    style={{ margin: "0 0 24px", padding: "0", listStyle: "none", display: "flex", flexDirection: "column", gap: "10px" }}
+                    style={{ margin: "0 0 24px", padding: "0", listStyle: "none", display: "flex", flexDirection: "column", gap: "12px" }}
                   >
                     <li
                       style={{
                         display: "flex",
-                        gap: "10px",
+                        gap: "12px",
                         alignItems: "flex-start",
                         fontSize: "15px",
                         lineHeight: "1.5",
@@ -23635,7 +23635,7 @@ export function TarievenContent() {
                     <li
                       style={{
                         display: "flex",
-                        gap: "10px",
+                        gap: "12px",
                         alignItems: "flex-start",
                         fontSize: "15px",
                         lineHeight: "1.5",
@@ -23661,7 +23661,7 @@ export function TarievenContent() {
                     <li
                       style={{
                         display: "flex",
-                        gap: "10px",
+                        gap: "12px",
                         alignItems: "flex-start",
                         fontSize: "15px",
                         lineHeight: "1.5",
@@ -23687,7 +23687,7 @@ export function TarievenContent() {
                     <li
                       style={{
                         display: "flex",
-                        gap: "10px",
+                        gap: "12px",
                         alignItems: "flex-start",
                         fontSize: "15px",
                         lineHeight: "1.5",
@@ -23719,7 +23719,7 @@ export function TarievenContent() {
                       background: "#FFFFFF",
                       color: "#1F246C",
                       textDecoration: "none",
-                      padding: "14px 18px",
+                      padding: "16px 20px",
                       borderRadius: "8px",
                       fontWeight: "700",
                       fontSize: "16px",
@@ -23739,10 +23739,10 @@ export function TarievenContent() {
                     background: "#FFFFFF",
                     color: "#1F246C",
                     borderRadius: "24px",
-                    padding: "36px 26px 28px",
+                    padding: "36px 28px 28px",
                     display: "flex",
                     flexDirection: "column",
-                    gap: "6px",
+                    gap: "8px",
                   }}
                 >
                   <h3
@@ -23772,14 +23772,14 @@ export function TarievenContent() {
                     {t("€399")}
                   </span>
                   <span style={{ fontSize: "14px", fontWeight: "600", color: "#5A6273" }}>{t("per maand, ex. btw")}</span>
-                  <span style={{ width: "100%", height: "1px", background: "#E4E6EA", margin: "18px 0 14px" }}></span>
+                  <span style={{ width: "100%", height: "1px", background: "#E4E6EA", margin: "20px 0 16px" }}></span>
                   <ul
-                    style={{ margin: "0 0 24px", padding: "0", listStyle: "none", display: "flex", flexDirection: "column", gap: "10px" }}
+                    style={{ margin: "0 0 24px", padding: "0", listStyle: "none", display: "flex", flexDirection: "column", gap: "12px" }}
                   >
                     <li
                       style={{
                         display: "flex",
-                        gap: "10px",
+                        gap: "12px",
                         alignItems: "flex-start",
                         fontSize: "15px",
                         lineHeight: "1.5",
@@ -23805,7 +23805,7 @@ export function TarievenContent() {
                     <li
                       style={{
                         display: "flex",
-                        gap: "10px",
+                        gap: "12px",
                         alignItems: "flex-start",
                         fontSize: "15px",
                         lineHeight: "1.5",
@@ -23831,7 +23831,7 @@ export function TarievenContent() {
                     <li
                       style={{
                         display: "flex",
-                        gap: "10px",
+                        gap: "12px",
                         alignItems: "flex-start",
                         fontSize: "15px",
                         lineHeight: "1.5",
@@ -23857,7 +23857,7 @@ export function TarievenContent() {
                     <li
                       style={{
                         display: "flex",
-                        gap: "10px",
+                        gap: "12px",
                         alignItems: "flex-start",
                         fontSize: "15px",
                         lineHeight: "1.5",
@@ -23890,7 +23890,7 @@ export function TarievenContent() {
                       color: "#1F246C",
                       border: "1px solid #1F246C",
                       textDecoration: "none",
-                      padding: "14px 18px",
+                      padding: "16px 20px",
                       borderRadius: "8px",
                       fontWeight: "700",
                       fontSize: "16px",
@@ -23929,7 +23929,7 @@ export function TarievenContent() {
         <>
           <section className="pj-wrap pj-sec tf-res1" style={{ background: "#F2F8FE", padding: "88px 40px 112px" }}>
             <div style={{ maxWidth: "1280px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "40px" }}>
-              <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "14px", textAlign: "center" }}>
+              <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "16px", textAlign: "center" }}>
                 <h2
                   style={{
                     margin: "0",
@@ -23962,7 +23962,7 @@ export function TarievenContent() {
                   )}
                 </p>
               </div>
-              <div className="tf-scroll" style={{ width: "100%", maxWidth: "1200px", margin: "0 auto", paddingTop: "14px" }}>
+              <div className="tf-scroll" style={{ width: "100%", maxWidth: "1200px", margin: "0 auto", paddingTop: "16px" }}>
                 <div
                   className="tf-table tf-combo"
                   data-sel={h.tfmPlan}
@@ -23980,7 +23980,7 @@ export function TarievenContent() {
                           background: "#FFFFFF",
                           color: "#1F246C",
                           borderRadius: "24px 24px 0 0",
-                          padding: "40px 22px 28px",
+                          padding: "40px 24px 28px",
                           height: "100%",
                           width: "100%",
                           boxSizing: "border-box",
@@ -23988,7 +23988,7 @@ export function TarievenContent() {
                           flexDirection: "column",
                           alignItems: "center",
                           textAlign: "center",
-                          gap: "6px",
+                          gap: "8px",
                         }}
                       >
                         <h3
@@ -24013,7 +24013,7 @@ export function TarievenContent() {
                             fontSize: "56px",
                             lineHeight: "1",
                             letterSpacing: "-0.02em",
-                            marginTop: "14px",
+                            marginTop: "16px",
                             color: "inherit",
                           }}
                         >
@@ -24033,7 +24033,7 @@ export function TarievenContent() {
                               color: "#1F246C",
                               border: "1px solid #1F246C",
                               textDecoration: "none",
-                              padding: "14px 18px",
+                              padding: "16px 20px",
                               borderRadius: "8px",
                               fontWeight: "700",
                               fontSize: "16px",
@@ -24069,7 +24069,7 @@ export function TarievenContent() {
                           background: "linear-gradient(160deg, #8639FA 0%, #0F8AE5 100%)",
                           color: "#FFFFFF",
                           borderRadius: "24px 24px 0 0",
-                          padding: "40px 22px 28px",
+                          padding: "40px 24px 28px",
                           height: "100%",
                           width: "100%",
                           boxSizing: "border-box",
@@ -24077,7 +24077,7 @@ export function TarievenContent() {
                           flexDirection: "column",
                           alignItems: "center",
                           textAlign: "center",
-                          gap: "6px",
+                          gap: "8px",
                         }}
                       >
                         <span
@@ -24094,7 +24094,7 @@ export function TarievenContent() {
                             color: "#6B2BD9",
                             background: "#FFFFFF",
                             border: "1px solid #EFE8FD",
-                            padding: "5px 12px",
+                            padding: "4px 12px",
                             borderRadius: "999px",
                             whiteSpace: "nowrap",
                           }}
@@ -24123,7 +24123,7 @@ export function TarievenContent() {
                             fontSize: "56px",
                             lineHeight: "1",
                             letterSpacing: "-0.02em",
-                            marginTop: "14px",
+                            marginTop: "16px",
                             color: "inherit",
                           }}
                         >
@@ -24142,7 +24142,7 @@ export function TarievenContent() {
                               background: "#FFFFFF",
                               color: "#1F246C",
                               textDecoration: "none",
-                              padding: "14px 18px",
+                              padding: "16px 20px",
                               borderRadius: "8px",
                               fontWeight: "700",
                               fontSize: "16px",
@@ -24179,7 +24179,7 @@ export function TarievenContent() {
                           background: "#FFFFFF",
                           color: "#1F246C",
                           borderRadius: "24px 24px 0 0",
-                          padding: "40px 22px 28px",
+                          padding: "40px 24px 28px",
                           height: "100%",
                           width: "100%",
                           boxSizing: "border-box",
@@ -24187,7 +24187,7 @@ export function TarievenContent() {
                           flexDirection: "column",
                           alignItems: "center",
                           textAlign: "center",
-                          gap: "6px",
+                          gap: "8px",
                         }}
                       >
                         <h3
@@ -24212,7 +24212,7 @@ export function TarievenContent() {
                             fontSize: "56px",
                             lineHeight: "1",
                             letterSpacing: "-0.02em",
-                            marginTop: "14px",
+                            marginTop: "16px",
                             color: "inherit",
                           }}
                         >
@@ -24232,7 +24232,7 @@ export function TarievenContent() {
                               color: "#1F246C",
                               border: "1px solid #1F246C",
                               textDecoration: "none",
-                              padding: "14px 18px",
+                              padding: "16px 20px",
                               borderRadius: "8px",
                               fontWeight: "700",
                               fontSize: "16px",
@@ -24282,7 +24282,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -24329,7 +24329,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -24378,7 +24378,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -24438,7 +24438,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -24462,7 +24462,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -24511,7 +24511,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -24571,7 +24571,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -24595,7 +24595,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -24644,7 +24644,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -24704,7 +24704,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -24728,7 +24728,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -24777,7 +24777,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -24837,7 +24837,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -24861,7 +24861,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -24910,7 +24910,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -24970,7 +24970,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -24994,7 +24994,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -25043,7 +25043,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -25103,7 +25103,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -25127,7 +25127,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -25153,7 +25153,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -25213,7 +25213,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -25237,7 +25237,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -25263,7 +25263,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -25323,7 +25323,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -25347,7 +25347,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -25373,7 +25373,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -25433,7 +25433,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -25457,7 +25457,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -25483,7 +25483,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -25543,7 +25543,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -25567,7 +25567,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -25593,7 +25593,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -25653,7 +25653,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -25677,7 +25677,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -25703,7 +25703,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -25763,7 +25763,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -25779,7 +25779,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -25797,7 +25797,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -25821,7 +25821,7 @@ export function TarievenContent() {
                     scrollSnapType: "x mandatory",
                     scrollbarWidth: "none",
                     margin: "0 -20px",
-                    padding: "18px 7% 6px",
+                    padding: "20px 7% 8px",
                     alignItems: "flex-start",
                   }}
                 >
@@ -25844,7 +25844,7 @@ export function TarievenContent() {
                         background: "#FFFFFF",
                         color: "#1F246C",
                         borderRadius: "24px 24px 0 0",
-                        padding: "40px 22px 28px",
+                        padding: "40px 24px 28px",
                         height: "100%",
                         width: "100%",
                         boxSizing: "border-box",
@@ -25852,7 +25852,7 @@ export function TarievenContent() {
                         flexDirection: "column",
                         alignItems: "center",
                         textAlign: "center",
-                        gap: "6px",
+                        gap: "8px",
                       }}
                     >
                       <h3
@@ -25877,7 +25877,7 @@ export function TarievenContent() {
                           fontSize: "56px",
                           lineHeight: "1",
                           letterSpacing: "-0.02em",
-                          marginTop: "14px",
+                          marginTop: "16px",
                           color: "inherit",
                         }}
                       >
@@ -25897,7 +25897,7 @@ export function TarievenContent() {
                             color: "#1F246C",
                             border: "1px solid #1F246C",
                             textDecoration: "none",
-                            padding: "14px 18px",
+                            padding: "16px 20px",
                             borderRadius: "8px",
                             fontWeight: "700",
                             fontSize: "16px",
@@ -25927,7 +25927,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -25973,7 +25973,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -25996,7 +25996,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -26019,7 +26019,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -26042,7 +26042,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -26065,7 +26065,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -26088,7 +26088,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -26111,7 +26111,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -26134,7 +26134,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -26157,7 +26157,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -26180,7 +26180,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -26203,7 +26203,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -26225,7 +26225,7 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Meerwerk")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("€130 p/uur")}</span>
@@ -26251,7 +26251,7 @@ export function TarievenContent() {
                         background: "linear-gradient(160deg, #8639FA 0%, #0F8AE5 100%)",
                         color: "#FFFFFF",
                         borderRadius: "24px 24px 0 0",
-                        padding: "40px 22px 28px",
+                        padding: "40px 24px 28px",
                         height: "100%",
                         width: "100%",
                         boxSizing: "border-box",
@@ -26259,7 +26259,7 @@ export function TarievenContent() {
                         flexDirection: "column",
                         alignItems: "center",
                         textAlign: "center",
-                        gap: "6px",
+                        gap: "8px",
                       }}
                     >
                       <span
@@ -26276,7 +26276,7 @@ export function TarievenContent() {
                           color: "#6B2BD9",
                           background: "#FFFFFF",
                           border: "1px solid #EFE8FD",
-                          padding: "5px 12px",
+                          padding: "4px 12px",
                           borderRadius: "999px",
                           whiteSpace: "nowrap",
                         }}
@@ -26305,7 +26305,7 @@ export function TarievenContent() {
                           fontSize: "56px",
                           lineHeight: "1",
                           letterSpacing: "-0.02em",
-                          marginTop: "14px",
+                          marginTop: "16px",
                           color: "inherit",
                         }}
                       >
@@ -26324,7 +26324,7 @@ export function TarievenContent() {
                             background: "#FFFFFF",
                             color: "#1F246C",
                             textDecoration: "none",
-                            padding: "14px 18px",
+                            padding: "16px 20px",
                             borderRadius: "8px",
                             fontWeight: "700",
                             fontSize: "16px",
@@ -26355,7 +26355,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -26401,7 +26401,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -26447,7 +26447,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -26493,7 +26493,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -26539,7 +26539,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -26585,7 +26585,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -26631,7 +26631,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -26654,7 +26654,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -26677,7 +26677,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -26700,7 +26700,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -26723,7 +26723,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -26746,7 +26746,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -26768,7 +26768,7 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Meerwerk")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("€130 p/uur")}</span>
@@ -26793,7 +26793,7 @@ export function TarievenContent() {
                         background: "#FFFFFF",
                         color: "#1F246C",
                         borderRadius: "24px 24px 0 0",
-                        padding: "40px 22px 28px",
+                        padding: "40px 24px 28px",
                         height: "100%",
                         width: "100%",
                         boxSizing: "border-box",
@@ -26801,7 +26801,7 @@ export function TarievenContent() {
                         flexDirection: "column",
                         alignItems: "center",
                         textAlign: "center",
-                        gap: "6px",
+                        gap: "8px",
                       }}
                     >
                       <h3
@@ -26826,7 +26826,7 @@ export function TarievenContent() {
                           fontSize: "56px",
                           lineHeight: "1",
                           letterSpacing: "-0.02em",
-                          marginTop: "14px",
+                          marginTop: "16px",
                           color: "inherit",
                         }}
                       >
@@ -26846,7 +26846,7 @@ export function TarievenContent() {
                             color: "#1F246C",
                             border: "1px solid #1F246C",
                             textDecoration: "none",
-                            padding: "14px 18px",
+                            padding: "16px 20px",
                             borderRadius: "8px",
                             fontWeight: "700",
                             fontSize: "16px",
@@ -26876,7 +26876,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -26922,7 +26922,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -26968,7 +26968,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -27014,7 +27014,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -27060,7 +27060,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -27106,7 +27106,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -27152,7 +27152,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -27198,7 +27198,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -27244,7 +27244,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -27290,7 +27290,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -27336,7 +27336,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -27382,7 +27382,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -27427,7 +27427,7 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Meerwerk")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("€130 p/uur")}</span>
@@ -27522,7 +27522,7 @@ export function TarievenContent() {
         <>
           <section className="pj-wrap pj-sec tf-res1" style={{ background: "#F2F8FE", padding: "88px 40px 112px" }}>
             <div style={{ maxWidth: "1280px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "40px" }}>
-              <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "14px", textAlign: "center" }}>
+              <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "16px", textAlign: "center" }}>
                 <h2
                   style={{
                     margin: "0",
@@ -27553,7 +27553,7 @@ export function TarievenContent() {
                   {t("Video's van echte creators (user-generated content), voor een vast bedrag per maand.")}
                 </p>
               </div>
-              <div className="tf-scroll" style={{ width: "100%", maxWidth: "1200px", margin: "0 auto", paddingTop: "14px" }}>
+              <div className="tf-scroll" style={{ width: "100%", maxWidth: "1200px", margin: "0 auto", paddingTop: "16px" }}>
                 <div
                   className="tf-table tf-combo"
                   data-sel={h.tfmPlan}
@@ -27571,7 +27571,7 @@ export function TarievenContent() {
                           background: "#FFFFFF",
                           color: "#1F246C",
                           borderRadius: "24px 24px 0 0",
-                          padding: "40px 22px 28px",
+                          padding: "40px 24px 28px",
                           height: "100%",
                           width: "100%",
                           boxSizing: "border-box",
@@ -27579,7 +27579,7 @@ export function TarievenContent() {
                           flexDirection: "column",
                           alignItems: "center",
                           textAlign: "center",
-                          gap: "6px",
+                          gap: "8px",
                         }}
                       >
                         <h3
@@ -27604,7 +27604,7 @@ export function TarievenContent() {
                             fontSize: "56px",
                             lineHeight: "1",
                             letterSpacing: "-0.02em",
-                            marginTop: "14px",
+                            marginTop: "16px",
                             color: "inherit",
                           }}
                         >
@@ -27624,7 +27624,7 @@ export function TarievenContent() {
                               color: "#1F246C",
                               border: "1px solid #1F246C",
                               textDecoration: "none",
-                              padding: "14px 18px",
+                              padding: "16px 20px",
                               borderRadius: "8px",
                               fontWeight: "700",
                               fontSize: "16px",
@@ -27660,7 +27660,7 @@ export function TarievenContent() {
                           background: "linear-gradient(160deg, #8639FA 0%, #0F8AE5 100%)",
                           color: "#FFFFFF",
                           borderRadius: "24px 24px 0 0",
-                          padding: "40px 22px 28px",
+                          padding: "40px 24px 28px",
                           height: "100%",
                           width: "100%",
                           boxSizing: "border-box",
@@ -27668,7 +27668,7 @@ export function TarievenContent() {
                           flexDirection: "column",
                           alignItems: "center",
                           textAlign: "center",
-                          gap: "6px",
+                          gap: "8px",
                         }}
                       >
                         <span
@@ -27685,7 +27685,7 @@ export function TarievenContent() {
                             color: "#6B2BD9",
                             background: "#FFFFFF",
                             border: "1px solid #EFE8FD",
-                            padding: "5px 12px",
+                            padding: "4px 12px",
                             borderRadius: "999px",
                             whiteSpace: "nowrap",
                           }}
@@ -27714,7 +27714,7 @@ export function TarievenContent() {
                             fontSize: "56px",
                             lineHeight: "1",
                             letterSpacing: "-0.02em",
-                            marginTop: "14px",
+                            marginTop: "16px",
                             color: "inherit",
                           }}
                         >
@@ -27733,7 +27733,7 @@ export function TarievenContent() {
                               background: "#FFFFFF",
                               color: "#1F246C",
                               textDecoration: "none",
-                              padding: "14px 18px",
+                              padding: "16px 20px",
                               borderRadius: "8px",
                               fontWeight: "700",
                               fontSize: "16px",
@@ -27770,7 +27770,7 @@ export function TarievenContent() {
                           background: "#FFFFFF",
                           color: "#1F246C",
                           borderRadius: "24px 24px 0 0",
-                          padding: "40px 22px 28px",
+                          padding: "40px 24px 28px",
                           height: "100%",
                           width: "100%",
                           boxSizing: "border-box",
@@ -27778,7 +27778,7 @@ export function TarievenContent() {
                           flexDirection: "column",
                           alignItems: "center",
                           textAlign: "center",
-                          gap: "6px",
+                          gap: "8px",
                         }}
                       >
                         <h3
@@ -27803,7 +27803,7 @@ export function TarievenContent() {
                             fontSize: "56px",
                             lineHeight: "1",
                             letterSpacing: "-0.02em",
-                            marginTop: "14px",
+                            marginTop: "16px",
                             color: "inherit",
                           }}
                         >
@@ -27823,7 +27823,7 @@ export function TarievenContent() {
                               color: "#1F246C",
                               border: "1px solid #1F246C",
                               textDecoration: "none",
-                              padding: "14px 18px",
+                              padding: "16px 20px",
                               borderRadius: "8px",
                               fontWeight: "700",
                               fontSize: "16px",
@@ -27878,7 +27878,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -27894,7 +27894,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -27912,7 +27912,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -27941,7 +27941,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -27988,7 +27988,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -28037,7 +28037,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -28097,7 +28097,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -28144,7 +28144,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -28193,7 +28193,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -28253,7 +28253,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -28300,7 +28300,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -28349,7 +28349,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -28409,7 +28409,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -28456,7 +28456,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -28505,7 +28505,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -28565,7 +28565,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -28612,7 +28612,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -28661,7 +28661,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -28721,7 +28721,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -28768,7 +28768,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -28817,7 +28817,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -28877,7 +28877,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -28901,7 +28901,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -28950,7 +28950,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -29010,7 +29010,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -29057,7 +29057,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -29106,7 +29106,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -29166,7 +29166,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -29182,7 +29182,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -29200,7 +29200,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -29224,7 +29224,7 @@ export function TarievenContent() {
                     scrollSnapType: "x mandatory",
                     scrollbarWidth: "none",
                     margin: "0 -20px",
-                    padding: "18px 7% 6px",
+                    padding: "20px 7% 8px",
                     alignItems: "flex-start",
                   }}
                 >
@@ -29247,7 +29247,7 @@ export function TarievenContent() {
                         background: "#FFFFFF",
                         color: "#1F246C",
                         borderRadius: "24px 24px 0 0",
-                        padding: "40px 22px 28px",
+                        padding: "40px 24px 28px",
                         height: "100%",
                         width: "100%",
                         boxSizing: "border-box",
@@ -29255,7 +29255,7 @@ export function TarievenContent() {
                         flexDirection: "column",
                         alignItems: "center",
                         textAlign: "center",
-                        gap: "6px",
+                        gap: "8px",
                       }}
                     >
                       <h3
@@ -29280,7 +29280,7 @@ export function TarievenContent() {
                           fontSize: "56px",
                           lineHeight: "1",
                           letterSpacing: "-0.02em",
-                          marginTop: "14px",
+                          marginTop: "16px",
                           color: "inherit",
                         }}
                       >
@@ -29300,7 +29300,7 @@ export function TarievenContent() {
                             color: "#1F246C",
                             border: "1px solid #1F246C",
                             textDecoration: "none",
-                            padding: "14px 18px",
+                            padding: "16px 20px",
                             borderRadius: "8px",
                             fontWeight: "700",
                             fontSize: "16px",
@@ -29329,7 +29329,7 @@ export function TarievenContent() {
                       </div>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>
                         {t("Aantal UGC-video's")}
@@ -29341,7 +29341,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -29387,7 +29387,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -29433,7 +29433,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -29479,7 +29479,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -29525,7 +29525,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -29571,7 +29571,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -29617,7 +29617,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -29640,7 +29640,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -29685,7 +29685,7 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Gebruiksrecht")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("Zoals overeengekomen")}</span>
@@ -29711,7 +29711,7 @@ export function TarievenContent() {
                         background: "linear-gradient(160deg, #8639FA 0%, #0F8AE5 100%)",
                         color: "#FFFFFF",
                         borderRadius: "24px 24px 0 0",
-                        padding: "40px 22px 28px",
+                        padding: "40px 24px 28px",
                         height: "100%",
                         width: "100%",
                         boxSizing: "border-box",
@@ -29719,7 +29719,7 @@ export function TarievenContent() {
                         flexDirection: "column",
                         alignItems: "center",
                         textAlign: "center",
-                        gap: "6px",
+                        gap: "8px",
                       }}
                     >
                       <span
@@ -29736,7 +29736,7 @@ export function TarievenContent() {
                           color: "#6B2BD9",
                           background: "#FFFFFF",
                           border: "1px solid #EFE8FD",
-                          padding: "5px 12px",
+                          padding: "4px 12px",
                           borderRadius: "999px",
                           whiteSpace: "nowrap",
                         }}
@@ -29765,7 +29765,7 @@ export function TarievenContent() {
                           fontSize: "56px",
                           lineHeight: "1",
                           letterSpacing: "-0.02em",
-                          marginTop: "14px",
+                          marginTop: "16px",
                           color: "inherit",
                         }}
                       >
@@ -29784,7 +29784,7 @@ export function TarievenContent() {
                             background: "#FFFFFF",
                             color: "#1F246C",
                             textDecoration: "none",
-                            padding: "14px 18px",
+                            padding: "16px 20px",
                             borderRadius: "8px",
                             fontWeight: "700",
                             fontSize: "16px",
@@ -29814,7 +29814,7 @@ export function TarievenContent() {
                       </div>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>
                         {t("Aantal UGC-video's")}
@@ -29826,7 +29826,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -29872,7 +29872,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -29918,7 +29918,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -29964,7 +29964,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -30010,7 +30010,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -30056,7 +30056,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -30102,7 +30102,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -30148,7 +30148,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -30193,7 +30193,7 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Gebruiksrecht")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("Zoals overeengekomen")}</span>
@@ -30218,7 +30218,7 @@ export function TarievenContent() {
                         background: "#FFFFFF",
                         color: "#1F246C",
                         borderRadius: "24px 24px 0 0",
-                        padding: "40px 22px 28px",
+                        padding: "40px 24px 28px",
                         height: "100%",
                         width: "100%",
                         boxSizing: "border-box",
@@ -30226,7 +30226,7 @@ export function TarievenContent() {
                         flexDirection: "column",
                         alignItems: "center",
                         textAlign: "center",
-                        gap: "6px",
+                        gap: "8px",
                       }}
                     >
                       <h3
@@ -30251,7 +30251,7 @@ export function TarievenContent() {
                           fontSize: "56px",
                           lineHeight: "1",
                           letterSpacing: "-0.02em",
-                          marginTop: "14px",
+                          marginTop: "16px",
                           color: "inherit",
                         }}
                       >
@@ -30271,7 +30271,7 @@ export function TarievenContent() {
                             color: "#1F246C",
                             border: "1px solid #1F246C",
                             textDecoration: "none",
-                            padding: "14px 18px",
+                            padding: "16px 20px",
                             borderRadius: "8px",
                             fontWeight: "700",
                             fontSize: "16px",
@@ -30300,7 +30300,7 @@ export function TarievenContent() {
                       </div>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>
                         {t("Aantal UGC-video's")}
@@ -30312,7 +30312,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -30358,7 +30358,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -30404,7 +30404,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -30450,7 +30450,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -30496,7 +30496,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -30542,7 +30542,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -30588,7 +30588,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -30634,7 +30634,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -30679,7 +30679,7 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Gebruiksrecht")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("Zoals overeengekomen")}</span>
@@ -30774,7 +30774,7 @@ export function TarievenContent() {
         <>
           <section className="pj-wrap pj-sec tf-res1" style={{ background: "#F2F8FE", padding: "88px 40px 112px" }}>
             <div style={{ maxWidth: "1280px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "40px" }}>
-              <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "14px", textAlign: "center" }}>
+              <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "16px", textAlign: "center" }}>
                 <h2
                   style={{
                     margin: "0",
@@ -30805,7 +30805,7 @@ export function TarievenContent() {
                   {t("Video's die jouw verhaal vertellen, voor een vast bedrag per maand.")}
                 </p>
               </div>
-              <div className="tf-scroll" style={{ width: "100%", maxWidth: "1200px", margin: "0 auto", paddingTop: "14px" }}>
+              <div className="tf-scroll" style={{ width: "100%", maxWidth: "1200px", margin: "0 auto", paddingTop: "16px" }}>
                 <div
                   className="tf-table tf-combo"
                   data-sel={h.tfmPlan}
@@ -30823,7 +30823,7 @@ export function TarievenContent() {
                           background: "#FFFFFF",
                           color: "#1F246C",
                           borderRadius: "24px 24px 0 0",
-                          padding: "40px 22px 28px",
+                          padding: "40px 24px 28px",
                           height: "100%",
                           width: "100%",
                           boxSizing: "border-box",
@@ -30831,7 +30831,7 @@ export function TarievenContent() {
                           flexDirection: "column",
                           alignItems: "center",
                           textAlign: "center",
-                          gap: "6px",
+                          gap: "8px",
                         }}
                       >
                         <h3
@@ -30856,7 +30856,7 @@ export function TarievenContent() {
                             fontSize: "56px",
                             lineHeight: "1",
                             letterSpacing: "-0.02em",
-                            marginTop: "14px",
+                            marginTop: "16px",
                             color: "inherit",
                           }}
                         >
@@ -30876,7 +30876,7 @@ export function TarievenContent() {
                               color: "#1F246C",
                               border: "1px solid #1F246C",
                               textDecoration: "none",
-                              padding: "14px 18px",
+                              padding: "16px 20px",
                               borderRadius: "8px",
                               fontWeight: "700",
                               fontSize: "16px",
@@ -30912,7 +30912,7 @@ export function TarievenContent() {
                           background: "linear-gradient(160deg, #8639FA 0%, #0F8AE5 100%)",
                           color: "#FFFFFF",
                           borderRadius: "24px 24px 0 0",
-                          padding: "40px 22px 28px",
+                          padding: "40px 24px 28px",
                           height: "100%",
                           width: "100%",
                           boxSizing: "border-box",
@@ -30920,7 +30920,7 @@ export function TarievenContent() {
                           flexDirection: "column",
                           alignItems: "center",
                           textAlign: "center",
-                          gap: "6px",
+                          gap: "8px",
                         }}
                       >
                         <span
@@ -30937,7 +30937,7 @@ export function TarievenContent() {
                             color: "#6B2BD9",
                             background: "#FFFFFF",
                             border: "1px solid #EFE8FD",
-                            padding: "5px 12px",
+                            padding: "4px 12px",
                             borderRadius: "999px",
                             whiteSpace: "nowrap",
                           }}
@@ -30966,7 +30966,7 @@ export function TarievenContent() {
                             fontSize: "56px",
                             lineHeight: "1",
                             letterSpacing: "-0.02em",
-                            marginTop: "14px",
+                            marginTop: "16px",
                             color: "inherit",
                           }}
                         >
@@ -30985,7 +30985,7 @@ export function TarievenContent() {
                               background: "#FFFFFF",
                               color: "#1F246C",
                               textDecoration: "none",
-                              padding: "14px 18px",
+                              padding: "16px 20px",
                               borderRadius: "8px",
                               fontWeight: "700",
                               fontSize: "16px",
@@ -31022,7 +31022,7 @@ export function TarievenContent() {
                           background: "#FFFFFF",
                           color: "#1F246C",
                           borderRadius: "24px 24px 0 0",
-                          padding: "40px 22px 28px",
+                          padding: "40px 24px 28px",
                           height: "100%",
                           width: "100%",
                           boxSizing: "border-box",
@@ -31030,7 +31030,7 @@ export function TarievenContent() {
                           flexDirection: "column",
                           alignItems: "center",
                           textAlign: "center",
-                          gap: "6px",
+                          gap: "8px",
                         }}
                       >
                         <h3
@@ -31055,7 +31055,7 @@ export function TarievenContent() {
                             fontSize: "56px",
                             lineHeight: "1",
                             letterSpacing: "-0.02em",
-                            marginTop: "14px",
+                            marginTop: "16px",
                             color: "inherit",
                           }}
                         >
@@ -31075,7 +31075,7 @@ export function TarievenContent() {
                               color: "#1F246C",
                               border: "1px solid #1F246C",
                               textDecoration: "none",
-                              padding: "14px 18px",
+                              padding: "16px 20px",
                               borderRadius: "8px",
                               fontWeight: "700",
                               fontSize: "16px",
@@ -31125,7 +31125,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -31141,7 +31141,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -31159,7 +31159,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -31188,7 +31188,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -31204,7 +31204,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -31222,7 +31222,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -31251,7 +31251,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -31267,7 +31267,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -31285,7 +31285,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -31314,7 +31314,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -31361,7 +31361,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -31410,7 +31410,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -31470,7 +31470,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -31517,7 +31517,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -31566,7 +31566,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -31626,7 +31626,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -31642,7 +31642,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -31660,7 +31660,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -31689,7 +31689,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -31736,7 +31736,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -31785,7 +31785,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -31845,7 +31845,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -31861,7 +31861,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -31879,7 +31879,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -31911,7 +31911,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -31927,7 +31927,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -31945,7 +31945,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -31979,7 +31979,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -32003,7 +32003,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -32029,7 +32029,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -32089,7 +32089,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -32113,7 +32113,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -32162,7 +32162,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -32222,7 +32222,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -32238,7 +32238,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -32256,7 +32256,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -32285,7 +32285,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -32332,7 +32332,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -32381,7 +32381,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -32441,7 +32441,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -32457,7 +32457,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -32475,7 +32475,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -32499,7 +32499,7 @@ export function TarievenContent() {
                     scrollSnapType: "x mandatory",
                     scrollbarWidth: "none",
                     margin: "0 -20px",
-                    padding: "18px 7% 6px",
+                    padding: "20px 7% 8px",
                     alignItems: "flex-start",
                   }}
                 >
@@ -32522,7 +32522,7 @@ export function TarievenContent() {
                         background: "#FFFFFF",
                         color: "#1F246C",
                         borderRadius: "24px 24px 0 0",
-                        padding: "40px 22px 28px",
+                        padding: "40px 24px 28px",
                         height: "100%",
                         width: "100%",
                         boxSizing: "border-box",
@@ -32530,7 +32530,7 @@ export function TarievenContent() {
                         flexDirection: "column",
                         alignItems: "center",
                         textAlign: "center",
-                        gap: "6px",
+                        gap: "8px",
                       }}
                     >
                       <h3
@@ -32555,7 +32555,7 @@ export function TarievenContent() {
                           fontSize: "56px",
                           lineHeight: "1",
                           letterSpacing: "-0.02em",
-                          marginTop: "14px",
+                          marginTop: "16px",
                           color: "inherit",
                         }}
                       >
@@ -32575,7 +32575,7 @@ export function TarievenContent() {
                             color: "#1F246C",
                             border: "1px solid #1F246C",
                             textDecoration: "none",
-                            padding: "14px 18px",
+                            padding: "16px 20px",
                             borderRadius: "8px",
                             fontWeight: "700",
                             fontSize: "16px",
@@ -32604,26 +32604,26 @@ export function TarievenContent() {
                       </div>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Aantal video's")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("1")}</span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Maximale lengte")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("1 minuut")}</span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Aantal filmdagen")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("Halve dag (6 uur)")}</span>
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -32669,7 +32669,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -32714,14 +32714,14 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Camerakwaliteit")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("Middle-end")}</span>
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -32766,7 +32766,7 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Formaten")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>
@@ -32774,7 +32774,7 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>
                         {t("Montagerevisies")}
@@ -32784,7 +32784,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -32812,7 +32812,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -32834,14 +32834,14 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Reiskosten")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("€0,23 per km")}</span>
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -32886,7 +32886,7 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Meerwerk")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("€130 p/uur")}</span>
@@ -32912,7 +32912,7 @@ export function TarievenContent() {
                         background: "linear-gradient(160deg, #8639FA 0%, #0F8AE5 100%)",
                         color: "#FFFFFF",
                         borderRadius: "24px 24px 0 0",
-                        padding: "40px 22px 28px",
+                        padding: "40px 24px 28px",
                         height: "100%",
                         width: "100%",
                         boxSizing: "border-box",
@@ -32920,7 +32920,7 @@ export function TarievenContent() {
                         flexDirection: "column",
                         alignItems: "center",
                         textAlign: "center",
-                        gap: "6px",
+                        gap: "8px",
                       }}
                     >
                       <span
@@ -32937,7 +32937,7 @@ export function TarievenContent() {
                           color: "#6B2BD9",
                           background: "#FFFFFF",
                           border: "1px solid #EFE8FD",
-                          padding: "5px 12px",
+                          padding: "4px 12px",
                           borderRadius: "999px",
                           whiteSpace: "nowrap",
                         }}
@@ -32966,7 +32966,7 @@ export function TarievenContent() {
                           fontSize: "56px",
                           lineHeight: "1",
                           letterSpacing: "-0.02em",
-                          marginTop: "14px",
+                          marginTop: "16px",
                           color: "inherit",
                         }}
                       >
@@ -32985,7 +32985,7 @@ export function TarievenContent() {
                             background: "#FFFFFF",
                             color: "#1F246C",
                             textDecoration: "none",
-                            padding: "14px 18px",
+                            padding: "16px 20px",
                             borderRadius: "8px",
                             fontWeight: "700",
                             fontSize: "16px",
@@ -33015,26 +33015,26 @@ export function TarievenContent() {
                       </div>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Aantal video's")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("2")}</span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Maximale lengte")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("2 minuten")}</span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Aantal filmdagen")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("2 halve dagen (12 uur)")}</span>
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -33080,7 +33080,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -33125,14 +33125,14 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Camerakwaliteit")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("Middle-end")}</span>
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -33177,7 +33177,7 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Formaten")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>
@@ -33185,7 +33185,7 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>
                         {t("Montagerevisies")}
@@ -33195,7 +33195,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -33223,7 +33223,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -33268,14 +33268,14 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Reiskosten")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("€0,23 per km")}</span>
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -33320,7 +33320,7 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Meerwerk")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("€130 p/uur")}</span>
@@ -33345,7 +33345,7 @@ export function TarievenContent() {
                         background: "#FFFFFF",
                         color: "#1F246C",
                         borderRadius: "24px 24px 0 0",
-                        padding: "40px 22px 28px",
+                        padding: "40px 24px 28px",
                         height: "100%",
                         width: "100%",
                         boxSizing: "border-box",
@@ -33353,7 +33353,7 @@ export function TarievenContent() {
                         flexDirection: "column",
                         alignItems: "center",
                         textAlign: "center",
-                        gap: "6px",
+                        gap: "8px",
                       }}
                     >
                       <h3
@@ -33378,7 +33378,7 @@ export function TarievenContent() {
                           fontSize: "56px",
                           lineHeight: "1",
                           letterSpacing: "-0.02em",
-                          marginTop: "14px",
+                          marginTop: "16px",
                           color: "inherit",
                         }}
                       >
@@ -33398,7 +33398,7 @@ export function TarievenContent() {
                             color: "#1F246C",
                             border: "1px solid #1F246C",
                             textDecoration: "none",
-                            padding: "14px 18px",
+                            padding: "16px 20px",
                             borderRadius: "8px",
                             fontWeight: "700",
                             fontSize: "16px",
@@ -33427,26 +33427,26 @@ export function TarievenContent() {
                       </div>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Aantal video's")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("3")}</span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Maximale lengte")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("3 minuten")}</span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Aantal filmdagen")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("3 halve dagen (18 uur)")}</span>
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -33492,7 +33492,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -33537,14 +33537,14 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Camerakwaliteit")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("High-end")}</span>
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -33589,7 +33589,7 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Formaten")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>
@@ -33597,7 +33597,7 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>
                         {t("Montagerevisies")}
@@ -33609,7 +33609,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -33660,7 +33660,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -33705,14 +33705,14 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Reiskosten")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("€0,23 per km")}</span>
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -33757,7 +33757,7 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Meerwerk")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("€130 p/uur")}</span>
@@ -33852,7 +33852,7 @@ export function TarievenContent() {
         <>
           <section className="pj-wrap pj-sec tf-res1" style={{ background: "#F2F8FE", padding: "88px 40px 112px" }}>
             <div style={{ maxWidth: "1280px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "40px" }}>
-              <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "14px", textAlign: "center" }}>
+              <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "16px", textAlign: "center" }}>
                 <h2
                   style={{
                     margin: "0",
@@ -33883,7 +33883,7 @@ export function TarievenContent() {
                   {t("Adverteren op social media, voor een vast bedrag per maand.")}
                 </p>
               </div>
-              <div className="tf-scroll" style={{ width: "100%", maxWidth: "1200px", margin: "0 auto", paddingTop: "14px" }}>
+              <div className="tf-scroll" style={{ width: "100%", maxWidth: "1200px", margin: "0 auto", paddingTop: "16px" }}>
                 <div
                   className="tf-table tf-combo"
                   data-sel={h.tfmPlan}
@@ -33901,7 +33901,7 @@ export function TarievenContent() {
                           background: "#FFFFFF",
                           color: "#1F246C",
                           borderRadius: "24px 24px 0 0",
-                          padding: "40px 22px 28px",
+                          padding: "40px 24px 28px",
                           height: "100%",
                           width: "100%",
                           boxSizing: "border-box",
@@ -33909,7 +33909,7 @@ export function TarievenContent() {
                           flexDirection: "column",
                           alignItems: "center",
                           textAlign: "center",
-                          gap: "6px",
+                          gap: "8px",
                         }}
                       >
                         <h3
@@ -33934,7 +33934,7 @@ export function TarievenContent() {
                             fontSize: "56px",
                             lineHeight: "1",
                             letterSpacing: "-0.02em",
-                            marginTop: "14px",
+                            marginTop: "16px",
                             color: "inherit",
                           }}
                         >
@@ -33954,7 +33954,7 @@ export function TarievenContent() {
                               color: "#1F246C",
                               border: "1px solid #1F246C",
                               textDecoration: "none",
-                              padding: "14px 18px",
+                              padding: "16px 20px",
                               borderRadius: "8px",
                               fontWeight: "700",
                               fontSize: "16px",
@@ -33990,7 +33990,7 @@ export function TarievenContent() {
                           background: "linear-gradient(160deg, #8639FA 0%, #0F8AE5 100%)",
                           color: "#FFFFFF",
                           borderRadius: "24px 24px 0 0",
-                          padding: "40px 22px 28px",
+                          padding: "40px 24px 28px",
                           height: "100%",
                           width: "100%",
                           boxSizing: "border-box",
@@ -33998,7 +33998,7 @@ export function TarievenContent() {
                           flexDirection: "column",
                           alignItems: "center",
                           textAlign: "center",
-                          gap: "6px",
+                          gap: "8px",
                         }}
                       >
                         <span
@@ -34015,7 +34015,7 @@ export function TarievenContent() {
                             color: "#6B2BD9",
                             background: "#FFFFFF",
                             border: "1px solid #EFE8FD",
-                            padding: "5px 12px",
+                            padding: "4px 12px",
                             borderRadius: "999px",
                             whiteSpace: "nowrap",
                           }}
@@ -34044,7 +34044,7 @@ export function TarievenContent() {
                             fontSize: "56px",
                             lineHeight: "1",
                             letterSpacing: "-0.02em",
-                            marginTop: "14px",
+                            marginTop: "16px",
                             color: "inherit",
                           }}
                         >
@@ -34063,7 +34063,7 @@ export function TarievenContent() {
                               background: "#FFFFFF",
                               color: "#1F246C",
                               textDecoration: "none",
-                              padding: "14px 18px",
+                              padding: "16px 20px",
                               borderRadius: "8px",
                               fontWeight: "700",
                               fontSize: "16px",
@@ -34100,7 +34100,7 @@ export function TarievenContent() {
                           background: "#FFFFFF",
                           color: "#1F246C",
                           borderRadius: "24px 24px 0 0",
-                          padding: "40px 22px 28px",
+                          padding: "40px 24px 28px",
                           height: "100%",
                           width: "100%",
                           boxSizing: "border-box",
@@ -34108,7 +34108,7 @@ export function TarievenContent() {
                           flexDirection: "column",
                           alignItems: "center",
                           textAlign: "center",
-                          gap: "6px",
+                          gap: "8px",
                         }}
                       >
                         <h3
@@ -34133,7 +34133,7 @@ export function TarievenContent() {
                             fontSize: "56px",
                             lineHeight: "1",
                             letterSpacing: "-0.02em",
-                            marginTop: "14px",
+                            marginTop: "16px",
                             color: "inherit",
                           }}
                         >
@@ -34153,7 +34153,7 @@ export function TarievenContent() {
                               color: "#1F246C",
                               border: "1px solid #1F246C",
                               textDecoration: "none",
-                              padding: "14px 18px",
+                              padding: "16px 20px",
                               borderRadius: "8px",
                               fontWeight: "700",
                               fontSize: "16px",
@@ -34203,7 +34203,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -34219,7 +34219,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -34237,7 +34237,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -34266,7 +34266,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -34282,7 +34282,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -34300,7 +34300,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -34329,7 +34329,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -34345,7 +34345,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -34363,7 +34363,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -34392,7 +34392,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -34408,7 +34408,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -34426,7 +34426,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -34462,7 +34462,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -34478,7 +34478,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -34496,7 +34496,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -34525,7 +34525,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -34541,7 +34541,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -34559,7 +34559,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -34588,7 +34588,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -34635,7 +34635,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -34684,7 +34684,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -34749,7 +34749,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -34773,7 +34773,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -34822,7 +34822,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -34887,7 +34887,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -34911,7 +34911,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -34960,7 +34960,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -35020,7 +35020,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -35036,7 +35036,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -35054,7 +35054,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -35078,7 +35078,7 @@ export function TarievenContent() {
                     scrollSnapType: "x mandatory",
                     scrollbarWidth: "none",
                     margin: "0 -20px",
-                    padding: "18px 7% 6px",
+                    padding: "20px 7% 8px",
                     alignItems: "flex-start",
                   }}
                 >
@@ -35101,7 +35101,7 @@ export function TarievenContent() {
                         background: "#FFFFFF",
                         color: "#1F246C",
                         borderRadius: "24px 24px 0 0",
-                        padding: "40px 22px 28px",
+                        padding: "40px 24px 28px",
                         height: "100%",
                         width: "100%",
                         boxSizing: "border-box",
@@ -35109,7 +35109,7 @@ export function TarievenContent() {
                         flexDirection: "column",
                         alignItems: "center",
                         textAlign: "center",
-                        gap: "6px",
+                        gap: "8px",
                       }}
                     >
                       <h3
@@ -35134,7 +35134,7 @@ export function TarievenContent() {
                           fontSize: "56px",
                           lineHeight: "1",
                           letterSpacing: "-0.02em",
-                          marginTop: "14px",
+                          marginTop: "16px",
                           color: "inherit",
                         }}
                       >
@@ -35154,7 +35154,7 @@ export function TarievenContent() {
                             color: "#1F246C",
                             border: "1px solid #1F246C",
                             textDecoration: "none",
-                            padding: "14px 18px",
+                            padding: "16px 20px",
                             borderRadius: "8px",
                             fontWeight: "700",
                             fontSize: "16px",
@@ -35183,19 +35183,19 @@ export function TarievenContent() {
                       </div>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Geschatte opstartkosten")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("Eenmalig €497")}</span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Minimaal advertentiebudget")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("€300 per maand")}</span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>
                         {t("Eén advertentieplatform naar keuze")}
@@ -35205,13 +35205,13 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Campagnes")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("1")}</span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>
                         {t("Soort advertenties")}
@@ -35224,14 +35224,14 @@ export function TarievenContent() {
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("Niet doorlopend")}</span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Creatieve content")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("Grafisch ontwerp")}</span>
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -35277,7 +35277,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -35305,7 +35305,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -35332,7 +35332,7 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Meerwerk")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("€130 p/uur")}</span>
@@ -35358,7 +35358,7 @@ export function TarievenContent() {
                         background: "linear-gradient(160deg, #8639FA 0%, #0F8AE5 100%)",
                         color: "#FFFFFF",
                         borderRadius: "24px 24px 0 0",
-                        padding: "40px 22px 28px",
+                        padding: "40px 24px 28px",
                         height: "100%",
                         width: "100%",
                         boxSizing: "border-box",
@@ -35366,7 +35366,7 @@ export function TarievenContent() {
                         flexDirection: "column",
                         alignItems: "center",
                         textAlign: "center",
-                        gap: "6px",
+                        gap: "8px",
                       }}
                     >
                       <span
@@ -35383,7 +35383,7 @@ export function TarievenContent() {
                           color: "#6B2BD9",
                           background: "#FFFFFF",
                           border: "1px solid #EFE8FD",
-                          padding: "5px 12px",
+                          padding: "4px 12px",
                           borderRadius: "999px",
                           whiteSpace: "nowrap",
                         }}
@@ -35412,7 +35412,7 @@ export function TarievenContent() {
                           fontSize: "56px",
                           lineHeight: "1",
                           letterSpacing: "-0.02em",
-                          marginTop: "14px",
+                          marginTop: "16px",
                           color: "inherit",
                         }}
                       >
@@ -35431,7 +35431,7 @@ export function TarievenContent() {
                             background: "#FFFFFF",
                             color: "#1F246C",
                             textDecoration: "none",
-                            padding: "14px 18px",
+                            padding: "16px 20px",
                             borderRadius: "8px",
                             fontWeight: "700",
                             fontSize: "16px",
@@ -35461,19 +35461,19 @@ export function TarievenContent() {
                       </div>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Geschatte opstartkosten")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("Eenmalig €997")}</span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Minimaal advertentiebudget")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("€1.500 per maand")}</span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>
                         {t("Eén advertentieplatform naar keuze")}
@@ -35483,13 +35483,13 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Campagnes")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("3 tot 5")}</span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>
                         {t("Soort advertenties")}
@@ -35504,14 +35504,14 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Creatieve content")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("Grafisch ontwerp")}</span>
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -35557,7 +35557,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -35608,7 +35608,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -35658,7 +35658,7 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Meerwerk")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("€130 p/uur")}</span>
@@ -35683,7 +35683,7 @@ export function TarievenContent() {
                         background: "#FFFFFF",
                         color: "#1F246C",
                         borderRadius: "24px 24px 0 0",
-                        padding: "40px 22px 28px",
+                        padding: "40px 24px 28px",
                         height: "100%",
                         width: "100%",
                         boxSizing: "border-box",
@@ -35691,7 +35691,7 @@ export function TarievenContent() {
                         flexDirection: "column",
                         alignItems: "center",
                         textAlign: "center",
-                        gap: "6px",
+                        gap: "8px",
                       }}
                     >
                       <h3
@@ -35716,7 +35716,7 @@ export function TarievenContent() {
                           fontSize: "56px",
                           lineHeight: "1",
                           letterSpacing: "-0.02em",
-                          marginTop: "14px",
+                          marginTop: "16px",
                           color: "inherit",
                         }}
                       >
@@ -35736,7 +35736,7 @@ export function TarievenContent() {
                             color: "#1F246C",
                             border: "1px solid #1F246C",
                             textDecoration: "none",
-                            padding: "14px 18px",
+                            padding: "16px 20px",
                             borderRadius: "8px",
                             fontWeight: "700",
                             fontSize: "16px",
@@ -35765,19 +35765,19 @@ export function TarievenContent() {
                       </div>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Geschatte opstartkosten")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("Eenmalig €1.497")}</span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Minimaal advertentiebudget")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("€3.000 per maand")}</span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>
                         {t("Eén advertentieplatform naar keuze")}
@@ -35787,13 +35787,13 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Campagnes")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("5 tot 10")}</span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>
                         {t("Soort advertenties")}
@@ -35808,14 +35808,14 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Creatieve content")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("Grafisch ontwerp")}</span>
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -35861,7 +35861,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -35912,7 +35912,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -35962,7 +35962,7 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Meerwerk")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("€130 p/uur")}</span>
@@ -36057,7 +36057,7 @@ export function TarievenContent() {
         <>
           <section className="pj-wrap pj-sec tf-res1" style={{ background: "#F2F8FE", padding: "88px 40px 112px" }}>
             <div style={{ maxWidth: "1280px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "40px" }}>
-              <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "14px", textAlign: "center" }}>
+              <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "16px", textAlign: "center" }}>
                 <h2
                   style={{
                     margin: "0",
@@ -36088,7 +36088,7 @@ export function TarievenContent() {
                   {t("Het beheer van je social media, voor een vast bedrag per maand.")}
                 </p>
               </div>
-              <div className="tf-scroll" style={{ width: "100%", maxWidth: "1200px", margin: "0 auto", paddingTop: "14px" }}>
+              <div className="tf-scroll" style={{ width: "100%", maxWidth: "1200px", margin: "0 auto", paddingTop: "16px" }}>
                 <div
                   className="tf-table tf-combo"
                   data-sel={h.tfmPlan}
@@ -36106,7 +36106,7 @@ export function TarievenContent() {
                           background: "#FFFFFF",
                           color: "#1F246C",
                           borderRadius: "24px 24px 0 0",
-                          padding: "40px 22px 28px",
+                          padding: "40px 24px 28px",
                           height: "100%",
                           width: "100%",
                           boxSizing: "border-box",
@@ -36114,7 +36114,7 @@ export function TarievenContent() {
                           flexDirection: "column",
                           alignItems: "center",
                           textAlign: "center",
-                          gap: "6px",
+                          gap: "8px",
                         }}
                       >
                         <h3
@@ -36139,7 +36139,7 @@ export function TarievenContent() {
                             fontSize: "56px",
                             lineHeight: "1",
                             letterSpacing: "-0.02em",
-                            marginTop: "14px",
+                            marginTop: "16px",
                             color: "inherit",
                           }}
                         >
@@ -36159,7 +36159,7 @@ export function TarievenContent() {
                               color: "#1F246C",
                               border: "1px solid #1F246C",
                               textDecoration: "none",
-                              padding: "14px 18px",
+                              padding: "16px 20px",
                               borderRadius: "8px",
                               fontWeight: "700",
                               fontSize: "16px",
@@ -36195,7 +36195,7 @@ export function TarievenContent() {
                           background: "linear-gradient(160deg, #8639FA 0%, #0F8AE5 100%)",
                           color: "#FFFFFF",
                           borderRadius: "24px 24px 0 0",
-                          padding: "40px 22px 28px",
+                          padding: "40px 24px 28px",
                           height: "100%",
                           width: "100%",
                           boxSizing: "border-box",
@@ -36203,7 +36203,7 @@ export function TarievenContent() {
                           flexDirection: "column",
                           alignItems: "center",
                           textAlign: "center",
-                          gap: "6px",
+                          gap: "8px",
                         }}
                       >
                         <span
@@ -36220,7 +36220,7 @@ export function TarievenContent() {
                             color: "#6B2BD9",
                             background: "#FFFFFF",
                             border: "1px solid #EFE8FD",
-                            padding: "5px 12px",
+                            padding: "4px 12px",
                             borderRadius: "999px",
                             whiteSpace: "nowrap",
                           }}
@@ -36249,7 +36249,7 @@ export function TarievenContent() {
                             fontSize: "56px",
                             lineHeight: "1",
                             letterSpacing: "-0.02em",
-                            marginTop: "14px",
+                            marginTop: "16px",
                             color: "inherit",
                           }}
                         >
@@ -36268,7 +36268,7 @@ export function TarievenContent() {
                               background: "#FFFFFF",
                               color: "#1F246C",
                               textDecoration: "none",
-                              padding: "14px 18px",
+                              padding: "16px 20px",
                               borderRadius: "8px",
                               fontWeight: "700",
                               fontSize: "16px",
@@ -36305,7 +36305,7 @@ export function TarievenContent() {
                           background: "#FFFFFF",
                           color: "#1F246C",
                           borderRadius: "24px 24px 0 0",
-                          padding: "40px 22px 28px",
+                          padding: "40px 24px 28px",
                           height: "100%",
                           width: "100%",
                           boxSizing: "border-box",
@@ -36313,7 +36313,7 @@ export function TarievenContent() {
                           flexDirection: "column",
                           alignItems: "center",
                           textAlign: "center",
-                          gap: "6px",
+                          gap: "8px",
                         }}
                       >
                         <h3
@@ -36338,7 +36338,7 @@ export function TarievenContent() {
                             fontSize: "56px",
                             lineHeight: "1",
                             letterSpacing: "-0.02em",
-                            marginTop: "14px",
+                            marginTop: "16px",
                             color: "inherit",
                           }}
                         >
@@ -36358,7 +36358,7 @@ export function TarievenContent() {
                               color: "#1F246C",
                               border: "1px solid #1F246C",
                               textDecoration: "none",
-                              padding: "14px 18px",
+                              padding: "16px 20px",
                               borderRadius: "8px",
                               fontWeight: "700",
                               fontSize: "16px",
@@ -36408,7 +36408,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -36455,7 +36455,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -36504,7 +36504,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -36564,7 +36564,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -36588,7 +36588,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -36606,7 +36606,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -36635,7 +36635,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -36651,7 +36651,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -36669,7 +36669,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -36698,7 +36698,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -36714,7 +36714,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -36732,7 +36732,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -36766,7 +36766,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -36813,7 +36813,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -36862,7 +36862,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -36922,7 +36922,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -36946,7 +36946,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -36995,7 +36995,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -37058,7 +37058,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -37082,7 +37082,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -37100,7 +37100,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -37129,7 +37129,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -37176,7 +37176,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -37225,7 +37225,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -37285,7 +37285,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -37309,7 +37309,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -37327,7 +37327,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -37356,7 +37356,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -37372,7 +37372,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -37390,7 +37390,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -37414,7 +37414,7 @@ export function TarievenContent() {
                     scrollSnapType: "x mandatory",
                     scrollbarWidth: "none",
                     margin: "0 -20px",
-                    padding: "18px 7% 6px",
+                    padding: "20px 7% 8px",
                     alignItems: "flex-start",
                   }}
                 >
@@ -37437,7 +37437,7 @@ export function TarievenContent() {
                         background: "#FFFFFF",
                         color: "#1F246C",
                         borderRadius: "24px 24px 0 0",
-                        padding: "40px 22px 28px",
+                        padding: "40px 24px 28px",
                         height: "100%",
                         width: "100%",
                         boxSizing: "border-box",
@@ -37445,7 +37445,7 @@ export function TarievenContent() {
                         flexDirection: "column",
                         alignItems: "center",
                         textAlign: "center",
-                        gap: "6px",
+                        gap: "8px",
                       }}
                     >
                       <h3
@@ -37470,7 +37470,7 @@ export function TarievenContent() {
                           fontSize: "56px",
                           lineHeight: "1",
                           letterSpacing: "-0.02em",
-                          marginTop: "14px",
+                          marginTop: "16px",
                           color: "inherit",
                         }}
                       >
@@ -37490,7 +37490,7 @@ export function TarievenContent() {
                             color: "#1F246C",
                             border: "1px solid #1F246C",
                             textDecoration: "none",
-                            padding: "14px 18px",
+                            padding: "16px 20px",
                             borderRadius: "8px",
                             fontWeight: "700",
                             fontSize: "16px",
@@ -37520,7 +37520,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -37566,7 +37566,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -37588,20 +37588,20 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Aantal posts")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("2")}</span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Aantal social-mediakanalen")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("2")}</span>
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -37652,7 +37652,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -37675,7 +37675,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -37701,7 +37701,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -37747,7 +37747,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -37769,7 +37769,7 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Meerwerk")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("€130 p/uur")}</span>
@@ -37795,7 +37795,7 @@ export function TarievenContent() {
                         background: "linear-gradient(160deg, #8639FA 0%, #0F8AE5 100%)",
                         color: "#FFFFFF",
                         borderRadius: "24px 24px 0 0",
-                        padding: "40px 22px 28px",
+                        padding: "40px 24px 28px",
                         height: "100%",
                         width: "100%",
                         boxSizing: "border-box",
@@ -37803,7 +37803,7 @@ export function TarievenContent() {
                         flexDirection: "column",
                         alignItems: "center",
                         textAlign: "center",
-                        gap: "6px",
+                        gap: "8px",
                       }}
                     >
                       <span
@@ -37820,7 +37820,7 @@ export function TarievenContent() {
                           color: "#6B2BD9",
                           background: "#FFFFFF",
                           border: "1px solid #EFE8FD",
-                          padding: "5px 12px",
+                          padding: "4px 12px",
                           borderRadius: "999px",
                           whiteSpace: "nowrap",
                         }}
@@ -37849,7 +37849,7 @@ export function TarievenContent() {
                           fontSize: "56px",
                           lineHeight: "1",
                           letterSpacing: "-0.02em",
-                          marginTop: "14px",
+                          marginTop: "16px",
                           color: "inherit",
                         }}
                       >
@@ -37868,7 +37868,7 @@ export function TarievenContent() {
                             background: "#FFFFFF",
                             color: "#1F246C",
                             textDecoration: "none",
-                            padding: "14px 18px",
+                            padding: "16px 20px",
                             borderRadius: "8px",
                             fontWeight: "700",
                             fontSize: "16px",
@@ -37899,7 +37899,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -37944,26 +37944,26 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Social content")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("1 video- of fotoshoot per maand")}</span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Aantal posts")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("4")}</span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Aantal social-mediakanalen")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("4")}</span>
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -38014,7 +38014,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -38059,7 +38059,7 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>
                         {t("Community management")}
@@ -38069,7 +38069,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -38114,13 +38114,13 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Rapportage en statistieken")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("Maandelijks rapport")}</span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Meerwerk")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("€130 p/uur")}</span>
@@ -38145,7 +38145,7 @@ export function TarievenContent() {
                         background: "#FFFFFF",
                         color: "#1F246C",
                         borderRadius: "24px 24px 0 0",
-                        padding: "40px 22px 28px",
+                        padding: "40px 24px 28px",
                         height: "100%",
                         width: "100%",
                         boxSizing: "border-box",
@@ -38153,7 +38153,7 @@ export function TarievenContent() {
                         flexDirection: "column",
                         alignItems: "center",
                         textAlign: "center",
-                        gap: "6px",
+                        gap: "8px",
                       }}
                     >
                       <h3
@@ -38178,7 +38178,7 @@ export function TarievenContent() {
                           fontSize: "56px",
                           lineHeight: "1",
                           letterSpacing: "-0.02em",
-                          marginTop: "14px",
+                          marginTop: "16px",
                           color: "inherit",
                         }}
                       >
@@ -38198,7 +38198,7 @@ export function TarievenContent() {
                             color: "#1F246C",
                             border: "1px solid #1F246C",
                             textDecoration: "none",
-                            padding: "14px 18px",
+                            padding: "16px 20px",
                             borderRadius: "8px",
                             fontWeight: "700",
                             fontSize: "16px",
@@ -38228,7 +38228,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -38273,26 +38273,26 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Social content")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("2 video- of fotoshoots per maand")}</span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Aantal posts")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("6")}</span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Aantal social-mediakanalen")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("6")}</span>
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -38343,7 +38343,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -38388,7 +38388,7 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>
                         {t("Community management")}
@@ -38400,7 +38400,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -38445,7 +38445,7 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Rapportage en statistieken")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>
@@ -38453,7 +38453,7 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Meerwerk")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("€130 p/uur")}</span>
@@ -38548,7 +38548,7 @@ export function TarievenContent() {
         <>
           <section className="pj-wrap pj-sec tf-res1" style={{ background: "#F2F8FE", padding: "88px 40px 112px" }}>
             <div style={{ maxWidth: "1280px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "40px" }}>
-              <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "14px", textAlign: "center" }}>
+              <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "16px", textAlign: "center" }}>
                 <h2
                   style={{
                     margin: "0",
@@ -38579,7 +38579,7 @@ export function TarievenContent() {
                   {t("Al je cijfers in één overzicht, voor een vast bedrag, zodat je precies weet waar je aan toe bent.")}
                 </p>
               </div>
-              <div className="tf-scroll" style={{ width: "100%", maxWidth: "1200px", margin: "0 auto", paddingTop: "14px" }}>
+              <div className="tf-scroll" style={{ width: "100%", maxWidth: "1200px", margin: "0 auto", paddingTop: "16px" }}>
                 <div
                   className="tf-table tf-combo"
                   data-sel={h.tfmPlan}
@@ -38597,7 +38597,7 @@ export function TarievenContent() {
                           background: "#FFFFFF",
                           color: "#1F246C",
                           borderRadius: "24px 24px 0 0",
-                          padding: "40px 22px 28px",
+                          padding: "40px 24px 28px",
                           height: "100%",
                           width: "100%",
                           boxSizing: "border-box",
@@ -38605,7 +38605,7 @@ export function TarievenContent() {
                           flexDirection: "column",
                           alignItems: "center",
                           textAlign: "center",
-                          gap: "6px",
+                          gap: "8px",
                         }}
                       >
                         <h3
@@ -38630,7 +38630,7 @@ export function TarievenContent() {
                             fontSize: "56px",
                             lineHeight: "1",
                             letterSpacing: "-0.02em",
-                            marginTop: "14px",
+                            marginTop: "16px",
                             color: "inherit",
                           }}
                         >
@@ -38650,7 +38650,7 @@ export function TarievenContent() {
                               color: "#1F246C",
                               border: "1px solid #1F246C",
                               textDecoration: "none",
-                              padding: "14px 18px",
+                              padding: "16px 20px",
                               borderRadius: "8px",
                               fontWeight: "700",
                               fontSize: "16px",
@@ -38686,7 +38686,7 @@ export function TarievenContent() {
                           background: "linear-gradient(160deg, #8639FA 0%, #0F8AE5 100%)",
                           color: "#FFFFFF",
                           borderRadius: "24px 24px 0 0",
-                          padding: "40px 22px 28px",
+                          padding: "40px 24px 28px",
                           height: "100%",
                           width: "100%",
                           boxSizing: "border-box",
@@ -38694,7 +38694,7 @@ export function TarievenContent() {
                           flexDirection: "column",
                           alignItems: "center",
                           textAlign: "center",
-                          gap: "6px",
+                          gap: "8px",
                         }}
                       >
                         <span
@@ -38711,7 +38711,7 @@ export function TarievenContent() {
                             color: "#6B2BD9",
                             background: "#FFFFFF",
                             border: "1px solid #EFE8FD",
-                            padding: "5px 12px",
+                            padding: "4px 12px",
                             borderRadius: "999px",
                             whiteSpace: "nowrap",
                           }}
@@ -38740,7 +38740,7 @@ export function TarievenContent() {
                             fontSize: "56px",
                             lineHeight: "1",
                             letterSpacing: "-0.02em",
-                            marginTop: "14px",
+                            marginTop: "16px",
                             color: "inherit",
                           }}
                         >
@@ -38759,7 +38759,7 @@ export function TarievenContent() {
                               background: "#FFFFFF",
                               color: "#1F246C",
                               textDecoration: "none",
-                              padding: "14px 18px",
+                              padding: "16px 20px",
                               borderRadius: "8px",
                               fontWeight: "700",
                               fontSize: "16px",
@@ -38796,7 +38796,7 @@ export function TarievenContent() {
                           background: "#FFFFFF",
                           color: "#1F246C",
                           borderRadius: "24px 24px 0 0",
-                          padding: "40px 22px 28px",
+                          padding: "40px 24px 28px",
                           height: "100%",
                           width: "100%",
                           boxSizing: "border-box",
@@ -38804,7 +38804,7 @@ export function TarievenContent() {
                           flexDirection: "column",
                           alignItems: "center",
                           textAlign: "center",
-                          gap: "6px",
+                          gap: "8px",
                         }}
                       >
                         <h3
@@ -38829,7 +38829,7 @@ export function TarievenContent() {
                             fontSize: "56px",
                             lineHeight: "1",
                             letterSpacing: "-0.02em",
-                            marginTop: "14px",
+                            marginTop: "16px",
                             color: "inherit",
                           }}
                         >
@@ -38849,7 +38849,7 @@ export function TarievenContent() {
                               color: "#1F246C",
                               border: "1px solid #1F246C",
                               textDecoration: "none",
-                              padding: "14px 18px",
+                              padding: "16px 20px",
                               borderRadius: "8px",
                               fontWeight: "700",
                               fontSize: "16px",
@@ -38899,7 +38899,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -38915,7 +38915,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -38933,7 +38933,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -38967,7 +38967,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -38983,7 +38983,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -39001,7 +39001,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -39030,7 +39030,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -39054,7 +39054,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -39103,7 +39103,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -39166,7 +39166,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -39190,7 +39190,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -39216,7 +39216,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -39276,7 +39276,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -39300,7 +39300,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -39326,7 +39326,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -39386,7 +39386,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -39410,7 +39410,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -39436,7 +39436,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -39465,7 +39465,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -39481,7 +39481,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -39499,7 +39499,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -39528,7 +39528,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -39544,7 +39544,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -39562,7 +39562,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -39591,7 +39591,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -39607,7 +39607,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -39625,7 +39625,7 @@ export function TarievenContent() {
                         alignItems: "center",
                         justifyContent: "center",
                         textAlign: "center",
-                        padding: "18px 12px",
+                        padding: "20px 12px",
                         fontSize: "14px",
                         fontWeight: "600",
                         color: "#1F246C",
@@ -39649,7 +39649,7 @@ export function TarievenContent() {
                     scrollSnapType: "x mandatory",
                     scrollbarWidth: "none",
                     margin: "0 -20px",
-                    padding: "18px 7% 6px",
+                    padding: "20px 7% 8px",
                     alignItems: "flex-start",
                   }}
                 >
@@ -39672,7 +39672,7 @@ export function TarievenContent() {
                         background: "#FFFFFF",
                         color: "#1F246C",
                         borderRadius: "24px 24px 0 0",
-                        padding: "40px 22px 28px",
+                        padding: "40px 24px 28px",
                         height: "100%",
                         width: "100%",
                         boxSizing: "border-box",
@@ -39680,7 +39680,7 @@ export function TarievenContent() {
                         flexDirection: "column",
                         alignItems: "center",
                         textAlign: "center",
-                        gap: "6px",
+                        gap: "8px",
                       }}
                     >
                       <h3
@@ -39705,7 +39705,7 @@ export function TarievenContent() {
                           fontSize: "56px",
                           lineHeight: "1",
                           letterSpacing: "-0.02em",
-                          marginTop: "14px",
+                          marginTop: "16px",
                           color: "inherit",
                         }}
                       >
@@ -39725,7 +39725,7 @@ export function TarievenContent() {
                             color: "#1F246C",
                             border: "1px solid #1F246C",
                             textDecoration: "none",
-                            padding: "14px 18px",
+                            padding: "16px 20px",
                             borderRadius: "8px",
                             fontWeight: "700",
                             fontSize: "16px",
@@ -39754,13 +39754,13 @@ export function TarievenContent() {
                       </div>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Dashboards")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("1")}</span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>
                         {t("Gekoppelde databronnen")}
@@ -39772,7 +39772,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -39795,7 +39795,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -39821,7 +39821,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -39844,7 +39844,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -39866,19 +39866,19 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Correctierondes")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("1")}</span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Levertijd")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("2 weken")}</span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Meerwerk")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("€130 p/uur")}</span>
@@ -39904,7 +39904,7 @@ export function TarievenContent() {
                         background: "linear-gradient(160deg, #8639FA 0%, #0F8AE5 100%)",
                         color: "#FFFFFF",
                         borderRadius: "24px 24px 0 0",
-                        padding: "40px 22px 28px",
+                        padding: "40px 24px 28px",
                         height: "100%",
                         width: "100%",
                         boxSizing: "border-box",
@@ -39912,7 +39912,7 @@ export function TarievenContent() {
                         flexDirection: "column",
                         alignItems: "center",
                         textAlign: "center",
-                        gap: "6px",
+                        gap: "8px",
                       }}
                     >
                       <span
@@ -39929,7 +39929,7 @@ export function TarievenContent() {
                           color: "#6B2BD9",
                           background: "#FFFFFF",
                           border: "1px solid #EFE8FD",
-                          padding: "5px 12px",
+                          padding: "4px 12px",
                           borderRadius: "999px",
                           whiteSpace: "nowrap",
                         }}
@@ -39958,7 +39958,7 @@ export function TarievenContent() {
                           fontSize: "56px",
                           lineHeight: "1",
                           letterSpacing: "-0.02em",
-                          marginTop: "14px",
+                          marginTop: "16px",
                           color: "inherit",
                         }}
                       >
@@ -39977,7 +39977,7 @@ export function TarievenContent() {
                             background: "#FFFFFF",
                             color: "#1F246C",
                             textDecoration: "none",
-                            padding: "14px 18px",
+                            padding: "16px 20px",
                             borderRadius: "8px",
                             fontWeight: "700",
                             fontSize: "16px",
@@ -40007,13 +40007,13 @@ export function TarievenContent() {
                       </div>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Dashboards")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("Max. 2")}</span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>
                         {t("Gekoppelde databronnen")}
@@ -40025,7 +40025,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -40071,7 +40071,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -40097,7 +40097,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -40120,7 +40120,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -40142,19 +40142,19 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Correctierondes")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("Max. 2")}</span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Levertijd")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("2 weken")}</span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Meerwerk")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("€130 p/uur")}</span>
@@ -40179,7 +40179,7 @@ export function TarievenContent() {
                         background: "#FFFFFF",
                         color: "#1F246C",
                         borderRadius: "24px 24px 0 0",
-                        padding: "40px 22px 28px",
+                        padding: "40px 24px 28px",
                         height: "100%",
                         width: "100%",
                         boxSizing: "border-box",
@@ -40187,7 +40187,7 @@ export function TarievenContent() {
                         flexDirection: "column",
                         alignItems: "center",
                         textAlign: "center",
-                        gap: "6px",
+                        gap: "8px",
                       }}
                     >
                       <h3
@@ -40212,7 +40212,7 @@ export function TarievenContent() {
                           fontSize: "56px",
                           lineHeight: "1",
                           letterSpacing: "-0.02em",
-                          marginTop: "14px",
+                          marginTop: "16px",
                           color: "inherit",
                         }}
                       >
@@ -40232,7 +40232,7 @@ export function TarievenContent() {
                             color: "#1F246C",
                             border: "1px solid #1F246C",
                             textDecoration: "none",
-                            padding: "14px 18px",
+                            padding: "16px 20px",
                             borderRadius: "8px",
                             fontWeight: "700",
                             fontSize: "16px",
@@ -40261,13 +40261,13 @@ export function TarievenContent() {
                       </div>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Dashboards")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("Max. 3")}</span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>
                         {t("Gekoppelde databronnen")}
@@ -40279,7 +40279,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -40325,7 +40325,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -40374,7 +40374,7 @@ export function TarievenContent() {
                     </div>
                     <div
                       style={{
-                        padding: "14px 22px",
+                        padding: "16px 24px",
                         borderTop: "1px solid #E4E6EA",
                         display: "flex",
                         alignItems: "center",
@@ -40419,25 +40419,25 @@ export function TarievenContent() {
                       </span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Extra online consultancy")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("Tot 3 begeleidende sessies")}</span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Correctierondes")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("Max. 3")}</span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Levertijd")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("Vanaf 4 weken")}</span>
                     </div>
                     <div
-                      style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
+                      style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}
                     >
                       <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Meerwerk")}</strong>
                       <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("€130 p/uur")}</span>
@@ -40541,7 +40541,7 @@ export function TarievenContent() {
             flexDirection: "column",
             alignItems: "center",
             textAlign: "center",
-            gap: "22px",
+            gap: "24px",
           }}
         >
           <p
@@ -40575,7 +40575,7 @@ export function TarievenContent() {
           <p style={{ margin: "0", maxWidth: "560px", fontSize: "18px", lineHeight: "1.6", color: "#FFFFFF" }}>
             {t("Vertel ons waar je naartoe wilt. Wij laten zien welk pakket je daar brengt.")}
           </p>
-          <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "14px", paddingTop: "8px" }}>
+          <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px", paddingTop: "8px" }}>
             <a
               href="https://calendly.com/vrijblijvendgesprek/"
               target="_blank"
@@ -40585,7 +40585,7 @@ export function TarievenContent() {
                 display: "inline-flex",
                 alignItems: "center",
                 minHeight: "56px",
-                padding: "0 30px",
+                padding: "0 32px",
                 borderRadius: "8px",
                 background: "#FFFFFF",
                 color: "#1F246C",
@@ -40617,7 +40617,7 @@ export function TarievenContent() {
                 display: "inline-flex",
                 alignItems: "center",
                 minHeight: "56px",
-                padding: "0 26px",
+                padding: "0 28px",
                 borderRadius: "8px",
                 border: "1px solid rgba(255, 255, 255, 0.7)",
                 color: "#FFFFFF",
@@ -40643,7 +40643,7 @@ export function TarievenContent() {
               </svg>
             </a>
           </div>
-          <div className="cta-team" style={{ display: "flex", alignItems: "center", gap: "14px", paddingTop: "6px" }}>
+          <div className="cta-team" style={{ display: "flex", alignItems: "center", gap: "16px", paddingTop: "8px" }}>
             <span style={{ display: "flex" }}>
               <span
                 style={{
@@ -40676,7 +40676,7 @@ export function TarievenContent() {
                   background: "#FFF6C7",
                   border: "3px solid #FFFFFF",
                   boxSizing: "border-box",
-                  marginLeft: "-14px",
+                  marginLeft: "-16px",
                   zIndex: "9",
                   flexShrink: "0",
                 }}
@@ -40697,7 +40697,7 @@ export function TarievenContent() {
                   background: "#E3F1FD",
                   border: "3px solid #FFFFFF",
                   boxSizing: "border-box",
-                  marginLeft: "-14px",
+                  marginLeft: "-16px",
                   zIndex: "8",
                   flexShrink: "0",
                 }}
@@ -40718,7 +40718,7 @@ export function TarievenContent() {
                   background: "#FFF6C7",
                   border: "3px solid #FFFFFF",
                   boxSizing: "border-box",
-                  marginLeft: "-14px",
+                  marginLeft: "-16px",
                   zIndex: "7",
                   flexShrink: "0",
                 }}

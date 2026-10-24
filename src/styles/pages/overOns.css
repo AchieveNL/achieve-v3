@@ -22,7 +22,7 @@ h1{font-size:38px !important}
 :is([style*="gap: 56px 80px"],[style*="gap:56px 80px"]),:is([style*="gap: 48px 80px"],[style*="gap:48px 80px"]),:is([style*="gap: 48px 72px"],[style*="gap:48px 72px"]),:is([style*="gap: 28px 64px"],[style*="gap:28px 64px"]){gap:32px !important}
 :is([style*="font-size: 72px"],[style*="font-size:72px"]){font-size:48px !important}
 :is([style*="font-size: 40px"],[style*="font-size:40px"]){font-size:32px !important}
-:is([style*="padding: 18px 30px"],[style*="padding:18px 30px"]),:is([style*="padding: 18px 28px"],[style*="padding:18px 28px"]){padding:15px 22px !important;font-size:17px !important}
+:is([style*="padding: 20px 32px"],[style*="padding:20px 32px"]),:is([style*="padding: 20px 28px"],[style*="padding:20px 28px"]){padding:16px 24px !important;font-size:17px !important}
 .main-nav .glow{font-size:17px !important}
 }
 @media (max-width: 600px){
@@ -37,7 +37,7 @@ footer nav ul a{padding:8px 0 !important}
 @keyframes pjlMove{from{transform:translateX(0)}to{transform:translateX(-50%)}}
 @media (prefers-reduced-motion: reduce){.pjl-track{animation:none}}
 .oo-team .oo-person img{max-width:none}
-@media (max-width: 600px){.oo-pair{grid-template-columns:minmax(0,1fr) !important;gap:6px}.oo-pair-arrow{transform:rotate(90deg);height:24px}}
+@media (max-width: 600px){.oo-pair{grid-template-columns:minmax(0,1fr) !important;gap:8px}.oo-pair-arrow{transform:rotate(90deg);height:24px}}
 .oo-person{transition:transform .9s cubic-bezier(.45,0,.2,1),box-shadow .9s ease}
 .oo-person:hover{transform:translateY(-8px);box-shadow:0 4px 8px rgba(31,36,108,.06),0 28px 52px rgba(31,36,108,.18) !important}
 .oo-person > div:first-child{transition:box-shadow .35s ease}
@@ -68,9 +68,9 @@ footer nav ul a{padding:8px 0 !important}
 @media (max-width: 600px){.oo-disc{grid-template-columns:minmax(0,1fr) !important;margin-top:40px !important}}
 @media (max-width: 1024px){.oo-why-top,.oo-why-card{grid-template-columns:minmax(0,1fr) !important}}
 @media (max-width: 1024px){.oo-org{grid-template-columns:minmax(0,1fr) !important}}
-@media (max-width: 600px){.oo-org{padding:36px 22px !important;margin-bottom:48px !important}.oo-org-dept{padding:22px 18px !important}.oo-org-av{width:44px !important;height:44px !important;margin-left:-10px !important}.oo-org-av:first-child{margin-left:0 !important}}
-@media (max-width: 900px){.oo-steps3{grid-template-columns:minmax(0,1fr) !important;gap:12px !important}}
-@media (max-width: 900px){.oo-cult3{grid-template-columns:minmax(0,1fr) !important}}
+@media (max-width: 600px){.oo-org{padding:36px 24px !important;margin-bottom:48px !important}.oo-org-dept{padding:24px 20px !important}.oo-org-av{width:44px !important;height:44px !important;margin-left:-12px !important}.oo-org-av:first-child{margin-left:0 !important}}
+@media (max-width: 1024px){.oo-steps3{grid-template-columns:minmax(0,1fr) !important;gap:12px !important}}
+@media (max-width: 1024px){.oo-cult3{grid-template-columns:minmax(0,1fr) !important}}
 @media (max-width: 1024px){.oo-vals{gap:40px 0 !important}.oo-valcol:nth-child(3){border-left:0 !important;padding-left:0 !important}}
 @media (max-width: 600px){.oo-valcol{border-left:0 !important;padding:0 0 28px !important;border-bottom:1px solid rgba(255,255,255,.16)}.oo-valcol:last-child{border-bottom:0;padding-bottom:0 !important}.oo-vals{gap:28px !important}}
 .oo-hero .about-link:hover .l2-txt,.oo-hero .about-link:focus-visible .l2-txt{background:linear-gradient(90deg,#B48DFF 0%,#5EC0FA 50%,#B48DFF 100%) 0 0/200% 100% !important;-webkit-background-clip:text !important;background-clip:text !important}
@@ -100,15 +100,15 @@ footer nav ul a{padding:8px 0 !important}
 .oo-chat-typing .oo-dot:nth-child(2){animation-delay:.15s}
 .oo-chat-typing .oo-dot:nth-child(3){animation-delay:.3s}
 @media (prefers-reduced-motion: reduce){.oo-chat-anim .oo-chat-msg{opacity:1;transform:none;transition:none}.oo-chat-typing .oo-dot{animation:none}}
-@media (max-width: 600px){.oo-wie-logo{padding:22px 26px 24px !important}.oo-wie-logo span:first-child{font-size:44px !important}.oo-wie-logo span:last-child{font-size:16px !important}}
+@media (max-width: 600px){.oo-wie-logo{padding:24px 28px 24px !important}.oo-wie-logo span:first-child{font-size:44px !important}.oo-wie-logo span:last-child{font-size:16px !important}}
 .oo-meet-link{display:inline-block;transition:transform .25s ease,color .25s ease}
 .oo-meet-link .oo-arr{transition:transform .25s ease}
 .oo-meet-link:hover,.oo-meet-link:focus-visible{transform:translateY(-2px);color:#0F8AE5 !important}
 .oo-meet-link:hover .oo-arr,.oo-meet-link:focus-visible .oo-arr{transform:translateX(4px)}
 @media (prefers-reduced-motion: reduce){.oo-meet-link,.oo-meet-link .oo-arr{transition:none}.oo-meet-link:hover,.oo-meet-link:focus-visible{transform:none}}
 @media (max-width: 600px){.oo-wlogo-wrap{align-self:stretch !important}
-.oo-wie-logo{align-self:stretch !important}.oo-wie-logo{padding:26px 20px 56px !important}.oo-meet{gap:10px !important;padding:10px 16px 10px 10px !important;max-width:calc(100% - 24px) !important}.oo-meet > span:first-child > span{width:32px !important;height:32px !important;margin-left:-10px !important;box-shadow:0 0 0 3px #FFFFFF !important}.oo-meet > span:first-child > span:first-child{margin-left:0 !important}.oo-meet strong{font-size:14px !important}.oo-meet .oo-meet-link{font-size:13px !important}}
+.oo-wie-logo{align-self:stretch !important}.oo-wie-logo{padding:28px 20px 56px !important}.oo-meet{gap:12px !important;padding:12px 16px 12px 12px !important;max-width:calc(100% - 24px) !important}.oo-meet > span:first-child > span{width:32px !important;height:32px !important;margin-left:-12px !important;box-shadow:0 0 0 3px #FFFFFF !important}.oo-meet > span:first-child > span:first-child{margin-left:0 !important}.oo-meet strong{font-size:14px !important}.oo-meet .oo-meet-link{font-size:13px !important}}
 @media (max-width: 600px){.oo-why{padding:80px 20px !important}.oo-why-card{padding:32px 24px !important}}
-@media (max-width: 600px){.oo-vals{grid-template-columns:minmax(0,1fr) !important}.oo-team{grid-template-columns:repeat(2,minmax(0,1fr)) !important;gap:14px !important}.oo-join{grid-column:span 2 !important;padding:28px !important}.oo-person{padding:20px 12px !important}.oo-person strong{font-size:20px !important}.oo-person span{font-size:13px !important}}
+@media (max-width: 600px){.oo-vals{grid-template-columns:minmax(0,1fr) !important}.oo-team{grid-template-columns:repeat(2,minmax(0,1fr)) !important;gap:16px !important}.oo-join{grid-column:span 2 !important;padding:28px !important}.oo-person{padding:20px 12px !important}.oo-person strong{font-size:20px !important}.oo-person span{font-size:13px !important}}
 .oo-dot{flex:0 0 8px;width:8px !important;height:8px !important;min-height:8px;aspect-ratio:1/1;border-radius:50% !important;align-self:center}
 @media (max-width: 600px){.oo-meet > .oo-meet-faces.oo-meet-faces{position:relative;width:60px;height:60px;flex-shrink:0}.oo-meet > .oo-meet-faces.oo-meet-faces > span{position:absolute !important;inset:0;width:100% !important;height:100% !important;margin-left:0 !important;opacity:0;transition:opacity .6s ease}.oo-meet > .oo-meet-faces.oo-meet-faces > span.is-on{opacity:1}}

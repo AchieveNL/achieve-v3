@@ -15,5 +15,5 @@
 .fq-line{transition:color .25s ease}
 .fq-line:hover,.fq-line:focus-visible{color:#FAE84E !important}
 @media (max-width: 1024px){.fq-grid{grid-template-columns:minmax(0,1fr) !important;gap:56px !important}.fq-aside{position:static !important}}
-@media (max-width: 600px){.fq-hero{padding:48px 20px 56px !important}.fq-chips{display:none !important}.fq-body{padding:64px 20px 80px !important}.fq-item{padding:0 18px !important}.fq-item summary{font-size:18px !important;padding:18px 0 !important}.fq-item summary + div{padding:0 0 20px !important}.fq-aside > div{padding:26px !important}}
+@media (max-width: 600px){.fq-hero{padding:48px 20px 56px !important}.fq-chips{display:none !important}.fq-body{padding:64px 20px 80px !important}.fq-item{padding:0 20px !important}.fq-item summary{font-size:18px !important;padding:20px 0 !important}.fq-item summary + div{padding:0 0 20px !important}.fq-aside > div{padding:28px !important}}
 @media (prefers-reduced-motion: reduce){.fq-item,.fq-ic,.fq-chip{transition:none}}

@@ -67,7 +67,7 @@ export function Approach() {
             <p style={{ margin: "0", fontSize: "20px", lineHeight: "1.5", color: "#3A4150", maxWidth: "440px" }}>
               {t("Jij bepaalt de richting. Wij bouwen de weg.")}
             </p>
-            <div style={{ display: "flex", flexDirection: "column", alignItems: "flex-start", gap: "14px" }}>
+            <div style={{ display: "flex", flexDirection: "column", alignItems: "flex-start", gap: "16px" }}>
               <a
                 href="https://calendly.com/vrijblijvendgesprek/"
                 target="_blank"
@@ -77,7 +77,7 @@ export function Approach() {
                   background: "linear-gradient(90deg, #8639FA 0%, #0F8AE5 100%)",
                   color: "#FFFFFF",
                   textDecoration: "none",
-                  padding: "18px 30px",
+                  padding: "20px 32px",
                   borderRadius: "8px",
                   fontWeight: "700",
                   fontSize: "19px",

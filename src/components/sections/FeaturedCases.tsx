@@ -188,7 +188,7 @@ export function FeaturedCases() {
                             textTransform: "uppercase",
                             color: "#6E5A00",
                             background: "#FFF6C7",
-                            padding: "7px 14px",
+                            padding: "8px 16px",
                             borderRadius: "999px",
                           }}
                         >
@@ -196,7 +196,7 @@ export function FeaturedCases() {
                         </span>
                       </span>
                     </div>
-                    <div style={{ display: "flex", flexDirection: "column", gap: "6px" }}>
+                    <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
                       <span
                         className="grad-text"
                         style={{
@@ -222,7 +222,7 @@ export function FeaturedCases() {
                       </span>
                     </div>
                     <div className="fc-detail" style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "20px" }}>
-                      <div style={{ display: "flex", flexDirection: "column", gap: "6px" }}>
+                      <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
                         <span
                           style={{
                             fontSize: "12px",
@@ -238,7 +238,7 @@ export function FeaturedCases() {
                           {t("Een jonge webshop, nog zonder bewezen advertentiekanaal.")}
                         </p>
                       </div>
-                      <div style={{ display: "flex", flexDirection: "column", gap: "6px" }}>
+                      <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
                         <span
                           style={{
                             fontSize: "12px",
@@ -266,12 +266,12 @@ export function FeaturedCases() {
                       style={{
                         margin: "0",
                         marginTop: "auto",
-                        padding: "22px 24px",
-                        borderRadius: "18px",
+                        padding: "24px 24px",
+                        borderRadius: "16px",
                         background: "#F8F5FE",
                         display: "flex",
                         flexDirection: "column",
-                        gap: "10px",
+                        gap: "12px",
                       }}
                     >
                       <span role="img" aria-label={ta("5 van 5 sterren")} style={{ display: "inline-flex", gap: "2px" }}>
@@ -317,9 +317,9 @@ export function FeaturedCases() {
                         style={{
                           display: "inline-flex",
                           alignItems: "center",
-                          gap: "10px",
+                          gap: "12px",
                           minHeight: "52px",
-                          padding: "0 26px",
+                          padding: "0 28px",
                           borderRadius: "8px",
                           background: "linear-gradient(90deg, #8639FA 0%, #0F8AE5 100%)",
                           color: "#FFFFFF",
@@ -432,14 +432,14 @@ export function FeaturedCases() {
                           textTransform: "uppercase",
                           color: "#0B6DB8",
                           background: "#E3F1FD",
-                          padding: "7px 14px",
+                          padding: "8px 16px",
                           borderRadius: "999px",
                         }}
                       >
                         {"WordPress Website"}
                       </span>
                     </div>
-                    <div style={{ display: "flex", flexDirection: "column", gap: "6px" }}>
+                    <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
                       <span
                         className="grad-text"
                         style={{
@@ -457,7 +457,7 @@ export function FeaturedCases() {
                       <span style={{ fontSize: "17px", fontWeight: "600", color: "#1F246C" }}>{t("op dag 1")}</span>
                     </div>
                     <div className="fc-detail" style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "20px" }}>
-                      <div style={{ display: "flex", flexDirection: "column", gap: "6px" }}>
+                      <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
                         <span
                           style={{
                             fontSize: "12px",
@@ -475,7 +475,7 @@ export function FeaturedCases() {
                           )}
                         </p>
                       </div>
-                      <div style={{ display: "flex", flexDirection: "column", gap: "6px" }}>
+                      <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
                         <span
                           style={{
                             fontSize: "12px",
@@ -499,12 +499,12 @@ export function FeaturedCases() {
                       style={{
                         margin: "0",
                         marginTop: "auto",
-                        padding: "22px 24px",
-                        borderRadius: "18px",
+                        padding: "24px 24px",
+                        borderRadius: "16px",
                         background: "#F8F5FE",
                         display: "flex",
                         flexDirection: "column",
-                        gap: "10px",
+                        gap: "12px",
                       }}
                     >
                       <span role="img" aria-label={ta("5 van 5 sterren")} style={{ display: "inline-flex", gap: "2px" }}>
@@ -550,9 +550,9 @@ export function FeaturedCases() {
                         style={{
                           display: "inline-flex",
                           alignItems: "center",
-                          gap: "10px",
+                          gap: "12px",
                           minHeight: "52px",
-                          padding: "0 26px",
+                          padding: "0 28px",
                           borderRadius: "8px",
                           background: "linear-gradient(90deg, #8639FA 0%, #0F8AE5 100%)",
                           color: "#FFFFFF",
@@ -668,7 +668,7 @@ export function FeaturedCases() {
                             textTransform: "uppercase",
                             color: "#6B2BD9",
                             background: "#EFE8FD",
-                            padding: "7px 14px",
+                            padding: "8px 16px",
                             borderRadius: "999px",
                           }}
                         >
@@ -683,7 +683,7 @@ export function FeaturedCases() {
                             textTransform: "uppercase",
                             color: "#0B6DB8",
                             background: "#E3F1FD",
-                            padding: "7px 14px",
+                            padding: "8px 16px",
                             borderRadius: "999px",
                           }}
                         >
@@ -691,7 +691,7 @@ export function FeaturedCases() {
                         </span>
                       </span>
                     </div>
-                    <div style={{ display: "flex", flexDirection: "column", gap: "6px" }}>
+                    <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
                       <span
                         className="grad-text"
                         style={{
@@ -711,7 +711,7 @@ export function FeaturedCases() {
                       </span>
                     </div>
                     <div className="fc-detail" style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "20px" }}>
-                      <div style={{ display: "flex", flexDirection: "column", gap: "6px" }}>
+                      <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
                         <span
                           style={{
                             fontSize: "12px",
@@ -727,7 +727,7 @@ export function FeaturedCases() {
                           {t("Een familiebedrijf dat klaar was voor een professionele online uitstraling.")}
                         </p>
                       </div>
-                      <div style={{ display: "flex", flexDirection: "column", gap: "6px" }}>
+                      <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
                         <span
                           style={{
                             fontSize: "12px",
@@ -749,12 +749,12 @@ export function FeaturedCases() {
                       style={{
                         margin: "0",
                         marginTop: "auto",
-                        padding: "22px 24px",
-                        borderRadius: "18px",
+                        padding: "24px 24px",
+                        borderRadius: "16px",
                         background: "#F8F5FE",
                         display: "flex",
                         flexDirection: "column",
-                        gap: "10px",
+                        gap: "12px",
                       }}
                     >
                       <span role="img" aria-label={ta("5 van 5 sterren")} style={{ display: "inline-flex", gap: "2px" }}>
@@ -802,9 +802,9 @@ export function FeaturedCases() {
                         style={{
                           display: "inline-flex",
                           alignItems: "center",
-                          gap: "10px",
+                          gap: "12px",
                           minHeight: "52px",
-                          padding: "0 26px",
+                          padding: "0 28px",
                           borderRadius: "8px",
                           background: "linear-gradient(90deg, #8639FA 0%, #0F8AE5 100%)",
                           color: "#FFFFFF",
@@ -873,7 +873,7 @@ export function FeaturedCases() {
                   style={{
                     display: "inline-flex",
                     alignItems: "center",
-                    gap: "10px",
+                    gap: "12px",
                     minHeight: "44px",
                     fontSize: "16px",
                     fontWeight: "600",

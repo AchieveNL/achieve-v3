@@ -103,8 +103,8 @@ export function Hero() {
                 display: "inline-flex",
                 flexWrap: "wrap",
                 alignItems: "center",
-                gap: "8px 10px",
-                padding: "7px 16px",
+                gap: "8px 12px",
+                padding: "8px 16px",
                 borderRadius: "999px",
                 border: "1px solid #E4E6EA",
                 background: "#FFFFFF",
@@ -165,7 +165,7 @@ export function Hero() {
                 color: "#1F246C",
               }}
             >
-              <span style={{ display: "inline-flex", alignItems: "center", gap: "6px" }}>
+              <span style={{ display: "inline-flex", alignItems: "center", gap: "8px" }}>
                 <img className="hero-rate-logo" src="/media/icons/google.svg" alt="" style={{ width: "16px", height: "16px" }} />
                 <span role="img" aria-label={ta("5 van 5 sterren op Google")} style={{ display: "inline-flex", gap: "2px" }}>
                   <svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true">
@@ -204,7 +204,7 @@ export function Hero() {
                   <span className="hero-rate-name"> {t("Google")}</span>
                 </span>
               </span>
-              <span style={{ display: "inline-flex", alignItems: "center", gap: "6px" }}>
+              <span style={{ display: "inline-flex", alignItems: "center", gap: "8px" }}>
                 <img className="hero-rate-logo" src="/media/icons/trustpilot.svg" alt="" style={{ width: "16px", height: "16px" }} />
                 <span role="img" aria-label={ta("4,5 van 5 sterren op Trustpilot")} style={{ display: "inline-flex", gap: "2px" }}>
                   <svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true">
@@ -320,7 +320,7 @@ export function Hero() {
             <p style={{ margin: "0", fontSize: "21px", lineHeight: "1.55", color: "#3A4150", maxWidth: "640px" }}>
               {t("Jij hebt de ambitie. Wij bouwen alles wat nodig is om het waar te maken.")}
             </p>
-            <div style={{ display: "flex", flexWrap: "wrap", gap: "14px", paddingTop: "8px" }}>
+            <div style={{ display: "flex", flexWrap: "wrap", gap: "16px", paddingTop: "8px" }}>
               <a
                 href="https://calendly.com/vrijblijvendgesprek/"
                 target="_blank"
@@ -330,7 +330,7 @@ export function Hero() {
                   background: "linear-gradient(90deg, #8639FA 0%, #0F8AE5 100%)",
                   color: "#FFFFFF",
                   textDecoration: "none",
-                  padding: "18px 30px",
+                  padding: "20px 32px",
                   borderRadius: "8px",
                   fontWeight: "700",
                   fontSize: "19px",
@@ -344,7 +344,7 @@ export function Hero() {
                 style={{
                   color: "#1F246C",
                   textDecoration: "none",
-                  padding: "18px 28px",
+                  padding: "20px 28px",
                   borderRadius: "8px",
                   fontWeight: "700",
                   fontSize: "17px",
@@ -470,15 +470,15 @@ export function Hero() {
                 left: "0",
                 width: "84%",
                 background: "#FFFFFF",
-                borderRadius: "22px",
-                padding: "34px",
+                borderRadius: "20px",
+                padding: "36px",
                 boxShadow: "0 2px 4px rgba(31, 36, 108, 0.06), 0 24px 48px rgba(31, 36, 108, 0.14)",
                 display: "flex",
                 flexDirection: "column",
-                gap: "14px",
+                gap: "16px",
               }}
             >
-              <span style={{ display: "flex", alignItems: "center", gap: "10px" }}>
+              <span style={{ display: "flex", alignItems: "center", gap: "12px" }}>
                 <span role="img" aria-label={ta("5 van 5 sterren")} style={{ display: "inline-flex", gap: "2px" }}>
                   <svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true">
                     <path
@@ -511,7 +511,7 @@ export function Hero() {
                     ></path>
                   </svg>
                 </span>
-                <span style={{ display: "inline-flex", alignItems: "center", gap: "6px" }}>
+                <span style={{ display: "inline-flex", alignItems: "center", gap: "8px" }}>
                   <img
                     src="/media/icons/google.svg"
                     alt=""
@@ -550,13 +550,13 @@ export function Hero() {
                 right: "0",
                 width: "66%",
                 background: "linear-gradient(135deg, #8639FA 0%, #0F8AE5 100%)",
-                borderRadius: "22px",
-                padding: "30px",
+                borderRadius: "20px",
+                padding: "32px",
                 color: "#FFFFFF",
                 boxShadow: "0 2px 4px rgba(31, 36, 108, 0.06), 0 24px 48px rgba(31, 36, 108, 0.14)",
                 display: "flex",
                 flexDirection: "column",
-                gap: "6px",
+                gap: "8px",
               }}
             >
               <span style={{ fontSize: "14px", fontWeight: "600", letterSpacing: "0.08em", textTransform: "uppercase", color: "#FAE84E" }}>
@@ -584,14 +584,14 @@ export function Hero() {
                 width: "80%",
                 background: "#FFFFFF",
                 borderRadius: "20px",
-                padding: "26px 30px",
+                padding: "28px 32px",
                 boxShadow: "0 2px 4px rgba(31, 36, 108, 0.06), 0 24px 48px rgba(31, 36, 108, 0.14)",
                 display: "flex",
                 flexDirection: "column",
-                gap: "10px",
+                gap: "12px",
               }}
             >
-              <span style={{ display: "flex", alignItems: "center", gap: "10px" }}>
+              <span style={{ display: "flex", alignItems: "center", gap: "12px" }}>
                 <span role="img" aria-label={ta("5 van 5 sterren")} style={{ display: "inline-flex", gap: "2px" }}>
                   <svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true">
                     <path
@@ -624,7 +624,7 @@ export function Hero() {
                     ></path>
                   </svg>
                 </span>
-                <span style={{ display: "inline-flex", alignItems: "center", gap: "6px" }}>
+                <span style={{ display: "inline-flex", alignItems: "center", gap: "8px" }}>
                   <img
                     src="/media/icons/google.svg"
                     alt=""

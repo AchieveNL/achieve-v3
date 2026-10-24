@@ -76,7 +76,7 @@ export function ProjectGrid() {
             className="pj-filters"
             role="group"
             aria-label={ta("Filter op dienst")}
-            style={{ display: "flex", flexWrap: "wrap", gap: "10px" }}
+            style={{ display: "flex", flexWrap: "wrap", gap: "12px" }}
           >
             {h.filters.map((f, f_i) => (
               <Fragment key={f_i}>
@@ -88,7 +88,7 @@ export function ProjectGrid() {
                   style={{
                     font: "inherit",
                     minHeight: "44px",
-                    padding: "10px 18px",
+                    padding: "12px 20px",
                     borderRadius: "999px",
                     border: `1px solid ${f.border}`,
                     background: f.bg,
@@ -247,7 +247,7 @@ export function ProjectGrid() {
                               fontSize: "14px",
                               fontWeight: "600",
                               color: "#1F246C",
-                              padding: "0 6px",
+                              padding: "0 8px",
                               minWidth: "44px",
                               textAlign: "center",
                               fontVariantNumeric: "tabular-nums",
@@ -303,7 +303,7 @@ export function ProjectGrid() {
                             flexDirection: "column",
                             alignItems: "center",
                             justifyContent: "center",
-                            gap: "14px",
+                            gap: "16px",
                           }}
                         >
                           <span
@@ -328,7 +328,7 @@ export function ProjectGrid() {
                               color: "#FFFFFF",
                               border: "1px dashed rgba(255, 255, 255, 0.6)",
                               borderRadius: "999px",
-                              padding: "6px 12px",
+                              padding: "8px 12px",
                             }}
                           >
                             {t("[Projectbeeld volgt]")}
@@ -337,8 +337,8 @@ export function ProjectGrid() {
                       </>
                     )}
                   </div>
-                  <div style={{ flex: "1 1 auto", padding: "24px 26px 26px", display: "flex", flexDirection: "column", gap: "14px" }}>
-                    <div style={{ display: "flex", flexWrap: "wrap", gap: "6px" }}>
+                  <div style={{ flex: "1 1 auto", padding: "24px 28px 28px", display: "flex", flexDirection: "column", gap: "16px" }}>
+                    <div style={{ display: "flex", flexWrap: "wrap", gap: "8px" }}>
                       {p.tags.map((tt, tt_i) => (
                         <Fragment key={tt_i}>
                           <span
@@ -350,7 +350,7 @@ export function ProjectGrid() {
                               textTransform: "uppercase",
                               color: tt.color,
                               background: tt.bg,
-                              padding: "4px 10px",
+                              padding: "4px 12px",
                               borderRadius: "999px",
                             }}
                           >
@@ -398,11 +398,11 @@ export function ProjectGrid() {
                       className="about-link"
                       style={{
                         marginTop: "auto",
-                        paddingTop: "6px",
+                        paddingTop: "8px",
                         alignSelf: "flex-start",
                         display: "inline-flex",
                         alignItems: "center",
-                        gap: "10px",
+                        gap: "12px",
                         minHeight: "44px",
                         fontSize: "15px",
                         fontWeight: "600",

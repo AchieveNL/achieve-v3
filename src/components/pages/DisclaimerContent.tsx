@@ -21,7 +21,7 @@ export function DisclaimerContent() {
             flexDirection: "column",
             alignItems: "center",
             textAlign: "center",
-            gap: "18px",
+            gap: "20px",
           }}
         >
           <p
@@ -53,7 +53,7 @@ export function DisclaimerContent() {
           </h1>
           <nav
             aria-label={ta("Juridische pagina's")}
-            style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "10px", paddingTop: "12px" }}
+            style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "12px", paddingTop: "12px" }}
           >
             <a
               href={href("Privacy")}
@@ -139,7 +139,7 @@ export function DisclaimerContent() {
                   className="lg-toc"
                   style={{
                     display: "block",
-                    padding: "9px 0",
+                    padding: "8px 0",
                     color: "#1F246C",
                     textDecoration: "none",
                     fontSize: "15px",
@@ -156,7 +156,7 @@ export function DisclaimerContent() {
                   className="lg-toc"
                   style={{
                     display: "block",
-                    padding: "9px 0",
+                    padding: "8px 0",
                     color: "#1F246C",
                     textDecoration: "none",
                     fontSize: "15px",
@@ -173,7 +173,7 @@ export function DisclaimerContent() {
                   className="lg-toc"
                   style={{
                     display: "block",
-                    padding: "9px 0",
+                    padding: "8px 0",
                     color: "#1F246C",
                     textDecoration: "none",
                     fontSize: "15px",
@@ -190,7 +190,7 @@ export function DisclaimerContent() {
                   className="lg-toc"
                   style={{
                     display: "block",
-                    padding: "9px 0",
+                    padding: "8px 0",
                     color: "#1F246C",
                     textDecoration: "none",
                     fontSize: "15px",
@@ -207,7 +207,7 @@ export function DisclaimerContent() {
                   className="lg-toc"
                   style={{
                     display: "block",
-                    padding: "9px 0",
+                    padding: "8px 0",
                     color: "#1F246C",
                     textDecoration: "none",
                     fontSize: "15px",
@@ -224,7 +224,7 @@ export function DisclaimerContent() {
                   className="lg-toc"
                   style={{
                     display: "block",
-                    padding: "9px 0",
+                    padding: "8px 0",
                     color: "#1F246C",
                     textDecoration: "none",
                     fontSize: "15px",
@@ -241,7 +241,7 @@ export function DisclaimerContent() {
                   className="lg-toc"
                   style={{
                     display: "block",
-                    padding: "9px 0",
+                    padding: "8px 0",
                     color: "#1F246C",
                     textDecoration: "none",
                     fontSize: "15px",
@@ -260,8 +260,8 @@ export function DisclaimerContent() {
                 <p
                   style={{
                     margin: "0 0 8px",
-                    padding: "14px 18px",
-                    borderRadius: "12px",
+                    padding: "16px 20px",
+                    borderRadius: "16px",
                     background: "#FFF6C7",
                     color: "#6E5A00",
                     fontSize: "15px",
@@ -495,7 +495,7 @@ export function DisclaimerContent() {
                 gap: "20px",
               }}
             >
-              <div style={{ display: "flex", flexDirection: "column", gap: "6px", flex: "1 1 320px" }}>
+              <div style={{ display: "flex", flexDirection: "column", gap: "8px", flex: "1 1 320px" }}>
                 <h2
                   style={{
                     margin: "0",
@@ -526,7 +526,7 @@ export function DisclaimerContent() {
                 style={{
                   color: "#1F246C",
                   textDecoration: "none",
-                  padding: "16px 26px",
+                  padding: "16px 28px",
                   borderRadius: "8px",
                   fontWeight: "700",
                   fontSize: "16px",

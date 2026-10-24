@@ -95,13 +95,13 @@ export function CaseRonVanDamContent() {
             <a href={href("Main")} style={{ color: "#C9CFF0", textDecoration: "none" }}>
               {t("Home")}
             </a>{" "}
-            <span aria-hidden="true" style={{ margin: "0 6px" }}>
+            <span aria-hidden="true" style={{ margin: "0 8px" }}>
               {t("/")}
             </span>{" "}
             <a href={href("Projecten")} style={{ color: "#C9CFF0", textDecoration: "none" }}>
               {t("Projecten")}
             </a>{" "}
-            <span aria-hidden="true" style={{ margin: "0 6px" }}>
+            <span aria-hidden="true" style={{ margin: "0 8px" }}>
               {t("/")}
             </span>{" "}
             <span aria-current="page" translate="no" style={{ color: "#FFFFFF", fontWeight: "600" }}>
@@ -124,7 +124,7 @@ export function CaseRonVanDamContent() {
             display: "flex",
             flexDirection: "column",
             alignItems: "flex-start",
-            gap: "22px",
+            gap: "24px",
           }}
         >
           <span style={{ fontSize: "13px", fontWeight: "700", letterSpacing: "0.12em", textTransform: "uppercase", color: "#FAE84E" }}>
@@ -158,7 +158,7 @@ export function CaseRonVanDamContent() {
                 textTransform: "uppercase",
                 color: "#0B6DB8",
                 background: "#E3F1FD",
-                padding: "7px 14px",
+                padding: "8px 16px",
                 borderRadius: "999px",
               }}
             >
@@ -236,7 +236,7 @@ export function CaseRonVanDamContent() {
               alignContent: "center",
             }}
           >
-            <div style={{ display: "flex", flexDirection: "column", gap: "6px" }}>
+            <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
               <dt style={{ fontSize: "12px", fontWeight: "700", letterSpacing: "0.1em", textTransform: "uppercase", color: "#8639FA" }}>
                 {t("Klant")}
               </dt>
@@ -244,19 +244,19 @@ export function CaseRonVanDamContent() {
                 {"Ron van Dam"}
               </dd>
             </div>
-            <div style={{ display: "flex", flexDirection: "column", gap: "6px" }}>
+            <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
               <dt style={{ fontSize: "12px", fontWeight: "700", letterSpacing: "0.1em", textTransform: "uppercase", color: "#8639FA" }}>
                 {t("Sector")}
               </dt>
               <dd style={{ margin: "0", fontSize: "16px", fontWeight: "600", color: "#1F246C" }}>{t("Kunstenaar")}</dd>
             </div>
-            <div style={{ display: "flex", flexDirection: "column", gap: "6px" }}>
+            <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
               <dt style={{ fontSize: "12px", fontWeight: "700", letterSpacing: "0.1em", textTransform: "uppercase", color: "#8639FA" }}>
                 {t("Markt")}
               </dt>
               <dd style={{ margin: "0", fontSize: "16px", fontWeight: "600", color: "#1F246C" }}>{t("Wereldwijd")}</dd>
             </div>
-            <div style={{ display: "flex", flexDirection: "column", gap: "6px" }}>
+            <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
               <dt style={{ fontSize: "12px", fontWeight: "700", letterSpacing: "0.1em", textTransform: "uppercase", color: "#8639FA" }}>
                 {t("Doelgroep")}
               </dt>
@@ -265,13 +265,13 @@ export function CaseRonVanDamContent() {
                 <Tip label={ta("Uitleg")}>{t("B2C (business-to-consumer): je verkoopt aan consumenten.")}</Tip>
               </dd>
             </div>
-            <div style={{ display: "flex", flexDirection: "column", gap: "6px" }}>
+            <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
               <dt style={{ fontSize: "12px", fontWeight: "700", letterSpacing: "0.1em", textTransform: "uppercase", color: "#8639FA" }}>
                 {t("Looptijd")}
               </dt>
               <dd style={{ margin: "0", fontSize: "16px", fontWeight: "600", color: "#1F246C" }}>{t("1 maand")}</dd>
             </div>
-            <div style={{ display: "flex", flexDirection: "column", gap: "6px" }}>
+            <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
               <dt style={{ fontSize: "12px", fontWeight: "700", letterSpacing: "0.1em", textTransform: "uppercase", color: "#8639FA" }}>
                 {t("Diensten")}
               </dt>
@@ -285,7 +285,7 @@ export function CaseRonVanDamContent() {
                     textTransform: "uppercase",
                     color: "#0B6DB8",
                     background: "#E3F1FD",
-                    padding: "5px 11px",
+                    padding: "4px 12px",
                     borderRadius: "999px",
                   }}
                 >
@@ -293,7 +293,7 @@ export function CaseRonVanDamContent() {
                 </span>
               </dd>
             </div>
-            <div style={{ display: "flex", flexDirection: "column", gap: "6px" }}>
+            <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
               <dt style={{ fontSize: "12px", fontWeight: "700", letterSpacing: "0.1em", textTransform: "uppercase", color: "#8639FA" }}>
                 {t("Website")}
               </dt>
@@ -309,7 +309,7 @@ export function CaseRonVanDamContent() {
                 </a>
               </dd>
             </div>
-            <div style={{ display: "flex", flexDirection: "column", gap: "6px" }}>
+            <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
               <dt style={{ fontSize: "12px", fontWeight: "700", letterSpacing: "0.1em", textTransform: "uppercase", color: "#8639FA" }}>
                 {t("Jaar")}
               </dt>
@@ -364,7 +364,7 @@ export function CaseRonVanDamContent() {
                 padding: "36px",
                 display: "flex",
                 flexDirection: "column",
-                gap: "14px",
+                gap: "16px",
               }}
             >
               <span
@@ -407,7 +407,7 @@ export function CaseRonVanDamContent() {
                 padding: "36px",
                 display: "flex",
                 flexDirection: "column",
-                gap: "14px",
+                gap: "16px",
               }}
             >
               <span
@@ -448,7 +448,7 @@ export function CaseRonVanDamContent() {
       </section>
       <section className="pj-wrap pj-sec" style={{ background: "#F2F8FE", padding: "0 40px 112px" }}>
         <div style={{ maxWidth: "1280px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "40px" }}>
-          <div style={{ display: "flex", flexDirection: "column", gap: "14px", maxWidth: "720px" }}>
+          <div style={{ display: "flex", flexDirection: "column", gap: "16px", maxWidth: "720px" }}>
             <h2
               style={{
                 margin: "0",
@@ -558,7 +558,7 @@ export function CaseRonVanDamContent() {
                   fontSize: "14px",
                   fontWeight: "600",
                   color: "#1F246C",
-                  padding: "0 6px",
+                  padding: "0 8px",
                   minWidth: "52px",
                   textAlign: "center",
                   fontVariantNumeric: "tabular-nums",
@@ -624,7 +624,7 @@ export function CaseRonVanDamContent() {
                 padding: "36px",
                 display: "flex",
                 flexDirection: "column",
-                gap: "14px",
+                gap: "16px",
               }}
             >
               <span
@@ -673,7 +673,7 @@ export function CaseRonVanDamContent() {
                 padding: "36px",
                 display: "flex",
                 flexDirection: "column",
-                gap: "14px",
+                gap: "16px",
               }}
             >
               <span
@@ -813,7 +813,7 @@ export function CaseRonVanDamContent() {
               style={{
                 display: "inline-flex",
                 alignItems: "center",
-                gap: "10px",
+                gap: "12px",
                 minHeight: "44px",
                 fontSize: "16px",
                 fontWeight: "600",
@@ -878,7 +878,7 @@ export function CaseRonVanDamContent() {
               style={{
                 display: "inline-flex",
                 alignItems: "center",
-                gap: "10px",
+                gap: "12px",
                 minHeight: "44px",
                 fontSize: "16px",
                 fontWeight: "600",
@@ -929,7 +929,7 @@ export function CaseRonVanDamContent() {
                   style={{ position: "absolute", inset: "0", width: "100%", height: "100%", objectFit: "cover" }}
                 />
               </div>
-              <div style={{ flex: "1", padding: "28px 30px 26px", display: "flex", flexDirection: "column", gap: "14px" }}>
+              <div style={{ flex: "1", padding: "28px 32px 28px", display: "flex", flexDirection: "column", gap: "16px" }}>
                 <span style={{ display: "flex", flexDirection: "column", gap: "2px" }}>
                   <strong
                     translate="no"
@@ -952,7 +952,7 @@ export function CaseRonVanDamContent() {
                       textTransform: "uppercase",
                       color: "#6B2BD9",
                       background: "#EFE8FD",
-                      padding: "5px 11px",
+                      padding: "4px 12px",
                       borderRadius: "999px",
                     }}
                   >
@@ -967,7 +967,7 @@ export function CaseRonVanDamContent() {
                       textTransform: "uppercase",
                       color: "#0B6DB8",
                       background: "#E3F1FD",
-                      padding: "5px 11px",
+                      padding: "4px 12px",
                       borderRadius: "999px",
                     }}
                   >
@@ -979,11 +979,11 @@ export function CaseRonVanDamContent() {
                   className="about-link"
                   style={{
                     marginTop: "auto",
-                    paddingTop: "6px",
+                    paddingTop: "8px",
                     alignSelf: "flex-start",
                     display: "inline-flex",
                     alignItems: "center",
-                    gap: "10px",
+                    gap: "12px",
                     minHeight: "44px",
                     fontSize: "15px",
                     fontWeight: "600",
@@ -1034,7 +1034,7 @@ export function CaseRonVanDamContent() {
                   style={{ position: "absolute", inset: "0", width: "100%", height: "100%", objectFit: "cover" }}
                 />
               </div>
-              <div style={{ flex: "1", padding: "28px 30px 26px", display: "flex", flexDirection: "column", gap: "14px" }}>
+              <div style={{ flex: "1", padding: "28px 32px 28px", display: "flex", flexDirection: "column", gap: "16px" }}>
                 <span style={{ display: "flex", flexDirection: "column", gap: "2px" }}>
                   <strong
                     translate="no"
@@ -1063,7 +1063,7 @@ export function CaseRonVanDamContent() {
                       textTransform: "uppercase",
                       color: "#6E5A00",
                       background: "#FFF6C7",
-                      padding: "5px 11px",
+                      padding: "4px 12px",
                       borderRadius: "999px",
                     }}
                   >
@@ -1075,11 +1075,11 @@ export function CaseRonVanDamContent() {
                   className="about-link"
                   style={{
                     marginTop: "auto",
-                    paddingTop: "6px",
+                    paddingTop: "8px",
                     alignSelf: "flex-start",
                     display: "inline-flex",
                     alignItems: "center",
-                    gap: "10px",
+                    gap: "12px",
                     minHeight: "44px",
                     fontSize: "15px",
                     fontWeight: "600",
@@ -1130,7 +1130,7 @@ export function CaseRonVanDamContent() {
                   style={{ position: "absolute", inset: "0", width: "100%", height: "100%", objectFit: "cover" }}
                 />
               </div>
-              <div style={{ flex: "1", padding: "28px 30px 26px", display: "flex", flexDirection: "column", gap: "14px" }}>
+              <div style={{ flex: "1", padding: "28px 32px 28px", display: "flex", flexDirection: "column", gap: "16px" }}>
                 <span style={{ display: "flex", flexDirection: "column", gap: "2px" }}>
                   <strong
                     translate="no"
@@ -1153,7 +1153,7 @@ export function CaseRonVanDamContent() {
                       textTransform: "uppercase",
                       color: "#6B2BD9",
                       background: "#EFE8FD",
-                      padding: "5px 11px",
+                      padding: "4px 12px",
                       borderRadius: "999px",
                     }}
                   >
@@ -1168,7 +1168,7 @@ export function CaseRonVanDamContent() {
                       textTransform: "uppercase",
                       color: "#0B6DB8",
                       background: "#E3F1FD",
-                      padding: "5px 11px",
+                      padding: "4px 12px",
                       borderRadius: "999px",
                     }}
                   >
@@ -1183,7 +1183,7 @@ export function CaseRonVanDamContent() {
                       textTransform: "uppercase",
                       color: "#6E5A00",
                       background: "#FFF6C7",
-                      padding: "5px 11px",
+                      padding: "4px 12px",
                       borderRadius: "999px",
                     }}
                   >
@@ -1195,11 +1195,11 @@ export function CaseRonVanDamContent() {
                   className="about-link"
                   style={{
                     marginTop: "auto",
-                    paddingTop: "6px",
+                    paddingTop: "8px",
                     alignSelf: "flex-start",
                     display: "inline-flex",
                     alignItems: "center",
-                    gap: "10px",
+                    gap: "12px",
                     minHeight: "44px",
                     fontSize: "15px",
                     fontWeight: "600",

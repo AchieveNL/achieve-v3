@@ -92,13 +92,13 @@ export function CaseRCpeptidesContent() {
             <a href={href("Main")} style={{ color: "#C9CFF0", textDecoration: "none" }}>
               {t("Home")}
             </a>{" "}
-            <span aria-hidden="true" style={{ margin: "0 6px" }}>
+            <span aria-hidden="true" style={{ margin: "0 8px" }}>
               {t("/")}
             </span>{" "}
             <a href={href("Projecten")} style={{ color: "#C9CFF0", textDecoration: "none" }}>
               {t("Projecten")}
             </a>{" "}
-            <span aria-hidden="true" style={{ margin: "0 6px" }}>
+            <span aria-hidden="true" style={{ margin: "0 8px" }}>
               {t("/")}
             </span>{" "}
             <span aria-current="page" translate="no" style={{ color: "#FFFFFF", fontWeight: "600" }}>
@@ -121,7 +121,7 @@ export function CaseRCpeptidesContent() {
             display: "flex",
             flexDirection: "column",
             alignItems: "flex-start",
-            gap: "22px",
+            gap: "24px",
           }}
         >
           <span style={{ fontSize: "13px", fontWeight: "700", letterSpacing: "0.12em", textTransform: "uppercase", color: "#FAE84E" }}>
@@ -158,7 +158,7 @@ export function CaseRCpeptidesContent() {
               textTransform: "uppercase",
               color: "#6E5A00",
               background: "#FFF6C7",
-              padding: "7px 14px",
+              padding: "8px 16px",
               borderRadius: "999px",
             }}
           >
@@ -235,7 +235,7 @@ export function CaseRCpeptidesContent() {
               alignContent: "center",
             }}
           >
-            <div style={{ display: "flex", flexDirection: "column", gap: "6px" }}>
+            <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
               <dt style={{ fontSize: "12px", fontWeight: "700", letterSpacing: "0.1em", textTransform: "uppercase", color: "#8639FA" }}>
                 {t("Klant")}
               </dt>
@@ -243,13 +243,13 @@ export function CaseRCpeptidesContent() {
                 {"RCpeptides"}
               </dd>
             </div>
-            <div style={{ display: "flex", flexDirection: "column", gap: "6px" }}>
+            <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
               <dt style={{ fontSize: "12px", fontWeight: "700", letterSpacing: "0.1em", textTransform: "uppercase", color: "#8639FA" }}>
                 {t("Sector")}
               </dt>
               <dd style={{ margin: "0", fontSize: "16px", fontWeight: "600", color: "#1F246C" }}>{t("Life sciences")}</dd>
             </div>
-            <div style={{ display: "flex", flexDirection: "column", gap: "6px" }}>
+            <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
               <dt style={{ fontSize: "12px", fontWeight: "700", letterSpacing: "0.1em", textTransform: "uppercase", color: "#8639FA" }}>
                 {t("Markt")}
               </dt>
@@ -257,7 +257,7 @@ export function CaseRCpeptidesContent() {
                 <span>{t("Europa")}</span> <span translate="no">{"(DE, BE, CH, SE, UK)"}</span>
               </dd>
             </div>
-            <div style={{ display: "flex", flexDirection: "column", gap: "6px" }}>
+            <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
               <dt style={{ fontSize: "12px", fontWeight: "700", letterSpacing: "0.1em", textTransform: "uppercase", color: "#8639FA" }}>
                 {t("Doelgroep")}
               </dt>
@@ -266,13 +266,13 @@ export function CaseRCpeptidesContent() {
                 <Tip label={ta("Uitleg")}>{t("B2B (business-to-business): je verkoopt aan bedrijven en organisaties.")}</Tip>
               </dd>
             </div>
-            <div style={{ display: "flex", flexDirection: "column", gap: "6px" }}>
+            <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
               <dt style={{ fontSize: "12px", fontWeight: "700", letterSpacing: "0.1em", textTransform: "uppercase", color: "#8639FA" }}>
                 {t("Looptijd")}
               </dt>
               <dd style={{ margin: "0", fontSize: "16px", fontWeight: "600", color: "#1F246C" }}>{t("1 maand")}</dd>
             </div>
-            <div style={{ display: "flex", flexDirection: "column", gap: "6px" }}>
+            <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
               <dt style={{ fontSize: "12px", fontWeight: "700", letterSpacing: "0.1em", textTransform: "uppercase", color: "#8639FA" }}>
                 {t("Diensten")}
               </dt>
@@ -287,7 +287,7 @@ export function CaseRCpeptidesContent() {
                       textTransform: "uppercase",
                       color: "#6E5A00",
                       background: "#FFF6C7",
-                      padding: "5px 11px",
+                      padding: "4px 12px",
                       borderRadius: "999px",
                     }}
                   >
@@ -296,7 +296,7 @@ export function CaseRCpeptidesContent() {
                 </span>
               </dd>
             </div>
-            <div style={{ display: "flex", flexDirection: "column", gap: "6px" }}>
+            <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
               <dt style={{ fontSize: "12px", fontWeight: "700", letterSpacing: "0.1em", textTransform: "uppercase", color: "#8639FA" }}>
                 {t("Website")}
               </dt>
@@ -312,7 +312,7 @@ export function CaseRCpeptidesContent() {
                 </a>
               </dd>
             </div>
-            <div style={{ display: "flex", flexDirection: "column", gap: "6px" }}>
+            <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
               <dt style={{ fontSize: "12px", fontWeight: "700", letterSpacing: "0.1em", textTransform: "uppercase", color: "#8639FA" }}>
                 {t("Jaar")}
               </dt>
@@ -366,12 +366,12 @@ export function CaseRCpeptidesContent() {
               style={{
                 gridColumn: "span 2",
                 borderRadius: "20px",
-                padding: "28px 30px",
+                padding: "28px 32px",
                 background: "linear-gradient(90deg, #8639FA 0%, #0F8AE5 100%)",
                 color: "#FFFFFF",
                 display: "flex",
                 flexDirection: "column",
-                gap: "10px",
+                gap: "12px",
               }}
             >
               <span style={{ fontSize: "14px", fontWeight: "600", letterSpacing: "0.06em", textTransform: "uppercase" }}>
@@ -396,7 +396,7 @@ export function CaseRCpeptidesContent() {
             <div
               style={{
                 borderRadius: "20px",
-                padding: "24px 26px",
+                padding: "24px 28px",
                 background: "#FFFFFF",
                 display: "flex",
                 flexDirection: "column",
@@ -421,7 +421,7 @@ export function CaseRCpeptidesContent() {
             <div
               style={{
                 borderRadius: "20px",
-                padding: "24px 26px",
+                padding: "24px 28px",
                 background: "#FFFFFF",
                 display: "flex",
                 flexDirection: "column",
@@ -448,7 +448,7 @@ export function CaseRCpeptidesContent() {
             <div
               style={{
                 borderRadius: "20px",
-                padding: "24px 26px",
+                padding: "24px 28px",
                 background: "#FFFFFF",
                 display: "flex",
                 flexDirection: "column",
@@ -475,7 +475,7 @@ export function CaseRCpeptidesContent() {
             <div
               style={{
                 borderRadius: "20px",
-                padding: "24px 26px",
+                padding: "24px 28px",
                 background: "#FFFFFF",
                 display: "flex",
                 flexDirection: "column",
@@ -502,7 +502,7 @@ export function CaseRCpeptidesContent() {
             <div
               style={{
                 borderRadius: "20px",
-                padding: "24px 26px",
+                padding: "24px 28px",
                 background: "#FFFFFF",
                 display: "flex",
                 flexDirection: "column",
@@ -529,7 +529,7 @@ export function CaseRCpeptidesContent() {
             <div
               style={{
                 borderRadius: "20px",
-                padding: "24px 26px",
+                padding: "24px 28px",
                 background: "#FFFFFF",
                 display: "flex",
                 flexDirection: "column",
@@ -556,16 +556,16 @@ export function CaseRCpeptidesContent() {
             style={{
               background: "#FFFFFF",
               borderRadius: "20px",
-              padding: "32px 34px",
+              padding: "32px 36px",
               display: "flex",
               flexDirection: "column",
-              gap: "6px",
+              gap: "8px",
             }}
           >
             <h3 style={{ margin: "0", fontSize: "20px", fontWeight: "600", color: "#1F246C" }}>
               {t("Omzet tegenover kosten, opgeteld per dag")}
             </h3>
-            <p style={{ margin: "0 0 18px", fontSize: "15px", color: "#5A6273" }}>
+            <p style={{ margin: "0 0 20px", fontSize: "15px", color: "#5A6273" }}>
               {t("De omzet loopt vanaf de eerste week weg van de kosten.")}
             </p>
             <svg
@@ -725,10 +725,10 @@ export function CaseRCpeptidesContent() {
               style={{
                 background: "#FFFFFF",
                 borderRadius: "20px",
-                padding: "32px 34px",
+                padding: "32px 36px",
                 display: "flex",
                 flexDirection: "column",
-                gap: "6px",
+                gap: "8px",
               }}
             >
               <h3 style={{ margin: "0", fontSize: "20px", fontWeight: "600", color: "#1F246C" }}>
@@ -783,10 +783,10 @@ export function CaseRCpeptidesContent() {
               style={{
                 background: "#FFFFFF",
                 borderRadius: "20px",
-                padding: "32px 34px",
+                padding: "32px 36px",
                 display: "flex",
                 flexDirection: "column",
-                gap: "6px",
+                gap: "8px",
               }}
             >
               <h3 style={{ margin: "0 0 12px", fontSize: "20px", fontWeight: "600", color: "#1F246C" }}>{t("Per kanaal")}</h3>
@@ -938,7 +938,7 @@ export function CaseRCpeptidesContent() {
                 padding: "32px",
                 display: "flex",
                 flexDirection: "column",
-                gap: "14px",
+                gap: "16px",
               }}
             >
               <span
@@ -967,7 +967,7 @@ export function CaseRCpeptidesContent() {
                 padding: "32px",
                 display: "flex",
                 flexDirection: "column",
-                gap: "14px",
+                gap: "16px",
               }}
             >
               <span
@@ -998,7 +998,7 @@ export function CaseRCpeptidesContent() {
                 padding: "32px",
                 display: "flex",
                 flexDirection: "column",
-                gap: "14px",
+                gap: "16px",
               }}
             >
               <span
@@ -1027,7 +1027,7 @@ export function CaseRCpeptidesContent() {
                 padding: "32px",
                 display: "flex",
                 flexDirection: "column",
-                gap: "14px",
+                gap: "16px",
               }}
             >
               <span
@@ -1153,7 +1153,7 @@ export function CaseRCpeptidesContent() {
               style={{
                 display: "inline-flex",
                 alignItems: "center",
-                gap: "10px",
+                gap: "12px",
                 minHeight: "44px",
                 fontSize: "16px",
                 fontWeight: "600",
@@ -1218,7 +1218,7 @@ export function CaseRCpeptidesContent() {
               style={{
                 display: "inline-flex",
                 alignItems: "center",
-                gap: "10px",
+                gap: "12px",
                 minHeight: "44px",
                 fontSize: "16px",
                 fontWeight: "600",
@@ -1269,7 +1269,7 @@ export function CaseRCpeptidesContent() {
                   style={{ position: "absolute", inset: "0", width: "100%", height: "100%", objectFit: "cover" }}
                 />
               </div>
-              <div style={{ flex: "1", padding: "28px 30px 26px", display: "flex", flexDirection: "column", gap: "14px" }}>
+              <div style={{ flex: "1", padding: "28px 32px 28px", display: "flex", flexDirection: "column", gap: "16px" }}>
                 <span style={{ display: "flex", flexDirection: "column", gap: "2px" }}>
                   <strong
                     translate="no"
@@ -1292,7 +1292,7 @@ export function CaseRCpeptidesContent() {
                       textTransform: "uppercase",
                       color: "#6B2BD9",
                       background: "#EFE8FD",
-                      padding: "5px 11px",
+                      padding: "4px 12px",
                       borderRadius: "999px",
                     }}
                   >
@@ -1307,7 +1307,7 @@ export function CaseRCpeptidesContent() {
                       textTransform: "uppercase",
                       color: "#0B6DB8",
                       background: "#E3F1FD",
-                      padding: "5px 11px",
+                      padding: "4px 12px",
                       borderRadius: "999px",
                     }}
                   >
@@ -1319,11 +1319,11 @@ export function CaseRCpeptidesContent() {
                   className="about-link"
                   style={{
                     marginTop: "auto",
-                    paddingTop: "6px",
+                    paddingTop: "8px",
                     alignSelf: "flex-start",
                     display: "inline-flex",
                     alignItems: "center",
-                    gap: "10px",
+                    gap: "12px",
                     minHeight: "44px",
                     fontSize: "15px",
                     fontWeight: "600",
@@ -1374,7 +1374,7 @@ export function CaseRCpeptidesContent() {
                   style={{ position: "absolute", inset: "0", width: "100%", height: "100%", objectFit: "cover" }}
                 />
               </div>
-              <div style={{ flex: "1", padding: "28px 30px 26px", display: "flex", flexDirection: "column", gap: "14px" }}>
+              <div style={{ flex: "1", padding: "28px 32px 28px", display: "flex", flexDirection: "column", gap: "16px" }}>
                 <span style={{ display: "flex", flexDirection: "column", gap: "2px" }}>
                   <strong
                     translate="no"
@@ -1397,7 +1397,7 @@ export function CaseRCpeptidesContent() {
                       textTransform: "uppercase",
                       color: "#6B2BD9",
                       background: "#EFE8FD",
-                      padding: "5px 11px",
+                      padding: "4px 12px",
                       borderRadius: "999px",
                     }}
                   >
@@ -1412,7 +1412,7 @@ export function CaseRCpeptidesContent() {
                       textTransform: "uppercase",
                       color: "#0B6DB8",
                       background: "#E3F1FD",
-                      padding: "5px 11px",
+                      padding: "4px 12px",
                       borderRadius: "999px",
                     }}
                   >
@@ -1424,11 +1424,11 @@ export function CaseRCpeptidesContent() {
                   className="about-link"
                   style={{
                     marginTop: "auto",
-                    paddingTop: "6px",
+                    paddingTop: "8px",
                     alignSelf: "flex-start",
                     display: "inline-flex",
                     alignItems: "center",
-                    gap: "10px",
+                    gap: "12px",
                     minHeight: "44px",
                     fontSize: "15px",
                     fontWeight: "600",
@@ -1479,7 +1479,7 @@ export function CaseRCpeptidesContent() {
                   style={{ position: "absolute", inset: "0", width: "100%", height: "100%", objectFit: "cover" }}
                 />
               </div>
-              <div style={{ flex: "1", padding: "28px 30px 26px", display: "flex", flexDirection: "column", gap: "14px" }}>
+              <div style={{ flex: "1", padding: "28px 32px 28px", display: "flex", flexDirection: "column", gap: "16px" }}>
                 <span style={{ display: "flex", flexDirection: "column", gap: "2px" }}>
                   <strong
                     translate="no"
@@ -1502,7 +1502,7 @@ export function CaseRCpeptidesContent() {
                       textTransform: "uppercase",
                       color: "#6E5A00",
                       background: "#FFF6C7",
-                      padding: "5px 11px",
+                      padding: "4px 12px",
                       borderRadius: "999px",
                     }}
                   >
@@ -1517,7 +1517,7 @@ export function CaseRCpeptidesContent() {
                       textTransform: "uppercase",
                       color: "#6E5A00",
                       background: "#FFF6C7",
-                      padding: "5px 11px",
+                      padding: "4px 12px",
                       borderRadius: "999px",
                     }}
                   >
@@ -1529,11 +1529,11 @@ export function CaseRCpeptidesContent() {
                   className="about-link"
                   style={{
                     marginTop: "auto",
-                    paddingTop: "6px",
+                    paddingTop: "8px",
                     alignSelf: "flex-start",
                     display: "inline-flex",
                     alignItems: "center",
-                    gap: "10px",
+                    gap: "12px",
                     minHeight: "44px",
                     fontSize: "15px",
                     fontWeight: "600",

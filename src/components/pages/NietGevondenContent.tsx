@@ -111,14 +111,14 @@ export function NietGevondenContent() {
           <p style={{ margin: "0", maxWidth: "560px", fontSize: "18px", lineHeight: "1.6", color: "#3A4150" }}>
             {t("De pagina die je zoekt bestaat niet (meer) of is verhuisd. Geen zorgen: we helpen je weer op weg.")}
           </p>
-          <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "14px", paddingTop: "8px" }}>
+          <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px", paddingTop: "8px" }}>
             <a
               href={href("Main")}
               className="k3-out"
               style={{
                 color: "#1F246C",
                 textDecoration: "none",
-                padding: "18px 28px",
+                padding: "20px 28px",
                 borderRadius: "8px",
                 fontWeight: "700",
                 fontSize: "17px",
@@ -169,8 +169,8 @@ export function NietGevondenContent() {
               style={{
                 display: "flex",
                 flexDirection: "column",
-                gap: "10px",
-                padding: "26px 26px 22px",
+                gap: "12px",
+                padding: "28px 28px 24px",
                 borderRadius: "20px",
                 background: "#FFFFFF",
                 border: "1px solid #E4E6EA",
@@ -188,7 +188,7 @@ export function NietGevondenContent() {
                   alignItems: "center",
                   gap: "12px",
                   marginTop: "auto",
-                  paddingTop: "6px",
+                  paddingTop: "8px",
                   fontSize: "15px",
                   fontWeight: "600",
                 }}
@@ -217,8 +217,8 @@ export function NietGevondenContent() {
               style={{
                 display: "flex",
                 flexDirection: "column",
-                gap: "10px",
-                padding: "26px 26px 22px",
+                gap: "12px",
+                padding: "28px 28px 24px",
                 borderRadius: "20px",
                 background: "#FFFFFF",
                 border: "1px solid #E4E6EA",
@@ -236,7 +236,7 @@ export function NietGevondenContent() {
                   alignItems: "center",
                   gap: "12px",
                   marginTop: "auto",
-                  paddingTop: "6px",
+                  paddingTop: "8px",
                   fontSize: "15px",
                   fontWeight: "600",
                 }}
@@ -265,8 +265,8 @@ export function NietGevondenContent() {
               style={{
                 display: "flex",
                 flexDirection: "column",
-                gap: "10px",
-                padding: "26px 26px 22px",
+                gap: "12px",
+                padding: "28px 28px 24px",
                 borderRadius: "20px",
                 background: "#FFFFFF",
                 border: "1px solid #E4E6EA",
@@ -284,7 +284,7 @@ export function NietGevondenContent() {
                   alignItems: "center",
                   gap: "12px",
                   marginTop: "auto",
-                  paddingTop: "6px",
+                  paddingTop: "8px",
                   fontSize: "15px",
                   fontWeight: "600",
                 }}
@@ -313,8 +313,8 @@ export function NietGevondenContent() {
               style={{
                 display: "flex",
                 flexDirection: "column",
-                gap: "10px",
-                padding: "26px 26px 22px",
+                gap: "12px",
+                padding: "28px 28px 24px",
                 borderRadius: "20px",
                 background: "#FFFFFF",
                 border: "1px solid #E4E6EA",
@@ -332,7 +332,7 @@ export function NietGevondenContent() {
                   alignItems: "center",
                   gap: "12px",
                   marginTop: "auto",
-                  paddingTop: "6px",
+                  paddingTop: "8px",
                   fontSize: "15px",
                   fontWeight: "600",
                 }}

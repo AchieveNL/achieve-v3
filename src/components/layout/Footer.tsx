@@ -65,7 +65,7 @@ export function Footer({ tr }: { tr: ServerTr }) {
                   padding: "4px 0 4px 32px",
                   display: "flex",
                   flexDirection: "column",
-                  gap: "6px",
+                  gap: "8px",
                   minWidth: "0",
                 }}
               >
@@ -87,7 +87,7 @@ export function Footer({ tr }: { tr: ServerTr }) {
                   padding: "4px 0 4px 32px",
                   display: "flex",
                   flexDirection: "column",
-                  gap: "6px",
+                  gap: "8px",
                   minWidth: "0",
                 }}
               >
@@ -109,7 +109,7 @@ export function Footer({ tr }: { tr: ServerTr }) {
                   padding: "4px 0 4px 32px",
                   display: "flex",
                   flexDirection: "column",
-                  gap: "6px",
+                  gap: "8px",
                   minWidth: "0",
                 }}
               >
@@ -140,7 +140,7 @@ export function Footer({ tr }: { tr: ServerTr }) {
                     textDecoration: "none",
                     fontSize: "14px",
                     fontWeight: "600",
-                    padding: "10px 16px",
+                    padding: "12px 16px",
                     display: "flex",
                     alignItems: "center",
                     justifyContent: "center",
@@ -175,7 +175,7 @@ export function Footer({ tr }: { tr: ServerTr }) {
                     textDecoration: "none",
                     fontSize: "14px",
                     fontWeight: "600",
-                    padding: "10px 16px",
+                    padding: "12px 16px",
                     display: "flex",
                     alignItems: "center",
                     justifyContent: "center",
@@ -210,7 +210,7 @@ export function Footer({ tr }: { tr: ServerTr }) {
                     textDecoration: "none",
                     fontSize: "14px",
                     fontWeight: "600",
-                    padding: "10px 16px",
+                    padding: "12px 16px",
                     display: "flex",
                     alignItems: "center",
                     justifyContent: "center",
@@ -245,7 +245,7 @@ export function Footer({ tr }: { tr: ServerTr }) {
                     textDecoration: "none",
                     fontSize: "14px",
                     fontWeight: "600",
-                    padding: "10px 16px",
+                    padding: "12px 16px",
                     display: "flex",
                     alignItems: "center",
                     justifyContent: "center",
@@ -271,7 +271,7 @@ export function Footer({ tr }: { tr: ServerTr }) {
                   </svg>
                 </a>
               </div>
-              <div style={{ display: "flex", flexDirection: "column", gap: "10px", marginTop: "12px" }}>
+              <div style={{ display: "flex", flexDirection: "column", gap: "12px", marginTop: "12px" }}>
                 <span style={{ fontSize: "12px", fontWeight: "600", letterSpacing: "0.1em", textTransform: "uppercase", color: "#B8BFCC" }}>
                   {t("Wat klanten zeggen")}
                 </span>
@@ -281,13 +281,13 @@ export function Footer({ tr }: { tr: ServerTr }) {
                     display: "flex",
                     flexDirection: "column",
                     alignItems: "flex-start",
-                    gap: "10px",
+                    gap: "12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#FFFFFF",
                   }}
                 >
-                  <span style={{ display: "inline-flex", alignItems: "center", gap: "6px" }}>
+                  <span style={{ display: "inline-flex", alignItems: "center", gap: "8px" }}>
                     <span role="img" aria-label={ta("5 van 5 sterren op Google")} style={{ display: "inline-flex", gap: "2px" }}>
                       <svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true">
                         <path
@@ -320,14 +320,14 @@ export function Footer({ tr }: { tr: ServerTr }) {
                         ></path>
                       </svg>
                     </span>
-                    <span style={{ display: "inline-flex", alignItems: "center", gap: "6px" }}>
+                    <span style={{ display: "inline-flex", alignItems: "center", gap: "8px" }}>
                       <img src="/media/icons/google.svg" alt="" style={{ width: "16px", height: "16px", display: "block" }} />
                       <span>
                         <strong style={{ fontWeight: "700" }}>{t("5,0")}</strong> {t("Google")}
                       </span>
                     </span>
                   </span>
-                  <span style={{ display: "inline-flex", alignItems: "center", gap: "6px" }}>
+                  <span style={{ display: "inline-flex", alignItems: "center", gap: "8px" }}>
                     <span role="img" aria-label={ta("4,5 van 5 sterren op Trustpilot")} style={{ display: "inline-flex", gap: "2px" }}>
                       <svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true">
                         <path
@@ -366,7 +366,7 @@ export function Footer({ tr }: { tr: ServerTr }) {
                         ></path>
                       </svg>
                     </span>
-                    <span style={{ display: "inline-flex", alignItems: "center", gap: "6px" }}>
+                    <span style={{ display: "inline-flex", alignItems: "center", gap: "8px" }}>
                       <img src="/media/icons/trustpilot.svg" alt="" style={{ width: "16px", height: "16px", display: "block" }} />
                       <span>
                         <strong style={{ fontWeight: "700" }}>{t("4,5")}</strong> {t("Trustpilot")}
@@ -375,7 +375,7 @@ export function Footer({ tr }: { tr: ServerTr }) {
                   </span>
                 </p>
               </div>
-              <div style={{ display: "flex", flexDirection: "column", gap: "10px", marginTop: "12px" }}>
+              <div style={{ display: "flex", flexDirection: "column", gap: "12px", marginTop: "12px" }}>
                 <span style={{ fontSize: "12px", fontWeight: "600", letterSpacing: "0.1em", textTransform: "uppercase", color: "#B8BFCC" }}>
                   {t("Openingstijden")}
                 </span>
@@ -384,7 +384,7 @@ export function Footer({ tr }: { tr: ServerTr }) {
                     margin: "0",
                     display: "grid",
                     gridTemplateColumns: "max-content max-content",
-                    gap: "6px 24px",
+                    gap: "8px 24px",
                     fontSize: "15px",
                   }}
                 >
@@ -425,7 +425,7 @@ export function Footer({ tr }: { tr: ServerTr }) {
                     margin: "0",
                     display: "inline-flex",
                     flexDirection: "column",
-                    gap: "10px",
+                    gap: "12px",
                   }}
                 >
                   {t("Menu")}
@@ -450,7 +450,7 @@ export function Footer({ tr }: { tr: ServerTr }) {
                       href={href("Main")}
                       aria-current={navSection(page) === "Main" ? "page" : undefined}
                       className="foot-link"
-                      style={{ color: "#D5DAE3", textDecoration: "none", padding: "6px 0", display: "inline-block" }}
+                      style={{ color: "#D5DAE3", textDecoration: "none", padding: "8px 0", display: "inline-block" }}
                     >
                       {t("Home")}
                     </a>
@@ -459,7 +459,7 @@ export function Footer({ tr }: { tr: ServerTr }) {
                     <a
                       href={href("Main", "diensten")}
                       className="foot-link"
-                      style={{ color: "#D5DAE3", textDecoration: "none", padding: "6px 0", display: "inline-block" }}
+                      style={{ color: "#D5DAE3", textDecoration: "none", padding: "8px 0", display: "inline-block" }}
                     >
                       {t("Diensten")}
                     </a>
@@ -469,7 +469,7 @@ export function Footer({ tr }: { tr: ServerTr }) {
                       href={href("Projecten")}
                       aria-current={navSection(page) === "Projecten" ? "page" : undefined}
                       className="foot-link"
-                      style={{ color: "#D5DAE3", textDecoration: "none", padding: "6px 0", display: "inline-block" }}
+                      style={{ color: "#D5DAE3", textDecoration: "none", padding: "8px 0", display: "inline-block" }}
                     >
                       {t("Projecten")}
                     </a>
@@ -479,7 +479,7 @@ export function Footer({ tr }: { tr: ServerTr }) {
                       href={href("Tarieven")}
                       aria-current={navSection(page) === "Tarieven" ? "page" : undefined}
                       className="foot-link"
-                      style={{ color: "#D5DAE3", textDecoration: "none", padding: "6px 0", display: "inline-block" }}
+                      style={{ color: "#D5DAE3", textDecoration: "none", padding: "8px 0", display: "inline-block" }}
                     >
                       {t("Tarieven")}
                     </a>
@@ -489,7 +489,7 @@ export function Footer({ tr }: { tr: ServerTr }) {
                       href={href("WerkenBij")}
                       aria-current={navSection(page) === "WerkenBij" ? "page" : undefined}
                       className="foot-link"
-                      style={{ color: "#D5DAE3", textDecoration: "none", padding: "6px 0", display: "inline-block" }}
+                      style={{ color: "#D5DAE3", textDecoration: "none", padding: "8px 0", display: "inline-block" }}
                     >
                       {t("Werken bij")}
                     </a>
@@ -498,7 +498,7 @@ export function Footer({ tr }: { tr: ServerTr }) {
                     <a
                       href={href("OverOns")}
                       className="foot-link"
-                      style={{ color: "#D5DAE3", textDecoration: "none", padding: "6px 0", display: "inline-block" }}
+                      style={{ color: "#D5DAE3", textDecoration: "none", padding: "8px 0", display: "inline-block" }}
                     >
                       {t("Over ons")}
                     </a>
@@ -508,7 +508,7 @@ export function Footer({ tr }: { tr: ServerTr }) {
                       href={href("Contact")}
                       aria-current={navSection(page) === "Contact" ? "page" : undefined}
                       className="foot-link"
-                      style={{ color: "#D5DAE3", textDecoration: "none", padding: "6px 0", display: "inline-block" }}
+                      style={{ color: "#D5DAE3", textDecoration: "none", padding: "8px 0", display: "inline-block" }}
                     >
                       {t("Contact")}
                     </a>
@@ -535,7 +535,7 @@ export function Footer({ tr }: { tr: ServerTr }) {
                     margin: "0",
                     display: "inline-flex",
                     flexDirection: "column",
-                    gap: "10px",
+                    gap: "12px",
                   }}
                 >
                   {t("Onze diensten")}
@@ -560,7 +560,7 @@ export function Footer({ tr }: { tr: ServerTr }) {
                       href={href("DienstStrategy")}
                       aria-current={navSection(page) === "DienstStrategy" ? "page" : undefined}
                       className="foot-link"
-                      style={{ color: "#D5DAE3", textDecoration: "none", padding: "6px 0", display: "inline-block" }}
+                      style={{ color: "#D5DAE3", textDecoration: "none", padding: "8px 0", display: "inline-block" }}
                     >
                       {t("Brand Strategy")}
                     </a>
@@ -570,7 +570,7 @@ export function Footer({ tr }: { tr: ServerTr }) {
                       href={href("DienstLegal")}
                       aria-current={navSection(page) === "DienstLegal" ? "page" : undefined}
                       className="foot-link"
-                      style={{ color: "#D5DAE3", textDecoration: "none", padding: "6px 0", display: "inline-block" }}
+                      style={{ color: "#D5DAE3", textDecoration: "none", padding: "8px 0", display: "inline-block" }}
                     >
                       {t("Legal")}
                     </a>
@@ -580,7 +580,7 @@ export function Footer({ tr }: { tr: ServerTr }) {
                       href={href("DienstBrandBook")}
                       aria-current={navSection(page) === "DienstBrandBook" ? "page" : undefined}
                       className="foot-link"
-                      style={{ color: "#D5DAE3", textDecoration: "none", padding: "6px 0", display: "inline-block" }}
+                      style={{ color: "#D5DAE3", textDecoration: "none", padding: "8px 0", display: "inline-block" }}
                     >
                       {t("Brand Book")}
                     </a>
@@ -590,7 +590,7 @@ export function Footer({ tr }: { tr: ServerTr }) {
                       href={href("DienstWebDevelopment")}
                       aria-current={navSection(page) === "DienstWebDevelopment" ? "page" : undefined}
                       className="foot-link"
-                      style={{ color: "#D5DAE3", textDecoration: "none", padding: "6px 0", display: "inline-block" }}
+                      style={{ color: "#D5DAE3", textDecoration: "none", padding: "8px 0", display: "inline-block" }}
                     >
                       {t("Web Development")}
                     </a>
@@ -600,7 +600,7 @@ export function Footer({ tr }: { tr: ServerTr }) {
                       href={href("DienstEmailMarketing")}
                       aria-current={navSection(page) === "DienstEmailMarketing" ? "page" : undefined}
                       className="foot-link"
-                      style={{ color: "#D5DAE3", textDecoration: "none", padding: "6px 0", display: "inline-block" }}
+                      style={{ color: "#D5DAE3", textDecoration: "none", padding: "8px 0", display: "inline-block" }}
                     >
                       {t("Email Marketing")}
                     </a>
@@ -610,7 +610,7 @@ export function Footer({ tr }: { tr: ServerTr }) {
                       href={href("DienstVideoMarketing")}
                       aria-current={navSection(page) === "DienstVideoMarketing" ? "page" : undefined}
                       className="foot-link"
-                      style={{ color: "#D5DAE3", textDecoration: "none", padding: "6px 0", display: "inline-block" }}
+                      style={{ color: "#D5DAE3", textDecoration: "none", padding: "8px 0", display: "inline-block" }}
                     >
                       {t("Video Marketing")}
                     </a>
@@ -620,7 +620,7 @@ export function Footer({ tr }: { tr: ServerTr }) {
                       href={href("DienstUGCMarketing")}
                       aria-current={navSection(page) === "DienstUGCMarketing" ? "page" : undefined}
                       className="foot-link"
-                      style={{ color: "#D5DAE3", textDecoration: "none", padding: "6px 0", display: "inline-block" }}
+                      style={{ color: "#D5DAE3", textDecoration: "none", padding: "8px 0", display: "inline-block" }}
                     >
                       {t("UGC Marketing")}
                     </a>
@@ -630,7 +630,7 @@ export function Footer({ tr }: { tr: ServerTr }) {
                       href={href("DienstSEA")}
                       aria-current={navSection(page) === "DienstSEA" ? "page" : undefined}
                       className="foot-link"
-                      style={{ color: "#D5DAE3", textDecoration: "none", padding: "6px 0", display: "inline-block" }}
+                      style={{ color: "#D5DAE3", textDecoration: "none", padding: "8px 0", display: "inline-block" }}
                     >
                       {t("Search Engine Advertising")}
                     </a>
@@ -640,7 +640,7 @@ export function Footer({ tr }: { tr: ServerTr }) {
                       href={href("DienstSMA")}
                       aria-current={navSection(page) === "DienstSMA" ? "page" : undefined}
                       className="foot-link"
-                      style={{ color: "#D5DAE3", textDecoration: "none", padding: "6px 0", display: "inline-block" }}
+                      style={{ color: "#D5DAE3", textDecoration: "none", padding: "8px 0", display: "inline-block" }}
                     >
                       {t("Social Media Advertising")}
                     </a>
@@ -650,7 +650,7 @@ export function Footer({ tr }: { tr: ServerTr }) {
                       href={href("DienstSMM")}
                       aria-current={navSection(page) === "DienstSMM" ? "page" : undefined}
                       className="foot-link"
-                      style={{ color: "#D5DAE3", textDecoration: "none", padding: "6px 0", display: "inline-block" }}
+                      style={{ color: "#D5DAE3", textDecoration: "none", padding: "8px 0", display: "inline-block" }}
                     >
                       {t("Social Media Management")}
                     </a>
@@ -660,7 +660,7 @@ export function Footer({ tr }: { tr: ServerTr }) {
                       href={href("DienstDashboard")}
                       aria-current={navSection(page) === "DienstDashboard" ? "page" : undefined}
                       className="foot-link"
-                      style={{ color: "#D5DAE3", textDecoration: "none", padding: "6px 0", display: "inline-block" }}
+                      style={{ color: "#D5DAE3", textDecoration: "none", padding: "8px 0", display: "inline-block" }}
                     >
                       {t("Dashboard")}
                     </a>
@@ -687,7 +687,7 @@ export function Footer({ tr }: { tr: ServerTr }) {
                     margin: "0",
                     display: "inline-flex",
                     flexDirection: "column",
-                    gap: "10px",
+                    gap: "12px",
                   }}
                 >
                   {t("Over Achieve")}
@@ -711,7 +711,7 @@ export function Footer({ tr }: { tr: ServerTr }) {
                     <a
                       href={href("FAQ")}
                       className="foot-link"
-                      style={{ color: "#D5DAE3", textDecoration: "none", padding: "6px 0", display: "inline-block" }}
+                      style={{ color: "#D5DAE3", textDecoration: "none", padding: "8px 0", display: "inline-block" }}
                     >
                       {t("FAQ")}
                     </a>
@@ -721,7 +721,7 @@ export function Footer({ tr }: { tr: ServerTr }) {
                       href={href("Disclaimer")}
                       aria-current={navSection(page) === "Disclaimer" ? "page" : undefined}
                       className="foot-link"
-                      style={{ color: "#D5DAE3", textDecoration: "none", padding: "6px 0", display: "inline-block" }}
+                      style={{ color: "#D5DAE3", textDecoration: "none", padding: "8px 0", display: "inline-block" }}
                     >
                       {t("Disclaimer")}
                     </a>
@@ -731,7 +731,7 @@ export function Footer({ tr }: { tr: ServerTr }) {
                       href={href("Privacy")}
                       aria-current={navSection(page) === "Privacy" ? "page" : undefined}
                       className="foot-link"
-                      style={{ color: "#D5DAE3", textDecoration: "none", padding: "6px 0", display: "inline-block" }}
+                      style={{ color: "#D5DAE3", textDecoration: "none", padding: "8px 0", display: "inline-block" }}
                     >
                       {t("Privacy Policy")}
                     </a>
@@ -741,7 +741,7 @@ export function Footer({ tr }: { tr: ServerTr }) {
                       href={href("Voorwaarden")}
                       aria-current={navSection(page) === "Voorwaarden" ? "page" : undefined}
                       className="foot-link"
-                      style={{ color: "#D5DAE3", textDecoration: "none", padding: "6px 0", display: "inline-block" }}
+                      style={{ color: "#D5DAE3", textDecoration: "none", padding: "8px 0", display: "inline-block" }}
                     >
                       {t("Terms & Conditions")}
                     </a>
@@ -751,7 +751,7 @@ export function Footer({ tr }: { tr: ServerTr }) {
                       href={href("Contact")}
                       aria-current={navSection(page) === "Contact" ? "page" : undefined}
                       className="foot-link"
-                      style={{ color: "#D5DAE3", textDecoration: "none", padding: "6px 0", display: "inline-block" }}
+                      style={{ color: "#D5DAE3", textDecoration: "none", padding: "8px 0", display: "inline-block" }}
                     >
                       {t("Contact")}
                     </a>
@@ -786,8 +786,8 @@ export function Footer({ tr }: { tr: ServerTr }) {
               display: "inline-flex",
               flexWrap: "wrap",
               alignItems: "center",
-              gap: "8px 10px",
-              padding: "5px 14px",
+              gap: "8px 12px",
+              padding: "4px 16px",
               borderRadius: "999px",
               border: "1px solid rgba(255, 255, 255, 0.22)",
               background: "rgba(255, 255, 255, 0.06)",
@@ -845,11 +845,11 @@ export function Footer({ tr }: { tr: ServerTr }) {
           right: "0",
           bottom: "0",
           zIndex: "50",
-          padding: "10px 16px calc(10px + env(safe-area-inset-bottom))",
+          padding: "12px 16px calc(12px + env(safe-area-inset-bottom))",
           background: "#FFFFFF",
           boxShadow: "0 -8px 24px rgba(31, 36, 108, 0.12)",
           alignItems: "center",
-          gap: "10px",
+          gap: "12px",
         }}
       >
         <a

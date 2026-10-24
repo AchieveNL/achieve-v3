@@ -11,7 +11,7 @@ a:hover{color:#8639FA}
 .ty-ghost{transition:background-color .25s ease,color .25s ease,transform .25s ease}
 .ty-ghost:hover,.ty-ghost:focus-visible{background:#FFFFFF !important;color:#1F246C !important;transform:translateY(-2px)}
 .ty-sa{flex-shrink:0;max-width:0;opacity:0;margin-left:0;transform:translateX(-8px);transition:max-width .35s ease,opacity .3s ease,margin-left .35s ease,transform .35s ease}
-.ty-btn:hover .ty-sa,.ty-btn:focus-visible .ty-sa,.ty-ghost:hover .ty-sa,.ty-ghost:focus-visible .ty-sa{max-width:18px;opacity:1;margin-left:10px;transform:none}
+.ty-btn:hover .ty-sa,.ty-btn:focus-visible .ty-sa,.ty-ghost:hover .ty-sa,.ty-ghost:focus-visible .ty-sa{max-width:18px;opacity:1;margin-left:12px;transform:none}
 .ty-arr{width:36px;height:36px;border-radius:999px;border:1px solid #D5DAE3;display:inline-flex;align-items:center;justify-content:center;transition:background .3s ease,color .3s ease,border-color .3s ease,transform .3s ease}
 .ty-back:hover .ty-arr,.ty-back:focus-visible .ty-arr{background:#0F8AE5;border-color:transparent;color:#FFFFFF;transform:translateX(-4px)}
 @media (prefers-reduced-motion: reduce){.ty-btn,.ty-ghost,.ty-arr,.ty-sa{transition:none}.ty-btn:hover,.ty-ghost:hover{transform:none}.ty-btn:hover::after{animation:none}}
@@ -99,9 +99,9 @@ a:hover{color:#8639FA}
 .lg-aside{max-width:none !important}
 .lg-list{grid-template-columns:minmax(0,1fr) !important}
 .lg-card{grid-template-columns:minmax(0,1fr) !important;padding:24px !important}
-.lg-acc summary{padding:16px 18px !important;flex-wrap:wrap;gap:6px 12px !important}
+.lg-acc summary{padding:16px 20px !important;flex-wrap:wrap;gap:8px 12px !important}
 .lg-acc summary > span:first-child{min-width:0 !important;flex-basis:100% !important}
-.lg-acc > div{padding:4px 18px 22px !important}
+.lg-acc > div{padding:4px 20px 24px !important}
 }
 @media (prefers-reduced-motion: reduce){.social-btn:hover::after,.social-btn:focus-visible::after{animation:none;opacity:0}
 .social-btn:hover,.social-btn:focus-visible{animation:none}}

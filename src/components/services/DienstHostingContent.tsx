@@ -247,7 +247,7 @@ export function DienstHostingContent() {
             <a href={href("Main")} style={{ color: "#C9CFF0", textDecoration: "none" }}>
               {t("Home")}
             </a>{" "}
-            <span aria-hidden="true" style={{ margin: "0 6px" }}>
+            <span aria-hidden="true" style={{ margin: "0 8px" }}>
               {t("/")}
             </span>{" "}
             <span aria-current="page" translate="no" style={{ color: "#FFFFFF", fontWeight: "600" }}>
@@ -282,7 +282,7 @@ export function DienstHostingContent() {
               textTransform: "uppercase",
               color: "#0B6DB8",
               background: "#E3F1FD",
-              padding: "7px 14px",
+              padding: "8px 16px",
               borderRadius: "999px",
             }}
           >
@@ -329,7 +329,7 @@ export function DienstHostingContent() {
                 background: "linear-gradient(90deg, #8639FA 0%, #0F8AE5 100%)",
                 color: "#FFFFFF",
                 textDecoration: "none",
-                padding: "18px 30px",
+                padding: "20px 32px",
                 borderRadius: "8px",
                 fontWeight: "700",
                 fontSize: "19px",
@@ -417,7 +417,7 @@ export function DienstHostingContent() {
       </nav>
       <section id="uitdagingen" className="pj-wrap pj-sec" style={{ background: "#F2F8FE", padding: "112px 40px 112px" }}>
         <div style={{ maxWidth: "1280px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "40px" }}>
-          <div style={{ display: "flex", flexDirection: "column", gap: "14px", maxWidth: "760px" }}>
+          <div style={{ display: "flex", flexDirection: "column", gap: "16px", maxWidth: "760px" }}>
             <h2
               style={{
                 margin: "0",
@@ -540,7 +540,7 @@ export function DienstHostingContent() {
             alignItems: "center",
           }}
         >
-          <div style={{ display: "flex", flexDirection: "column", gap: "18px" }}>
+          <div style={{ display: "flex", flexDirection: "column", gap: "20px" }}>
             <h2
               style={{
                 margin: "0",
@@ -591,7 +591,7 @@ export function DienstHostingContent() {
       </section>
       <section id="voordelen" className="pj-wrap pj-sec" style={{ position: "relative", background: "#FFFFFF", padding: "112px 40px" }}>
         <div style={{ position: "relative", maxWidth: "1280px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "40px" }}>
-          <div style={{ display: "flex", flexDirection: "column", gap: "14px", maxWidth: "760px" }}>
+          <div style={{ display: "flex", flexDirection: "column", gap: "16px", maxWidth: "760px" }}>
             <h2
               style={{
                 margin: "0",
@@ -640,7 +640,7 @@ export function DienstHostingContent() {
                 padding: "36px",
                 display: "flex",
                 flexDirection: "column",
-                gap: "14px",
+                gap: "16px",
               }}
             >
               <span
@@ -685,7 +685,7 @@ export function DienstHostingContent() {
                 padding: "36px",
                 display: "flex",
                 flexDirection: "column",
-                gap: "14px",
+                gap: "16px",
               }}
             >
               <span
@@ -731,7 +731,7 @@ export function DienstHostingContent() {
                 padding: "36px",
                 display: "flex",
                 flexDirection: "column",
-                gap: "14px",
+                gap: "16px",
               }}
             >
               <span
@@ -778,7 +778,7 @@ export function DienstHostingContent() {
                 padding: "36px",
                 display: "flex",
                 flexDirection: "column",
-                gap: "14px",
+                gap: "16px",
               }}
             >
               <span
@@ -822,7 +822,7 @@ export function DienstHostingContent() {
                 padding: "36px",
                 display: "flex",
                 flexDirection: "column",
-                gap: "14px",
+                gap: "16px",
               }}
             >
               <span
@@ -867,7 +867,7 @@ export function DienstHostingContent() {
                 padding: "36px",
                 display: "flex",
                 flexDirection: "column",
-                gap: "14px",
+                gap: "16px",
               }}
             >
               <span
@@ -909,7 +909,7 @@ export function DienstHostingContent() {
       </section>
       <section id="cijfers" className="pj-wrap pj-sec" style={{ background: "#F2F8FE", padding: "112px 40px 112px" }}>
         <div style={{ maxWidth: "1280px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "40px" }}>
-          <div style={{ display: "flex", flexDirection: "column", gap: "14px", maxWidth: "760px" }}>
+          <div style={{ display: "flex", flexDirection: "column", gap: "16px", maxWidth: "760px" }}>
             <h2
               style={{
                 margin: "0",
@@ -970,7 +970,7 @@ export function DienstHostingContent() {
                 {t("meer conversies bij een website die in 1 seconde laadt, vergeleken met 5 seconden.")}
               </p>
             </div>
-            <div style={{ display: "flex", flexDirection: "column", gap: "18px" }}>
+            <div style={{ display: "flex", flexDirection: "column", gap: "20px" }}>
               <span style={{ fontSize: "13px", fontWeight: "700", letterSpacing: "0.1em", textTransform: "uppercase", color: "#FAE84E" }}>
                 {t("Conversieratio")}
                 <Tip label={ta("Uitleg")} plain>
@@ -1165,7 +1165,7 @@ export function DienstHostingContent() {
       </section>
       <section id="waarom-wij" className="pj-wrap pj-sec" style={{ background: "#FFFFFF", padding: "112px 40px 112px" }}>
         <div style={{ maxWidth: "1280px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "40px" }}>
-          <div style={{ display: "flex", flexDirection: "column", gap: "14px", maxWidth: "760px" }}>
+          <div style={{ display: "flex", flexDirection: "column", gap: "16px", maxWidth: "760px" }}>
             <h2
               style={{
                 margin: "0",
@@ -1386,7 +1386,7 @@ export function DienstHostingContent() {
                     textTransform: "uppercase",
                     color: "#1F246C",
                     background: "#FAE84E",
-                    padding: "5px 10px",
+                    padding: "4px 12px",
                     borderRadius: "999px",
                   }}
                 >
@@ -1554,7 +1554,7 @@ export function DienstHostingContent() {
             display: "flex",
             flexDirection: "column",
             alignItems: "center",
-            gap: "22px",
+            gap: "24px",
             textAlign: "center",
           }}
         >
@@ -1605,7 +1605,7 @@ export function DienstHostingContent() {
       </section>
       <section id="pakketten" className="pj-wrap pj-sec" style={{ background: "#F2F8FE", padding: "112px 40px 112px" }}>
         <div style={{ maxWidth: "1280px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "40px" }}>
-          <div style={{ display: "flex", flexDirection: "column", gap: "14px", maxWidth: "760px" }}>
+          <div style={{ display: "flex", flexDirection: "column", gap: "16px", maxWidth: "760px" }}>
             <h2
               style={{
                 margin: "0",
@@ -1642,7 +1642,7 @@ export function DienstHostingContent() {
             className="sv-plans"
             style={{
               margin: "0",
-              padding: "14px 0 0",
+              padding: "16px 0 0",
               listStyle: "none",
               display: "grid",
               gridTemplateColumns: "repeat(4, minmax(0, 1fr))",
@@ -1656,10 +1656,10 @@ export function DienstHostingContent() {
                 background: "#FFFFFF",
                 color: "#1F246C",
                 borderRadius: "24px",
-                padding: "36px 26px 28px",
+                padding: "36px 28px 28px",
                 display: "flex",
                 flexDirection: "column",
-                gap: "6px",
+                gap: "8px",
               }}
             >
               <h3
@@ -1689,10 +1689,10 @@ export function DienstHostingContent() {
                 {t("€10,99")}
               </span>
               <span style={{ fontSize: "14px", fontWeight: "600", color: "#5A6273" }}>{t("per maand, ex. btw")}</span>
-              <span style={{ width: "100%", height: "1px", background: "#E4E6EA", margin: "18px 0 14px" }}></span>
-              <ul style={{ margin: "0 0 24px", padding: "0", listStyle: "none", display: "flex", flexDirection: "column", gap: "10px" }}>
+              <span style={{ width: "100%", height: "1px", background: "#E4E6EA", margin: "20px 0 16px" }}></span>
+              <ul style={{ margin: "0 0 24px", padding: "0", listStyle: "none", display: "flex", flexDirection: "column", gap: "12px" }}>
                 <li
-                  style={{ display: "flex", gap: "10px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#3A4150" }}
+                  style={{ display: "flex", gap: "12px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#3A4150" }}
                 >
                   <svg
                     width="18"
@@ -1711,7 +1711,7 @@ export function DienstHostingContent() {
                   <span>{t("99,9% uptime garantie")}</span>
                 </li>
                 <li
-                  style={{ display: "flex", gap: "10px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#3A4150" }}
+                  style={{ display: "flex", gap: "12px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#3A4150" }}
                 >
                   <svg
                     width="18"
@@ -1730,7 +1730,7 @@ export function DienstHostingContent() {
                   <span>{t("Eenvoudig cPanel")}</span>
                 </li>
                 <li
-                  style={{ display: "flex", gap: "10px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#3A4150" }}
+                  style={{ display: "flex", gap: "12px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#3A4150" }}
                 >
                   <svg
                     width="18"
@@ -1749,7 +1749,7 @@ export function DienstHostingContent() {
                   <span>{t("Telefoon- en e-mailsupport (9 – 5)")}</span>
                 </li>
                 <li
-                  style={{ display: "flex", gap: "10px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#3A4150" }}
+                  style={{ display: "flex", gap: "12px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#3A4150" }}
                 >
                   <svg
                     width="18"
@@ -1768,7 +1768,7 @@ export function DienstHostingContent() {
                   <span>{t("1 domeinnaam")}</span>
                 </li>
                 <li
-                  style={{ display: "flex", gap: "10px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#3A4150" }}
+                  style={{ display: "flex", gap: "12px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#3A4150" }}
                 >
                   <svg
                     width="18"
@@ -1789,7 +1789,7 @@ export function DienstHostingContent() {
                   </span>
                 </li>
                 <li
-                  style={{ display: "flex", gap: "10px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#3A4150" }}
+                  style={{ display: "flex", gap: "12px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#3A4150" }}
                 >
                   <svg
                     width="18"
@@ -1810,7 +1810,7 @@ export function DienstHostingContent() {
                   </span>
                 </li>
                 <li
-                  style={{ display: "flex", gap: "10px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#3A4150" }}
+                  style={{ display: "flex", gap: "12px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#3A4150" }}
                 >
                   <svg
                     width="18"
@@ -1829,7 +1829,7 @@ export function DienstHostingContent() {
                   <span>{t("1 mailbox, onbeperkt e-mailadressen")}</span>
                 </li>
                 <li
-                  style={{ display: "flex", gap: "10px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#3A4150" }}
+                  style={{ display: "flex", gap: "12px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#3A4150" }}
                 >
                   <svg
                     width="18"
@@ -1848,7 +1848,7 @@ export function DienstHostingContent() {
                   <span>{t("SSL-certificaat (https) inbegrepen")}</span>
                 </li>
                 <li
-                  style={{ display: "flex", gap: "10px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#3A4150" }}
+                  style={{ display: "flex", gap: "12px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#3A4150" }}
                 >
                   <svg
                     width="18"
@@ -1867,7 +1867,7 @@ export function DienstHostingContent() {
                   <span>{t("Website migratie inbegrepen")}</span>
                 </li>
                 <li
-                  style={{ display: "flex", gap: "10px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#3A4150" }}
+                  style={{ display: "flex", gap: "12px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#3A4150" }}
                 >
                   <svg
                     width="18"
@@ -1886,7 +1886,7 @@ export function DienstHostingContent() {
                   <span>{t("Dagelijkse back-ups")}</span>
                 </li>
                 <li
-                  style={{ display: "flex", gap: "10px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#3A4150" }}
+                  style={{ display: "flex", gap: "12px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#3A4150" }}
                 >
                   <svg
                     width="18"
@@ -1916,7 +1916,7 @@ export function DienstHostingContent() {
                     width: "100%",
                     boxSizing: "border-box",
                     minHeight: "50px",
-                    padding: "0 18px",
+                    padding: "0 20px",
                     borderRadius: "8px",
                     border: "1px solid #1F246C",
                     color: "#1F246C",
@@ -1948,10 +1948,10 @@ export function DienstHostingContent() {
                 background: "linear-gradient(160deg, #8639FA 0%, #0F8AE5 100%)",
                 color: "#FFFFFF",
                 borderRadius: "24px",
-                padding: "36px 26px 28px",
+                padding: "36px 28px 28px",
                 display: "flex",
                 flexDirection: "column",
-                gap: "6px",
+                gap: "8px",
                 boxShadow: "0 24px 50px rgba(134, 57, 250, 0.25)",
               }}
             >
@@ -1968,7 +1968,7 @@ export function DienstHostingContent() {
                   color: "#6B2BD9",
                   background: "#FFFFFF",
                   border: "1px solid #EFE8FD",
-                  padding: "5px 12px",
+                  padding: "4px 12px",
                   borderRadius: "999px",
                   whiteSpace: "nowrap",
                 }}
@@ -2002,10 +2002,10 @@ export function DienstHostingContent() {
                 {t("€12,99")}
               </span>
               <span style={{ fontSize: "14px", fontWeight: "600", color: "#E6E9F8" }}>{t("per maand, ex. btw")}</span>
-              <span style={{ width: "100%", height: "1px", background: "rgba(255, 255, 255, 0.25)", margin: "18px 0 14px" }}></span>
-              <ul style={{ margin: "0 0 24px", padding: "0", listStyle: "none", display: "flex", flexDirection: "column", gap: "10px" }}>
+              <span style={{ width: "100%", height: "1px", background: "rgba(255, 255, 255, 0.25)", margin: "20px 0 16px" }}></span>
+              <ul style={{ margin: "0 0 24px", padding: "0", listStyle: "none", display: "flex", flexDirection: "column", gap: "12px" }}>
                 <li
-                  style={{ display: "flex", gap: "10px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#FFFFFF" }}
+                  style={{ display: "flex", gap: "12px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#FFFFFF" }}
                 >
                   <svg
                     width="18"
@@ -2024,7 +2024,7 @@ export function DienstHostingContent() {
                   <span>{t("99,9% uptime garantie")}</span>
                 </li>
                 <li
-                  style={{ display: "flex", gap: "10px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#FFFFFF" }}
+                  style={{ display: "flex", gap: "12px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#FFFFFF" }}
                 >
                   <svg
                     width="18"
@@ -2043,7 +2043,7 @@ export function DienstHostingContent() {
                   <span>{t("Eenvoudig cPanel")}</span>
                 </li>
                 <li
-                  style={{ display: "flex", gap: "10px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#FFFFFF" }}
+                  style={{ display: "flex", gap: "12px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#FFFFFF" }}
                 >
                   <svg
                     width="18"
@@ -2062,7 +2062,7 @@ export function DienstHostingContent() {
                   <span>{t("Telefoon- en e-mailsupport (9 – 5)")}</span>
                 </li>
                 <li
-                  style={{ display: "flex", gap: "10px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#FFFFFF" }}
+                  style={{ display: "flex", gap: "12px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#FFFFFF" }}
                 >
                   <svg
                     width="18"
@@ -2081,7 +2081,7 @@ export function DienstHostingContent() {
                   <span>{t("1 domeinnaam")}</span>
                 </li>
                 <li
-                  style={{ display: "flex", gap: "10px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#FFFFFF" }}
+                  style={{ display: "flex", gap: "12px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#FFFFFF" }}
                 >
                   <svg
                     width="18"
@@ -2102,7 +2102,7 @@ export function DienstHostingContent() {
                   </span>
                 </li>
                 <li
-                  style={{ display: "flex", gap: "10px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#FFFFFF" }}
+                  style={{ display: "flex", gap: "12px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#FFFFFF" }}
                 >
                   <svg
                     width="18"
@@ -2123,7 +2123,7 @@ export function DienstHostingContent() {
                   </span>
                 </li>
                 <li
-                  style={{ display: "flex", gap: "10px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#FFFFFF" }}
+                  style={{ display: "flex", gap: "12px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#FFFFFF" }}
                 >
                   <svg
                     width="18"
@@ -2142,7 +2142,7 @@ export function DienstHostingContent() {
                   <span>{t("1 mailbox, onbeperkt e-mailadressen")}</span>
                 </li>
                 <li
-                  style={{ display: "flex", gap: "10px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#FFFFFF" }}
+                  style={{ display: "flex", gap: "12px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#FFFFFF" }}
                 >
                   <svg
                     width="18"
@@ -2161,7 +2161,7 @@ export function DienstHostingContent() {
                   <span>{t("SSL-certificaat (https) inbegrepen")}</span>
                 </li>
                 <li
-                  style={{ display: "flex", gap: "10px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#FFFFFF" }}
+                  style={{ display: "flex", gap: "12px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#FFFFFF" }}
                 >
                   <svg
                     width="18"
@@ -2180,7 +2180,7 @@ export function DienstHostingContent() {
                   <span>{t("Website migratie inbegrepen")}</span>
                 </li>
                 <li
-                  style={{ display: "flex", gap: "10px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#FFFFFF" }}
+                  style={{ display: "flex", gap: "12px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#FFFFFF" }}
                 >
                   <svg
                     width="18"
@@ -2199,7 +2199,7 @@ export function DienstHostingContent() {
                   <span>{t("Dagelijkse back-ups")}</span>
                 </li>
                 <li
-                  style={{ display: "flex", gap: "10px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#FFFFFF" }}
+                  style={{ display: "flex", gap: "12px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#FFFFFF" }}
                 >
                   <svg
                     width="18"
@@ -2226,7 +2226,7 @@ export function DienstHostingContent() {
                     background: "#FFFFFF",
                     color: "#1F246C",
                     textDecoration: "none",
-                    padding: "14px 18px",
+                    padding: "16px 20px",
                     borderRadius: "8px",
                     fontWeight: "700",
                     fontSize: "16px",
@@ -2261,10 +2261,10 @@ export function DienstHostingContent() {
                 background: "#FFFFFF",
                 color: "#1F246C",
                 borderRadius: "24px",
-                padding: "36px 26px 28px",
+                padding: "36px 28px 28px",
                 display: "flex",
                 flexDirection: "column",
-                gap: "6px",
+                gap: "8px",
               }}
             >
               <h3
@@ -2294,10 +2294,10 @@ export function DienstHostingContent() {
                 {t("€15,99")}
               </span>
               <span style={{ fontSize: "14px", fontWeight: "600", color: "#5A6273" }}>{t("per maand, ex. btw")}</span>
-              <span style={{ width: "100%", height: "1px", background: "#E4E6EA", margin: "18px 0 14px" }}></span>
-              <ul style={{ margin: "0 0 24px", padding: "0", listStyle: "none", display: "flex", flexDirection: "column", gap: "10px" }}>
+              <span style={{ width: "100%", height: "1px", background: "#E4E6EA", margin: "20px 0 16px" }}></span>
+              <ul style={{ margin: "0 0 24px", padding: "0", listStyle: "none", display: "flex", flexDirection: "column", gap: "12px" }}>
                 <li
-                  style={{ display: "flex", gap: "10px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#3A4150" }}
+                  style={{ display: "flex", gap: "12px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#3A4150" }}
                 >
                   <svg
                     width="18"
@@ -2316,7 +2316,7 @@ export function DienstHostingContent() {
                   <span>{t("99,9% uptime garantie")}</span>
                 </li>
                 <li
-                  style={{ display: "flex", gap: "10px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#3A4150" }}
+                  style={{ display: "flex", gap: "12px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#3A4150" }}
                 >
                   <svg
                     width="18"
@@ -2335,7 +2335,7 @@ export function DienstHostingContent() {
                   <span>{t("Eenvoudig cPanel")}</span>
                 </li>
                 <li
-                  style={{ display: "flex", gap: "10px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#3A4150" }}
+                  style={{ display: "flex", gap: "12px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#3A4150" }}
                 >
                   <svg
                     width="18"
@@ -2354,7 +2354,7 @@ export function DienstHostingContent() {
                   <span>{t("Telefoon- en e-mailsupport (9 – 5)")}</span>
                 </li>
                 <li
-                  style={{ display: "flex", gap: "10px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#3A4150" }}
+                  style={{ display: "flex", gap: "12px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#3A4150" }}
                 >
                   <svg
                     width="18"
@@ -2373,7 +2373,7 @@ export function DienstHostingContent() {
                   <span>{t("1 domeinnaam")}</span>
                 </li>
                 <li
-                  style={{ display: "flex", gap: "10px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#3A4150" }}
+                  style={{ display: "flex", gap: "12px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#3A4150" }}
                 >
                   <svg
                     width="18"
@@ -2394,7 +2394,7 @@ export function DienstHostingContent() {
                   </span>
                 </li>
                 <li
-                  style={{ display: "flex", gap: "10px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#3A4150" }}
+                  style={{ display: "flex", gap: "12px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#3A4150" }}
                 >
                   <svg
                     width="18"
@@ -2415,7 +2415,7 @@ export function DienstHostingContent() {
                   </span>
                 </li>
                 <li
-                  style={{ display: "flex", gap: "10px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#3A4150" }}
+                  style={{ display: "flex", gap: "12px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#3A4150" }}
                 >
                   <svg
                     width="18"
@@ -2434,7 +2434,7 @@ export function DienstHostingContent() {
                   <span>{t("1 mailbox, onbeperkt e-mailadressen")}</span>
                 </li>
                 <li
-                  style={{ display: "flex", gap: "10px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#3A4150" }}
+                  style={{ display: "flex", gap: "12px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#3A4150" }}
                 >
                   <svg
                     width="18"
@@ -2453,7 +2453,7 @@ export function DienstHostingContent() {
                   <span>{t("SSL-certificaat (https) inbegrepen")}</span>
                 </li>
                 <li
-                  style={{ display: "flex", gap: "10px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#3A4150" }}
+                  style={{ display: "flex", gap: "12px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#3A4150" }}
                 >
                   <svg
                     width="18"
@@ -2472,7 +2472,7 @@ export function DienstHostingContent() {
                   <span>{t("Website migratie inbegrepen")}</span>
                 </li>
                 <li
-                  style={{ display: "flex", gap: "10px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#3A4150" }}
+                  style={{ display: "flex", gap: "12px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#3A4150" }}
                 >
                   <svg
                     width="18"
@@ -2491,7 +2491,7 @@ export function DienstHostingContent() {
                   <span>{t("Dagelijkse back-ups")}</span>
                 </li>
                 <li
-                  style={{ display: "flex", gap: "10px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#3A4150" }}
+                  style={{ display: "flex", gap: "12px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#3A4150" }}
                 >
                   <svg
                     width="18"
@@ -2521,7 +2521,7 @@ export function DienstHostingContent() {
                     width: "100%",
                     boxSizing: "border-box",
                     minHeight: "50px",
-                    padding: "0 18px",
+                    padding: "0 20px",
                     borderRadius: "8px",
                     border: "1px solid #1F246C",
                     color: "#1F246C",
@@ -2553,10 +2553,10 @@ export function DienstHostingContent() {
                 background: "#FFFFFF",
                 color: "#1F246C",
                 borderRadius: "24px",
-                padding: "36px 26px 28px",
+                padding: "36px 28px 28px",
                 display: "flex",
                 flexDirection: "column",
-                gap: "6px",
+                gap: "8px",
               }}
             >
               <h3
@@ -2586,10 +2586,10 @@ export function DienstHostingContent() {
                 {t("€22,09")}
               </span>
               <span style={{ fontSize: "14px", fontWeight: "600", color: "#5A6273" }}>{t("per maand, ex. btw")}</span>
-              <span style={{ width: "100%", height: "1px", background: "#E4E6EA", margin: "18px 0 14px" }}></span>
-              <ul style={{ margin: "0 0 24px", padding: "0", listStyle: "none", display: "flex", flexDirection: "column", gap: "10px" }}>
+              <span style={{ width: "100%", height: "1px", background: "#E4E6EA", margin: "20px 0 16px" }}></span>
+              <ul style={{ margin: "0 0 24px", padding: "0", listStyle: "none", display: "flex", flexDirection: "column", gap: "12px" }}>
                 <li
-                  style={{ display: "flex", gap: "10px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#3A4150" }}
+                  style={{ display: "flex", gap: "12px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#3A4150" }}
                 >
                   <svg
                     width="18"
@@ -2608,7 +2608,7 @@ export function DienstHostingContent() {
                   <span>{t("99,9% uptime garantie")}</span>
                 </li>
                 <li
-                  style={{ display: "flex", gap: "10px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#3A4150" }}
+                  style={{ display: "flex", gap: "12px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#3A4150" }}
                 >
                   <svg
                     width="18"
@@ -2627,7 +2627,7 @@ export function DienstHostingContent() {
                   <span>{t("Eenvoudig cPanel")}</span>
                 </li>
                 <li
-                  style={{ display: "flex", gap: "10px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#3A4150" }}
+                  style={{ display: "flex", gap: "12px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#3A4150" }}
                 >
                   <svg
                     width="18"
@@ -2646,7 +2646,7 @@ export function DienstHostingContent() {
                   <span>{t("Telefoon- en e-mailsupport (9 – 5)")}</span>
                 </li>
                 <li
-                  style={{ display: "flex", gap: "10px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#3A4150" }}
+                  style={{ display: "flex", gap: "12px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#3A4150" }}
                 >
                   <svg
                     width="18"
@@ -2665,7 +2665,7 @@ export function DienstHostingContent() {
                   <span>{t("1 domeinnaam")}</span>
                 </li>
                 <li
-                  style={{ display: "flex", gap: "10px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#3A4150" }}
+                  style={{ display: "flex", gap: "12px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#3A4150" }}
                 >
                   <svg
                     width="18"
@@ -2686,7 +2686,7 @@ export function DienstHostingContent() {
                   </span>
                 </li>
                 <li
-                  style={{ display: "flex", gap: "10px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#3A4150" }}
+                  style={{ display: "flex", gap: "12px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#3A4150" }}
                 >
                   <svg
                     width="18"
@@ -2707,7 +2707,7 @@ export function DienstHostingContent() {
                   </span>
                 </li>
                 <li
-                  style={{ display: "flex", gap: "10px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#3A4150" }}
+                  style={{ display: "flex", gap: "12px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#3A4150" }}
                 >
                   <svg
                     width="18"
@@ -2726,7 +2726,7 @@ export function DienstHostingContent() {
                   <span>{t("1 mailbox, onbeperkt e-mailadressen")}</span>
                 </li>
                 <li
-                  style={{ display: "flex", gap: "10px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#3A4150" }}
+                  style={{ display: "flex", gap: "12px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#3A4150" }}
                 >
                   <svg
                     width="18"
@@ -2745,7 +2745,7 @@ export function DienstHostingContent() {
                   <span>{t("SSL-certificaat (https) inbegrepen")}</span>
                 </li>
                 <li
-                  style={{ display: "flex", gap: "10px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#3A4150" }}
+                  style={{ display: "flex", gap: "12px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#3A4150" }}
                 >
                   <svg
                     width="18"
@@ -2764,7 +2764,7 @@ export function DienstHostingContent() {
                   <span>{t("Website migratie inbegrepen")}</span>
                 </li>
                 <li
-                  style={{ display: "flex", gap: "10px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#3A4150" }}
+                  style={{ display: "flex", gap: "12px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#3A4150" }}
                 >
                   <svg
                     width="18"
@@ -2783,7 +2783,7 @@ export function DienstHostingContent() {
                   <span>{t("Dagelijkse back-ups")}</span>
                 </li>
                 <li
-                  style={{ display: "flex", gap: "10px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#3A4150" }}
+                  style={{ display: "flex", gap: "12px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#3A4150" }}
                 >
                   <svg
                     width="18"
@@ -2813,7 +2813,7 @@ export function DienstHostingContent() {
                     width: "100%",
                     boxSizing: "border-box",
                     minHeight: "50px",
-                    padding: "0 18px",
+                    padding: "0 20px",
                     borderRadius: "8px",
                     border: "1px solid #1F246C",
                     color: "#1F246C",
@@ -2856,7 +2856,7 @@ export function DienstHostingContent() {
             flexDirection: "column",
             alignItems: "center",
             textAlign: "center",
-            gap: "22px",
+            gap: "24px",
           }}
         >
           <p
@@ -2890,7 +2890,7 @@ export function DienstHostingContent() {
           <p style={{ margin: "0", maxWidth: "560px", fontSize: "18px", lineHeight: "1.6", color: "#FFFFFF" }}>
             {t("Vertel ons waar je naartoe wilt. Wij laten zien hoe je er komt.")}
           </p>
-          <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "14px", paddingTop: "8px" }}>
+          <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px", paddingTop: "8px" }}>
             <a
               href="https://calendly.com/vrijblijvendgesprek/"
               target="_blank"
@@ -2900,7 +2900,7 @@ export function DienstHostingContent() {
                 display: "inline-flex",
                 alignItems: "center",
                 minHeight: "56px",
-                padding: "0 30px",
+                padding: "0 32px",
                 borderRadius: "8px",
                 background: "#FFFFFF",
                 color: "#1F246C",
@@ -2932,7 +2932,7 @@ export function DienstHostingContent() {
                 display: "inline-flex",
                 alignItems: "center",
                 minHeight: "56px",
-                padding: "0 26px",
+                padding: "0 28px",
                 borderRadius: "8px",
                 border: "1px solid rgba(255, 255, 255, 0.7)",
                 color: "#FFFFFF",
@@ -2958,7 +2958,7 @@ export function DienstHostingContent() {
               </svg>
             </a>
           </div>
-          <div className="cta-team" style={{ display: "flex", alignItems: "center", gap: "14px", paddingTop: "6px" }}>
+          <div className="cta-team" style={{ display: "flex", alignItems: "center", gap: "16px", paddingTop: "8px" }}>
             <span style={{ display: "flex" }}>
               <span
                 style={{
@@ -2991,7 +2991,7 @@ export function DienstHostingContent() {
                   background: "#FFF6C7",
                   border: "3px solid #FFFFFF",
                   boxSizing: "border-box",
-                  marginLeft: "-14px",
+                  marginLeft: "-16px",
                   zIndex: "9",
                   flexShrink: "0",
                 }}
@@ -3012,7 +3012,7 @@ export function DienstHostingContent() {
                   background: "#E3F1FD",
                   border: "3px solid #FFFFFF",
                   boxSizing: "border-box",
-                  marginLeft: "-14px",
+                  marginLeft: "-16px",
                   zIndex: "8",
                   flexShrink: "0",
                 }}
@@ -3033,7 +3033,7 @@ export function DienstHostingContent() {
                   background: "#FFF6C7",
                   border: "3px solid #FFFFFF",
                   boxSizing: "border-box",
-                  marginLeft: "-14px",
+                  marginLeft: "-16px",
                   zIndex: "7",
                   flexShrink: "0",
                 }}

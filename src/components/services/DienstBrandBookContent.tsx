@@ -236,13 +236,13 @@ export function DienstBrandBookContent() {
             <a href={href("Main")} style={{ color: "#C9CFF0", textDecoration: "none" }}>
               {t("Home")}
             </a>{" "}
-            <span aria-hidden="true" style={{ margin: "0 6px" }}>
+            <span aria-hidden="true" style={{ margin: "0 8px" }}>
               {t("/")}
             </span>{" "}
             <a href={href("Main")} style={{ color: "#C9CFF0", textDecoration: "none" }}>
               {t("Diensten")}
             </a>{" "}
-            <span aria-hidden="true" style={{ margin: "0 6px" }}>
+            <span aria-hidden="true" style={{ margin: "0 8px" }}>
               {t("/")}
             </span>{" "}
             <span aria-current="page" translate="no" style={{ color: "#FFFFFF", fontWeight: "600" }}>
@@ -277,7 +277,7 @@ export function DienstBrandBookContent() {
               textTransform: "uppercase",
               color: "#6B2BD9",
               background: "#EFE8FD",
-              padding: "7px 14px",
+              padding: "8px 16px",
               borderRadius: "999px",
             }}
           >
@@ -326,7 +326,7 @@ export function DienstBrandBookContent() {
                 background: "linear-gradient(90deg, #8639FA 0%, #0F8AE5 100%)",
                 color: "#FFFFFF",
                 textDecoration: "none",
-                padding: "18px 30px",
+                padding: "20px 32px",
                 borderRadius: "8px",
                 fontWeight: "700",
                 fontSize: "19px",
@@ -411,7 +411,7 @@ export function DienstBrandBookContent() {
       </nav>
       <section id="uitdagingen" className="pj-wrap pj-sec" style={{ background: "#F2F8FE", padding: "112px 40px 112px" }}>
         <div style={{ maxWidth: "1280px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "40px" }}>
-          <div style={{ display: "flex", flexDirection: "column", gap: "14px", maxWidth: "760px" }}>
+          <div style={{ display: "flex", flexDirection: "column", gap: "16px", maxWidth: "760px" }}>
             <h2
               style={{
                 margin: "0",
@@ -534,7 +534,7 @@ export function DienstBrandBookContent() {
             alignItems: "center",
           }}
         >
-          <div style={{ display: "flex", flexDirection: "column", gap: "18px" }}>
+          <div style={{ display: "flex", flexDirection: "column", gap: "20px" }}>
             <h2
               style={{
                 margin: "0",
@@ -637,7 +637,7 @@ export function DienstBrandBookContent() {
                 background: "linear-gradient(90deg, #8639FA 0%, #0F8AE5 100%)",
                 color: "#FFFFFF",
                 textDecoration: "none",
-                padding: "18px 30px",
+                padding: "20px 32px",
                 borderRadius: "8px",
                 fontWeight: "700",
                 fontSize: "19px",
@@ -655,7 +655,7 @@ export function DienstBrandBookContent() {
               padding: "48px",
               display: "flex",
               flexDirection: "column",
-              gap: "22px",
+              gap: "24px",
             }}
           >
             <span style={{ fontSize: "13px", fontWeight: "700", letterSpacing: "0.1em", textTransform: "uppercase", color: "#FAE84E" }}>
@@ -814,7 +814,7 @@ export function DienstBrandBookContent() {
       </section>
       <section id="waarom-wij" className="pj-wrap pj-sec" style={{ background: "#FFFFFF", padding: "112px 40px 112px" }}>
         <div style={{ maxWidth: "1280px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "40px" }}>
-          <div style={{ display: "flex", flexDirection: "column", gap: "14px", maxWidth: "760px" }}>
+          <div style={{ display: "flex", flexDirection: "column", gap: "16px", maxWidth: "760px" }}>
             <h2
               style={{
                 margin: "0",
@@ -1084,7 +1084,7 @@ export function DienstBrandBookContent() {
                     textTransform: "uppercase",
                     color: "#1F246C",
                     background: "#FAE84E",
-                    padding: "5px 10px",
+                    padding: "4px 12px",
                     borderRadius: "999px",
                   }}
                 >
@@ -1252,7 +1252,7 @@ export function DienstBrandBookContent() {
             display: "flex",
             flexDirection: "column",
             alignItems: "center",
-            gap: "22px",
+            gap: "24px",
             textAlign: "center",
           }}
         >
@@ -1303,7 +1303,7 @@ export function DienstBrandBookContent() {
       </section>
       <section id="pakketten" className="pj-wrap pj-sec" style={{ background: "#F2F8FE", padding: "112px 40px 112px" }}>
         <div style={{ maxWidth: "1280px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "40px" }}>
-          <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "14px", textAlign: "center" }}>
+          <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "16px", textAlign: "center" }}>
             <h2
               style={{
                 margin: "0",
@@ -1334,7 +1334,7 @@ export function DienstBrandBookContent() {
               {t("Je huisstijlhandboek voor een vast bedrag, zodat je precies weet waar je aan toe bent.")}
             </p>
           </div>
-          <div className="tf-scroll" style={{ width: "100%", maxWidth: "1200px", margin: "0 auto", paddingTop: "14px" }}>
+          <div className="tf-scroll" style={{ width: "100%", maxWidth: "1200px", margin: "0 auto", paddingTop: "16px" }}>
             <div
               className="tf-table tf-combo"
               data-sel={h.tfmPlan}
@@ -1352,7 +1352,7 @@ export function DienstBrandBookContent() {
                       background: "#FFFFFF",
                       color: "#1F246C",
                       borderRadius: "24px 24px 0 0",
-                      padding: "40px 22px 28px",
+                      padding: "40px 24px 28px",
                       height: "100%",
                       width: "100%",
                       boxSizing: "border-box",
@@ -1360,7 +1360,7 @@ export function DienstBrandBookContent() {
                       flexDirection: "column",
                       alignItems: "center",
                       textAlign: "center",
-                      gap: "6px",
+                      gap: "8px",
                     }}
                   >
                     <h3
@@ -1385,7 +1385,7 @@ export function DienstBrandBookContent() {
                         fontSize: "56px",
                         lineHeight: "1",
                         letterSpacing: "-0.02em",
-                        marginTop: "14px",
+                        marginTop: "16px",
                         color: "inherit",
                       }}
                     >
@@ -1405,7 +1405,7 @@ export function DienstBrandBookContent() {
                           color: "#1F246C",
                           border: "1px solid #1F246C",
                           textDecoration: "none",
-                          padding: "14px 18px",
+                          padding: "16px 20px",
                           borderRadius: "8px",
                           fontWeight: "700",
                           fontSize: "16px",
@@ -1441,7 +1441,7 @@ export function DienstBrandBookContent() {
                       background: "linear-gradient(160deg, #8639FA 0%, #0F8AE5 100%)",
                       color: "#FFFFFF",
                       borderRadius: "24px 24px 0 0",
-                      padding: "40px 22px 28px",
+                      padding: "40px 24px 28px",
                       height: "100%",
                       width: "100%",
                       boxSizing: "border-box",
@@ -1449,7 +1449,7 @@ export function DienstBrandBookContent() {
                       flexDirection: "column",
                       alignItems: "center",
                       textAlign: "center",
-                      gap: "6px",
+                      gap: "8px",
                     }}
                   >
                     <span
@@ -1466,7 +1466,7 @@ export function DienstBrandBookContent() {
                         color: "#6B2BD9",
                         background: "#FFFFFF",
                         border: "1px solid #EFE8FD",
-                        padding: "5px 12px",
+                        padding: "4px 12px",
                         borderRadius: "999px",
                         whiteSpace: "nowrap",
                       }}
@@ -1495,7 +1495,7 @@ export function DienstBrandBookContent() {
                         fontSize: "56px",
                         lineHeight: "1",
                         letterSpacing: "-0.02em",
-                        marginTop: "14px",
+                        marginTop: "16px",
                         color: "inherit",
                       }}
                     >
@@ -1514,7 +1514,7 @@ export function DienstBrandBookContent() {
                           background: "#FFFFFF",
                           color: "#1F246C",
                           textDecoration: "none",
-                          padding: "14px 18px",
+                          padding: "16px 20px",
                           borderRadius: "8px",
                           fontWeight: "700",
                           fontSize: "16px",
@@ -1551,7 +1551,7 @@ export function DienstBrandBookContent() {
                       background: "#FFFFFF",
                       color: "#1F246C",
                       borderRadius: "24px 24px 0 0",
-                      padding: "40px 22px 28px",
+                      padding: "40px 24px 28px",
                       height: "100%",
                       width: "100%",
                       boxSizing: "border-box",
@@ -1559,7 +1559,7 @@ export function DienstBrandBookContent() {
                       flexDirection: "column",
                       alignItems: "center",
                       textAlign: "center",
-                      gap: "6px",
+                      gap: "8px",
                     }}
                   >
                     <h3
@@ -1584,7 +1584,7 @@ export function DienstBrandBookContent() {
                         fontSize: "56px",
                         lineHeight: "1",
                         letterSpacing: "-0.02em",
-                        marginTop: "14px",
+                        marginTop: "16px",
                         color: "inherit",
                       }}
                     >
@@ -1604,7 +1604,7 @@ export function DienstBrandBookContent() {
                           color: "#1F246C",
                           border: "1px solid #1F246C",
                           textDecoration: "none",
-                          padding: "14px 18px",
+                          padding: "16px 20px",
                           borderRadius: "8px",
                           fontWeight: "700",
                           fontSize: "16px",
@@ -1654,7 +1654,7 @@ export function DienstBrandBookContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -1701,7 +1701,7 @@ export function DienstBrandBookContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -1727,7 +1727,7 @@ export function DienstBrandBookContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -1764,7 +1764,7 @@ export function DienstBrandBookContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -1788,7 +1788,7 @@ export function DienstBrandBookContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -1837,7 +1837,7 @@ export function DienstBrandBookContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -1897,7 +1897,7 @@ export function DienstBrandBookContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -1921,7 +1921,7 @@ export function DienstBrandBookContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -1970,7 +1970,7 @@ export function DienstBrandBookContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -2035,7 +2035,7 @@ export function DienstBrandBookContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -2059,7 +2059,7 @@ export function DienstBrandBookContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -2108,7 +2108,7 @@ export function DienstBrandBookContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -2171,7 +2171,7 @@ export function DienstBrandBookContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -2195,7 +2195,7 @@ export function DienstBrandBookContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -2244,7 +2244,7 @@ export function DienstBrandBookContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -2304,7 +2304,7 @@ export function DienstBrandBookContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -2328,7 +2328,7 @@ export function DienstBrandBookContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -2354,7 +2354,7 @@ export function DienstBrandBookContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -2383,7 +2383,7 @@ export function DienstBrandBookContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -2407,7 +2407,7 @@ export function DienstBrandBookContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -2433,7 +2433,7 @@ export function DienstBrandBookContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -2493,7 +2493,7 @@ export function DienstBrandBookContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -2509,7 +2509,7 @@ export function DienstBrandBookContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -2527,7 +2527,7 @@ export function DienstBrandBookContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -2559,7 +2559,7 @@ export function DienstBrandBookContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -2606,7 +2606,7 @@ export function DienstBrandBookContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -2655,7 +2655,7 @@ export function DienstBrandBookContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -2715,7 +2715,7 @@ export function DienstBrandBookContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -2762,7 +2762,7 @@ export function DienstBrandBookContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -2811,7 +2811,7 @@ export function DienstBrandBookContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -2871,7 +2871,7 @@ export function DienstBrandBookContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -2918,7 +2918,7 @@ export function DienstBrandBookContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -2967,7 +2967,7 @@ export function DienstBrandBookContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -3030,7 +3030,7 @@ export function DienstBrandBookContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -3077,7 +3077,7 @@ export function DienstBrandBookContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -3126,7 +3126,7 @@ export function DienstBrandBookContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -3186,7 +3186,7 @@ export function DienstBrandBookContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -3210,7 +3210,7 @@ export function DienstBrandBookContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -3236,7 +3236,7 @@ export function DienstBrandBookContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -3296,7 +3296,7 @@ export function DienstBrandBookContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -3320,7 +3320,7 @@ export function DienstBrandBookContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -3369,7 +3369,7 @@ export function DienstBrandBookContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -3429,7 +3429,7 @@ export function DienstBrandBookContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -3476,7 +3476,7 @@ export function DienstBrandBookContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -3525,7 +3525,7 @@ export function DienstBrandBookContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -3590,7 +3590,7 @@ export function DienstBrandBookContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -3606,7 +3606,7 @@ export function DienstBrandBookContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -3624,7 +3624,7 @@ export function DienstBrandBookContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -3656,7 +3656,7 @@ export function DienstBrandBookContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -3680,7 +3680,7 @@ export function DienstBrandBookContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -3706,7 +3706,7 @@ export function DienstBrandBookContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -3766,7 +3766,7 @@ export function DienstBrandBookContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -3790,7 +3790,7 @@ export function DienstBrandBookContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -3839,7 +3839,7 @@ export function DienstBrandBookContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -3899,7 +3899,7 @@ export function DienstBrandBookContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -3923,7 +3923,7 @@ export function DienstBrandBookContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -3949,7 +3949,7 @@ export function DienstBrandBookContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -3978,7 +3978,7 @@ export function DienstBrandBookContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -3994,7 +3994,7 @@ export function DienstBrandBookContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -4012,7 +4012,7 @@ export function DienstBrandBookContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -4041,7 +4041,7 @@ export function DienstBrandBookContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -4057,7 +4057,7 @@ export function DienstBrandBookContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -4075,7 +4075,7 @@ export function DienstBrandBookContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -4104,7 +4104,7 @@ export function DienstBrandBookContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -4120,7 +4120,7 @@ export function DienstBrandBookContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -4138,7 +4138,7 @@ export function DienstBrandBookContent() {
                     alignItems: "center",
                     justifyContent: "center",
                     textAlign: "center",
-                    padding: "18px 12px",
+                    padding: "20px 12px",
                     fontSize: "14px",
                     fontWeight: "600",
                     color: "#1F246C",
@@ -4162,7 +4162,7 @@ export function DienstBrandBookContent() {
                 scrollSnapType: "x mandatory",
                 scrollbarWidth: "none",
                 margin: "0 -20px",
-                padding: "18px 7% 6px",
+                padding: "20px 7% 8px",
                 alignItems: "flex-start",
               }}
             >
@@ -4185,7 +4185,7 @@ export function DienstBrandBookContent() {
                     background: "#FFFFFF",
                     color: "#1F246C",
                     borderRadius: "24px 24px 0 0",
-                    padding: "40px 22px 28px",
+                    padding: "40px 24px 28px",
                     height: "100%",
                     width: "100%",
                     boxSizing: "border-box",
@@ -4193,7 +4193,7 @@ export function DienstBrandBookContent() {
                     flexDirection: "column",
                     alignItems: "center",
                     textAlign: "center",
-                    gap: "6px",
+                    gap: "8px",
                   }}
                 >
                   <h3
@@ -4218,7 +4218,7 @@ export function DienstBrandBookContent() {
                       fontSize: "56px",
                       lineHeight: "1",
                       letterSpacing: "-0.02em",
-                      marginTop: "14px",
+                      marginTop: "16px",
                       color: "inherit",
                     }}
                   >
@@ -4238,7 +4238,7 @@ export function DienstBrandBookContent() {
                         color: "#1F246C",
                         border: "1px solid #1F246C",
                         textDecoration: "none",
-                        padding: "14px 18px",
+                        padding: "16px 20px",
                         borderRadius: "8px",
                         fontWeight: "700",
                         fontSize: "16px",
@@ -4268,7 +4268,7 @@ export function DienstBrandBookContent() {
                 </div>
                 <div
                   style={{
-                    padding: "14px 22px",
+                    padding: "16px 24px",
                     borderTop: "1px solid #E4E6EA",
                     display: "flex",
                     alignItems: "center",
@@ -4314,7 +4314,7 @@ export function DienstBrandBookContent() {
                 </div>
                 <div
                   style={{
-                    padding: "14px 22px",
+                    padding: "16px 24px",
                     borderTop: "1px solid #E4E6EA",
                     display: "flex",
                     alignItems: "center",
@@ -4337,7 +4337,7 @@ export function DienstBrandBookContent() {
                 </div>
                 <div
                   style={{
-                    padding: "14px 22px",
+                    padding: "16px 24px",
                     borderTop: "1px solid #E4E6EA",
                     display: "flex",
                     alignItems: "center",
@@ -4360,7 +4360,7 @@ export function DienstBrandBookContent() {
                 </div>
                 <div
                   style={{
-                    padding: "14px 22px",
+                    padding: "16px 24px",
                     borderTop: "1px solid #E4E6EA",
                     display: "flex",
                     alignItems: "center",
@@ -4388,7 +4388,7 @@ export function DienstBrandBookContent() {
                 </div>
                 <div
                   style={{
-                    padding: "14px 22px",
+                    padding: "16px 24px",
                     borderTop: "1px solid #E4E6EA",
                     display: "flex",
                     alignItems: "center",
@@ -4414,7 +4414,7 @@ export function DienstBrandBookContent() {
                 </div>
                 <div
                   style={{
-                    padding: "14px 22px",
+                    padding: "16px 24px",
                     borderTop: "1px solid #E4E6EA",
                     display: "flex",
                     alignItems: "center",
@@ -4437,7 +4437,7 @@ export function DienstBrandBookContent() {
                 </div>
                 <div
                   style={{
-                    padding: "14px 22px",
+                    padding: "16px 24px",
                     borderTop: "1px solid #E4E6EA",
                     display: "flex",
                     alignItems: "center",
@@ -4458,13 +4458,13 @@ export function DienstBrandBookContent() {
                     </span>
                   </span>
                 </div>
-                <div style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}>
+                <div style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}>
                   <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Logovoorstellen")}</strong>
                   <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("3")}</span>
                 </div>
                 <div
                   style={{
-                    padding: "14px 22px",
+                    padding: "16px 24px",
                     borderTop: "1px solid #E4E6EA",
                     display: "flex",
                     alignItems: "center",
@@ -4513,7 +4513,7 @@ export function DienstBrandBookContent() {
                 </div>
                 <div
                   style={{
-                    padding: "14px 22px",
+                    padding: "16px 24px",
                     borderTop: "1px solid #E4E6EA",
                     display: "flex",
                     alignItems: "center",
@@ -4559,7 +4559,7 @@ export function DienstBrandBookContent() {
                 </div>
                 <div
                   style={{
-                    padding: "14px 22px",
+                    padding: "16px 24px",
                     borderTop: "1px solid #E4E6EA",
                     display: "flex",
                     alignItems: "center",
@@ -4605,7 +4605,7 @@ export function DienstBrandBookContent() {
                 </div>
                 <div
                   style={{
-                    padding: "14px 22px",
+                    padding: "16px 24px",
                     borderTop: "1px solid #E4E6EA",
                     display: "flex",
                     alignItems: "center",
@@ -4654,7 +4654,7 @@ export function DienstBrandBookContent() {
                 </div>
                 <div
                   style={{
-                    padding: "14px 22px",
+                    padding: "16px 24px",
                     borderTop: "1px solid #E4E6EA",
                     display: "flex",
                     alignItems: "center",
@@ -4677,7 +4677,7 @@ export function DienstBrandBookContent() {
                 </div>
                 <div
                   style={{
-                    padding: "14px 22px",
+                    padding: "16px 24px",
                     borderTop: "1px solid #E4E6EA",
                     display: "flex",
                     alignItems: "center",
@@ -4700,7 +4700,7 @@ export function DienstBrandBookContent() {
                 </div>
                 <div
                   style={{
-                    padding: "14px 22px",
+                    padding: "16px 24px",
                     borderTop: "1px solid #E4E6EA",
                     display: "flex",
                     alignItems: "center",
@@ -4744,7 +4744,7 @@ export function DienstBrandBookContent() {
                     </span>
                   </span>
                 </div>
-                <div style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}>
+                <div style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}>
                   <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>
                     {t("Bestandsformaten")}
                     <Tip label={ta("Uitleg")}>
@@ -4755,7 +4755,7 @@ export function DienstBrandBookContent() {
                 </div>
                 <div
                   style={{
-                    padding: "14px 22px",
+                    padding: "16px 24px",
                     borderTop: "1px solid #E4E6EA",
                     display: "flex",
                     alignItems: "center",
@@ -4781,7 +4781,7 @@ export function DienstBrandBookContent() {
                 </div>
                 <div
                   style={{
-                    padding: "14px 22px",
+                    padding: "16px 24px",
                     borderTop: "1px solid #E4E6EA",
                     display: "flex",
                     alignItems: "center",
@@ -4804,7 +4804,7 @@ export function DienstBrandBookContent() {
                 </div>
                 <div
                   style={{
-                    padding: "14px 22px",
+                    padding: "16px 24px",
                     borderTop: "1px solid #E4E6EA",
                     display: "flex",
                     alignItems: "center",
@@ -4825,15 +4825,15 @@ export function DienstBrandBookContent() {
                     </span>
                   </span>
                 </div>
-                <div style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}>
+                <div style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}>
                   <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Correctierondes")}</strong>
                   <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("Max. 2")}</span>
                 </div>
-                <div style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}>
+                <div style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}>
                   <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Levertijd")}</strong>
                   <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("± 2 weken")}</span>
                 </div>
-                <div style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}>
+                <div style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}>
                   <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Meerwerk")}</strong>
                   <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("€130 p/uur")}</span>
                 </div>
@@ -4858,7 +4858,7 @@ export function DienstBrandBookContent() {
                     background: "linear-gradient(160deg, #8639FA 0%, #0F8AE5 100%)",
                     color: "#FFFFFF",
                     borderRadius: "24px 24px 0 0",
-                    padding: "40px 22px 28px",
+                    padding: "40px 24px 28px",
                     height: "100%",
                     width: "100%",
                     boxSizing: "border-box",
@@ -4866,7 +4866,7 @@ export function DienstBrandBookContent() {
                     flexDirection: "column",
                     alignItems: "center",
                     textAlign: "center",
-                    gap: "6px",
+                    gap: "8px",
                   }}
                 >
                   <span
@@ -4883,7 +4883,7 @@ export function DienstBrandBookContent() {
                       color: "#6B2BD9",
                       background: "#FFFFFF",
                       border: "1px solid #EFE8FD",
-                      padding: "5px 12px",
+                      padding: "4px 12px",
                       borderRadius: "999px",
                       whiteSpace: "nowrap",
                     }}
@@ -4912,7 +4912,7 @@ export function DienstBrandBookContent() {
                       fontSize: "56px",
                       lineHeight: "1",
                       letterSpacing: "-0.02em",
-                      marginTop: "14px",
+                      marginTop: "16px",
                       color: "inherit",
                     }}
                   >
@@ -4931,7 +4931,7 @@ export function DienstBrandBookContent() {
                         background: "#FFFFFF",
                         color: "#1F246C",
                         textDecoration: "none",
-                        padding: "14px 18px",
+                        padding: "16px 20px",
                         borderRadius: "8px",
                         fontWeight: "700",
                         fontSize: "16px",
@@ -4962,7 +4962,7 @@ export function DienstBrandBookContent() {
                 </div>
                 <div
                   style={{
-                    padding: "14px 22px",
+                    padding: "16px 24px",
                     borderTop: "1px solid #E4E6EA",
                     display: "flex",
                     alignItems: "center",
@@ -4985,7 +4985,7 @@ export function DienstBrandBookContent() {
                 </div>
                 <div
                   style={{
-                    padding: "14px 22px",
+                    padding: "16px 24px",
                     borderTop: "1px solid #E4E6EA",
                     display: "flex",
                     alignItems: "center",
@@ -5031,7 +5031,7 @@ export function DienstBrandBookContent() {
                 </div>
                 <div
                   style={{
-                    padding: "14px 22px",
+                    padding: "16px 24px",
                     borderTop: "1px solid #E4E6EA",
                     display: "flex",
                     alignItems: "center",
@@ -5077,7 +5077,7 @@ export function DienstBrandBookContent() {
                 </div>
                 <div
                   style={{
-                    padding: "14px 22px",
+                    padding: "16px 24px",
                     borderTop: "1px solid #E4E6EA",
                     display: "flex",
                     alignItems: "center",
@@ -5128,7 +5128,7 @@ export function DienstBrandBookContent() {
                 </div>
                 <div
                   style={{
-                    padding: "14px 22px",
+                    padding: "16px 24px",
                     borderTop: "1px solid #E4E6EA",
                     display: "flex",
                     alignItems: "center",
@@ -5177,7 +5177,7 @@ export function DienstBrandBookContent() {
                 </div>
                 <div
                   style={{
-                    padding: "14px 22px",
+                    padding: "16px 24px",
                     borderTop: "1px solid #E4E6EA",
                     display: "flex",
                     alignItems: "center",
@@ -5200,7 +5200,7 @@ export function DienstBrandBookContent() {
                 </div>
                 <div
                   style={{
-                    padding: "14px 22px",
+                    padding: "16px 24px",
                     borderTop: "1px solid #E4E6EA",
                     display: "flex",
                     alignItems: "center",
@@ -5221,13 +5221,13 @@ export function DienstBrandBookContent() {
                     </span>
                   </span>
                 </div>
-                <div style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}>
+                <div style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}>
                   <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Logovoorstellen")}</strong>
                   <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("4")}</span>
                 </div>
                 <div
                   style={{
-                    padding: "14px 22px",
+                    padding: "16px 24px",
                     borderTop: "1px solid #E4E6EA",
                     display: "flex",
                     alignItems: "center",
@@ -5276,7 +5276,7 @@ export function DienstBrandBookContent() {
                 </div>
                 <div
                   style={{
-                    padding: "14px 22px",
+                    padding: "16px 24px",
                     borderTop: "1px solid #E4E6EA",
                     display: "flex",
                     alignItems: "center",
@@ -5322,7 +5322,7 @@ export function DienstBrandBookContent() {
                 </div>
                 <div
                   style={{
-                    padding: "14px 22px",
+                    padding: "16px 24px",
                     borderTop: "1px solid #E4E6EA",
                     display: "flex",
                     alignItems: "center",
@@ -5368,7 +5368,7 @@ export function DienstBrandBookContent() {
                 </div>
                 <div
                   style={{
-                    padding: "14px 22px",
+                    padding: "16px 24px",
                     borderTop: "1px solid #E4E6EA",
                     display: "flex",
                     alignItems: "center",
@@ -5417,7 +5417,7 @@ export function DienstBrandBookContent() {
                 </div>
                 <div
                   style={{
-                    padding: "14px 22px",
+                    padding: "16px 24px",
                     borderTop: "1px solid #E4E6EA",
                     display: "flex",
                     alignItems: "center",
@@ -5440,7 +5440,7 @@ export function DienstBrandBookContent() {
                 </div>
                 <div
                   style={{
-                    padding: "14px 22px",
+                    padding: "16px 24px",
                     borderTop: "1px solid #E4E6EA",
                     display: "flex",
                     alignItems: "center",
@@ -5486,7 +5486,7 @@ export function DienstBrandBookContent() {
                 </div>
                 <div
                   style={{
-                    padding: "14px 22px",
+                    padding: "16px 24px",
                     borderTop: "1px solid #E4E6EA",
                     display: "flex",
                     alignItems: "center",
@@ -5530,7 +5530,7 @@ export function DienstBrandBookContent() {
                     </span>
                   </span>
                 </div>
-                <div style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}>
+                <div style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}>
                   <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>
                     {t("Bestandsformaten")}
                     <Tip label={ta("Uitleg")}>
@@ -5541,7 +5541,7 @@ export function DienstBrandBookContent() {
                 </div>
                 <div
                   style={{
-                    padding: "14px 22px",
+                    padding: "16px 24px",
                     borderTop: "1px solid #E4E6EA",
                     display: "flex",
                     alignItems: "center",
@@ -5567,7 +5567,7 @@ export function DienstBrandBookContent() {
                 </div>
                 <div
                   style={{
-                    padding: "14px 22px",
+                    padding: "16px 24px",
                     borderTop: "1px solid #E4E6EA",
                     display: "flex",
                     alignItems: "center",
@@ -5613,7 +5613,7 @@ export function DienstBrandBookContent() {
                 </div>
                 <div
                   style={{
-                    padding: "14px 22px",
+                    padding: "16px 24px",
                     borderTop: "1px solid #E4E6EA",
                     display: "flex",
                     alignItems: "center",
@@ -5634,15 +5634,15 @@ export function DienstBrandBookContent() {
                     </span>
                   </span>
                 </div>
-                <div style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}>
+                <div style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}>
                   <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Correctierondes")}</strong>
                   <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("Max. 3")}</span>
                 </div>
-                <div style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}>
+                <div style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}>
                   <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Levertijd")}</strong>
                   <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("± 3 weken")}</span>
                 </div>
-                <div style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}>
+                <div style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}>
                   <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Meerwerk")}</strong>
                   <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("€130 p/uur")}</span>
                 </div>
@@ -5666,7 +5666,7 @@ export function DienstBrandBookContent() {
                     background: "#FFFFFF",
                     color: "#1F246C",
                     borderRadius: "24px 24px 0 0",
-                    padding: "40px 22px 28px",
+                    padding: "40px 24px 28px",
                     height: "100%",
                     width: "100%",
                     boxSizing: "border-box",
@@ -5674,7 +5674,7 @@ export function DienstBrandBookContent() {
                     flexDirection: "column",
                     alignItems: "center",
                     textAlign: "center",
-                    gap: "6px",
+                    gap: "8px",
                   }}
                 >
                   <h3
@@ -5699,7 +5699,7 @@ export function DienstBrandBookContent() {
                       fontSize: "56px",
                       lineHeight: "1",
                       letterSpacing: "-0.02em",
-                      marginTop: "14px",
+                      marginTop: "16px",
                       color: "inherit",
                     }}
                   >
@@ -5719,7 +5719,7 @@ export function DienstBrandBookContent() {
                         color: "#1F246C",
                         border: "1px solid #1F246C",
                         textDecoration: "none",
-                        padding: "14px 18px",
+                        padding: "16px 20px",
                         borderRadius: "8px",
                         fontWeight: "700",
                         fontSize: "16px",
@@ -5749,7 +5749,7 @@ export function DienstBrandBookContent() {
                 </div>
                 <div
                   style={{
-                    padding: "14px 22px",
+                    padding: "16px 24px",
                     borderTop: "1px solid #E4E6EA",
                     display: "flex",
                     alignItems: "center",
@@ -5772,7 +5772,7 @@ export function DienstBrandBookContent() {
                 </div>
                 <div
                   style={{
-                    padding: "14px 22px",
+                    padding: "16px 24px",
                     borderTop: "1px solid #E4E6EA",
                     display: "flex",
                     alignItems: "center",
@@ -5818,7 +5818,7 @@ export function DienstBrandBookContent() {
                 </div>
                 <div
                   style={{
-                    padding: "14px 22px",
+                    padding: "16px 24px",
                     borderTop: "1px solid #E4E6EA",
                     display: "flex",
                     alignItems: "center",
@@ -5864,7 +5864,7 @@ export function DienstBrandBookContent() {
                 </div>
                 <div
                   style={{
-                    padding: "14px 22px",
+                    padding: "16px 24px",
                     borderTop: "1px solid #E4E6EA",
                     display: "flex",
                     alignItems: "center",
@@ -5915,7 +5915,7 @@ export function DienstBrandBookContent() {
                 </div>
                 <div
                   style={{
-                    padding: "14px 22px",
+                    padding: "16px 24px",
                     borderTop: "1px solid #E4E6EA",
                     display: "flex",
                     alignItems: "center",
@@ -5962,13 +5962,13 @@ export function DienstBrandBookContent() {
                     </span>
                   </span>
                 </div>
-                <div style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}>
+                <div style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}>
                   <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Merkverhaal / merkstrategie")}</strong>
                   <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("Incl. 2 strategische sessies")}</span>
                 </div>
                 <div
                   style={{
-                    padding: "14px 22px",
+                    padding: "16px 24px",
                     borderTop: "1px solid #E4E6EA",
                     display: "flex",
                     alignItems: "center",
@@ -6012,13 +6012,13 @@ export function DienstBrandBookContent() {
                     </span>
                   </span>
                 </div>
-                <div style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}>
+                <div style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}>
                   <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Logovoorstellen")}</strong>
                   <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("5")}</span>
                 </div>
                 <div
                   style={{
-                    padding: "14px 22px",
+                    padding: "16px 24px",
                     borderTop: "1px solid #E4E6EA",
                     display: "flex",
                     alignItems: "center",
@@ -6067,7 +6067,7 @@ export function DienstBrandBookContent() {
                 </div>
                 <div
                   style={{
-                    padding: "14px 22px",
+                    padding: "16px 24px",
                     borderTop: "1px solid #E4E6EA",
                     display: "flex",
                     alignItems: "center",
@@ -6113,7 +6113,7 @@ export function DienstBrandBookContent() {
                 </div>
                 <div
                   style={{
-                    padding: "14px 22px",
+                    padding: "16px 24px",
                     borderTop: "1px solid #E4E6EA",
                     display: "flex",
                     alignItems: "center",
@@ -6159,7 +6159,7 @@ export function DienstBrandBookContent() {
                 </div>
                 <div
                   style={{
-                    padding: "14px 22px",
+                    padding: "16px 24px",
                     borderTop: "1px solid #E4E6EA",
                     display: "flex",
                     alignItems: "center",
@@ -6208,7 +6208,7 @@ export function DienstBrandBookContent() {
                 </div>
                 <div
                   style={{
-                    padding: "14px 22px",
+                    padding: "16px 24px",
                     borderTop: "1px solid #E4E6EA",
                     display: "flex",
                     alignItems: "center",
@@ -6254,7 +6254,7 @@ export function DienstBrandBookContent() {
                 </div>
                 <div
                   style={{
-                    padding: "14px 22px",
+                    padding: "16px 24px",
                     borderTop: "1px solid #E4E6EA",
                     display: "flex",
                     alignItems: "center",
@@ -6300,7 +6300,7 @@ export function DienstBrandBookContent() {
                 </div>
                 <div
                   style={{
-                    padding: "14px 22px",
+                    padding: "16px 24px",
                     borderTop: "1px solid #E4E6EA",
                     display: "flex",
                     alignItems: "center",
@@ -6344,7 +6344,7 @@ export function DienstBrandBookContent() {
                     </span>
                   </span>
                 </div>
-                <div style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}>
+                <div style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}>
                   <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>
                     {t("Bestandsformaten")}
                     <Tip label={ta("Uitleg")}>
@@ -6355,7 +6355,7 @@ export function DienstBrandBookContent() {
                 </div>
                 <div
                   style={{
-                    padding: "14px 22px",
+                    padding: "16px 24px",
                     borderTop: "1px solid #E4E6EA",
                     display: "flex",
                     alignItems: "center",
@@ -6404,7 +6404,7 @@ export function DienstBrandBookContent() {
                 </div>
                 <div
                   style={{
-                    padding: "14px 22px",
+                    padding: "16px 24px",
                     borderTop: "1px solid #E4E6EA",
                     display: "flex",
                     alignItems: "center",
@@ -6448,19 +6448,19 @@ export function DienstBrandBookContent() {
                     </span>
                   </span>
                 </div>
-                <div style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}>
+                <div style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}>
                   <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Extra online consultancy")}</strong>
                   <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("Tot 3 begeleidende sessies")}</span>
                 </div>
-                <div style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}>
+                <div style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}>
                   <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Correctierondes")}</strong>
                   <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("Max. 5")}</span>
                 </div>
-                <div style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}>
+                <div style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}>
                   <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Levertijd")}</strong>
                   <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("Vanaf 4 weken")}</span>
                 </div>
-                <div style={{ padding: "14px 22px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}>
+                <div style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}>
                   <strong style={{ fontSize: "13px", fontWeight: "600", color: "#5A6273" }}>{t("Meerwerk")}</strong>
                   <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("€130 p/uur")}</span>
                 </div>
@@ -6562,7 +6562,7 @@ export function DienstBrandBookContent() {
             flexDirection: "column",
             alignItems: "center",
             textAlign: "center",
-            gap: "22px",
+            gap: "24px",
           }}
         >
           <p
@@ -6596,7 +6596,7 @@ export function DienstBrandBookContent() {
           <p style={{ margin: "0", maxWidth: "560px", fontSize: "18px", lineHeight: "1.6", color: "#FFFFFF" }}>
             {t("Vertel ons waar je naartoe wilt. Wij laten zien hoe je er komt.")}
           </p>
-          <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "14px", paddingTop: "8px" }}>
+          <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px", paddingTop: "8px" }}>
             <a
               href="https://calendly.com/vrijblijvendgesprek/"
               target="_blank"
@@ -6606,7 +6606,7 @@ export function DienstBrandBookContent() {
                 display: "inline-flex",
                 alignItems: "center",
                 minHeight: "56px",
-                padding: "0 30px",
+                padding: "0 32px",
                 borderRadius: "8px",
                 background: "#FFFFFF",
                 color: "#1F246C",
@@ -6638,7 +6638,7 @@ export function DienstBrandBookContent() {
                 display: "inline-flex",
                 alignItems: "center",
                 minHeight: "56px",
-                padding: "0 26px",
+                padding: "0 28px",
                 borderRadius: "8px",
                 border: "1px solid rgba(255, 255, 255, 0.7)",
                 color: "#FFFFFF",
@@ -6664,7 +6664,7 @@ export function DienstBrandBookContent() {
               </svg>
             </a>
           </div>
-          <div className="cta-team" style={{ display: "flex", alignItems: "center", gap: "14px", paddingTop: "6px" }}>
+          <div className="cta-team" style={{ display: "flex", alignItems: "center", gap: "16px", paddingTop: "8px" }}>
             <span style={{ display: "flex" }}>
               <span
                 style={{
@@ -6697,7 +6697,7 @@ export function DienstBrandBookContent() {
                   background: "#FFF6C7",
                   border: "3px solid #FFFFFF",
                   boxSizing: "border-box",
-                  marginLeft: "-14px",
+                  marginLeft: "-16px",
                   zIndex: "9",
                   flexShrink: "0",
                 }}
@@ -6718,7 +6718,7 @@ export function DienstBrandBookContent() {
                   background: "#E3F1FD",
                   border: "3px solid #FFFFFF",
                   boxSizing: "border-box",
-                  marginLeft: "-14px",
+                  marginLeft: "-16px",
                   zIndex: "8",
                   flexShrink: "0",
                 }}
@@ -6739,7 +6739,7 @@ export function DienstBrandBookContent() {
                   background: "#FFF6C7",
                   border: "3px solid #FFFFFF",
                   boxSizing: "border-box",
-                  marginLeft: "-14px",
+                  marginLeft: "-16px",
                   zIndex: "7",
                   flexShrink: "0",
                 }}

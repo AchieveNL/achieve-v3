@@ -219,7 +219,7 @@ export function Reviews() {
                       <>
                         <div style={{ display: "flex", flexDirection: "column", alignItems: "flex-start", gap: "12px", marginTop: "4px" }}>
                           <span style={{ fontSize: "15px", lineHeight: "1.3", color: "#8639FA" }}>{t(String(c.role))}</span>
-                          <span style={{ display: "inline-flex", flexWrap: "wrap", alignItems: "center", gap: "6px 10px" }}>
+                          <span style={{ display: "inline-flex", flexWrap: "wrap", alignItems: "center", gap: "8px 12px" }}>
                             <span role="img" aria-label={ta("5 van 5 sterren")} style={{ display: "inline-flex", gap: "3px" }}>
                               <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true">
                                 <path
@@ -261,7 +261,7 @@ export function Reviews() {
                               style={{
                                 display: "inline-flex",
                                 alignItems: "center",
-                                gap: "6px",
+                                gap: "8px",
                                 textDecoration: "none",
                                 padding: "4px",
                                 margin: "-4px",
@@ -284,7 +284,7 @@ export function Reviews() {
                     )}
                     {c.noRole && (
                       <>
-                        <span style={{ display: "flex", flexWrap: "wrap", alignItems: "center", gap: "6px 12px", marginTop: "12px" }}>
+                        <span style={{ display: "flex", flexWrap: "wrap", alignItems: "center", gap: "8px 12px", marginTop: "12px" }}>
                           <span role="img" aria-label={ta("5 van 5 sterren")} style={{ display: "inline-flex", gap: "3px" }}>
                             <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true">
                               <path
@@ -326,7 +326,7 @@ export function Reviews() {
                             style={{
                               display: "inline-flex",
                               alignItems: "center",
-                              gap: "6px",
+                              gap: "8px",
                               textDecoration: "none",
                               padding: "4px",
                               margin: "-4px",
@@ -408,7 +408,7 @@ export function Reviews() {
                                   textTransform: "uppercase",
                                   color: tt.c,
                                   background: tt.b,
-                                  padding: "4px 10px",
+                                  padding: "4px 12px",
                                   borderRadius: "999px",
                                 }}
                               >
@@ -473,7 +473,7 @@ export function Reviews() {
                       <>
                         <div style={{ display: "flex", flexDirection: "column", alignItems: "flex-start", gap: "12px", marginTop: "4px" }}>
                           <span style={{ fontSize: "15px", lineHeight: "1.3", color: "#8639FA" }}>{t(String(c.role))}</span>
-                          <span style={{ display: "inline-flex", flexWrap: "wrap", alignItems: "center", gap: "6px 10px" }}>
+                          <span style={{ display: "inline-flex", flexWrap: "wrap", alignItems: "center", gap: "8px 12px" }}>
                             <span role="img" aria-label={ta("5 van 5 sterren")} style={{ display: "inline-flex", gap: "3px" }}>
                               <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true">
                                 <path
@@ -515,7 +515,7 @@ export function Reviews() {
                               style={{
                                 display: "inline-flex",
                                 alignItems: "center",
-                                gap: "6px",
+                                gap: "8px",
                                 textDecoration: "none",
                                 padding: "4px",
                                 margin: "-4px",
@@ -538,7 +538,7 @@ export function Reviews() {
                     )}
                     {c.noRole && (
                       <>
-                        <span style={{ display: "flex", flexWrap: "wrap", alignItems: "center", gap: "6px 12px", marginTop: "12px" }}>
+                        <span style={{ display: "flex", flexWrap: "wrap", alignItems: "center", gap: "8px 12px", marginTop: "12px" }}>
                           <span role="img" aria-label={ta("5 van 5 sterren")} style={{ display: "inline-flex", gap: "3px" }}>
                             <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true">
                               <path
@@ -580,7 +580,7 @@ export function Reviews() {
                             style={{
                               display: "inline-flex",
                               alignItems: "center",
-                              gap: "6px",
+                              gap: "8px",
                               textDecoration: "none",
                               padding: "4px",
                               margin: "-4px",
@@ -662,7 +662,7 @@ export function Reviews() {
                                   textTransform: "uppercase",
                                   color: tt.c,
                                   background: tt.b,
-                                  padding: "4px 10px",
+                                  padding: "4px 12px",
                                   borderRadius: "999px",
                                 }}
                               >
@@ -874,7 +874,7 @@ export function Reviews() {
                         textTransform: "uppercase",
                         color: h.revTagC0,
                         background: h.revTagB0,
-                        padding: "4px 10px",
+                        padding: "4px 12px",
                         borderRadius: "999px",
                       }}
                     >
@@ -893,7 +893,7 @@ export function Reviews() {
                         textTransform: "uppercase",
                         color: h.revTagC1,
                         background: h.revTagB1,
-                        padding: "4px 10px",
+                        padding: "4px 12px",
                         borderRadius: "999px",
                       }}
                     >
@@ -912,7 +912,7 @@ export function Reviews() {
                         textTransform: "uppercase",
                         color: h.revTagC2,
                         background: h.revTagB2,
-                        padding: "4px 10px",
+                        padding: "4px 12px",
                         borderRadius: "999px",
                       }}
                     >
@@ -931,7 +931,7 @@ export function Reviews() {
                         textTransform: "uppercase",
                         color: h.revTagC3,
                         background: h.revTagB3,
-                        padding: "4px 10px",
+                        padding: "4px 12px",
                         borderRadius: "999px",
                       }}
                     >

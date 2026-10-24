@@ -255,13 +255,13 @@ export function VacatureContentContent() {
             <a href={href("Main")} style={{ color: "#C9CFF0", textDecoration: "none" }}>
               {t("Home")}
             </a>{" "}
-            <span aria-hidden="true" style={{ margin: "0 6px" }}>
+            <span aria-hidden="true" style={{ margin: "0 8px" }}>
               {t("/")}
             </span>{" "}
             <a href={href("WerkenBij")} style={{ color: "#C9CFF0", textDecoration: "none" }}>
               {t("Werken bij")}
             </a>{" "}
-            <span aria-hidden="true" style={{ margin: "0 6px" }}>
+            <span aria-hidden="true" style={{ margin: "0 8px" }}>
               {t("/")}
             </span>{" "}
             <span aria-current="page" style={{ color: "#FFFFFF", fontWeight: "600" }}>
@@ -284,7 +284,7 @@ export function VacatureContentContent() {
             display: "flex",
             flexDirection: "column",
             alignItems: "flex-start",
-            gap: "22px",
+            gap: "24px",
           }}
         >
           <span style={{ display: "flex", flexWrap: "wrap", alignItems: "center", gap: "12px" }}>
@@ -300,7 +300,7 @@ export function VacatureContentContent() {
                 textTransform: "uppercase",
                 color: "#6B2BD9",
                 background: "#EFE8FD",
-                padding: "5px 11px",
+                padding: "4px 12px",
                 borderRadius: "999px",
               }}
             >
@@ -315,7 +315,7 @@ export function VacatureContentContent() {
                 textTransform: "uppercase",
                 color: "#0B6DB8",
                 background: "#E3F1FD",
-                padding: "5px 11px",
+                padding: "4px 12px",
                 borderRadius: "999px",
               }}
             >
@@ -361,7 +361,7 @@ export function VacatureContentContent() {
               alignSelf: "flex-start",
               display: "inline-flex",
               alignItems: "center",
-              gap: "10px",
+              gap: "12px",
               minHeight: "44px",
               fontSize: "16px",
               fontWeight: "600",
@@ -413,31 +413,31 @@ export function VacatureContentContent() {
               gap: "28px 48px",
             }}
           >
-            <div style={{ display: "flex", flexDirection: "column", gap: "6px" }}>
+            <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
               <dt style={{ fontSize: "12px", fontWeight: "700", letterSpacing: "0.1em", textTransform: "uppercase", color: "#8639FA" }}>
                 {t("Type")}
               </dt>
               <dd style={{ margin: "0", fontSize: "16px", fontWeight: "600", color: "#1F246C" }}>{t("Stage")}</dd>
             </div>
-            <div style={{ display: "flex", flexDirection: "column", gap: "6px" }}>
+            <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
               <dt style={{ fontSize: "12px", fontWeight: "700", letterSpacing: "0.1em", textTransform: "uppercase", color: "#8639FA" }}>
                 {t("Uren")}
               </dt>
               <dd style={{ margin: "0", fontSize: "16px", fontWeight: "600", color: "#1F246C" }}>{t("Full-time")}</dd>
             </div>
-            <div style={{ display: "flex", flexDirection: "column", gap: "6px" }}>
+            <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
               <dt style={{ fontSize: "12px", fontWeight: "700", letterSpacing: "0.1em", textTransform: "uppercase", color: "#8639FA" }}>
                 {t("Duur")}
               </dt>
               <dd style={{ margin: "0", fontSize: "16px", fontWeight: "600", color: "#1F246C" }}>{t("4 à 5 maanden")}</dd>
             </div>
-            <div style={{ display: "flex", flexDirection: "column", gap: "6px" }}>
+            <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
               <dt style={{ fontSize: "12px", fontWeight: "700", letterSpacing: "0.1em", textTransform: "uppercase", color: "#8639FA" }}>
                 {t("Start")}
               </dt>
               <dd style={{ margin: "0", fontSize: "16px", fontWeight: "600", color: "#1F246C" }}>{t("September, februari of maart")}</dd>
             </div>
-            <div style={{ display: "flex", flexDirection: "column", gap: "6px" }}>
+            <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
               <dt style={{ fontSize: "12px", fontWeight: "700", letterSpacing: "0.1em", textTransform: "uppercase", color: "#8639FA" }}>
                 {t("Locatie")}
               </dt>
@@ -445,7 +445,7 @@ export function VacatureContentContent() {
                 {t("Cypresbaan 3, Capelle a/d IJssel")}
               </dd>
             </div>
-            <div style={{ display: "flex", flexDirection: "column", gap: "6px" }}>
+            <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
               <dt style={{ fontSize: "12px", fontWeight: "700", letterSpacing: "0.1em", textTransform: "uppercase", color: "#8639FA" }}>
                 {t("Niveau")}
               </dt>
@@ -470,7 +470,7 @@ export function VacatureContentContent() {
           }}
         ></div>
         <div style={{ position: "relative", maxWidth: "1280px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "40px" }}>
-          <div style={{ display: "flex", flexDirection: "column", gap: "14px", maxWidth: "720px" }}>
+          <div style={{ display: "flex", flexDirection: "column", gap: "16px", maxWidth: "720px" }}>
             <h2
               style={{
                 margin: "0",
@@ -517,7 +517,7 @@ export function VacatureContentContent() {
                 padding: "36px",
                 display: "flex",
                 flexDirection: "column",
-                gap: "14px",
+                gap: "16px",
               }}
             >
               <span
@@ -562,7 +562,7 @@ export function VacatureContentContent() {
                 padding: "36px",
                 display: "flex",
                 flexDirection: "column",
-                gap: "14px",
+                gap: "16px",
               }}
             >
               <span
@@ -607,7 +607,7 @@ export function VacatureContentContent() {
                 padding: "36px",
                 display: "flex",
                 flexDirection: "column",
-                gap: "14px",
+                gap: "16px",
               }}
             >
               <span
@@ -652,7 +652,7 @@ export function VacatureContentContent() {
                 padding: "36px",
                 display: "flex",
                 flexDirection: "column",
-                gap: "14px",
+                gap: "16px",
               }}
             >
               <span
@@ -697,7 +697,7 @@ export function VacatureContentContent() {
                 padding: "36px",
                 display: "flex",
                 flexDirection: "column",
-                gap: "14px",
+                gap: "16px",
               }}
             >
               <span
@@ -742,7 +742,7 @@ export function VacatureContentContent() {
                 padding: "36px",
                 display: "flex",
                 flexDirection: "column",
-                gap: "14px",
+                gap: "16px",
               }}
             >
               <span
@@ -806,7 +806,7 @@ export function VacatureContentContent() {
               gap: "24px",
             }}
           >
-            <div style={{ display: "flex", flexDirection: "column", gap: "10px" }}>
+            <div style={{ display: "flex", flexDirection: "column", gap: "12px" }}>
               <h2
                 style={{
                   margin: "0",
@@ -835,7 +835,7 @@ export function VacatureContentContent() {
               </h2>
               <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.65", color: "#3A4150" }}>{t("Dit vinden we belangrijk:")}</p>
             </div>
-            <ul style={{ margin: "0", padding: "0", listStyle: "none", display: "flex", flexDirection: "column", gap: "14px" }}>
+            <ul style={{ margin: "0", padding: "0", listStyle: "none", display: "flex", flexDirection: "column", gap: "16px" }}>
               <li style={{ display: "flex", gap: "12px", fontSize: "17px", lineHeight: "1.6", color: "#3A4150" }}>
                 <svg
                   width="18"
@@ -953,7 +953,7 @@ export function VacatureContentContent() {
               color: "#FFFFFF",
             }}
           >
-            <div style={{ display: "flex", flexDirection: "column", gap: "10px" }}>
+            <div style={{ display: "flex", flexDirection: "column", gap: "12px" }}>
               <h2
                 style={{
                   margin: "0",
@@ -984,7 +984,7 @@ export function VacatureContentContent() {
                 {t("Naast een leerzame stage bieden we je:")}
               </p>
             </div>
-            <ul style={{ margin: "0", padding: "0", listStyle: "none", display: "flex", flexDirection: "column", gap: "14px" }}>
+            <ul style={{ margin: "0", padding: "0", listStyle: "none", display: "flex", flexDirection: "column", gap: "16px" }}>
               <li style={{ display: "flex", gap: "12px", fontSize: "17px", lineHeight: "1.6", color: "#FFFFFF" }}>
                 <span style={{ flexShrink: "0", marginTop: "2px" }}>
                   <svg
@@ -1206,7 +1206,7 @@ export function VacatureContentContent() {
                     style={{
                       display: "inline-flex",
                       alignItems: "center",
-                      gap: "6px",
+                      gap: "8px",
                       fontSize: "13px",
                       fontWeight: "600",
                       color: "#3A4150",
@@ -1304,7 +1304,7 @@ export function VacatureContentContent() {
                     style={{
                       display: "inline-flex",
                       alignItems: "center",
-                      gap: "6px",
+                      gap: "8px",
                       fontSize: "13px",
                       fontWeight: "600",
                       color: "#3A4150",
@@ -1407,7 +1407,7 @@ export function VacatureContentContent() {
                     style={{
                       display: "inline-flex",
                       alignItems: "center",
-                      gap: "6px",
+                      gap: "8px",
                       fontSize: "13px",
                       fontWeight: "600",
                       color: "#3A4150",
@@ -1505,7 +1505,7 @@ export function VacatureContentContent() {
                     style={{
                       display: "inline-flex",
                       alignItems: "center",
-                      gap: "6px",
+                      gap: "8px",
                       fontSize: "13px",
                       fontWeight: "600",
                       color: "#3A4150",
@@ -1604,7 +1604,7 @@ export function VacatureContentContent() {
                     style={{
                       display: "inline-flex",
                       alignItems: "center",
-                      gap: "6px",
+                      gap: "8px",
                       fontSize: "13px",
                       fontWeight: "600",
                       color: "#3A4150",
@@ -1702,7 +1702,7 @@ export function VacatureContentContent() {
                     style={{
                       display: "inline-flex",
                       alignItems: "center",
-                      gap: "6px",
+                      gap: "8px",
                       fontSize: "13px",
                       fontWeight: "600",
                       color: "#3A4150",
@@ -1805,7 +1805,7 @@ export function VacatureContentContent() {
                     style={{
                       display: "inline-flex",
                       alignItems: "center",
-                      gap: "6px",
+                      gap: "8px",
                       fontSize: "13px",
                       fontWeight: "600",
                       color: "#3A4150",
@@ -1903,7 +1903,7 @@ export function VacatureContentContent() {
                     style={{
                       display: "inline-flex",
                       alignItems: "center",
-                      gap: "6px",
+                      gap: "8px",
                       fontSize: "13px",
                       fontWeight: "600",
                       color: "#3A4150",
@@ -2006,7 +2006,7 @@ export function VacatureContentContent() {
                     style={{
                       display: "inline-flex",
                       alignItems: "center",
-                      gap: "6px",
+                      gap: "8px",
                       fontSize: "13px",
                       fontWeight: "600",
                       color: "#3A4150",
@@ -2104,7 +2104,7 @@ export function VacatureContentContent() {
                     style={{
                       display: "inline-flex",
                       alignItems: "center",
-                      gap: "6px",
+                      gap: "8px",
                       fontSize: "13px",
                       fontWeight: "600",
                       color: "#3A4150",
@@ -2207,7 +2207,7 @@ export function VacatureContentContent() {
                     style={{
                       display: "inline-flex",
                       alignItems: "center",
-                      gap: "6px",
+                      gap: "8px",
                       fontSize: "13px",
                       fontWeight: "600",
                       color: "#3A4150",
@@ -2305,7 +2305,7 @@ export function VacatureContentContent() {
                     style={{
                       display: "inline-flex",
                       alignItems: "center",
-                      gap: "6px",
+                      gap: "8px",
                       fontSize: "13px",
                       fontWeight: "600",
                       color: "#3A4150",
@@ -2406,7 +2406,7 @@ export function VacatureContentContent() {
                     style={{
                       display: "inline-flex",
                       alignItems: "center",
-                      gap: "6px",
+                      gap: "8px",
                       fontSize: "13px",
                       fontWeight: "600",
                       color: "#3A4150",
@@ -2504,7 +2504,7 @@ export function VacatureContentContent() {
                     style={{
                       display: "inline-flex",
                       alignItems: "center",
-                      gap: "6px",
+                      gap: "8px",
                       fontSize: "13px",
                       fontWeight: "600",
                       color: "#3A4150",
@@ -2607,7 +2607,7 @@ export function VacatureContentContent() {
                     style={{
                       display: "inline-flex",
                       alignItems: "center",
-                      gap: "6px",
+                      gap: "8px",
                       fontSize: "13px",
                       fontWeight: "600",
                       color: "#3A4150",
@@ -2705,7 +2705,7 @@ export function VacatureContentContent() {
                     style={{
                       display: "inline-flex",
                       alignItems: "center",
-                      gap: "6px",
+                      gap: "8px",
                       fontSize: "13px",
                       fontWeight: "600",
                       color: "#3A4150",
@@ -2810,7 +2810,7 @@ export function VacatureContentContent() {
       </section>
       <section id="locatie" className="pj-wrap pj-sec" style={{ background: "#F2F8FE", padding: "0 40px 112px" }}>
         <div style={{ maxWidth: "1280px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "32px" }}>
-          <div style={{ display: "flex", flexDirection: "column", gap: "14px", maxWidth: "720px" }}>
+          <div style={{ display: "flex", flexDirection: "column", gap: "16px", maxWidth: "720px" }}>
             <h2
               style={{
                 margin: "0",
@@ -2862,11 +2862,11 @@ export function VacatureContentContent() {
                 order: "-1",
                 background: "#FFFFFF",
                 borderRadius: "24px",
-                padding: "36px 34px",
+                padding: "36px 36px",
                 display: "flex",
                 flexDirection: "column",
                 justifyContent: "center",
-                gap: "6px",
+                gap: "8px",
               }}
             >
               <strong translate="no" style={{ fontFamily: "var(--font-display)", fontSize: "24px", fontWeight: "700", color: "#1F246C" }}>
@@ -2882,7 +2882,7 @@ export function VacatureContentContent() {
                 <br />
                 {t("Zaterdag – zondag: gesloten")}
               </span>
-              <div style={{ marginTop: "6px" }}>
+              <div style={{ marginTop: "8px" }}>
                 <a
                   href="https://www.google.com/maps/dir/?api=1&destination=Achieve,+Cypresbaan+3,+2908+LT+Capelle+aan+den+IJssel"
                   className="about-link"
@@ -2890,7 +2890,7 @@ export function VacatureContentContent() {
                     alignSelf: "flex-start",
                     display: "inline-flex",
                     alignItems: "center",
-                    gap: "10px",
+                    gap: "12px",
                     minHeight: "44px",
                     fontSize: "16px",
                     fontWeight: "600",
@@ -3009,7 +3009,7 @@ export function VacatureContentContent() {
                     textTransform: "uppercase",
                     color: "#1F246C",
                     background: "#FAE84E",
-                    padding: "5px 10px",
+                    padding: "4px 12px",
                     borderRadius: "999px",
                   }}
                 >
@@ -3129,7 +3129,7 @@ export function VacatureContentContent() {
           className="wb-form"
           style={{ maxWidth: "1280px", margin: "0 auto", display: "flex", flexWrap: "wrap", alignItems: "center", gap: "48px 72px" }}
         >
-          <div style={{ flex: "1 1 440px", minWidth: "0", display: "flex", flexDirection: "column", gap: "22px" }}>
+          <div style={{ flex: "1 1 440px", minWidth: "0", display: "flex", flexDirection: "column", gap: "24px" }}>
             <p
               style={{
                 margin: "0",
@@ -3223,7 +3223,7 @@ export function VacatureContentContent() {
             <h3 style={{ margin: "0 0 4px", fontFamily: "var(--font-display)", fontSize: "26px", fontWeight: "700" }}>
               {t("Jouw sollicitatie")}
             </h3>
-            <label style={{ display: "flex", flexDirection: "column", gap: "6px", fontSize: "14px", fontWeight: "600", color: "#1F246C" }}>
+            <label style={{ display: "flex", flexDirection: "column", gap: "8px", fontSize: "14px", fontWeight: "600", color: "#1F246C" }}>
               {t("Naam")}
               <input
                 type="text"
@@ -3233,8 +3233,8 @@ export function VacatureContentContent() {
                 style={{
                   font: "inherit",
                   fontSize: "16px",
-                  padding: "15px 16px",
-                  borderRadius: "10px",
+                  padding: "16px 16px",
+                  borderRadius: "8px",
                   border: "1px solid #D5DAE3",
                   background: "#FFFFFF",
                   color: "#1F246C",
@@ -3243,7 +3243,7 @@ export function VacatureContentContent() {
                 }}
               />
             </label>
-            <label style={{ display: "flex", flexDirection: "column", gap: "6px", fontSize: "14px", fontWeight: "600", color: "#1F246C" }}>
+            <label style={{ display: "flex", flexDirection: "column", gap: "8px", fontSize: "14px", fontWeight: "600", color: "#1F246C" }}>
               {t("E-mailadres")}
               <input
                 type="email"
@@ -3253,8 +3253,8 @@ export function VacatureContentContent() {
                 style={{
                   font: "inherit",
                   fontSize: "16px",
-                  padding: "15px 16px",
-                  borderRadius: "10px",
+                  padding: "16px 16px",
+                  borderRadius: "8px",
                   border: "1px solid #D5DAE3",
                   background: "#FFFFFF",
                   color: "#1F246C",
@@ -3263,7 +3263,7 @@ export function VacatureContentContent() {
                 }}
               />
             </label>
-            <label style={{ display: "flex", flexDirection: "column", gap: "6px", fontSize: "14px", fontWeight: "600", color: "#1F246C" }}>
+            <label style={{ display: "flex", flexDirection: "column", gap: "8px", fontSize: "14px", fontWeight: "600", color: "#1F246C" }}>
               {t("Telefoonnummer")}
               <input
                 type="tel"
@@ -3272,8 +3272,8 @@ export function VacatureContentContent() {
                 style={{
                   font: "inherit",
                   fontSize: "16px",
-                  padding: "15px 16px",
-                  borderRadius: "10px",
+                  padding: "16px 16px",
+                  borderRadius: "8px",
                   border: "1px solid #D5DAE3",
                   background: "#FFFFFF",
                   color: "#1F246C",
@@ -3282,7 +3282,7 @@ export function VacatureContentContent() {
                 }}
               />
             </label>
-            <label style={{ display: "flex", flexDirection: "column", gap: "6px", fontSize: "14px", fontWeight: "600", color: "#1F246C" }}>
+            <label style={{ display: "flex", flexDirection: "column", gap: "8px", fontSize: "14px", fontWeight: "600", color: "#1F246C" }}>
               {t("Vacature")}
               <select
                 name="vacature"
@@ -3290,8 +3290,8 @@ export function VacatureContentContent() {
                 style={{
                   font: "inherit",
                   fontSize: "16px",
-                  padding: "15px 16px",
-                  borderRadius: "10px",
+                  padding: "16px 16px",
+                  borderRadius: "8px",
                   border: "1px solid #D5DAE3",
                   background: "#FFFFFF",
                   color: "#1F246C",
@@ -3305,7 +3305,7 @@ export function VacatureContentContent() {
                 <option>{t("Open sollicitatie")}</option>
               </select>
             </label>
-            <label style={{ display: "flex", flexDirection: "column", gap: "6px", fontSize: "14px", fontWeight: "600", color: "#1F246C" }}>
+            <label style={{ display: "flex", flexDirection: "column", gap: "8px", fontSize: "14px", fontWeight: "600", color: "#1F246C" }}>
               {t("Upload je cv")}
               <input
                 type="file"
@@ -3315,7 +3315,7 @@ export function VacatureContentContent() {
                   font: "inherit",
                   fontSize: "14px",
                   padding: "12px",
-                  borderRadius: "10px",
+                  borderRadius: "8px",
                   border: "1px dashed #B9BFD3",
                   background: "#F2F8FE",
                   color: "#1F246C",
@@ -3325,7 +3325,7 @@ export function VacatureContentContent() {
                 }}
               />
             </label>
-            <label style={{ display: "flex", flexDirection: "column", gap: "6px", fontSize: "14px", fontWeight: "600", color: "#1F246C" }}>
+            <label style={{ display: "flex", flexDirection: "column", gap: "8px", fontSize: "14px", fontWeight: "600", color: "#1F246C" }}>
               {t("Upload je motivatie")}
               <input
                 type="file"
@@ -3335,7 +3335,7 @@ export function VacatureContentContent() {
                   font: "inherit",
                   fontSize: "14px",
                   padding: "12px",
-                  borderRadius: "10px",
+                  borderRadius: "8px",
                   border: "1px dashed #B9BFD3",
                   background: "#F2F8FE",
                   color: "#1F246C",
@@ -3345,14 +3345,14 @@ export function VacatureContentContent() {
                 }}
               />
             </label>
-            <span style={{ fontSize: "13px", color: "#5A6273", marginTop: "-6px" }}>
+            <span style={{ fontSize: "13px", color: "#5A6273", marginTop: "-8px" }}>
               {t("Geaccepteerde bestanden: .pdf, .txt, .doc, .docx")}
             </span>
             <label
               style={{
                 display: "flex",
                 alignItems: "flex-start",
-                gap: "10px",
+                gap: "12px",
                 fontSize: "13px",
                 fontWeight: "400",
                 lineHeight: "1.5",
@@ -3380,7 +3380,7 @@ export function VacatureContentContent() {
               className="glow"
               onClick={h.send}
               style={{
-                marginTop: "6px",
+                marginTop: "8px",
                 font: "inherit",
                 fontSize: "18px",
                 fontWeight: "700",
