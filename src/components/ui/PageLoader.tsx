@@ -28,13 +28,7 @@ const LINES = [
   "Daar gaan we…",
   "Eén momentje…",
 ];
-/** "One moment" in a few languages: the joke works everywhere, so these are never translated. */
-const WORLD = [
-  "Just a sec…",
-  "Un momento, por favor.",
-  "Einen Moment, bitte.",
-];
-const ALL = LINES.length + WORLD.length;
+const ALL = LINES.length;
 /** Short enough that a slow page shows the loader quickly, long enough that fast pages never flash it. */
 const DELAY = 150;
 const LAST = "achieve-loader-last";
@@ -102,7 +96,7 @@ export function PageLoader() {
     };
   }, []);
 
-  const line = !pick ? "" : pick.l < LINES.length ? t(LINES[pick.l]) : WORLD[pick.l - LINES.length];
+  const line = !pick ? "" : t(LINES[pick.l]);
   useEffect(() => {
     if (!pick) return;
     const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
