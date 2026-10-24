@@ -1157,7 +1157,7 @@ export function CaseRonVanDamContent() {
                       borderRadius: "999px",
                     }}
                   >
-                    {"Brand strategy"}
+                    {"Brand Strategy"}
                   </span>
                   <span
                     translate="no"

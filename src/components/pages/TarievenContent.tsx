@@ -13,7 +13,7 @@ export function TarievenContent() {
 
   // Price list: chips pick a service; only that table is shown. On phones the plans are a swipeable row.
   const SVCS = [
-    { id: "strategy", name: "Brand strategy", sub: "Positionering en merkrichting", price: "€1.747" },
+    { id: "strategy", name: "Brand Strategy", sub: "Positionering en merkrichting", price: "€1.747" },
     { id: "legal", name: "Legal", sub: "Algemene voorwaarden en contracten", price: "€197" },
     { id: "brand", name: "Brand Book", sub: "Huisstijl vastgelegd in één boek", price: "€1.497" },
     { id: "custom", name: "Custom website", sub: "Websites en webshops die converteren", price: "€4.497" },
