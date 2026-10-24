@@ -12,7 +12,7 @@
 .wbr-card{position:relative;box-sizing:border-box;width:440px;min-height:300px;flex-shrink:0;margin-right:20px;background:#FFFFFF;border-radius:20px;padding:32px 36px 28px;display:flex;flex-direction:column;align-items:flex-start;gap:10px}
 .wbr-qwrap{position:relative;margin-top:8px;width:100%;flex:1;display:flex;flex-direction:column;gap:14px}
 .wbr-q{margin:0;font-size:16px;line-height:1.75;color:#3A4150;display:-webkit-box;-webkit-line-clamp:5;-webkit-box-orient:vertical;overflow:hidden}
-.wbr-more{position:static;align-self:flex-end;margin-top:auto;flex-shrink:0;width:36px;height:36px;border-radius:999px;border:1px solid #D5D8E3;background:#FFFFFF;color:#1F246C;display:inline-flex;align-items:center;justify-content:center;cursor:pointer;padding:0}
+.wbr-more{position:static;align-self:flex-end;margin-top:auto;flex-shrink:0;width:36px;height:36px;border-radius:999px;border:1px solid #D5DAE3;background:#FFFFFF;color:#1F246C;display:inline-flex;align-items:center;justify-content:center;cursor:pointer;padding:0}
 .wbr-more:hover{background:#1F246C;color:#FFFFFF}
 @media (max-width: 720px){.wbr-card{width:300px;min-height:280px;padding:26px 24px 24px}}
 @media (max-width: 1100px){.wb-plus{grid-template-columns:repeat(2,minmax(0,1fr)) !important}.wb-plus > li{grid-column:auto !important}.wb-rev{grid-template-columns:repeat(2,minmax(0,1fr)) !important}}

@@ -43,10 +43,10 @@ footer nav ul a{padding:8px 0 !important}
 .oo-person > div:first-child{transition:box-shadow .35s ease}
 .oo-team .oo-person:nth-child(1):hover > div:first-child{box-shadow:0 0 0 3px #FFFFFF,0 0 0 5px #EFE8FD}
 .oo-team .oo-person:nth-child(2):hover > div:first-child{box-shadow:0 0 0 3px #FFFFFF,0 0 0 5px #E3F1FD}
-.oo-team .oo-person:nth-child(3):hover > div:first-child{box-shadow:0 0 0 3px #FFFFFF,0 0 0 5px #FFF6CC}
+.oo-team .oo-person:nth-child(3):hover > div:first-child{box-shadow:0 0 0 3px #FFFFFF,0 0 0 5px #FFF6C7}
 .oo-team .oo-person:nth-child(4):hover > div:first-child{box-shadow:0 0 0 3px #FFFFFF,0 0 0 5px #EFE8FD}
 .oo-team .oo-person:nth-child(5):hover > div:first-child{box-shadow:0 0 0 3px #FFFFFF,0 0 0 5px #E3F1FD}
-.oo-team .oo-person:nth-child(6):hover > div:first-child{box-shadow:0 0 0 3px #FFFFFF,0 0 0 5px #FFF6CC}
+.oo-team .oo-person:nth-child(6):hover > div:first-child{box-shadow:0 0 0 3px #FFFFFF,0 0 0 5px #FFF6C7}
 .oo-person img{transition:transform 1.1s cubic-bezier(.45,0,.2,1);transform-origin:50% 92%;will-change:transform}
 .oo-person:hover img{transform:translateY(-10%) scale(1.3) rotate(-2deg)}
 .oo-person strong{transition:color .25s ease}

@@ -23,7 +23,7 @@ export function ProjectGrid() {
         pressed: on,
         bg: on ? "#1F246C" : "#FFFFFF",
         color: on ? "#FFFFFF" : "#1F246C",
-        border: on ? "#1F246C" : "#D5D8E3",
+        border: on ? "#1F246C" : "#D5DAE3",
         pick: () => setFlt(f.id),
       };
     }),
@@ -418,7 +418,7 @@ export function ProjectGrid() {
                           width: "36px",
                           height: "36px",
                           borderRadius: "999px",
-                          border: "1px solid #D5D8E3",
+                          border: "1px solid #D5DAE3",
                           display: "inline-flex",
                           alignItems: "center",
                           justifyContent: "center",

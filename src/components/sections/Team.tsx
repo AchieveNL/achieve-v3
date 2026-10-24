@@ -243,7 +243,7 @@ export function Team() {
                       height: "100%",
                       borderRadius: "50%",
                       overflow: "hidden",
-                      background: "#FFF6CC",
+                      background: "#FFF6C7",
                     }}
                   >
                     <img
@@ -411,7 +411,7 @@ export function Team() {
                       height: "100%",
                       borderRadius: "50%",
                       overflow: "hidden",
-                      background: "#FFF6CC",
+                      background: "#FFF6C7",
                     }}
                   >
                     <img
@@ -512,7 +512,7 @@ export function Team() {
                   width: "36px",
                   height: "36px",
                   borderRadius: "999px",
-                  border: "1px solid #D5D8E3",
+                  border: "1px solid #D5DAE3",
                   display: "inline-flex",
                   alignItems: "center",
                   justifyContent: "center",

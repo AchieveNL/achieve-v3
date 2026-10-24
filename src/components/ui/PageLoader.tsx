@@ -12,10 +12,10 @@ import { useTr } from "@/i18n/I18nProvider";
 const TEAM = [
   { name: "Karim", img: "/media/team/small/karim.webp", bg: "#EFE8FD", left: "-14%", w: "128%" },
   { name: "Abdelmonim", img: "/media/team/small/abdelmonim.webp", bg: "#E3F1FD", left: "-14%", w: "128%" },
-  { name: "Niek", img: "/media/team/small/niek.webp", bg: "#FFF6CC", left: "-14%", w: "128%" },
+  { name: "Niek", img: "/media/team/small/niek.webp", bg: "#FFF6C7", left: "-14%", w: "128%" },
   { name: "Seyma", img: "/media/team/small/seyma.webp", bg: "#EFE8FD", left: "-5%", w: "110%" },
   { name: "Jonas", img: "/media/team/small/jonas.webp", bg: "#E3F1FD", left: "-14%", w: "128%" },
-  { name: "Denise", img: "/media/team/small/denise.webp", bg: "#FFF6CC", left: "-5%", w: "110%" },
+  { name: "Denise", img: "/media/team/small/denise.webp", bg: "#FFF6C7", left: "-5%", w: "110%" },
 ];
 const LINES = [
   "Momentje…",

@@ -382,7 +382,7 @@ export function Hero() {
                   alignItems: "center",
                   justifyContent: "center",
                   cursor: "pointer",
-                  border: "1px solid #D5D8E3",
+                  border: "1px solid #D5DAE3",
                   background: "#FFFFFF",
                   color: "#1F246C",
                   alignSelf: "center",

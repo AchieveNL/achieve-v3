@@ -884,7 +884,7 @@ export function Footer({ tr }: { tr: ServerTr }) {
             alignItems: "center",
             justifyContent: "center",
             borderRadius: "8px",
-            border: "1px solid #D5D8E3",
+            border: "1px solid #D5DAE3",
             color: "#1F246C",
             textDecoration: "none",
           }}
