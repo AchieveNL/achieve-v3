@@ -728,22 +728,22 @@ export function Footer({ tr }: { tr: ServerTr }) {
                   </li>
                   <li>
                     <a
-                      href={href("Voorwaarden")}
-                      aria-current={navSection(page) === "Voorwaarden" ? "page" : undefined}
-                      className="foot-link"
-                      style={{ color: "#D5DAE3", textDecoration: "none", padding: "6px 0", display: "inline-block" }}
-                    >
-                      {t("Terms & Conditions")}
-                    </a>
-                  </li>
-                  <li>
-                    <a
                       href={href("Privacy")}
                       aria-current={navSection(page) === "Privacy" ? "page" : undefined}
                       className="foot-link"
                       style={{ color: "#D5DAE3", textDecoration: "none", padding: "6px 0", display: "inline-block" }}
                     >
                       {t("Privacy Policy")}
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href={href("Voorwaarden")}
+                      aria-current={navSection(page) === "Voorwaarden" ? "page" : undefined}
+                      className="foot-link"
+                      style={{ color: "#D5DAE3", textDecoration: "none", padding: "6px 0", display: "inline-block" }}
+                    >
+                      {t("Terms & Conditions")}
                     </a>
                   </li>
                   <li>
