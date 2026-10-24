@@ -489,3 +489,5 @@ html:has(.jn-bar){scroll-behavior:smooth}
 /* "Bekijk de hele oogst": same space above and below, so it sits centred between the cases and the next section. */
 #werk > div{padding-bottom:72px !important}
 .fc-more{margin-top:48px !important}
+/* Formulieren: focus = M1-rand met zachte paarse ring (zie brandguide, Formulieren). */
+:is(input,textarea,select):not([type="checkbox"]):not([type="radio"]):focus-visible{outline:none;border-color:#8639FA !important;box-shadow:0 0 0 3px rgba(134,57,250,.18)}
