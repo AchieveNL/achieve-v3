@@ -622,8 +622,8 @@ export function FeaturedCases() {
                   <div className="fc-img" style={{ position: "relative", minHeight: "600px", overflow: "hidden" }}>
                     {bars}
                     <img
-                      src="/media/cases/a-direct-pand.webp"
-                      alt={ta("Het pand van A-direct Autoparts met bedrijfsbussen voor de deur")}
+                      src="/media/projects/a-direct-automaterialen-01.webp"
+                      alt={ta("Bedrijfsbus van A-direct Autoparts met logo en belettering")}
                       style={{
                         position: "absolute",
                         top: "0",
@@ -631,7 +631,7 @@ export function FeaturedCases() {
                         width: "100%",
                         height: "100%",
                         objectFit: "cover",
-                        objectPosition: "40% center",
+                        objectPosition: "center",
                       }}
                     />
                   </div>
