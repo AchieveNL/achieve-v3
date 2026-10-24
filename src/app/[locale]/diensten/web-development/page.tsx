@@ -12,7 +12,7 @@ type Props = { params: Promise<{ locale: string }> };
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
   const meta = await pageMetadata(locale as Locale, "DienstWebDevelopment", {
-    title: "Web Development: website op maat of webshop in Shopify | Achieve",
+    title: "Website op maat of webshop in Shopify | Achieve",
     description: "Een website op maat of een webshop in Shopify, mooi op elk scherm en klaar voor betalingen. Vanaf €4.497 eenmalig.",
   });
   return meta;

@@ -12,7 +12,7 @@ type Props = { params: Promise<{ locale: string }> };
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
   const meta = await pageMetadata(locale as Locale, "DienstSEA", {
-    title: "Search Engine Advertising: adverteren in Google | Achieve",
+    title: "Adverteren in Google | Achieve",
     description: "Adverteren in Google met Achieve. We zetten je campagnes op en sturen ze samen met jou bij, vanaf €1.197 per maand.",
   });
   return meta;

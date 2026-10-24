@@ -12,7 +12,7 @@ type Props = { params: Promise<{ locale: string }> };
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
   const meta = await pageMetadata(locale as Locale, "DienstHosting", {
-    title: "Hosting: snel en veilig online | Achieve",
+    title: "Snel en veilig online | Achieve",
     description:
       "Hosting van Achieve: de server waarop je website draait, zodat hij altijd online is. Servers in Amsterdam, vanaf €10,99 per maand.",
   });

@@ -12,7 +12,7 @@ type Props = { params: Promise<{ locale: string }> };
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
   const meta = await pageMetadata(locale as Locale, "DienstDashboard", {
-    title: "Dashboard: al je cijfers in één overzicht | Achieve",
+    title: "Al je cijfers in één overzicht | Achieve",
     description:
       "Achieve koppelt je databronnen aan één helder dashboard, zodat je in één oogopslag ziet hoe je bedrijf ervoor staat. Dashboard vanaf €997, eenmalig.",
   });

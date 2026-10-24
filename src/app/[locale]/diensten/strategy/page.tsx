@@ -12,7 +12,7 @@ type Props = { params: Promise<{ locale: string }> };
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
   const meta = await pageMetadata(locale as Locale, "DienstStrategy", {
-    title: "Strategy: positionering en merkrichting | Achieve",
+    title: "Positionering en merkrichting | Achieve",
     description:
       "Een scherpe positionering die je merk onderscheidt en je doelgroep direct aanspreekt. Strategy van Achieve, vanaf €1.747 ex. btw.",
   });

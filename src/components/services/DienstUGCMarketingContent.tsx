@@ -1552,7 +1552,7 @@ export function DienstUGCMarketingContent() {
               </Accent>
             </h2>
             <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.6", color: "#3A4150" }}>
-              {t("UGC Marketing: video's van echte creators (user-generated content), voor een vast bedrag per maand.")}
+              {t("Video's van echte creators (user-generated content), voor een vast bedrag per maand.")}
             </p>
           </div>
           <div className="tf-scroll" style={{ width: "100%", maxWidth: "1200px", margin: "0 auto", paddingTop: "14px" }}>

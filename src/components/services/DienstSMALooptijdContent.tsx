@@ -1791,7 +1791,7 @@ export function DienstSMALooptijdContent() {
               </Accent>
             </h2>
             <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.6", color: "#3A4150", fontWeight: "600" }}>
-              {t("Social Media Advertising: adverteren op social media, zodat je de mensen bereikt die echt bij jouw bedrijf passen.")}
+              {t("Adverteren op social media, zodat je de mensen bereikt die echt bij jouw bedrijf passen.")}
             </p>
             <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.65", color: "#3A4150" }}>
               {t("Zonder vaste looptijd betaal je")} <strong style={{ color: "#1F246C" }}>{t("€997 per maand")}</strong>

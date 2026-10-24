@@ -12,7 +12,7 @@ type Props = { params: Promise<{ locale: string }> };
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
   const meta = await pageMetadata(locale as Locale, "DienstUGCMarketing", {
-    title: "UGC Marketing: video's van echte creators | Achieve",
+    title: "Video's van echte creators | Achieve",
     description:
       "Video's van echte creators die passen bij jouw merk. Wij zoeken de creator, regelen het contract en bedenken het concept. Vanaf €997 per maand.",
   });

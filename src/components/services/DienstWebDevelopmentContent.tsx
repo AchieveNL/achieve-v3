@@ -1339,14 +1339,14 @@ export function DienstWebDevelopmentContent() {
             {h.wdIsCustom && (
               <>
                 <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.6", color: "#3A4150" }}>
-                  {t("Custom website: een website op maat, voor een vast bedrag, zodat je precies weet waar je aan toe bent.")}
+                  {t("Een website op maat, voor een vast bedrag, zodat je precies weet waar je aan toe bent.")}
                 </p>
               </>
             )}
             {h.wdIsShop && (
               <>
                 <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.6", color: "#3A4150" }}>
-                  {t("Shopify webshop: een webshop in Shopify, voor een vast bedrag, zodat je precies weet waar je aan toe bent.")}
+                  {t("Een webshop in Shopify, voor een vast bedrag, zodat je precies weet waar je aan toe bent.")}
                 </p>
               </>
             )}

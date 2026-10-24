@@ -2463,7 +2463,7 @@ export function DienstEmailMarketingContent() {
             </h2>
             <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.6", color: "#3A4150" }}>
               {t(
-                "Email Marketing: nieuwsbrieven en automatische e-mails, voor een vast bedrag, zodat je precies weet waar je aan toe bent.",
+                "Nieuwsbrieven en automatische e-mails, voor een vast bedrag, zodat je precies weet waar je aan toe bent.",
               )}
             </p>
           </div>

@@ -12,7 +12,7 @@ type Props = { params: Promise<{ locale: string }> };
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
   const meta = await pageMetadata(locale as Locale, "DienstSMA", {
-    title: "Social Media Advertising: adverteren op social media | Achieve",
+    title: "Adverteren op social media | Achieve",
     description: "Adverteren op Meta, TikTok, LinkedIn en meer met Achieve. Vanaf €497 per maand, plus opstartkosten en advertentiebudget.",
   });
   return meta;

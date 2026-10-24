@@ -1633,7 +1633,7 @@ export function DienstSMAContent() {
               </Accent>
             </h2>
             <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.6", color: "#3A4150" }}>
-              {t("Social Media Advertising: adverteren op social media, voor een vast bedrag per maand.")}
+              {t("Adverteren op social media, voor een vast bedrag per maand.")}
             </p>
           </div>
           <div className="tf-scroll" style={{ width: "100%", maxWidth: "1200px", margin: "0 auto", paddingTop: "14px" }}>

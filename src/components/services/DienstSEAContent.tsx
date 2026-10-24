@@ -1803,7 +1803,7 @@ export function DienstSEAContent() {
               </Accent>
             </h2>
             <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.6", color: "#3A4150", fontWeight: "600" }}>
-              {t("Search Engine Advertising: adverteren in Google, zodat klanten jou vinden op het moment dat ze zoeken.")}
+              {t("Adverteren in Google, zodat klanten jou vinden op het moment dat ze zoeken.")}
             </p>
             <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.65", color: "#3A4150" }}>
               {t("Zonder vaste looptijd betaal je")} <strong style={{ color: "#1F246C" }}>{t("€1.297 per maand")}</strong>

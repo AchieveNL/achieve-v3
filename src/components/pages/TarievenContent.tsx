@@ -425,7 +425,7 @@ export function TarievenContent() {
                   </Accent>
                 </h2>
                 <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.6", color: "#3A4150", fontWeight: "600" }}>
-                  {t("Search Engine Advertising: adverteren in Google, zodat klanten jou vinden op het moment dat ze zoeken.")}
+                  {t("Adverteren in Google, zodat klanten jou vinden op het moment dat ze zoeken.")}
                 </p>
                 <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.65", color: "#3A4150" }}>
                   {t("Zonder vaste looptijd betaal je")} <strong style={{ color: "#1F246C" }}>{t("€1.297 per maand")}</strong>
@@ -4127,7 +4127,7 @@ export function TarievenContent() {
                   </Accent>
                 </h2>
                 <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.6", color: "#3A4150", fontWeight: "600" }}>
-                  {t("Strategy: je merkstrategie en positionering.")}
+                  {t("Je merkstrategie en positionering.")}
                 </p>
                 <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.6", color: "#3A4150" }}>
                   {t("Eén traject, één vaste prijs. Hoe groter het pakket, hoe verder we samen vooruitkijken.")}
@@ -14045,7 +14045,7 @@ export function TarievenContent() {
                   </Accent>
                 </h2>
                 <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.6", color: "#3A4150" }}>
-                  {t("Custom website: een website op maat, voor een vast bedrag, zodat je precies weet waar je aan toe bent.")}
+                  {t("Een website op maat, voor een vast bedrag, zodat je precies weet waar je aan toe bent.")}
                 </p>
               </div>
               <div className="tf-scroll" style={{ width: "100%", maxWidth: "1200px", margin: "0 auto", paddingTop: "14px" }}>
@@ -17740,7 +17740,7 @@ export function TarievenContent() {
                   </Accent>
                 </h2>
                 <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.6", color: "#3A4150" }}>
-                  {t("Shopify webshop: een webshop in Shopify, voor een vast bedrag, zodat je precies weet waar je aan toe bent.")}
+                  {t("Een webshop in Shopify, voor een vast bedrag, zodat je precies weet waar je aan toe bent.")}
                 </p>
               </div>
               <div className="tf-scroll" style={{ width: "100%", maxWidth: "1200px", margin: "0 auto", paddingTop: "14px" }}>
@@ -23958,7 +23958,7 @@ export function TarievenContent() {
                 </h2>
                 <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.6", color: "#3A4150" }}>
                   {t(
-                    "Email Marketing: nieuwsbrieven en automatische e-mails, voor een vast bedrag, zodat je precies weet waar je aan toe bent.",
+                    "Nieuwsbrieven en automatische e-mails, voor een vast bedrag, zodat je precies weet waar je aan toe bent.",
                   )}
                 </p>
               </div>
@@ -27550,7 +27550,7 @@ export function TarievenContent() {
                   </Accent>
                 </h2>
                 <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.6", color: "#3A4150" }}>
-                  {t("UGC Marketing: video's van echte creators (user-generated content), voor een vast bedrag per maand.")}
+                  {t("Video's van echte creators (user-generated content), voor een vast bedrag per maand.")}
                 </p>
               </div>
               <div className="tf-scroll" style={{ width: "100%", maxWidth: "1200px", margin: "0 auto", paddingTop: "14px" }}>
@@ -30802,7 +30802,7 @@ export function TarievenContent() {
                   </Accent>
                 </h2>
                 <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.6", color: "#3A4150" }}>
-                  {t("Video Marketing: video's die jouw verhaal vertellen, voor een vast bedrag per maand.")}
+                  {t("Video's die jouw verhaal vertellen, voor een vast bedrag per maand.")}
                 </p>
               </div>
               <div className="tf-scroll" style={{ width: "100%", maxWidth: "1200px", margin: "0 auto", paddingTop: "14px" }}>
@@ -33880,7 +33880,7 @@ export function TarievenContent() {
                   </Accent>
                 </h2>
                 <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.6", color: "#3A4150" }}>
-                  {t("Social Media Advertising: adverteren op social media, voor een vast bedrag per maand.")}
+                  {t("Adverteren op social media, voor een vast bedrag per maand.")}
                 </p>
               </div>
               <div className="tf-scroll" style={{ width: "100%", maxWidth: "1200px", margin: "0 auto", paddingTop: "14px" }}>
@@ -36085,7 +36085,7 @@ export function TarievenContent() {
                   </Accent>
                 </h2>
                 <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.6", color: "#3A4150" }}>
-                  {t("Social Media Management: het beheer van je social media, voor een vast bedrag per maand.")}
+                  {t("Het beheer van je social media, voor een vast bedrag per maand.")}
                 </p>
               </div>
               <div className="tf-scroll" style={{ width: "100%", maxWidth: "1200px", margin: "0 auto", paddingTop: "14px" }}>
@@ -38576,7 +38576,7 @@ export function TarievenContent() {
                   </Accent>
                 </h2>
                 <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.6", color: "#3A4150" }}>
-                  {t("Dashboard: al je cijfers in één overzicht, voor een vast bedrag, zodat je precies weet waar je aan toe bent.")}
+                  {t("Al je cijfers in één overzicht, voor een vast bedrag, zodat je precies weet waar je aan toe bent.")}
                 </p>
               </div>
               <div className="tf-scroll" style={{ width: "100%", maxWidth: "1200px", margin: "0 auto", paddingTop: "14px" }}>
