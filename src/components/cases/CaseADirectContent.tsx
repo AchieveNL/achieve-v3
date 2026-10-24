@@ -180,7 +180,7 @@ export function CaseADirectContent() {
                 borderRadius: "999px",
               }}
             >
-              {"Strategy"}
+              {"Brand strategy"}
             </span>
             <span
               translate="no"
@@ -296,7 +296,7 @@ export function CaseADirectContent() {
                     borderRadius: "999px",
                   }}
                 >
-                  {"Strategy"}
+                  {"Brand strategy"}
                 </span>
                 <span
                   translate="no"

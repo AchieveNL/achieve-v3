@@ -273,7 +273,7 @@ export const projects: Project[] = [
     cats: ["web", "brand"],
     tags: [
       {
-        label: "Strategy",
+        label: "Brand strategy",
         color: "#6B2BD9",
         bg: "#EFE8FD",
       },
@@ -463,7 +463,7 @@ export const heroProjects: HeroProject[] = [
     name: "A-direct Automaterialen",
     sector: "Automotive",
     sub: "Een nieuw merk en een website in eigen huisstijl voor een specialist in auto-onderdelen.",
-    tag: "Strategy · WordPress Website · Photoshoot",
+    tag: "Brand strategy · WordPress Website · Photoshoot",
     img: "/media/projects/a-direct-automaterialen-01.webp",
     initials: "AD",
     bg: "#2B3190",

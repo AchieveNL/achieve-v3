@@ -853,7 +853,7 @@ export function Header() {
                   </a>
                   <div className="nav-dd-media" data-svc="brand-strategy" aria-hidden="true">
                     <img src="/media/nav/strategy.webp" alt="" />
-                    <span className="nav-dd-media-label">{t("Strategy")}</span>
+                    <span className="nav-dd-media-label">{t("Brand strategy")}</span>
                   </div>
                   <div className="nav-dd-media" data-svc="legal" aria-hidden="true">
                     <img src="/media/nav/legal.webp" alt="" />
@@ -899,7 +899,7 @@ export function Header() {
                 <div className="nav-dd-grid">
                   <a href={href("DienstStrategy")} className="nav-dd-link" data-svc="brand-strategy">
                     <span className="nav-dd-name">
-                      {t("Strategy")}
+                      {t("Brand strategy")}
                       <svg
                         className="nav-dd-arrow"
                         width="16"
@@ -1193,7 +1193,7 @@ export function Header() {
                   </a>
                   <div className="nav-dd-media" data-svc="brand-strategy" aria-hidden="true">
                     <img src="/media/nav/strategy.webp" alt="" />
-                    <span className="nav-dd-media-label">{t("Strategy")}</span>
+                    <span className="nav-dd-media-label">{t("Brand strategy")}</span>
                   </div>
                   <div className="nav-dd-media" data-svc="legal" aria-hidden="true">
                     <img src="/media/nav/legal.webp" alt="" />
@@ -1243,7 +1243,7 @@ export function Header() {
                 <div className="nav-dd-grid">
                   <a href={href("Tarieven", "strategy")} className="nav-dd-link" data-svc="brand-strategy">
                     <span className="nav-dd-name">
-                      {t("Strategy")}
+                      {t("Brand strategy")}
                       <svg
                         className="nav-dd-arrow"
                         width="16"

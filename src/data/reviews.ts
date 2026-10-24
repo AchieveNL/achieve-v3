@@ -178,7 +178,7 @@ export const reviews: Review[] = [
     role: "Reisleider",
     quote:
       "“Het team is professioneel, denkt mee, en is erg betrokken bij ons project. Ze hebben ons uitstekend geholpen met onze online strategie en we zijn zeer tevreden met de resultaten. Zeker een aanrader!”",
-    tags: "Strategy",
+    tags: "Brand strategy",
     src: "google",
   },
   {
@@ -242,7 +242,7 @@ export const reviews: Review[] = [
     role: "Videograaf & editor",
     quote:
       "“Achieve heeft iets heel moois bereikt ;). Ik heb een prettige samenwerking gehad. Dit bedrijf heeft mij als ZZP’er goed geholpen met mijn online branding. Ze denken goed mee en komen met creatieve oplossingen. Zeker een aanrader!”",
-    tags: "Strategy",
+    tags: "Brand strategy",
     src: "trustpilot",
   },
   {
@@ -683,7 +683,7 @@ export const reviewCards: ReviewCard[] = [
     src: "google",
     tags: [
       {
-        t: "Strategy",
+        t: "Brand strategy",
         c: "#6B2BD9",
         b: "#EFE8FD",
       },
@@ -822,7 +822,7 @@ export const reviewCards: ReviewCard[] = [
     src: "trustpilot",
     tags: [
       {
-        t: "Strategy",
+        t: "Brand strategy",
         c: "#6B2BD9",
         b: "#EFE8FD",
       },
@@ -864,7 +864,7 @@ export const tagColors: Record<string, [string, string]> = {
   "Email Marketing": ["#6E5A00", "#FFF6C7"],
   "UGC Marketing": ["#6E5A00", "#FFF6C7"],
   "Graphic Design": ["#6B2BD9", "#EFE8FD"],
-  Strategy: ["#6B2BD9", "#EFE8FD"],
+  "Brand strategy": ["#6B2BD9", "#EFE8FD"],
   "Shopify Webshop": ["#0B6DB8", "#E3F1FD"],
   "WordPress Website": ["#0B6DB8", "#E3F1FD"],
 };

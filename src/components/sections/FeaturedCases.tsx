@@ -672,7 +672,7 @@ export function FeaturedCases() {
                             borderRadius: "999px",
                           }}
                         >
-                          {"Strategy"}
+                          {"Brand strategy"}
                         </span>
                         <span
                           translate="no"

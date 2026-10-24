@@ -196,7 +196,7 @@ export function Services() {
                     letterSpacing: "-0.02em",
                   }}
                 >
-                  {t("Strategy")}
+                  {t("Brand strategy")}
                 </h3>
                 <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.6", color: "#3A4150" }}>
                   {t("Een scherpe positionering die je merk onderscheidt en je doelgroep direct aanspreekt.")}
@@ -234,7 +234,7 @@ export function Services() {
                 </span>
                 <a
                   href={href("DienstStrategy")}
-                  aria-label={ta("Ontdek Brand Strategy")}
+                  aria-label={ta("Ontdek Brand strategy")}
                   style={{ position: "absolute", top: "0", right: "0", bottom: "0", left: "0", borderRadius: "24px" }}
                 ></a>
               </article>

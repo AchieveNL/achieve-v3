@@ -14,7 +14,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const meta = await pageMetadata(locale as Locale, "DienstStrategy", {
     title: "Positionering en merkrichting | Achieve",
     description:
-      "Een scherpe positionering die je merk onderscheidt en je doelgroep direct aanspreekt. Strategy van Achieve, vanaf €1.747 ex. btw.",
+      "Een scherpe positionering die je merk onderscheidt en je doelgroep direct aanspreekt. Merkstrategie van Achieve, vanaf €1.747 ex. btw.",
   });
   return meta;
 }

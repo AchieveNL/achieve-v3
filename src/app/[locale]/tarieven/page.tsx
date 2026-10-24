@@ -15,7 +15,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const meta = await pageMetadata(locale as Locale, "Tarieven", {
     title: "Tarieven | Achieve",
     description:
-      "Heldere vanaf-prijzen per dienst, van Strategy tot Search Engine Advertising. In je voorstel zie je precies wat jouw traject kost.",
+      "Heldere vanaf-prijzen per dienst, van merkstrategie tot adverteren in Google. In je voorstel zie je precies wat jouw traject kost.",
   });
   return meta;
 }

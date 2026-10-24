@@ -562,7 +562,7 @@ export function Footer({ tr }: { tr: ServerTr }) {
                       className="foot-link"
                       style={{ color: "#D5DAE3", textDecoration: "none", padding: "6px 0", display: "inline-block" }}
                     >
-                      {t("Strategy")}
+                      {t("Brand strategy")}
                     </a>
                   </li>
                   <li>

@@ -767,7 +767,7 @@ export function ContactContent() {
                 }}
               >
                 <option value="">{t("Kies een dienst")}</option>
-                <option translate="no">{"Strategy"}</option>
+                <option translate="no">{"Brand strategy"}</option>
                 <option translate="no">{"Legal"}</option>
                 <option translate="no">{"Brand Book"}</option>
                 <option translate="no">{"Custom website"}</option>

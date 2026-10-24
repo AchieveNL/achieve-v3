@@ -243,7 +243,7 @@ export function DienstStrategyContent() {
               {t("/")}
             </span>{" "}
             <span aria-current="page" translate="no" style={{ color: "#FFFFFF", fontWeight: "600" }}>
-              {"Strategy"}
+              {"Brand strategy"}
             </span>
           </nav>
         </div>
@@ -278,7 +278,7 @@ export function DienstStrategyContent() {
               borderRadius: "999px",
             }}
           >
-            {"Strategy"}
+            {"Brand strategy"}
           </span>
           <h1
             style={{
