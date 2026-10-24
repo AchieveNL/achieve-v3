@@ -39,7 +39,7 @@ footer nav ul a{padding:8px 0 !important}
 .oo-team .oo-person img{max-width:none}
 @media (max-width: 600px){.oo-pair{grid-template-columns:minmax(0,1fr) !important;gap:8px}.oo-pair-arrow{transform:rotate(90deg);height:24px}}
 .oo-person{transition:transform .9s cubic-bezier(.45,0,.2,1),box-shadow .9s ease}
-.oo-person:hover{transform:translateY(-8px);box-shadow:0 4px 8px rgba(31,36,108,.06),0 28px 52px rgba(31,36,108,.18) !important}
+.oo-person:hover{transform:translateY(-8px);box-shadow:0 2px 4px rgba(31,36,108,0.04),0 16px 32px rgba(31,36,108,0.08) !important}
 .oo-person > div:first-child{transition:box-shadow .35s ease}
 .oo-team .oo-person:nth-child(1):hover > div:first-child{box-shadow:0 0 0 3px #FFFFFF,0 0 0 5px #EFE8FD}
 .oo-team .oo-person:nth-child(2):hover > div:first-child{box-shadow:0 0 0 3px #FFFFFF,0 0 0 5px #E3F1FD}

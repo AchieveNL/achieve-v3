@@ -505,7 +505,7 @@ export function CaseMinimastersContent() {
                 padding: "4px",
                 borderRadius: "999px",
                 background: "#FFFFFF",
-                boxShadow: "0 6px 20px rgba(14, 17, 40, 0.18)",
+                boxShadow: "0 10px 28px rgba(31, 36, 108, 0.18)",
               }}
             >
               <button

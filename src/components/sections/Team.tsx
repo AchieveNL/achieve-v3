@@ -121,7 +121,7 @@ export function Team() {
                     padding: "0",
                     boxSizing: "border-box",
                     background: "transparent",
-                    boxShadow: "0 6px 18px rgba(31, 36, 108, 0.10)",
+                    boxShadow: "0 1px 2px rgba(31, 36, 108, 0.05), 0 6px 14px rgba(31, 36, 108, 0.07)",
                   }}
                 >
                   <div
@@ -151,7 +151,7 @@ export function Team() {
                     background: "#FFFFFF",
                     borderRadius: "16px",
                     padding: "12px 16px",
-                    boxShadow: "0 10px 24px rgba(31, 36, 108, 0.14)",
+                    boxShadow: "0 10px 28px rgba(31, 36, 108, 0.18)",
                     display: "flex",
                     flexDirection: "column",
                     gap: "1px",
@@ -177,7 +177,7 @@ export function Team() {
                     padding: "0",
                     boxSizing: "border-box",
                     background: "transparent",
-                    boxShadow: "0 6px 18px rgba(31, 36, 108, 0.10)",
+                    boxShadow: "0 1px 2px rgba(31, 36, 108, 0.05), 0 6px 14px rgba(31, 36, 108, 0.07)",
                   }}
                 >
                   <div
@@ -207,7 +207,7 @@ export function Team() {
                     background: "#FFFFFF",
                     borderRadius: "16px",
                     padding: "12px 16px",
-                    boxShadow: "0 10px 24px rgba(31, 36, 108, 0.14)",
+                    boxShadow: "0 10px 28px rgba(31, 36, 108, 0.18)",
                     display: "flex",
                     flexDirection: "column",
                     gap: "1px",
@@ -233,7 +233,7 @@ export function Team() {
                     padding: "0",
                     boxSizing: "border-box",
                     background: "transparent",
-                    boxShadow: "0 6px 18px rgba(31, 36, 108, 0.10)",
+                    boxShadow: "0 1px 2px rgba(31, 36, 108, 0.05), 0 6px 14px rgba(31, 36, 108, 0.07)",
                   }}
                 >
                   <div
@@ -263,7 +263,7 @@ export function Team() {
                     background: "#FFFFFF",
                     borderRadius: "16px",
                     padding: "12px 16px",
-                    boxShadow: "0 10px 24px rgba(31, 36, 108, 0.14)",
+                    boxShadow: "0 10px 28px rgba(31, 36, 108, 0.18)",
                     display: "flex",
                     flexDirection: "column",
                     gap: "1px",
@@ -289,7 +289,7 @@ export function Team() {
                     padding: "0",
                     boxSizing: "border-box",
                     background: "transparent",
-                    boxShadow: "0 6px 18px rgba(31, 36, 108, 0.10)",
+                    boxShadow: "0 1px 2px rgba(31, 36, 108, 0.05), 0 6px 14px rgba(31, 36, 108, 0.07)",
                   }}
                 >
                   <div
@@ -319,7 +319,7 @@ export function Team() {
                     background: "#FFFFFF",
                     borderRadius: "16px",
                     padding: "12px 16px",
-                    boxShadow: "0 10px 24px rgba(31, 36, 108, 0.14)",
+                    boxShadow: "0 10px 28px rgba(31, 36, 108, 0.18)",
                     display: "flex",
                     flexDirection: "column",
                     gap: "1px",
@@ -345,7 +345,7 @@ export function Team() {
                     padding: "0",
                     boxSizing: "border-box",
                     background: "transparent",
-                    boxShadow: "0 6px 18px rgba(31, 36, 108, 0.10)",
+                    boxShadow: "0 1px 2px rgba(31, 36, 108, 0.05), 0 6px 14px rgba(31, 36, 108, 0.07)",
                   }}
                 >
                   <div
@@ -375,7 +375,7 @@ export function Team() {
                     background: "#FFFFFF",
                     borderRadius: "16px",
                     padding: "12px 16px",
-                    boxShadow: "0 10px 24px rgba(31, 36, 108, 0.14)",
+                    boxShadow: "0 10px 28px rgba(31, 36, 108, 0.18)",
                     display: "flex",
                     flexDirection: "column",
                     gap: "1px",
@@ -401,7 +401,7 @@ export function Team() {
                     padding: "0",
                     boxSizing: "border-box",
                     background: "transparent",
-                    boxShadow: "0 6px 18px rgba(31, 36, 108, 0.10)",
+                    boxShadow: "0 1px 2px rgba(31, 36, 108, 0.05), 0 6px 14px rgba(31, 36, 108, 0.07)",
                   }}
                 >
                   <div
@@ -431,7 +431,7 @@ export function Team() {
                     background: "#FFFFFF",
                     borderRadius: "16px",
                     padding: "12px 16px",
-                    boxShadow: "0 10px 24px rgba(31, 36, 108, 0.14)",
+                    boxShadow: "0 10px 28px rgba(31, 36, 108, 0.18)",
                     display: "flex",
                     flexDirection: "column",
                     gap: "1px",

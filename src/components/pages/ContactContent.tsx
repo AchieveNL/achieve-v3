@@ -648,7 +648,7 @@ export function ContactContent() {
               display: "flex",
               flexDirection: "column",
               gap: "16px",
-              boxShadow: "0 20px 50px rgba(31, 36, 108, 0.08)",
+              boxShadow: "0 2px 4px rgba(31, 36, 108, 0.04), 0 16px 32px rgba(31, 36, 108, 0.08)",
             }}
           >
             <div className="ct-two" style={{ display: "grid", gridTemplateColumns: "repeat(2, minmax(0, 1fr))", gap: "16px" }}>

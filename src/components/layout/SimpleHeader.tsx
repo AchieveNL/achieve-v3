@@ -340,7 +340,7 @@ export function SimpleHeader() {
                     background: "#FFFFFF",
                     border: "1px solid #E4E6EA",
                     borderRadius: "5px",
-                    boxShadow: "0 8px 24px rgba(14, 17, 22, 0.12)",
+                    boxShadow: "0 10px 28px rgba(31, 36, 108, 0.18)",
                     padding: "8px",
                     display: "flex",
                     flexDirection: "column",

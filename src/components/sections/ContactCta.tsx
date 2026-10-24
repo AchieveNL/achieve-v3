@@ -310,7 +310,7 @@ export function ContactCta() {
               borderRadius: "28px",
               padding: "36px",
               color: "#1F246C",
-              boxShadow: "0 30px 60px rgba(0, 0, 0, 0.25)",
+              boxShadow: "0 24px 60px rgba(14, 17, 40, 0.35)",
             }}
           >
             <a href={href("Bedankt")} ref={thanksLinkRef} tabIndex={-1} aria-hidden="true" style={{ display: "none" }}>

@@ -2763,7 +2763,7 @@ export function VacatureContentContent() {
                 display: "flex",
                 flexDirection: "column",
                 gap: "16px",
-                boxShadow: "0 30px 80px rgba(15,18,60,0.35)",
+                boxShadow: "0 24px 60px rgba(14, 17, 40, 0.35)",
               }}
             >
               <button
@@ -3214,7 +3214,7 @@ export function VacatureContentContent() {
               borderRadius: "28px",
               padding: "36px",
               color: "#1F246C",
-              boxShadow: "0 30px 60px rgba(0, 0, 0, 0.25)",
+              boxShadow: "0 24px 60px rgba(14, 17, 40, 0.35)",
               display: "flex",
               flexDirection: "column",
               gap: "16px",

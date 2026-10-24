@@ -1952,7 +1952,7 @@ export function DienstHostingContent() {
                 display: "flex",
                 flexDirection: "column",
                 gap: "8px",
-                boxShadow: "0 24px 50px rgba(134, 57, 250, 0.25)",
+                boxShadow: "0 16px 40px rgba(134, 57, 250, 0.30)",
               }}
             >
               <span

@@ -57,7 +57,7 @@
 .pj-chip:hover{border-color:#8639FA !important}
 .pj-chip:focus-visible,.pj-card a:focus-visible{outline:2px solid #8639FA;outline-offset:3px}
 .pj-card{transition:transform .35s ease,box-shadow .35s ease}
-.pj-card:hover{transform:translateY(-4px);box-shadow:0 18px 40px rgba(31,36,108,0.10)}
+.pj-card:hover{transform:translateY(-4px);box-shadow:0 2px 4px rgba(31,36,108,0.04),0 16px 32px rgba(31,36,108,0.08)}
 .pj-quote{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
 .pj-challenge{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
 .pj-logo{opacity:.7;transition:opacity .25s ease;filter:brightness(0) invert(1)}
@@ -92,4 +92,4 @@
 /* The hero, including the project thumbnails, fits above the fold: viewport minus the header (and on phones minus the bottom CTA bar). */
 section.hero-dark.pjh{height:clamp(600px, calc(100svh - 88px), 820px) !important;min-height:0 !important}
 @media (max-width: 720px){section.hero-dark.pjh{height:clamp(470px, calc(100svh - 88px - 84px), 560px) !important;min-height:0 !important}}
-.tf-tip-box{position:absolute;bottom:calc(100% + 10px);left:50%;transform:translateX(-50%);width:max-content;max-width:280px;background:#1F246C;color:#FFFFFF;font-family:Poppins,system-ui,sans-serif;font-size:13px;font-weight:400;font-style:normal;line-height:1.5;letter-spacing:0;text-transform:none;text-align:left;white-space:normal;padding:12px 12px;border-radius:8px;box-shadow:0 10px 28px rgba(31,36,108,.28);opacity:0;visibility:hidden;transition:opacity .2s ease,visibility .2s;z-index:60;pointer-events:none}
+.tf-tip-box{position:absolute;bottom:calc(100% + 10px);left:50%;transform:translateX(-50%);width:max-content;max-width:280px;background:#1F246C;color:#FFFFFF;font-family:Poppins,system-ui,sans-serif;font-size:13px;font-weight:400;font-style:normal;line-height:1.5;letter-spacing:0;text-transform:none;text-align:left;white-space:normal;padding:12px 12px;border-radius:8px;box-shadow:0 10px 28px rgba(31,36,108,0.18);opacity:0;visibility:hidden;transition:opacity .2s ease,visibility .2s;z-index:60;pointer-events:none}

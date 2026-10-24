@@ -779,7 +779,7 @@ export function Reviews() {
                 display: "flex",
                 flexDirection: "column",
                 gap: "20px",
-                boxShadow: "0 30px 80px rgba(15,18,60,0.35)",
+                boxShadow: "0 24px 60px rgba(14, 17, 40, 0.35)",
               }}
             >
               <button
