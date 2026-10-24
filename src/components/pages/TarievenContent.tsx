@@ -6770,7 +6770,7 @@ export function TarievenContent() {
                   </Accent>
                 </h2>
                 <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.6", color: "#3A4150" }}>
-                  {t("Legal: juridisch advies voor ondernemers, voor een vast bedrag, zodat je precies weet waar je aan toe bent.")}
+                  {t("Juridisch advies voor ondernemers, voor een vast bedrag, zodat je precies weet waar je aan toe bent.")}
                 </p>
               </div>
               <div className="tf-scroll" style={{ width: "100%", maxWidth: "1200px", margin: "0 auto", paddingTop: "14px" }}>

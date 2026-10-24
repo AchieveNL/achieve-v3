@@ -12,7 +12,7 @@ type Props = { params: Promise<{ locale: string }> };
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
   const meta = await pageMetadata(locale as Locale, "DienstLegal", {
-    title: "Legal: juridisch advies voor ondernemers | Achieve",
+    title: "Juridisch advies voor ondernemers | Achieve",
     description:
       "Juridisch advies voor ondernemers: een scan van je onderneming, algemene voorwaarden op maat en bescherming van je merk. Vanaf €197 eenmalig.",
   });
