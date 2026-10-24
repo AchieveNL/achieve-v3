@@ -624,7 +624,7 @@ export function DienstBrandBookContent() {
             </h2>
             <p style={{ margin: "0", fontSize: "18px", lineHeight: "1.65", color: "#3A4150", maxWidth: "520px" }}>
               {t(
-                "Een Brand Book legt je hele huisstijl vast: je logo, kleuren, letters en vormen. Zo herkennen klanten je overal en weet je team precies hoe je merk eruitziet.",
+                "Een huisstijlhandboek legt je hele uitstraling vast: je logo, kleuren, letters en vormen. Zo herkennen klanten je overal en weet je team precies hoe je merk eruitziet.",
               )}
             </p>
             <a
@@ -842,7 +842,7 @@ export function DienstBrandBookContent() {
               </Accent>
             </h2>
             <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.65", color: "#3A4150", maxWidth: "720px" }}>
-              {t("Een prettige samenwerking, van het eerste gesprek tot je Brand Book.")}
+              {t("Een prettige samenwerking, van het eerste gesprek tot je huisstijlhandboek.")}
             </p>
           </div>
           <ul
@@ -1217,7 +1217,7 @@ export function DienstBrandBookContent() {
                   {t("4. Oplevering")}
                 </h3>
                 <p style={{ margin: "0", maxWidth: "300px", fontSize: "16px", lineHeight: "1.6", color: "#C9CFF0" }}>
-                  {t("Je krijgt je Brand Book als overzichtelijk document, klaar voor je team en externe partners.")}
+                  {t("Je krijgt je huisstijlhandboek als overzichtelijk document, klaar voor je team en externe partners.")}
                 </p>
               </li>
             </ol>
@@ -1331,7 +1331,7 @@ export function DienstBrandBookContent() {
               </Accent>
             </h2>
             <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.6", color: "#3A4150" }}>
-              {t("Brand Book: je huisstijlhandboek, voor een vast bedrag, zodat je precies weet waar je aan toe bent.")}
+              {t("Je huisstijlhandboek voor een vast bedrag, zodat je precies weet waar je aan toe bent.")}
             </p>
           </div>
           <div className="tf-scroll" style={{ width: "100%", maxWidth: "1200px", margin: "0 auto", paddingTop: "14px" }}>
