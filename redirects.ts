@@ -23,7 +23,7 @@ const oldCases = [
 ];
 
 // Old service slugs → new service slugs (only the ones that changed).
-const serviceMap: Record<string, string> = { "brand-strategy": "strategy" };
+const serviceMap: Record<string, string> = {};
 const services = [
   "brand-strategy", "brand-book", "web-development", "video-marketing", "search-engine-advertising",
   "social-media-management", "email-marketing", "ugc-marketing", "social-media-advertising", "dashboard", "legal",
@@ -61,4 +61,9 @@ function forLocale(nl: boolean): Redirect[] {
   return out.filter((x) => x.source !== x.destination);
 }
 
-export const oldSiteRedirects: Redirect[] = [...forLocale(true), ...forLocale(false)];
+// Strategy was renamed Brand Strategy on 24 Oct 2026: its old new-site address points to the new one in every language.
+const renamed: Redirect[] = ["", "/en", "/es", "/fr", "/de", "/pl", "/tr", "/ar"].map((b) =>
+  r(`${b}/diensten/strategy`, `${b}/diensten/brand-strategy`),
+);
+
+export const oldSiteRedirects: Redirect[] = [...forLocale(true), ...forLocale(false), ...renamed];
