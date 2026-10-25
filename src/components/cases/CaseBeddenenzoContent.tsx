@@ -14,8 +14,8 @@ export function CaseBeddenenzoContent() {
   const { paused, toggle } = useMotion();
   const [csI, setCsI] = useState(0);
   const [mkI, setMkI] = useState(0);
-  const SLIDES: { img: string; alt: string }[] = [
-    { img: "/media/cases/beddenenzo-showroom.webp", alt: "Showroom van Beddenenzo met bedden en matrassen" },
+  const SLIDES: { img: string; alt: string; mpos?: string }[] = [
+    { img: "/media/cases/beddenenzo-showroom.webp", mpos: "95% 50%", alt: "Showroom van Beddenenzo met bedden en matrassen" },
     { img: "/media/cases/beddenenzo-homepage.webp", alt: "De homepage van Beddenenzo met boxsprings in de showroom" },
     { img: "/media/projects/beddenenzo-02.webp", alt: "Beeld uit de video van Beddenenzo" },
   ];
@@ -561,7 +561,7 @@ export function CaseBeddenenzoContent() {
                   alt={ta(String(g.alt))}
                   aria-hidden={g.hidden}
                   loading="lazy"
-                  style={{ position: "absolute", inset: "0", width: "100%", height: "100%", objectFit: "cover", opacity: g.op }}
+                  style={{ position: "absolute", inset: "0", width: "100%", height: "100%", objectFit: "cover", opacity: g.op, ...(g.mpos ? { ["--mpos" as string]: g.mpos } : {}) }}
                 />
               </Fragment>
             ))}
