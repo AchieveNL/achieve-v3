@@ -530,6 +530,7 @@ export function CaseSharkysContent() {
                 height: "100%",
                 objectFit: "cover",
                 objectPosition: "14% 50%",
+                ["--mpos" as string]: "19% 50%",
                 opacity: h.mkOp0,
               }}
             />
@@ -546,6 +547,7 @@ export function CaseSharkysContent() {
                 height: "100%",
                 objectFit: "cover",
                 objectPosition: "96% 50%",
+                ["--mpos" as string]: "88% 50%",
                 opacity: h.mkOp1,
               }}
             />

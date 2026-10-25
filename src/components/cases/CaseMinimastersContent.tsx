@@ -13,10 +13,10 @@ export function CaseMinimastersContent() {
   const { paused, toggle } = useMotion();
   const [csI, setCsI] = useState(0);
   const [mkI, setMkI] = useState(0);
-  const SLIDES: { img: string; alt: string }[] = [
-    { img: "/media/cases/minimasters-laptop.webp", alt: "De nieuwe website van Minimasters Playground op een laptop in een speelhal" },
+  const SLIDES: { img: string; alt: string; mpos?: string }[] = [
+    { img: "/media/cases/minimasters-laptop.webp", mpos: "21% 50%", alt: "De nieuwe website van Minimasters Playground op een laptop in een speelhal" },
     {
-      img: "/media/cases/minimasters-telefoon.webp",
+      img: "/media/cases/minimasters-telefoon.webp", mpos: "84% 50%",
       alt: "De pagina Ons aanbod van Minimasters Playground op een telefoon in een speelhal",
     },
   ];
@@ -483,7 +483,7 @@ export function CaseMinimastersContent() {
                   alt={ta(String(g.alt))}
                   aria-hidden={g.hidden}
                   loading="lazy"
-                  style={{ position: "absolute", inset: "0", width: "100%", height: "100%", objectFit: "cover", opacity: g.op }}
+                  style={{ position: "absolute", inset: "0", width: "100%", height: "100%", objectFit: "cover", opacity: g.op, ...(g.mpos ? { ["--mpos" as string]: g.mpos } : {}) }}
                 />
               </Fragment>
             ))}

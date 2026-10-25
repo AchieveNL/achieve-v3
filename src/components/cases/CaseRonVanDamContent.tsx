@@ -14,8 +14,8 @@ export function CaseRonVanDamContent() {
   const { paused, toggle } = useMotion();
   const [csI, setCsI] = useState(0);
   const [mkI, setMkI] = useState(0);
-  const SLIDES: { img: string; alt: string }[] = [
-    { img: "/media/cases/ron-van-dam-laptop.webp", alt: "De webshop van Ron van Dam op een laptop en tablet in een atelier" },
+  const SLIDES: { img: string; alt: string; mpos?: string }[] = [
+    { img: "/media/cases/ron-van-dam-laptop.webp", mpos: "32% 50%", alt: "De webshop van Ron van Dam op een laptop en tablet in een atelier" },
     { img: "/media/projects/ron-van-dam-01.webp", alt: "Detail van een mixed media portret van Ron van Dam" },
   ];
   const N = 2;
@@ -494,7 +494,7 @@ export function CaseRonVanDamContent() {
                   alt={ta(String(g.alt))}
                   aria-hidden={g.hidden}
                   loading="lazy"
-                  style={{ position: "absolute", inset: "0", width: "100%", height: "100%", objectFit: "cover", opacity: g.op }}
+                  style={{ position: "absolute", inset: "0", width: "100%", height: "100%", objectFit: "cover", opacity: g.op, ...(g.mpos ? { ["--mpos" as string]: g.mpos } : {}) }}
                 />
               </Fragment>
             ))}

@@ -53,3 +53,5 @@ ol.cs-steps > li{flex:0 0 84%;scroll-snap-align:start;padding:28px !important}
 @media (max-width: 720px){.rc-chart-d{display:none !important}.rc-chart-m{display:block !important}.rc-bars text{font-size:20px}}
 @media (max-width: 1024px){.rc-kpis,.rc-kpis2{grid-template-columns:repeat(2,minmax(0,1fr)) !important}.rc-two{grid-template-columns:minmax(0,1fr) !important}}
 @media (max-width: 720px){.rc-kpis{grid-template-columns:minmax(0,1fr) !important}.rc-roas{grid-column:auto !important}.rc-card{padding:24px 20px !important}.rc-media{grid-template-columns:minmax(0,1fr) !important}}
+/* Mobile: device mockups keep the laptop or phone in the middle of the narrower frame (per image via --mpos). */
+@media (max-width: 720px){.mk-car .gal-img{object-position:var(--mpos, 50% 50%) !important}}
