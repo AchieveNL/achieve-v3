@@ -16,7 +16,7 @@ export function CaseBeddenenzoContent() {
   const [mkI, setMkI] = useState(0);
   const SLIDES: { img: string; alt: string; mpos?: string; mfit?: string }[] = [
     { img: "/media/cases/beddenenzo-showroom.webp", mpos: "95% 50%", alt: "Showroom van Beddenenzo met bedden en matrassen" },
-    { img: "/media/cases/beddenenzo-homepage.webp", mfit: "contain", mpos: "50% 42%", alt: "De homepage van Beddenenzo met boxsprings in de showroom" },
+    { img: "/media/cases/beddenenzo-homepage.webp", alt: "De homepage van Beddenenzo met boxsprings in de showroom" },
     { img: "/media/projects/beddenenzo-02.webp", alt: "Beeld uit de video van Beddenenzo" },
   ];
   const N = 3;
@@ -547,7 +547,7 @@ export function CaseBeddenenzoContent() {
             </p>
           </div>
           <div
-            className="cs-media mk-car"
+            className="cs-media mk-car mk-wide"
             role="group"
             aria-roledescription="carrousel"
             aria-label={ta("Beeld van Beddenenzo")}
@@ -566,12 +566,14 @@ export function CaseBeddenenzoContent() {
               </Fragment>
             ))}
             <div
+              className="mk-prog"
               aria-hidden="true"
               style={{ position: "absolute", left: "0", right: "0", bottom: "0", height: "4px", background: "rgba(255, 255, 255, 0.3)" }}
             >
               <div style={{ height: "4px", width: h.csProg, background: "#FFFFFF", transition: "width .3s ease" }}></div>
             </div>
             <div
+              className="mk-nav"
               style={{
                 position: "absolute",
                 left: "50%",

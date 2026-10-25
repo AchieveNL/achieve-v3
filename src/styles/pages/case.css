@@ -56,3 +56,7 @@ ol.cs-steps > li{flex:0 0 84%;scroll-snap-align:start;padding:28px !important}
 /* Mobile: a website screenshot with text is shown whole (--mfit: contain) so the text stays readable. */
 /* Mobile: device mockups keep the laptop or phone in the middle of the narrower frame (per image via --mpos). */
 @media (max-width: 720px){.mk-car .gal-img{object-position:var(--mpos, 50% 50%) !important;object-fit:var(--mfit, cover) !important}}
+/* Mobile: Beddenenzo's carousel takes the landscape format of its website screenshot, so the screenshot fits whole without bars. */
+@media (max-width: 720px){.mk-car.mk-wide{aspect-ratio:1728 / 1000 !important}}
+/* Mobile: in that low frame the arrows sit under the photo instead of over it; the counter replaces the thin progress line. */
+@media (max-width: 720px){.mk-car.mk-wide{overflow:visible !important;background:transparent !important;margin-bottom:64px}.mk-car.mk-wide > .gal-img{border-radius:16px}.mk-car.mk-wide > .mk-prog{display:none}.mk-car.mk-wide > .mk-nav{bottom:-60px !important;box-shadow:0 1px 2px rgba(31, 36, 108, 0.05), 0 6px 14px rgba(31, 36, 108, 0.07) !important}}
