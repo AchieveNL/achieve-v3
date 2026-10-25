@@ -14,10 +14,10 @@ export function CaseBeddenenzoContent() {
   const { paused, toggle } = useMotion();
   const [csI, setCsI] = useState(0);
   const [mkI, setMkI] = useState(0);
-  const SLIDES: { img: string; alt: string; mpos?: string; mfit?: string }[] = [
+  const SLIDES: { img: string; alt: string; mpos?: string; mfit?: string; video?: string }[] = [
     { img: "/media/cases/beddenenzo-showroom.webp", mpos: "95% 50%", alt: "Showroom van Beddenenzo met bedden en matrassen" },
     { img: "/media/cases/beddenenzo-homepage.webp", alt: "De homepage van Beddenenzo met boxsprings in de showroom" },
-    { img: "/media/projects/beddenenzo-02.webp", alt: "Beeld uit de video van Beddenenzo" },
+    { img: "/media/projects/beddenenzo-02.webp", video: "/media/projects/beddenenzo-01.mp4", alt: "Video van Beddenenzo" },
   ];
   const N = 3;
   const ci = csI % N;
@@ -30,6 +30,7 @@ export function CaseBeddenenzoContent() {
     csSlides: SLIDES.map((x, i) => ({ ...x, op: i === ci ? "1" : "0", hidden: i !== ci })),
     csProg: ((ci + 1) / N) * 100 + "%",
     csCounter: `${ci + 1} / ${N}`,
+    csIsVid: !!SLIDES[ci].video,
     csPrev: () => setCsI((i) => (i + N - 1) % N),
     csNext: () => setCsI((i) => (i + 1) % N),
     mkIsVid: mkI === 2,
@@ -555,16 +556,76 @@ export function CaseBeddenenzoContent() {
           >
             {h.csSlides.map((g, g_i) => (
               <Fragment key={g_i}>
+                {g.video ? (
+                  <LazyVideo
+                    preload="none"
+                    className="gal-img"
+                    src={g.video}
+                    poster={g.img}
+                    muted
+                    loop
+                    playsInline
+                    aria-label={ta(String(g.alt))}
+                    aria-hidden={g.hidden}
+                    style={{ position: "absolute", inset: "0", width: "100%", height: "100%", objectFit: "cover", opacity: g.op }}
+                  />
+                ) : (
                 <img
-                  className="gal-img"
-                  src={g.img}
-                  alt={ta(String(g.alt))}
-                  aria-hidden={g.hidden}
-                  loading="lazy"
-                  style={{ position: "absolute", inset: "0", width: "100%", height: "100%", objectFit: "cover", opacity: g.op, ...(g.mpos ? { ["--mpos" as string]: g.mpos } : {}), ...(g.mfit ? { ["--mfit" as string]: g.mfit } : {}) }}
-                />
+                    className="gal-img"
+                    src={g.img}
+                    alt={ta(String(g.alt))}
+                    aria-hidden={g.hidden}
+                    loading="lazy"
+                    style={{ position: "absolute", inset: "0", width: "100%", height: "100%", objectFit: "cover", opacity: g.op, ...(g.mpos ? { ["--mpos" as string]: g.mpos } : {}), ...(g.mfit ? { ["--mfit" as string]: g.mfit } : {}) }}
+                  />
+                )}
               </Fragment>
             ))}
+            {h.csIsVid && (
+              <>
+                <button
+                  type="button"
+                  className="vid-btn"
+                  onClick={h.toggleVid}
+                  aria-pressed={h.vidPressed}
+                  aria-label={ta(String(h.vidLabel))}
+                  title={ta(String(h.vidLabel))}
+                  style={{
+                    position: "absolute",
+                    zIndex: "3",
+                    right: "20px",
+                    top: "20px",
+                    width: "44px",
+                    height: "44px",
+                    borderRadius: "999px",
+                    border: "1px solid rgba(255, 255, 255, 0.45)",
+                    background: "rgba(14, 17, 40, 0.45)",
+                    color: "#FFFFFF",
+                    display: "inline-flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    cursor: "pointer",
+                    padding: "0",
+                  }}
+                >
+                  {h.vidPlaying && (
+                    <>
+                      <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                        <rect x="6" y="5" width="4" height="14" rx="1"></rect>
+                        <rect x="14" y="5" width="4" height="14" rx="1"></rect>
+                      </svg>
+                    </>
+                  )}
+                  {h.vidPaused && (
+                    <>
+                      <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                        <path d="M8 5.5v13a1 1 0 0 0 1.5.86l10.5-6.5a1 1 0 0 0 0-1.72L9.5 4.64A1 1 0 0 0 8 5.5z"></path>
+                      </svg>
+                    </>
+                  )}
+                </button>
+              </>
+            )}
             <div
               className="mk-prog"
               aria-hidden="true"
