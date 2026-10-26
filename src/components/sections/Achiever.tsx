@@ -17,8 +17,8 @@ export function Achiever() {
       >
         <LazyVideo
           preload="none"
-          src="/media/video/achiever.mp4"
-          poster="/media/video/achiever-poster.webp"
+          src="/media/video/ondernemers.mp4"
+          poster="/media/video/ondernemers-poster.webp"
           muted
           loop
           playsInline
