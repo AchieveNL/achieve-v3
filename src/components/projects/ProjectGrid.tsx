@@ -370,7 +370,9 @@ export function ProjectGrid() {
                           color: "#1F246C",
                         }}
                       >
-                        {t(String(p.name))}
+                        <a href={p.href} className="pj-title">
+                          {t(String(p.name))}
+                        </a>
                       </h3>
                       <span style={{ fontSize: "14px", color: "#5A6273" }}>{t(String(p.sector))}</span>
                     </div>
