@@ -174,7 +174,9 @@ export function FeaturedCases() {
                             lineHeight: "1.1",
                           }}
                         >
-                          {t("RCpeptides")}
+                          <a href={href("CaseRCpeptides")} className="pj-title">
+                            {t("RCpeptides")}
+                          </a>
                         </strong>
                         <span style={{ fontSize: "15px", color: "#5A6273" }}>{t("Life sciences")}</span>
                       </span>
@@ -418,7 +420,9 @@ export function FeaturedCases() {
                             lineHeight: "1.1",
                           }}
                         >
-                          {t("Sharkys")}
+                          <a href={href("CaseSharkys")} className="pj-title">
+                            {t("Sharkys")}
+                          </a>
                         </strong>
                         <span style={{ fontSize: "15px", color: "#5A6273" }}>{t("Sportschool")}</span>
                       </span>
@@ -654,7 +658,9 @@ export function FeaturedCases() {
                             lineHeight: "1.1",
                           }}
                         >
-                          {t("A-direct Automaterialen")}
+                          <a href={href("CaseADirect")} className="pj-title">
+                            {t("A-direct Automaterialen")}
+                          </a>
                         </strong>
                         <span style={{ fontSize: "15px", color: "#5A6273" }}>{t("Familiebedrijf")}</span>
                       </span>

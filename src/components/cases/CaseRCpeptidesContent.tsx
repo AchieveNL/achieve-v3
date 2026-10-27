@@ -1279,7 +1279,9 @@ export function CaseRCpeptidesContent() {
                     translate="no"
                     style={{ fontFamily: "var(--font-display)", fontSize: "24px", fontWeight: "700", color: "#1F246C", lineHeight: "1.1" }}
                   >
-                    {"Sharkys"}
+                    <a href={href("CaseSharkys")} className="pj-title">
+                      {"Sharkys"}
+                    </a>
                   </strong>
                   <span style={{ fontSize: "14px", color: "#5A6273" }}>{t("Sportschool")}</span>
                 </span>
@@ -1384,7 +1386,9 @@ export function CaseRCpeptidesContent() {
                     translate="no"
                     style={{ fontFamily: "var(--font-display)", fontSize: "24px", fontWeight: "700", color: "#1F246C", lineHeight: "1.1" }}
                   >
-                    {"Minimasters Playground"}
+                    <a href={href("CaseMinimasters")} className="pj-title">
+                      {"Minimasters Playground"}
+                    </a>
                   </strong>
                   <span style={{ fontSize: "14px", color: "#5A6273" }}>{t("Recreatie")}</span>
                 </span>
@@ -1489,7 +1493,9 @@ export function CaseRCpeptidesContent() {
                     translate="no"
                     style={{ fontFamily: "var(--font-display)", fontSize: "24px", fontWeight: "700", color: "#1F246C", lineHeight: "1.1" }}
                   >
-                    {"Sushi Today"}
+                    <a href={href("CaseSushiToday")} className="pj-title">
+                      {"Sushi Today"}
+                    </a>
                   </strong>
                   <span style={{ fontSize: "14px", color: "#5A6273" }}>{t("Horeca")}</span>
                 </span>

@@ -939,7 +939,9 @@ export function CaseRonVanDamContent() {
                     translate="no"
                     style={{ fontFamily: "var(--font-display)", fontSize: "24px", fontWeight: "700", color: "#1F246C", lineHeight: "1.1" }}
                   >
-                    {"Sharkys"}
+                    <a href={href("CaseSharkys")} className="pj-title">
+                      {"Sharkys"}
+                    </a>
                   </strong>
                   <span style={{ fontSize: "14px", color: "#5A6273" }}>{t("Sportschool")}</span>
                 </span>
@@ -1044,7 +1046,9 @@ export function CaseRonVanDamContent() {
                     translate="no"
                     style={{ fontFamily: "var(--font-display)", fontSize: "24px", fontWeight: "700", color: "#1F246C", lineHeight: "1.1" }}
                   >
-                    {"RCpeptides"}
+                    <a href={href("CaseRCpeptides")} className="pj-title">
+                      {"RCpeptides"}
+                    </a>
                   </strong>
                   <span style={{ fontSize: "14px", color: "#5A6273" }}>{t("Life sciences")}</span>
                 </span>
@@ -1140,7 +1144,9 @@ export function CaseRonVanDamContent() {
                     translate="no"
                     style={{ fontFamily: "var(--font-display)", fontSize: "24px", fontWeight: "700", color: "#1F246C", lineHeight: "1.1" }}
                   >
-                    {"A-direct Automaterialen"}
+                    <a href={href("CaseADirect")} className="pj-title">
+                      {"A-direct Automaterialen"}
+                    </a>
                   </strong>
                   <span style={{ fontSize: "14px", color: "#5A6273" }}>{t("Automotive")}</span>
                 </span>
