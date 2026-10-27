@@ -1058,10 +1058,14 @@ export function CaseBeddenenzoContent() {
               style={{ background: "#FFFFFF", borderRadius: "24px", overflow: "hidden", display: "flex", flexDirection: "column" }}
             >
               <div style={{ position: "relative", aspectRatio: "16 / 10", overflow: "hidden", background: "#1F246C" }}>
-                <img
-                  src="/media/cases/sharkys-poster.webp"
-                  alt={ta("Sporter traint met battle ropes in de sportschool van Sharkys")}
-                  loading="lazy"
+                <LazyVideo
+                  src="/media/cases/sharkys.mp4"
+                  poster="/media/cases/sharkys-poster.webp"
+                  preload="none"
+                  muted
+                  loop
+                  playsInline
+                  aria-label={ta("Sporter traint met battle ropes in de sportschool van Sharkys")}
                   style={{ position: "absolute", inset: "0", width: "100%", height: "100%", objectFit: "cover" }}
                 />
               </div>
