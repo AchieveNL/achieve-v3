@@ -238,7 +238,9 @@ export function FeaturedCase() {
                   <strong
                     style={{ fontFamily: "var(--font-display)", fontSize: "30px", fontWeight: "700", color: "#1F246C", lineHeight: "1.1" }}
                   >
-                    {t("RCpeptides")}
+                    <a href={href("CaseRCpeptides")} className="pj-title">
+                      {t("RCpeptides")}
+                    </a>
                   </strong>
                   <span style={{ fontSize: "15px", color: "#5A6273" }}>{t("Life sciences")}</span>
                 </span>
