@@ -222,11 +222,11 @@ export function Header() {
                         height: "18px",
                         borderRadius: "50%",
                         flexShrink: "0",
-                        overflow: "hidden", boxShadow: "0 0 0 1px rgba(31, 36, 108, 0.18)",
+                        overflow: "hidden", boxShadow: "0 0 0 1px rgba(31, 36, 108, 0.18)", background: "#D9DCEB",
                       }}
                       aria-hidden="true"
                     >
-                      <svg width="18" height="18" viewBox="0 0 9 6" preserveAspectRatio="xMidYMid slice">
+                      <svg width="18" height="18" viewBox="0 0 9 6" preserveAspectRatio="xMidYMid slice" style={{ display: "block", clipPath: "circle(50%)" }}>
                         <rect width="9" height="2" fill="#AE1C28"></rect>
                         <rect y="2" width="9" height="2" fill="#FFFFFF"></rect>
                         <rect y="4" width="9" height="2" fill="#21468B"></rect>
@@ -243,11 +243,11 @@ export function Header() {
                         height: "18px",
                         borderRadius: "50%",
                         flexShrink: "0",
-                        overflow: "hidden", boxShadow: "0 0 0 1px rgba(31, 36, 108, 0.18)",
+                        overflow: "hidden", boxShadow: "0 0 0 1px rgba(31, 36, 108, 0.18)", background: "#D9DCEB",
                       }}
                       aria-hidden="true"
                     >
-                      <svg width="18" height="18" viewBox="0 0 60 30" preserveAspectRatio="xMidYMid slice">
+                      <svg width="18" height="18" viewBox="0 0 60 30" preserveAspectRatio="xMidYMid slice" style={{ display: "block", clipPath: "circle(50%)" }}>
                         <rect width="60" height="30" fill="#012169"></rect>
                         <path d="M0 0L60 30M60 0L0 30" stroke="#FFFFFF" strokeWidth="6"></path>
                         <path d="M0 0L60 30M60 0L0 30" stroke="#C8102E" strokeWidth="2"></path>
@@ -266,11 +266,11 @@ export function Header() {
                         height: "18px",
                         borderRadius: "50%",
                         flexShrink: "0",
-                        overflow: "hidden", boxShadow: "0 0 0 1px rgba(31, 36, 108, 0.18)",
+                        overflow: "hidden", boxShadow: "0 0 0 1px rgba(31, 36, 108, 0.18)", background: "#D9DCEB",
                       }}
                       aria-hidden="true"
                     >
-                      <svg width="18" height="18" viewBox="0 0 3 2" preserveAspectRatio="xMidYMid slice">
+                      <svg width="18" height="18" viewBox="0 0 3 2" preserveAspectRatio="xMidYMid slice" style={{ display: "block", clipPath: "circle(50%)" }}>
                         <rect width="3" height="2" fill="#AA151B"></rect>
                         <rect y="0.5" width="3" height="1" fill="#F1BF00"></rect>
                       </svg>
@@ -286,11 +286,11 @@ export function Header() {
                         height: "18px",
                         borderRadius: "50%",
                         flexShrink: "0",
-                        overflow: "hidden", boxShadow: "0 0 0 1px rgba(31, 36, 108, 0.18)",
+                        overflow: "hidden", boxShadow: "0 0 0 1px rgba(31, 36, 108, 0.18)", background: "#D9DCEB",
                       }}
                       aria-hidden="true"
                     >
-                      <svg width="18" height="18" viewBox="0 0 3 2" preserveAspectRatio="xMidYMid slice">
+                      <svg width="18" height="18" viewBox="0 0 3 2" preserveAspectRatio="xMidYMid slice" style={{ display: "block", clipPath: "circle(50%)" }}>
                         <rect width="1" height="2" fill="#0055A4"></rect>
                         <rect x="1" width="1" height="2" fill="#FFFFFF"></rect>
                         <rect x="2" width="1" height="2" fill="#EF4135"></rect>
@@ -307,11 +307,11 @@ export function Header() {
                         height: "18px",
                         borderRadius: "50%",
                         flexShrink: "0",
-                        overflow: "hidden", boxShadow: "0 0 0 1px rgba(31, 36, 108, 0.18)",
+                        overflow: "hidden", boxShadow: "0 0 0 1px rgba(31, 36, 108, 0.18)", background: "#D9DCEB",
                       }}
                       aria-hidden="true"
                     >
-                      <svg width="18" height="18" viewBox="0 0 5 3" preserveAspectRatio="xMidYMid slice">
+                      <svg width="18" height="18" viewBox="0 0 5 3" preserveAspectRatio="xMidYMid slice" style={{ display: "block", clipPath: "circle(50%)" }}>
                         <rect width="5" height="1" fill="#000000"></rect>
                         <rect y="1" width="5" height="1" fill="#DD0000"></rect>
                         <rect y="2" width="5" height="1" fill="#FFCE00"></rect>
@@ -328,11 +328,11 @@ export function Header() {
                         height: "18px",
                         borderRadius: "50%",
                         flexShrink: "0",
-                        overflow: "hidden", boxShadow: "0 0 0 1px rgba(31, 36, 108, 0.18)",
+                        overflow: "hidden", boxShadow: "0 0 0 1px rgba(31, 36, 108, 0.18)", background: "#D9DCEB",
                       }}
                       aria-hidden="true"
                     >
-                      <svg width="18" height="18" viewBox="0 0 8 5" preserveAspectRatio="xMidYMid slice">
+                      <svg width="18" height="18" viewBox="0 0 8 5" preserveAspectRatio="xMidYMid slice" style={{ display: "block", clipPath: "circle(50%)" }}>
                         <rect width="8" height="2.5" fill="#FFFFFF"></rect>
                         <rect y="2.5" width="8" height="2.5" fill="#DC143C"></rect>
                       </svg>
@@ -348,11 +348,11 @@ export function Header() {
                         height: "18px",
                         borderRadius: "50%",
                         flexShrink: "0",
-                        overflow: "hidden", boxShadow: "0 0 0 1px rgba(31, 36, 108, 0.18)",
+                        overflow: "hidden", boxShadow: "0 0 0 1px rgba(31, 36, 108, 0.18)", background: "#D9DCEB",
                       }}
                       aria-hidden="true"
                     >
-                      <svg width="18" height="18" viewBox="0 0 1200 800" preserveAspectRatio="xMidYMid slice">
+                      <svg width="18" height="18" viewBox="0 0 1200 800" preserveAspectRatio="xMidYMid slice" style={{ display: "block", clipPath: "circle(50%)" }}>
                         <rect width="1200" height="800" fill="#E30A17"></rect>
                         <circle cx="500" cy="400" r="200" fill="#FFFFFF"></circle>
                         <circle cx="550" cy="400" r="160" fill="#E30A17"></circle>
@@ -373,11 +373,11 @@ export function Header() {
                         height: "18px",
                         borderRadius: "50%",
                         flexShrink: "0",
-                        overflow: "hidden", boxShadow: "0 0 0 1px rgba(31, 36, 108, 0.18)",
+                        overflow: "hidden", boxShadow: "0 0 0 1px rgba(31, 36, 108, 0.18)", background: "#D9DCEB",
                       }}
                       aria-hidden="true"
                     >
-                      <svg width="18" height="18" viewBox="0 0 12 6" preserveAspectRatio="xMinYMid slice">
+                      <svg width="18" height="18" viewBox="0 0 12 6" preserveAspectRatio="xMinYMid slice" style={{ display: "block", clipPath: "circle(50%)" }}>
                         <rect width="12" height="2" fill="#00732F"></rect>
                         <rect y="2" width="12" height="2" fill="#FFFFFF"></rect>
                         <rect y="4" width="12" height="2" fill="#000000"></rect>
@@ -445,11 +445,11 @@ export function Header() {
                           height: "18px",
                           borderRadius: "50%",
                           flexShrink: "0",
-                          overflow: "hidden", boxShadow: "0 0 0 1px rgba(31, 36, 108, 0.18)",
+                          overflow: "hidden", boxShadow: "0 0 0 1px rgba(31, 36, 108, 0.18)", background: "#D9DCEB",
                         }}
                         aria-hidden="true"
                       >
-                        <svg width="18" height="18" viewBox="0 0 9 6" preserveAspectRatio="xMidYMid slice">
+                        <svg width="18" height="18" viewBox="0 0 9 6" preserveAspectRatio="xMidYMid slice" style={{ display: "block", clipPath: "circle(50%)" }}>
                           <rect width="9" height="2" fill="#AE1C28"></rect>
                           <rect y="2" width="9" height="2" fill="#FFFFFF"></rect>
                           <rect y="4" width="9" height="2" fill="#21468B"></rect>
@@ -483,11 +483,11 @@ export function Header() {
                           height: "18px",
                           borderRadius: "50%",
                           flexShrink: "0",
-                          overflow: "hidden", boxShadow: "0 0 0 1px rgba(31, 36, 108, 0.18)",
+                          overflow: "hidden", boxShadow: "0 0 0 1px rgba(31, 36, 108, 0.18)", background: "#D9DCEB",
                         }}
                         aria-hidden="true"
                       >
-                        <svg width="18" height="18" viewBox="0 0 60 30" preserveAspectRatio="xMidYMid slice">
+                        <svg width="18" height="18" viewBox="0 0 60 30" preserveAspectRatio="xMidYMid slice" style={{ display: "block", clipPath: "circle(50%)" }}>
                           <rect width="60" height="30" fill="#012169"></rect>
                           <path d="M0 0L60 30M60 0L0 30" stroke="#FFFFFF" strokeWidth="6"></path>
                           <path d="M0 0L60 30M60 0L0 30" stroke="#C8102E" strokeWidth="2"></path>
@@ -523,11 +523,11 @@ export function Header() {
                           height: "18px",
                           borderRadius: "50%",
                           flexShrink: "0",
-                          overflow: "hidden", boxShadow: "0 0 0 1px rgba(31, 36, 108, 0.18)",
+                          overflow: "hidden", boxShadow: "0 0 0 1px rgba(31, 36, 108, 0.18)", background: "#D9DCEB",
                         }}
                         aria-hidden="true"
                       >
-                        <svg width="18" height="18" viewBox="0 0 3 2" preserveAspectRatio="xMidYMid slice">
+                        <svg width="18" height="18" viewBox="0 0 3 2" preserveAspectRatio="xMidYMid slice" style={{ display: "block", clipPath: "circle(50%)" }}>
                           <rect width="3" height="2" fill="#AA151B"></rect>
                           <rect y="0.5" width="3" height="1" fill="#F1BF00"></rect>
                         </svg>
@@ -560,11 +560,11 @@ export function Header() {
                           height: "18px",
                           borderRadius: "50%",
                           flexShrink: "0",
-                          overflow: "hidden", boxShadow: "0 0 0 1px rgba(31, 36, 108, 0.18)",
+                          overflow: "hidden", boxShadow: "0 0 0 1px rgba(31, 36, 108, 0.18)", background: "#D9DCEB",
                         }}
                         aria-hidden="true"
                       >
-                        <svg width="18" height="18" viewBox="0 0 3 2" preserveAspectRatio="xMidYMid slice">
+                        <svg width="18" height="18" viewBox="0 0 3 2" preserveAspectRatio="xMidYMid slice" style={{ display: "block", clipPath: "circle(50%)" }}>
                           <rect width="1" height="2" fill="#0055A4"></rect>
                           <rect x="1" width="1" height="2" fill="#FFFFFF"></rect>
                           <rect x="2" width="1" height="2" fill="#EF4135"></rect>
@@ -598,11 +598,11 @@ export function Header() {
                           height: "18px",
                           borderRadius: "50%",
                           flexShrink: "0",
-                          overflow: "hidden", boxShadow: "0 0 0 1px rgba(31, 36, 108, 0.18)",
+                          overflow: "hidden", boxShadow: "0 0 0 1px rgba(31, 36, 108, 0.18)", background: "#D9DCEB",
                         }}
                         aria-hidden="true"
                       >
-                        <svg width="18" height="18" viewBox="0 0 5 3" preserveAspectRatio="xMidYMid slice">
+                        <svg width="18" height="18" viewBox="0 0 5 3" preserveAspectRatio="xMidYMid slice" style={{ display: "block", clipPath: "circle(50%)" }}>
                           <rect width="5" height="1" fill="#000000"></rect>
                           <rect y="1" width="5" height="1" fill="#DD0000"></rect>
                           <rect y="2" width="5" height="1" fill="#FFCE00"></rect>
@@ -636,11 +636,11 @@ export function Header() {
                           height: "18px",
                           borderRadius: "50%",
                           flexShrink: "0",
-                          overflow: "hidden", boxShadow: "0 0 0 1px rgba(31, 36, 108, 0.18)",
+                          overflow: "hidden", boxShadow: "0 0 0 1px rgba(31, 36, 108, 0.18)", background: "#D9DCEB",
                         }}
                         aria-hidden="true"
                       >
-                        <svg width="18" height="18" viewBox="0 0 8 5" preserveAspectRatio="xMidYMid slice">
+                        <svg width="18" height="18" viewBox="0 0 8 5" preserveAspectRatio="xMidYMid slice" style={{ display: "block", clipPath: "circle(50%)" }}>
                           <rect width="8" height="2.5" fill="#FFFFFF"></rect>
                           <rect y="2.5" width="8" height="2.5" fill="#DC143C"></rect>
                         </svg>
@@ -673,11 +673,11 @@ export function Header() {
                           height: "18px",
                           borderRadius: "50%",
                           flexShrink: "0",
-                          overflow: "hidden", boxShadow: "0 0 0 1px rgba(31, 36, 108, 0.18)",
+                          overflow: "hidden", boxShadow: "0 0 0 1px rgba(31, 36, 108, 0.18)", background: "#D9DCEB",
                         }}
                         aria-hidden="true"
                       >
-                        <svg width="18" height="18" viewBox="0 0 1200 800" preserveAspectRatio="xMidYMid slice">
+                        <svg width="18" height="18" viewBox="0 0 1200 800" preserveAspectRatio="xMidYMid slice" style={{ display: "block", clipPath: "circle(50%)" }}>
                           <rect width="1200" height="800" fill="#E30A17"></rect>
                           <circle cx="500" cy="400" r="200" fill="#FFFFFF"></circle>
                           <circle cx="550" cy="400" r="160" fill="#E30A17"></circle>
@@ -715,11 +715,11 @@ export function Header() {
                           height: "18px",
                           borderRadius: "50%",
                           flexShrink: "0",
-                          overflow: "hidden", boxShadow: "0 0 0 1px rgba(31, 36, 108, 0.18)",
+                          overflow: "hidden", boxShadow: "0 0 0 1px rgba(31, 36, 108, 0.18)", background: "#D9DCEB",
                         }}
                         aria-hidden="true"
                       >
-                        <svg width="18" height="18" viewBox="0 0 12 6" preserveAspectRatio="xMinYMid slice">
+                        <svg width="18" height="18" viewBox="0 0 12 6" preserveAspectRatio="xMinYMid slice" style={{ display: "block", clipPath: "circle(50%)" }}>
                           <rect width="12" height="2" fill="#00732F"></rect>
                           <rect y="2" width="12" height="2" fill="#FFFFFF"></rect>
                           <rect y="4" width="12" height="2" fill="#000000"></rect>
@@ -1563,11 +1563,11 @@ export function Header() {
                         height: "18px",
                         borderRadius: "50%",
                         flexShrink: "0",
-                        overflow: "hidden", boxShadow: "0 0 0 1px rgba(31, 36, 108, 0.18)",
+                        overflow: "hidden", boxShadow: "0 0 0 1px rgba(31, 36, 108, 0.18)", background: "#D9DCEB",
                       }}
                       aria-hidden="true"
                     >
-                      <svg width="18" height="18" viewBox="0 0 9 6" preserveAspectRatio="xMidYMid slice">
+                      <svg width="18" height="18" viewBox="0 0 9 6" preserveAspectRatio="xMidYMid slice" style={{ display: "block", clipPath: "circle(50%)" }}>
                         <rect width="9" height="2" fill="#AE1C28"></rect>
                         <rect y="2" width="9" height="2" fill="#FFFFFF"></rect>
                         <rect y="4" width="9" height="2" fill="#21468B"></rect>
@@ -1584,11 +1584,11 @@ export function Header() {
                         height: "18px",
                         borderRadius: "50%",
                         flexShrink: "0",
-                        overflow: "hidden", boxShadow: "0 0 0 1px rgba(31, 36, 108, 0.18)",
+                        overflow: "hidden", boxShadow: "0 0 0 1px rgba(31, 36, 108, 0.18)", background: "#D9DCEB",
                       }}
                       aria-hidden="true"
                     >
-                      <svg width="18" height="18" viewBox="0 0 60 30" preserveAspectRatio="xMidYMid slice">
+                      <svg width="18" height="18" viewBox="0 0 60 30" preserveAspectRatio="xMidYMid slice" style={{ display: "block", clipPath: "circle(50%)" }}>
                         <rect width="60" height="30" fill="#012169"></rect>
                         <path d="M0 0L60 30M60 0L0 30" stroke="#FFFFFF" strokeWidth="6"></path>
                         <path d="M0 0L60 30M60 0L0 30" stroke="#C8102E" strokeWidth="2"></path>
@@ -1607,11 +1607,11 @@ export function Header() {
                         height: "18px",
                         borderRadius: "50%",
                         flexShrink: "0",
-                        overflow: "hidden", boxShadow: "0 0 0 1px rgba(31, 36, 108, 0.18)",
+                        overflow: "hidden", boxShadow: "0 0 0 1px rgba(31, 36, 108, 0.18)", background: "#D9DCEB",
                       }}
                       aria-hidden="true"
                     >
-                      <svg width="18" height="18" viewBox="0 0 3 2" preserveAspectRatio="xMidYMid slice">
+                      <svg width="18" height="18" viewBox="0 0 3 2" preserveAspectRatio="xMidYMid slice" style={{ display: "block", clipPath: "circle(50%)" }}>
                         <rect width="3" height="2" fill="#AA151B"></rect>
                         <rect y="0.5" width="3" height="1" fill="#F1BF00"></rect>
                       </svg>
@@ -1627,11 +1627,11 @@ export function Header() {
                         height: "18px",
                         borderRadius: "50%",
                         flexShrink: "0",
-                        overflow: "hidden", boxShadow: "0 0 0 1px rgba(31, 36, 108, 0.18)",
+                        overflow: "hidden", boxShadow: "0 0 0 1px rgba(31, 36, 108, 0.18)", background: "#D9DCEB",
                       }}
                       aria-hidden="true"
                     >
-                      <svg width="18" height="18" viewBox="0 0 3 2" preserveAspectRatio="xMidYMid slice">
+                      <svg width="18" height="18" viewBox="0 0 3 2" preserveAspectRatio="xMidYMid slice" style={{ display: "block", clipPath: "circle(50%)" }}>
                         <rect width="1" height="2" fill="#0055A4"></rect>
                         <rect x="1" width="1" height="2" fill="#FFFFFF"></rect>
                         <rect x="2" width="1" height="2" fill="#EF4135"></rect>
@@ -1648,11 +1648,11 @@ export function Header() {
                         height: "18px",
                         borderRadius: "50%",
                         flexShrink: "0",
-                        overflow: "hidden", boxShadow: "0 0 0 1px rgba(31, 36, 108, 0.18)",
+                        overflow: "hidden", boxShadow: "0 0 0 1px rgba(31, 36, 108, 0.18)", background: "#D9DCEB",
                       }}
                       aria-hidden="true"
                     >
-                      <svg width="18" height="18" viewBox="0 0 5 3" preserveAspectRatio="xMidYMid slice">
+                      <svg width="18" height="18" viewBox="0 0 5 3" preserveAspectRatio="xMidYMid slice" style={{ display: "block", clipPath: "circle(50%)" }}>
                         <rect width="5" height="1" fill="#000000"></rect>
                         <rect y="1" width="5" height="1" fill="#DD0000"></rect>
                         <rect y="2" width="5" height="1" fill="#FFCE00"></rect>
@@ -1669,11 +1669,11 @@ export function Header() {
                         height: "18px",
                         borderRadius: "50%",
                         flexShrink: "0",
-                        overflow: "hidden", boxShadow: "0 0 0 1px rgba(31, 36, 108, 0.18)",
+                        overflow: "hidden", boxShadow: "0 0 0 1px rgba(31, 36, 108, 0.18)", background: "#D9DCEB",
                       }}
                       aria-hidden="true"
                     >
-                      <svg width="18" height="18" viewBox="0 0 8 5" preserveAspectRatio="xMidYMid slice">
+                      <svg width="18" height="18" viewBox="0 0 8 5" preserveAspectRatio="xMidYMid slice" style={{ display: "block", clipPath: "circle(50%)" }}>
                         <rect width="8" height="2.5" fill="#FFFFFF"></rect>
                         <rect y="2.5" width="8" height="2.5" fill="#DC143C"></rect>
                       </svg>
@@ -1689,11 +1689,11 @@ export function Header() {
                         height: "18px",
                         borderRadius: "50%",
                         flexShrink: "0",
-                        overflow: "hidden", boxShadow: "0 0 0 1px rgba(31, 36, 108, 0.18)",
+                        overflow: "hidden", boxShadow: "0 0 0 1px rgba(31, 36, 108, 0.18)", background: "#D9DCEB",
                       }}
                       aria-hidden="true"
                     >
-                      <svg width="18" height="18" viewBox="0 0 1200 800" preserveAspectRatio="xMidYMid slice">
+                      <svg width="18" height="18" viewBox="0 0 1200 800" preserveAspectRatio="xMidYMid slice" style={{ display: "block", clipPath: "circle(50%)" }}>
                         <rect width="1200" height="800" fill="#E30A17"></rect>
                         <circle cx="500" cy="400" r="200" fill="#FFFFFF"></circle>
                         <circle cx="550" cy="400" r="160" fill="#E30A17"></circle>
@@ -1714,11 +1714,11 @@ export function Header() {
                         height: "18px",
                         borderRadius: "50%",
                         flexShrink: "0",
-                        overflow: "hidden", boxShadow: "0 0 0 1px rgba(31, 36, 108, 0.18)",
+                        overflow: "hidden", boxShadow: "0 0 0 1px rgba(31, 36, 108, 0.18)", background: "#D9DCEB",
                       }}
                       aria-hidden="true"
                     >
-                      <svg width="18" height="18" viewBox="0 0 12 6" preserveAspectRatio="xMinYMid slice">
+                      <svg width="18" height="18" viewBox="0 0 12 6" preserveAspectRatio="xMinYMid slice" style={{ display: "block", clipPath: "circle(50%)" }}>
                         <rect width="12" height="2" fill="#00732F"></rect>
                         <rect y="2" width="12" height="2" fill="#FFFFFF"></rect>
                         <rect y="4" width="12" height="2" fill="#000000"></rect>
@@ -1786,11 +1786,11 @@ export function Header() {
                           height: "18px",
                           borderRadius: "50%",
                           flexShrink: "0",
-                          overflow: "hidden", boxShadow: "0 0 0 1px rgba(31, 36, 108, 0.18)",
+                          overflow: "hidden", boxShadow: "0 0 0 1px rgba(31, 36, 108, 0.18)", background: "#D9DCEB",
                         }}
                         aria-hidden="true"
                       >
-                        <svg width="18" height="18" viewBox="0 0 9 6" preserveAspectRatio="xMidYMid slice">
+                        <svg width="18" height="18" viewBox="0 0 9 6" preserveAspectRatio="xMidYMid slice" style={{ display: "block", clipPath: "circle(50%)" }}>
                           <rect width="9" height="2" fill="#AE1C28"></rect>
                           <rect y="2" width="9" height="2" fill="#FFFFFF"></rect>
                           <rect y="4" width="9" height="2" fill="#21468B"></rect>
@@ -1824,11 +1824,11 @@ export function Header() {
                           height: "18px",
                           borderRadius: "50%",
                           flexShrink: "0",
-                          overflow: "hidden", boxShadow: "0 0 0 1px rgba(31, 36, 108, 0.18)",
+                          overflow: "hidden", boxShadow: "0 0 0 1px rgba(31, 36, 108, 0.18)", background: "#D9DCEB",
                         }}
                         aria-hidden="true"
                       >
-                        <svg width="18" height="18" viewBox="0 0 60 30" preserveAspectRatio="xMidYMid slice">
+                        <svg width="18" height="18" viewBox="0 0 60 30" preserveAspectRatio="xMidYMid slice" style={{ display: "block", clipPath: "circle(50%)" }}>
                           <rect width="60" height="30" fill="#012169"></rect>
                           <path d="M0 0L60 30M60 0L0 30" stroke="#FFFFFF" strokeWidth="6"></path>
                           <path d="M0 0L60 30M60 0L0 30" stroke="#C8102E" strokeWidth="2"></path>
@@ -1864,11 +1864,11 @@ export function Header() {
                           height: "18px",
                           borderRadius: "50%",
                           flexShrink: "0",
-                          overflow: "hidden", boxShadow: "0 0 0 1px rgba(31, 36, 108, 0.18)",
+                          overflow: "hidden", boxShadow: "0 0 0 1px rgba(31, 36, 108, 0.18)", background: "#D9DCEB",
                         }}
                         aria-hidden="true"
                       >
-                        <svg width="18" height="18" viewBox="0 0 3 2" preserveAspectRatio="xMidYMid slice">
+                        <svg width="18" height="18" viewBox="0 0 3 2" preserveAspectRatio="xMidYMid slice" style={{ display: "block", clipPath: "circle(50%)" }}>
                           <rect width="3" height="2" fill="#AA151B"></rect>
                           <rect y="0.5" width="3" height="1" fill="#F1BF00"></rect>
                         </svg>
@@ -1901,11 +1901,11 @@ export function Header() {
                           height: "18px",
                           borderRadius: "50%",
                           flexShrink: "0",
-                          overflow: "hidden", boxShadow: "0 0 0 1px rgba(31, 36, 108, 0.18)",
+                          overflow: "hidden", boxShadow: "0 0 0 1px rgba(31, 36, 108, 0.18)", background: "#D9DCEB",
                         }}
                         aria-hidden="true"
                       >
-                        <svg width="18" height="18" viewBox="0 0 3 2" preserveAspectRatio="xMidYMid slice">
+                        <svg width="18" height="18" viewBox="0 0 3 2" preserveAspectRatio="xMidYMid slice" style={{ display: "block", clipPath: "circle(50%)" }}>
                           <rect width="1" height="2" fill="#0055A4"></rect>
                           <rect x="1" width="1" height="2" fill="#FFFFFF"></rect>
                           <rect x="2" width="1" height="2" fill="#EF4135"></rect>
@@ -1939,11 +1939,11 @@ export function Header() {
                           height: "18px",
                           borderRadius: "50%",
                           flexShrink: "0",
-                          overflow: "hidden", boxShadow: "0 0 0 1px rgba(31, 36, 108, 0.18)",
+                          overflow: "hidden", boxShadow: "0 0 0 1px rgba(31, 36, 108, 0.18)", background: "#D9DCEB",
                         }}
                         aria-hidden="true"
                       >
-                        <svg width="18" height="18" viewBox="0 0 5 3" preserveAspectRatio="xMidYMid slice">
+                        <svg width="18" height="18" viewBox="0 0 5 3" preserveAspectRatio="xMidYMid slice" style={{ display: "block", clipPath: "circle(50%)" }}>
                           <rect width="5" height="1" fill="#000000"></rect>
                           <rect y="1" width="5" height="1" fill="#DD0000"></rect>
                           <rect y="2" width="5" height="1" fill="#FFCE00"></rect>
@@ -1977,11 +1977,11 @@ export function Header() {
                           height: "18px",
                           borderRadius: "50%",
                           flexShrink: "0",
-                          overflow: "hidden", boxShadow: "0 0 0 1px rgba(31, 36, 108, 0.18)",
+                          overflow: "hidden", boxShadow: "0 0 0 1px rgba(31, 36, 108, 0.18)", background: "#D9DCEB",
                         }}
                         aria-hidden="true"
                       >
-                        <svg width="18" height="18" viewBox="0 0 8 5" preserveAspectRatio="xMidYMid slice">
+                        <svg width="18" height="18" viewBox="0 0 8 5" preserveAspectRatio="xMidYMid slice" style={{ display: "block", clipPath: "circle(50%)" }}>
                           <rect width="8" height="2.5" fill="#FFFFFF"></rect>
                           <rect y="2.5" width="8" height="2.5" fill="#DC143C"></rect>
                         </svg>
@@ -2014,11 +2014,11 @@ export function Header() {
                           height: "18px",
                           borderRadius: "50%",
                           flexShrink: "0",
-                          overflow: "hidden", boxShadow: "0 0 0 1px rgba(31, 36, 108, 0.18)",
+                          overflow: "hidden", boxShadow: "0 0 0 1px rgba(31, 36, 108, 0.18)", background: "#D9DCEB",
                         }}
                         aria-hidden="true"
                       >
-                        <svg width="18" height="18" viewBox="0 0 1200 800" preserveAspectRatio="xMidYMid slice">
+                        <svg width="18" height="18" viewBox="0 0 1200 800" preserveAspectRatio="xMidYMid slice" style={{ display: "block", clipPath: "circle(50%)" }}>
                           <rect width="1200" height="800" fill="#E30A17"></rect>
                           <circle cx="500" cy="400" r="200" fill="#FFFFFF"></circle>
                           <circle cx="550" cy="400" r="160" fill="#E30A17"></circle>
@@ -2056,11 +2056,11 @@ export function Header() {
                           height: "18px",
                           borderRadius: "50%",
                           flexShrink: "0",
-                          overflow: "hidden", boxShadow: "0 0 0 1px rgba(31, 36, 108, 0.18)",
+                          overflow: "hidden", boxShadow: "0 0 0 1px rgba(31, 36, 108, 0.18)", background: "#D9DCEB",
                         }}
                         aria-hidden="true"
                       >
-                        <svg width="18" height="18" viewBox="0 0 12 6" preserveAspectRatio="xMinYMid slice">
+                        <svg width="18" height="18" viewBox="0 0 12 6" preserveAspectRatio="xMinYMid slice" style={{ display: "block", clipPath: "circle(50%)" }}>
                           <rect width="12" height="2" fill="#00732F"></rect>
                           <rect y="2" width="12" height="2" fill="#FFFFFF"></rect>
                           <rect y="4" width="12" height="2" fill="#000000"></rect>
