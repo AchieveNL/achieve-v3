@@ -1368,7 +1368,7 @@ export function Header() {
                       </svg>
                     </span>
                     <span className="nav-dd-desc">
-                      {t("Vanaf")} <strong style={{ color: "#1F246C", fontWeight: "700" }}>{t("€497")}</strong> {t("ex. btw")}
+                      {t("Vanaf")} <strong style={{ color: "#1F246C", fontWeight: "700" }}>{t("€897")}</strong> {t("ex. btw")}
                     </span>
                   </a>
                   <a href={href("Tarieven", "smm")} className="nav-dd-link" data-svc="social-media-management">
