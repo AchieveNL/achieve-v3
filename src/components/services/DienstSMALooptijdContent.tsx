@@ -2164,7 +2164,7 @@ export function DienstSMALooptijdContent() {
                   <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Advertentiebudget")}</strong>
                   <span style={{ fontSize: "14px", lineHeight: "1.55", color: "#3A4150" }}>
                     {t(
-                      "Je advertentiebudget betaal je rechtstreeks aan het platform, zoals Meta of TikTok, en staat los van onze tarieven. Minimaal €20 per dag (ongeveer €600 per maand) is nodig om de roadmap effectief uit te voeren.",
+                      "Je advertentiebudget betaal je rechtstreeks aan het platform, zoals Meta of TikTok, en staat los van onze tarieven. Minimaal €1.000 per maand is nodig om de roadmap effectief uit te voeren.",
                     )}
                   </span>
                 </div>
@@ -2183,7 +2183,7 @@ export function DienstSMALooptijdContent() {
                     color: "#1F246C",
                   }}
                 >
-                  {t("Minimaal €20 per dag")}
+                  {t("Minimaal €1.000 p/mnd")}
                 </div>
                 <div
                   className="tf-cell"
@@ -2200,7 +2200,7 @@ export function DienstSMALooptijdContent() {
                     background: "#F6F2FF",
                   }}
                 >
-                  {t("Minimaal €20 per dag")}
+                  {t("Minimaal €1.000 p/mnd")}
                 </div>
                 <div
                   className="tf-cell"
@@ -2217,7 +2217,7 @@ export function DienstSMALooptijdContent() {
                     color: "#1F246C",
                   }}
                 >
-                  {t("Minimaal €20 per dag")}
+                  {t("Minimaal €1.000 p/mnd")}
                 </div>
               </div>
               <div
@@ -2371,7 +2371,168 @@ export function DienstSMALooptijdContent() {
                         "Creatives: de beelden, video's en teksten in je advertenties. We vernieuwen ze elke maand, zodat je doelgroep niet op ze uitgekeken raakt.",
                       )}
                     </Tip>{" "}
-                    {t("| Bijsturen doelgroepen & budgetverdeling | Maandelijkse rapportage | Evaluatiecall")}
+                    {t("| Bijsturen advertenties & budgetverdeling | Maandelijkse rapportage | Evaluatiecall")}
+                  </span>
+                </div>
+                <div
+                  className="tf-cell"
+                  data-plan="Basic"
+                  style={{
+                    borderLeft: "1px solid #E4E6EA",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    textAlign: "center",
+                    padding: "20px 12px",
+                    fontSize: "14px",
+                    fontWeight: "600",
+                    color: "#1F246C",
+                  }}
+                >
+                  <span
+                    aria-hidden="true"
+                    style={{
+                      width: "36px",
+                      height: "36px",
+                      borderRadius: "50%",
+                      background: "#EFE8FD",
+                      color: "#8639FA",
+                      display: "inline-flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                    }}
+                  >
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2.6"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    >
+                      <path d="M5 12.5l4.5 4.5L19 7.5"></path>
+                    </svg>
+                  </span>
+                  <span
+                    className="sr-only"
+                    style={{ position: "absolute", width: "1px", height: "1px", overflow: "hidden", clip: "rect(0 0 0 0)" }}
+                  >
+                    {t("Inbegrepen")}
+                  </span>
+                </div>
+                <div
+                  className="tf-cell"
+                  data-plan="Standard"
+                  style={{
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    textAlign: "center",
+                    padding: "20px 12px",
+                    fontSize: "14px",
+                    fontWeight: "600",
+                    color: "#1F246C",
+                    background: "#F6F2FF",
+                  }}
+                >
+                  <span
+                    aria-hidden="true"
+                    style={{
+                      width: "36px",
+                      height: "36px",
+                      borderRadius: "50%",
+                      background: "#EFE8FD",
+                      color: "#8639FA",
+                      display: "inline-flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                    }}
+                  >
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2.6"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    >
+                      <path d="M5 12.5l4.5 4.5L19 7.5"></path>
+                    </svg>
+                  </span>
+                  <span
+                    className="sr-only"
+                    style={{ position: "absolute", width: "1px", height: "1px", overflow: "hidden", clip: "rect(0 0 0 0)" }}
+                  >
+                    {t("Inbegrepen")}
+                  </span>
+                </div>
+                <div
+                  className="tf-cell"
+                  data-plan="Premium"
+                  style={{
+                    borderLeft: "1px solid #E4E6EA",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    textAlign: "center",
+                    padding: "20px 12px",
+                    fontSize: "14px",
+                    fontWeight: "600",
+                    color: "#1F246C",
+                  }}
+                >
+                  <span
+                    aria-hidden="true"
+                    style={{
+                      width: "36px",
+                      height: "36px",
+                      borderRadius: "50%",
+                      background: "#EFE8FD",
+                      color: "#8639FA",
+                      display: "inline-flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                    }}
+                  >
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2.6"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    >
+                      <path d="M5 12.5l4.5 4.5L19 7.5"></path>
+                    </svg>
+                  </span>
+                  <span
+                    className="sr-only"
+                    style={{ position: "absolute", width: "1px", height: "1px", overflow: "hidden", clip: "rect(0 0 0 0)" }}
+                  >
+                    {t("Inbegrepen")}
+                  </span>
+                </div>
+              </div>
+              <div
+                className="tf-row"
+                style={{
+                  display: "grid",
+                  gridTemplateColumns: "minmax(0, 1.6fr) repeat(3, minmax(0, 1fr))",
+                  borderTop: "1px solid #E4E6EA",
+                }}
+              >
+                <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "8px" }}>
+                  <strong style={{ fontSize: "15px", color: "#8639FA" }}>{t("Elk kwartaal")}</strong>
+                  <span style={{ fontSize: "14px", lineHeight: "1.55", color: "#3A4150" }}>
+                    {t(
+                      "Volledige accountanalyse | Check of het budget vooral nieuwe klanten bereikt | Doelen herijken op basis van de cijfers | Check advertenties van concurrenten",
+                    )}
                   </span>
                 </div>
                 <div
@@ -2531,10 +2692,10 @@ export function DienstSMALooptijdContent() {
                   <strong style={{ fontSize: "15px", color: "#1F246C" }}>
                     {t("Maand 1")}
                     <span aria-hidden="true"> {t("–")} </span>
-                    <span>{t("Fundament en tracking")}</span>
+                    <span>{t("Fundament en eerste campagne")}</span>
                   </strong>
                   <span style={{ fontSize: "14px", lineHeight: "1.55", color: "#3A4150" }}>
-                    {t("Intakegesprek en strategie | Pixel, tracking en conversies instellen | Doelgroepen opbouwen")}
+                    {t("Intakegesprek en strategie | Pixel, server-side koppeling en conversies instellen | Eerste campagne live")}
                   </span>
                 </div>
                 <div
@@ -2694,10 +2855,10 @@ export function DienstSMALooptijdContent() {
                   <strong style={{ fontSize: "15px", color: "#1F246C" }}>
                     {t("Maand 2")}
                     <span aria-hidden="true"> {t("–")} </span>
-                    <span>{t("Eerste campagnes live")}</span>
+                    <span>{t("Eerste resultaten")}</span>
                   </strong>
                   <span style={{ fontSize: "14px", lineHeight: "1.55", color: "#3A4150" }}>
-                    {t("Concept en creatives maken | Campagnes opzetten en live zetten | Eerste resultaten meten")}
+                    {t("Eerste resultaten meten | Video- en UGC-advertenties toevoegen | Advertenties zonder resultaat vervangen")}
                   </span>
                 </div>
                 <div
@@ -2860,7 +3021,7 @@ export function DienstSMALooptijdContent() {
                     <span>{t("Testen en bijsturen")}</span>
                   </strong>
                   <span style={{ fontSize: "14px", lineHeight: "1.55", color: "#3A4150" }}>
-                    {t("A/B-testen op advertenties en doelgroepen | Budget naar wat werkt | Evaluatie na 3 maanden")}
+                    {t("A/B-testen op advertenties | Budget naar wat werkt | Evaluatie na 3 maanden")}
                   </span>
                 </div>
                 <div
@@ -3020,10 +3181,10 @@ export function DienstSMALooptijdContent() {
                   <strong style={{ fontSize: "15px", color: "#1F246C" }}>
                     {t("Maand 4")}
                     <span aria-hidden="true"> {t("–")} </span>
-                    <span>{t("Remarketing")}</span>
+                    <span>{t("Bezoekers en klanten opvolgen")}</span>
                   </strong>
                   <span style={{ fontSize: "14px", lineHeight: "1.55", color: "#3A4150" }}>
-                    {t("Remarketing voor websitebezoekers en volgers | Nieuwe creatives")}
+                    {t("Advertenties voor websitebezoekers en volgers binnen de bestaande campagne | Check verdeling nieuwe en bestaande klanten | Nieuwe creatives")}
                   </span>
                 </div>
                 <div
@@ -3163,7 +3324,7 @@ export function DienstSMALooptijdContent() {
                     <span>{t("Nieuwe doelgroepen")}</span>
                   </strong>
                   <span style={{ fontSize: "14px", lineHeight: "1.55", color: "#3A4150" }}>
-                    {t("Lookalike-doelgroepen testen | Nieuwe creatives | Budget bijsturen")}
+                    {t("Nieuwe invalshoeken die nieuwe doelgroepen aanspreken | Nieuwe creatives | Budget bijsturen")}
                   </span>
                 </div>
                 <div
@@ -3443,7 +3604,7 @@ export function DienstSMALooptijdContent() {
                     <span>{t("Tweede platform")}</span>
                   </strong>
                   <span style={{ fontSize: "14px", lineHeight: "1.55", color: "#3A4150" }}>
-                    {t("Uitbreiden naar een tweede platform, zoals TikTok of LinkedIn | Nieuwe creatives")}
+                    {t("Uitbreiden naar een tweede platform, zoals TikTok of LinkedIn, met een eigen advertentiebudget | Nieuwe creatives")}
                   </span>
                 </div>
                 <div
@@ -3557,10 +3718,10 @@ export function DienstSMALooptijdContent() {
                   <strong style={{ fontSize: "15px", color: "#1F246C" }}>
                     {t("Maand 8")}
                     <span aria-hidden="true"> {t("–")} </span>
-                    <span>{t("Video en UGC")}</span>
+                    <span>{t("Nieuwe formats")}</span>
                   </strong>
                   <span style={{ fontSize: "14px", lineHeight: "1.55", color: "#3A4150" }}>
-                    {t("Video- en UGC-advertenties testen | Doelgroepen verfijnen")}
+                    {t("Samenwerkingsadvertenties met makers of klanten testen | Advertentiemoeheid signaleren & op tijd vervangen")}
                   </span>
                 </div>
                 <div
@@ -3677,7 +3838,7 @@ export function DienstSMALooptijdContent() {
                     <span>{t("Seizoenen en acties")}</span>
                   </strong>
                   <span style={{ fontSize: "14px", lineHeight: "1.55", color: "#3A4150" }}>
-                    {t("Campagnes rond seizoenen en acties | Budget opschalen op pieken")}
+                    {t("Acties en advertenties rond seizoenen | Budget opschalen op pieken")}
                   </span>
                 </div>
                 <div
@@ -3791,10 +3952,10 @@ export function DienstSMALooptijdContent() {
                   <strong style={{ fontSize: "15px", color: "#1F246C" }}>
                     {t("Maand 10")}
                     <span aria-hidden="true"> {t("–")} </span>
-                    <span>{t("Funnel verdiepen")}</span>
+                    <span>{t("Sturen op waarde")}</span>
                   </strong>
                   <span style={{ fontSize: "14px", lineHeight: "1.55", color: "#3A4150" }}>
-                    {t("Campagnes per fase: bekendheid, overweging en conversie | Nieuwe creatives")}
+                    {t("Webshop: budget naar producten met de beste marge | Dienstverlener: sturen op aanvragen die klant worden | Nieuwe creatives")}
                   </span>
                 </div>
                 <div
@@ -3911,7 +4072,7 @@ export function DienstSMALooptijdContent() {
                     <span>{t("Verfijnen op data")}</span>
                   </strong>
                   <span style={{ fontSize: "14px", lineHeight: "1.55", color: "#3A4150" }}>
-                    {t("Doelgroepen en budget verfijnen op basis van data | Nieuwe A/B-testen")}
+                    {t("Advertenties en budget verfijnen op basis van data | Nieuwe A/B-testen")}
                   </span>
                 </div>
                 <div
@@ -4333,10 +4494,10 @@ export function DienstSMALooptijdContent() {
                 </div>
                 <div style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}>
                   <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Advertentiebudget")}</strong>
-                  <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("Minimaal €20 per dag")}</span>
+                  <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("Minimaal €1.000 p/mnd")}</span>
                   <span style={{ fontSize: "13px", lineHeight: "1.55", color: "#5A6273" }}>
                     {t(
-                      "Je advertentiebudget betaal je rechtstreeks aan het platform, zoals Meta of TikTok, en staat los van onze tarieven. Minimaal €20 per dag (ongeveer €600 per maand) is nodig om de roadmap effectief uit te voeren.",
+                      "Je advertentiebudget betaal je rechtstreeks aan het platform, zoals Meta of TikTok, en staat los van onze tarieven. Minimaal €1.000 per maand is nodig om de roadmap effectief uit te voeren.",
                     )}
                   </span>
                 </div>
@@ -4401,7 +4562,7 @@ export function DienstSMALooptijdContent() {
                         "Creatives: de beelden, video's en teksten in je advertenties. We vernieuwen ze elke maand, zodat je doelgroep niet op ze uitgekeken raakt.",
                       )}
                     </Tip>{" "}
-                    {t("| Bijsturen doelgroepen & budgetverdeling | Maandelijkse rapportage | Evaluatiecall")}
+                    {t("| Bijsturen advertenties & budgetverdeling | Maandelijkse rapportage | Evaluatiecall")}
                   </span>
                 </div>
                 <div style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}>
@@ -4444,11 +4605,8 @@ export function DienstSMALooptijdContent() {
                   </div>
                   <span style={{ fontSize: "13px", lineHeight: "1.55", color: "#5A6273" }}>
                     {t(
-                      "Volledige accountanalyse | Herverdeling budget over platforms | Doelen herijken op basis van de cijfers | A/B-testen op nieuwe doelgroepen",
+                      "Volledige accountanalyse | Check of het budget vooral nieuwe klanten bereikt | Doelen herijken op basis van de cijfers | Check advertenties van concurrenten",
                     )}
-                    <Tip label={ta("Uitleg")}>
-                      {t("A/B-testen: twee versies van een advertentie tegen elkaar testen en doorgaan met de beste.")}
-                    </Tip>
                   </span>
                 </div>
                 <div style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}>
@@ -4599,10 +4757,10 @@ export function DienstSMALooptijdContent() {
                 </div>
                 <div style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}>
                   <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Advertentiebudget")}</strong>
-                  <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("Minimaal €20 per dag")}</span>
+                  <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("Minimaal €1.000 p/mnd")}</span>
                   <span style={{ fontSize: "13px", lineHeight: "1.55", color: "#5A6273" }}>
                     {t(
-                      "Je advertentiebudget betaal je rechtstreeks aan het platform, zoals Meta of TikTok, en staat los van onze tarieven. Minimaal €20 per dag (ongeveer €600 per maand) is nodig om de roadmap effectief uit te voeren.",
+                      "Je advertentiebudget betaal je rechtstreeks aan het platform, zoals Meta of TikTok, en staat los van onze tarieven. Minimaal €1.000 per maand is nodig om de roadmap effectief uit te voeren.",
                     )}
                   </span>
                 </div>
@@ -4667,7 +4825,7 @@ export function DienstSMALooptijdContent() {
                         "Creatives: de beelden, video's en teksten in je advertenties. We vernieuwen ze elke maand, zodat je doelgroep niet op ze uitgekeken raakt.",
                       )}
                     </Tip>{" "}
-                    {t("| Bijsturen doelgroepen & budgetverdeling | Maandelijkse rapportage | Evaluatiecall")}
+                    {t("| Bijsturen advertenties & budgetverdeling | Maandelijkse rapportage | Evaluatiecall")}
                   </span>
                 </div>
                 <div style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}>
@@ -4710,11 +4868,8 @@ export function DienstSMALooptijdContent() {
                   </div>
                   <span style={{ fontSize: "13px", lineHeight: "1.55", color: "#5A6273" }}>
                     {t(
-                      "Volledige accountanalyse | Herverdeling budget over platforms | Doelen herijken op basis van de cijfers | A/B-testen op nieuwe doelgroepen",
+                      "Volledige accountanalyse | Check of het budget vooral nieuwe klanten bereikt | Doelen herijken op basis van de cijfers | Check advertenties van concurrenten",
                     )}
-                    <Tip label={ta("Uitleg")}>
-                      {t("A/B-testen: twee versies van een advertentie tegen elkaar testen en doorgaan met de beste.")}
-                    </Tip>
                   </span>
                 </div>
                 <div style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}>
@@ -4843,10 +4998,10 @@ export function DienstSMALooptijdContent() {
                 </div>
                 <div style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}>
                   <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Advertentiebudget")}</strong>
-                  <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("Minimaal €20 per dag")}</span>
+                  <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t("Minimaal €1.000 p/mnd")}</span>
                   <span style={{ fontSize: "13px", lineHeight: "1.55", color: "#5A6273" }}>
                     {t(
-                      "Je advertentiebudget betaal je rechtstreeks aan het platform, zoals Meta of TikTok, en staat los van onze tarieven. Minimaal €20 per dag (ongeveer €600 per maand) is nodig om de roadmap effectief uit te voeren.",
+                      "Je advertentiebudget betaal je rechtstreeks aan het platform, zoals Meta of TikTok, en staat los van onze tarieven. Minimaal €1.000 per maand is nodig om de roadmap effectief uit te voeren.",
                     )}
                   </span>
                 </div>
@@ -4911,7 +5066,7 @@ export function DienstSMALooptijdContent() {
                         "Creatives: de beelden, video's en teksten in je advertenties. We vernieuwen ze elke maand, zodat je doelgroep niet op ze uitgekeken raakt.",
                       )}
                     </Tip>{" "}
-                    {t("| Bijsturen doelgroepen & budgetverdeling | Maandelijkse rapportage | Evaluatiecall")}
+                    {t("| Bijsturen advertenties & budgetverdeling | Maandelijkse rapportage | Evaluatiecall")}
                   </span>
                 </div>
                 <div style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}>
@@ -4954,11 +5109,8 @@ export function DienstSMALooptijdContent() {
                   </div>
                   <span style={{ fontSize: "13px", lineHeight: "1.55", color: "#5A6273" }}>
                     {t(
-                      "Volledige accountanalyse | Herverdeling budget over platforms | Doelen herijken op basis van de cijfers | A/B-testen op nieuwe doelgroepen",
+                      "Volledige accountanalyse | Check of het budget vooral nieuwe klanten bereikt | Doelen herijken op basis van de cijfers | Check advertenties van concurrenten",
                     )}
-                    <Tip label={ta("Uitleg")}>
-                      {t("A/B-testen: twee versies van een advertentie tegen elkaar testen en doorgaan met de beste.")}
-                    </Tip>
                   </span>
                 </div>
                 <div style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}>
@@ -5049,6 +5201,203 @@ export function DienstSMALooptijdContent() {
                 </svg>
               </button>
             </div>
+          </div>
+        </div>
+      </section>
+      <section id="goed-om-te-weten" className="pj-wrap pj-sec" style={{ background: "#FFFFFF", padding: "112px 40px 112px" }}>
+        <div style={{ maxWidth: "900px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "32px" }}>
+          <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "16px", textAlign: "center" }}>
+            <h2
+              style={{
+                margin: "0",
+                color: "#1F246C",
+                fontFamily: "var(--font-display)",
+                fontWeight: "700",
+                fontSize: "clamp(34px, 4vw, 52px)",
+                lineHeight: "1",
+                letterSpacing: "-0.025em",
+              }}
+            >
+              {t("Goed om te")}{" "}
+              <Accent from="#8639FA" to="#0F8AE5">
+                <span
+                  className="grad-text"
+                  style={{
+                    background: "linear-gradient(90deg, #8639FA 0%, #0F8AE5 100%)",
+                    WebkitBackgroundClip: "text",
+                    backgroundClip: "text",
+                    WebkitTextFillColor: "transparent",
+                  }}
+                >
+                  {t("weten.")}
+                </span>
+              </Accent>
+            </h2>
+            <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.65", color: "#3A4150" }}>
+              {t("Duidelijkheid vooraf, zodat je precies weet waar je aan toe bent.")}
+            </p>
+          </div>
+          <div style={{ display: "flex", flexDirection: "column", gap: "12px" }}>
+            <details className="tf-faq" style={{ background: "#F2F8FE", borderRadius: "16px", padding: "0 24px" }}>
+              <summary
+                style={{
+                  listStyle: "none",
+                  cursor: "pointer",
+                  minHeight: "60px",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "space-between",
+                  gap: "16px",
+                  fontSize: "16px",
+                  fontWeight: "600",
+                  color: "#1F246C",
+                }}
+              >
+                {t("Gebruik je al Meta-advertenties?")}
+                <svg
+                  className="tf-faq-ar"
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2.2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  aria-hidden="true"
+                >
+                  <path d="M9 6l6 6-6 6"></path>
+                </svg>
+              </summary>
+              <p style={{ margin: "0 0 12px", fontSize: "15px", lineHeight: "1.65", color: "#3A4150" }}>
+                {t(
+                  "Dan werken we verder vanuit je bestaande advertentieaccount en pixel. Zo blijft de opgebouwde data behouden en weet Meta al wie er bij jou koopt of een aanvraag doet.",
+                )}
+              </p><p style={{ margin: "0 0 20px", fontSize: "15px", lineHeight: "1.65", color: "#3A4150" }}>
+                {t(
+                  "Een nieuw account begint zonder data en heeft daarom eerst tijd nodig om te leren.",
+                )}
+              </p>
+            </details>
+            <details className="tf-faq" style={{ background: "#F2F8FE", borderRadius: "16px", padding: "0 24px" }}>
+              <summary
+                style={{
+                  listStyle: "none",
+                  cursor: "pointer",
+                  minHeight: "60px",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "space-between",
+                  gap: "16px",
+                  fontSize: "16px",
+                  fontWeight: "600",
+                  color: "#1F246C",
+                }}
+              >
+                {t("Wat we van jou nodig hebben")}
+                <svg
+                  className="tf-faq-ar"
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2.2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  aria-hidden="true"
+                >
+                  <path d="M9 6l6 6-6 6"></path>
+                </svg>
+              </summary>
+              <p style={{ margin: "0 0 20px", fontSize: "15px", lineHeight: "1.65", color: "#3A4150" }}>
+                {t(
+                  "Beheerdertoegang tot je Meta Business-account, je Facebook-pagina en Instagram, en toegang tot je website of Google Tag Manager. Daarnaast beeldmateriaal: foto's, video's en reviews van klanten, hoe eenvoudiger hoe beter. En iemand die onze vragen binnen enkele werkdagen kan beantwoorden.",
+                )}
+              </p>
+            </details>
+            <details className="tf-faq" style={{ background: "#F2F8FE", borderRadius: "16px", padding: "0 24px" }}>
+              <summary
+                style={{
+                  listStyle: "none",
+                  cursor: "pointer",
+                  minHeight: "60px",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "space-between",
+                  gap: "16px",
+                  fontSize: "16px",
+                  fontWeight: "600",
+                  color: "#1F246C",
+                }}
+              >
+                {t("Wat er niet in zit")}
+                <svg
+                  className="tf-faq-ar"
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2.2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  aria-hidden="true"
+                >
+                  <path d="M9 6l6 6-6 6"></path>
+                </svg>
+              </summary>
+              <p style={{ margin: "0 0 12px", fontSize: "15px", lineHeight: "1.65", color: "#3A4150" }}>
+                {t(
+                  "Het opnemen van video's, UGC met makers en fotografie, het bouwen van een nieuwe website of landingspagina en het opzetten van een productcatalogus als je die nog niet hebt. Advertenties maken we met beeld dat je al hebt of aanlevert.",
+                )}
+              </p><p style={{ margin: "0 0 20px", fontSize: "15px", lineHeight: "1.65", color: "#3A4150" }}>
+                {t(
+                  "We bepalen wat er nodig is en leveren hiervoor duidelijke specificaties aan. Of wij dit uitvoeren of een partij die je zelf kiest, en welke kosten daaraan verbonden zijn, bespreken we zodra dit aan de orde is.",
+                )}
+              </p>
+            </details>
+            <details className="tf-faq" style={{ background: "#F2F8FE", borderRadius: "16px", padding: "0 24px" }}>
+              <summary
+                style={{
+                  listStyle: "none",
+                  cursor: "pointer",
+                  minHeight: "60px",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "space-between",
+                  gap: "16px",
+                  fontSize: "16px",
+                  fontWeight: "600",
+                  color: "#1F246C",
+                }}
+              >
+                {t("Na afloop van je pakket")}
+                <svg
+                  className="tf-faq-ar"
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2.2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  aria-hidden="true"
+                >
+                  <path d="M9 6l6 6-6 6"></path>
+                </svg>
+              </summary>
+              <p style={{ margin: "0 0 12px", fontSize: "15px", lineHeight: "1.65", color: "#3A4150" }}>
+                {t(
+                  "In de laatste maand bespreken we hoe je verder wilt. Besluit je te stoppen? Dan behoud je volledige toegang tot het advertentieaccount en alles wat we hebben opgebouwd, waaronder de campagnes, advertenties, pixeldata en conversiemetingen.",
+                )}
+              </p><p style={{ margin: "0 0 20px", fontSize: "15px", lineHeight: "1.65", color: "#3A4150" }}>
+                {t(
+                  "Het account is en blijft van jou.",
+                )}
+              </p>
+            </details>
           </div>
         </div>
       </section>
