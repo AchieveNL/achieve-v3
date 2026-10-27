@@ -16,7 +16,7 @@ export function CaseRonVanDamContent() {
   const [mkI, setMkI] = useState(0);
   const SLIDES: { img: string; alt: string; mpos?: string; video?: string }[] = [
     { img: "/media/cases/ron-van-dam-laptop.webp", mpos: "32% 50%", alt: "De webshop van Ron van Dam op een laptop en tablet in een atelier" },
-    { img: "/media/projects/ron-van-dam-01.webp", video: "/media/projects/ron-van-dam-02.mp4", alt: "Ron van Dam aan het werk in zijn atelier" },
+    { img: "/media/projects/ron-van-dam-01.webp", video: "/media/projects/ron-van-dam-02.mp4", alt: "Detail van een mixed media portret van Ron van Dam" },
   ];
   const N = 2;
   const ci = csI % N;
