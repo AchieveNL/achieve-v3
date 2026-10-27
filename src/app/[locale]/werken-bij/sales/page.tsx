@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { PageShell } from "@/components/layout/PageShell";
+import { ReadingProgress } from "@/components/ui/ReadingProgress";
 import { VacatureSalesContent } from "@/components/pages/VacatureSalesContent";
 import { isLocale, type Locale } from "@/i18n/config";
 import { pageMetadata } from "@/lib/seo";
@@ -26,6 +27,7 @@ export default async function Page({ params }: Props) {
   return (
     <PageShell locale={locale} page="VacatureSales">
       <VacatureSalesContent />
+      <ReadingProgress />
     </PageShell>
   );
 }
