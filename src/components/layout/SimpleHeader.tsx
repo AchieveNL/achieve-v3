@@ -150,7 +150,7 @@ export function SimpleHeader() {
                       height: "18px",
                       borderRadius: "50%",
                       flexShrink: "0",
-                      overflow: "hidden", boxShadow: "0 0 0 1px rgba(31, 36, 108, 0.18)", background: "#D9DCEB",
+                      overflow: "hidden",
                     }}
                     aria-hidden="true"
                   >
@@ -171,7 +171,7 @@ export function SimpleHeader() {
                       height: "18px",
                       borderRadius: "50%",
                       flexShrink: "0",
-                      overflow: "hidden", boxShadow: "0 0 0 1px rgba(31, 36, 108, 0.18)", background: "#D9DCEB",
+                      overflow: "hidden",
                     }}
                     aria-hidden="true"
                   >
@@ -194,7 +194,7 @@ export function SimpleHeader() {
                       height: "18px",
                       borderRadius: "50%",
                       flexShrink: "0",
-                      overflow: "hidden", boxShadow: "0 0 0 1px rgba(31, 36, 108, 0.18)", background: "#D9DCEB",
+                      overflow: "hidden",
                     }}
                     aria-hidden="true"
                   >
@@ -214,7 +214,7 @@ export function SimpleHeader() {
                       height: "18px",
                       borderRadius: "50%",
                       flexShrink: "0",
-                      overflow: "hidden", boxShadow: "0 0 0 1px rgba(31, 36, 108, 0.18)", background: "#D9DCEB",
+                      overflow: "hidden",
                     }}
                     aria-hidden="true"
                   >
@@ -235,7 +235,7 @@ export function SimpleHeader() {
                       height: "18px",
                       borderRadius: "50%",
                       flexShrink: "0",
-                      overflow: "hidden", boxShadow: "0 0 0 1px rgba(31, 36, 108, 0.18)", background: "#D9DCEB",
+                      overflow: "hidden",
                     }}
                     aria-hidden="true"
                   >
@@ -256,7 +256,7 @@ export function SimpleHeader() {
                       height: "18px",
                       borderRadius: "50%",
                       flexShrink: "0",
-                      overflow: "hidden", boxShadow: "0 0 0 1px rgba(31, 36, 108, 0.18)", background: "#D9DCEB",
+                      overflow: "hidden",
                     }}
                     aria-hidden="true"
                   >
@@ -276,7 +276,7 @@ export function SimpleHeader() {
                       height: "18px",
                       borderRadius: "50%",
                       flexShrink: "0",
-                      overflow: "hidden", boxShadow: "0 0 0 1px rgba(31, 36, 108, 0.18)", background: "#D9DCEB",
+                      overflow: "hidden",
                     }}
                     aria-hidden="true"
                   >
@@ -301,7 +301,7 @@ export function SimpleHeader() {
                       height: "18px",
                       borderRadius: "50%",
                       flexShrink: "0",
-                      overflow: "hidden", boxShadow: "0 0 0 1px rgba(31, 36, 108, 0.18)", background: "#D9DCEB",
+                      overflow: "hidden",
                     }}
                     aria-hidden="true"
                   >
@@ -373,7 +373,7 @@ export function SimpleHeader() {
                         height: "18px",
                         borderRadius: "50%",
                         flexShrink: "0",
-                        overflow: "hidden", boxShadow: "0 0 0 1px rgba(31, 36, 108, 0.18)", background: "#D9DCEB",
+                        overflow: "hidden",
                       }}
                       aria-hidden="true"
                     >
@@ -411,7 +411,7 @@ export function SimpleHeader() {
                         height: "18px",
                         borderRadius: "50%",
                         flexShrink: "0",
-                        overflow: "hidden", boxShadow: "0 0 0 1px rgba(31, 36, 108, 0.18)", background: "#D9DCEB",
+                        overflow: "hidden",
                       }}
                       aria-hidden="true"
                     >
@@ -451,7 +451,7 @@ export function SimpleHeader() {
                         height: "18px",
                         borderRadius: "50%",
                         flexShrink: "0",
-                        overflow: "hidden", boxShadow: "0 0 0 1px rgba(31, 36, 108, 0.18)", background: "#D9DCEB",
+                        overflow: "hidden",
                       }}
                       aria-hidden="true"
                     >
@@ -488,7 +488,7 @@ export function SimpleHeader() {
                         height: "18px",
                         borderRadius: "50%",
                         flexShrink: "0",
-                        overflow: "hidden", boxShadow: "0 0 0 1px rgba(31, 36, 108, 0.18)", background: "#D9DCEB",
+                        overflow: "hidden",
                       }}
                       aria-hidden="true"
                     >
@@ -526,7 +526,7 @@ export function SimpleHeader() {
                         height: "18px",
                         borderRadius: "50%",
                         flexShrink: "0",
-                        overflow: "hidden", boxShadow: "0 0 0 1px rgba(31, 36, 108, 0.18)", background: "#D9DCEB",
+                        overflow: "hidden",
                       }}
                       aria-hidden="true"
                     >
@@ -564,7 +564,7 @@ export function SimpleHeader() {
                         height: "18px",
                         borderRadius: "50%",
                         flexShrink: "0",
-                        overflow: "hidden", boxShadow: "0 0 0 1px rgba(31, 36, 108, 0.18)", background: "#D9DCEB",
+                        overflow: "hidden",
                       }}
                       aria-hidden="true"
                     >
@@ -601,7 +601,7 @@ export function SimpleHeader() {
                         height: "18px",
                         borderRadius: "50%",
                         flexShrink: "0",
-                        overflow: "hidden", boxShadow: "0 0 0 1px rgba(31, 36, 108, 0.18)", background: "#D9DCEB",
+                        overflow: "hidden",
                       }}
                       aria-hidden="true"
                     >
@@ -643,7 +643,7 @@ export function SimpleHeader() {
                         height: "18px",
                         borderRadius: "50%",
                         flexShrink: "0",
-                        overflow: "hidden", boxShadow: "0 0 0 1px rgba(31, 36, 108, 0.18)", background: "#D9DCEB",
+                        overflow: "hidden",
                       }}
                       aria-hidden="true"
                     >
