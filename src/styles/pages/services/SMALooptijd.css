@@ -97,7 +97,7 @@
 html{scroll-behavior:smooth}
 @media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}.em-jl,.em-jl::after,.em-jump{transition:none !important}}
 @media (max-width: 720px){.em-jump-in{padding:0 12px !important}.em-jump-lbl{display:none}.em-jl{min-height:48px;padding:0 12px;font-size:14px}.em-jl::after{left:12px;right:12px}.em-jl-cta{margin-left:4px}#uitdagingen,#oplossing,#voordelen,#cijfers,#waarom-wij,#aanpak,#reviews,#pakketten,#start{scroll-margin-top:120px}}
-main > :not(#pakketten):not(#goed-om-te-weten), footer, .site-head, .m-cta-bar, .cs-float, .em-progress{display:none !important}
+main > :not(#pakketten):not(#roadmap):not(#goed-om-te-weten), footer, .site-head, .m-cta-bar, .cs-float, .em-progress{display:none !important}
 #pakketten{padding-top:64px !important}
 @media (prefers-reduced-motion: no-preference){.em-progress-fill{transition:width .15s linear}}
 @keyframes emJlFlow{from{background-position:0 0}to{background-position:200% 0}}

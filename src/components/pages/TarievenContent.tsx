@@ -34769,1617 +34769,7 @@ export function TarievenContent() {
                       </span>
                     </div>
                   </div>
-                  <div
-                    className="tf-row"
-                    style={{
-                      display: "grid",
-                      gridTemplateColumns: "minmax(0, 1.6fr) repeat(3, minmax(0, 1fr))",
-                      borderTop: "1px solid #E4E6EA",
-                    }}
-                  >
-                    <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "8px" }}>
-                      <strong style={{ fontSize: "15px", color: "#1F246C" }}>
-                        {t("Maand 1")}
-                        <span aria-hidden="true"> {t("–")} </span>
-                        <span>{t("Fundament en eerste campagne")}</span>
-                      </strong>
-                      <span style={{ fontSize: "14px", lineHeight: "1.55", color: "#3A4150" }}>
-                        {t("Intakegesprek en strategie | Pixel, server-side koppeling en conversies instellen | Eerste campagne live")}
-                      </span>
-                    </div>
-                    <div
-                      className="tf-cell"
-                      data-plan="Basic"
-                      style={{
-                        borderLeft: "1px solid #E4E6EA",
-                        display: "flex",
-                        alignItems: "center",
-                        justifyContent: "center",
-                        textAlign: "center",
-                        padding: "20px 12px",
-                        fontSize: "14px",
-                        fontWeight: "600",
-                        color: "#1F246C",
-                      }}
-                    >
-                      <span
-                        aria-hidden="true"
-                        style={{
-                          width: "36px",
-                          height: "36px",
-                          borderRadius: "50%",
-                          background: "#EFE8FD",
-                          color: "#8639FA",
-                          display: "inline-flex",
-                          alignItems: "center",
-                          justifyContent: "center",
-                        }}
-                      >
-                        <svg
-                          width="16"
-                          height="16"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          strokeWidth="2.6"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                        >
-                          <path d="M5 12.5l4.5 4.5L19 7.5"></path>
-                        </svg>
-                      </span>
-                      <span
-                        className="sr-only"
-                        style={{ position: "absolute", width: "1px", height: "1px", overflow: "hidden", clip: "rect(0 0 0 0)" }}
-                      >
-                        {t("Inbegrepen")}
-                      </span>
-                    </div>
-                    <div
-                      className="tf-cell"
-                      data-plan="Standard"
-                      style={{
-                        display: "flex",
-                        alignItems: "center",
-                        justifyContent: "center",
-                        textAlign: "center",
-                        padding: "20px 12px",
-                        fontSize: "14px",
-                        fontWeight: "600",
-                        color: "#1F246C",
-                        background: "#F6F2FF",
-                      }}
-                    >
-                      <span
-                        aria-hidden="true"
-                        style={{
-                          width: "36px",
-                          height: "36px",
-                          borderRadius: "50%",
-                          background: "#EFE8FD",
-                          color: "#8639FA",
-                          display: "inline-flex",
-                          alignItems: "center",
-                          justifyContent: "center",
-                        }}
-                      >
-                        <svg
-                          width="16"
-                          height="16"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          strokeWidth="2.6"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                        >
-                          <path d="M5 12.5l4.5 4.5L19 7.5"></path>
-                        </svg>
-                      </span>
-                      <span
-                        className="sr-only"
-                        style={{ position: "absolute", width: "1px", height: "1px", overflow: "hidden", clip: "rect(0 0 0 0)" }}
-                      >
-                        {t("Inbegrepen")}
-                      </span>
-                    </div>
-                    <div
-                      className="tf-cell"
-                      data-plan="Premium"
-                      style={{
-                        borderLeft: "1px solid #E4E6EA",
-                        display: "flex",
-                        alignItems: "center",
-                        justifyContent: "center",
-                        textAlign: "center",
-                        padding: "20px 12px",
-                        fontSize: "14px",
-                        fontWeight: "600",
-                        color: "#1F246C",
-                      }}
-                    >
-                      <span
-                        aria-hidden="true"
-                        style={{
-                          width: "36px",
-                          height: "36px",
-                          borderRadius: "50%",
-                          background: "#EFE8FD",
-                          color: "#8639FA",
-                          display: "inline-flex",
-                          alignItems: "center",
-                          justifyContent: "center",
-                        }}
-                      >
-                        <svg
-                          width="16"
-                          height="16"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          strokeWidth="2.6"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                        >
-                          <path d="M5 12.5l4.5 4.5L19 7.5"></path>
-                        </svg>
-                      </span>
-                      <span
-                        className="sr-only"
-                        style={{ position: "absolute", width: "1px", height: "1px", overflow: "hidden", clip: "rect(0 0 0 0)" }}
-                      >
-                        {t("Inbegrepen")}
-                      </span>
-                    </div>
-                  </div>
-                  <div
-                    className="tf-row"
-                    style={{
-                      display: "grid",
-                      gridTemplateColumns: "minmax(0, 1.6fr) repeat(3, minmax(0, 1fr))",
-                      borderTop: "1px solid #E4E6EA",
-                    }}
-                  >
-                    <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "8px" }}>
-                      <strong style={{ fontSize: "15px", color: "#1F246C" }}>
-                        {t("Maand 2")}
-                        <span aria-hidden="true"> {t("–")} </span>
-                        <span>{t("Eerste resultaten")}</span>
-                      </strong>
-                      <span style={{ fontSize: "14px", lineHeight: "1.55", color: "#3A4150" }}>
-                        {t("Eerste resultaten meten | Video- en UGC-advertenties toevoegen | Advertenties zonder resultaat vervangen")}
-                      </span>
-                    </div>
-                    <div
-                      className="tf-cell"
-                      data-plan="Basic"
-                      style={{
-                        borderLeft: "1px solid #E4E6EA",
-                        display: "flex",
-                        alignItems: "center",
-                        justifyContent: "center",
-                        textAlign: "center",
-                        padding: "20px 12px",
-                        fontSize: "14px",
-                        fontWeight: "600",
-                        color: "#1F246C",
-                      }}
-                    >
-                      <span
-                        aria-hidden="true"
-                        style={{
-                          width: "36px",
-                          height: "36px",
-                          borderRadius: "50%",
-                          background: "#EFE8FD",
-                          color: "#8639FA",
-                          display: "inline-flex",
-                          alignItems: "center",
-                          justifyContent: "center",
-                        }}
-                      >
-                        <svg
-                          width="16"
-                          height="16"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          strokeWidth="2.6"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                        >
-                          <path d="M5 12.5l4.5 4.5L19 7.5"></path>
-                        </svg>
-                      </span>
-                      <span
-                        className="sr-only"
-                        style={{ position: "absolute", width: "1px", height: "1px", overflow: "hidden", clip: "rect(0 0 0 0)" }}
-                      >
-                        {t("Inbegrepen")}
-                      </span>
-                    </div>
-                    <div
-                      className="tf-cell"
-                      data-plan="Standard"
-                      style={{
-                        display: "flex",
-                        alignItems: "center",
-                        justifyContent: "center",
-                        textAlign: "center",
-                        padding: "20px 12px",
-                        fontSize: "14px",
-                        fontWeight: "600",
-                        color: "#1F246C",
-                        background: "#F6F2FF",
-                      }}
-                    >
-                      <span
-                        aria-hidden="true"
-                        style={{
-                          width: "36px",
-                          height: "36px",
-                          borderRadius: "50%",
-                          background: "#EFE8FD",
-                          color: "#8639FA",
-                          display: "inline-flex",
-                          alignItems: "center",
-                          justifyContent: "center",
-                        }}
-                      >
-                        <svg
-                          width="16"
-                          height="16"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          strokeWidth="2.6"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                        >
-                          <path d="M5 12.5l4.5 4.5L19 7.5"></path>
-                        </svg>
-                      </span>
-                      <span
-                        className="sr-only"
-                        style={{ position: "absolute", width: "1px", height: "1px", overflow: "hidden", clip: "rect(0 0 0 0)" }}
-                      >
-                        {t("Inbegrepen")}
-                      </span>
-                    </div>
-                    <div
-                      className="tf-cell"
-                      data-plan="Premium"
-                      style={{
-                        borderLeft: "1px solid #E4E6EA",
-                        display: "flex",
-                        alignItems: "center",
-                        justifyContent: "center",
-                        textAlign: "center",
-                        padding: "20px 12px",
-                        fontSize: "14px",
-                        fontWeight: "600",
-                        color: "#1F246C",
-                      }}
-                    >
-                      <span
-                        aria-hidden="true"
-                        style={{
-                          width: "36px",
-                          height: "36px",
-                          borderRadius: "50%",
-                          background: "#EFE8FD",
-                          color: "#8639FA",
-                          display: "inline-flex",
-                          alignItems: "center",
-                          justifyContent: "center",
-                        }}
-                      >
-                        <svg
-                          width="16"
-                          height="16"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          strokeWidth="2.6"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                        >
-                          <path d="M5 12.5l4.5 4.5L19 7.5"></path>
-                        </svg>
-                      </span>
-                      <span
-                        className="sr-only"
-                        style={{ position: "absolute", width: "1px", height: "1px", overflow: "hidden", clip: "rect(0 0 0 0)" }}
-                      >
-                        {t("Inbegrepen")}
-                      </span>
-                    </div>
-                  </div>
-                  <div
-                    className="tf-row"
-                    style={{
-                      display: "grid",
-                      gridTemplateColumns: "minmax(0, 1.6fr) repeat(3, minmax(0, 1fr))",
-                      borderTop: "1px solid #E4E6EA",
-                    }}
-                  >
-                    <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "8px" }}>
-                      <strong style={{ fontSize: "15px", color: "#1F246C" }}>
-                        {t("Maand 3")}
-                        <span aria-hidden="true"> {t("–")} </span>
-                        <span>{t("Testen en bijsturen")}</span>
-                      </strong>
-                      <span style={{ fontSize: "14px", lineHeight: "1.55", color: "#3A4150" }}>
-                        {t("A/B-testen op advertenties | Budget naar wat werkt | Evaluatie na 3 maanden")}
-                      </span>
-                    </div>
-                    <div
-                      className="tf-cell"
-                      data-plan="Basic"
-                      style={{
-                        borderLeft: "1px solid #E4E6EA",
-                        display: "flex",
-                        alignItems: "center",
-                        justifyContent: "center",
-                        textAlign: "center",
-                        padding: "20px 12px",
-                        fontSize: "14px",
-                        fontWeight: "600",
-                        color: "#1F246C",
-                      }}
-                    >
-                      <span
-                        aria-hidden="true"
-                        style={{
-                          width: "36px",
-                          height: "36px",
-                          borderRadius: "50%",
-                          background: "#EFE8FD",
-                          color: "#8639FA",
-                          display: "inline-flex",
-                          alignItems: "center",
-                          justifyContent: "center",
-                        }}
-                      >
-                        <svg
-                          width="16"
-                          height="16"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          strokeWidth="2.6"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                        >
-                          <path d="M5 12.5l4.5 4.5L19 7.5"></path>
-                        </svg>
-                      </span>
-                      <span
-                        className="sr-only"
-                        style={{ position: "absolute", width: "1px", height: "1px", overflow: "hidden", clip: "rect(0 0 0 0)" }}
-                      >
-                        {t("Inbegrepen")}
-                      </span>
-                    </div>
-                    <div
-                      className="tf-cell"
-                      data-plan="Standard"
-                      style={{
-                        display: "flex",
-                        alignItems: "center",
-                        justifyContent: "center",
-                        textAlign: "center",
-                        padding: "20px 12px",
-                        fontSize: "14px",
-                        fontWeight: "600",
-                        color: "#1F246C",
-                        background: "#F6F2FF",
-                      }}
-                    >
-                      <span
-                        aria-hidden="true"
-                        style={{
-                          width: "36px",
-                          height: "36px",
-                          borderRadius: "50%",
-                          background: "#EFE8FD",
-                          color: "#8639FA",
-                          display: "inline-flex",
-                          alignItems: "center",
-                          justifyContent: "center",
-                        }}
-                      >
-                        <svg
-                          width="16"
-                          height="16"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          strokeWidth="2.6"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                        >
-                          <path d="M5 12.5l4.5 4.5L19 7.5"></path>
-                        </svg>
-                      </span>
-                      <span
-                        className="sr-only"
-                        style={{ position: "absolute", width: "1px", height: "1px", overflow: "hidden", clip: "rect(0 0 0 0)" }}
-                      >
-                        {t("Inbegrepen")}
-                      </span>
-                    </div>
-                    <div
-                      className="tf-cell"
-                      data-plan="Premium"
-                      style={{
-                        borderLeft: "1px solid #E4E6EA",
-                        display: "flex",
-                        alignItems: "center",
-                        justifyContent: "center",
-                        textAlign: "center",
-                        padding: "20px 12px",
-                        fontSize: "14px",
-                        fontWeight: "600",
-                        color: "#1F246C",
-                      }}
-                    >
-                      <span
-                        aria-hidden="true"
-                        style={{
-                          width: "36px",
-                          height: "36px",
-                          borderRadius: "50%",
-                          background: "#EFE8FD",
-                          color: "#8639FA",
-                          display: "inline-flex",
-                          alignItems: "center",
-                          justifyContent: "center",
-                        }}
-                      >
-                        <svg
-                          width="16"
-                          height="16"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          strokeWidth="2.6"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                        >
-                          <path d="M5 12.5l4.5 4.5L19 7.5"></path>
-                        </svg>
-                      </span>
-                      <span
-                        className="sr-only"
-                        style={{ position: "absolute", width: "1px", height: "1px", overflow: "hidden", clip: "rect(0 0 0 0)" }}
-                      >
-                        {t("Inbegrepen")}
-                      </span>
-                    </div>
-                  </div>
-                  <div
-                    className="tf-row"
-                    style={{
-                      display: "grid",
-                      gridTemplateColumns: "minmax(0, 1.6fr) repeat(3, minmax(0, 1fr))",
-                      borderTop: "1px solid #E4E6EA",
-                    }}
-                  >
-                    <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "8px" }}>
-                      <strong style={{ fontSize: "15px", color: "#1F246C" }}>
-                        {t("Maand 4")}
-                        <span aria-hidden="true"> {t("–")} </span>
-                        <span>{t("Bezoekers en klanten opvolgen")}</span>
-                      </strong>
-                      <span style={{ fontSize: "14px", lineHeight: "1.55", color: "#3A4150" }}>
-                        {t("Advertenties voor websitebezoekers en volgers binnen de bestaande campagne | Check verdeling nieuwe en bestaande klanten | Nieuwe creatives")}
-                      </span>
-                    </div>
-                    <div
-                      className="tf-cell"
-                      data-plan="Basic"
-                      style={{
-                        borderLeft: "1px solid #E4E6EA",
-                        display: "flex",
-                        alignItems: "center",
-                        justifyContent: "center",
-                        textAlign: "center",
-                        padding: "20px 12px",
-                        fontSize: "14px",
-                        fontWeight: "600",
-                        color: "#1F246C",
-                      }}
-                    >
-                      <span aria-hidden="true" style={{ color: "#B8BFCC" }}>
-                        {t("–")}
-                      </span>
-                      <span
-                        className="sr-only"
-                        style={{ position: "absolute", width: "1px", height: "1px", overflow: "hidden", clip: "rect(0 0 0 0)" }}
-                      >
-                        {t("Niet inbegrepen")}
-                      </span>
-                    </div>
-                    <div
-                      className="tf-cell"
-                      data-plan="Standard"
-                      style={{
-                        display: "flex",
-                        alignItems: "center",
-                        justifyContent: "center",
-                        textAlign: "center",
-                        padding: "20px 12px",
-                        fontSize: "14px",
-                        fontWeight: "600",
-                        color: "#1F246C",
-                        background: "#F6F2FF",
-                      }}
-                    >
-                      <span
-                        aria-hidden="true"
-                        style={{
-                          width: "36px",
-                          height: "36px",
-                          borderRadius: "50%",
-                          background: "#EFE8FD",
-                          color: "#8639FA",
-                          display: "inline-flex",
-                          alignItems: "center",
-                          justifyContent: "center",
-                        }}
-                      >
-                        <svg
-                          width="16"
-                          height="16"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          strokeWidth="2.6"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                        >
-                          <path d="M5 12.5l4.5 4.5L19 7.5"></path>
-                        </svg>
-                      </span>
-                      <span
-                        className="sr-only"
-                        style={{ position: "absolute", width: "1px", height: "1px", overflow: "hidden", clip: "rect(0 0 0 0)" }}
-                      >
-                        {t("Inbegrepen")}
-                      </span>
-                    </div>
-                    <div
-                      className="tf-cell"
-                      data-plan="Premium"
-                      style={{
-                        borderLeft: "1px solid #E4E6EA",
-                        display: "flex",
-                        alignItems: "center",
-                        justifyContent: "center",
-                        textAlign: "center",
-                        padding: "20px 12px",
-                        fontSize: "14px",
-                        fontWeight: "600",
-                        color: "#1F246C",
-                      }}
-                    >
-                      <span
-                        aria-hidden="true"
-                        style={{
-                          width: "36px",
-                          height: "36px",
-                          borderRadius: "50%",
-                          background: "#EFE8FD",
-                          color: "#8639FA",
-                          display: "inline-flex",
-                          alignItems: "center",
-                          justifyContent: "center",
-                        }}
-                      >
-                        <svg
-                          width="16"
-                          height="16"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          strokeWidth="2.6"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                        >
-                          <path d="M5 12.5l4.5 4.5L19 7.5"></path>
-                        </svg>
-                      </span>
-                      <span
-                        className="sr-only"
-                        style={{ position: "absolute", width: "1px", height: "1px", overflow: "hidden", clip: "rect(0 0 0 0)" }}
-                      >
-                        {t("Inbegrepen")}
-                      </span>
-                    </div>
-                  </div>
-                  <div
-                    className="tf-row"
-                    style={{
-                      display: "grid",
-                      gridTemplateColumns: "minmax(0, 1.6fr) repeat(3, minmax(0, 1fr))",
-                      borderTop: "1px solid #E4E6EA",
-                    }}
-                  >
-                    <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "8px" }}>
-                      <strong style={{ fontSize: "15px", color: "#1F246C" }}>
-                        {t("Maand 5")}
-                        <span aria-hidden="true"> {t("–")} </span>
-                        <span>{t("Nieuwe doelgroepen")}</span>
-                      </strong>
-                      <span style={{ fontSize: "14px", lineHeight: "1.55", color: "#3A4150" }}>
-                        {t("Nieuwe invalshoeken die nieuwe doelgroepen aanspreken | Nieuwe creatives | Budget bijsturen")}
-                      </span>
-                    </div>
-                    <div
-                      className="tf-cell"
-                      data-plan="Basic"
-                      style={{
-                        borderLeft: "1px solid #E4E6EA",
-                        display: "flex",
-                        alignItems: "center",
-                        justifyContent: "center",
-                        textAlign: "center",
-                        padding: "20px 12px",
-                        fontSize: "14px",
-                        fontWeight: "600",
-                        color: "#1F246C",
-                      }}
-                    >
-                      <span aria-hidden="true" style={{ color: "#B8BFCC" }}>
-                        {t("–")}
-                      </span>
-                      <span
-                        className="sr-only"
-                        style={{ position: "absolute", width: "1px", height: "1px", overflow: "hidden", clip: "rect(0 0 0 0)" }}
-                      >
-                        {t("Niet inbegrepen")}
-                      </span>
-                    </div>
-                    <div
-                      className="tf-cell"
-                      data-plan="Standard"
-                      style={{
-                        display: "flex",
-                        alignItems: "center",
-                        justifyContent: "center",
-                        textAlign: "center",
-                        padding: "20px 12px",
-                        fontSize: "14px",
-                        fontWeight: "600",
-                        color: "#1F246C",
-                        background: "#F6F2FF",
-                      }}
-                    >
-                      <span
-                        aria-hidden="true"
-                        style={{
-                          width: "36px",
-                          height: "36px",
-                          borderRadius: "50%",
-                          background: "#EFE8FD",
-                          color: "#8639FA",
-                          display: "inline-flex",
-                          alignItems: "center",
-                          justifyContent: "center",
-                        }}
-                      >
-                        <svg
-                          width="16"
-                          height="16"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          strokeWidth="2.6"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                        >
-                          <path d="M5 12.5l4.5 4.5L19 7.5"></path>
-                        </svg>
-                      </span>
-                      <span
-                        className="sr-only"
-                        style={{ position: "absolute", width: "1px", height: "1px", overflow: "hidden", clip: "rect(0 0 0 0)" }}
-                      >
-                        {t("Inbegrepen")}
-                      </span>
-                    </div>
-                    <div
-                      className="tf-cell"
-                      data-plan="Premium"
-                      style={{
-                        borderLeft: "1px solid #E4E6EA",
-                        display: "flex",
-                        alignItems: "center",
-                        justifyContent: "center",
-                        textAlign: "center",
-                        padding: "20px 12px",
-                        fontSize: "14px",
-                        fontWeight: "600",
-                        color: "#1F246C",
-                      }}
-                    >
-                      <span
-                        aria-hidden="true"
-                        style={{
-                          width: "36px",
-                          height: "36px",
-                          borderRadius: "50%",
-                          background: "#EFE8FD",
-                          color: "#8639FA",
-                          display: "inline-flex",
-                          alignItems: "center",
-                          justifyContent: "center",
-                        }}
-                      >
-                        <svg
-                          width="16"
-                          height="16"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          strokeWidth="2.6"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                        >
-                          <path d="M5 12.5l4.5 4.5L19 7.5"></path>
-                        </svg>
-                      </span>
-                      <span
-                        className="sr-only"
-                        style={{ position: "absolute", width: "1px", height: "1px", overflow: "hidden", clip: "rect(0 0 0 0)" }}
-                      >
-                        {t("Inbegrepen")}
-                      </span>
-                    </div>
-                  </div>
-                  <div
-                    className="tf-row"
-                    style={{
-                      display: "grid",
-                      gridTemplateColumns: "minmax(0, 1.6fr) repeat(3, minmax(0, 1fr))",
-                      borderTop: "1px solid #E4E6EA",
-                    }}
-                  >
-                    <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "8px" }}>
-                      <strong style={{ fontSize: "15px", color: "#1F246C" }}>
-                        {t("Maand 6")}
-                        <span aria-hidden="true"> {t("–")} </span>
-                        <span>{t("Opschalen en evaluatie")}</span>
-                      </strong>
-                      <span style={{ fontSize: "14px", lineHeight: "1.55", color: "#3A4150" }}>
-                        {t("Winnende campagnes opschalen | Evaluatie na 6 maanden | Plan voor het volgende halfjaar")}
-                      </span>
-                    </div>
-                    <div
-                      className="tf-cell"
-                      data-plan="Basic"
-                      style={{
-                        borderLeft: "1px solid #E4E6EA",
-                        display: "flex",
-                        alignItems: "center",
-                        justifyContent: "center",
-                        textAlign: "center",
-                        padding: "20px 12px",
-                        fontSize: "14px",
-                        fontWeight: "600",
-                        color: "#1F246C",
-                      }}
-                    >
-                      <span aria-hidden="true" style={{ color: "#B8BFCC" }}>
-                        {t("–")}
-                      </span>
-                      <span
-                        className="sr-only"
-                        style={{ position: "absolute", width: "1px", height: "1px", overflow: "hidden", clip: "rect(0 0 0 0)" }}
-                      >
-                        {t("Niet inbegrepen")}
-                      </span>
-                    </div>
-                    <div
-                      className="tf-cell"
-                      data-plan="Standard"
-                      style={{
-                        display: "flex",
-                        alignItems: "center",
-                        justifyContent: "center",
-                        textAlign: "center",
-                        padding: "20px 12px",
-                        fontSize: "14px",
-                        fontWeight: "600",
-                        color: "#1F246C",
-                        background: "#F6F2FF",
-                      }}
-                    >
-                      <span
-                        aria-hidden="true"
-                        style={{
-                          width: "36px",
-                          height: "36px",
-                          borderRadius: "50%",
-                          background: "#EFE8FD",
-                          color: "#8639FA",
-                          display: "inline-flex",
-                          alignItems: "center",
-                          justifyContent: "center",
-                        }}
-                      >
-                        <svg
-                          width="16"
-                          height="16"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          strokeWidth="2.6"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                        >
-                          <path d="M5 12.5l4.5 4.5L19 7.5"></path>
-                        </svg>
-                      </span>
-                      <span
-                        className="sr-only"
-                        style={{ position: "absolute", width: "1px", height: "1px", overflow: "hidden", clip: "rect(0 0 0 0)" }}
-                      >
-                        {t("Inbegrepen")}
-                      </span>
-                    </div>
-                    <div
-                      className="tf-cell"
-                      data-plan="Premium"
-                      style={{
-                        borderLeft: "1px solid #E4E6EA",
-                        display: "flex",
-                        alignItems: "center",
-                        justifyContent: "center",
-                        textAlign: "center",
-                        padding: "20px 12px",
-                        fontSize: "14px",
-                        fontWeight: "600",
-                        color: "#1F246C",
-                      }}
-                    >
-                      <span
-                        aria-hidden="true"
-                        style={{
-                          width: "36px",
-                          height: "36px",
-                          borderRadius: "50%",
-                          background: "#EFE8FD",
-                          color: "#8639FA",
-                          display: "inline-flex",
-                          alignItems: "center",
-                          justifyContent: "center",
-                        }}
-                      >
-                        <svg
-                          width="16"
-                          height="16"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          strokeWidth="2.6"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                        >
-                          <path d="M5 12.5l4.5 4.5L19 7.5"></path>
-                        </svg>
-                      </span>
-                      <span
-                        className="sr-only"
-                        style={{ position: "absolute", width: "1px", height: "1px", overflow: "hidden", clip: "rect(0 0 0 0)" }}
-                      >
-                        {t("Inbegrepen")}
-                      </span>
-                    </div>
-                  </div>
-                  <div
-                    className="tf-row"
-                    style={{
-                      display: "grid",
-                      gridTemplateColumns: "minmax(0, 1.6fr) repeat(3, minmax(0, 1fr))",
-                      borderTop: "1px solid #E4E6EA",
-                    }}
-                  >
-                    <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "8px" }}>
-                      <strong style={{ fontSize: "15px", color: "#1F246C" }}>
-                        {t("Maand 7")}
-                        <span aria-hidden="true"> {t("–")} </span>
-                        <span>{t("Tweede platform")}</span>
-                      </strong>
-                      <span style={{ fontSize: "14px", lineHeight: "1.55", color: "#3A4150" }}>
-                        {t("Uitbreiden naar een tweede platform, zoals TikTok of LinkedIn, met een eigen advertentiebudget | Nieuwe creatives")}
-                      </span>
-                    </div>
-                    <div
-                      className="tf-cell"
-                      data-plan="Basic"
-                      style={{
-                        borderLeft: "1px solid #E4E6EA",
-                        display: "flex",
-                        alignItems: "center",
-                        justifyContent: "center",
-                        textAlign: "center",
-                        padding: "20px 12px",
-                        fontSize: "14px",
-                        fontWeight: "600",
-                        color: "#1F246C",
-                      }}
-                    >
-                      <span aria-hidden="true" style={{ color: "#B8BFCC" }}>
-                        {t("–")}
-                      </span>
-                      <span
-                        className="sr-only"
-                        style={{ position: "absolute", width: "1px", height: "1px", overflow: "hidden", clip: "rect(0 0 0 0)" }}
-                      >
-                        {t("Niet inbegrepen")}
-                      </span>
-                    </div>
-                    <div
-                      className="tf-cell"
-                      data-plan="Standard"
-                      style={{
-                        display: "flex",
-                        alignItems: "center",
-                        justifyContent: "center",
-                        textAlign: "center",
-                        padding: "20px 12px",
-                        fontSize: "14px",
-                        fontWeight: "600",
-                        color: "#1F246C",
-                        background: "#F6F2FF",
-                      }}
-                    >
-                      <span aria-hidden="true" style={{ color: "#B8BFCC" }}>
-                        {t("–")}
-                      </span>
-                      <span
-                        className="sr-only"
-                        style={{ position: "absolute", width: "1px", height: "1px", overflow: "hidden", clip: "rect(0 0 0 0)" }}
-                      >
-                        {t("Niet inbegrepen")}
-                      </span>
-                    </div>
-                    <div
-                      className="tf-cell"
-                      data-plan="Premium"
-                      style={{
-                        borderLeft: "1px solid #E4E6EA",
-                        display: "flex",
-                        alignItems: "center",
-                        justifyContent: "center",
-                        textAlign: "center",
-                        padding: "20px 12px",
-                        fontSize: "14px",
-                        fontWeight: "600",
-                        color: "#1F246C",
-                      }}
-                    >
-                      <span
-                        aria-hidden="true"
-                        style={{
-                          width: "36px",
-                          height: "36px",
-                          borderRadius: "50%",
-                          background: "#EFE8FD",
-                          color: "#8639FA",
-                          display: "inline-flex",
-                          alignItems: "center",
-                          justifyContent: "center",
-                        }}
-                      >
-                        <svg
-                          width="16"
-                          height="16"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          strokeWidth="2.6"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                        >
-                          <path d="M5 12.5l4.5 4.5L19 7.5"></path>
-                        </svg>
-                      </span>
-                      <span
-                        className="sr-only"
-                        style={{ position: "absolute", width: "1px", height: "1px", overflow: "hidden", clip: "rect(0 0 0 0)" }}
-                      >
-                        {t("Inbegrepen")}
-                      </span>
-                    </div>
-                  </div>
-                  <div
-                    className="tf-row"
-                    style={{
-                      display: "grid",
-                      gridTemplateColumns: "minmax(0, 1.6fr) repeat(3, minmax(0, 1fr))",
-                      borderTop: "1px solid #E4E6EA",
-                    }}
-                  >
-                    <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "8px" }}>
-                      <strong style={{ fontSize: "15px", color: "#1F246C" }}>
-                        {t("Maand 8")}
-                        <span aria-hidden="true"> {t("–")} </span>
-                        <span>{t("Nieuwe formats")}</span>
-                      </strong>
-                      <span style={{ fontSize: "14px", lineHeight: "1.55", color: "#3A4150" }}>
-                        {t("Samenwerkingsadvertenties met makers of klanten testen | Advertentiemoeheid signaleren & op tijd vervangen")}
-                      </span>
-                    </div>
-                    <div
-                      className="tf-cell"
-                      data-plan="Basic"
-                      style={{
-                        borderLeft: "1px solid #E4E6EA",
-                        display: "flex",
-                        alignItems: "center",
-                        justifyContent: "center",
-                        textAlign: "center",
-                        padding: "20px 12px",
-                        fontSize: "14px",
-                        fontWeight: "600",
-                        color: "#1F246C",
-                      }}
-                    >
-                      <span aria-hidden="true" style={{ color: "#B8BFCC" }}>
-                        {t("–")}
-                      </span>
-                      <span
-                        className="sr-only"
-                        style={{ position: "absolute", width: "1px", height: "1px", overflow: "hidden", clip: "rect(0 0 0 0)" }}
-                      >
-                        {t("Niet inbegrepen")}
-                      </span>
-                    </div>
-                    <div
-                      className="tf-cell"
-                      data-plan="Standard"
-                      style={{
-                        display: "flex",
-                        alignItems: "center",
-                        justifyContent: "center",
-                        textAlign: "center",
-                        padding: "20px 12px",
-                        fontSize: "14px",
-                        fontWeight: "600",
-                        color: "#1F246C",
-                        background: "#F6F2FF",
-                      }}
-                    >
-                      <span aria-hidden="true" style={{ color: "#B8BFCC" }}>
-                        {t("–")}
-                      </span>
-                      <span
-                        className="sr-only"
-                        style={{ position: "absolute", width: "1px", height: "1px", overflow: "hidden", clip: "rect(0 0 0 0)" }}
-                      >
-                        {t("Niet inbegrepen")}
-                      </span>
-                    </div>
-                    <div
-                      className="tf-cell"
-                      data-plan="Premium"
-                      style={{
-                        borderLeft: "1px solid #E4E6EA",
-                        display: "flex",
-                        alignItems: "center",
-                        justifyContent: "center",
-                        textAlign: "center",
-                        padding: "20px 12px",
-                        fontSize: "14px",
-                        fontWeight: "600",
-                        color: "#1F246C",
-                      }}
-                    >
-                      <span
-                        aria-hidden="true"
-                        style={{
-                          width: "36px",
-                          height: "36px",
-                          borderRadius: "50%",
-                          background: "#EFE8FD",
-                          color: "#8639FA",
-                          display: "inline-flex",
-                          alignItems: "center",
-                          justifyContent: "center",
-                        }}
-                      >
-                        <svg
-                          width="16"
-                          height="16"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          strokeWidth="2.6"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                        >
-                          <path d="M5 12.5l4.5 4.5L19 7.5"></path>
-                        </svg>
-                      </span>
-                      <span
-                        className="sr-only"
-                        style={{ position: "absolute", width: "1px", height: "1px", overflow: "hidden", clip: "rect(0 0 0 0)" }}
-                      >
-                        {t("Inbegrepen")}
-                      </span>
-                    </div>
-                  </div>
-                  <div
-                    className="tf-row"
-                    style={{
-                      display: "grid",
-                      gridTemplateColumns: "minmax(0, 1.6fr) repeat(3, minmax(0, 1fr))",
-                      borderTop: "1px solid #E4E6EA",
-                    }}
-                  >
-                    <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "8px" }}>
-                      <strong style={{ fontSize: "15px", color: "#1F246C" }}>
-                        {t("Maand 9")}
-                        <span aria-hidden="true"> {t("–")} </span>
-                        <span>{t("Seizoenen en acties")}</span>
-                      </strong>
-                      <span style={{ fontSize: "14px", lineHeight: "1.55", color: "#3A4150" }}>
-                        {t("Acties en advertenties rond seizoenen | Budget opschalen op pieken")}
-                      </span>
-                    </div>
-                    <div
-                      className="tf-cell"
-                      data-plan="Basic"
-                      style={{
-                        borderLeft: "1px solid #E4E6EA",
-                        display: "flex",
-                        alignItems: "center",
-                        justifyContent: "center",
-                        textAlign: "center",
-                        padding: "20px 12px",
-                        fontSize: "14px",
-                        fontWeight: "600",
-                        color: "#1F246C",
-                      }}
-                    >
-                      <span aria-hidden="true" style={{ color: "#B8BFCC" }}>
-                        {t("–")}
-                      </span>
-                      <span
-                        className="sr-only"
-                        style={{ position: "absolute", width: "1px", height: "1px", overflow: "hidden", clip: "rect(0 0 0 0)" }}
-                      >
-                        {t("Niet inbegrepen")}
-                      </span>
-                    </div>
-                    <div
-                      className="tf-cell"
-                      data-plan="Standard"
-                      style={{
-                        display: "flex",
-                        alignItems: "center",
-                        justifyContent: "center",
-                        textAlign: "center",
-                        padding: "20px 12px",
-                        fontSize: "14px",
-                        fontWeight: "600",
-                        color: "#1F246C",
-                        background: "#F6F2FF",
-                      }}
-                    >
-                      <span aria-hidden="true" style={{ color: "#B8BFCC" }}>
-                        {t("–")}
-                      </span>
-                      <span
-                        className="sr-only"
-                        style={{ position: "absolute", width: "1px", height: "1px", overflow: "hidden", clip: "rect(0 0 0 0)" }}
-                      >
-                        {t("Niet inbegrepen")}
-                      </span>
-                    </div>
-                    <div
-                      className="tf-cell"
-                      data-plan="Premium"
-                      style={{
-                        borderLeft: "1px solid #E4E6EA",
-                        display: "flex",
-                        alignItems: "center",
-                        justifyContent: "center",
-                        textAlign: "center",
-                        padding: "20px 12px",
-                        fontSize: "14px",
-                        fontWeight: "600",
-                        color: "#1F246C",
-                      }}
-                    >
-                      <span
-                        aria-hidden="true"
-                        style={{
-                          width: "36px",
-                          height: "36px",
-                          borderRadius: "50%",
-                          background: "#EFE8FD",
-                          color: "#8639FA",
-                          display: "inline-flex",
-                          alignItems: "center",
-                          justifyContent: "center",
-                        }}
-                      >
-                        <svg
-                          width="16"
-                          height="16"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          strokeWidth="2.6"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                        >
-                          <path d="M5 12.5l4.5 4.5L19 7.5"></path>
-                        </svg>
-                      </span>
-                      <span
-                        className="sr-only"
-                        style={{ position: "absolute", width: "1px", height: "1px", overflow: "hidden", clip: "rect(0 0 0 0)" }}
-                      >
-                        {t("Inbegrepen")}
-                      </span>
-                    </div>
-                  </div>
-                  <div
-                    className="tf-row"
-                    style={{
-                      display: "grid",
-                      gridTemplateColumns: "minmax(0, 1.6fr) repeat(3, minmax(0, 1fr))",
-                      borderTop: "1px solid #E4E6EA",
-                    }}
-                  >
-                    <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "8px" }}>
-                      <strong style={{ fontSize: "15px", color: "#1F246C" }}>
-                        {t("Maand 10")}
-                        <span aria-hidden="true"> {t("–")} </span>
-                        <span>{t("Sturen op waarde")}</span>
-                      </strong>
-                      <span style={{ fontSize: "14px", lineHeight: "1.55", color: "#3A4150" }}>
-                        {t("Webshop: budget naar producten met de beste marge | Dienstverlener: sturen op aanvragen die klant worden | Nieuwe creatives")}
-                      </span>
-                    </div>
-                    <div
-                      className="tf-cell"
-                      data-plan="Basic"
-                      style={{
-                        borderLeft: "1px solid #E4E6EA",
-                        display: "flex",
-                        alignItems: "center",
-                        justifyContent: "center",
-                        textAlign: "center",
-                        padding: "20px 12px",
-                        fontSize: "14px",
-                        fontWeight: "600",
-                        color: "#1F246C",
-                      }}
-                    >
-                      <span aria-hidden="true" style={{ color: "#B8BFCC" }}>
-                        {t("–")}
-                      </span>
-                      <span
-                        className="sr-only"
-                        style={{ position: "absolute", width: "1px", height: "1px", overflow: "hidden", clip: "rect(0 0 0 0)" }}
-                      >
-                        {t("Niet inbegrepen")}
-                      </span>
-                    </div>
-                    <div
-                      className="tf-cell"
-                      data-plan="Standard"
-                      style={{
-                        display: "flex",
-                        alignItems: "center",
-                        justifyContent: "center",
-                        textAlign: "center",
-                        padding: "20px 12px",
-                        fontSize: "14px",
-                        fontWeight: "600",
-                        color: "#1F246C",
-                        background: "#F6F2FF",
-                      }}
-                    >
-                      <span aria-hidden="true" style={{ color: "#B8BFCC" }}>
-                        {t("–")}
-                      </span>
-                      <span
-                        className="sr-only"
-                        style={{ position: "absolute", width: "1px", height: "1px", overflow: "hidden", clip: "rect(0 0 0 0)" }}
-                      >
-                        {t("Niet inbegrepen")}
-                      </span>
-                    </div>
-                    <div
-                      className="tf-cell"
-                      data-plan="Premium"
-                      style={{
-                        borderLeft: "1px solid #E4E6EA",
-                        display: "flex",
-                        alignItems: "center",
-                        justifyContent: "center",
-                        textAlign: "center",
-                        padding: "20px 12px",
-                        fontSize: "14px",
-                        fontWeight: "600",
-                        color: "#1F246C",
-                      }}
-                    >
-                      <span
-                        aria-hidden="true"
-                        style={{
-                          width: "36px",
-                          height: "36px",
-                          borderRadius: "50%",
-                          background: "#EFE8FD",
-                          color: "#8639FA",
-                          display: "inline-flex",
-                          alignItems: "center",
-                          justifyContent: "center",
-                        }}
-                      >
-                        <svg
-                          width="16"
-                          height="16"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          strokeWidth="2.6"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                        >
-                          <path d="M5 12.5l4.5 4.5L19 7.5"></path>
-                        </svg>
-                      </span>
-                      <span
-                        className="sr-only"
-                        style={{ position: "absolute", width: "1px", height: "1px", overflow: "hidden", clip: "rect(0 0 0 0)" }}
-                      >
-                        {t("Inbegrepen")}
-                      </span>
-                    </div>
-                  </div>
-                  <div
-                    className="tf-row"
-                    style={{
-                      display: "grid",
-                      gridTemplateColumns: "minmax(0, 1.6fr) repeat(3, minmax(0, 1fr))",
-                      borderTop: "1px solid #E4E6EA",
-                    }}
-                  >
-                    <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "8px" }}>
-                      <strong style={{ fontSize: "15px", color: "#1F246C" }}>
-                        {t("Maand 11")}
-                        <span aria-hidden="true"> {t("–")} </span>
-                        <span>{t("Verfijnen op data")}</span>
-                      </strong>
-                      <span style={{ fontSize: "14px", lineHeight: "1.55", color: "#3A4150" }}>
-                        {t("Advertenties en budget verfijnen op basis van data | Nieuwe A/B-testen")}
-                      </span>
-                    </div>
-                    <div
-                      className="tf-cell"
-                      data-plan="Basic"
-                      style={{
-                        borderLeft: "1px solid #E4E6EA",
-                        display: "flex",
-                        alignItems: "center",
-                        justifyContent: "center",
-                        textAlign: "center",
-                        padding: "20px 12px",
-                        fontSize: "14px",
-                        fontWeight: "600",
-                        color: "#1F246C",
-                      }}
-                    >
-                      <span aria-hidden="true" style={{ color: "#B8BFCC" }}>
-                        {t("–")}
-                      </span>
-                      <span
-                        className="sr-only"
-                        style={{ position: "absolute", width: "1px", height: "1px", overflow: "hidden", clip: "rect(0 0 0 0)" }}
-                      >
-                        {t("Niet inbegrepen")}
-                      </span>
-                    </div>
-                    <div
-                      className="tf-cell"
-                      data-plan="Standard"
-                      style={{
-                        display: "flex",
-                        alignItems: "center",
-                        justifyContent: "center",
-                        textAlign: "center",
-                        padding: "20px 12px",
-                        fontSize: "14px",
-                        fontWeight: "600",
-                        color: "#1F246C",
-                        background: "#F6F2FF",
-                      }}
-                    >
-                      <span aria-hidden="true" style={{ color: "#B8BFCC" }}>
-                        {t("–")}
-                      </span>
-                      <span
-                        className="sr-only"
-                        style={{ position: "absolute", width: "1px", height: "1px", overflow: "hidden", clip: "rect(0 0 0 0)" }}
-                      >
-                        {t("Niet inbegrepen")}
-                      </span>
-                    </div>
-                    <div
-                      className="tf-cell"
-                      data-plan="Premium"
-                      style={{
-                        borderLeft: "1px solid #E4E6EA",
-                        display: "flex",
-                        alignItems: "center",
-                        justifyContent: "center",
-                        textAlign: "center",
-                        padding: "20px 12px",
-                        fontSize: "14px",
-                        fontWeight: "600",
-                        color: "#1F246C",
-                      }}
-                    >
-                      <span
-                        aria-hidden="true"
-                        style={{
-                          width: "36px",
-                          height: "36px",
-                          borderRadius: "50%",
-                          background: "#EFE8FD",
-                          color: "#8639FA",
-                          display: "inline-flex",
-                          alignItems: "center",
-                          justifyContent: "center",
-                        }}
-                      >
-                        <svg
-                          width="16"
-                          height="16"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          strokeWidth="2.6"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                        >
-                          <path d="M5 12.5l4.5 4.5L19 7.5"></path>
-                        </svg>
-                      </span>
-                      <span
-                        className="sr-only"
-                        style={{ position: "absolute", width: "1px", height: "1px", overflow: "hidden", clip: "rect(0 0 0 0)" }}
-                      >
-                        {t("Inbegrepen")}
-                      </span>
-                    </div>
-                  </div>
-                  <div
-                    className="tf-row"
-                    style={{
-                      display: "grid",
-                      gridTemplateColumns: "minmax(0, 1.6fr) repeat(3, minmax(0, 1fr))",
-                      borderTop: "1px solid #E4E6EA",
-                    }}
-                  >
-                    <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "8px" }}>
-                      <strong style={{ fontSize: "15px", color: "#1F246C" }}>
-                        {t("Maand 12")}
-                        <span aria-hidden="true"> {t("–")} </span>
-                        <span>{t("Jaarevaluatie")}</span>
-                      </strong>
-                      <span style={{ fontSize: "14px", lineHeight: "1.55", color: "#3A4150" }}>
-                        {t("Evaluatie van het hele jaar | Plan en doelen voor het volgende jaar")}
-                      </span>
-                    </div>
-                    <div
-                      className="tf-cell"
-                      data-plan="Basic"
-                      style={{
-                        borderLeft: "1px solid #E4E6EA",
-                        display: "flex",
-                        alignItems: "center",
-                        justifyContent: "center",
-                        textAlign: "center",
-                        padding: "20px 12px",
-                        fontSize: "14px",
-                        fontWeight: "600",
-                        color: "#1F246C",
-                      }}
-                    >
-                      <span aria-hidden="true" style={{ color: "#B8BFCC" }}>
-                        {t("–")}
-                      </span>
-                      <span
-                        className="sr-only"
-                        style={{ position: "absolute", width: "1px", height: "1px", overflow: "hidden", clip: "rect(0 0 0 0)" }}
-                      >
-                        {t("Niet inbegrepen")}
-                      </span>
-                    </div>
-                    <div
-                      className="tf-cell"
-                      data-plan="Standard"
-                      style={{
-                        display: "flex",
-                        alignItems: "center",
-                        justifyContent: "center",
-                        textAlign: "center",
-                        padding: "20px 12px",
-                        fontSize: "14px",
-                        fontWeight: "600",
-                        color: "#1F246C",
-                        background: "#F6F2FF",
-                      }}
-                    >
-                      <span aria-hidden="true" style={{ color: "#B8BFCC" }}>
-                        {t("–")}
-                      </span>
-                      <span
-                        className="sr-only"
-                        style={{ position: "absolute", width: "1px", height: "1px", overflow: "hidden", clip: "rect(0 0 0 0)" }}
-                      >
-                        {t("Niet inbegrepen")}
-                      </span>
-                    </div>
-                    <div
-                      className="tf-cell"
-                      data-plan="Premium"
-                      style={{
-                        borderLeft: "1px solid #E4E6EA",
-                        display: "flex",
-                        alignItems: "center",
-                        justifyContent: "center",
-                        textAlign: "center",
-                        padding: "20px 12px",
-                        fontSize: "14px",
-                        fontWeight: "600",
-                        color: "#1F246C",
-                      }}
-                    >
-                      <span
-                        aria-hidden="true"
-                        style={{
-                          width: "36px",
-                          height: "36px",
-                          borderRadius: "50%",
-                          background: "#EFE8FD",
-                          color: "#8639FA",
-                          display: "inline-flex",
-                          alignItems: "center",
-                          justifyContent: "center",
-                        }}
-                      >
-                        <svg
-                          width="16"
-                          height="16"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          strokeWidth="2.6"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                        >
-                          <path d="M5 12.5l4.5 4.5L19 7.5"></path>
-                        </svg>
-                      </span>
-                      <span
-                        className="sr-only"
-                        style={{ position: "absolute", width: "1px", height: "1px", overflow: "hidden", clip: "rect(0 0 0 0)" }}
-                      >
-                        {t("Inbegrepen")}
-                      </span>
-                    </div>
-                  </div>
+              
                   <div
                     className="tf-row"
                     style={{
@@ -37290,6 +35680,1714 @@ export function TarievenContent() {
                     </svg>
                   </button>
                 </div>
+              </div>
+            </div>
+          </section>
+          <section className="pj-wrap pj-sec" style={{ background: "#F2F8FE", padding: "112px 40px 112px" }}>
+            <div style={{ maxWidth: "1280px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "40px" }}>
+              <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "16px", textAlign: "center" }}>
+                <h2
+                  style={{
+                    margin: "0",
+                    color: "#1F246C",
+                    fontFamily: "var(--font-display)",
+                    fontWeight: "700",
+                    fontSize: "clamp(34px, 4vw, 52px)",
+                    lineHeight: "1",
+                    letterSpacing: "-0.025em",
+                  }}
+                >
+                  {t("Langere")}{" "}
+                  <Accent from="#8639FA" to="#0F8AE5">
+                    <span
+                      className="grad-text"
+                      style={{
+                        background: "linear-gradient(90deg, #8639FA 0%, #0F8AE5 100%)",
+                        WebkitBackgroundClip: "text",
+                        backgroundClip: "text",
+                        WebkitTextFillColor: "transparent",
+                      }}
+                    >
+                      {t("samenwerking.")}
+                    </span>
+                  </Accent>{" "}
+                  {t("Sterker")}{" "}
+                  <Accent from="#8639FA" to="#0F8AE5">
+                    <span
+                      className="grad-text"
+                      style={{
+                        background: "linear-gradient(90deg, #8639FA 0%, #0F8AE5 100%)",
+                        WebkitBackgroundClip: "text",
+                        backgroundClip: "text",
+                        WebkitTextFillColor: "transparent",
+                      }}
+                    >
+                      {t("resultaat.")}
+                    </span>
+                  </Accent>
+                </h2>
+                <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.65", color: "#3A4150" }}>
+                  {t("Ontdek wat we iedere maand doen om jouw resultaten te verbeteren.")}
+                </p>
+              </div>
+              <div className="tf-table" data-sel={h.tfmPlan} style={{ background: "#FFFFFF", borderRadius: "24px", overflow: "visible" }}>
+                <div
+                  className="tf-row tf-head"
+                  style={{ display: "grid", gridTemplateColumns: "minmax(0, 1.6fr) repeat(3, minmax(0, 1fr))" }}
+                >
+                  <div></div>
+                  <div
+                    translate="no"
+                    style={{
+                      padding: "20px 12px",
+                      textAlign: "center",
+                      fontFamily: "var(--font-display)",
+                      fontWeight: "700",
+                      fontSize: "18px",
+                      color: "#1F246C",
+                    }}
+                  >
+                    {"Basic"}
+                  </div>
+                  <div
+                    translate="no"
+                    style={{
+                      padding: "20px 12px",
+                      textAlign: "center",
+                      fontFamily: "var(--font-display)",
+                      fontWeight: "700",
+                      fontSize: "18px",
+                      color: "#1F246C",
+                      background: "#F6F2FF",
+                    }}
+                  >
+                    {"Standard"}
+                  </div>
+                  <div
+                    translate="no"
+                    style={{
+                      padding: "20px 12px",
+                      textAlign: "center",
+                      fontFamily: "var(--font-display)",
+                      fontWeight: "700",
+                      fontSize: "18px",
+                      color: "#1F246C",
+                    }}
+                  >
+                    {"Premium"}
+                  </div>
+                </div>
+                <div
+                className="tf-row"
+                style={{
+                  display: "grid",
+                  gridTemplateColumns: "minmax(0, 1.6fr) repeat(3, minmax(0, 1fr))",
+                  borderTop: "1px solid #E4E6EA",
+                }}
+              >
+                <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "8px" }}>
+                  <strong style={{ fontSize: "15px", color: "#1F246C" }}>
+                    {t("Maand 1")}
+                    <span aria-hidden="true"> {t("–")} </span>
+                    <span>{t("Fundament en eerste campagne")}</span>
+                  </strong>
+                  <span style={{ fontSize: "14px", lineHeight: "1.55", color: "#3A4150" }}>
+                    {t("Intakegesprek en strategie | Pixel, server-side koppeling en conversies instellen | Eerste campagne live")}
+                  </span>
+                </div>
+                <div
+                  className="tf-cell"
+                  data-plan="Basic"
+                  style={{
+                    borderLeft: "1px solid #E4E6EA",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    textAlign: "center",
+                    padding: "20px 12px",
+                    fontSize: "14px",
+                    fontWeight: "600",
+                    color: "#1F246C",
+                  }}
+                >
+                  <span
+                    aria-hidden="true"
+                    style={{
+                      width: "36px",
+                      height: "36px",
+                      borderRadius: "50%",
+                      background: "#EFE8FD",
+                      color: "#8639FA",
+                      display: "inline-flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                    }}
+                  >
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2.6"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    >
+                      <path d="M5 12.5l4.5 4.5L19 7.5"></path>
+                    </svg>
+                  </span>
+                  <span
+                    className="sr-only"
+                    style={{ position: "absolute", width: "1px", height: "1px", overflow: "hidden", clip: "rect(0 0 0 0)" }}
+                  >
+                    {t("Inbegrepen")}
+                  </span>
+                </div>
+                <div
+                  className="tf-cell"
+                  data-plan="Standard"
+                  style={{
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    textAlign: "center",
+                    padding: "20px 12px",
+                    fontSize: "14px",
+                    fontWeight: "600",
+                    color: "#1F246C",
+                    background: "#F6F2FF",
+                  }}
+                >
+                  <span
+                    aria-hidden="true"
+                    style={{
+                      width: "36px",
+                      height: "36px",
+                      borderRadius: "50%",
+                      background: "#EFE8FD",
+                      color: "#8639FA",
+                      display: "inline-flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                    }}
+                  >
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2.6"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    >
+                      <path d="M5 12.5l4.5 4.5L19 7.5"></path>
+                    </svg>
+                  </span>
+                  <span
+                    className="sr-only"
+                    style={{ position: "absolute", width: "1px", height: "1px", overflow: "hidden", clip: "rect(0 0 0 0)" }}
+                  >
+                    {t("Inbegrepen")}
+                  </span>
+                </div>
+                <div
+                  className="tf-cell"
+                  data-plan="Premium"
+                  style={{
+                    borderLeft: "1px solid #E4E6EA",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    textAlign: "center",
+                    padding: "20px 12px",
+                    fontSize: "14px",
+                    fontWeight: "600",
+                    color: "#1F246C",
+                  }}
+                >
+                  <span
+                    aria-hidden="true"
+                    style={{
+                      width: "36px",
+                      height: "36px",
+                      borderRadius: "50%",
+                      background: "#EFE8FD",
+                      color: "#8639FA",
+                      display: "inline-flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                    }}
+                  >
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2.6"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    >
+                      <path d="M5 12.5l4.5 4.5L19 7.5"></path>
+                    </svg>
+                  </span>
+                  <span
+                    className="sr-only"
+                    style={{ position: "absolute", width: "1px", height: "1px", overflow: "hidden", clip: "rect(0 0 0 0)" }}
+                  >
+                    {t("Inbegrepen")}
+                  </span>
+                </div>
+              </div>
+              <div
+                className="tf-row"
+                style={{
+                  display: "grid",
+                  gridTemplateColumns: "minmax(0, 1.6fr) repeat(3, minmax(0, 1fr))",
+                  borderTop: "1px solid #E4E6EA",
+                }}
+              >
+                <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "8px" }}>
+                  <strong style={{ fontSize: "15px", color: "#1F246C" }}>
+                    {t("Maand 2")}
+                    <span aria-hidden="true"> {t("–")} </span>
+                    <span>{t("Eerste resultaten")}</span>
+                  </strong>
+                  <span style={{ fontSize: "14px", lineHeight: "1.55", color: "#3A4150" }}>
+                    {t("Eerste resultaten meten | Video- en UGC-advertenties toevoegen | Advertenties zonder resultaat vervangen")}
+                  </span>
+                </div>
+                <div
+                  className="tf-cell"
+                  data-plan="Basic"
+                  style={{
+                    borderLeft: "1px solid #E4E6EA",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    textAlign: "center",
+                    padding: "20px 12px",
+                    fontSize: "14px",
+                    fontWeight: "600",
+                    color: "#1F246C",
+                  }}
+                >
+                  <span
+                    aria-hidden="true"
+                    style={{
+                      width: "36px",
+                      height: "36px",
+                      borderRadius: "50%",
+                      background: "#EFE8FD",
+                      color: "#8639FA",
+                      display: "inline-flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                    }}
+                  >
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2.6"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    >
+                      <path d="M5 12.5l4.5 4.5L19 7.5"></path>
+                    </svg>
+                  </span>
+                  <span
+                    className="sr-only"
+                    style={{ position: "absolute", width: "1px", height: "1px", overflow: "hidden", clip: "rect(0 0 0 0)" }}
+                  >
+                    {t("Inbegrepen")}
+                  </span>
+                </div>
+                <div
+                  className="tf-cell"
+                  data-plan="Standard"
+                  style={{
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    textAlign: "center",
+                    padding: "20px 12px",
+                    fontSize: "14px",
+                    fontWeight: "600",
+                    color: "#1F246C",
+                    background: "#F6F2FF",
+                  }}
+                >
+                  <span
+                    aria-hidden="true"
+                    style={{
+                      width: "36px",
+                      height: "36px",
+                      borderRadius: "50%",
+                      background: "#EFE8FD",
+                      color: "#8639FA",
+                      display: "inline-flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                    }}
+                  >
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2.6"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    >
+                      <path d="M5 12.5l4.5 4.5L19 7.5"></path>
+                    </svg>
+                  </span>
+                  <span
+                    className="sr-only"
+                    style={{ position: "absolute", width: "1px", height: "1px", overflow: "hidden", clip: "rect(0 0 0 0)" }}
+                  >
+                    {t("Inbegrepen")}
+                  </span>
+                </div>
+                <div
+                  className="tf-cell"
+                  data-plan="Premium"
+                  style={{
+                    borderLeft: "1px solid #E4E6EA",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    textAlign: "center",
+                    padding: "20px 12px",
+                    fontSize: "14px",
+                    fontWeight: "600",
+                    color: "#1F246C",
+                  }}
+                >
+                  <span
+                    aria-hidden="true"
+                    style={{
+                      width: "36px",
+                      height: "36px",
+                      borderRadius: "50%",
+                      background: "#EFE8FD",
+                      color: "#8639FA",
+                      display: "inline-flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                    }}
+                  >
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2.6"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    >
+                      <path d="M5 12.5l4.5 4.5L19 7.5"></path>
+                    </svg>
+                  </span>
+                  <span
+                    className="sr-only"
+                    style={{ position: "absolute", width: "1px", height: "1px", overflow: "hidden", clip: "rect(0 0 0 0)" }}
+                  >
+                    {t("Inbegrepen")}
+                  </span>
+                </div>
+              </div>
+              <div
+                className="tf-row"
+                style={{
+                  display: "grid",
+                  gridTemplateColumns: "minmax(0, 1.6fr) repeat(3, minmax(0, 1fr))",
+                  borderTop: "1px solid #E4E6EA",
+                }}
+              >
+                <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "8px" }}>
+                  <strong style={{ fontSize: "15px", color: "#1F246C" }}>
+                    {t("Maand 3")}
+                    <span aria-hidden="true"> {t("–")} </span>
+                    <span>{t("Testen en bijsturen")}</span>
+                  </strong>
+                  <span style={{ fontSize: "14px", lineHeight: "1.55", color: "#3A4150" }}>
+                    {t("A/B-testen op advertenties | Budget naar wat werkt | Evaluatie na 3 maanden")}
+                  </span>
+                </div>
+                <div
+                  className="tf-cell"
+                  data-plan="Basic"
+                  style={{
+                    borderLeft: "1px solid #E4E6EA",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    textAlign: "center",
+                    padding: "20px 12px",
+                    fontSize: "14px",
+                    fontWeight: "600",
+                    color: "#1F246C",
+                  }}
+                >
+                  <span
+                    aria-hidden="true"
+                    style={{
+                      width: "36px",
+                      height: "36px",
+                      borderRadius: "50%",
+                      background: "#EFE8FD",
+                      color: "#8639FA",
+                      display: "inline-flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                    }}
+                  >
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2.6"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    >
+                      <path d="M5 12.5l4.5 4.5L19 7.5"></path>
+                    </svg>
+                  </span>
+                  <span
+                    className="sr-only"
+                    style={{ position: "absolute", width: "1px", height: "1px", overflow: "hidden", clip: "rect(0 0 0 0)" }}
+                  >
+                    {t("Inbegrepen")}
+                  </span>
+                </div>
+                <div
+                  className="tf-cell"
+                  data-plan="Standard"
+                  style={{
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    textAlign: "center",
+                    padding: "20px 12px",
+                    fontSize: "14px",
+                    fontWeight: "600",
+                    color: "#1F246C",
+                    background: "#F6F2FF",
+                  }}
+                >
+                  <span
+                    aria-hidden="true"
+                    style={{
+                      width: "36px",
+                      height: "36px",
+                      borderRadius: "50%",
+                      background: "#EFE8FD",
+                      color: "#8639FA",
+                      display: "inline-flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                    }}
+                  >
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2.6"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    >
+                      <path d="M5 12.5l4.5 4.5L19 7.5"></path>
+                    </svg>
+                  </span>
+                  <span
+                    className="sr-only"
+                    style={{ position: "absolute", width: "1px", height: "1px", overflow: "hidden", clip: "rect(0 0 0 0)" }}
+                  >
+                    {t("Inbegrepen")}
+                  </span>
+                </div>
+                <div
+                  className="tf-cell"
+                  data-plan="Premium"
+                  style={{
+                    borderLeft: "1px solid #E4E6EA",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    textAlign: "center",
+                    padding: "20px 12px",
+                    fontSize: "14px",
+                    fontWeight: "600",
+                    color: "#1F246C",
+                  }}
+                >
+                  <span
+                    aria-hidden="true"
+                    style={{
+                      width: "36px",
+                      height: "36px",
+                      borderRadius: "50%",
+                      background: "#EFE8FD",
+                      color: "#8639FA",
+                      display: "inline-flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                    }}
+                  >
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2.6"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    >
+                      <path d="M5 12.5l4.5 4.5L19 7.5"></path>
+                    </svg>
+                  </span>
+                  <span
+                    className="sr-only"
+                    style={{ position: "absolute", width: "1px", height: "1px", overflow: "hidden", clip: "rect(0 0 0 0)" }}
+                  >
+                    {t("Inbegrepen")}
+                  </span>
+                </div>
+              </div>
+              <div
+                className="tf-row"
+                style={{
+                  display: "grid",
+                  gridTemplateColumns: "minmax(0, 1.6fr) repeat(3, minmax(0, 1fr))",
+                  borderTop: "1px solid #E4E6EA",
+                }}
+              >
+                <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "8px" }}>
+                  <strong style={{ fontSize: "15px", color: "#1F246C" }}>
+                    {t("Maand 4")}
+                    <span aria-hidden="true"> {t("–")} </span>
+                    <span>{t("Bezoekers en klanten opvolgen")}</span>
+                  </strong>
+                  <span style={{ fontSize: "14px", lineHeight: "1.55", color: "#3A4150" }}>
+                    {t("Advertenties voor websitebezoekers en volgers binnen de bestaande campagne | Check verdeling nieuwe en bestaande klanten | Nieuwe creatives")}
+                  </span>
+                </div>
+                <div
+                  className="tf-cell"
+                  data-plan="Basic"
+                  style={{
+                    borderLeft: "1px solid #E4E6EA",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    textAlign: "center",
+                    padding: "20px 12px",
+                    fontSize: "14px",
+                    fontWeight: "600",
+                    color: "#1F246C",
+                  }}
+                >
+                  <span aria-hidden="true" style={{ color: "#B8BFCC" }}>
+                    {t("–")}
+                  </span>
+                  <span
+                    className="sr-only"
+                    style={{ position: "absolute", width: "1px", height: "1px", overflow: "hidden", clip: "rect(0 0 0 0)" }}
+                  >
+                    {t("Niet inbegrepen")}
+                  </span>
+                </div>
+                <div
+                  className="tf-cell"
+                  data-plan="Standard"
+                  style={{
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    textAlign: "center",
+                    padding: "20px 12px",
+                    fontSize: "14px",
+                    fontWeight: "600",
+                    color: "#1F246C",
+                    background: "#F6F2FF",
+                  }}
+                >
+                  <span
+                    aria-hidden="true"
+                    style={{
+                      width: "36px",
+                      height: "36px",
+                      borderRadius: "50%",
+                      background: "#EFE8FD",
+                      color: "#8639FA",
+                      display: "inline-flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                    }}
+                  >
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2.6"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    >
+                      <path d="M5 12.5l4.5 4.5L19 7.5"></path>
+                    </svg>
+                  </span>
+                  <span
+                    className="sr-only"
+                    style={{ position: "absolute", width: "1px", height: "1px", overflow: "hidden", clip: "rect(0 0 0 0)" }}
+                  >
+                    {t("Inbegrepen")}
+                  </span>
+                </div>
+                <div
+                  className="tf-cell"
+                  data-plan="Premium"
+                  style={{
+                    borderLeft: "1px solid #E4E6EA",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    textAlign: "center",
+                    padding: "20px 12px",
+                    fontSize: "14px",
+                    fontWeight: "600",
+                    color: "#1F246C",
+                  }}
+                >
+                  <span
+                    aria-hidden="true"
+                    style={{
+                      width: "36px",
+                      height: "36px",
+                      borderRadius: "50%",
+                      background: "#EFE8FD",
+                      color: "#8639FA",
+                      display: "inline-flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                    }}
+                  >
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2.6"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    >
+                      <path d="M5 12.5l4.5 4.5L19 7.5"></path>
+                    </svg>
+                  </span>
+                  <span
+                    className="sr-only"
+                    style={{ position: "absolute", width: "1px", height: "1px", overflow: "hidden", clip: "rect(0 0 0 0)" }}
+                  >
+                    {t("Inbegrepen")}
+                  </span>
+                </div>
+              </div>
+              <div
+                className="tf-row"
+                style={{
+                  display: "grid",
+                  gridTemplateColumns: "minmax(0, 1.6fr) repeat(3, minmax(0, 1fr))",
+                  borderTop: "1px solid #E4E6EA",
+                }}
+              >
+                <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "8px" }}>
+                  <strong style={{ fontSize: "15px", color: "#1F246C" }}>
+                    {t("Maand 5")}
+                    <span aria-hidden="true"> {t("–")} </span>
+                    <span>{t("Nieuwe doelgroepen")}</span>
+                  </strong>
+                  <span style={{ fontSize: "14px", lineHeight: "1.55", color: "#3A4150" }}>
+                    {t("Nieuwe invalshoeken die nieuwe doelgroepen aanspreken | Nieuwe creatives | Budget bijsturen")}
+                  </span>
+                </div>
+                <div
+                  className="tf-cell"
+                  data-plan="Basic"
+                  style={{
+                    borderLeft: "1px solid #E4E6EA",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    textAlign: "center",
+                    padding: "20px 12px",
+                    fontSize: "14px",
+                    fontWeight: "600",
+                    color: "#1F246C",
+                  }}
+                >
+                  <span aria-hidden="true" style={{ color: "#B8BFCC" }}>
+                    {t("–")}
+                  </span>
+                  <span
+                    className="sr-only"
+                    style={{ position: "absolute", width: "1px", height: "1px", overflow: "hidden", clip: "rect(0 0 0 0)" }}
+                  >
+                    {t("Niet inbegrepen")}
+                  </span>
+                </div>
+                <div
+                  className="tf-cell"
+                  data-plan="Standard"
+                  style={{
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    textAlign: "center",
+                    padding: "20px 12px",
+                    fontSize: "14px",
+                    fontWeight: "600",
+                    color: "#1F246C",
+                    background: "#F6F2FF",
+                  }}
+                >
+                  <span
+                    aria-hidden="true"
+                    style={{
+                      width: "36px",
+                      height: "36px",
+                      borderRadius: "50%",
+                      background: "#EFE8FD",
+                      color: "#8639FA",
+                      display: "inline-flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                    }}
+                  >
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2.6"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    >
+                      <path d="M5 12.5l4.5 4.5L19 7.5"></path>
+                    </svg>
+                  </span>
+                  <span
+                    className="sr-only"
+                    style={{ position: "absolute", width: "1px", height: "1px", overflow: "hidden", clip: "rect(0 0 0 0)" }}
+                  >
+                    {t("Inbegrepen")}
+                  </span>
+                </div>
+                <div
+                  className="tf-cell"
+                  data-plan="Premium"
+                  style={{
+                    borderLeft: "1px solid #E4E6EA",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    textAlign: "center",
+                    padding: "20px 12px",
+                    fontSize: "14px",
+                    fontWeight: "600",
+                    color: "#1F246C",
+                  }}
+                >
+                  <span
+                    aria-hidden="true"
+                    style={{
+                      width: "36px",
+                      height: "36px",
+                      borderRadius: "50%",
+                      background: "#EFE8FD",
+                      color: "#8639FA",
+                      display: "inline-flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                    }}
+                  >
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2.6"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    >
+                      <path d="M5 12.5l4.5 4.5L19 7.5"></path>
+                    </svg>
+                  </span>
+                  <span
+                    className="sr-only"
+                    style={{ position: "absolute", width: "1px", height: "1px", overflow: "hidden", clip: "rect(0 0 0 0)" }}
+                  >
+                    {t("Inbegrepen")}
+                  </span>
+                </div>
+              </div>
+              <div
+                className="tf-row"
+                style={{
+                  display: "grid",
+                  gridTemplateColumns: "minmax(0, 1.6fr) repeat(3, minmax(0, 1fr))",
+                  borderTop: "1px solid #E4E6EA",
+                }}
+              >
+                <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "8px" }}>
+                  <strong style={{ fontSize: "15px", color: "#1F246C" }}>
+                    {t("Maand 6")}
+                    <span aria-hidden="true"> {t("–")} </span>
+                    <span>{t("Opschalen en evaluatie")}</span>
+                  </strong>
+                  <span style={{ fontSize: "14px", lineHeight: "1.55", color: "#3A4150" }}>
+                    {t("Winnende campagnes opschalen | Evaluatie na 6 maanden | Plan voor het volgende halfjaar")}
+                  </span>
+                </div>
+                <div
+                  className="tf-cell"
+                  data-plan="Basic"
+                  style={{
+                    borderLeft: "1px solid #E4E6EA",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    textAlign: "center",
+                    padding: "20px 12px",
+                    fontSize: "14px",
+                    fontWeight: "600",
+                    color: "#1F246C",
+                  }}
+                >
+                  <span aria-hidden="true" style={{ color: "#B8BFCC" }}>
+                    {t("–")}
+                  </span>
+                  <span
+                    className="sr-only"
+                    style={{ position: "absolute", width: "1px", height: "1px", overflow: "hidden", clip: "rect(0 0 0 0)" }}
+                  >
+                    {t("Niet inbegrepen")}
+                  </span>
+                </div>
+                <div
+                  className="tf-cell"
+                  data-plan="Standard"
+                  style={{
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    textAlign: "center",
+                    padding: "20px 12px",
+                    fontSize: "14px",
+                    fontWeight: "600",
+                    color: "#1F246C",
+                    background: "#F6F2FF",
+                  }}
+                >
+                  <span
+                    aria-hidden="true"
+                    style={{
+                      width: "36px",
+                      height: "36px",
+                      borderRadius: "50%",
+                      background: "#EFE8FD",
+                      color: "#8639FA",
+                      display: "inline-flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                    }}
+                  >
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2.6"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    >
+                      <path d="M5 12.5l4.5 4.5L19 7.5"></path>
+                    </svg>
+                  </span>
+                  <span
+                    className="sr-only"
+                    style={{ position: "absolute", width: "1px", height: "1px", overflow: "hidden", clip: "rect(0 0 0 0)" }}
+                  >
+                    {t("Inbegrepen")}
+                  </span>
+                </div>
+                <div
+                  className="tf-cell"
+                  data-plan="Premium"
+                  style={{
+                    borderLeft: "1px solid #E4E6EA",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    textAlign: "center",
+                    padding: "20px 12px",
+                    fontSize: "14px",
+                    fontWeight: "600",
+                    color: "#1F246C",
+                  }}
+                >
+                  <span
+                    aria-hidden="true"
+                    style={{
+                      width: "36px",
+                      height: "36px",
+                      borderRadius: "50%",
+                      background: "#EFE8FD",
+                      color: "#8639FA",
+                      display: "inline-flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                    }}
+                  >
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2.6"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    >
+                      <path d="M5 12.5l4.5 4.5L19 7.5"></path>
+                    </svg>
+                  </span>
+                  <span
+                    className="sr-only"
+                    style={{ position: "absolute", width: "1px", height: "1px", overflow: "hidden", clip: "rect(0 0 0 0)" }}
+                  >
+                    {t("Inbegrepen")}
+                  </span>
+                </div>
+              </div>
+              <div
+                className="tf-row"
+                style={{
+                  display: "grid",
+                  gridTemplateColumns: "minmax(0, 1.6fr) repeat(3, minmax(0, 1fr))",
+                  borderTop: "1px solid #E4E6EA",
+                }}
+              >
+                <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "8px" }}>
+                  <strong style={{ fontSize: "15px", color: "#1F246C" }}>
+                    {t("Maand 7")}
+                    <span aria-hidden="true"> {t("–")} </span>
+                    <span>{t("Tweede platform")}</span>
+                  </strong>
+                  <span style={{ fontSize: "14px", lineHeight: "1.55", color: "#3A4150" }}>
+                    {t("Uitbreiden naar een tweede platform, zoals TikTok of LinkedIn, met een eigen advertentiebudget | Nieuwe creatives")}
+                  </span>
+                </div>
+                <div
+                  className="tf-cell"
+                  data-plan="Basic"
+                  style={{
+                    borderLeft: "1px solid #E4E6EA",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    textAlign: "center",
+                    padding: "20px 12px",
+                    fontSize: "14px",
+                    fontWeight: "600",
+                    color: "#1F246C",
+                  }}
+                >
+                  <span aria-hidden="true" style={{ color: "#B8BFCC" }}>
+                    {t("–")}
+                  </span>
+                  <span
+                    className="sr-only"
+                    style={{ position: "absolute", width: "1px", height: "1px", overflow: "hidden", clip: "rect(0 0 0 0)" }}
+                  >
+                    {t("Niet inbegrepen")}
+                  </span>
+                </div>
+                <div
+                  className="tf-cell"
+                  data-plan="Standard"
+                  style={{
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    textAlign: "center",
+                    padding: "20px 12px",
+                    fontSize: "14px",
+                    fontWeight: "600",
+                    color: "#1F246C",
+                    background: "#F6F2FF",
+                  }}
+                >
+                  <span aria-hidden="true" style={{ color: "#B8BFCC" }}>
+                    {t("–")}
+                  </span>
+                  <span
+                    className="sr-only"
+                    style={{ position: "absolute", width: "1px", height: "1px", overflow: "hidden", clip: "rect(0 0 0 0)" }}
+                  >
+                    {t("Niet inbegrepen")}
+                  </span>
+                </div>
+                <div
+                  className="tf-cell"
+                  data-plan="Premium"
+                  style={{
+                    borderLeft: "1px solid #E4E6EA",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    textAlign: "center",
+                    padding: "20px 12px",
+                    fontSize: "14px",
+                    fontWeight: "600",
+                    color: "#1F246C",
+                  }}
+                >
+                  <span
+                    aria-hidden="true"
+                    style={{
+                      width: "36px",
+                      height: "36px",
+                      borderRadius: "50%",
+                      background: "#EFE8FD",
+                      color: "#8639FA",
+                      display: "inline-flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                    }}
+                  >
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2.6"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    >
+                      <path d="M5 12.5l4.5 4.5L19 7.5"></path>
+                    </svg>
+                  </span>
+                  <span
+                    className="sr-only"
+                    style={{ position: "absolute", width: "1px", height: "1px", overflow: "hidden", clip: "rect(0 0 0 0)" }}
+                  >
+                    {t("Inbegrepen")}
+                  </span>
+                </div>
+              </div>
+              <div
+                className="tf-row"
+                style={{
+                  display: "grid",
+                  gridTemplateColumns: "minmax(0, 1.6fr) repeat(3, minmax(0, 1fr))",
+                  borderTop: "1px solid #E4E6EA",
+                }}
+              >
+                <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "8px" }}>
+                  <strong style={{ fontSize: "15px", color: "#1F246C" }}>
+                    {t("Maand 8")}
+                    <span aria-hidden="true"> {t("–")} </span>
+                    <span>{t("Nieuwe formats")}</span>
+                  </strong>
+                  <span style={{ fontSize: "14px", lineHeight: "1.55", color: "#3A4150" }}>
+                    {t("Samenwerkingsadvertenties met makers of klanten testen | Advertentiemoeheid signaleren & op tijd vervangen")}
+                  </span>
+                </div>
+                <div
+                  className="tf-cell"
+                  data-plan="Basic"
+                  style={{
+                    borderLeft: "1px solid #E4E6EA",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    textAlign: "center",
+                    padding: "20px 12px",
+                    fontSize: "14px",
+                    fontWeight: "600",
+                    color: "#1F246C",
+                  }}
+                >
+                  <span aria-hidden="true" style={{ color: "#B8BFCC" }}>
+                    {t("–")}
+                  </span>
+                  <span
+                    className="sr-only"
+                    style={{ position: "absolute", width: "1px", height: "1px", overflow: "hidden", clip: "rect(0 0 0 0)" }}
+                  >
+                    {t("Niet inbegrepen")}
+                  </span>
+                </div>
+                <div
+                  className="tf-cell"
+                  data-plan="Standard"
+                  style={{
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    textAlign: "center",
+                    padding: "20px 12px",
+                    fontSize: "14px",
+                    fontWeight: "600",
+                    color: "#1F246C",
+                    background: "#F6F2FF",
+                  }}
+                >
+                  <span aria-hidden="true" style={{ color: "#B8BFCC" }}>
+                    {t("–")}
+                  </span>
+                  <span
+                    className="sr-only"
+                    style={{ position: "absolute", width: "1px", height: "1px", overflow: "hidden", clip: "rect(0 0 0 0)" }}
+                  >
+                    {t("Niet inbegrepen")}
+                  </span>
+                </div>
+                <div
+                  className="tf-cell"
+                  data-plan="Premium"
+                  style={{
+                    borderLeft: "1px solid #E4E6EA",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    textAlign: "center",
+                    padding: "20px 12px",
+                    fontSize: "14px",
+                    fontWeight: "600",
+                    color: "#1F246C",
+                  }}
+                >
+                  <span
+                    aria-hidden="true"
+                    style={{
+                      width: "36px",
+                      height: "36px",
+                      borderRadius: "50%",
+                      background: "#EFE8FD",
+                      color: "#8639FA",
+                      display: "inline-flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                    }}
+                  >
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2.6"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    >
+                      <path d="M5 12.5l4.5 4.5L19 7.5"></path>
+                    </svg>
+                  </span>
+                  <span
+                    className="sr-only"
+                    style={{ position: "absolute", width: "1px", height: "1px", overflow: "hidden", clip: "rect(0 0 0 0)" }}
+                  >
+                    {t("Inbegrepen")}
+                  </span>
+                </div>
+              </div>
+              <div
+                className="tf-row"
+                style={{
+                  display: "grid",
+                  gridTemplateColumns: "minmax(0, 1.6fr) repeat(3, minmax(0, 1fr))",
+                  borderTop: "1px solid #E4E6EA",
+                }}
+              >
+                <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "8px" }}>
+                  <strong style={{ fontSize: "15px", color: "#1F246C" }}>
+                    {t("Maand 9")}
+                    <span aria-hidden="true"> {t("–")} </span>
+                    <span>{t("Seizoenen en acties")}</span>
+                  </strong>
+                  <span style={{ fontSize: "14px", lineHeight: "1.55", color: "#3A4150" }}>
+                    {t("Acties en advertenties rond seizoenen | Budget opschalen op pieken")}
+                  </span>
+                </div>
+                <div
+                  className="tf-cell"
+                  data-plan="Basic"
+                  style={{
+                    borderLeft: "1px solid #E4E6EA",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    textAlign: "center",
+                    padding: "20px 12px",
+                    fontSize: "14px",
+                    fontWeight: "600",
+                    color: "#1F246C",
+                  }}
+                >
+                  <span aria-hidden="true" style={{ color: "#B8BFCC" }}>
+                    {t("–")}
+                  </span>
+                  <span
+                    className="sr-only"
+                    style={{ position: "absolute", width: "1px", height: "1px", overflow: "hidden", clip: "rect(0 0 0 0)" }}
+                  >
+                    {t("Niet inbegrepen")}
+                  </span>
+                </div>
+                <div
+                  className="tf-cell"
+                  data-plan="Standard"
+                  style={{
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    textAlign: "center",
+                    padding: "20px 12px",
+                    fontSize: "14px",
+                    fontWeight: "600",
+                    color: "#1F246C",
+                    background: "#F6F2FF",
+                  }}
+                >
+                  <span aria-hidden="true" style={{ color: "#B8BFCC" }}>
+                    {t("–")}
+                  </span>
+                  <span
+                    className="sr-only"
+                    style={{ position: "absolute", width: "1px", height: "1px", overflow: "hidden", clip: "rect(0 0 0 0)" }}
+                  >
+                    {t("Niet inbegrepen")}
+                  </span>
+                </div>
+                <div
+                  className="tf-cell"
+                  data-plan="Premium"
+                  style={{
+                    borderLeft: "1px solid #E4E6EA",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    textAlign: "center",
+                    padding: "20px 12px",
+                    fontSize: "14px",
+                    fontWeight: "600",
+                    color: "#1F246C",
+                  }}
+                >
+                  <span
+                    aria-hidden="true"
+                    style={{
+                      width: "36px",
+                      height: "36px",
+                      borderRadius: "50%",
+                      background: "#EFE8FD",
+                      color: "#8639FA",
+                      display: "inline-flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                    }}
+                  >
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2.6"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    >
+                      <path d="M5 12.5l4.5 4.5L19 7.5"></path>
+                    </svg>
+                  </span>
+                  <span
+                    className="sr-only"
+                    style={{ position: "absolute", width: "1px", height: "1px", overflow: "hidden", clip: "rect(0 0 0 0)" }}
+                  >
+                    {t("Inbegrepen")}
+                  </span>
+                </div>
+              </div>
+              <div
+                className="tf-row"
+                style={{
+                  display: "grid",
+                  gridTemplateColumns: "minmax(0, 1.6fr) repeat(3, minmax(0, 1fr))",
+                  borderTop: "1px solid #E4E6EA",
+                }}
+              >
+                <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "8px" }}>
+                  <strong style={{ fontSize: "15px", color: "#1F246C" }}>
+                    {t("Maand 10")}
+                    <span aria-hidden="true"> {t("–")} </span>
+                    <span>{t("Sturen op waarde")}</span>
+                  </strong>
+                  <span style={{ fontSize: "14px", lineHeight: "1.55", color: "#3A4150" }}>
+                    {t("Webshop: budget naar producten met de beste marge | Dienstverlener: sturen op aanvragen die klant worden | Nieuwe creatives")}
+                  </span>
+                </div>
+                <div
+                  className="tf-cell"
+                  data-plan="Basic"
+                  style={{
+                    borderLeft: "1px solid #E4E6EA",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    textAlign: "center",
+                    padding: "20px 12px",
+                    fontSize: "14px",
+                    fontWeight: "600",
+                    color: "#1F246C",
+                  }}
+                >
+                  <span aria-hidden="true" style={{ color: "#B8BFCC" }}>
+                    {t("–")}
+                  </span>
+                  <span
+                    className="sr-only"
+                    style={{ position: "absolute", width: "1px", height: "1px", overflow: "hidden", clip: "rect(0 0 0 0)" }}
+                  >
+                    {t("Niet inbegrepen")}
+                  </span>
+                </div>
+                <div
+                  className="tf-cell"
+                  data-plan="Standard"
+                  style={{
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    textAlign: "center",
+                    padding: "20px 12px",
+                    fontSize: "14px",
+                    fontWeight: "600",
+                    color: "#1F246C",
+                    background: "#F6F2FF",
+                  }}
+                >
+                  <span aria-hidden="true" style={{ color: "#B8BFCC" }}>
+                    {t("–")}
+                  </span>
+                  <span
+                    className="sr-only"
+                    style={{ position: "absolute", width: "1px", height: "1px", overflow: "hidden", clip: "rect(0 0 0 0)" }}
+                  >
+                    {t("Niet inbegrepen")}
+                  </span>
+                </div>
+                <div
+                  className="tf-cell"
+                  data-plan="Premium"
+                  style={{
+                    borderLeft: "1px solid #E4E6EA",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    textAlign: "center",
+                    padding: "20px 12px",
+                    fontSize: "14px",
+                    fontWeight: "600",
+                    color: "#1F246C",
+                  }}
+                >
+                  <span
+                    aria-hidden="true"
+                    style={{
+                      width: "36px",
+                      height: "36px",
+                      borderRadius: "50%",
+                      background: "#EFE8FD",
+                      color: "#8639FA",
+                      display: "inline-flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                    }}
+                  >
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2.6"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    >
+                      <path d="M5 12.5l4.5 4.5L19 7.5"></path>
+                    </svg>
+                  </span>
+                  <span
+                    className="sr-only"
+                    style={{ position: "absolute", width: "1px", height: "1px", overflow: "hidden", clip: "rect(0 0 0 0)" }}
+                  >
+                    {t("Inbegrepen")}
+                  </span>
+                </div>
+              </div>
+              <div
+                className="tf-row"
+                style={{
+                  display: "grid",
+                  gridTemplateColumns: "minmax(0, 1.6fr) repeat(3, minmax(0, 1fr))",
+                  borderTop: "1px solid #E4E6EA",
+                }}
+              >
+                <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "8px" }}>
+                  <strong style={{ fontSize: "15px", color: "#1F246C" }}>
+                    {t("Maand 11")}
+                    <span aria-hidden="true"> {t("–")} </span>
+                    <span>{t("Verfijnen op data")}</span>
+                  </strong>
+                  <span style={{ fontSize: "14px", lineHeight: "1.55", color: "#3A4150" }}>
+                    {t("Advertenties en budget verfijnen op basis van data | Nieuwe A/B-testen")}
+                  </span>
+                </div>
+                <div
+                  className="tf-cell"
+                  data-plan="Basic"
+                  style={{
+                    borderLeft: "1px solid #E4E6EA",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    textAlign: "center",
+                    padding: "20px 12px",
+                    fontSize: "14px",
+                    fontWeight: "600",
+                    color: "#1F246C",
+                  }}
+                >
+                  <span aria-hidden="true" style={{ color: "#B8BFCC" }}>
+                    {t("–")}
+                  </span>
+                  <span
+                    className="sr-only"
+                    style={{ position: "absolute", width: "1px", height: "1px", overflow: "hidden", clip: "rect(0 0 0 0)" }}
+                  >
+                    {t("Niet inbegrepen")}
+                  </span>
+                </div>
+                <div
+                  className="tf-cell"
+                  data-plan="Standard"
+                  style={{
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    textAlign: "center",
+                    padding: "20px 12px",
+                    fontSize: "14px",
+                    fontWeight: "600",
+                    color: "#1F246C",
+                    background: "#F6F2FF",
+                  }}
+                >
+                  <span aria-hidden="true" style={{ color: "#B8BFCC" }}>
+                    {t("–")}
+                  </span>
+                  <span
+                    className="sr-only"
+                    style={{ position: "absolute", width: "1px", height: "1px", overflow: "hidden", clip: "rect(0 0 0 0)" }}
+                  >
+                    {t("Niet inbegrepen")}
+                  </span>
+                </div>
+                <div
+                  className="tf-cell"
+                  data-plan="Premium"
+                  style={{
+                    borderLeft: "1px solid #E4E6EA",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    textAlign: "center",
+                    padding: "20px 12px",
+                    fontSize: "14px",
+                    fontWeight: "600",
+                    color: "#1F246C",
+                  }}
+                >
+                  <span
+                    aria-hidden="true"
+                    style={{
+                      width: "36px",
+                      height: "36px",
+                      borderRadius: "50%",
+                      background: "#EFE8FD",
+                      color: "#8639FA",
+                      display: "inline-flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                    }}
+                  >
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2.6"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    >
+                      <path d="M5 12.5l4.5 4.5L19 7.5"></path>
+                    </svg>
+                  </span>
+                  <span
+                    className="sr-only"
+                    style={{ position: "absolute", width: "1px", height: "1px", overflow: "hidden", clip: "rect(0 0 0 0)" }}
+                  >
+                    {t("Inbegrepen")}
+                  </span>
+                </div>
+              </div>
+              <div
+                className="tf-row"
+                style={{
+                  display: "grid",
+                  gridTemplateColumns: "minmax(0, 1.6fr) repeat(3, minmax(0, 1fr))",
+                  borderTop: "1px solid #E4E6EA",
+                }}
+              >
+                <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "8px" }}>
+                  <strong style={{ fontSize: "15px", color: "#1F246C" }}>
+                    {t("Maand 12")}
+                    <span aria-hidden="true"> {t("–")} </span>
+                    <span>{t("Jaarevaluatie")}</span>
+                  </strong>
+                  <span style={{ fontSize: "14px", lineHeight: "1.55", color: "#3A4150" }}>
+                    {t("Evaluatie van het hele jaar | Plan en doelen voor het volgende jaar")}
+                  </span>
+                </div>
+                <div
+                  className="tf-cell"
+                  data-plan="Basic"
+                  style={{
+                    borderLeft: "1px solid #E4E6EA",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    textAlign: "center",
+                    padding: "20px 12px",
+                    fontSize: "14px",
+                    fontWeight: "600",
+                    color: "#1F246C",
+                  }}
+                >
+                  <span aria-hidden="true" style={{ color: "#B8BFCC" }}>
+                    {t("–")}
+                  </span>
+                  <span
+                    className="sr-only"
+                    style={{ position: "absolute", width: "1px", height: "1px", overflow: "hidden", clip: "rect(0 0 0 0)" }}
+                  >
+                    {t("Niet inbegrepen")}
+                  </span>
+                </div>
+                <div
+                  className="tf-cell"
+                  data-plan="Standard"
+                  style={{
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    textAlign: "center",
+                    padding: "20px 12px",
+                    fontSize: "14px",
+                    fontWeight: "600",
+                    color: "#1F246C",
+                    background: "#F6F2FF",
+                  }}
+                >
+                  <span aria-hidden="true" style={{ color: "#B8BFCC" }}>
+                    {t("–")}
+                  </span>
+                  <span
+                    className="sr-only"
+                    style={{ position: "absolute", width: "1px", height: "1px", overflow: "hidden", clip: "rect(0 0 0 0)" }}
+                  >
+                    {t("Niet inbegrepen")}
+                  </span>
+                </div>
+                <div
+                  className="tf-cell"
+                  data-plan="Premium"
+                  style={{
+                    borderLeft: "1px solid #E4E6EA",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    textAlign: "center",
+                    padding: "20px 12px",
+                    fontSize: "14px",
+                    fontWeight: "600",
+                    color: "#1F246C",
+                  }}
+                >
+                  <span
+                    aria-hidden="true"
+                    style={{
+                      width: "36px",
+                      height: "36px",
+                      borderRadius: "50%",
+                      background: "#EFE8FD",
+                      color: "#8639FA",
+                      display: "inline-flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                    }}
+                  >
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2.6"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    >
+                      <path d="M5 12.5l4.5 4.5L19 7.5"></path>
+                    </svg>
+                  </span>
+                  <span
+                    className="sr-only"
+                    style={{ position: "absolute", width: "1px", height: "1px", overflow: "hidden", clip: "rect(0 0 0 0)" }}
+                  >
+                    {t("Inbegrepen")}
+                  </span>
+                </div>
+              </div>
               </div>
             </div>
           </section>
