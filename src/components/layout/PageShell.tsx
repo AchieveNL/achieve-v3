@@ -4,6 +4,7 @@ import { PageLoader } from "@/components/ui/PageLoader";
 import { getDicts, getTr } from "@/i18n/server";
 import type { Locale, PageId } from "@/i18n/config";
 import { CalendlyPopup } from "@/components/behavior/CalendlyPopup";
+import { ButtonFit } from "@/components/behavior/ButtonFit";
 import { DragScroll } from "@/components/behavior/DragScroll";
 import { Footer } from "./Footer";
 import { Header } from "./Header";
@@ -22,6 +23,7 @@ export async function PageShell({ locale, page, children }: { locale: Locale; pa
         <Footer tr={tr} />
       </div>
       <CalendlyPopup />
+      <ButtonFit />
       <PageLoader />
       <DragScroll />
     </I18nProvider>
