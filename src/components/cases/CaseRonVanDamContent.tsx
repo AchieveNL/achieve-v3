@@ -14,9 +14,9 @@ export function CaseRonVanDamContent() {
   const { paused, toggle } = useMotion();
   const [csI, setCsI] = useState(0);
   const [mkI, setMkI] = useState(0);
-  const SLIDES: { img: string; alt: string; mpos?: string }[] = [
+  const SLIDES: { img: string; alt: string; mpos?: string; video?: string }[] = [
     { img: "/media/cases/ron-van-dam-laptop.webp", mpos: "32% 50%", alt: "De webshop van Ron van Dam op een laptop en tablet in een atelier" },
-    { img: "/media/projects/ron-van-dam-01.webp", alt: "Detail van een mixed media portret van Ron van Dam" },
+    { img: "/media/projects/ron-van-dam-01.webp", video: "/media/projects/ron-van-dam-02.mp4", alt: "Ron van Dam aan het werk in zijn atelier" },
   ];
   const N = 2;
   const ci = csI % N;
@@ -488,14 +488,29 @@ export function CaseRonVanDamContent() {
           >
             {h.csSlides.map((g, g_i) => (
               <Fragment key={g_i}>
-                <img
-                  className="gal-img"
-                  src={g.img}
-                  alt={ta(String(g.alt))}
-                  aria-hidden={g.hidden}
-                  loading="lazy"
-                  style={{ position: "absolute", inset: "0", width: "100%", height: "100%", objectFit: "cover", opacity: g.op, ...(g.mpos ? { ["--mpos" as string]: g.mpos } : {}) }}
-                />
+                {g.video ? (
+                  <LazyVideo
+                    className="gal-img"
+                    src={g.video}
+                    poster={g.img}
+                    preload="none"
+                    muted
+                    loop
+                    playsInline
+                    aria-label={ta(String(g.alt))}
+                    aria-hidden={g.hidden}
+                    style={{ position: "absolute", inset: "0", width: "100%", height: "100%", objectFit: "cover", opacity: g.op }}
+                  />
+                ) : (
+                  <img
+                    className="gal-img"
+                    src={g.img}
+                    alt={ta(String(g.alt))}
+                    aria-hidden={g.hidden}
+                    loading="lazy"
+                    style={{ position: "absolute", inset: "0", width: "100%", height: "100%", objectFit: "cover", opacity: g.op, ...(g.mpos ? { ["--mpos" as string]: g.mpos } : {}) }}
+                  />
+                )}
               </Fragment>
             ))}
             <div
