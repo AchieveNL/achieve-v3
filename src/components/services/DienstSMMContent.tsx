@@ -1182,7 +1182,11 @@ export function DienstSMMContent() {
                 {t("Specialisten voor elk onderdeel")}
               </h3>
               <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.65", color: "#3A4150" }}>
-                {t("Strategie, beeld, video en copy: elk onderdeel wordt gemaakt door een specialist.")}
+                {t("Strategie, beeld, video en copy")}
+                <Tip label={ta("Uitleg")}>
+                  {t("Copy: de teksten in je posts en advertenties.")}
+                </Tip>
+                {t(": elk onderdeel wordt gemaakt door een specialist.")}
               </p>
             </li>
             <li
@@ -1416,7 +1420,11 @@ export function DienstSMMContent() {
                   {t("1. Visie en positionering")}
                 </h3>
                 <p style={{ margin: "0", maxWidth: "300px", fontSize: "16px", lineHeight: "1.6", color: "#C9CFF0" }}>
-                  {t("We bepalen samen je tone of voice, visuele stijl en contentstrategie, zodat je merk opvalt op social media.")}
+                  {t("We bepalen samen je tone of voice")}
+                  <Tip label={ta("Uitleg")}>
+                    {t("Tone of voice: de manier waarop je merk praat en schrijft, bijvoorbeeld zakelijk, warm of speels.")}
+                  </Tip>
+                  {t(", visuele stijl en contentstrategie, zodat je merk opvalt op social media.")}
                 </p>
               </li>
               <li style={{ position: "relative", display: "flex", flexDirection: "column", gap: "12px", alignItems: "flex-start" }}>

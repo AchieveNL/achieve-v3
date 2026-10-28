@@ -159,7 +159,7 @@ export function DienstAIAContent() {
     }) as const;
   const CHECK = "✓",
     DASH = "–";
-  const val = (v: string, small = false) =>
+  const val = (v: ReactNode, small = false) =>
     v === CHECK ? (
       <>
         <span
@@ -193,7 +193,7 @@ export function DienstAIAContent() {
         </span>
       </>
     ) : (
-      <>{t(v)}</>
+      <>{typeof v === "string" ? t(v) : v}</>
     );
 
   type Plan = { id: string; sub: string; phase: string; price: string; total: string; pill: string; who: string; badge?: string };
@@ -318,7 +318,7 @@ export function DienstAIAContent() {
     );
   };
 
-  type Row = { k: string; d: ReactNode; v: string[]; accent?: boolean };
+  type Row = { k: string; tip?: string; d: ReactNode; v: ReactNode[]; accent?: boolean };
   const ROWS: Row[] = [
     {
       k: "Looptijd en opzeggen",
@@ -344,12 +344,31 @@ export function DienstAIAContent() {
     },
     {
       k: "Totaal per maand, met minimaal budget",
-      d: t("Ons tarief plus het minimale advertentiebudget, ex. btw en datakosten. Bij Groei komt daar eenmalig het project server-side & CRM (€897) bij, als je dat wilt."),
+      d: (
+        <>
+          {t("Ons tarief plus het minimale advertentiebudget, ex. btw en datakosten. Bij Groei komt daar eenmalig het project server-side")}
+          <Tip label={ta("Uitleg")}>
+            {t("Server-side: meten via je eigen server in plaats van alleen de browser, zodat minder data verloren gaat.")}
+          </Tip>{" "}
+          {t("& CRM")}
+          <Tip label={ta("Uitleg")}>
+            {t("CRM: het systeem waarin je je klanten en aanvragen bijhoudt.")}
+          </Tip>{" "}
+          {t("(€897) bij, als je dat wilt.")}
+        </>
+      ),
       v: ["Vanaf €2.499 p/mnd", "Vanaf €2.197 p/mnd", "Vanaf €3.997 p/mnd"],
     },
     {
       k: "Onderwerpen of productgroepen",
-      d: t("Een onderwerp is een groep klantvragen met eigen advertenties en een eigen landingspagina."),
+      d: (
+        <>
+          {t("Een onderwerp is een groep klantvragen met eigen advertenties en een eigen landingspagina.")}
+          <Tip label={ta("Uitleg")}>
+            {t("Landingspagina: de pagina waar iemand terechtkomt na een klik op je advertentie.")}
+          </Tip>
+        </>
+      ),
       v: ["Tot 2", "Tot 2", "Tot 4"],
     },
     {
@@ -359,6 +378,7 @@ export function DienstAIAContent() {
     },
     {
       k: "Landingspagina's",
+      tip: "Landingspagina: de pagina waar iemand terechtkomt na een klik op je advertentie.",
       d: t("Advies en tekstvoorstellen. De aanpassing zelf voert jouw webbouwer uit."),
       v: ["Advies bij de start", "Advies bij elke evaluatie", "Elk kwartaal een uitgewerkt voorstel"],
     },
@@ -366,19 +386,61 @@ export function DienstAIAContent() {
       k: "Meting",
       d: (
         <>
-          {t("De OpenAI-pixel achter je cookietoestemming en eigen UTM's")}
+          {t("De OpenAI-pixel")}
+          <Tip label={ta("Uitleg")}>
+            {t("Pixel: een stukje code op je website dat meet wat bezoekers doen na een klik op je advertentie.")}
+          </Tip>{" "}
+          {t("achter je cookietoestemming en eigen UTM's")}
           <Tip label={ta("Uitleg")}>
             {t("UTM: een label in de link van je advertentie, zodat je in je statistieken ziet waar een bezoeker vandaan komt.")}
           </Tip>{" "}
-          {t(", zodat ChatGPT ook in GA4 los zichtbaar is. Bij Groei kun je daar server-side meting en CRM-terugkoppeling aan toevoegen, als eenmalig project van €897.")}
+          {t(", zodat ChatGPT ook in GA4")}
+          <Tip label={ta("Uitleg")}>
+            {t("GA4 (Google Analytics 4): de tool van Google die laat zien hoeveel bezoekers je website heeft en wat ze doen.")}
+          </Tip>{" "}
+          {t("los zichtbaar is. Bij Groei kun je daar server-side meting")}
+          <Tip label={ta("Uitleg")}>
+            {t("Server-side: meten via je eigen server in plaats van alleen de browser, zodat minder data verloren gaat.")}
+          </Tip>{" "}
+          {t("en CRM-terugkoppeling")}
+          <Tip label={ta("Uitleg")}>
+            {t("CRM: het systeem waarin je je klanten en aanvragen bijhoudt.")}
+          </Tip>{" "}
+          {t("aan toevoegen, als eenmalig project van €897.")}
         </>
       ),
-      v: ["Basismeting", "Basismeting", "Basismeting, server-side & CRM als project"],
+      v: [
+        "Basismeting",
+        "Basismeting",
+        <>
+          {t("Basismeting, server-side")}
+          <Tip label={ta("Uitleg")}>{t("Server-side: meten via je eigen server in plaats van alleen de browser, zodat minder data verloren gaat.")}</Tip>{" "}
+          {t("& CRM")}
+          <Tip label={ta("Uitleg")}>{t("CRM: het systeem waarin je je klanten en aanvragen bijhoudt.")}</Tip>{" "}
+          {t("als project")}
+        </>,
+      ],
     },
     {
       k: "Regiotest",
-      d: t("Regio's met en zonder advertenties vergelijken, om te zien wat ChatGPT extra oplevert. Alleen als je volume en de regiotargeting in Nederland dat toelaten."),
-      v: [DASH, DASH, "Als volume & targeting het toelaten"],
+      d: (
+        <>
+          {t("Regio's met en zonder advertenties vergelijken, om te zien wat ChatGPT extra oplevert. Alleen als je volume en de regiotargeting")}
+          <Tip label={ta("Uitleg")}>
+            {t("Targeting: bepalen wie je advertentie te zien krijgt, bijvoorbeeld op leeftijd, interesses of woonplaats.")}
+          </Tip>{" "}
+          {t("in Nederland dat toelaten.")}
+        </>
+      ),
+      v: [
+        DASH,
+        DASH,
+        <>
+          {t("Als volume & targeting")}
+          <Tip label={ta("Uitleg")}>{t("Targeting: bepalen wie je advertentie te zien krijgt, bijvoorbeeld op leeftijd, interesses of woonplaats.")}</Tip>{" "}
+          {t("het toelaten")}
+        </>,
+      ],
     },
     {
       k: "Datakosten voor de meting",
@@ -421,7 +483,7 @@ export function DienstAIAContent() {
     },
   ];
 
-  type Phase = { when: string; k: string; items: [string, string][]; v: string[]; note?: string };
+  type Phase = { when: string; k: string; items: [string, ReactNode][]; v: string[]; note?: string };
   const VIA = "Via de test";
   const PHASES: Phase[] = [
     {
@@ -432,9 +494,23 @@ export function DienstAIAContent() {
         ["", "Onderzoek naar de vragen die klanten stellen vóór de aankoop"],
         ["Nulmeting:", "huidige aanvragen, verkopen & kosten per kanaal"],
         ["", "Doel, maximale kosten per aanvraag of verkoop, stopcriteria & seizoenskalender vastleggen"],
-        ["", "Meting inrichten zodat verkeer & conversies uit ChatGPT apart zichtbaar zijn, met toestemming van bezoekers"],
+        [
+          "",
+          <>
+            {t("Meting inrichten zodat verkeer & conversies")}
+            <Tip label={ta("Uitleg")}>{t("Conversie: een bezoeker die doet wat jij wilt, zoals een bestelling plaatsen.")}</Tip>{" "}
+            {t("uit ChatGPT apart zichtbaar zijn, met toestemming van bezoekers")}
+          </>,
+        ],
         ["Dienstverlener:", "afspreken hoe we zien welke aanvragen klant worden"],
-        ["", "Landingspagina per onderwerp beoordelen, met advies & tekstvoorstellen"],
+        [
+          "",
+          <>
+            {t("Landingspagina")}
+            <Tip label={ta("Uitleg")}>{t("Landingspagina: de pagina waar iemand terechtkomt na een klik op je advertentie.")}</Tip>{" "}
+            {t("per onderwerp beoordelen, met advies & tekstvoorstellen")}
+          </>,
+        ],
         ["", "Eerste campagnes voor tot 2 onderwerpen, met 4 advertentievarianten"],
         ["Webshop:", "productfeed koppelen & automatisch bijwerken, zodra productadvertenties voor je account beschikbaar zijn"],
         ["Zichtbaarheidsmeting:", "noemt ChatGPT je bedrijf, je website & andere bronnen"],
@@ -456,7 +532,14 @@ export function DienstAIAContent() {
       k: "Evaluatie en besluit",
       items: [
         ["", "Resultaten naast de nulmeting, je doelen & je andere kanalen"],
-        ["", "Overstap naar sturen op conversies, zodra de meting betrouwbaar is"],
+        [
+          "",
+          <>
+            {t("Overstap naar sturen op conversies")}
+            <Tip label={ta("Uitleg")}>{t("Conversie: een bezoeker die doet wat jij wilt, zoals een bestelling plaatsen.")}</Tip>
+            {t(", zodra de meting betrouwbaar is")}
+          </>,
+        ],
         ["", "Onderbouwd advies: stoppen, Beheer of Groei"],
       ],
       v: [CHECK, VIA, VIA],
@@ -467,7 +550,14 @@ export function DienstAIAContent() {
       k: "Doorgaan met wat werkt",
       items: [
         ["", "Je onderwerpen doorlopend beheren: bijsturen, nieuwe varianten & rapportage"],
-        ["", "Overstap naar sturen op conversies, als dat in de test nog niet kon"],
+        [
+          "",
+          <>
+            {t("Overstap naar sturen op conversies")}
+            <Tip label={ta("Uitleg")}>{t("Conversie: een bezoeker die doet wat jij wilt, zoals een bestelling plaatsen.")}</Tip>
+            {t(", als dat in de test nog niet kon")}
+          </>,
+        ],
         ["", "Elk kwartaal: doelen herijken, seizoen voorbereiden & zichtbaarheidsmeting herhalen"],
         ["", "Elk half jaar een evaluatie: resultaten, totale kosten & vervolg"],
       ],
@@ -478,15 +568,37 @@ export function DienstAIAContent() {
       k: "Gericht uitbreiden (alleen Groei)",
       items: [
         ["", "Uitbreiden naar tot 4 onderwerpen of productgroepen, elk met eigen testbudget & criteria"],
-        ["", "Als eenmalig project (€897): server-side meting & voor dienstverleners CRM-terugkoppeling, met een standaardkoppeling"],
-        ["", "Elk kwartaal een uitgewerkt voorstel voor een landingspagina"],
-        ["", "Regiotest met en zonder advertenties, als volume & regiotargeting dat toelaten"],
+        [
+          "",
+          <>
+            {t("Als eenmalig project (€897): server-side meting")}
+            <Tip label={ta("Uitleg")}>{t("Server-side: meten via je eigen server in plaats van alleen de browser, zodat minder data verloren gaat.")}</Tip>{" "}
+            {t("& voor dienstverleners CRM-terugkoppeling")}
+            <Tip label={ta("Uitleg")}>{t("CRM: het systeem waarin je je klanten en aanvragen bijhoudt.")}</Tip>
+            {t(", met een standaardkoppeling")}
+          </>,
+        ],
+        [
+          "",
+          <>
+            {t("Elk kwartaal een uitgewerkt voorstel voor een landingspagina")}
+            <Tip label={ta("Uitleg")}>{t("Landingspagina: de pagina waar iemand terechtkomt na een klik op je advertentie.")}</Tip>
+          </>,
+        ],
+        [
+          "",
+          <>
+            {t("Regiotest met en zonder advertenties, als volume & regiotargeting")}
+            <Tip label={ta("Uitleg")}>{t("Targeting: bepalen wie je advertentie te zien krijgt, bijvoorbeeld op leeftijd, interesses of woonplaats.")}</Tip>{" "}
+            {t("dat toelaten")}
+          </>,
+        ],
       ],
       v: [DASH, DASH, CHECK],
     },
   ];
 
-  type Faq = { q: string; a: string[]; link?: [string, string] };
+  type Faq = { q: string; a: ReactNode[]; link?: [string, string] };
   const FAQ: Faq[] = [
     {
       q: "Past ChatGPT bij jouw branche?",
@@ -519,7 +631,13 @@ export function DienstAIAContent() {
     {
       q: "Wat we van jou nodig hebben",
       a: [
-        "Een advertentieaccount bij OpenAI op jouw naam: je maakt het zelf aan en nodigt ons uit. Verder toegang tot je website of Google Tag Manager, je cijfers over aanvragen, verkopen & marge, en iemand die onze vragen binnen enkele werkdagen kan beantwoorden.",
+        <>
+          {t("Een advertentieaccount bij OpenAI op jouw naam: je maakt het zelf aan en nodigt ons uit. Verder toegang tot je website of Google Tag Manager")}
+          <Tip label={ta("Uitleg")}>
+            {t("Google Tag Manager: een tool van Google waarmee je meetcodes op je website beheert, zonder de website zelf aan te passen.")}
+          </Tip>
+          {t(", je cijfers over aanvragen, verkopen & marge, en iemand die onze vragen binnen enkele werkdagen kan beantwoorden.")}
+        </>,
         "Soms zijn al bij de start aanpassingen aan je website nodig. Wij leveren het advies en de teksten, en hebben iemand nodig die de aanpassingen uitvoert.",
         "Loopt iets vast? Dan kan de planning opschuiven. We laten dit altijd op tijd weten.",
       ],
@@ -527,14 +645,26 @@ export function DienstAIAContent() {
     {
       q: "Wat er niet in zit",
       a: [
-        "Het maken van nieuw beeldmateriaal en fotografie, het bouwen van een nieuwe website of landingspagina en het opzetten van een productfeed als je die nog niet hebt. Advertentievarianten maken we met beeld dat je al hebt of aanlevert.",
+        <>
+          {t("Het maken van nieuw beeldmateriaal en fotografie, het bouwen van een nieuwe website of landingspagina")}
+          <Tip label={ta("Uitleg")}>
+            {t("Landingspagina: de pagina waar iemand terechtkomt na een klik op je advertentie.")}
+          </Tip>{" "}
+          {t("en het opzetten van een productfeed als je die nog niet hebt. Advertentievarianten maken we met beeld dat je al hebt of aanlevert.")}
+        </>,
         "We bepalen wat er nodig is en leveren hiervoor duidelijke specificaties aan. Of wij dit uitvoeren of een partij die je zelf kiest, en welke kosten daaraan verbonden zijn, bespreken we zodra dit aan de orde is.",
       ],
     },
     {
       q: "Samen met SEO en andere kanalen",
       a: [
-        "Werk je ook aan je vindbaarheid in Google of in AI-antwoorden? Dan gebruiken we dezelfde onderwerpen voor je advertenties en je organische vindbaarheid. De zichtbaarheidsmeting laat zien welke bronnen ChatGPT noemt. Dat geeft aanknopingspunten voor je vindbaarheid.",
+        <>
+          {t("Werk je ook aan je vindbaarheid in Google of in AI-antwoorden? Dan gebruiken we dezelfde onderwerpen voor je advertenties en je organische vindbaarheid")}
+          <Tip label={ta("Uitleg")}>
+            {t("Organische vindbaarheid: gevonden worden in de gewone zoekresultaten, zonder te betalen voor advertenties.")}
+          </Tip>
+          {t(". De zichtbaarheidsmeting laat zien welke bronnen ChatGPT noemt. Dat geeft aanknopingspunten voor je vindbaarheid.")}
+        </>,
         "Advertenties veranderen de antwoorden van ChatGPT niet. Wat je advertenties opleveren, meten we daarom aan je aanvragen en verkopen. Advertenties rond de AI-overzichten van Google lopen via Google Ads, zie",
       ],
       link: ["DienstSEA", "Search Engine Advertising"],
@@ -1187,7 +1317,10 @@ export function DienstAIAContent() {
                 >
                   <path d="M4 12.5l5 5L20 6.5"></path>
                 </svg>
-                <span>{t("Apart meetbaar in GA4")}</span>
+                <span>
+                  {t("Apart meetbaar in GA4")}
+                  <Tip label={ta("Uitleg")}>{t("GA4 (Google Analytics 4): de tool van Google die laat zien hoeveel bezoekers je website heeft en wat ze doen.")}</Tip>
+                </span>
               </li>
               <li style={{ display: "flex", gap: "12px", fontSize: "17px", lineHeight: "1.55", color: "#FFFFFF" }}>
                 <svg
@@ -1221,7 +1354,10 @@ export function DienstAIAContent() {
                 >
                   <path d="M4 12.5l5 5L20 6.5"></path>
                 </svg>
-                <span>{t("Sterker samen met je SEO")}</span>
+                <span>
+                  {t("Sterker samen met je SEO")}
+                  <Tip label={ta("Uitleg")}>{t("SEO: zorgen dat Google je pagina's goed begrijpt, zodat je hoger komt in de gewone zoekresultaten.")}</Tip>
+                </span>
               </li>
             </ul>
           </div>
@@ -2025,7 +2161,10 @@ export function DienstAIAContent() {
               {ROWS.map((r) => (
                 <div key={r.k} className="tf-row" style={{ display: "grid", gridTemplateColumns: COLS, borderTop: "1px solid #E4E6EA" }}>
                   <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "8px" }}>
-                    <strong style={{ fontSize: "15px", color: r.accent ? "#8639FA" : "#1F246C" }}>{t(r.k)}</strong>
+                    <strong style={{ fontSize: "15px", color: r.accent ? "#8639FA" : "#1F246C" }}>
+                      {t(r.k)}
+                      {r.tip && <Tip label={ta("Uitleg")}>{t(r.tip)}</Tip>}
+                    </strong>
                     <span style={{ fontSize: "14px", lineHeight: "1.55", color: "#3A4150" }}>{r.d}</span>
                   </div>
                   {r.v.map((v, i) => (
@@ -2074,15 +2213,21 @@ export function DienstAIAContent() {
                     <div key={r.k} style={{ padding: "16px 24px", borderTop: "1px solid #E4E6EA", display: "flex", flexDirection: "column", gap: "4px" }}>
                       {r.v[pi] === CHECK || r.v[pi] === DASH ? (
                         <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: "12px" }}>
-                          <strong style={{ fontSize: "15px", color: r.accent ? "#8639FA" : "#1F246C" }}>{t(r.k)}</strong>
+                          <strong style={{ fontSize: "15px", color: r.accent ? "#8639FA" : "#1F246C" }}>
+                            {t(r.k)}
+                            {r.tip && <Tip label={ta("Uitleg")}>{t(r.tip)}</Tip>}
+                          </strong>
                           <span style={{ flexShrink: "0", display: "inline-flex" }}>
                             {val(r.v[pi], true)}
                           </span>
                         </div>
                       ) : (
                         <>
-                          <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t(r.k)}</strong>
-                          <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{t(r.v[pi])}</span>
+                          <strong style={{ fontSize: "15px", color: "#1F246C" }}>
+                            {t(r.k)}
+                            {r.tip && <Tip label={ta("Uitleg")}>{t(r.tip)}</Tip>}
+                          </strong>
+                          <span style={{ fontSize: "15px", fontWeight: "700", color: "#1F246C" }}>{val(r.v[pi])}</span>
                         </>
                       )}
                       <span style={{ fontSize: "13px", lineHeight: "1.55", color: "#5A6273" }}>{r.d}</span>
@@ -2155,9 +2300,9 @@ export function DienstAIAContent() {
                     <span>{t(ph.k)}</span>
                   </strong>
                   <ul className="aia-list">
-                    {ph.items.map((it) => (
-                      <li key={it[1]}>
-                        {it[0] && <strong>{t(it[0])}</strong>} {t(it[1])}
+                    {ph.items.map((it, ii) => (
+                      <li key={ii}>
+                        {it[0] && <strong>{t(it[0])}</strong>} {typeof it[1] === "string" ? t(it[1]) : it[1]}
                       </li>
                     ))}
                   </ul>
@@ -2222,7 +2367,7 @@ export function DienstAIAContent() {
                 </summary>
                 {f.a.map((a, i) => (
                   <p key={i} style={{ margin: i === f.a.length - 1 ? "0 0 20px" : "0 0 12px", fontSize: "15px", lineHeight: "1.65", color: "#3A4150" }}>
-                    {t(a)}
+                    {typeof a === "string" ? t(a) : a}
                     {f.link && i === f.a.length - 1 && (
                       <>
                         {" "}

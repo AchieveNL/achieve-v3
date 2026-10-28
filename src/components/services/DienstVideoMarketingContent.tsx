@@ -1421,7 +1421,11 @@ export function DienstVideoMarketingContent() {
                   {t("1. Visie en positionering")}
                 </h3>
                 <p style={{ margin: "0", maxWidth: "300px", fontSize: "16px", lineHeight: "1.6", color: "#C9CFF0" }}>
-                  {t("We bespreken je merk, doelgroep en doelen, en bepalen samen stijl, tone of voice en boodschap.")}
+                  {t("We bespreken je merk, doelgroep en doelen, en bepalen samen stijl, tone of voice")}
+                  <Tip label={ta("Uitleg")}>
+                    {t("Tone of voice: de manier waarop je merk praat en schrijft, bijvoorbeeld zakelijk, warm of speels.")}
+                  </Tip>{" "}
+                  {t("en boodschap.")}
                 </p>
               </li>
               <li style={{ position: "relative", display: "flex", flexDirection: "column", gap: "12px", alignItems: "flex-start" }}>
@@ -1452,6 +1456,9 @@ export function DienstVideoMarketingContent() {
                   }}
                 >
                   {t("2. Concept en storyboard")}
+                  <Tip label={ta("Uitleg")} plain>
+                    {t("Storyboard: een schets per scène, zodat je vooraf ziet hoe de video wordt.")}
+                  </Tip>
                 </h3>
                 <p style={{ margin: "0", maxWidth: "300px", fontSize: "16px", lineHeight: "1.6", color: "#C9CFF0" }}>
                   {t("We werken het idee uit tot verhaallijn, shots, locaties en sfeer, passend bij je merk en je doelgroep.")}

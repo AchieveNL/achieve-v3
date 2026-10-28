@@ -2112,9 +2112,11 @@ export function DienstEmailMarketingContent() {
                 {t("Netjes volgens de wet")}
               </h3>
               <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.65", color: "#3A4150" }}>
-                {t(
-                  "We werken volgens de AVG en checken als je wilt je privacybeleid. Zo ga je goed om met persoonsgegevens en voorkom je reputatieschade.",
-                )}
+                {t("We werken volgens de AVG")}
+                <Tip label={ta("Uitleg")} plain>
+                  {t("AVG: de Europese privacywet die regelt hoe je met persoonsgegevens omgaat.")}
+                </Tip>{" "}
+                {t("en checken als je wilt je privacybeleid. Zo ga je goed om met persoonsgegevens en voorkom je reputatieschade.")}
               </p>
             </li>
           </ul>
@@ -2243,9 +2245,11 @@ export function DienstEmailMarketingContent() {
                   {t("1. Intake en strategie")}
                 </h3>
                 <p style={{ margin: "0", maxWidth: "300px", fontSize: "16px", lineHeight: "1.6", color: "#C9CFF0" }}>
-                  {t(
-                    "We praten over je merk, je doelgroep en je doelen. Samen bepalen we de aanpak, de tone of voice en hoe we je klanten in groepen verdelen.",
-                  )}
+                  {t("We praten over je merk, je doelgroep en je doelen. Samen bepalen we de aanpak, de tone of voice")}
+                  <Tip label={ta("Uitleg")} plain>
+                    {t("Tone of voice: de manier waarop je merk praat en schrijft, bijvoorbeeld zakelijk, warm of speels.")}
+                  </Tip>{" "}
+                  {t("en hoe we je klanten in groepen verdelen.")}
                 </p>
               </li>
               <li style={{ position: "relative", display: "flex", flexDirection: "column", gap: "12px", alignItems: "flex-start" }}>

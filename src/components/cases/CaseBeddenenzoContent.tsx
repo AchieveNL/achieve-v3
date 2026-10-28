@@ -153,6 +153,9 @@ export function CaseBeddenenzoContent() {
           </h1>
           <p style={{ margin: "0", maxWidth: "640px", fontSize: "20px", lineHeight: "1.55", color: "#FFFFFF" }}>
             {t("Zichtbaar in Google met Search en Shopping")}
+            <Tip label={ta("Uitleg")}>
+              {t("Zoekadvertenties: tekstadvertenties boven de zoekresultaten in Google. Shopping: advertenties met productfoto en prijs.")}
+            </Tip>
           </p>
           <span style={{ display: "flex", flexWrap: "wrap", gap: "8px" }}>
             <span
@@ -504,9 +507,11 @@ export function CaseBeddenenzoContent() {
                 {t("Aanpak")}
               </h3>
               <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.65", color: "#3A4150" }}>
-                {t(
-                  "We begonnen bij de zoeker: waar zoeken mensen op als ze een nieuw bed of matras willen? Op basis daarvan kozen we de zoekwoorden en bouwden we de campagnes per productgroep op. De productfeed",
-                )}
+                {t("We begonnen bij de zoeker: waar zoeken mensen op als ze een nieuw bed of matras willen? Op basis daarvan kozen we de zoekwoorden")}
+                <Tip label={ta("Uitleg")}>
+                  {t("Zoekwoorden: de woorden die mensen in Google intypen. Daarop laten we je advertentie verschijnen.")}
+                </Tip>{" "}
+                {t("en bouwden we de campagnes per productgroep op. De productfeed")}
                 <Tip label={ta("Uitleg")}>
                   {t("Productfeed: een lijst met al je producten, prijzen en foto’s die Google gebruikt voor Shopping-advertenties.")}
                 </Tip>{" "}
@@ -795,9 +800,11 @@ export function CaseBeddenenzoContent() {
                 <Tip label={ta("Uitleg")}>
                   {t("Google Shopping Ads: advertenties met foto, prijs en winkelnaam, bovenaan in Google.")}
                 </Tip>{" "}
-                {t(
-                  "om gericht de juiste klanten te bereiken. Door relevante zoekwoorden, aantrekkelijke productadvertenties en slimme biedstrategieën",
-                )}
+                {t("om gericht de juiste klanten te bereiken. Door relevante zoekwoorden")}
+                <Tip label={ta("Uitleg")}>
+                  {t("Zoekwoorden: de woorden die mensen in Google intypen. Daarop laten we je advertentie verschijnen.")}
+                </Tip>
+                {t(", aantrekkelijke productadvertenties en slimme biedstrategieën")}
                 <Tip label={ta("Uitleg")}>
                   {t(
                     "Biedstrategie: de manier waarop Google bepaalt hoeveel je per klik betaalt, gericht op het meeste resultaat voor je budget.",

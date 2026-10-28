@@ -152,6 +152,9 @@ export function CaseRCpeptidesContent() {
               {t("ROAS (return on ad spend): hoeveel omzet elke euro aan advertenties oplevert. 8,3x betekent € 8,30 omzet per euro.")}
             </Tip>{" "}
             {t("in de eerste maand met zoekadvertenties en Shopping.")}
+            <Tip label={ta("Uitleg")}>
+              {t("Zoekadvertenties: tekstadvertenties boven de zoekresultaten in Google. Shopping: advertenties met productfoto en prijs.")}
+            </Tip>
           </p>
           <span
             translate="no"
@@ -355,7 +358,11 @@ export function CaseRCpeptidesContent() {
               </Accent>
             </h2>
             <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.6", color: "#3A4150" }}>
-              {t("3 t/m 30 juni 2026 · zoekadvertenties en Shopping, zonder merknaamverkeer")}
+              {t("3 t/m 30 juni 2026 · zoekadvertenties en Shopping")}
+              <Tip label={ta("Uitleg")}>
+                {t("Zoekadvertenties: tekstadvertenties boven de zoekresultaten in Google. Shopping: advertenties met productfoto en prijs.")}
+              </Tip>
+              {t(", zonder merknaamverkeer")}
               <Tip label={ta("Uitleg")}>
                 {t(
                   "Merknaamverkeer: klikken van mensen die al op jouw merknaam zoeken. Die tellen hier niet mee, zodat je ziet wat de advertenties aan nieuwe klanten opleverden.",
@@ -994,9 +1001,11 @@ export function CaseRCpeptidesContent() {
                 {t("02")}
               </span>
               <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.65", color: "#3A4150" }}>
-                {t(
-                  "Assortiment en zoekwoorden doorgelicht op het Google-beleid voor peptides en gezondheidsproducten, zodat de campagnes live konden.",
-                )}
+                {t("Assortiment en zoekwoorden")}
+                <Tip label={ta("Uitleg")}>
+                  {t("Zoekwoorden: de woorden die mensen in Google intypen. Daarop laten we je advertentie verschijnen.")}
+                </Tip>{" "}
+                {t("doorgelicht op het Google-beleid voor peptides en gezondheidsproducten, zodat de campagnes live konden.")}
               </p>
             </li>
             <li
@@ -1054,7 +1063,11 @@ export function CaseRCpeptidesContent() {
                 {t("04")}
               </span>
               <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.65", color: "#3A4150" }}>
-                {t("Shopping teruggebracht naar producten die Google goedkeurt, en budget weggehaald uit landen die niets opleverden.")}
+                {t("Shopping")}
+                <Tip label={ta("Uitleg")}>
+                  {t("Shopping: advertenties met productfoto en prijs in Google.")}
+                </Tip>{" "}
+                {t("teruggebracht naar producten die Google goedkeurt, en budget weggehaald uit landen die niets opleverden.")}
               </p>
             </li>
           </ol>

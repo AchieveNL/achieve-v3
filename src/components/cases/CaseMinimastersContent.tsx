@@ -433,7 +433,13 @@ export function CaseMinimastersContent() {
               </h3>
               <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.65", color: "#3A4150" }}>
                 {t(
-                  "We begonnen bij de kern van het concept: wat moeten ouders voelen en wat moeten kinderen beleven? Vanuit die vraag bepaalden we de balans tussen rust, kwaliteit en speelsheid, en vertaalden we die naar een visuele stijl, een duidelijke structuur en een eigen tone of voice. Die lijn pasten we vervolgens toe op de branding, de website en de bestickering van het pand, zodat elk contactmoment hetzelfde verhaal vertelt.",
+                  "We begonnen bij de kern van het concept: wat moeten ouders voelen en wat moeten kinderen beleven? Vanuit die vraag bepaalden we de balans tussen rust, kwaliteit en speelsheid, en vertaalden we die naar een visuele stijl, een duidelijke structuur en een eigen tone of voice.",
+                )}
+                <Tip label={ta("Uitleg")}>
+                  {t("Tone of voice: de manier waarop je merk praat en schrijft, bijvoorbeeld zakelijk, warm of speels.")}
+                </Tip>{" "}
+                {t(
+                  "Die lijn pasten we vervolgens toe op de branding, de website en de bestickering van het pand, zodat elk contactmoment hetzelfde verhaal vertelt.",
                 )}
               </p>
             </li>
@@ -651,8 +657,18 @@ export function CaseMinimastersContent() {
                 {t("Oplossing")}
               </h3>
               <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.65", color: "#3A4150" }}>
+                {t("De oplossing lag in het ontwikkelen van een heldere en consistente merkidentiteit")}
+                <Tip label={ta("Uitleg")}>
+                  {t("Merkidentiteit: alles wat je merk herkenbaar maakt, zoals naam, logo, kleuren en hoe je praat.")}
+                </Tip>{" "}
                 {t(
-                  "De oplossing lag in het ontwikkelen van een heldere en consistente merkidentiteit waarin rust, kwaliteit en speelsheid in balans samenkomen. Door te werken met een doordachte visuele stijl, duidelijke structuur en een bewuste tone of voice is een merk neergezet dat zowel vertrouwen uitstraalt naar ouders als de belevingswereld van kinderen voelbaar maakt. Deze lijn is consequent doorgevoerd in de website en de fysieke uitingen, zoals de bestickering van het pand, waardoor één samenhangende merkervaring ontstaat die direct herkenbaar en begrijpelijk is.",
+                  "waarin rust, kwaliteit en speelsheid in balans samenkomen. Door te werken met een doordachte visuele stijl, duidelijke structuur en een bewuste tone of voice",
+                )}
+                <Tip label={ta("Uitleg")}>
+                  {t("Tone of voice: de manier waarop je merk praat en schrijft, bijvoorbeeld zakelijk, warm of speels.")}
+                </Tip>{" "}
+                {t(
+                  "is een merk neergezet dat zowel vertrouwen uitstraalt naar ouders als de belevingswereld van kinderen voelbaar maakt. Deze lijn is consequent doorgevoerd in de website en de fysieke uitingen, zoals de bestickering van het pand, waardoor één samenhangende merkervaring ontstaat die direct herkenbaar en begrijpelijk is.",
                 )}
               </p>
             </li>

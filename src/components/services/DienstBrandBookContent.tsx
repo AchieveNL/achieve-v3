@@ -1119,6 +1119,9 @@ export function DienstBrandBookContent() {
                 </h3>
                 <p style={{ margin: "0", maxWidth: "300px", fontSize: "16px", lineHeight: "1.6", color: "#C9CFF0" }}>
                   {t("We praten over je merk, je doelgroep en je kernwaarden. Samen bepalen we je identiteit en tone of voice.")}
+                  <Tip label={ta("Uitleg")}>
+                    {t("Tone of voice: de manier waarop je merk praat en schrijft, bijvoorbeeld zakelijk, warm of speels.")}
+                  </Tip>
                 </p>
               </li>
               <li style={{ position: "relative", display: "flex", flexDirection: "column", gap: "12px", alignItems: "flex-start" }}>
@@ -2372,7 +2375,13 @@ export function DienstBrandBookContent() {
                 }}
               >
                 <div style={{ padding: "20px 24px", display: "flex", alignItems: "center" }}>
-                  <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Tone of voice ontwikkelen")}</strong>
+                  <strong style={{ fontSize: "15px", color: "#1F246C" }}>
+                    {t("Tone of voice")}
+                    <Tip label={ta("Uitleg")}>
+                      {t("Tone of voice: de manier waarop je merk praat en schrijft, bijvoorbeeld zakelijk, warm of speels.")}
+                    </Tip>{" "}
+                    {t("ontwikkelen")}
+                  </strong>
                 </div>
                 <div
                   className="tf-cell"
@@ -4445,7 +4454,13 @@ export function DienstBrandBookContent() {
                     gap: "12px",
                   }}
                 >
-                  <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Tone of voice ontwikkelen")}</strong>
+                  <strong style={{ fontSize: "15px", color: "#1F246C" }}>
+                    {t("Tone of voice")}
+                    <Tip label={ta("Uitleg")}>
+                      {t("Tone of voice: de manier waarop je merk praat en schrijft, bijvoorbeeld zakelijk, warm of speels.")}
+                    </Tip>{" "}
+                    {t("ontwikkelen")}
+                  </strong>
                   <span style={{ flexShrink: "0", display: "inline-flex" }}>
                     <span aria-hidden="true" style={{ color: "#B8BFCC" }}>
                       {t("–")}
@@ -5208,7 +5223,13 @@ export function DienstBrandBookContent() {
                     gap: "12px",
                   }}
                 >
-                  <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Tone of voice ontwikkelen")}</strong>
+                  <strong style={{ fontSize: "15px", color: "#1F246C" }}>
+                    {t("Tone of voice")}
+                    <Tip label={ta("Uitleg")}>
+                      {t("Tone of voice: de manier waarop je merk praat en schrijft, bijvoorbeeld zakelijk, warm of speels.")}
+                    </Tip>{" "}
+                    {t("ontwikkelen")}
+                  </strong>
                   <span style={{ flexShrink: "0", display: "inline-flex" }}>
                     <span aria-hidden="true" style={{ color: "#B8BFCC" }}>
                       {t("–")}
@@ -5976,7 +5997,13 @@ export function DienstBrandBookContent() {
                     gap: "12px",
                   }}
                 >
-                  <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Tone of voice ontwikkelen")}</strong>
+                  <strong style={{ fontSize: "15px", color: "#1F246C" }}>
+                    {t("Tone of voice")}
+                    <Tip label={ta("Uitleg")}>
+                      {t("Tone of voice: de manier waarop je merk praat en schrijft, bijvoorbeeld zakelijk, warm of speels.")}
+                    </Tip>{" "}
+                    {t("ontwikkelen")}
+                  </strong>
                   <span style={{ flexShrink: "0", display: "inline-flex" }}>
                     <span
                       aria-hidden="true"

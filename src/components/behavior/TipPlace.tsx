@@ -45,9 +45,12 @@ export function TipPlace() {
       }
     };
 
+    let y0 = 0;
     const onIn = (e: FocusEvent) => {
       const tip = (e.target as Element | null)?.closest?.<HTMLElement>(".tf-tip");
-      if (tip) place(tip);
+      if (!tip) return;
+      y0 = window.scrollY;
+      place(tip);
     };
     const onOut = (e: FocusEvent) => {
       const tip = (e.target as Element | null)?.closest?.(".tf-tip");
@@ -56,7 +59,10 @@ export function TipPlace() {
     const onScroll = () => {
       if (!mq.matches) return;
       const a = document.activeElement as HTMLElement | null;
-      if (a?.classList.contains("tf-tip")) a.blur();
+      if (!a?.classList.contains("tf-tip")) return;
+      // A tap can nudge the page a little; only close after a real scroll, otherwise follow the "i".
+      if (Math.abs(window.scrollY - y0) > 48) a.blur();
+      else place(a);
     };
 
     document.addEventListener("focusin", onIn);

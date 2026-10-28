@@ -527,7 +527,11 @@ export function DienstDashboardContent() {
                 {t("Je laat rendement liggen.")}
               </h3>
               <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.65", color: "#3A4150" }}>
-                {t("Zonder realtime inzicht mis je kansen om te verbeteren, en dat kost je geld.")}
+                {t("Zonder realtime")}
+                <Tip label={ta("Uitleg")}>
+                  {t("Realtime: de cijfers worden direct bijgewerkt, op het moment zelf.")}
+                </Tip>{" "}
+                {t("inzicht mis je kansen om te verbeteren, en dat kost je geld.")}
               </p>
             </li>
           </ul>
@@ -597,7 +601,11 @@ export function DienstDashboardContent() {
                 {t("Visuele rapportages die je direct begrijpt.")}
               </li>
               <li style={{ paddingLeft: "20px", borderLeft: "3px solid #FAE84E", fontSize: "17px", lineHeight: "1.65", color: "#FFFFFF" }}>
-                {t("Realtime inzicht, zodat je geen kansen meer mist.")}
+                {t("Realtime")}
+                <Tip label={ta("Uitleg")}>
+                  {t("Realtime: de cijfers worden direct bijgewerkt, op het moment zelf.")}
+                </Tip>{" "}
+                {t("inzicht, zodat je geen kansen meer mist.")}
               </li>
             </ul>
           </div>

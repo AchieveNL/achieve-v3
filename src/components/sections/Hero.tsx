@@ -589,6 +589,9 @@ export function Hero() {
                   {t("ROAS (return on ad spend): hoeveel omzet elke euro aan advertenties oplevert. 8,3x betekent € 8,30 omzet per euro.")}
                 </Tip>{" "}
                 {t("in de eerste maand met zoekadvertenties en Shopping")}
+                <Tip label={ta("Uitleg")}>
+                  {t("Zoekadvertenties: tekstadvertenties boven de zoekresultaten in Google. Shopping: advertenties met productfoto en prijs.")}
+                </Tip>
               </span>
             </div>
             <div
