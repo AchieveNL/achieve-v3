@@ -647,6 +647,16 @@ export function Footer({ tr }: { tr: ServerTr }) {
                   </li>
                   <li>
                     <a
+                      href={href("DienstAIA")}
+                      aria-current={navSection(page) === "DienstAIA" ? "page" : undefined}
+                      className="foot-link"
+                      style={{ color: "#D5DAE3", textDecoration: "none", padding: "8px 0", display: "inline-block" }}
+                    >
+                      {t("AI Advertising")}
+                    </a>
+                  </li>
+                  <li>
+                    <a
                       href={href("DienstSMM")}
                       aria-current={navSection(page) === "DienstSMM" ? "page" : undefined}
                       className="foot-link"

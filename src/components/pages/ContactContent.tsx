@@ -777,6 +777,7 @@ export function ContactContent() {
                 <option translate="no">{"Video Marketing"}</option>
                 <option translate="no">{"Search Engine Advertising"}</option>
                 <option translate="no">{"Social Media Advertising"}</option>
+                <option translate="no">{"AI Advertising"}</option>
                 <option translate="no">{"Social Media Management"}</option>
                 <option translate="no">{"Dashboard"}</option>
                 <option>{t("Weet ik nog niet")}</option>

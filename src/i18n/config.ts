@@ -32,6 +32,7 @@ export const routes = {
   DienstSEA: "diensten/search-engine-advertising",
   DienstSMA: "diensten/social-media-advertising",
   DienstSMALooptijd: "diensten/social-media-advertising/looptijd",
+  DienstAIA: "diensten/ai-advertising",
   DienstSMM: "diensten/social-media-management",
   DienstDashboard: "diensten/dashboard",
   DienstHosting: "diensten/hosting",

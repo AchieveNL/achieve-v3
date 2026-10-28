@@ -880,6 +880,82 @@ export function Services() {
                     letterSpacing: "-0.02em",
                   }}
                 >
+                  {t("AI Advertising")}
+                </h3>
+                <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.6", color: "#3A4150" }}>
+                  {t("Zichtbaar in ChatGPT, op het moment dat klanten een vraag stellen.")}
+                </p>
+                <span
+                  className="svc-arrow"
+                  aria-hidden="true"
+                  style={{
+                    marginTop: "auto",
+                    alignSelf: "flex-end",
+                    width: "48px",
+                    height: "48px",
+                    borderRadius: "50%",
+                    border: "1.5px solid #1F246C",
+                    color: "#1F246C",
+                    display: "inline-flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                  }}
+                >
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2.2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    aria-hidden="true"
+                  >
+                    <path d="M5 12h14"></path>
+                    <path d="M13 6l6 6-6 6"></path>
+                  </svg>
+                </span>
+                <a
+                  href={href("DienstAIA")}
+                  aria-label={ta("Ontdek AI Advertising")}
+                  style={{ position: "absolute", top: "0", right: "0", bottom: "0", left: "0", borderRadius: "24px" }}
+                ></a>
+              </article>
+              <article
+                className="svc-card"
+                style={{
+                  position: "relative",
+                  scrollSnapAlign: "start",
+                  boxSizing: "border-box",
+                  width: "340px",
+                  flexShrink: "0",
+                  marginRight: "20px",
+                  background: "#FFFFFF",
+                  borderRadius: "24px",
+                  padding: "36px",
+                  display: "flex",
+                  flexDirection: "column",
+                  gap: "16px",
+                  minHeight: "300px",
+                }}
+              >
+                <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
+                  <span style={{ fontFamily: "var(--font-display)", fontWeight: "700", fontSize: "22px", color: "#B8BFCC" }}>
+                    {t("11")}
+                  </span>
+                </div>
+                <h3
+                  style={{
+                    margin: "0",
+                    color: "#1F246C",
+                    fontFamily: "var(--font-display)",
+                    fontWeight: "700",
+                    fontSize: "30px",
+                    lineHeight: "1.1",
+                    letterSpacing: "-0.02em",
+                  }}
+                >
                   {t("Social Media Management")}
                 </h3>
                 <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.6", color: "#3A4150" }}>
@@ -942,7 +1018,7 @@ export function Services() {
               >
                 <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
                   <span style={{ fontFamily: "var(--font-display)", fontWeight: "700", fontSize: "22px", color: "#B8BFCC" }}>
-                    {t("11")}
+                    {t("12")}
                   </span>
                 </div>
                 <h3

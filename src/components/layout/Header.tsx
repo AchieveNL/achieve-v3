@@ -785,6 +785,10 @@ export function Header() {
                     <img src="/media/nav/social-media-advertising.webp" alt="" loading="lazy" decoding="async" />
                     <span className="nav-dd-media-label">{t("Social Media Advertising")}</span>
                   </div>
+                  <div className="nav-dd-media" data-svc="ai-advertising" aria-hidden="true">
+                    <img src="/media/nav/ai-advertising.webp" alt="" loading="lazy" decoding="async" />
+                    <span className="nav-dd-media-label">{t("AI Advertising")}</span>
+                  </div>
                   <div className="nav-dd-media" data-svc="social-media-management" aria-hidden="true">
                     <img src="/media/nav/social-media-management.webp" alt="" loading="lazy" decoding="async" />
                     <span className="nav-dd-media-label">{t("Social Media Management")}</span>
@@ -992,6 +996,26 @@ export function Header() {
                     </span>
                     <span className="nav-dd-desc">{t("Advertenties op Meta, TikTok en LinkedIn")}</span>
                   </a>
+                  <a href={href("DienstAIA")} className="nav-dd-link" data-svc="ai-advertising">
+                    <span className="nav-dd-name">
+                      {t("AI Advertising")}
+                      <svg
+                        className="nav-dd-arrow"
+                        width="16"
+                        height="16"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2.2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        aria-hidden="true"
+                      >
+                        <path d="M5 12h14M13 6l6 6-6 6"></path>
+                      </svg>
+                    </span>
+                    <span className="nav-dd-desc">{t("Advertenties in ChatGPT")}</span>
+                  </a>
                   <a href={href("DienstSMM")} className="nav-dd-link" data-svc="social-media-management">
                     <span className="nav-dd-name">
                       {t("Social Media Management")}
@@ -1128,6 +1152,10 @@ export function Header() {
                   <div className="nav-dd-media" data-svc="social-media-advertising" aria-hidden="true">
                     <img src="/media/nav/social-media-advertising.webp" alt="" loading="lazy" decoding="async" />
                     <span className="nav-dd-media-label">{t("Social Media Advertising")}</span>
+                  </div>
+                  <div className="nav-dd-media" data-svc="ai-advertising" aria-hidden="true">
+                    <img src="/media/nav/ai-advertising.webp" alt="" loading="lazy" decoding="async" />
+                    <span className="nav-dd-media-label">{t("AI Advertising")}</span>
                   </div>
                   <div className="nav-dd-media" data-svc="social-media-management" aria-hidden="true">
                     <img src="/media/nav/social-media-management.webp" alt="" loading="lazy" decoding="async" />
@@ -1369,6 +1397,28 @@ export function Header() {
                     </span>
                     <span className="nav-dd-desc">
                       {t("Vanaf")} <strong style={{ color: "#1F246C", fontWeight: "700" }}>{t("€897")}</strong> {t("ex. btw")}
+                    </span>
+                  </a>
+                  <a href={href("DienstAIA", "pakketten")} className="nav-dd-link" data-svc="ai-advertising">
+                    <span className="nav-dd-name">
+                      {t("AI Advertising")}
+                      <svg
+                        className="nav-dd-arrow"
+                        width="16"
+                        height="16"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2.2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        aria-hidden="true"
+                      >
+                        <path d="M5 12h14M13 6l6 6-6 6"></path>
+                      </svg>
+                    </span>
+                    <span className="nav-dd-desc">
+                      {t("Vanaf")} <strong style={{ color: "#1F246C", fontWeight: "700" }}>{t("€999")}</strong> {t("ex. btw")}
                     </span>
                   </a>
                   <a href={href("Tarieven", "smm")} className="nav-dd-link" data-svc="social-media-management">
