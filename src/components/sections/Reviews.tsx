@@ -15,13 +15,18 @@ export function Reviews() {
   const [openIdx, setOpenIdx] = useState(-1);
   const [hovered, setHovered] = useState(false);
 
-  // Three copies of all cards per row; each row shows its own shuffled half.
+  // Each row renders only its own half of the cards (even / odd), twice for the seamless loop.
+  // (Was: all cards three times in both rows, half of them hidden: ~5,000 DOM nodes.)
   const revCards = useMemo(() => {
     const list = [];
-    for (let copy = 0; copy < 3; copy++) {
-      for (const c of reviewCards) {
+    for (let copy = 0; copy < 2; copy++) {
+      for (let ci = 0; ci < reviewCards.length; ci++) {
+        const c = reviewCards[ci];
         const g = c.src !== "trustpilot";
         list.push({
+          row: ci % 2,
+          ci,
+          copy,
           name: c.name,
           role: c.role,
           hasRole: !!c.role,
@@ -47,26 +52,21 @@ export function Reviews() {
   const pos = useRef([0, 0]);
   const counts = useRef<[number, number]>([0, 0]);
   useEffect(() => {
-    // Shuffle once on the client and split the cards over the two rows.
+    // Shuffle the order once on the client, within each row.
     const N = reviewCards.length,
       n1 = Math.ceil(N / 2);
     counts.current = [n1, N - n1];
-    const perm = Array.from({ length: N }, (_, j) => j);
-    for (let j = N - 1; j > 0; j--) {
-      const r = Math.floor(Math.random() * (j + 1));
-      [perm[j], perm[r]] = [perm[r], perm[j]];
-    }
-    const split = [perm.slice(0, n1), perm.slice(n1)];
-    [revTrackRef.current, revTrack2Ref.current].forEach((tr, k) => {
+    [revTrackRef.current, revTrack2Ref.current].forEach((tr) => {
       if (!tr) return;
-      const mine = split[k];
-      Array.from(tr.querySelectorAll<HTMLElement>(":scope > article")).forEach((el, idx) => {
-        const p = mine.indexOf(idx % N);
-        if (p < 0) el.style.display = "none";
-        else {
-          el.style.display = "";
-          el.style.order = String(Math.floor(idx / N) * mine.length + p);
-        }
+      const arts = Array.from(tr.querySelectorAll<HTMLElement>(":scope > article"));
+      const per = arts.length / 2;
+      const perm = Array.from({ length: per }, (_, j) => j);
+      for (let j = per - 1; j > 0; j--) {
+        const r = Math.floor(Math.random() * (j + 1));
+        [perm[j], perm[r]] = [perm[r], perm[j]];
+      }
+      arts.forEach((el, idx) => {
+        el.style.order = String(Math.floor(idx / per) * per + perm[idx % per]);
       });
     });
   }, []);
@@ -172,7 +172,7 @@ export function Reviews() {
         >
           <div className="rev-wrap" style={{ overflow: "hidden" }}>
             <div ref={revTrackRef} style={{ display: "flex", width: "max-content", alignItems: "stretch" }}>
-              {h.revCards.map((c, c_i) => (
+              {h.revCards.filter((c) => c.row === 0).map((c, c_i) => (
                 <Fragment key={c_i}>
                   <article
                     aria-hidden={c.hid}
@@ -429,7 +429,7 @@ export function Reviews() {
           </div>
           <div className="rev-wrap" style={{ overflow: "hidden" }}>
             <div ref={revTrack2Ref} style={{ display: "flex", width: "max-content", alignItems: "stretch" }}>
-              {h.revCards.map((c, c_i) => (
+              {h.revCards.filter((c) => c.row === 1).map((c, c_i) => (
                 <Fragment key={c_i}>
                   <article
                     aria-hidden={c.hid}
