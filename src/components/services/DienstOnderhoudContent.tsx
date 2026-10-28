@@ -468,7 +468,11 @@ export function DienstOnderhoudContent() {
                 {t("Updates blijven liggen.")}
               </h3>
               <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.65", color: "#3A4150" }}>
-                {t("Plugins en software lopen achter. Dat maakt je site traag en kwetsbaar voor hackers.")}
+                {t("Plugins")}
+                <Tip label={ta("Uitleg")} plain>
+                  {t("Plugin: een uitbreiding die extra functies aan je website toevoegt, zoals een formulier of een webshop.")}
+                </Tip>{" "}
+                {t("en software lopen achter. Dat maakt je site traag en kwetsbaar voor hackers.")}
               </p>
             </li>
             <li
@@ -500,6 +504,9 @@ export function DienstOnderhoudContent() {
             >
               <h3 style={{ margin: "0", fontSize: "21px", fontWeight: "600", lineHeight: "1.3", color: "#1F246C" }}>
                 {t("Er is geen back-up.")}
+                <Tip label={ta("Uitleg")} plain>
+                  {t("Back-up: een reservekopie van je website, zodat we alles snel kunnen terugzetten als er iets misgaat.")}
+                </Tip>
               </h3>
               <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.65", color: "#3A4150" }}>
                 {t("Gaat er iets mis, dan ben je alles kwijt. Niemand houdt het in de gaten tot het te laat is.")}
@@ -720,7 +727,12 @@ export function DienstOnderhoudContent() {
                 >
                   <path d="M4 12.5l5 5L20 6.5"></path>
                 </svg>
-                <span>{t("Altijd een recente back-up")}</span>
+                <span>
+                  {t("Altijd een recente back-up")}
+                  <Tip label={ta("Uitleg")} plain>
+                    {t("Back-up: een reservekopie van je website, zodat we alles snel kunnen terugzetten als er iets misgaat.")}
+                  </Tip>
+                </span>
               </li>
               <li style={{ display: "flex", gap: "12px", fontSize: "17px", lineHeight: "1.55", color: "#FFFFFF" }}>
                 <svg
@@ -1166,7 +1178,11 @@ export function DienstOnderhoudContent() {
                   {t("3. Alles op orde")}
                 </h3>
                 <p style={{ margin: "0", maxWidth: "300px", fontSize: "16px", lineHeight: "1.6", color: "#C9CFF0" }}>
-                  {t("We voeren achterstallige updates uit en zetten automatische back-ups aan.")}
+                  {t("We voeren achterstallige updates uit en zetten automatische back-ups")}
+                  <Tip label={ta("Uitleg")} plain>
+                    {t("Back-up: een reservekopie van je website, zodat we alles snel kunnen terugzetten als er iets misgaat.")}
+                  </Tip>{" "}
+                  {t("aan.")}
                 </p>
               </li>
               <li style={{ position: "relative", display: "flex", flexDirection: "column", gap: "12px", alignItems: "flex-start" }}>
@@ -1391,7 +1407,12 @@ export function DienstOnderhoudContent() {
                   >
                     <path d="M5 12.5l4.5 4.5L19 7.5"></path>
                   </svg>
-                  <span>{t("Updates van software en plugins")}</span>
+                  <span>
+                    {t("Updates van software en plugins")}
+                    <Tip label={ta("Uitleg")} plain>
+                      {t("Plugin: een uitbreiding die extra functies aan je website toevoegt, zoals een formulier of een webshop.")}
+                    </Tip>
+                  </span>
                 </li>
                 <li
                   style={{ display: "flex", gap: "12px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#3A4150" }}
@@ -1429,7 +1450,12 @@ export function DienstOnderhoudContent() {
                   >
                     <path d="M5 12.5l4.5 4.5L19 7.5"></path>
                   </svg>
-                  <span>{t("Dagelijkse back-up")}</span>
+                  <span>
+                    {t("Dagelijkse back-up")}
+                    <Tip label={ta("Uitleg")} plain>
+                      {t("Back-up: een reservekopie van je website, zodat we alles snel kunnen terugzetten als er iets misgaat.")}
+                    </Tip>
+                  </span>
                 </li>
                 <li
                   style={{ display: "flex", gap: "12px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#3A4150" }}

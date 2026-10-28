@@ -9290,7 +9290,13 @@ export function DienstWebDevelopmentContent() {
                     <path d="M5 12.5l4.5 4.5L19 7.5"></path>
                   </svg>
                 </span>
-                <span>{t("SSL-certificaat inbegrepen")}</span>
+                <span>
+                  {t("SSL-certificaat")}
+                  <Tip label={ta("Uitleg")} plain>
+                    {t("SSL-certificaat: zorgt voor het slotje in de browser en een beveiligde verbinding (https).")}
+                  </Tip>{" "}
+                  {t("inbegrepen")}
+                </span>
               </li>
               <li
                 style={{
@@ -9510,7 +9516,12 @@ export function DienstWebDevelopmentContent() {
                     <path d="M5 12.5l4.5 4.5L19 7.5"></path>
                   </svg>
                 </span>
-                <span>{t("Regelmatige back-ups")}</span>
+                <span>
+                  {t("Regelmatige back-ups")}
+                  <Tip label={ta("Uitleg")} plain>
+                    {t("Back-up: een reservekopie van je website, zodat we alles snel kunnen terugzetten als er iets misgaat.")}
+                  </Tip>
+                </span>
               </li>
               <li
                 style={{

@@ -507,7 +507,11 @@ export function DienstHostingContent() {
                 {t("Niemand voelt zich verantwoordelijk.")}
               </h3>
               <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.65", color: "#3A4150" }}>
-                {t("Updates, back-ups en beveiliging blijven liggen, tot het misgaat.")}
+                {t("Updates, back-ups")}
+                <Tip label={ta("Uitleg")} plain>
+                  {t("Back-up: een reservekopie van je website, zodat we alles snel kunnen terugzetten als er iets misgaat.")}
+                </Tip>{" "}
+                {t("en beveiliging blijven liggen, tot het misgaat.")}
               </p>
             </li>
           </ul>
@@ -967,7 +971,11 @@ export function DienstHostingContent() {
                 {t("3x")}
               </span>
               <p style={{ margin: "0", fontSize: "22px", fontWeight: "600", lineHeight: "1.4", color: "#FFFFFF" }}>
-                {t("meer conversies bij een website die in 1 seconde laadt, vergeleken met 5 seconden.")}
+                {t("meer conversies")}
+                <Tip label={ta("Uitleg")} plain>
+                  {t("Conversie: een bezoeker die doet wat jij wilt, zoals een bestelling plaatsen.")}
+                </Tip>{" "}
+                {t("bij een website die in 1 seconde laadt, vergeleken met 5 seconden.")}
               </p>
             </div>
             <div style={{ display: "flex", flexDirection: "column", gap: "20px" }}>
@@ -1086,7 +1094,11 @@ export function DienstHostingContent() {
                 {t("8,4%")}
               </span>
               <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.6", color: "#3A4150" }}>
-                {t("meer conversies in retail als een mobiele website 0,1 seconde sneller laadt.")}
+                {t("meer conversies")}
+                <Tip label={ta("Uitleg")} plain>
+                  {t("Conversie: een bezoeker die doet wat jij wilt, zoals een bestelling plaatsen.")}
+                </Tip>{" "}
+                {t("in retail als een mobiele website 0,1 seconde sneller laadt.")}
               </p>
               <span style={{ marginTop: "auto", fontSize: "13px", lineHeight: "1.5", color: "#5A6273" }}>
                 {t("Bron: Deloitte en Google, Milliseconds Make Millions, 2020.")}
@@ -1708,7 +1720,13 @@ export function DienstHostingContent() {
                   >
                     <path d="M5 12.5l4.5 4.5L19 7.5"></path>
                   </svg>
-                  <span>{t("99,9% uptime garantie")}</span>
+                  <span>
+                    {t("99,9% uptime")}
+                    <Tip label={ta("Uitleg")}>
+                      {t("Uptime: de tijd dat je website online en bereikbaar is.")}
+                    </Tip>{" "}
+                    {t("garantie")}
+                  </span>
                 </li>
                 <li
                   style={{ display: "flex", gap: "12px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#3A4150" }}
@@ -1845,7 +1863,13 @@ export function DienstHostingContent() {
                   >
                     <path d="M5 12.5l4.5 4.5L19 7.5"></path>
                   </svg>
-                  <span>{t("SSL-certificaat (https) inbegrepen")}</span>
+                  <span>
+                    {t("SSL-certificaat")}
+                    <Tip label={ta("Uitleg")}>
+                      {t("SSL-certificaat: zorgt voor het slotje in de browser en een beveiligde verbinding (https).")}
+                    </Tip>{" "}
+                    {t("(https) inbegrepen")}
+                  </span>
                 </li>
                 <li
                   style={{ display: "flex", gap: "12px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#3A4150" }}
@@ -1883,7 +1907,12 @@ export function DienstHostingContent() {
                   >
                     <path d="M5 12.5l4.5 4.5L19 7.5"></path>
                   </svg>
-                  <span>{t("Dagelijkse back-ups")}</span>
+                  <span>
+                    {t("Dagelijkse back-ups")}
+                    <Tip label={ta("Uitleg")}>
+                      {t("Back-up: een reservekopie van je website, zodat we alles snel kunnen terugzetten als er iets misgaat.")}
+                    </Tip>
+                  </span>
                 </li>
                 <li
                   style={{ display: "flex", gap: "12px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#3A4150" }}
@@ -2021,7 +2050,13 @@ export function DienstHostingContent() {
                   >
                     <path d="M5 12.5l4.5 4.5L19 7.5"></path>
                   </svg>
-                  <span>{t("99,9% uptime garantie")}</span>
+                  <span>
+                    {t("99,9% uptime")}
+                    <Tip label={ta("Uitleg")}>
+                      {t("Uptime: de tijd dat je website online en bereikbaar is.")}
+                    </Tip>{" "}
+                    {t("garantie")}
+                  </span>
                 </li>
                 <li
                   style={{ display: "flex", gap: "12px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#FFFFFF" }}
@@ -2158,7 +2193,13 @@ export function DienstHostingContent() {
                   >
                     <path d="M5 12.5l4.5 4.5L19 7.5"></path>
                   </svg>
-                  <span>{t("SSL-certificaat (https) inbegrepen")}</span>
+                  <span>
+                    {t("SSL-certificaat")}
+                    <Tip label={ta("Uitleg")}>
+                      {t("SSL-certificaat: zorgt voor het slotje in de browser en een beveiligde verbinding (https).")}
+                    </Tip>{" "}
+                    {t("(https) inbegrepen")}
+                  </span>
                 </li>
                 <li
                   style={{ display: "flex", gap: "12px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#FFFFFF" }}
@@ -2196,7 +2237,12 @@ export function DienstHostingContent() {
                   >
                     <path d="M5 12.5l4.5 4.5L19 7.5"></path>
                   </svg>
-                  <span>{t("Dagelijkse back-ups")}</span>
+                  <span>
+                    {t("Dagelijkse back-ups")}
+                    <Tip label={ta("Uitleg")}>
+                      {t("Back-up: een reservekopie van je website, zodat we alles snel kunnen terugzetten als er iets misgaat.")}
+                    </Tip>
+                  </span>
                 </li>
                 <li
                   style={{ display: "flex", gap: "12px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#FFFFFF" }}
@@ -2313,7 +2359,13 @@ export function DienstHostingContent() {
                   >
                     <path d="M5 12.5l4.5 4.5L19 7.5"></path>
                   </svg>
-                  <span>{t("99,9% uptime garantie")}</span>
+                  <span>
+                    {t("99,9% uptime")}
+                    <Tip label={ta("Uitleg")}>
+                      {t("Uptime: de tijd dat je website online en bereikbaar is.")}
+                    </Tip>{" "}
+                    {t("garantie")}
+                  </span>
                 </li>
                 <li
                   style={{ display: "flex", gap: "12px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#3A4150" }}
@@ -2450,7 +2502,13 @@ export function DienstHostingContent() {
                   >
                     <path d="M5 12.5l4.5 4.5L19 7.5"></path>
                   </svg>
-                  <span>{t("SSL-certificaat (https) inbegrepen")}</span>
+                  <span>
+                    {t("SSL-certificaat")}
+                    <Tip label={ta("Uitleg")}>
+                      {t("SSL-certificaat: zorgt voor het slotje in de browser en een beveiligde verbinding (https).")}
+                    </Tip>{" "}
+                    {t("(https) inbegrepen")}
+                  </span>
                 </li>
                 <li
                   style={{ display: "flex", gap: "12px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#3A4150" }}
@@ -2488,7 +2546,12 @@ export function DienstHostingContent() {
                   >
                     <path d="M5 12.5l4.5 4.5L19 7.5"></path>
                   </svg>
-                  <span>{t("Dagelijkse back-ups")}</span>
+                  <span>
+                    {t("Dagelijkse back-ups")}
+                    <Tip label={ta("Uitleg")}>
+                      {t("Back-up: een reservekopie van je website, zodat we alles snel kunnen terugzetten als er iets misgaat.")}
+                    </Tip>
+                  </span>
                 </li>
                 <li
                   style={{ display: "flex", gap: "12px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#3A4150" }}
@@ -2605,7 +2668,13 @@ export function DienstHostingContent() {
                   >
                     <path d="M5 12.5l4.5 4.5L19 7.5"></path>
                   </svg>
-                  <span>{t("99,9% uptime garantie")}</span>
+                  <span>
+                    {t("99,9% uptime")}
+                    <Tip label={ta("Uitleg")}>
+                      {t("Uptime: de tijd dat je website online en bereikbaar is.")}
+                    </Tip>{" "}
+                    {t("garantie")}
+                  </span>
                 </li>
                 <li
                   style={{ display: "flex", gap: "12px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#3A4150" }}
@@ -2742,7 +2811,13 @@ export function DienstHostingContent() {
                   >
                     <path d="M5 12.5l4.5 4.5L19 7.5"></path>
                   </svg>
-                  <span>{t("SSL-certificaat (https) inbegrepen")}</span>
+                  <span>
+                    {t("SSL-certificaat")}
+                    <Tip label={ta("Uitleg")}>
+                      {t("SSL-certificaat: zorgt voor het slotje in de browser en een beveiligde verbinding (https).")}
+                    </Tip>{" "}
+                    {t("(https) inbegrepen")}
+                  </span>
                 </li>
                 <li
                   style={{ display: "flex", gap: "12px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#3A4150" }}
@@ -2780,7 +2855,12 @@ export function DienstHostingContent() {
                   >
                     <path d="M5 12.5l4.5 4.5L19 7.5"></path>
                   </svg>
-                  <span>{t("Dagelijkse back-ups")}</span>
+                  <span>
+                    {t("Dagelijkse back-ups")}
+                    <Tip label={ta("Uitleg")}>
+                      {t("Back-up: een reservekopie van je website, zodat we alles snel kunnen terugzetten als er iets misgaat.")}
+                    </Tip>
+                  </span>
                 </li>
                 <li
                   style={{ display: "flex", gap: "12px", alignItems: "flex-start", fontSize: "15px", lineHeight: "1.5", color: "#3A4150" }}
