@@ -19,6 +19,7 @@ export function Achiever() {
           preload="none"
           src="/media/video/ondernemers.mp4"
           poster="/media/video/ondernemers-poster.webp"
+          posterPriority
           muted
           loop
           playsInline

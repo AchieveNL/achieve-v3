@@ -1,7 +1,7 @@
 "use client";
 
 import { useTr } from "@/i18n/I18nProvider";
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useFrame, useMotion, useTick } from "@/components/motion/MotionProvider";
 import { Accent } from "@/components/ui/Accent";
 import { Tip } from "@/components/ui/Tip";
@@ -17,6 +17,18 @@ export function Hero() {
     orbWRef = useRef<HTMLDivElement>(null);
   const { paused, toggle } = useMotion();
   const [ti, setTi] = useState(0);
+  // Orb box size, measured on resize only: the orbs move with `translate` (no layout per frame).
+  const orbBox = useRef({ w: 0, h: 0 });
+  const frameN = useRef(0);
+  useEffect(() => {
+    const box = orbRef.current?.parentElement;
+    if (!box) return;
+    const ro = new ResizeObserver(([e]) => {
+      orbBox.current = { w: e.contentRect.width, h: e.contentRect.height };
+    });
+    ro.observe(box);
+    return () => ro.disconnect();
+  }, []);
   useTick(5000, () => setTi((i) => (i + 1) % 4));
 
   // Floating review cards: visible from first paint (CSS entrance in achieve.css,
@@ -44,6 +56,9 @@ export function Hero() {
       [orbRef.current, 0, 0.5, 0, 15, 16, 0.8],
       [orb2Ref.current, 2, 0.42, Math.PI, 15, 16, 0.8],
     ] as const;
+    const { w: bw, h: bh } = orbBox.current;
+    // The colour drift is slow: repaint the blurred gradient every 6th frame only.
+    const repaint = frameN.current++ % 6 === 0;
     for (const [el, off, sp, ph0, rx, ry, wa] of orbs) {
       if (!el) continue;
       const cyc = (t / 14 + off) % 4,
@@ -54,17 +69,22 @@ export function Hero() {
       const al = (0.36 + 0.2 * ((c[0] + c[1] + c[2]) / 765)).toFixed(2);
       const wx = (50 + Math.cos(t * 0.6 + off * 3) * 18).toFixed(1),
         wy = (50 + Math.sin(t * 0.6 + off * 3) * 18).toFixed(1);
-      el.style.background = `radial-gradient(circle 150px at ${wx}% ${wy}%, rgba(255,255,255,${wa}) 0%, rgba(255,255,255,${(wa * 0.45).toFixed(2)}) 50%, rgba(255,255,255,0) 100%), radial-gradient(closest-side, rgba(${c.join(",")},${al}) 30%, rgba(${c.join(",")},0) 100%)`;
+      if (repaint) el.style.background = `radial-gradient(circle 150px at ${wx}% ${wy}%, rgba(255,255,255,${wa}) 0%, rgba(255,255,255,${(wa * 0.45).toFixed(2)}) 50%, rgba(255,255,255,0) 100%), radial-gradient(closest-side, rgba(${c.join(",")},${al}) 30%, rgba(${c.join(",")},0) 100%)`;
       const th = t * 0.16 + ph0;
-      el.style.left = (50 + Math.cos(th) * rx).toFixed(2) + "%";
-      el.style.top = (52 + Math.sin(th) * ry).toFixed(2) + "%";
-      el.style.transform = `scale(${(1 + Math.sin(t * sp + off) * 0.06).toFixed(3)})`;
+      // Anchored at 50% / 52% of the box (see style); offset in px with translate.
+      const dx = ((Math.cos(th) * rx) / 100) * bw,
+        dy = ((2 + Math.sin(th) * ry) / 100) * bh;
+      el.style.left = "50%";
+      el.style.top = "50%";
+      el.style.transform = `translate(${dx.toFixed(1)}px, ${dy.toFixed(1)}px) scale(${(1 + Math.sin(t * sp + off) * 0.06).toFixed(3)})`;
     }
     const w = orbWRef.current;
     if (w) {
-      w.style.left = (50 + Math.sin(t * 0.23) * 12).toFixed(2) + "%";
-      w.style.top = (52 + Math.cos(t * 0.19) * 12).toFixed(2) + "%";
-      w.style.transform = `scale(${(1 + Math.sin(t * 0.37) * 0.08).toFixed(3)})`;
+      const dx = ((Math.sin(t * 0.23) * 12) / 100) * bw,
+        dy = ((2 + Math.cos(t * 0.19) * 12) / 100) * bh;
+      w.style.left = "50%";
+      w.style.top = "50%";
+      w.style.transform = `translate(${dx.toFixed(1)}px, ${dy.toFixed(1)}px) scale(${(1 + Math.sin(t * 0.37) * 0.08).toFixed(3)})`;
     }
     void now;
   });

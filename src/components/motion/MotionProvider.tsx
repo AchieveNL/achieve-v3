@@ -49,7 +49,8 @@ export function useFrame(cb: (now: number, dt: number, t: number) => void, enabl
     let raf = 0;
     let last = performance.now();
     const loop = (now: number) => {
-      const dt = Math.min(0.1, (now - last) / 1000);
+      // rAF timestamps can be slightly earlier than performance.now() at start: never let time run backwards.
+      const dt = Math.max(0, Math.min(0.1, (now - last) / 1000));
       last = now;
       onFrame(now, dt);
       raf = requestAnimationFrame(loop);
