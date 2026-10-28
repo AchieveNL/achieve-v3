@@ -508,3 +508,7 @@ html:has(.jn-bar){scroll-behavior:smooth}
 .arw-wrap{white-space:normal !important;position:relative;font-size:15px !important;padding-left:28px !important;padding-right:28px !important}
 :is(.k3-out,.btn-outline,.feat-cta).arw-wrap svg,.arw-wrap :is(.slide-arrow,.tf-k4a,.ty-sa){position:absolute;right:6px;top:50%;margin:0 !important;max-width:18px !important;transform:translate(-6px,-50%)}
 :is(.k3-out,.btn-outline,.feat-cta):is(.arw-wrap:hover,.arw-wrap:focus-visible,.arw-wrap.arw-test) svg,:is(.arw-wrap:hover,.arw-wrap:focus-visible,.arw-wrap.arw-test) :is(.slide-arrow,.tf-k4a,.ty-sa){transform:translate(0,-50%) !important;margin:0 !important}
+/* Toegankelijkheid: inactieve casebalkjes op mobiel houden genoeg contrast (geen doorschijnende tekst) */
+@media (max-width: 600px){.fc-bars button{opacity:1}.fc-bars button:not(.is-on) .fc-num{color:#5A6273}.fc-bars button:not(.is-on) .fc-bar{opacity:.55}}
+/* Omlijnde stapnummers (Werkwijze) zijn decoratie: getekend via ::before, zodat ze niet als tekst meetellen */
+.step-num::before{content:attr(data-n)}

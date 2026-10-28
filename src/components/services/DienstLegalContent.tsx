@@ -3596,7 +3596,7 @@ export function DienstLegalContent() {
                 }}
               >
                 <img
-                  src="/media/team/karim.svg"
+                  src="/media/team/md/karim.webp"
                   alt=""
                   style={{ position: "absolute", left: "-14%", top: "0", width: "128%", height: "auto" }}
                 />
@@ -3617,7 +3617,7 @@ export function DienstLegalContent() {
                 }}
               >
                 <img
-                  src="/media/team/denise.svg"
+                  src="/media/team/md/denise.webp"
                   alt=""
                   style={{ position: "absolute", left: "-5%", top: "0", width: "110%", height: "auto" }}
                 />
@@ -3638,7 +3638,7 @@ export function DienstLegalContent() {
                 }}
               >
                 <img
-                  src="/media/team/abdelmonim.svg"
+                  src="/media/team/md/abdelmonim.webp"
                   alt=""
                   style={{ position: "absolute", left: "-14%", top: "0", width: "128%", height: "auto" }}
                 />
@@ -3659,7 +3659,7 @@ export function DienstLegalContent() {
                 }}
               >
                 <img
-                  src="/media/team/niek.svg"
+                  src="/media/team/md/niek.webp"
                   alt=""
                   style={{ position: "absolute", left: "-14%", top: "0", width: "128%", height: "auto" }}
                 />

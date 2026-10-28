@@ -1,7 +1,7 @@
 "use client";
 
 import { useTr } from "@/i18n/I18nProvider";
-import { useRef } from "react";
+import { useEffect, useRef } from "react";
 import { useFrame } from "@/components/motion/MotionProvider";
 import { Accent } from "@/components/ui/Accent";
 
@@ -11,24 +11,14 @@ export function Team() {
   // Team portraits slowly orbit around "Jouw ambitie".
   const root = useRef<HTMLElement | null>(null);
   const ORDER = ["Karim", "Abdelmonim", "Niek", "Seyma", "Jonas", "Denise"];
-  useFrame((_now, _dt, t) => {
+  // Static layout is set once; each frame only writes `translate` (no layout reads per frame, so no forced reflow).
+  const box = useRef({ w: 0, h: 0, ready: false });
+  useEffect(() => {
     const r = root.current;
     if (!r) return;
     const bubbles = Array.from(r.querySelectorAll<HTMLElement>(".team-bubble"));
-    const N = bubbles.length || 6,
-      R = 44,
-      SPEED = 4,
-      W = 23;
+    const W = 23;
     bubbles.forEach((el) => {
-      const img = el.querySelector("img");
-      const slot = Math.max(0, ORDER.indexOf(el.dataset.name || (img?.getAttribute("data-name") ?? "")));
-      const ang = ((-135 + slot * (360 / N) + t * SPEED) * Math.PI) / 180;
-      const cx = 50 + Math.cos(ang) * R,
-        cy = 50 + Math.sin(ang) * R;
-      // Anchor at the centre and move with `translate` (sub-pixel smooth), not left/top (snaps to pixels and jitters).
-      const box = el.offsetParent as HTMLElement | null;
-      const bw = box?.clientWidth ?? 0,
-        bh = box?.clientHeight ?? 0;
       el.style.transition = "none";
       el.style.right = "auto";
       el.style.bottom = "auto";
@@ -36,6 +26,29 @@ export function Team() {
       el.style.top = 50 - W / 2 + "%";
       el.style.width = W + "%";
       el.style.willChange = "translate";
+    });
+    const parent = bubbles[0]?.offsetParent as HTMLElement | null;
+    if (!parent) return;
+    const ro = new ResizeObserver(([e]) => {
+      box.current = { w: e.contentRect.width, h: e.contentRect.height, ready: true };
+    });
+    ro.observe(parent);
+    return () => ro.disconnect();
+  }, []);
+  useFrame((_now, _dt, t) => {
+    const r = root.current;
+    if (!r || !box.current.ready) return;
+    const bubbles = r.querySelectorAll<HTMLElement>(".team-bubble");
+    const N = bubbles.length || 6,
+      R = 44,
+      SPEED = 4;
+    const { w: bw, h: bh } = box.current;
+    bubbles.forEach((el) => {
+      const img = el.querySelector("img");
+      const slot = Math.max(0, ORDER.indexOf(el.dataset.name || (img?.getAttribute("data-name") ?? "")));
+      const ang = ((-135 + slot * (360 / N) + t * SPEED) * Math.PI) / 180;
+      const cx = 50 + Math.cos(ang) * R,
+        cy = 50 + Math.sin(ang) * R;
       el.style.translate = `${(((cx - 50) * bw) / 100).toFixed(2)}px ${(((cy - 50) * bh) / 100).toFixed(2)}px`;
     });
     r.querySelectorAll("[data-orbit]").forEach((el) => el.setAttribute("transform", `rotate(${((t * 4) % 360).toFixed(2)} 50 50)`));
@@ -135,7 +148,7 @@ export function Team() {
                     }}
                   >
                     <img
-                      src="/media/team/karim.svg"
+                      src="/media/team/md/karim.webp"
                       alt={ta("Portret van Karim")}
                       className="team-img"
                       style={{ maxWidth: "none", position: "absolute", left: "-14%", top: "0", width: "128%", height: "auto" }}
@@ -191,7 +204,7 @@ export function Team() {
                     }}
                   >
                     <img
-                      src="/media/team/abdelmonim.svg"
+                      src="/media/team/md/abdelmonim.webp"
                       alt={ta("Portret van Abdelmonim")}
                       className="team-img"
                       style={{ maxWidth: "none", position: "absolute", left: "-14%", top: "0", width: "128%", height: "auto" }}
@@ -247,7 +260,7 @@ export function Team() {
                     }}
                   >
                     <img
-                      src="/media/team/niek.svg"
+                      src="/media/team/md/niek.webp"
                       alt={ta("Portret van Niek")}
                       className="team-img"
                       style={{ maxWidth: "none", position: "absolute", left: "-14%", top: "0", width: "128%", height: "auto" }}
@@ -303,7 +316,7 @@ export function Team() {
                     }}
                   >
                     <img
-                      src="/media/team/jonas.svg"
+                      src="/media/team/md/jonas.webp"
                       alt={ta("Portret van Jonas")}
                       className="team-img"
                       style={{ maxWidth: "none", position: "absolute", left: "-14%", top: "0", width: "128%", height: "auto" }}
@@ -359,7 +372,7 @@ export function Team() {
                     }}
                   >
                     <img
-                      src="/media/team/seyma.svg"
+                      src="/media/team/md/seyma.webp"
                       alt={ta("Portret van Seyma")}
                       className="team-img"
                       style={{ maxWidth: "none", position: "absolute", left: "-5%", top: "0", width: "110%", height: "auto" }}
@@ -415,7 +428,7 @@ export function Team() {
                     }}
                   >
                     <img
-                      src="/media/team/denise.svg"
+                      src="/media/team/md/denise.webp"
                       alt={ta("Portret van Denise")}
                       className="team-img"
                       style={{ maxWidth: "none", position: "absolute", left: "-5%", top: "0", width: "110%", height: "auto" }}

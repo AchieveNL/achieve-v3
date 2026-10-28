@@ -1,7 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Montserrat, Poppins, Rajdhani, Source_Sans_3 } from "next/font/google";
 import { notFound } from "next/navigation";
-import { preconnect } from "react-dom";
 import { MotionProvider } from "@/components/motion/MotionProvider";
 import { FaviconMotion } from "@/components/ui/FaviconMotion";
 import { locales, isLocale } from "@/i18n/config";
@@ -20,8 +19,8 @@ const sourceSans = Source_Sans_3({
   variable: "--font-source-sans",
   display: "swap",
 });
-const montserrat = Montserrat({ subsets: ["latin"], weight: ["700"], variable: "--font-montserrat", display: "swap" });
-const rajdhani = Rajdhani({ subsets: ["latin"], weight: ["400", "500"], variable: "--font-rajdhani", display: "swap" });
+const montserrat = Montserrat({ subsets: ["latin"], weight: ["700"], variable: "--font-montserrat", display: "swap", preload: false });
+const rajdhani = Rajdhani({ subsets: ["latin"], weight: ["400", "500"], variable: "--font-rajdhani", display: "swap", preload: false });
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://achieve.nl"),
@@ -40,9 +39,7 @@ export function generateStaticParams() {
 
 export default async function LocaleLayout({ children, params }: { children: React.ReactNode; params: Promise<{ locale: string }> }) {
   const { locale } = await params;
-  // Booking calendar opens in a popup; open the connection early so it boots faster.
-  preconnect("https://calendly.com");
-  preconnect("https://assets.calendly.com");
+  // Calendly connections are warmed on hover/focus of a booking link (CalendlyPopup), not on every page load.
   if (!isLocale(locale)) notFound();
   return (
     <html

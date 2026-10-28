@@ -128,7 +128,7 @@ export function Approach() {
                     letterSpacing: "-0.03em",
                   }}
                 >
-                  <span style={{ color: "transparent", WebkitTextStroke: "1.5px #7FBEF0" }}>{t("01")}</span>
+                  <span className="step-num" data-n="01" aria-hidden="true" style={{ color: "transparent", WebkitTextStroke: "1.5px #7FBEF0" }}></span>
                   <span
                     aria-hidden="true"
                     className="grad-text"
@@ -194,7 +194,7 @@ export function Approach() {
                     letterSpacing: "-0.03em",
                   }}
                 >
-                  <span style={{ color: "transparent", WebkitTextStroke: "1.5px #7FBEF0" }}>{t("02")}</span>
+                  <span className="step-num" data-n="02" aria-hidden="true" style={{ color: "transparent", WebkitTextStroke: "1.5px #7FBEF0" }}></span>
                   <span
                     aria-hidden="true"
                     className="grad-text"
@@ -260,7 +260,7 @@ export function Approach() {
                     letterSpacing: "-0.03em",
                   }}
                 >
-                  <span style={{ color: "transparent", WebkitTextStroke: "1.5px #7FBEF0" }}>{t("03")}</span>
+                  <span className="step-num" data-n="03" aria-hidden="true" style={{ color: "transparent", WebkitTextStroke: "1.5px #7FBEF0" }}></span>
                   <span
                     aria-hidden="true"
                     className="grad-text"
@@ -326,7 +326,7 @@ export function Approach() {
                     letterSpacing: "-0.03em",
                   }}
                 >
-                  <span style={{ color: "transparent", WebkitTextStroke: "1.5px #7FBEF0" }}>{t("04")}</span>
+                  <span className="step-num" data-n="04" aria-hidden="true" style={{ color: "transparent", WebkitTextStroke: "1.5px #7FBEF0" }}></span>
                   <span
                     aria-hidden="true"
                     className="grad-text"

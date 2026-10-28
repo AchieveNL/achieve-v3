@@ -17,46 +17,58 @@ const ALL = [...STEPS, "arw-wrap"];
 export function ButtonFit() {
   useEffect(() => {
     let tm = 0;
-    const fits = (b: HTMLElement) => {
-      b.classList.add("arw-test");
-      const ok = b.scrollWidth - b.clientWidth <= 1;
-      b.classList.remove("arw-test");
-      return ok;
-    };
+    // One write pass (reset), one read pass, one write pass: no forced reflow per button.
+    const ARROW = 30; // 18px arrow + 12px gap
+    const ARROW_S1 = 26; // 18px arrow + 8px gap
     const check = () => {
       tm = 0;
-      // 0..2 = STEPS, 3 = arw-wrap. Buttons with the same label and width (one row of price cards) share the largest step, so they look the same.
-      const level = new Map<HTMLElement, number>();
-      const group = new Map<string, number>();
-      document.querySelectorAll<HTMLElement>(SEL).forEach((b) => {
-        if (!b.offsetParent) return;
-        b.classList.remove(...ALL);
+      const btns = [...document.querySelectorAll<HTMLElement>(SEL)];
+      btns.forEach((b) => b.classList.remove(...ALL));
+      const rows: { b: HTMLElement; lv: number; key: string }[] = [];
+      const range = document.createRange();
+      for (const b of btns) {
+        if (!b.offsetParent) continue;
+        const cs = getComputedStyle(b);
+        const pad = parseFloat(cs.paddingLeft) + parseFloat(cs.paddingRight);
+        let inner = b.clientWidth - pad;
+        range.selectNodeContents(b);
+        const text = range.getBoundingClientRect().width; // natural label width (arrow is 0 wide at rest)
+        const fs = parseFloat(cs.fontSize) || 16;
+        // Auto-width buttons can grow on hover; only the space of their container limits them.
+        if (inner - text < 2 && b.parentElement) {
+          const pcs = getComputedStyle(b.parentElement);
+          inner = b.parentElement.clientWidth - parseFloat(pcs.paddingLeft) - parseFloat(pcs.paddingRight) - pad;
+        }
         let lv = -1;
-        if (!fits(b)) {
+        if (text + ARROW > inner + 1) {
           lv = STEPS.length;
+          const sizes = [fs, 15, 14];
           for (let i = 0; i < STEPS.length; i++) {
-            b.classList.add(STEPS[i]);
-            if (fits(b)) {
+            if ((text * Math.min(fs, sizes[i])) / fs + ARROW_S1 <= inner + 1) {
               lv = i;
               break;
             }
           }
-          b.classList.remove(...STEPS);
         }
-        const key = (b.textContent || "").trim() + "|" + Math.round(b.getBoundingClientRect().width / 4);
-        level.set(b, lv);
-        group.set(key, Math.max(group.get(key) ?? -1, lv));
-        b.dataset.arwKey = key;
-      });
-      level.forEach((_, b) => {
-        const lv = group.get(b.dataset.arwKey || "") ?? -1;
+        rows.push({ b, lv, key: (b.textContent || "").trim() + "|" + Math.round(b.clientWidth / 4) });
+      }
+      // Identical buttons side by side (one row of price cards) share the largest step.
+      const group = new Map<string, number>();
+      rows.forEach((r) => group.set(r.key, Math.max(group.get(r.key) ?? -1, r.lv)));
+      rows.forEach(({ b, key }) => {
+        const lv = group.get(key) ?? -1;
         if (lv < 0) return;
         if (lv >= STEPS.length) b.classList.add("arw-wrap");
         else b.classList.add(...STEPS.slice(0, lv + 1));
       });
     };
     const queue = () => {
-      if (!tm) tm = window.setTimeout(check, 150);
+      if (tm) return;
+      tm = window.setTimeout(() => {
+        const ric = (window as Window & { requestIdleCallback?: (cb: () => void, o?: { timeout: number }) => number }).requestIdleCallback;
+        if (ric) ric(check, { timeout: 1000 });
+        else check();
+      }, 150);
     };
     queue();
     const fonts = (document as Document & { fonts?: FontFaceSet }).fonts;

@@ -762,47 +762,47 @@ export function Header() {
                     </svg>
                   </a>
                   <div className="nav-dd-media" data-svc="brand-strategy" aria-hidden="true">
-                    <img src="/media/nav/strategy.webp" alt="" />
+                    <img src="/media/nav/strategy.webp" alt="" loading="lazy" decoding="async" />
                     <span className="nav-dd-media-label">{t("Brand Strategy")}</span>
                   </div>
                   <div className="nav-dd-media" data-svc="legal" aria-hidden="true">
-                    <img src="/media/nav/legal.webp" alt="" />
+                    <img src="/media/nav/legal.webp" alt="" loading="lazy" decoding="async" />
                     <span className="nav-dd-media-label">{t("Legal")}</span>
                   </div>
                   <div className="nav-dd-media" data-svc="brand-book" aria-hidden="true">
-                    <img src="/media/nav/brand-book.webp" alt="" />
+                    <img src="/media/nav/brand-book.webp" alt="" loading="lazy" decoding="async" />
                     <span className="nav-dd-media-label">{t("Brand Book")}</span>
                   </div>
                   <div className="nav-dd-media" data-svc="web-development" aria-hidden="true">
-                    <img src="/media/nav/web-development.webp" alt="" />
+                    <img src="/media/nav/web-development.webp" alt="" loading="lazy" decoding="async" />
                     <span className="nav-dd-media-label">{t("Web Development")}</span>
                   </div>
                   <div className="nav-dd-media" data-svc="search-engine-advertising" aria-hidden="true">
-                    <img src="/media/nav/search-engine-advertising.webp" alt="" />
+                    <img src="/media/nav/search-engine-advertising.webp" alt="" loading="lazy" decoding="async" />
                     <span className="nav-dd-media-label">{t("Search Engine Advertising")}</span>
                   </div>
                   <div className="nav-dd-media" data-svc="social-media-advertising" aria-hidden="true">
-                    <img src="/media/nav/social-media-advertising.webp" alt="" />
+                    <img src="/media/nav/social-media-advertising.webp" alt="" loading="lazy" decoding="async" />
                     <span className="nav-dd-media-label">{t("Social Media Advertising")}</span>
                   </div>
                   <div className="nav-dd-media" data-svc="social-media-management" aria-hidden="true">
-                    <img src="/media/nav/social-media-management.webp" alt="" />
+                    <img src="/media/nav/social-media-management.webp" alt="" loading="lazy" decoding="async" />
                     <span className="nav-dd-media-label">{t("Social Media Management")}</span>
                   </div>
                   <div className="nav-dd-media" data-svc="email-marketing" aria-hidden="true">
-                    <img src="/media/nav/email-marketing.webp" alt="" />
+                    <img src="/media/nav/email-marketing.webp" alt="" loading="lazy" decoding="async" />
                     <span className="nav-dd-media-label">{t("Email Marketing")}</span>
                   </div>
                   <div className="nav-dd-media" data-svc="video-marketing" aria-hidden="true">
-                    <img src="/media/nav/video-marketing.webp" alt="" />
+                    <img src="/media/nav/video-marketing.webp" alt="" loading="lazy" decoding="async" />
                     <span className="nav-dd-media-label">{t("Video Marketing")}</span>
                   </div>
                   <div className="nav-dd-media" data-svc="ugc-marketing" aria-hidden="true">
-                    <img src="/media/nav/ugc-marketing.webp" alt="" />
+                    <img src="/media/nav/ugc-marketing.webp" alt="" loading="lazy" decoding="async" />
                     <span className="nav-dd-media-label">{t("UGC Marketing")}</span>
                   </div>
                   <div className="nav-dd-media" data-svc="dashboard" aria-hidden="true">
-                    <img src="/media/nav/dashboard.webp" alt="" />
+                    <img src="/media/nav/dashboard.webp" alt="" loading="lazy" decoding="async" />
                     <span className="nav-dd-media-label">{t("Dashboard")}</span>
                   </div>
                 </div>
@@ -1102,51 +1102,51 @@ export function Header() {
                     </svg>
                   </a>
                   <div className="nav-dd-media" data-svc="brand-strategy" aria-hidden="true">
-                    <img src="/media/nav/strategy.webp" alt="" />
+                    <img src="/media/nav/strategy.webp" alt="" loading="lazy" decoding="async" />
                     <span className="nav-dd-media-label">{t("Brand Strategy")}</span>
                   </div>
                   <div className="nav-dd-media" data-svc="legal" aria-hidden="true">
-                    <img src="/media/nav/legal.webp" alt="" />
+                    <img src="/media/nav/legal.webp" alt="" loading="lazy" decoding="async" />
                     <span className="nav-dd-media-label">{t("Legal")}</span>
                   </div>
                   <div className="nav-dd-media" data-svc="brand-book" aria-hidden="true">
-                    <img src="/media/nav/brand-book.webp" alt="" />
+                    <img src="/media/nav/brand-book.webp" alt="" loading="lazy" decoding="async" />
                     <span className="nav-dd-media-label">{t("Brand Book")}</span>
                   </div>
                   <div className="nav-dd-media" data-svc="custom-website" aria-hidden="true">
-                    <img src="/media/nav/web-development.webp" alt="" />
+                    <img src="/media/nav/web-development.webp" alt="" loading="lazy" decoding="async" />
                     <span className="nav-dd-media-label">{t("Custom website")}</span>
                   </div>
                   <div className="nav-dd-media" data-svc="shopify-webshop" aria-hidden="true">
-                    <img src="/media/nav/web-development.webp" alt="" />
+                    <img src="/media/nav/web-development.webp" alt="" loading="lazy" decoding="async" />
                     <span className="nav-dd-media-label">{t("Shopify webshop")}</span>
                   </div>
                   <div className="nav-dd-media" data-svc="search-engine-advertising" aria-hidden="true">
-                    <img src="/media/nav/search-engine-advertising.webp" alt="" />
+                    <img src="/media/nav/search-engine-advertising.webp" alt="" loading="lazy" decoding="async" />
                     <span className="nav-dd-media-label">{t("Search Engine Advertising")}</span>
                   </div>
                   <div className="nav-dd-media" data-svc="social-media-advertising" aria-hidden="true">
-                    <img src="/media/nav/social-media-advertising.webp" alt="" />
+                    <img src="/media/nav/social-media-advertising.webp" alt="" loading="lazy" decoding="async" />
                     <span className="nav-dd-media-label">{t("Social Media Advertising")}</span>
                   </div>
                   <div className="nav-dd-media" data-svc="social-media-management" aria-hidden="true">
-                    <img src="/media/nav/social-media-management.webp" alt="" />
+                    <img src="/media/nav/social-media-management.webp" alt="" loading="lazy" decoding="async" />
                     <span className="nav-dd-media-label">{t("Social Media Management")}</span>
                   </div>
                   <div className="nav-dd-media" data-svc="email-marketing" aria-hidden="true">
-                    <img src="/media/nav/email-marketing.webp" alt="" />
+                    <img src="/media/nav/email-marketing.webp" alt="" loading="lazy" decoding="async" />
                     <span className="nav-dd-media-label">{t("Email Marketing")}</span>
                   </div>
                   <div className="nav-dd-media" data-svc="video-marketing" aria-hidden="true">
-                    <img src="/media/nav/video-marketing.webp" alt="" />
+                    <img src="/media/nav/video-marketing.webp" alt="" loading="lazy" decoding="async" />
                     <span className="nav-dd-media-label">{t("Video Marketing")}</span>
                   </div>
                   <div className="nav-dd-media" data-svc="ugc-marketing" aria-hidden="true">
-                    <img src="/media/nav/ugc-marketing.webp" alt="" />
+                    <img src="/media/nav/ugc-marketing.webp" alt="" loading="lazy" decoding="async" />
                     <span className="nav-dd-media-label">{t("UGC Marketing")}</span>
                   </div>
                   <div className="nav-dd-media" data-svc="dashboard" aria-hidden="true">
-                    <img src="/media/nav/dashboard.webp" alt="" />
+                    <img src="/media/nav/dashboard.webp" alt="" loading="lazy" decoding="async" />
                     <span className="nav-dd-media-label">{t("Dashboard")}</span>
                   </div>
                 </div>

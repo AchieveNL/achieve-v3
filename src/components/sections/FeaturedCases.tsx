@@ -143,6 +143,10 @@ export function FeaturedCases() {
                     {bars}
                     <img
                       src="/media/cases/rcpeptides-lab.webp"
+                      srcSet="/media/cases/rcpeptides-lab-800.webp 800w, /media/cases/rcpeptides-lab.webp 1536w"
+                      sizes="(max-width: 1024px) 100vw, 60vw"
+                      loading="lazy"
+                      decoding="async"
                       alt={ta("De webshop RCpeptides op een laptop en een telefoon in een modern lab")}
                       style={{
                         position: "absolute",
@@ -393,7 +397,7 @@ export function FeaturedCases() {
                     <LazyVideo
                       preload="none"
                       src="/media/cases/sharkys.mp4"
-                      poster="/media/cases/sharkys-poster.webp"
+                      poster="/media/cases/sharkys-poster-800.webp"
                       muted
                       loop
                       playsInline
@@ -627,6 +631,10 @@ export function FeaturedCases() {
                     {bars}
                     <img
                       src="/media/projects/a-direct-automaterialen-01.webp"
+                      srcSet="/media/projects/a-direct-automaterialen-01-800.webp 800w, /media/projects/a-direct-automaterialen-01.webp 1800w"
+                      sizes="(max-width: 1024px) 100vw, 60vw"
+                      loading="lazy"
+                      decoding="async"
                       alt={ta("Bedrijfsbus van A-direct Autoparts met logo en belettering")}
                       style={{
                         position: "absolute",

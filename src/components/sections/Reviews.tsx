@@ -253,6 +253,7 @@ export function Reviews() {
                               </svg>
                             </span>
                             <a
+                              tabIndex={c.hid ? -1 : undefined}
                               href={c.srcHref}
                               target="_blank"
                               rel="noopener"
@@ -318,6 +319,7 @@ export function Reviews() {
                             </svg>
                           </span>
                           <a
+                            tabIndex={c.hid ? -1 : undefined}
                             href={c.srcHref}
                             target="_blank"
                             rel="noopener"
@@ -353,6 +355,7 @@ export function Reviews() {
                           <button
                             type="button"
                             className="rev-more"
+                            tabIndex={c.hid ? -1 : undefined}
                             onClick={c.open}
                             aria-label={ta(String(`Lees de hele review van ${c.name}`))}
                           >
@@ -507,6 +510,7 @@ export function Reviews() {
                               </svg>
                             </span>
                             <a
+                              tabIndex={c.hid ? -1 : undefined}
                               href={c.srcHref}
                               target="_blank"
                               rel="noopener"
@@ -572,6 +576,7 @@ export function Reviews() {
                             </svg>
                           </span>
                           <a
+                            tabIndex={c.hid ? -1 : undefined}
                             href={c.srcHref}
                             target="_blank"
                             rel="noopener"
@@ -607,6 +612,7 @@ export function Reviews() {
                           <button
                             type="button"
                             className="rev-more"
+                            tabIndex={c.hid ? -1 : undefined}
                             onClick={c.open}
                             aria-label={ta(String(`Lees de hele review van ${c.name}`))}
                           >

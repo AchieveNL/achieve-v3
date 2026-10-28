@@ -1,7 +1,7 @@
 "use client";
 
 import { useTr } from "@/i18n/I18nProvider";
-import { useRef } from "react";
+import { useEffect, useRef } from "react";
 import { useFrame } from "@/components/motion/MotionProvider";
 import { clientLogos } from "@/data/logos";
 
@@ -11,10 +11,21 @@ export function ClientStrip() {
   // Same calm pace as the other logo rows (px per second). Moves half the track, then wraps.
   const track = useRef<HTMLDivElement>(null);
   const pos = useRef(0);
+  // Track width is measured on resize only, never inside the frame loop (avoids a forced reflow every frame).
+  const halfRef = useRef(0);
+  useEffect(() => {
+    const el = track.current;
+    if (!el) return;
+    const ro = new ResizeObserver(() => {
+      halfRef.current = el.scrollWidth / 2;
+    });
+    ro.observe(el);
+    return () => ro.disconnect();
+  }, []);
   useFrame((_now, dt) => {
     const el = track.current;
     if (!el) return;
-    const half = el.scrollWidth / 2;
+    const half = halfRef.current;
     if (!half) return;
     pos.current = (pos.current + 22 * dt) % half;
     el.style.transform = `translateX(${(-pos.current).toFixed(1)}px)`;
@@ -28,6 +39,8 @@ export function ClientStrip() {
         alt={copy === 0 ? l.name : ""}
         aria-hidden={copy === 0 ? undefined : true}
         loading="lazy"
+        width={l.width}
+        height={l.height}
         style={{ display: "block", flexShrink: 0, marginRight: 44, height: l.height, width: "auto" }}
       />
     )),
