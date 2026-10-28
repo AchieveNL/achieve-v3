@@ -35955,7 +35955,7 @@ export function TarievenContent() {
                     <span>{t("Eerste resultaten")}</span>
                   </strong>
                   <span style={{ fontSize: "14px", lineHeight: "1.55", color: "#3A4150" }}>
-                    {t("Eerste resultaten meten | Video- en UGC-advertenties toevoegen | Advertenties zonder resultaat vervangen")}
+                    {t("Eerste resultaten meten | Video- en UGC-advertenties toevoegen, met beeld dat je aanlevert of dat wij als meerwerk maken | Advertenties zonder resultaat vervangen")}
                   </span>
                 </div>
                 <div
