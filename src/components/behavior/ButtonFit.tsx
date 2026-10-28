@@ -23,7 +23,7 @@ export function ButtonFit() {
     const check = () => {
       tm = 0;
       const btns = [...document.querySelectorAll<HTMLElement>(SEL)];
-      btns.forEach((b) => b.classList.remove(...ALL));
+      btns.forEach((b) => ALL.some((c) => b.classList.contains(c)) && b.classList.remove(...ALL));
       const rows: { b: HTMLElement; lv: number; key: string }[] = [];
       const range = document.createRange();
       for (const b of btns) {
@@ -66,8 +66,10 @@ export function ButtonFit() {
       if (tm) return;
       tm = window.setTimeout(() => {
         const ric = (window as Window & { requestIdleCallback?: (cb: () => void, o?: { timeout: number }) => number }).requestIdleCallback;
-        if (ric) ric(check, { timeout: 1000 });
-        else check();
+        // Measure inside a frame: the browser does its style/layout pass there anyway, so reading is not an extra forced reflow.
+        const inFrame = () => requestAnimationFrame(check);
+        if (ric) ric(inFrame, { timeout: 1000 });
+        else inFrame();
       }, 150);
     };
     queue();

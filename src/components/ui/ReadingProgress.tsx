@@ -9,7 +9,12 @@ export function ReadingProgress() {
   const [pct, setPct] = useState(0);
   const [bottom, setBottom] = useState(0);
   useEffect(() => {
+    let raf = 0;
     const onScroll = () => {
+      if (!raf) raf = requestAnimationFrame(measure);
+    };
+    const measure = () => {
+      raf = 0;
       const t = document.scrollingElement || document.documentElement;
       const max = t.scrollHeight - t.clientHeight;
       if (max < 40) return;
@@ -24,6 +29,7 @@ export function ReadingProgress() {
     return () => {
       window.removeEventListener("scroll", onScroll);
       window.removeEventListener("resize", onScroll);
+      if (raf) cancelAnimationFrame(raf);
     };
   }, []);
   return (
