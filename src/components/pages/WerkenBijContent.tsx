@@ -194,7 +194,7 @@ export function WerkenBijContent() {
               }}
             >
               <img
-                src="/media/team/md/karim.webp"
+                src="/media/team/small/karim.webp"
                 alt=""
                 style={{ position: "absolute", left: "-14%", top: "0", width: "128%", height: "auto" }}
               />
@@ -215,7 +215,7 @@ export function WerkenBijContent() {
               }}
             >
               <img
-                src="/media/team/md/abdelmonim.webp"
+                src="/media/team/small/abdelmonim.webp"
                 alt=""
                 style={{ position: "absolute", left: "-14%", top: "0", width: "128%", height: "auto" }}
               />
@@ -236,7 +236,7 @@ export function WerkenBijContent() {
               }}
             >
               <img
-                src="/media/team/md/niek.webp"
+                src="/media/team/small/niek.webp"
                 alt=""
                 style={{ position: "absolute", left: "-14%", top: "0", width: "128%", height: "auto" }}
               />
@@ -257,7 +257,7 @@ export function WerkenBijContent() {
               }}
             >
               <img
-                src="/media/team/md/jonas.webp"
+                src="/media/team/small/jonas.webp"
                 alt=""
                 style={{ position: "absolute", left: "-14%", top: "0", width: "128%", height: "auto" }}
               />
@@ -278,7 +278,7 @@ export function WerkenBijContent() {
               }}
             >
               <img
-                src="/media/team/md/seyma.webp"
+                src="/media/team/small/seyma.webp"
                 alt=""
                 style={{ position: "absolute", left: "-5%", top: "0", width: "110%", height: "auto" }}
               />
@@ -299,7 +299,7 @@ export function WerkenBijContent() {
               }}
             >
               <img
-                src="/media/team/md/denise.webp"
+                src="/media/team/small/denise.webp"
                 alt=""
                 style={{ position: "absolute", left: "-5%", top: "0", width: "110%", height: "auto" }}
               />
@@ -3554,7 +3554,11 @@ export function WerkenBijContent() {
             >
               <img
                 className="wb-photo"
-                src="/media/kantoor-kaart.jpg"
+                loading="lazy"
+                decoding="async"
+                src="/media/kantoor-kaart.webp"
+                srcSet="/media/kantoor-kaart-800.webp 800w, /media/kantoor-kaart.webp 1672w"
+                sizes="(max-width: 720px) 100vw, (max-width: 1100px) 70vw, 60vw"
                 alt={ta("Het kantoorpand van Achieve aan de Cypresbaan 3 in Capelle aan den IJssel, met terras voor de ingang")}
                 style={{ display: "block", width: "100%", height: "100%", objectFit: "cover", objectPosition: "50% 50%" }}
               />

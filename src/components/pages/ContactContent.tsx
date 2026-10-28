@@ -897,7 +897,11 @@ export function ContactContent() {
             >
               <img
                 className="wb-photo"
-                src="/media/kantoor-kaart.jpg"
+                loading="lazy"
+                decoding="async"
+                src="/media/kantoor-kaart.webp"
+                srcSet="/media/kantoor-kaart-800.webp 800w, /media/kantoor-kaart.webp 1672w"
+                sizes="(max-width: 720px) 100vw, (max-width: 1100px) 70vw, 60vw"
                 alt={ta("Het kantoorpand van Achieve aan de Cypresbaan 3 in Capelle aan den IJssel, met terras voor de ingang")}
                 style={{ display: "block", width: "100%", height: "100%", objectFit: "cover", objectPosition: "50% 50%" }}
               />

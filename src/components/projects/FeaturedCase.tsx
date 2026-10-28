@@ -1,6 +1,7 @@
 "use client";
 
 import { useTr } from "@/i18n/I18nProvider";
+import { srcSet, IMG_SIZES } from "@/lib/img";
 import { Fragment, useEffect, useRef, useState } from "react";
 import { useFrame } from "@/components/motion/MotionProvider";
 import { featuredGallery as GAL } from "@/data/projects";
@@ -63,7 +64,11 @@ export function FeaturedCase() {
                     <>
                       <img
                         className="story-img gal-img"
+                        loading="lazy"
+                        decoding="async"
                         src={g.img}
+                        srcSet={srcSet(g.img)}
+                        sizes={IMG_SIZES}
                         alt={ta(String(g.alt))}
                         aria-hidden={g.hidden}
                         style={{

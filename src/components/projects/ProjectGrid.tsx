@@ -1,6 +1,7 @@
 "use client";
 
 import { useTr } from "@/i18n/I18nProvider";
+import { srcSet, IMG_SIZES } from "@/lib/img";
 import { Fragment, useState } from "react";
 import { projectFilters, projects as ALL } from "@/data/projects";
 import { Accent } from "@/components/ui/Accent";
@@ -123,7 +124,11 @@ export function ProjectGrid() {
                               <>
                                 <img
                                   className="story-img gal-img"
+                                  loading="lazy"
+                                  decoding="async"
                                   src={g.img}
+                                  srcSet={srcSet(g.img)}
+                                  sizes={IMG_SIZES}
                                   alt={ta(String(g.alt))}
                                   aria-hidden={g.hidden}
                                   style={{

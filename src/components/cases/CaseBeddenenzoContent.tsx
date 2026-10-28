@@ -1,6 +1,8 @@
 "use client";
 
+import { preload } from "react-dom";
 import { useTr } from "@/i18n/I18nProvider";
+import { srcSet, IMG_SIZES } from "@/lib/img";
 import { Fragment, useState } from "react";
 import { useMotion } from "@/components/motion/MotionProvider";
 import { Accent } from "@/components/ui/Accent";
@@ -8,6 +10,8 @@ import { Tip } from "@/components/ui/Tip";
 import { LazyVideo } from "@/components/ui/LazyVideo";
 
 export function CaseBeddenenzoContent() {
+  // Hero video: fetch its poster (the LCP image) right away.
+  preload("/media/projects/beddenenzo-02.webp", { as: "image", fetchPriority: "high", imageSrcSet: srcSet("/media/projects/beddenenzo-02.webp"), imageSizes: IMG_SIZES });
   const { t, ta, href } = useTr();
 
   // Video pause button = the site-wide animation switch; photo slider and media carousel are click-through.
@@ -573,6 +577,8 @@ export function CaseBeddenenzoContent() {
                 <img
                     className="gal-img"
                     src={g.img}
+                    srcSet={srcSet(g.img)}
+                    sizes={IMG_SIZES}
                     alt={ta(String(g.alt))}
                     aria-hidden={g.hidden}
                     loading="lazy"
@@ -1060,7 +1066,7 @@ export function CaseBeddenenzoContent() {
               <div style={{ position: "relative", aspectRatio: "16 / 10", overflow: "hidden", background: "#1F246C" }}>
                 <LazyVideo
                   src="/media/cases/sharkys.mp4"
-                  poster="/media/cases/sharkys-poster.webp"
+                  poster="/media/cases/sharkys-poster-800.webp"
                   preload="none"
                   muted
                   loop
@@ -1171,6 +1177,8 @@ export function CaseBeddenenzoContent() {
               <div style={{ position: "relative", aspectRatio: "16 / 10", overflow: "hidden", background: "#1F246C" }}>
                 <img
                   src="/media/projects/rcpeptides-03.webp"
+                  srcSet="/media/projects/rcpeptides-03-800.webp 800w, /media/projects/rcpeptides-03.webp 1024w"
+                  sizes="(max-width: 720px) 100vw, (max-width: 1100px) 70vw, 60vw"
                   alt={ta("De webshop RCpeptides op een laptop en een telefoon in een modern lab")}
                   loading="lazy"
                   style={{ position: "absolute", inset: "0", width: "100%", height: "100%", objectFit: "cover" }}
@@ -1269,6 +1277,8 @@ export function CaseBeddenenzoContent() {
               <div style={{ position: "relative", aspectRatio: "16 / 10", overflow: "hidden", background: "#1F246C" }}>
                 <img
                   src="/media/projects/minimasters-playground-01.webp"
+                  srcSet="/media/projects/minimasters-playground-01-800.webp 800w, /media/projects/minimasters-playground-01.webp 1536w"
+                  sizes="(max-width: 720px) 100vw, (max-width: 1100px) 70vw, 60vw"
                   alt={ta("Kinderen spelen verkleed als kok, verpleegkundige, brandweer en politie in Minimasters Playground")}
                   loading="lazy"
                   style={{ position: "absolute", inset: "0", width: "100%", height: "100%", objectFit: "cover" }}

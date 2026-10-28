@@ -1,6 +1,7 @@
 "use client";
 
 import { useTr } from "@/i18n/I18nProvider";
+import { srcSet, IMG_SIZES } from "@/lib/img";
 import { Fragment, useEffect, useState } from "react";
 import { useMotion, useTick } from "@/components/motion/MotionProvider";
 import { heroProjects } from "@/data/projects";
@@ -64,7 +65,11 @@ export function ProjectsHero() {
                   <>
                     <img
                       className="pjh-slide-img"
+                      fetchPriority={hh_i === 0 ? "high" : "low"}
+                      decoding={hh_i === 0 ? undefined : "async"}
                       src={hh.img}
+                      srcSet={srcSet(hh.img)}
+                      sizes={IMG_SIZES}
                       alt=""
                       style={{ position: "absolute", inset: "0", width: "100%", height: "100%", objectFit: "cover" }}
                     />
@@ -306,7 +311,7 @@ export function ProjectsHero() {
                   >
                     {hh.hasImg && (
                       <>
-                        <img src={hh.thumb} alt="" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+                        <img src={hh.thumb} srcSet={srcSet(hh.thumb)} sizes="120px" loading="lazy" decoding="async" alt="" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
                       </>
                     )}
                     {hh.noImg && (

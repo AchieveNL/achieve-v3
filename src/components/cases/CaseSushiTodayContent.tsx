@@ -57,7 +57,10 @@ export function CaseSushiTodayContent() {
         }}
       >
         <img
+          fetchPriority="high"
           src="/media/projects/sushi-today-01.webp"
+          srcSet="/media/projects/sushi-today-01-800.webp 800w, /media/projects/sushi-today-01.webp 1800w"
+          sizes="(max-width: 720px) 100vw, (max-width: 1100px) 70vw, 60vw"
           alt=""
           aria-hidden="true"
           style={{ position: "absolute", inset: "0", width: "100%", height: "100%", objectFit: "cover" }}
@@ -481,6 +484,8 @@ export function CaseSushiTodayContent() {
           >
             <img
               src="/media/projects/sushi-today-01.webp"
+              srcSet="/media/projects/sushi-today-01-800.webp 800w, /media/projects/sushi-today-01.webp 1800w"
+              sizes="(max-width: 720px) 100vw, (max-width: 1100px) 70vw, 60vw"
               alt={ta("Het interieur van Sushi Today met groene banken, houten tafels en een kleurrijk lichtplafond")}
               loading="lazy"
               style={{ position: "absolute", inset: "0", width: "100%", height: "100%", objectFit: "cover" }}
@@ -804,7 +809,7 @@ export function CaseSushiTodayContent() {
               <div style={{ position: "relative", aspectRatio: "16 / 10", overflow: "hidden", background: "#1F246C" }}>
                 <LazyVideo
                   src="/media/cases/sharkys.mp4"
-                  poster="/media/cases/sharkys-poster.webp"
+                  poster="/media/cases/sharkys-poster-800.webp"
                   preload="none"
                   muted
                   loop
@@ -915,6 +920,8 @@ export function CaseSushiTodayContent() {
               <div style={{ position: "relative", aspectRatio: "16 / 10", overflow: "hidden", background: "#1F246C" }}>
                 <img
                   src="/media/projects/rcpeptides-03.webp"
+                  srcSet="/media/projects/rcpeptides-03-800.webp 800w, /media/projects/rcpeptides-03.webp 1024w"
+                  sizes="(max-width: 720px) 100vw, (max-width: 1100px) 70vw, 60vw"
                   alt={ta("De webshop RCpeptides op een laptop en een telefoon in een modern lab")}
                   loading="lazy"
                   style={{ position: "absolute", inset: "0", width: "100%", height: "100%", objectFit: "cover" }}
@@ -1013,6 +1020,8 @@ export function CaseSushiTodayContent() {
               <div style={{ position: "relative", aspectRatio: "16 / 10", overflow: "hidden", background: "#1F246C" }}>
                 <img
                   src="/media/projects/minimasters-playground-01.webp"
+                  srcSet="/media/projects/minimasters-playground-01-800.webp 800w, /media/projects/minimasters-playground-01.webp 1536w"
+                  sizes="(max-width: 720px) 100vw, (max-width: 1100px) 70vw, 60vw"
                   alt={ta("Kinderen spelen verkleed als kok, verpleegkundige, brandweer en politie in Minimasters Playground")}
                   loading="lazy"
                   style={{ position: "absolute", inset: "0", width: "100%", height: "100%", objectFit: "cover" }}

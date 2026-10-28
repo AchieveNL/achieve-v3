@@ -514,3 +514,4 @@ html:has(.jn-bar){scroll-behavior:smooth}
 .step-num::before{content:attr(data-n)}
 /* Snelheid (Home): secties onder de vouw worden pas opgemaakt als ze in beeld komen */
 main:has(> #achiever) > :is(#diensten,#werkwijze,#werk,#over-ons){content-visibility:auto;contain-intrinsic-size:auto 900px}
+.rev-stars{display:inline-block;width:102px;height:18px;background:url(/media/icons/stars5.svg) no-repeat 0 0/102px 18px}
