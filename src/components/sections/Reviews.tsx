@@ -14,7 +14,7 @@ export function Reviews() {
   const { paused, toggle } = useMotion();
   const [openIdx, setOpenIdx] = useState(-1);
   const [hovered, setHovered] = useState(false);
-  // The second copy of each row (only needed for the seamless loop) is added after load: half the HTML.
+  // Before load only the first cards of each row are rendered (what fits on screen); the rest and the second copy (for the seamless loop) follow after load.
   const [clones, setClones] = useState(false);
 
   // Each row renders only its own half of the cards (even / odd), twice for the seamless loop.
@@ -194,14 +194,14 @@ export function Reviews() {
         >
           <div className="rev-wrap" style={{ overflow: "hidden" }}>
             <div ref={revTrackRef} style={{ display: "flex", width: "max-content", alignItems: "stretch" }}>
-              {h.revCards.filter((c) => c.row === 0 && (clones || c.copy === 0)).map((c) => (
+              {h.revCards.filter((c) => c.row === 0 && (clones || (c.copy === 0 && c.ci < 8))).map((c) => (
                 <RevCard key={c.copy + "-" + c.ci} c={c} t={t} ta={ta} />
               ))}
             </div>
           </div>
           <div className="rev-wrap" style={{ overflow: "hidden" }}>
             <div ref={revTrack2Ref} style={{ display: "flex", width: "max-content", alignItems: "stretch" }}>
-              {h.revCards.filter((c) => c.row === 1 && (clones || c.copy === 0)).map((c) => (
+              {h.revCards.filter((c) => c.row === 1 && (clones || (c.copy === 0 && c.ci < 8))).map((c) => (
                 <RevCard key={c.copy + "-" + c.ci} c={c} t={t} ta={ta} />
               ))}
             </div>
