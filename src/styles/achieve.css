@@ -515,3 +515,18 @@ html:has(.jn-bar){scroll-behavior:smooth}
 /* Snelheid (Home): secties onder de vouw worden pas opgemaakt als ze in beeld komen */
 main:has(> #achiever) > :is(#diensten,#werkwijze,#werk,#over-ons){content-visibility:auto;contain-intrinsic-size:auto 900px}
 .rev-stars{display:inline-block;width:102px;height:18px;background:url(/media/icons/stars5.svg) no-repeat 0 0/102px 18px}
+
+/* Review cards (were inline styles, repeated 64x in the HTML) */
+.rc{position:relative;box-sizing:border-box;width:520px;min-height:420px;flex-shrink:0;margin-right:20px;background:#FFFFFF;border-radius:20px;padding:36px 40px 92px;display:flex;flex-direction:column;gap:24px}
+.rc-mark{position:absolute;top:24px;right:28px;fill:#EFE8FD}
+.rc-name{margin:0;padding-right:56px;font-family:var(--font-body);font-size:22px;font-weight:600;color:#1F246C}
+.rc-meta{display:flex;flex-direction:column;align-items:flex-start;gap:12px;margin-top:4px}
+.rc-role{font-size:15px;line-height:1.3;color:#8639FA}
+.rc-stars{display:inline-flex;flex-wrap:wrap;align-items:center;gap:8px 12px}
+.rc-stars-solo{display:flex;margin-top:12px}
+.rc-src{display:inline-flex;align-items:center;gap:8px;text-decoration:none;padding:4px;margin:-4px;border-radius:6px}
+.rc-src img{display:block;width:18px;height:18px}
+.rc-src .rev-src-name{font-size:13px;font-weight:600;color:#3A4150}
+.rc-q{margin:12px 0 0;font-size:16px;line-height:34px;color:#3A4150}
+.rc-tags{position:absolute;left:40px;right:40px;bottom:32px;display:flex;flex-wrap:nowrap;gap:8px;margin:0;padding:0;white-space:nowrap}
+.rc-tags>span{font-size:11px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;padding:4px 12px;border-radius:999px}

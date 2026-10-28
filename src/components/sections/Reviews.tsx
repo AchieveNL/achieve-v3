@@ -1,7 +1,7 @@
 "use client";
 
 import { useTr } from "@/i18n/I18nProvider";
-import { Fragment, useEffect, useMemo, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { useFrame, useMotion } from "@/components/motion/MotionProvider";
 import { reviewCards, reviewLinks, reviews, tagColor } from "@/data/reviews";
 import { Accent } from "@/components/ui/Accent";
@@ -14,6 +14,8 @@ export function Reviews() {
   const { paused, toggle } = useMotion();
   const [openIdx, setOpenIdx] = useState(-1);
   const [hovered, setHovered] = useState(false);
+  // The second copy of each row (only needed for the seamless loop) is added after load: half the HTML.
+  const [clones, setClones] = useState(false);
 
   // Each row renders only its own half of the cards (even / odd), twice for the seamless loop.
   // (Was: all cards three times in both rows, half of them hidden: ~5,000 DOM nodes.)
@@ -51,11 +53,31 @@ export function Reviews() {
 
   const pos = useRef([0, 0]);
   const counts = useRef<[number, number]>([0, 0]);
+  const stepRef = useRef(540);
   useEffect(() => {
-    // Shuffle the order once on the client, within each row.
+    const mq = window.matchMedia("(max-width: 600px)");
+    const on = () => (stepRef.current = mq.matches ? 340 : 540);
+    on();
+    mq.addEventListener("change", on);
+    return () => mq.removeEventListener("change", on);
+  }, []);
+  useEffect(() => {
     const N = reviewCards.length,
       n1 = Math.ceil(N / 2);
     counts.current = [n1, N - n1];
+    const w = window as Window & { requestIdleCallback?: (cb: () => void, o?: { timeout: number }) => number };
+    let id = 0;
+    const go = () => (id = window.setTimeout(() => (w.requestIdleCallback ? w.requestIdleCallback(() => setClones(true), { timeout: 2000 }) : setClones(true)), 0));
+    if (document.readyState === "complete") go();
+    else window.addEventListener("load", go, { once: true });
+    return () => {
+      window.removeEventListener("load", go);
+      clearTimeout(id);
+    };
+  }, []);
+  useEffect(() => {
+    if (!clones) return;
+    // Shuffle the order once on the client, within each row.
     [revTrackRef.current, revTrack2Ref.current].forEach((tr) => {
       if (!tr) return;
       const arts = Array.from(tr.querySelectorAll<HTMLElement>(":scope > article"));
@@ -69,13 +91,13 @@ export function Reviews() {
         el.style.order = String(Math.floor(idx / per) * per + perm[idx % per]);
       });
     });
-  }, []);
+  }, [clones]);
   // Rows drift slowly in opposite directions; they hold still while hovered or while a review is open.
   useFrame((_now, dt) => {
     const a = revTrackRef.current,
       b = revTrack2Ref.current;
     if (!a && !b) return;
-    const step = window.innerWidth <= 600 ? 340 : 540;
+    const step = stepRef.current;
     const still = hovered || openIdx >= 0;
     pos.current = pos.current.map((p, k) => {
       const L = (counts.current[k] || 4) * step;
@@ -85,7 +107,7 @@ export function Reviews() {
     const L0 = counts.current[0] * step;
     if (a) a.style.transform = `translate3d(${(-L0 + pos.current[0]).toFixed(2)}px,0,0)`;
     if (b) b.style.transform = `translate3d(${(-pos.current[1] - step / 2).toFixed(2)}px,0,0)`;
-  });
+  }, clones, revTrackRef);
 
   const close = () => setOpenIdx(-1);
   useEffect(() => {
@@ -172,391 +194,15 @@ export function Reviews() {
         >
           <div className="rev-wrap" style={{ overflow: "hidden" }}>
             <div ref={revTrackRef} style={{ display: "flex", width: "max-content", alignItems: "stretch" }}>
-              {h.revCards.filter((c) => c.row === 0).map((c, c_i) => (
-                <Fragment key={c_i}>
-                  <article
-                    aria-hidden={c.hid}
-                    style={{
-                      position: "relative",
-                      boxSizing: "border-box",
-                      width: "520px",
-                      minHeight: "420px",
-                      flexShrink: "0",
-                      marginRight: "20px",
-                      background: "#FFFFFF",
-                      borderRadius: "20px",
-                      padding: "36px 40px 92px",
-                      display: "flex",
-                      flexDirection: "column",
-                      gap: "24px",
-                    }}
-                  >
-                    <svg
-                      aria-hidden="true"
-                      width="44"
-                      height="34"
-                      viewBox="0 0 56 44"
-                      style={{ position: "absolute", top: "24px", right: "28px" }}
-                    >
-                      <path
-                        d="M4 44V26C4 12 10 4 24 0l2 6c-8 3-11 8-11 14h9v24zM32 44V26c0-14 6-22 20-26l2 6c-8 3-11 8-11 14h9v24z"
-                        fill="#EFE8FD"
-                      ></path>
-                    </svg>
-                    <h3
-                      style={{
-                        margin: "0",
-                        paddingRight: "56px",
-                        fontFamily: "var(--font-body)",
-                        fontSize: "22px",
-                        fontWeight: "600",
-                        color: "#1F246C",
-                      }}
-                    >
-                      {t(String(c.name))}
-                    </h3>
-                    {c.hasRole && (
-                      <>
-                        <div style={{ display: "flex", flexDirection: "column", alignItems: "flex-start", gap: "12px", marginTop: "4px" }}>
-                          <span style={{ fontSize: "15px", lineHeight: "1.3", color: "#8639FA" }}>{t(String(c.role))}</span>
-                          <span style={{ display: "inline-flex", flexWrap: "wrap", alignItems: "center", gap: "8px 12px" }}>
-                            <span role="img" aria-label={ta("5 van 5 sterren")} className="rev-stars" />
-                            <a
-                              tabIndex={c.hid ? -1 : undefined}
-                              href={c.srcHref}
-                              target="_blank"
-                              rel="noopener"
-                              aria-label={ta(String(c.srcLabel))}
-                              title={ta(String(c.srcLabel))}
-                              style={{
-                                display: "inline-flex",
-                                alignItems: "center",
-                                gap: "8px",
-                                textDecoration: "none",
-                                padding: "4px",
-                                margin: "-4px",
-                                borderRadius: "6px",
-                              }}
-                            >
-                              <img
-                                className="rev-source"
-                                src={c.srcImg}
-                                alt=""
-                                style={{ display: "block", width: "18px", height: "18px" }}
-                              />
-                              <span className="rev-src-name" style={{ fontSize: "13px", fontWeight: "600", color: "#3A4150" }}>
-                                {t(String(c.srcName))}
-                              </span>
-                            </a>
-                          </span>
-                        </div>
-                      </>
-                    )}
-                    {c.noRole && (
-                      <>
-                        <span style={{ display: "flex", flexWrap: "wrap", alignItems: "center", gap: "8px 12px", marginTop: "12px" }}>
-                          <span role="img" aria-label={ta("5 van 5 sterren")} className="rev-stars" />
-                          <a
-                            tabIndex={c.hid ? -1 : undefined}
-                            href={c.srcHref}
-                            target="_blank"
-                            rel="noopener"
-                            aria-label={ta(String(c.srcLabel))}
-                            title={ta(String(c.srcLabel))}
-                            style={{
-                              display: "inline-flex",
-                              alignItems: "center",
-                              gap: "8px",
-                              textDecoration: "none",
-                              padding: "4px",
-                              margin: "-4px",
-                              borderRadius: "6px",
-                            }}
-                          >
-                            <img className="rev-source" src={c.srcImg} alt="" style={{ display: "block", width: "18px", height: "18px" }} />
-                            <span className="rev-src-name" style={{ fontSize: "13px", fontWeight: "600", color: "#3A4150" }}>
-                              {t(String(c.srcName))}
-                            </span>
-                          </a>
-                        </span>
-                      </>
-                    )}
-                    {c.long && (
-                      <>
-                        <div className="rev-qwrap">
-                          <p
-                            className="rev-q rev-fade"
-                            style={{ margin: "12px 0 0", fontSize: "16px", lineHeight: "34px", color: "#3A4150" }}
-                          >
-                            {t(String(c.quote))}
-                          </p>
-                          <button
-                            type="button"
-                            className="rev-more"
-                            tabIndex={c.hid ? -1 : undefined}
-                            onClick={c.open}
-                            aria-label={ta(String(`Lees de hele review van ${c.name}`))}
-                          >
-                            <svg
-                              width="18"
-                              height="18"
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              stroke="currentColor"
-                              strokeWidth="2.2"
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                              aria-hidden="true"
-                            >
-                              <path d="M12 5v14M5 12h14"></path>
-                            </svg>
-                          </button>
-                        </div>
-                      </>
-                    )}
-                    {c.short && (
-                      <>
-                        <p className="rev-q" style={{ margin: "12px 0 0", fontSize: "16px", lineHeight: "34px", color: "#3A4150" }}>
-                          {t(String(c.quote))}
-                        </p>
-                      </>
-                    )}
-                    {c.hasTags && (
-                      <>
-                        <div
-                          aria-label={ta("Wat we deden")}
-                          style={{
-                            position: "absolute",
-                            left: "40px",
-                            right: "40px",
-                            bottom: "32px",
-                            display: "flex",
-                            flexWrap: c.wrap,
-                            gap: "8px",
-                            margin: "0",
-                            padding: "0",
-                            whiteSpace: "nowrap",
-                          }}
-                        >
-                          {c.tags.map((tt, tt_i) => (
-                            <Fragment key={tt_i}>
-                              <span
-                                translate="no"
-                                style={{
-                                  fontSize: "11px",
-                                  fontWeight: "600",
-                                  letterSpacing: "0.06em",
-                                  textTransform: "uppercase",
-                                  color: tt.c,
-                                  background: tt.b,
-                                  padding: "4px 12px",
-                                  borderRadius: "999px",
-                                }}
-                              >
-                                {tt.t}
-                              </span>
-                            </Fragment>
-                          ))}
-                        </div>
-                      </>
-                    )}
-                  </article>
-                </Fragment>
+              {h.revCards.filter((c) => c.row === 0 && (clones || c.copy === 0)).map((c) => (
+                <RevCard key={c.copy + "-" + c.ci} c={c} t={t} ta={ta} />
               ))}
             </div>
           </div>
           <div className="rev-wrap" style={{ overflow: "hidden" }}>
             <div ref={revTrack2Ref} style={{ display: "flex", width: "max-content", alignItems: "stretch" }}>
-              {h.revCards.filter((c) => c.row === 1).map((c, c_i) => (
-                <Fragment key={c_i}>
-                  <article
-                    aria-hidden={c.hid}
-                    style={{
-                      position: "relative",
-                      boxSizing: "border-box",
-                      width: "520px",
-                      minHeight: "420px",
-                      flexShrink: "0",
-                      marginRight: "20px",
-                      background: "#FFFFFF",
-                      borderRadius: "20px",
-                      padding: "36px 40px 92px",
-                      display: "flex",
-                      flexDirection: "column",
-                      gap: "24px",
-                    }}
-                  >
-                    <svg
-                      aria-hidden="true"
-                      width="44"
-                      height="34"
-                      viewBox="0 0 56 44"
-                      style={{ position: "absolute", top: "24px", right: "28px" }}
-                    >
-                      <path
-                        d="M4 44V26C4 12 10 4 24 0l2 6c-8 3-11 8-11 14h9v24zM32 44V26c0-14 6-22 20-26l2 6c-8 3-11 8-11 14h9v24z"
-                        fill="#EFE8FD"
-                      ></path>
-                    </svg>
-                    <h3
-                      style={{
-                        margin: "0",
-                        paddingRight: "56px",
-                        fontFamily: "var(--font-body)",
-                        fontSize: "22px",
-                        fontWeight: "600",
-                        color: "#1F246C",
-                      }}
-                    >
-                      {t(String(c.name))}
-                    </h3>
-                    {c.hasRole && (
-                      <>
-                        <div style={{ display: "flex", flexDirection: "column", alignItems: "flex-start", gap: "12px", marginTop: "4px" }}>
-                          <span style={{ fontSize: "15px", lineHeight: "1.3", color: "#8639FA" }}>{t(String(c.role))}</span>
-                          <span style={{ display: "inline-flex", flexWrap: "wrap", alignItems: "center", gap: "8px 12px" }}>
-                            <span role="img" aria-label={ta("5 van 5 sterren")} className="rev-stars" />
-                            <a
-                              tabIndex={c.hid ? -1 : undefined}
-                              href={c.srcHref}
-                              target="_blank"
-                              rel="noopener"
-                              aria-label={ta(String(c.srcLabel))}
-                              title={ta(String(c.srcLabel))}
-                              style={{
-                                display: "inline-flex",
-                                alignItems: "center",
-                                gap: "8px",
-                                textDecoration: "none",
-                                padding: "4px",
-                                margin: "-4px",
-                                borderRadius: "6px",
-                              }}
-                            >
-                              <img
-                                className="rev-source"
-                                src={c.srcImg}
-                                alt=""
-                                style={{ display: "block", width: "18px", height: "18px" }}
-                              />
-                              <span className="rev-src-name" style={{ fontSize: "13px", fontWeight: "600", color: "#3A4150" }}>
-                                {t(String(c.srcName))}
-                              </span>
-                            </a>
-                          </span>
-                        </div>
-                      </>
-                    )}
-                    {c.noRole && (
-                      <>
-                        <span style={{ display: "flex", flexWrap: "wrap", alignItems: "center", gap: "8px 12px", marginTop: "12px" }}>
-                          <span role="img" aria-label={ta("5 van 5 sterren")} className="rev-stars" />
-                          <a
-                            tabIndex={c.hid ? -1 : undefined}
-                            href={c.srcHref}
-                            target="_blank"
-                            rel="noopener"
-                            aria-label={ta(String(c.srcLabel))}
-                            title={ta(String(c.srcLabel))}
-                            style={{
-                              display: "inline-flex",
-                              alignItems: "center",
-                              gap: "8px",
-                              textDecoration: "none",
-                              padding: "4px",
-                              margin: "-4px",
-                              borderRadius: "6px",
-                            }}
-                          >
-                            <img className="rev-source" src={c.srcImg} alt="" style={{ display: "block", width: "18px", height: "18px" }} />
-                            <span className="rev-src-name" style={{ fontSize: "13px", fontWeight: "600", color: "#3A4150" }}>
-                              {t(String(c.srcName))}
-                            </span>
-                          </a>
-                        </span>
-                      </>
-                    )}
-                    {c.long && (
-                      <>
-                        <div className="rev-qwrap">
-                          <p
-                            className="rev-q rev-fade"
-                            style={{ margin: "12px 0 0", fontSize: "16px", lineHeight: "34px", color: "#3A4150" }}
-                          >
-                            {t(String(c.quote))}
-                          </p>
-                          <button
-                            type="button"
-                            className="rev-more"
-                            tabIndex={c.hid ? -1 : undefined}
-                            onClick={c.open}
-                            aria-label={ta(String(`Lees de hele review van ${c.name}`))}
-                          >
-                            <svg
-                              width="18"
-                              height="18"
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              stroke="currentColor"
-                              strokeWidth="2.2"
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                              aria-hidden="true"
-                            >
-                              <path d="M12 5v14M5 12h14"></path>
-                            </svg>
-                          </button>
-                        </div>
-                      </>
-                    )}
-                    {c.short && (
-                      <>
-                        <p className="rev-q" style={{ margin: "12px 0 0", fontSize: "16px", lineHeight: "34px", color: "#3A4150" }}>
-                          {t(String(c.quote))}
-                        </p>
-                      </>
-                    )}
-                    {c.hasTags && (
-                      <>
-                        <div
-                          aria-label={ta("Wat we deden")}
-                          style={{
-                            position: "absolute",
-                            left: "40px",
-                            right: "40px",
-                            bottom: "32px",
-                            display: "flex",
-                            flexWrap: c.wrap,
-                            gap: "8px",
-                            margin: "0",
-                            padding: "0",
-                            whiteSpace: "nowrap",
-                          }}
-                        >
-                          {c.tags.map((tt, tt_i) => (
-                            <Fragment key={tt_i}>
-                              <span
-                                translate="no"
-                                style={{
-                                  fontSize: "11px",
-                                  fontWeight: "600",
-                                  letterSpacing: "0.06em",
-                                  textTransform: "uppercase",
-                                  color: tt.c,
-                                  background: tt.b,
-                                  padding: "4px 12px",
-                                  borderRadius: "999px",
-                                }}
-                              >
-                                {tt.t}
-                              </span>
-                            </Fragment>
-                          ))}
-                        </div>
-                      </>
-                    )}
-                  </article>
-                </Fragment>
+              {h.revCards.filter((c) => c.row === 1 && (clones || c.copy === 0)).map((c) => (
+                <RevCard key={c.copy + "-" + c.ci} c={c} t={t} ta={ta} />
               ))}
             </div>
           </div>
@@ -827,5 +473,77 @@ export function Reviews() {
         )}
       </section>
     </>
+  );
+}
+
+type Card = {
+  ci: number;
+  copy: number;
+  hid: boolean;
+  name: string;
+  role?: string;
+  hasRole: boolean;
+  quote: string;
+  long: boolean;
+  open?: () => void;
+  hasTags: boolean;
+  tags: { t: string; c: string; b: string }[];
+  wrap: "nowrap";
+  srcHref: string;
+  srcLabel: string;
+  srcImg: string;
+  srcName: string;
+};
+
+function RevCard({ c, t, ta }: { c: Card; t: (s: string) => string; ta: (s: string) => string }) {
+  const src = (
+    <a tabIndex={c.hid ? -1 : undefined} href={c.srcHref} target="_blank" rel="noopener" aria-label={ta(c.srcLabel)} title={ta(c.srcLabel)} className="rc-src">
+      <img className="rev-source" src={c.srcImg} alt="" width={18} height={18} />
+      <span className="rev-src-name">{t(c.srcName)}</span>
+    </a>
+  );
+  const stars = <span role="img" aria-label={ta("5 van 5 sterren")} className="rev-stars" />;
+  return (
+    <article aria-hidden={c.hid} className="rc">
+      <svg aria-hidden="true" width="44" height="34" viewBox="0 0 56 44" className="rc-mark">
+        <path d="M4 44V26C4 12 10 4 24 0l2 6c-8 3-11 8-11 14h9v24zM32 44V26c0-14 6-22 20-26l2 6c-8 3-11 8-11 14h9v24z" />
+      </svg>
+      <h3 className="rc-name">{t(c.name)}</h3>
+      {c.hasRole ? (
+        <div className="rc-meta">
+          <span className="rc-role">{t(String(c.role))}</span>
+          <span className="rc-stars">
+            {stars}
+            {src}
+          </span>
+        </div>
+      ) : (
+        <span className="rc-stars rc-stars-solo">
+          {stars}
+          {src}
+        </span>
+      )}
+      {c.long ? (
+        <div className="rev-qwrap">
+          <p className="rev-q rev-fade rc-q">{t(c.quote)}</p>
+          <button type="button" className="rev-more" tabIndex={c.hid ? -1 : undefined} onClick={c.open} aria-label={ta(`Lees de hele review van ${c.name}`)}>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+              <path d="M12 5v14M5 12h14"></path>
+            </svg>
+          </button>
+        </div>
+      ) : (
+        <p className="rev-q rc-q">{t(c.quote)}</p>
+      )}
+      {c.hasTags && (
+        <div aria-label={ta("Wat we deden")} className="rc-tags">
+          {c.tags.map((tt, i) => (
+            <span key={i} translate="no" style={{ color: tt.c, background: tt.b }}>
+              {tt.t}
+            </span>
+          ))}
+        </div>
+      )}
+    </article>
   );
 }

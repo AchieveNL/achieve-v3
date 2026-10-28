@@ -63,7 +63,7 @@ export function ButtonFit() {
       });
     };
     const queue = () => {
-      if (tm) return;
+      if (tm || document.readyState !== "complete") return;
       tm = window.setTimeout(() => {
         const ric = (window as Window & { requestIdleCallback?: (cb: () => void, o?: { timeout: number }) => number }).requestIdleCallback;
         // Measure inside a frame: the browser does its style/layout pass there anyway, so reading is not an extra forced reflow.
@@ -72,7 +72,10 @@ export function ButtonFit() {
         else inFrame();
       }, 150);
     };
-    queue();
+    // First pass after the page has loaded: no layout reads while the first screen is rendering.
+    const start = () => queue();
+    if (document.readyState === "complete") start();
+    else window.addEventListener("load", start, { once: true });
     const fonts = (document as Document & { fonts?: FontFaceSet }).fonts;
     fonts?.ready.then(queue).catch(() => {});
     window.addEventListener("resize", queue);
@@ -82,6 +85,7 @@ export function ButtonFit() {
     mo.observe(document.body, { childList: true, subtree: true });
     return () => {
       window.removeEventListener("resize", queue);
+      window.removeEventListener("load", start);
       mo.disconnect();
       if (tm) clearTimeout(tm);
     };

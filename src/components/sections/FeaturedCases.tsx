@@ -30,7 +30,7 @@ export function FeaturedCases() {
       elapsed.current = 0;
       setSel((s) => ({ ci: (s.ci + 1) % 3, n: s.n + 1 }));
     }
-  });
+  }, true, root);
   const pick = (i: number) => () => setSel((s) => ({ ci: i, n: s.n + 1 }));
   const h = {
     cs0: ci === 0,

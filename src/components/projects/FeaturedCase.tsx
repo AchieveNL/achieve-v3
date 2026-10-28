@@ -30,7 +30,7 @@ export function FeaturedCase() {
       elapsed.current = 0;
       setGi((i) => (i + 1) % GAL.length);
     }
-  });
+  }, true, galBarRef);
   const h = {
     galSlides: GAL.map((g, i) => ({ ...g, isVid: !!g.video, isImg: !g.video, op: i === gi ? "1" : "0", hidden: i !== gi })),
     galSegs: GAL.map((_g, i) => ({ w: i < gi ? "100%" : "0%" })),

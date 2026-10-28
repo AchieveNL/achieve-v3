@@ -1,6 +1,6 @@
 "use client";
 
-import { createContext, useCallback, useContext, useEffect, useEffectEvent, useRef, useState, type ReactNode } from "react";
+import { createContext, useCallback, useContext, useEffect, useEffectEvent, useRef, useState, type ReactNode, type RefObject } from "react";
 
 /**
  * One switch for all moving parts (marquees, floating cards, auto-rotating
@@ -55,15 +55,24 @@ export function useMotion(): MotionCtx {
  * requestAnimationFrame loop. The callback gets (now ms, dt seconds, t seconds of running time).
  * While paused (or with reduced motion) the loop stops and time does not advance.
  */
-export function useFrame(cb: (now: number, dt: number, t: number) => void, enabled = true) {
+export function useFrame(cb: (now: number, dt: number, t: number) => void, enabled = true, target?: RefObject<Element | null>) {
   const { paused, live } = useMotion();
   const t = useRef(0);
+  // Only animate what is on screen: off-screen loops still cost a style pass every frame.
+  const [inView, setInView] = useState(true);
+  useEffect(() => {
+    const el = target?.current;
+    if (!el || typeof IntersectionObserver === "undefined") return;
+    const io = new IntersectionObserver((es) => setInView(es.some((e) => e.isIntersecting)), { rootMargin: "120px 0px" });
+    io.observe(el);
+    return () => io.disconnect();
+  }, [target]);
   const onFrame = useEffectEvent((now: number, dt: number) => {
     t.current += dt;
     cb(now, dt, t.current);
   });
   useEffect(() => {
-    if (!enabled || paused || !live) return;
+    if (!enabled || paused || !live || !inView) return;
     let raf = 0;
     let last = performance.now();
     const loop = (now: number) => {
@@ -75,7 +84,7 @@ export function useFrame(cb: (now: number, dt: number, t: number) => void, enabl
     };
     raf = requestAnimationFrame(loop);
     return () => cancelAnimationFrame(raf);
-  }, [enabled, paused, live]);
+  }, [enabled, paused, live, inView]);
 }
 
 /** setInterval that stops while animations are paused or reduced. */

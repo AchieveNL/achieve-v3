@@ -29,7 +29,7 @@ export function ClientStrip() {
     if (!half) return;
     pos.current = (pos.current + 22 * dt) % half;
     el.style.transform = `translateX(${(-pos.current).toFixed(1)}px)`;
-  });
+  }, true, track);
   const logos = [0, 1, 2, 3].flatMap((copy) =>
     clientLogos.map((l) => (
       <img

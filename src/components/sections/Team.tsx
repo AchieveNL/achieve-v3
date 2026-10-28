@@ -62,7 +62,7 @@ export function Team() {
   useFrame((_now, _dt, t) => {
     lastT.current = t;
     place(t);
-  });
+  }, true, root);
   return (
     <>
       <section id="over-ons" ref={root} style={{ background: "#FFFFFF" }}>

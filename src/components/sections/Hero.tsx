@@ -87,7 +87,7 @@ export function Hero() {
       w.style.transform = `translate(${dx.toFixed(1)}px, ${dy.toFixed(1)}px) scale(${(1 + Math.sin(t * 0.37) * 0.08).toFixed(3)})`;
     }
     void now;
-  });
+  }, true, fc0Ref);
 
   const h = {
     t0: ti === 0,

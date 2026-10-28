@@ -38,7 +38,7 @@ export function LogoMarquee({
     pos.current = (pos.current + speed * dt) % half;
     el.style.transform =
       direction === "left" ? `translateX(${(-pos.current).toFixed(1)}px)` : `translateX(${Math.round(-half + pos.current)}px)`;
-  });
+  }, true, track);
   return (
     <div className="marquee" style={style}>
       <div ref={track} style={{ display: "flex", alignItems: "center", width: "max-content", willChange: "transform" }}>
