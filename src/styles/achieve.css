@@ -101,6 +101,7 @@ header{position:relative}
 .nav-dd-panel:has(.nav-dd-link[data-svc="web-development"]:is(:hover,:focus-visible)) .nav-dd-media[data-svc="web-development"]{opacity:1}
 .nav-dd-panel:has(.nav-dd-link[data-svc="search-engine-advertising"]:is(:hover,:focus-visible)) .nav-dd-media[data-svc="search-engine-advertising"]{opacity:1}
 .nav-dd-panel:has(.nav-dd-link[data-svc="social-media-advertising"]:is(:hover,:focus-visible)) .nav-dd-media[data-svc="social-media-advertising"]{opacity:1}
+.nav-dd-panel:has(.nav-dd-link[data-svc="ai-advertising"]:is(:hover,:focus-visible)) .nav-dd-media[data-svc="ai-advertising"]{opacity:1}
 .nav-dd-panel:has(.nav-dd-link[data-svc="social-media-management"]:is(:hover,:focus-visible)) .nav-dd-media[data-svc="social-media-management"]{opacity:1}
 .nav-dd-panel:has(.nav-dd-link[data-svc="email-marketing"]:is(:hover,:focus-visible)) .nav-dd-media[data-svc="email-marketing"]{opacity:1}
 .nav-dd-panel:has(.nav-dd-link[data-svc="video-marketing"]:is(:hover,:focus-visible)) .nav-dd-media[data-svc="video-marketing"]{opacity:1}
