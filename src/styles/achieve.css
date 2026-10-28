@@ -513,4 +513,4 @@ html:has(.jn-bar){scroll-behavior:smooth}
 /* Omlijnde stapnummers (Werkwijze) zijn decoratie: getekend via ::before, zodat ze niet als tekst meetellen */
 .step-num::before{content:attr(data-n)}
 /* Snelheid (Home): secties onder de vouw worden pas opgemaakt als ze in beeld komen */
-main:has(> #achiever) > :not(:first-child){content-visibility:auto;contain-intrinsic-size:auto 900px}
+main:has(> #achiever) > :is(#diensten,#werkwijze,#werk,#over-ons){content-visibility:auto;contain-intrinsic-size:auto 900px}
