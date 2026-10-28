@@ -860,57 +860,16 @@ export function DienstSMAContent() {
                   color: "#FAE84E",
                 }}
               >
-                {t("83,3%")}
+                {t("54,2%")}
               </span>
               <p style={{ margin: "0", fontSize: "22px", fontWeight: "600", lineHeight: "1.4", color: "#FFFFFF" }}>
-                {t("van de Nederlanders gebruikt social media. Dat zijn 15,3 miljoen mensen.")}
+                {t("van de Nederlandse volwassenen bereik je met advertenties op Instagram. Op Facebook is dat 49,9%.")}
               </p>
             </div>
             <div style={{ display: "flex", flexDirection: "column", gap: "16px" }}>
               <span style={{ fontSize: "13px", fontWeight: "700", letterSpacing: "0.1em", textTransform: "uppercase", color: "#FAE84E" }}>
-                {t("Advertentiebereik in Nederland per platform")}
+                {t("Advertentiebereik van Meta in Nederland (18+)")}
               </span>
-              <div
-                style={{
-                  display: "grid",
-                  gridTemplateColumns: "110px minmax(0, 1fr) 56px",
-                  alignItems: "center",
-                  gap: "16px",
-                  fontSize: "15px",
-                  fontWeight: "600",
-                  color: "#FFFFFF",
-                }}
-              >
-                <span translate="no">{"YouTube"}</span>
-                <div style={{ height: "14px", borderRadius: "999px", background: "rgba(255, 255, 255, 0.15)", overflow: "hidden" }}>
-                  <div
-                    style={{
-                      width: "83.3%",
-                      height: "100%",
-                      borderRadius: "999px",
-                      background: "linear-gradient(90deg, #FAE84E 0%, #FDEF6A 100%)",
-                    }}
-                  ></div>
-                </div>
-                <span style={{ textAlign: "right" }}>{t("83,3%")}</span>
-              </div>
-              <div
-                style={{
-                  display: "grid",
-                  gridTemplateColumns: "110px minmax(0, 1fr) 56px",
-                  alignItems: "center",
-                  gap: "16px",
-                  fontSize: "15px",
-                  fontWeight: "600",
-                  color: "#FFFFFF",
-                }}
-              >
-                <span translate="no">{"Snapchat"}</span>
-                <div style={{ height: "14px", borderRadius: "999px", background: "rgba(255, 255, 255, 0.15)", overflow: "hidden" }}>
-                  <div style={{ width: "45.5%", height: "100%", borderRadius: "999px", background: "rgba(255, 255, 255, 0.45)" }}></div>
-                </div>
-                <span style={{ textAlign: "right" }}>{t("45,5%")}</span>
-              </div>
               <div
                 style={{
                   display: "grid",
@@ -924,26 +883,16 @@ export function DienstSMAContent() {
               >
                 <span translate="no">{"Instagram"}</span>
                 <div style={{ height: "14px", borderRadius: "999px", background: "rgba(255, 255, 255, 0.15)", overflow: "hidden" }}>
-                  <div style={{ width: "44.4%", height: "100%", borderRadius: "999px", background: "rgba(255, 255, 255, 0.45)" }}></div>
+                  <div
+                    style={{
+                      width: "54.2%",
+                      height: "100%",
+                      borderRadius: "999px",
+                      background: "linear-gradient(90deg, #FAE84E 0%, #FDEF6A 100%)",
+                    }}
+                  ></div>
                 </div>
-                <span style={{ textAlign: "right" }}>{t("44,4%")}</span>
-              </div>
-              <div
-                style={{
-                  display: "grid",
-                  gridTemplateColumns: "110px minmax(0, 1fr) 56px",
-                  alignItems: "center",
-                  gap: "16px",
-                  fontSize: "15px",
-                  fontWeight: "600",
-                  color: "#FFFFFF",
-                }}
-              >
-                <span translate="no">{"TikTok (18+)"}</span>
-                <div style={{ height: "14px", borderRadius: "999px", background: "rgba(255, 255, 255, 0.15)", overflow: "hidden" }}>
-                  <div style={{ width: "41.9%", height: "100%", borderRadius: "999px", background: "rgba(255, 255, 255, 0.45)" }}></div>
-                </div>
-                <span style={{ textAlign: "right" }}>{t("41,9%")}</span>
+                <span style={{ textAlign: "right" }}>{t("54,2%")}</span>
               </div>
               <div
                 style={{
@@ -958,12 +907,29 @@ export function DienstSMAContent() {
               >
                 <span translate="no">{"Facebook"}</span>
                 <div style={{ height: "14px", borderRadius: "999px", background: "rgba(255, 255, 255, 0.15)", overflow: "hidden" }}>
-                  <div style={{ width: "40.8%", height: "100%", borderRadius: "999px", background: "rgba(255, 255, 255, 0.45)" }}></div>
+                  <div style={{ width: "49.9%", height: "100%", borderRadius: "999px", background: "rgba(255, 255, 255, 0.45)" }}></div>
                 </div>
-                <span style={{ textAlign: "right" }}>{t("40,8%")}</span>
+                <span style={{ textAlign: "right" }}>{t("49,9%")}</span>
               </div>
-              <span style={{ fontSize: "13px", lineHeight: "1.5", color: "#E6E9F8" }}>
-                {t("Bron: DataReportal, Digital 2026 Nederland")}
+              <div
+                style={{
+                  display: "grid",
+                  gridTemplateColumns: "110px minmax(0, 1fr) 56px",
+                  alignItems: "center",
+                  gap: "16px",
+                  fontSize: "15px",
+                  fontWeight: "600",
+                  color: "#FFFFFF",
+                }}
+              >
+                <span translate="no">{"Messenger"}</span>
+                <div style={{ height: "14px", borderRadius: "999px", background: "rgba(255, 255, 255, 0.15)", overflow: "hidden" }}>
+                  <div style={{ width: "22.9%", height: "100%", borderRadius: "999px", background: "rgba(255, 255, 255, 0.45)" }}></div>
+                </div>
+                <span style={{ textAlign: "right" }}>{t("22,9%")}</span>
+              </div>
+<span style={{ fontSize: "13px", lineHeight: "1.5", color: "#E6E9F8" }}>
+                {t("Bron: DataReportal, Digital 2026 Nederland (Meta, oktober 2025)")}
               </span>
             </div>
           </div>
