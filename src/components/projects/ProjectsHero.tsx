@@ -36,6 +36,9 @@ export function ProjectsHero() {
         noImg: !img && !p.video,
         showImg: !!img && !p.video,
         hasVid: !!p.video,
+        // Only the current and the next slide load their media; the rest waits until it is (almost) shown.
+        load: i === st.i || i === (st.i + 1) % N || i === st.prev,
+        active: i === st.i, // only the visible slide downloads and plays its video
         cls: i === st.i ? "is-active" + (st.dir === "L" ? " from-left" : "") : i === st.prev ? "is-prev" : "",
         tcls: i === st.i ? "is-active" : "",
         pressed: i === st.i,
@@ -67,8 +70,8 @@ export function ProjectsHero() {
                       className="pjh-slide-img"
                       fetchPriority={hh_i === 0 ? "high" : "low"}
                       decoding={hh_i === 0 ? undefined : "async"}
-                      src={hh.img}
-                      srcSet={srcSet(hh.img)}
+                      src={hh.load ? hh.img : undefined}
+                      srcSet={hh.load ? srcSet(hh.img) : undefined}
                       sizes={IMG_SIZES}
                       alt=""
                       style={{ position: "absolute", inset: "0", width: "100%", height: "100%", objectFit: "cover" }}
@@ -80,8 +83,9 @@ export function ProjectsHero() {
                     <LazyVideo
                       preload="none"
                       className="pjh-slide-vid"
-                      src={hh.video}
-                      poster={hh.poster}
+                      src={hh.active ? hh.video : undefined}
+                      poster={hh.load ? hh.poster : undefined}
+                      posterPriority={hh_i === 0}
                       muted
                       loop
                       playsInline

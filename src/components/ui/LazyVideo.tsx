@@ -10,7 +10,12 @@ import { srcSet, IMG_SIZES } from "@/lib/img";
  * only attached after the page has finished loading (and never with Save-Data),
  * so it never competes with the first paint; until then the poster shows.
  */
-export function LazyVideo({ src, poster, ...props }: VideoHTMLAttributes<HTMLVideoElement>) {
+export function LazyVideo({
+  src,
+  poster,
+  posterPriority,
+  ...props
+}: VideoHTMLAttributes<HTMLVideoElement> & { posterPriority?: boolean }) {
   const ref = useRef<HTMLVideoElement>(null);
   const { paused } = useMotion();
   const inView = useRef(false);
@@ -62,7 +67,17 @@ export function LazyVideo({ src, poster, ...props }: VideoHTMLAttributes<HTMLVid
   return (
     <>
       {poster && (
-        <img src={poster} srcSet={srcSet(poster)} sizes={IMG_SIZES} alt="" aria-hidden="true" decoding="async" className={props.className} style={props.style} />
+        <img
+          src={poster}
+          srcSet={srcSet(poster)}
+          sizes={IMG_SIZES}
+          alt=""
+          aria-hidden="true"
+          fetchPriority={posterPriority ? "high" : undefined}
+          decoding={posterPriority ? undefined : "async"}
+          className={props.className}
+          style={props.style}
+        />
       )}
       <video ref={ref} src={ready ? src : undefined} {...props} />
     </>
