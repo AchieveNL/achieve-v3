@@ -2386,9 +2386,19 @@ export function TarievenContent() {
                           "Conversiemeting: bijhouden welke klik een aanvraag of aankoop oplevert. Uitsluitingslijsten: zoekwoorden waarop je advertentie juist níet verschijnt. Shopping: advertenties met productfoto en prijs in Google.",
                         )}
                       </Tip>{" "}
-                      {t(
-                        "| Beoordeling landingspagina & aanbod | Zoekwoordonderzoek | Opzet Search en uitsluitingslijsten | Webshop: Shopping op je best lopende producten",
-                      )}
+                      {t("| Beoordeling landingspagina")}
+                      <Tip label={ta("Uitleg")}>
+                        {t("Landingspagina: de pagina waar iemand terechtkomt na een klik op je advertentie.")}
+                      </Tip>{" "}
+                      {t("& aanbod | Zoekwoordonderzoek")}
+                      <Tip label={ta("Uitleg")}>
+                        {t("Zoekwoorden: de woorden die mensen in Google intypen. Daarop laten we je advertentie verschijnen.")}
+                      </Tip>{" "}
+                      {t("| Opzet Search en uitsluitingslijsten | Webshop: Shopping")}
+                      <Tip label={ta("Uitleg")}>
+                        {t("Shopping: advertenties met productfoto en prijs in Google.")}
+                      </Tip>{" "}
+                      {t("op je best lopende producten")}
                     </span>
                   </div>
                   <div
@@ -2551,7 +2561,11 @@ export function TarievenContent() {
                           "Leerperiode: de eerste weken waarin Google leert aan wie je advertentie het best getoond wordt. Advertentievarianten: verschillende teksten die we tegen elkaar testen.",
                         )}
                       </Tip>{" "}
-                      {t("| Zoekwoorden & uitsluitingen aanscherpen | Advertentievarianten uitbreiden")}
+                      {t("| Zoekwoorden")}
+                      <Tip label={ta("Uitleg")}>
+                        {t("Zoekwoorden: de woorden die mensen in Google intypen. Daarop laten we je advertentie verschijnen.")}
+                      </Tip>{" "}
+                      {t("& uitsluitingen aanscherpen | Advertentievarianten uitbreiden")}
                     </span>
                   </div>
                   <div
@@ -3005,9 +3019,11 @@ export function TarievenContent() {
                   <div style={{ padding: "20px 24px", display: "flex", flexDirection: "column", gap: "8px" }}>
                     <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Maand 5 - Conversie verbeteren")}</strong>
                     <span style={{ fontSize: "14px", lineHeight: "1.55", color: "#3A4150" }}>
-                      {t(
-                        "Landingspagina optimaliseren op basis van gedragsdata | Advertentievarianten uitbreiden op basis van wat aanslaat",
-                      )}
+                      {t("Landingspagina")}
+                      <Tip label={ta("Uitleg")}>
+                        {t("Landingspagina: de pagina waar iemand terechtkomt na een klik op je advertentie.")}
+                      </Tip>{" "}
+                      {t("optimaliseren op basis van gedragsdata | Advertentievarianten uitbreiden op basis van wat aanslaat")}
                     </span>
                   </div>
                   <div
@@ -3679,7 +3695,11 @@ export function TarievenContent() {
                           "Server-side meting: meten via je eigen server in plaats van alleen de browser, zodat minder data verloren gaat. Consent: toestemming van bezoekers voor cookies, verplicht volgens de AVG.",
                         )}
                       </Tip>{" "}
-                      {t("| Verschil tussen gemeten en werkelijke conversies verkleinen | Betrouwbaardere data voor verdere optimalisatie")}
+                      {t("| Verschil tussen gemeten en werkelijke conversies")}
+                      <Tip label={ta("Uitleg")}>
+                        {t("Conversie: een bezoeker die doet wat jij wilt, zoals een bestelling plaatsen.")}
+                      </Tip>{" "}
+                      {t("verkleinen | Betrouwbaardere data voor verdere optimalisatie")}
                     </span>
                   </div>
                   <div
@@ -5887,7 +5907,11 @@ export function TarievenContent() {
                           "SWOT-analyse: je sterktes, zwaktes, kansen en bedreigingen op een rij. Tone of voice: de toon waarop je merk praat.",
                         )}
                       </Tip>{" "}
-                      {t("| Concurrentieanalyse | Klantdefinitie | Trends | Tone of voice, aanbod en uitstraling")}
+                      {t("| Concurrentieanalyse | Klantdefinitie | Trends | Tone of voice")}
+                      <Tip label={ta("Uitleg")}>
+                        {t("Tone of voice: de manier waarop je merk praat en schrijft, bijvoorbeeld zakelijk, warm of speels.")}
+                      </Tip>
+                      {t(", aanbod en uitstraling")}
                     </span>
                   </div>
                   <div
@@ -9801,7 +9825,13 @@ export function TarievenContent() {
                     }}
                   >
                     <div style={{ padding: "20px 24px", display: "flex", alignItems: "center" }}>
-                      <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Tone of voice ontwikkelen")}</strong>
+                      <strong style={{ fontSize: "15px", color: "#1F246C" }}>
+                        {t("Tone of voice")}
+                        <Tip label={ta("Uitleg")}>
+                          {t("Tone of voice: de manier waarop je merk praat en schrijft, bijvoorbeeld zakelijk, warm of speels.")}
+                        </Tip>{" "}
+                        {t("ontwikkelen")}
+                      </strong>
                     </div>
                     <div
                       className="tf-cell"
@@ -11874,7 +11904,13 @@ export function TarievenContent() {
                         gap: "12px",
                       }}
                     >
-                      <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Tone of voice ontwikkelen")}</strong>
+                      <strong style={{ fontSize: "15px", color: "#1F246C" }}>
+                        {t("Tone of voice")}
+                        <Tip label={ta("Uitleg")}>
+                          {t("Tone of voice: de manier waarop je merk praat en schrijft, bijvoorbeeld zakelijk, warm of speels.")}
+                        </Tip>{" "}
+                        {t("ontwikkelen")}
+                      </strong>
                       <span style={{ flexShrink: "0", display: "inline-flex" }}>
                         <span aria-hidden="true" style={{ color: "#B8BFCC" }}>
                           {t("–")}
@@ -12647,7 +12683,13 @@ export function TarievenContent() {
                         gap: "12px",
                       }}
                     >
-                      <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Tone of voice ontwikkelen")}</strong>
+                      <strong style={{ fontSize: "15px", color: "#1F246C" }}>
+                        {t("Tone of voice")}
+                        <Tip label={ta("Uitleg")}>
+                          {t("Tone of voice: de manier waarop je merk praat en schrijft, bijvoorbeeld zakelijk, warm of speels.")}
+                        </Tip>{" "}
+                        {t("ontwikkelen")}
+                      </strong>
                       <span style={{ flexShrink: "0", display: "inline-flex" }}>
                         <span aria-hidden="true" style={{ color: "#B8BFCC" }}>
                           {t("–")}
@@ -13427,7 +13469,13 @@ export function TarievenContent() {
                         gap: "12px",
                       }}
                     >
-                      <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Tone of voice ontwikkelen")}</strong>
+                      <strong style={{ fontSize: "15px", color: "#1F246C" }}>
+                        {t("Tone of voice")}
+                        <Tip label={ta("Uitleg")}>
+                          {t("Tone of voice: de manier waarop je merk praat en schrijft, bijvoorbeeld zakelijk, warm of speels.")}
+                        </Tip>{" "}
+                        {t("ontwikkelen")}
+                      </strong>
                       <span style={{ flexShrink: "0", display: "inline-flex" }}>
                         <span
                           aria-hidden="true"
@@ -22049,7 +22097,13 @@ export function TarievenContent() {
                       >
                         <path d="M5 12.5l4.5 4.5L19 7.5"></path>
                       </svg>
-                      <span>{t("SSL-certificaat (https) inbegrepen")}</span>
+                      <span>
+                        {t("SSL-certificaat")}
+                        <Tip label={ta("Uitleg")} plain>
+                          {t("SSL-certificaat: zorgt voor het slotje in de browser en een beveiligde verbinding (https).")}
+                        </Tip>{" "}
+                        {t("(https) inbegrepen")}
+                      </span>
                     </li>
                     <li
                       style={{
@@ -22101,7 +22155,12 @@ export function TarievenContent() {
                       >
                         <path d="M5 12.5l4.5 4.5L19 7.5"></path>
                       </svg>
-                      <span>{t("Dagelijkse back-ups")}</span>
+                      <span>
+                        {t("Dagelijkse back-ups")}
+                        <Tip label={ta("Uitleg")} plain>
+                          {t("Back-up: een reservekopie van je website, zodat we alles snel kunnen terugzetten als er iets misgaat.")}
+                        </Tip>
+                      </span>
                     </li>
                     <li
                       style={{
@@ -22255,7 +22314,12 @@ export function TarievenContent() {
                       >
                         <path d="M5 12.5l4.5 4.5L19 7.5"></path>
                       </svg>
-                      <span>{t("99,9% uptime garantie")}</span>
+                      <span>
+                        {t("99,9% uptime garantie")}
+                        <Tip label={ta("Uitleg")} plain>
+                          {t("Uptime: de tijd dat je website online en bereikbaar is.")}
+                        </Tip>
+                      </span>
                     </li>
                     <li
                       style={{
@@ -22441,7 +22505,13 @@ export function TarievenContent() {
                       >
                         <path d="M5 12.5l4.5 4.5L19 7.5"></path>
                       </svg>
-                      <span>{t("SSL-certificaat (https) inbegrepen")}</span>
+                      <span>
+                        {t("SSL-certificaat")}
+                        <Tip label={ta("Uitleg")} plain>
+                          {t("SSL-certificaat: zorgt voor het slotje in de browser en een beveiligde verbinding (https).")}
+                        </Tip>{" "}
+                        {t("(https) inbegrepen")}
+                      </span>
                     </li>
                     <li
                       style={{
@@ -22493,7 +22563,12 @@ export function TarievenContent() {
                       >
                         <path d="M5 12.5l4.5 4.5L19 7.5"></path>
                       </svg>
-                      <span>{t("Dagelijkse back-ups")}</span>
+                      <span>
+                        {t("Dagelijkse back-ups")}
+                        <Tip label={ta("Uitleg")} plain>
+                          {t("Back-up: een reservekopie van je website, zodat we alles snel kunnen terugzetten als er iets misgaat.")}
+                        </Tip>
+                      </span>
                     </li>
                     <li
                       style={{
@@ -22626,7 +22701,12 @@ export function TarievenContent() {
                       >
                         <path d="M5 12.5l4.5 4.5L19 7.5"></path>
                       </svg>
-                      <span>{t("99,9% uptime garantie")}</span>
+                      <span>
+                        {t("99,9% uptime garantie")}
+                        <Tip label={ta("Uitleg")} plain>
+                          {t("Uptime: de tijd dat je website online en bereikbaar is.")}
+                        </Tip>
+                      </span>
                     </li>
                     <li
                       style={{
@@ -22812,7 +22892,13 @@ export function TarievenContent() {
                       >
                         <path d="M5 12.5l4.5 4.5L19 7.5"></path>
                       </svg>
-                      <span>{t("SSL-certificaat (https) inbegrepen")}</span>
+                      <span>
+                        {t("SSL-certificaat")}
+                        <Tip label={ta("Uitleg")} plain>
+                          {t("SSL-certificaat: zorgt voor het slotje in de browser en een beveiligde verbinding (https).")}
+                        </Tip>{" "}
+                        {t("(https) inbegrepen")}
+                      </span>
                     </li>
                     <li
                       style={{
@@ -22864,7 +22950,12 @@ export function TarievenContent() {
                       >
                         <path d="M5 12.5l4.5 4.5L19 7.5"></path>
                       </svg>
-                      <span>{t("Dagelijkse back-ups")}</span>
+                      <span>
+                        {t("Dagelijkse back-ups")}
+                        <Tip label={ta("Uitleg")} plain>
+                          {t("Back-up: een reservekopie van je website, zodat we alles snel kunnen terugzetten als er iets misgaat.")}
+                        </Tip>
+                      </span>
                     </li>
                     <li
                       style={{
@@ -22997,7 +23088,12 @@ export function TarievenContent() {
                       >
                         <path d="M5 12.5l4.5 4.5L19 7.5"></path>
                       </svg>
-                      <span>{t("99,9% uptime garantie")}</span>
+                      <span>
+                        {t("99,9% uptime garantie")}
+                        <Tip label={ta("Uitleg")} plain>
+                          {t("Uptime: de tijd dat je website online en bereikbaar is.")}
+                        </Tip>
+                      </span>
                     </li>
                     <li
                       style={{
@@ -23183,7 +23279,13 @@ export function TarievenContent() {
                       >
                         <path d="M5 12.5l4.5 4.5L19 7.5"></path>
                       </svg>
-                      <span>{t("SSL-certificaat (https) inbegrepen")}</span>
+                      <span>
+                        {t("SSL-certificaat")}
+                        <Tip label={ta("Uitleg")} plain>
+                          {t("SSL-certificaat: zorgt voor het slotje in de browser en een beveiligde verbinding (https).")}
+                        </Tip>{" "}
+                        {t("(https) inbegrepen")}
+                      </span>
                     </li>
                     <li
                       style={{
@@ -23235,7 +23337,12 @@ export function TarievenContent() {
                       >
                         <path d="M5 12.5l4.5 4.5L19 7.5"></path>
                       </svg>
-                      <span>{t("Dagelijkse back-ups")}</span>
+                      <span>
+                        {t("Dagelijkse back-ups")}
+                        <Tip label={ta("Uitleg")} plain>
+                          {t("Back-up: een reservekopie van je website, zodat we alles snel kunnen terugzetten als er iets misgaat.")}
+                        </Tip>
+                      </span>
                     </li>
                     <li
                       style={{
@@ -23425,7 +23532,14 @@ export function TarievenContent() {
                       >
                         <path d="M5 12.5l4.5 4.5L19 7.5"></path>
                       </svg>
-                      <span>{t("Updates van software en plugins")}</span>
+                      <span>
+                        {t("Updates van software en")}
+                        {" "}
+                        {t("plugins")}
+                        <Tip label={ta("Uitleg")} plain>
+                          {t("Plugin: een uitbreiding die extra functies aan je website toevoegt, zoals een formulier of een webshop.")}
+                        </Tip>
+                      </span>
                     </li>
                     <li
                       style={{
@@ -23477,7 +23591,12 @@ export function TarievenContent() {
                       >
                         <path d="M5 12.5l4.5 4.5L19 7.5"></path>
                       </svg>
-                      <span>{t("Dagelijkse back-up")}</span>
+                      <span>
+                        {t("Dagelijkse back-up")}
+                        <Tip label={ta("Uitleg")} plain>
+                          {t("Back-up: een reservekopie van je website, zodat we alles snel kunnen terugzetten als er iets misgaat.")}
+                        </Tip>
+                      </span>
                     </li>
                     <li
                       style={{
@@ -23656,7 +23775,13 @@ export function TarievenContent() {
                       >
                         <path d="M5 12.5l4.5 4.5L19 7.5"></path>
                       </svg>
-                      <span>{t("Uptime-monitoring en geteste updates")}</span>
+                      <span>
+                        {t("Uptime-monitoring")}
+                        <Tip label={ta("Uitleg")} plain>
+                          {t("Uptime: de tijd dat je website online en bereikbaar is.")}
+                        </Tip>{" "}
+                        {t("en geteste updates")}
+                      </span>
                     </li>
                     <li
                       style={{
@@ -27930,7 +28055,12 @@ export function TarievenContent() {
                     }}
                   >
                     <div style={{ padding: "20px 24px", display: "flex", alignItems: "center" }}>
-                      <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Onderzoek naar UGC-creators")}</strong>
+                      <strong style={{ fontSize: "15px", color: "#1F246C" }}>
+                        {t("Onderzoek naar UGC-creators")}
+                        <Tip label={ta("Uitleg")}>
+                          {t("UGC (user-generated content): video's gemaakt door echte mensen in plaats van door een reclamebureau.")}
+                        </Tip>
+                      </strong>
                     </div>
                     <div
                       className="tf-cell"
@@ -28242,7 +28372,12 @@ export function TarievenContent() {
                     }}
                   >
                     <div style={{ padding: "20px 24px", display: "flex", alignItems: "center" }}>
-                      <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Contract met de UGC-creator")}</strong>
+                      <strong style={{ fontSize: "15px", color: "#1F246C" }}>
+                        {t("Contract met de UGC-creator")}
+                        <Tip label={ta("Uitleg")}>
+                          {t("UGC (user-generated content): video's gemaakt door echte mensen in plaats van door een reclamebureau.")}
+                        </Tip>
+                      </strong>
                     </div>
                     <div
                       className="tf-cell"
@@ -29349,7 +29484,12 @@ export function TarievenContent() {
                         gap: "12px",
                       }}
                     >
-                      <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Onderzoek naar UGC-creators")}</strong>
+                      <strong style={{ fontSize: "15px", color: "#1F246C" }}>
+                        {t("Onderzoek naar UGC-creators")}
+                        <Tip label={ta("Uitleg")}>
+                          {t("UGC (user-generated content): video's gemaakt door echte mensen in plaats van door een reclamebureau.")}
+                        </Tip>
+                      </strong>
                       <span style={{ flexShrink: "0", display: "inline-flex" }}>
                         <span
                           aria-hidden="true"
@@ -29441,7 +29581,12 @@ export function TarievenContent() {
                         gap: "12px",
                       }}
                     >
-                      <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Contract met de UGC-creator")}</strong>
+                      <strong style={{ fontSize: "15px", color: "#1F246C" }}>
+                        {t("Contract met de UGC-creator")}
+                        <Tip label={ta("Uitleg")}>
+                          {t("UGC (user-generated content): video's gemaakt door echte mensen in plaats van door een reclamebureau.")}
+                        </Tip>
+                      </strong>
                       <span style={{ flexShrink: "0", display: "inline-flex" }}>
                         <span
                           aria-hidden="true"
@@ -29834,7 +29979,12 @@ export function TarievenContent() {
                         gap: "12px",
                       }}
                     >
-                      <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Onderzoek naar UGC-creators")}</strong>
+                      <strong style={{ fontSize: "15px", color: "#1F246C" }}>
+                        {t("Onderzoek naar UGC-creators")}
+                        <Tip label={ta("Uitleg")}>
+                          {t("UGC (user-generated content): video's gemaakt door echte mensen in plaats van door een reclamebureau.")}
+                        </Tip>
+                      </strong>
                       <span style={{ flexShrink: "0", display: "inline-flex" }}>
                         <span
                           aria-hidden="true"
@@ -29926,7 +30076,12 @@ export function TarievenContent() {
                         gap: "12px",
                       }}
                     >
-                      <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Contract met de UGC-creator")}</strong>
+                      <strong style={{ fontSize: "15px", color: "#1F246C" }}>
+                        {t("Contract met de UGC-creator")}
+                        <Tip label={ta("Uitleg")}>
+                          {t("UGC (user-generated content): video's gemaakt door echte mensen in plaats van door een reclamebureau.")}
+                        </Tip>
+                      </strong>
                       <span style={{ flexShrink: "0", display: "inline-flex" }}>
                         <span
                           aria-hidden="true"
@@ -30320,7 +30475,12 @@ export function TarievenContent() {
                         gap: "12px",
                       }}
                     >
-                      <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Onderzoek naar UGC-creators")}</strong>
+                      <strong style={{ fontSize: "15px", color: "#1F246C" }}>
+                        {t("Onderzoek naar UGC-creators")}
+                        <Tip label={ta("Uitleg")}>
+                          {t("UGC (user-generated content): video's gemaakt door echte mensen in plaats van door een reclamebureau.")}
+                        </Tip>
+                      </strong>
                       <span style={{ flexShrink: "0", display: "inline-flex" }}>
                         <span
                           aria-hidden="true"
@@ -30412,7 +30572,12 @@ export function TarievenContent() {
                         gap: "12px",
                       }}
                     >
-                      <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Contract met de UGC-creator")}</strong>
+                      <strong style={{ fontSize: "15px", color: "#1F246C" }}>
+                        {t("Contract met de UGC-creator")}
+                        <Tip label={ta("Uitleg")}>
+                          {t("UGC (user-generated content): video's gemaakt door echte mensen in plaats van door een reclamebureau.")}
+                        </Tip>
+                      </strong>
                       <span style={{ flexShrink: "0", display: "inline-flex" }}>
                         <span
                           aria-hidden="true"
@@ -35792,7 +35957,19 @@ export function TarievenContent() {
                     <span>{t("Fundament en eerste campagne")}</span>
                   </strong>
                   <span style={{ fontSize: "14px", lineHeight: "1.55", color: "#3A4150" }}>
-                    {t("Intakegesprek en strategie | Pixel, server-side koppeling en conversies instellen | Eerste campagne live")}
+                    {t("Intakegesprek en strategie | Pixel")}
+                    <Tip label={ta("Uitleg")}>
+                      {t("Pixel: een stukje code op je website dat meet wat bezoekers doen na een klik op je advertentie.")}
+                    </Tip>
+                    {t(", server-side koppeling")}
+                    <Tip label={ta("Uitleg")}>
+                      {t("Server-side: meten via je eigen server in plaats van alleen de browser, zodat minder data verloren gaat.")}
+                    </Tip>{" "}
+                    {t("en conversies")}
+                    <Tip label={ta("Uitleg")}>
+                      {t("Conversie: een bezoeker die doet wat jij wilt, zoals een bestelling plaatsen.")}
+                    </Tip>{" "}
+                    {t("instellen | Eerste campagne live")}
                   </span>
                 </div>
                 <div
@@ -35955,7 +36132,11 @@ export function TarievenContent() {
                     <span>{t("Eerste resultaten")}</span>
                   </strong>
                   <span style={{ fontSize: "14px", lineHeight: "1.55", color: "#3A4150" }}>
-                    {t("Eerste resultaten meten | Video- en UGC-advertenties toevoegen, met beeld dat je aanlevert of dat wij als meerwerk maken | Advertenties zonder resultaat vervangen")}
+                    {t("Eerste resultaten meten | Video- en UGC-advertenties")}
+                    <Tip label={ta("Uitleg")}>
+                      {t("UGC (user-generated content): video's gemaakt door echte mensen in plaats van door een reclamebureau.")}
+                    </Tip>{" "}
+                    {t("toevoegen, met beeld dat je aanlevert of dat wij als meerwerk maken | Advertenties zonder resultaat vervangen")}
                   </span>
                 </div>
                 <div
@@ -36118,7 +36299,11 @@ export function TarievenContent() {
                     <span>{t("Testen en bijsturen")}</span>
                   </strong>
                   <span style={{ fontSize: "14px", lineHeight: "1.55", color: "#3A4150" }}>
-                    {t("A/B-testen op advertenties | Budget naar wat werkt | Evaluatie na 3 maanden")}
+                    {t("A/B-testen")}
+                    <Tip label={ta("Uitleg")}>
+                      {t("A/B-test: je toont twee versies aan verschillende groepen en kijkt welke het beste werkt.")}
+                    </Tip>{" "}
+                    {t("op advertenties | Budget naar wat werkt | Evaluatie na 3 maanden")}
                   </span>
                 </div>
                 <div
@@ -37170,6 +37355,9 @@ export function TarievenContent() {
                   </strong>
                   <span style={{ fontSize: "14px", lineHeight: "1.55", color: "#3A4150" }}>
                     {t("Advertenties en budget verfijnen op basis van data | Nieuwe A/B-testen")}
+                    <Tip label={ta("Uitleg")}>
+                      {t("A/B-test: je toont twee versies aan verschillende groepen en kijkt welke het beste werkt.")}
+                    </Tip>
                   </span>
                 </div>
                 <div
@@ -37457,9 +37645,11 @@ export function TarievenContent() {
                     </svg>
                   </summary>
                   <p style={{ margin: "0 0 12px", fontSize: "15px", lineHeight: "1.65", color: "#3A4150" }}>
-                    {t(
-                      "Dan werken we verder vanuit je bestaande advertentieaccount en pixel. Zo blijft de opgebouwde data behouden en weet Meta al wie er bij jou koopt of een aanvraag doet.",
-                    )}
+                    {t("Dan werken we verder vanuit je bestaande advertentieaccount en pixel.")}
+                    <Tip label={ta("Uitleg")}>
+                      {t("Pixel: een stukje code op je website dat meet wat bezoekers doen na een klik op je advertentie.")}
+                    </Tip>{" "}
+                    {t("Zo blijft de opgebouwde data behouden en weet Meta al wie er bij jou koopt of een aanvraag doet.")}
                   </p><p style={{ margin: "0 0 20px", fontSize: "15px", lineHeight: "1.65", color: "#3A4150" }}>
                     {t(
                       "Een nieuw account begint zonder data en heeft daarom eerst tijd nodig om te leren.",
@@ -37498,9 +37688,11 @@ export function TarievenContent() {
                     </svg>
                   </summary>
                   <p style={{ margin: "0 0 20px", fontSize: "15px", lineHeight: "1.65", color: "#3A4150" }}>
-                    {t(
-                      "Beheerdertoegang tot je Meta Business-account, je Facebook-pagina en Instagram, en toegang tot je website of Google Tag Manager. Daarnaast beeldmateriaal: foto's, video's en reviews van klanten, hoe eenvoudiger hoe beter. En iemand die onze vragen binnen enkele werkdagen kan beantwoorden.",
-                    )}
+                    {t("Beheerdertoegang tot je Meta Business-account, je Facebook-pagina en Instagram, en toegang tot je website of Google Tag Manager.")}
+                    <Tip label={ta("Uitleg")}>
+                      {t("Google Tag Manager: een tool van Google waarmee je meetcodes op je website beheert, zonder de website zelf aan te passen.")}
+                    </Tip>{" "}
+                    {t("Daarnaast beeldmateriaal: foto's, video's en reviews van klanten, hoe eenvoudiger hoe beter. En iemand die onze vragen binnen enkele werkdagen kan beantwoorden.")}
                   </p>
                 </details>
                 <details className="tf-faq" style={{ background: "#F2F8FE", borderRadius: "16px", padding: "0 24px" }}>
@@ -37535,9 +37727,15 @@ export function TarievenContent() {
                     </svg>
                   </summary>
                   <p style={{ margin: "0 0 12px", fontSize: "15px", lineHeight: "1.65", color: "#3A4150" }}>
-                    {t(
-                      "Het opnemen van video's, UGC met makers en fotografie, het bouwen van een nieuwe website of landingspagina en het opzetten van een productcatalogus als je die nog niet hebt. Advertenties maken we met beeld dat je al hebt of aanlevert.",
-                    )}
+                    {t("Het opnemen van video's, UGC")}
+                    <Tip label={ta("Uitleg")}>
+                      {t("UGC (user-generated content): video's gemaakt door echte mensen in plaats van door een reclamebureau.")}
+                    </Tip>{" "}
+                    {t("met makers en fotografie, het bouwen van een nieuwe website of landingspagina")}
+                    <Tip label={ta("Uitleg")}>
+                      {t("Landingspagina: de pagina waar iemand terechtkomt na een klik op je advertentie.")}
+                    </Tip>{" "}
+                    {t("en het opzetten van een productcatalogus als je die nog niet hebt. Advertenties maken we met beeld dat je al hebt of aanlevert.")}
                   </p><p style={{ margin: "0 0 20px", fontSize: "15px", lineHeight: "1.65", color: "#3A4150" }}>
                     {t(
                       "We bepalen wat er nodig is en leveren hiervoor duidelijke specificaties aan. Of wij dit uitvoeren of een partij die je zelf kiest, en welke kosten daaraan verbonden zijn, bespreken we zodra dit aan de orde is.",
@@ -37576,9 +37774,14 @@ export function TarievenContent() {
                     </svg>
                   </summary>
                   <p style={{ margin: "0 0 12px", fontSize: "15px", lineHeight: "1.65", color: "#3A4150" }}>
-                    {t(
-                      "In de laatste maand bespreken we hoe je verder wilt. Besluit je te stoppen? Dan behoud je volledige toegang tot het advertentieaccount en alles wat we hebben opgebouwd, waaronder de campagnes, advertenties, pixeldata en conversiemetingen.",
-                    )}
+                    {t("In de laatste maand bespreken we hoe je verder wilt. Besluit je te stoppen? Dan behoud je volledige toegang tot het advertentieaccount en alles wat we hebben opgebouwd, waaronder de campagnes, advertenties, pixeldata")}
+                    <Tip label={ta("Uitleg")}>
+                      {t("Pixel: een stukje code op je website dat meet wat bezoekers doen na een klik op je advertentie.")}
+                    </Tip>{" "}
+                    {t("en conversiemetingen.")}
+                    <Tip label={ta("Uitleg")}>
+                      {t("Conversie: een bezoeker die doet wat jij wilt, zoals een bestelling plaatsen.")}
+                    </Tip>
                   </p><p style={{ margin: "0 0 20px", fontSize: "15px", lineHeight: "1.65", color: "#3A4150" }}>
                     {t(
                       "Het account is en blijft van jou.",

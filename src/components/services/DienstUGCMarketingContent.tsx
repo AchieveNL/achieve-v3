@@ -321,9 +321,11 @@ export function DienstUGCMarketingContent() {
             </Accent>
           </h1>
           <p style={{ margin: "0", maxWidth: "640px", fontSize: "20px", lineHeight: "1.55", color: "#FFFFFF" }}>
-            {t(
-              "Met UGC Marketing krijg je video's van echte creators (user-generated content). Wij zoeken de creator die bij je past, regelen de afspraken en bedenken samen het concept.",
-            )}
+            {t("Met UGC Marketing")}
+            <Tip label={ta("Uitleg")} plain>
+              {t("UGC (user-generated content): video's gemaakt door echte mensen in plaats van door een reclamebureau.")}
+            </Tip>{" "}
+            {t("krijg je video's van echte creators (user-generated content). Wij zoeken de creator die bij je past, regelen de afspraken en bedenken samen het concept.")}
           </p>
           <div style={{ display: "flex", flexWrap: "wrap", alignItems: "center", gap: "16px 28px" }}>
             <a
@@ -567,10 +569,18 @@ export function DienstUGCMarketingContent() {
                 </Accent>
               </h2>
               <p style={{ margin: "0", fontSize: "20px", fontWeight: "600", lineHeight: "1.45", color: "#FFFFFF" }}>
-                {t("Echte ervaringen en verhalen raken meer dan welke gelikte advertentie ook. Precies daar komt UGC marketing in beeld.")}
+                {t("Echte ervaringen en verhalen raken meer dan welke gelikte advertentie ook. Precies daar komt UGC marketing")}
+                <Tip label={ta("Uitleg")} plain>
+                  {t("UGC (user-generated content): video's gemaakt door echte mensen in plaats van door een reclamebureau.")}
+                </Tip>{" "}
+                {t("in beeld.")}
               </p>
               <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.65", color: "#C9CFF0" }}>
-                {t("Met onze UGC-pakketten hoef je niet te gokken, maar zie je direct resultaat.")}
+                {t("Met onze UGC-pakketten")}
+                <Tip label={ta("Uitleg")} plain>
+                  {t("UGC (user-generated content): video's gemaakt door echte mensen in plaats van door een reclamebureau.")}
+                </Tip>{" "}
+                {t("hoef je niet te gokken, maar zie je direct resultaat.")}
               </p>
             </div>
             <ul style={{ margin: "0", padding: "0", listStyle: "none", display: "flex", flexDirection: "column", gap: "24px" }}>
@@ -584,7 +594,11 @@ export function DienstUGCMarketingContent() {
                   fontWeight: "500",
                 }}
               >
-                {t("We vinden en matchen de juiste UGC-creators voor jouw merk.")}
+                {t("We vinden en matchen de juiste UGC-creators")}
+                <Tip label={ta("Uitleg")} plain>
+                  {t("UGC (user-generated content): video's gemaakt door echte mensen in plaats van door een reclamebureau.")}
+                </Tip>{" "}
+                {t("voor jouw merk.")}
               </li>
               <li
                 style={{
@@ -608,7 +622,11 @@ export function DienstUGCMarketingContent() {
                   fontWeight: "500",
                 }}
               >
-                {t("Je ontvangt elke maand professionele UGC-video's in de juiste formaten.")}
+                {t("Je ontvangt elke maand professionele UGC-video's")}
+                <Tip label={ta("Uitleg")} plain>
+                  {t("UGC (user-generated content): video's gemaakt door echte mensen in plaats van door een reclamebureau.")}
+                </Tip>{" "}
+                {t("in de juiste formaten.")}
               </li>
               <li
                 style={{
@@ -881,7 +899,12 @@ export function DienstUGCMarketingContent() {
                     color: "#FFFFFF",
                   }}
                 >
-                  <span>{t("Conversie")}</span>
+                  <span>
+                    {t("Conversie")}
+                    <Tip label={ta("Uitleg")} plain>
+                      {t("Conversie: een bezoeker die doet wat jij wilt, zoals een bestelling plaatsen.")}
+                    </Tip>
+                  </span>
                   <span translate="no">{"+43%"}</span>
                 </div>
                 <div style={{ height: "14px", borderRadius: "999px", background: "rgba(255, 255, 255, 0.15)", overflow: "hidden" }}>
@@ -950,7 +973,11 @@ export function DienstUGCMarketingContent() {
                 {t("65%")}
               </span>
               <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.6", color: "#3A4150" }}>
-                {t("van de shoppers gebruikt UGC bij de beslissing wat ze kopen.")}
+                {t("van de shoppers gebruikt UGC")}
+                <Tip label={ta("Uitleg")} plain>
+                  {t("UGC (user-generated content): video's gemaakt door echte mensen in plaats van door een reclamebureau.")}
+                </Tip>{" "}
+                {t("bij de beslissing wat ze kopen.")}
               </p>
               <span style={{ marginTop: "auto", fontSize: "13px", lineHeight: "1.5", color: "#5A6273" }}>
                 {t("Bron: Bazaarvoice, 2024")}
@@ -1932,7 +1959,12 @@ export function DienstUGCMarketingContent() {
                 }}
               >
                 <div style={{ padding: "20px 24px", display: "flex", alignItems: "center" }}>
-                  <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Onderzoek naar UGC-creators")}</strong>
+                  <strong style={{ fontSize: "15px", color: "#1F246C" }}>
+                    {t("Onderzoek naar UGC-creators")}
+                    <Tip label={ta("Uitleg")}>
+                      {t("UGC (user-generated content): video's gemaakt door echte mensen in plaats van door een reclamebureau.")}
+                    </Tip>
+                  </strong>
                 </div>
                 <div
                   className="tf-cell"
@@ -2244,7 +2276,12 @@ export function DienstUGCMarketingContent() {
                 }}
               >
                 <div style={{ padding: "20px 24px", display: "flex", alignItems: "center" }}>
-                  <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Contract met de UGC-creator")}</strong>
+                  <strong style={{ fontSize: "15px", color: "#1F246C" }}>
+                    {t("Contract met de UGC-creator")}
+                    <Tip label={ta("Uitleg")}>
+                      {t("UGC (user-generated content): video's gemaakt door echte mensen in plaats van door een reclamebureau.")}
+                    </Tip>
+                  </strong>
                 </div>
                 <div
                   className="tf-cell"
@@ -3349,7 +3386,12 @@ export function DienstUGCMarketingContent() {
                     gap: "12px",
                   }}
                 >
-                  <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Onderzoek naar UGC-creators")}</strong>
+                  <strong style={{ fontSize: "15px", color: "#1F246C" }}>
+                    {t("Onderzoek naar UGC-creators")}
+                    <Tip label={ta("Uitleg")}>
+                      {t("UGC (user-generated content): video's gemaakt door echte mensen in plaats van door een reclamebureau.")}
+                    </Tip>
+                  </strong>
                   <span style={{ flexShrink: "0", display: "inline-flex" }}>
                     <span
                       aria-hidden="true"
@@ -3441,7 +3483,12 @@ export function DienstUGCMarketingContent() {
                     gap: "12px",
                   }}
                 >
-                  <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Contract met de UGC-creator")}</strong>
+                  <strong style={{ fontSize: "15px", color: "#1F246C" }}>
+                    {t("Contract met de UGC-creator")}
+                    <Tip label={ta("Uitleg")}>
+                      {t("UGC (user-generated content): video's gemaakt door echte mensen in plaats van door een reclamebureau.")}
+                    </Tip>
+                  </strong>
                   <span style={{ flexShrink: "0", display: "inline-flex" }}>
                     <span
                       aria-hidden="true"
@@ -3830,7 +3877,12 @@ export function DienstUGCMarketingContent() {
                     gap: "12px",
                   }}
                 >
-                  <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Onderzoek naar UGC-creators")}</strong>
+                  <strong style={{ fontSize: "15px", color: "#1F246C" }}>
+                    {t("Onderzoek naar UGC-creators")}
+                    <Tip label={ta("Uitleg")}>
+                      {t("UGC (user-generated content): video's gemaakt door echte mensen in plaats van door een reclamebureau.")}
+                    </Tip>
+                  </strong>
                   <span style={{ flexShrink: "0", display: "inline-flex" }}>
                     <span
                       aria-hidden="true"
@@ -3922,7 +3974,12 @@ export function DienstUGCMarketingContent() {
                     gap: "12px",
                   }}
                 >
-                  <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Contract met de UGC-creator")}</strong>
+                  <strong style={{ fontSize: "15px", color: "#1F246C" }}>
+                    {t("Contract met de UGC-creator")}
+                    <Tip label={ta("Uitleg")}>
+                      {t("UGC (user-generated content): video's gemaakt door echte mensen in plaats van door een reclamebureau.")}
+                    </Tip>
+                  </strong>
                   <span style={{ flexShrink: "0", display: "inline-flex" }}>
                     <span
                       aria-hidden="true"
@@ -4312,7 +4369,12 @@ export function DienstUGCMarketingContent() {
                     gap: "12px",
                   }}
                 >
-                  <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Onderzoek naar UGC-creators")}</strong>
+                  <strong style={{ fontSize: "15px", color: "#1F246C" }}>
+                    {t("Onderzoek naar UGC-creators")}
+                    <Tip label={ta("Uitleg")}>
+                      {t("UGC (user-generated content): video's gemaakt door echte mensen in plaats van door een reclamebureau.")}
+                    </Tip>
+                  </strong>
                   <span style={{ flexShrink: "0", display: "inline-flex" }}>
                     <span
                       aria-hidden="true"
@@ -4404,7 +4466,12 @@ export function DienstUGCMarketingContent() {
                     gap: "12px",
                   }}
                 >
-                  <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Contract met de UGC-creator")}</strong>
+                  <strong style={{ fontSize: "15px", color: "#1F246C" }}>
+                    {t("Contract met de UGC-creator")}
+                    <Tip label={ta("Uitleg")}>
+                      {t("UGC (user-generated content): video's gemaakt door echte mensen in plaats van door een reclamebureau.")}
+                    </Tip>
+                  </strong>
                   <span style={{ flexShrink: "0", display: "inline-flex" }}>
                     <span
                       aria-hidden="true"
