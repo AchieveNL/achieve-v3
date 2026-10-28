@@ -623,6 +623,9 @@ export function DienstSMALooptijdContent() {
                 }}
               >
                 {t("Jouw landingspagina's")}
+                <Tip label={ta("Uitleg")} plain>
+                  {t("Landingspagina: de pagina waar iemand terechtkomt na een klik op je advertentie.")}
+                </Tip>
               </li>
               <li
                 style={{
@@ -735,7 +738,13 @@ export function DienstSMALooptijdContent() {
                 >
                   <path d="M4 12.5l5 5L20 6.5"></path>
                 </svg>
-                <span>{t("Gerichte targeting op demografie, interesses, gedrag en meer")}</span>
+                <span>
+                  {t("Gerichte targeting")}
+                  <Tip label={ta("Uitleg")} plain>
+                    {t("Targeting: bepalen wie je advertentie te zien krijgt, bijvoorbeeld op leeftijd, interesses of woonplaats.")}
+                  </Tip>{" "}
+                  {t("op demografie, interesses, gedrag en meer")}
+                </span>
               </li>
               <li style={{ display: "flex", gap: "12px", fontSize: "17px", lineHeight: "1.55", color: "#FFFFFF" }}>
                 <svg
@@ -1236,7 +1245,11 @@ export function DienstSMALooptijdContent() {
                 {t("7,52%")}
               </span>
               <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.6", color: "#3A4150" }}>
-                {t("is de gemiddelde conversieratio van Google Ads-campagnes, 6,8% hoger dan het jaar ervoor.")}
+                {t("is de gemiddelde conversieratio")}
+                <Tip label={ta("Uitleg")} plain>
+                  {t("Conversieratio: het percentage bezoekers dat iets doet wat je wilt, zoals een aankoop of een aanvraag.")}
+                </Tip>{" "}
+                {t("van Google Ads-campagnes, 6,8% hoger dan het jaar ervoor.")}
               </p>
               <span style={{ marginTop: "auto", fontSize: "13px", lineHeight: "1.5", color: "#5A6273" }}>
                 {t("Bron: WordStream, 2025")}
@@ -1578,7 +1591,11 @@ export function DienstSMALooptijdContent() {
                   {t("1. Intakegesprek")}
                 </h3>
                 <p style={{ margin: "0", maxWidth: "300px", fontSize: "16px", lineHeight: "1.6", color: "#C9CFF0" }}>
-                  {t("We bespreken je merk, doelgroep en doelen, en bepalen welke zoekwoorden, platforms en advertentievormen passen.")}
+                  {t("We bespreken je merk, doelgroep en doelen, en bepalen welke zoekwoorden")}
+                  <Tip label={ta("Uitleg")} plain>
+                    {t("Zoekwoorden: de woorden die mensen in Google intypen. Daarop laten we je advertentie verschijnen.")}
+                  </Tip>
+                  {t(", platforms en advertentievormen passen.")}
                 </p>
               </li>
               <li style={{ position: "relative", display: "flex", flexDirection: "column", gap: "12px", alignItems: "flex-start" }}>
@@ -1644,7 +1661,11 @@ export function DienstSMALooptijdContent() {
                   {t("3. Campagne opzetten")}
                 </h3>
                 <p style={{ margin: "0", maxWidth: "300px", fontSize: "16px", lineHeight: "1.6", color: "#C9CFF0" }}>
-                  {t("We schrijven sterke advertenties en zorgen voor de juiste targeting en tracking, zodat je vanaf dag één presteert.")}
+                  {t("We schrijven sterke advertenties en zorgen voor de juiste targeting")}
+                  <Tip label={ta("Uitleg")} plain>
+                    {t("Targeting: bepalen wie je advertentie te zien krijgt, bijvoorbeeld op leeftijd, interesses of woonplaats.")}
+                  </Tip>{" "}
+                  {t("en tracking, zodat je vanaf dag één presteert.")}
                 </p>
               </li>
               <li style={{ position: "relative", display: "flex", flexDirection: "column", gap: "12px", alignItems: "flex-start" }}>
@@ -1677,7 +1698,11 @@ export function DienstSMALooptijdContent() {
                   {t("4. Analyse en optimalisatie")}
                 </h3>
                 <p style={{ margin: "0", maxWidth: "300px", fontSize: "16px", lineHeight: "1.6", color: "#C9CFF0" }}>
-                  {t("We volgen klikgedrag, conversies en kosten, en verbeteren je campagnes doorlopend voor een steeds beter rendement.")}
+                  {t("We volgen klikgedrag, conversies")}
+                  <Tip label={ta("Uitleg")} plain>
+                    {t("Conversie: een bezoeker die doet wat jij wilt, zoals een bestelling plaatsen.")}
+                  </Tip>{" "}
+                  {t("en kosten, en verbeteren je campagnes doorlopend voor een steeds beter rendement.")}
                 </p>
               </li>
             </ol>
@@ -3703,7 +3728,19 @@ export function DienstSMALooptijdContent() {
                 <span>{t("Fundament en eerste campagne")}</span>
               </strong>
               <span style={{ fontSize: "14px", lineHeight: "1.55", color: "#3A4150" }}>
-                {t("Intakegesprek en strategie | Pixel, server-side koppeling en conversies instellen | Eerste campagne live")}
+                {t("Intakegesprek en strategie | Pixel")}
+                <Tip label={ta("Uitleg")}>
+                  {t("Pixel: een stukje code op je website dat meet wat bezoekers doen na een klik op je advertentie.")}
+                </Tip>
+                {t(", server-side")}
+                <Tip label={ta("Uitleg")}>
+                  {t("Server-side: meten via je eigen server in plaats van alleen de browser, zodat minder data verloren gaat.")}
+                </Tip>{" "}
+                {t("koppeling en conversies")}
+                <Tip label={ta("Uitleg")}>
+                  {t("Conversie: een bezoeker die doet wat jij wilt, zoals een bestelling plaatsen.")}
+                </Tip>{" "}
+                {t("instellen | Eerste campagne live")}
               </span>
             </div>
             <div
@@ -3866,7 +3903,11 @@ export function DienstSMALooptijdContent() {
                 <span>{t("Eerste resultaten")}</span>
               </strong>
               <span style={{ fontSize: "14px", lineHeight: "1.55", color: "#3A4150" }}>
-                {t("Eerste resultaten meten | Video- en UGC-advertenties toevoegen, met beeld dat je aanlevert of dat wij als meerwerk maken | Advertenties zonder resultaat vervangen")}
+                {t("Eerste resultaten meten | Video- en UGC-advertenties")}
+                <Tip label={ta("Uitleg")}>
+                  {t("UGC (user-generated content): video's gemaakt door echte mensen in plaats van door een reclamebureau.")}
+                </Tip>{" "}
+                {t("toevoegen, met beeld dat je aanlevert of dat wij als meerwerk maken | Advertenties zonder resultaat vervangen")}
               </span>
             </div>
             <div
@@ -4029,7 +4070,11 @@ export function DienstSMALooptijdContent() {
                 <span>{t("Testen en bijsturen")}</span>
               </strong>
               <span style={{ fontSize: "14px", lineHeight: "1.55", color: "#3A4150" }}>
-                {t("A/B-testen op advertenties | Budget naar wat werkt | Evaluatie na 3 maanden")}
+                {t("A/B-testen")}
+                <Tip label={ta("Uitleg")}>
+                  {t("A/B-test: je toont twee versies aan verschillende groepen en kijkt welke het beste werkt.")}
+                </Tip>{" "}
+                {t("op advertenties | Budget naar wat werkt | Evaluatie na 3 maanden")}
               </span>
             </div>
             <div
@@ -5081,6 +5126,9 @@ export function DienstSMALooptijdContent() {
               </strong>
               <span style={{ fontSize: "14px", lineHeight: "1.55", color: "#3A4150" }}>
                 {t("Advertenties en budget verfijnen op basis van data | Nieuwe A/B-testen")}
+                <Tip label={ta("Uitleg")}>
+                  {t("A/B-test: je toont twee versies aan verschillende groepen en kijkt welke het beste werkt.")}
+                </Tip>
               </span>
             </div>
             <div
@@ -5368,9 +5416,11 @@ export function DienstSMALooptijdContent() {
                 </svg>
               </summary>
               <p style={{ margin: "0 0 12px", fontSize: "15px", lineHeight: "1.65", color: "#3A4150" }}>
-                {t(
-                  "Dan werken we verder vanuit je bestaande advertentieaccount en pixel. Zo blijft de opgebouwde data behouden en weet Meta al wie er bij jou koopt of een aanvraag doet.",
-                )}
+                {t("Dan werken we verder vanuit je bestaande advertentieaccount en pixel.")}
+                <Tip label={ta("Uitleg")}>
+                  {t("Pixel: een stukje code op je website dat meet wat bezoekers doen na een klik op je advertentie.")}
+                </Tip>{" "}
+                {t("Zo blijft de opgebouwde data behouden en weet Meta al wie er bij jou koopt of een aanvraag doet.")}
               </p><p style={{ margin: "0 0 20px", fontSize: "15px", lineHeight: "1.65", color: "#3A4150" }}>
                 {t(
                   "Een nieuw account begint zonder data en heeft daarom eerst tijd nodig om te leren.",
@@ -5409,9 +5459,11 @@ export function DienstSMALooptijdContent() {
                 </svg>
               </summary>
               <p style={{ margin: "0 0 20px", fontSize: "15px", lineHeight: "1.65", color: "#3A4150" }}>
-                {t(
-                  "Beheerdertoegang tot je Meta Business-account, je Facebook-pagina en Instagram, en toegang tot je website of Google Tag Manager. Daarnaast beeldmateriaal: foto's, video's en reviews van klanten, hoe eenvoudiger hoe beter. En iemand die onze vragen binnen enkele werkdagen kan beantwoorden.",
-                )}
+                {t("Beheerdertoegang tot je Meta Business-account, je Facebook-pagina en Instagram, en toegang tot je website of Google Tag Manager.")}
+                <Tip label={ta("Uitleg")}>
+                  {t("Google Tag Manager: een tool van Google waarmee je meetcodes op je website beheert, zonder de website zelf aan te passen.")}
+                </Tip>{" "}
+                {t("Daarnaast beeldmateriaal: foto's, video's en reviews van klanten, hoe eenvoudiger hoe beter. En iemand die onze vragen binnen enkele werkdagen kan beantwoorden.")}
               </p>
             </details>
             <details className="tf-faq" style={{ background: "#F2F8FE", borderRadius: "16px", padding: "0 24px" }}>
@@ -5446,9 +5498,15 @@ export function DienstSMALooptijdContent() {
                 </svg>
               </summary>
               <p style={{ margin: "0 0 12px", fontSize: "15px", lineHeight: "1.65", color: "#3A4150" }}>
-                {t(
-                  "Het opnemen van video's, UGC met makers en fotografie, het bouwen van een nieuwe website of landingspagina en het opzetten van een productcatalogus als je die nog niet hebt. Advertenties maken we met beeld dat je al hebt of aanlevert.",
-                )}
+                {t("Het opnemen van video's, UGC")}
+                <Tip label={ta("Uitleg")}>
+                  {t("UGC (user-generated content): video's gemaakt door echte mensen in plaats van door een reclamebureau.")}
+                </Tip>{" "}
+                {t("met makers en fotografie, het bouwen van een nieuwe website of landingspagina")}
+                <Tip label={ta("Uitleg")}>
+                  {t("Landingspagina: de pagina waar iemand terechtkomt na een klik op je advertentie.")}
+                </Tip>{" "}
+                {t("en het opzetten van een productcatalogus als je die nog niet hebt. Advertenties maken we met beeld dat je al hebt of aanlevert.")}
               </p><p style={{ margin: "0 0 20px", fontSize: "15px", lineHeight: "1.65", color: "#3A4150" }}>
                 {t(
                   "We bepalen wat er nodig is en leveren hiervoor duidelijke specificaties aan. Of wij dit uitvoeren of een partij die je zelf kiest, en welke kosten daaraan verbonden zijn, bespreken we zodra dit aan de orde is.",
@@ -5487,9 +5545,14 @@ export function DienstSMALooptijdContent() {
                 </svg>
               </summary>
               <p style={{ margin: "0 0 12px", fontSize: "15px", lineHeight: "1.65", color: "#3A4150" }}>
-                {t(
-                  "In de laatste maand bespreken we hoe je verder wilt. Besluit je te stoppen? Dan behoud je volledige toegang tot het advertentieaccount en alles wat we hebben opgebouwd, waaronder de campagnes, advertenties, pixeldata en conversiemetingen.",
-                )}
+                {t("In de laatste maand bespreken we hoe je verder wilt. Besluit je te stoppen? Dan behoud je volledige toegang tot het advertentieaccount en alles wat we hebben opgebouwd, waaronder de campagnes, advertenties, pixeldata")}
+                <Tip label={ta("Uitleg")}>
+                  {t("Pixel: een stukje code op je website dat meet wat bezoekers doen na een klik op je advertentie.")}
+                </Tip>{" "}
+                {t("en conversiemetingen.")}
+                <Tip label={ta("Uitleg")}>
+                  {t("Conversie: een bezoeker die doet wat jij wilt, zoals een bestelling plaatsen.")}
+                </Tip>
               </p><p style={{ margin: "0 0 20px", fontSize: "15px", lineHeight: "1.65", color: "#3A4150" }}>
                 {t(
                   "Het account is en blijft van jou.",

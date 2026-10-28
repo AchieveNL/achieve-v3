@@ -627,6 +627,9 @@ export function DienstSEAContent() {
                 }}
               >
                 {t("Jouw landingspagina's")}
+                <Tip label={ta("Uitleg")} plain>
+                  {t("Landingspagina: de pagina waar iemand terechtkomt na een klik op je advertentie.")}
+                </Tip>
               </li>
               <li
                 style={{
@@ -739,7 +742,13 @@ export function DienstSEAContent() {
                 >
                   <path d="M4 12.5l5 5L20 6.5"></path>
                 </svg>
-                <span>{t("Gerichte targeting op demografie, interesses, gedrag en meer")}</span>
+                <span>
+                  {t("Gerichte targeting")}
+                  <Tip label={ta("Uitleg")} plain>
+                    {t("Targeting: bepalen wie je advertentie te zien krijgt, bijvoorbeeld op leeftijd, interesses of woonplaats.")}
+                  </Tip>{" "}
+                  {t("op demografie, interesses, gedrag en meer")}
+                </span>
               </li>
               <li style={{ display: "flex", gap: "12px", fontSize: "17px", lineHeight: "1.55", color: "#FFFFFF" }}>
                 <svg
@@ -1590,7 +1599,11 @@ export function DienstSEAContent() {
                   {t("1. Intakegesprek")}
                 </h3>
                 <p style={{ margin: "0", maxWidth: "300px", fontSize: "16px", lineHeight: "1.6", color: "#C9CFF0" }}>
-                  {t("We bespreken je merk, doelgroep en doelen, en bepalen welke zoekwoorden, platforms en advertentievormen passen.")}
+                  {t("We bespreken je merk, doelgroep en doelen, en bepalen welke zoekwoorden")}
+                  <Tip label={ta("Uitleg")} plain>
+                    {t("Zoekwoorden: de woorden die mensen in Google intypen. Daarop laten we je advertentie verschijnen.")}
+                  </Tip>
+                  {t(", platforms en advertentievormen passen.")}
                 </p>
               </li>
               <li style={{ position: "relative", display: "flex", flexDirection: "column", gap: "12px", alignItems: "flex-start" }}>
@@ -1656,7 +1669,11 @@ export function DienstSEAContent() {
                   {t("3. Campagne opzetten")}
                 </h3>
                 <p style={{ margin: "0", maxWidth: "300px", fontSize: "16px", lineHeight: "1.6", color: "#C9CFF0" }}>
-                  {t("We schrijven sterke advertenties en zorgen voor de juiste targeting en tracking, zodat je vanaf dag één presteert.")}
+                  {t("We schrijven sterke advertenties en zorgen voor de juiste targeting")}
+                  <Tip label={ta("Uitleg")} plain>
+                    {t("Targeting: bepalen wie je advertentie te zien krijgt, bijvoorbeeld op leeftijd, interesses of woonplaats.")}
+                  </Tip>{" "}
+                  {t("en tracking, zodat je vanaf dag één presteert.")}
                 </p>
               </li>
               <li style={{ position: "relative", display: "flex", flexDirection: "column", gap: "12px", alignItems: "flex-start" }}>
@@ -1689,7 +1706,11 @@ export function DienstSEAContent() {
                   {t("4. Analyse en optimalisatie")}
                 </h3>
                 <p style={{ margin: "0", maxWidth: "300px", fontSize: "16px", lineHeight: "1.6", color: "#C9CFF0" }}>
-                  {t("We volgen klikgedrag, conversies en kosten, en verbeteren je campagnes doorlopend voor een steeds beter rendement.")}
+                  {t("We volgen klikgedrag, conversies")}
+                  <Tip label={ta("Uitleg")} plain>
+                    {t("Conversie: een bezoeker die doet wat jij wilt, zoals een bestelling plaatsen.")}
+                  </Tip>{" "}
+                  {t("en kosten, en verbeteren je campagnes doorlopend voor een steeds beter rendement.")}
                 </p>
               </li>
             </ol>
