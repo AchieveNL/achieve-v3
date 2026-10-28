@@ -534,3 +534,10 @@ main:has(> #achiever) > :is(#diensten,#werkwijze,#werk,#over-ons){content-visibi
 /* Uitlegbolletje op donkere vlakken: wit blokje met nachtblauwe tekst, anders valt het weg tegen de achtergrond */
 .sv-dark .tf-tip-box,.hero-dark .tf-tip-box,.cs-qdark .tf-tip-box{background:#FFFFFF;color:#1F246C;box-shadow:0 12px 32px rgba(10,12,40,0.35)}
 .sv-dark .tf-tip-box::after,.hero-dark .tf-tip-box::after,.cs-qdark .tf-tip-box::after{border-top-color:#FFFFFF}
+/* Uitlegbolletje op mobiel, op elke pagina: blokje direct onder (of boven) het "i", nooit afgeknipt door een sectie.
+   Plaatsing via TipPlace.tsx, ook in de pakketkaarten. */
+@media (max-width: 720px){
+body .tf-tip-box{position:fixed;left:16px;right:16px;top:auto;bottom:auto;transform:none;width:auto;max-width:none;margin-top:28px;z-index:60}
+body .tf-tip-box::after{display:none}
+body .tfm-slide .tf-tip-box{position:fixed;left:16px;right:16px;top:auto;margin-top:28px;z-index:60}
+}

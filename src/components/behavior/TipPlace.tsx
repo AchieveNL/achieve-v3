@@ -7,7 +7,8 @@ import { useEffect } from "react";
  * position:fixed so section overflow can never clip it. This places it right
  * under the tapped "i" (or above it when there is no room above the sticky
  * booking bar), and closes it on scroll so it never floats away from its word.
- * Tips inside price slides (.tfm-slide) keep their own card-anchored layout.
+ * A transformed ancestor (animations) turns "fixed" into "relative to that
+ * ancestor", so the position is measured and corrected after a first pass.
  */
 const MOBILE = "(max-width: 720px)";
 const GAP = 8;
@@ -18,7 +19,7 @@ export function TipPlace() {
     const mq = window.matchMedia(MOBILE);
 
     const place = (tip: HTMLElement) => {
-      if (!mq.matches || tip.closest(".tfm-slide")) return;
+      if (!mq.matches) return;
       const box = tip.querySelector<HTMLElement>(".tf-tip-box");
       if (!box || getComputedStyle(box).position !== "fixed") return;
       const r = tip.getBoundingClientRect();
@@ -26,17 +27,21 @@ export function TipPlace() {
       const barTop = bar && bar.offsetParent !== null ? bar.getBoundingClientRect().top : window.innerHeight;
       box.style.marginTop = "0";
       box.style.top = "0px";
-      const h = box.offsetHeight;
+      box.style.left = "0px";
+      box.style.right = "auto";
+      box.style.width = `${window.innerWidth - 2 * EDGE - 8}px`;
+      const o = box.getBoundingClientRect(); // where (0,0) really lands
+      const h = o.height;
       let top = r.bottom + GAP;
       if (top + h > barTop - EDGE && r.top - GAP - h >= EDGE) top = r.top - GAP - h;
-      box.style.top = `${Math.round(top)}px`;
+      box.style.top = `${Math.round(top - o.top)}px`;
+      box.style.left = `${Math.round(EDGE + 4 - o.left)}px`;
     };
 
     const reset = (tip: Element) => {
       const box = tip.querySelector<HTMLElement>(".tf-tip-box");
       if (box) {
-        box.style.top = "";
-        box.style.marginTop = "";
+        for (const k of ["top", "left", "right", "width", "marginTop"] as const) box.style[k] = "";
       }
     };
 
@@ -51,7 +56,7 @@ export function TipPlace() {
     const onScroll = () => {
       if (!mq.matches) return;
       const a = document.activeElement as HTMLElement | null;
-      if (a?.classList.contains("tf-tip") && !a.closest(".tfm-slide")) a.blur();
+      if (a?.classList.contains("tf-tip")) a.blur();
     };
 
     document.addEventListener("focusin", onIn);
