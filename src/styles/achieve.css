@@ -531,3 +531,6 @@ main:has(> #achiever) > :is(#diensten,#werkwijze,#werk,#over-ons){content-visibi
 .rc-q{margin:12px 0 0;font-size:16px;line-height:34px;color:#3A4150}
 .rc-tags{position:absolute;left:40px;right:40px;bottom:32px;display:flex;flex-wrap:nowrap;gap:8px;margin:0;padding:0;white-space:nowrap}
 .rc-tags>span{font-size:11px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;padding:4px 12px;border-radius:999px}
+/* Uitlegbolletje op donkere vlakken: wit blokje met nachtblauwe tekst, anders valt het weg tegen de achtergrond */
+.sv-dark .tf-tip-box,.hero-dark .tf-tip-box,.cs-qdark .tf-tip-box{background:#FFFFFF;color:#1F246C;box-shadow:0 12px 32px rgba(10,12,40,0.35)}
+.sv-dark .tf-tip-box::after,.hero-dark .tf-tip-box::after,.cs-qdark .tf-tip-box::after{border-top-color:#FFFFFF}

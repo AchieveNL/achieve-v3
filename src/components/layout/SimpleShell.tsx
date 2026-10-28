@@ -5,6 +5,7 @@ import { getDicts, getTr } from "@/i18n/server";
 import type { Locale, PageId } from "@/i18n/config";
 import { CalendlyPopup } from "@/components/behavior/CalendlyPopup";
 import { ButtonFit } from "@/components/behavior/ButtonFit";
+import { TipPlace } from "@/components/behavior/TipPlace";
 import { Footer } from "./Footer";
 import { SimpleFooter } from "./SimpleFooter";
 import { SimpleHeader } from "./SimpleHeader";
@@ -47,6 +48,7 @@ export async function SimpleShell({
       </div>
       <CalendlyPopup />
       <ButtonFit />
+      <TipPlace />
       <PageLoader />
     </I18nProvider>
   );
