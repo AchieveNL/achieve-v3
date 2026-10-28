@@ -356,7 +356,7 @@ html,body{overflow-x:clip}
 /* Hero review cards: short entrance on first paint, no JavaScript needed.
    Uses the individual `translate`/`scale` properties so the JS bob (transform) composes with it. */
 .hero-card-in{animation:heroCardIn .55s cubic-bezier(.22,1,.36,1) both}
-@keyframes heroCardIn{from{opacity:0;translate:0 24px;scale:.96}to{opacity:1;translate:0 0;scale:1}}
+@keyframes heroCardIn{from{translate:0 24px;scale:.96}to{translate:0 0;scale:1}} /* no fade: the cards (largest text on phones) paint immediately */
 @media (prefers-reduced-motion:reduce){.hero-card-in{animation:none}}
 
 /* Orbiting team bubbles move constantly; a hover lift would make them jump up and

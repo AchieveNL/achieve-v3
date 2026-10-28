@@ -7,7 +7,7 @@ import { createContext, useCallback, useContext, useEffect, useEffectEvent, useR
  * content), like the pause button in the design. Also respects
  * prefers-reduced-motion.
  */
-type MotionCtx = { paused: boolean; reduced: boolean; toggle: () => void };
+type MotionCtx = { paused: boolean; reduced: boolean; live: boolean; toggle: () => void };
 const Ctx = createContext<MotionCtx | null>(null);
 
 export function MotionProvider({ children }: { children: ReactNode }) {
@@ -23,8 +23,26 @@ export function MotionProvider({ children }: { children: ReactNode }) {
       mq.removeEventListener("change", on);
     };
   }, []);
+  // Frame loops start once the page has loaded and gone idle, so the first paint and the
+  // load itself get the main thread to themselves. (Things look the same; they start moving a moment later.)
+  const [live, setLive] = useState(false);
+  useEffect(() => {
+    let idle = 0;
+    const go = () => {
+      const ric = (window as Window & { requestIdleCallback?: (cb: () => void, o?: { timeout: number }) => number }).requestIdleCallback;
+      idle = ric ? ric(() => setLive(true), { timeout: 1500 }) : window.setTimeout(() => setLive(true), 500);
+    };
+    if (document.readyState === "complete") go();
+    else window.addEventListener("load", go, { once: true });
+    return () => {
+      window.removeEventListener("load", go);
+      const cic = (window as Window & { cancelIdleCallback?: (id: number) => void }).cancelIdleCallback;
+      if (cic) cic(idle);
+      else clearTimeout(idle);
+    };
+  }, []);
   const toggle = useCallback(() => setUserPaused((p) => !p), []);
-  return <Ctx.Provider value={{ paused: userPaused || reduced, reduced, toggle }}>{children}</Ctx.Provider>;
+  return <Ctx.Provider value={{ paused: userPaused || reduced, reduced, live, toggle }}>{children}</Ctx.Provider>;
 }
 
 export function useMotion(): MotionCtx {
@@ -38,14 +56,14 @@ export function useMotion(): MotionCtx {
  * While paused (or with reduced motion) the loop stops and time does not advance.
  */
 export function useFrame(cb: (now: number, dt: number, t: number) => void, enabled = true) {
-  const { paused } = useMotion();
+  const { paused, live } = useMotion();
   const t = useRef(0);
   const onFrame = useEffectEvent((now: number, dt: number) => {
     t.current += dt;
     cb(now, dt, t.current);
   });
   useEffect(() => {
-    if (!enabled || paused) return;
+    if (!enabled || paused || !live) return;
     let raf = 0;
     let last = performance.now();
     const loop = (now: number) => {
@@ -57,7 +75,7 @@ export function useFrame(cb: (now: number, dt: number, t: number) => void, enabl
     };
     raf = requestAnimationFrame(loop);
     return () => cancelAnimationFrame(raf);
-  }, [enabled, paused]);
+  }, [enabled, paused, live]);
 }
 
 /** setInterval that stops while animations are paused or reduced. */
