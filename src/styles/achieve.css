@@ -461,7 +461,7 @@ html:has(.jn-bar){scroll-behavior:smooth}
 .fc-bars button{display:flex;flex-direction:column;align-items:flex-start;gap:4px;padding:0;border:0;background:none;font:inherit;text-align:left;cursor:pointer;color:#FFFFFF;opacity:.6;transition:opacity .3s ease}
 .fc-bars button.is-on,.fc-bars button:hover,.fc-bars button:focus-visible{opacity:1}
 .fc-bar{position:relative;display:block;width:100%;height:3px;border-radius:2px;background:rgba(255,255,255,.3);overflow:hidden;margin-bottom:8px}
-.fc-bar > span{position:absolute;left:0;top:0;bottom:0;width:0;border-radius:2px;background:linear-gradient(90deg,#B48DFF,#5EC0FA)}
+.fc-bar > span{position:absolute;left:0;top:0;bottom:0;width:100%;transform:scaleX(0);transform-origin:left center;border-radius:2px;background:linear-gradient(90deg,#B48DFF,#5EC0FA)}
 .fc-num{font-family:var(--font-display);font-size:14px;font-weight:700;color:#FAE84E}
 .fc-name{font-size:15px;font-weight:600;line-height:1.3}
 .fc-bars .fc-pager{bottom:calc(100% - 52px)}
@@ -512,3 +512,5 @@ html:has(.jn-bar){scroll-behavior:smooth}
 @media (max-width: 600px){.fc-bars button{opacity:1}.fc-bars button:not(.is-on) .fc-num{color:#5A6273}.fc-bars button:not(.is-on) .fc-bar{opacity:.55}}
 /* Omlijnde stapnummers (Werkwijze) zijn decoratie: getekend via ::before, zodat ze niet als tekst meetellen */
 .step-num::before{content:attr(data-n)}
+/* Snelheid (Home): secties onder de vouw worden pas opgemaakt als ze in beeld komen */
+main:has(> #achiever) > :not(:first-child){content-visibility:auto;contain-intrinsic-size:auto 900px}

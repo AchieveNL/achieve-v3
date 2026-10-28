@@ -24,7 +24,7 @@ export function FeaturedCases() {
     const cp = Math.min(1, elapsed.current / DUR);
     root.current?.querySelectorAll<HTMLElement>("[data-casebar]").forEach((el) => {
       const k = Number(el.getAttribute("data-casebar"));
-      el.style.width = (k === ci ? cp * 100 : k < ci ? 100 : 0).toFixed(2) + "%";
+      el.style.transform = `scaleX(${(k === ci ? cp : k < ci ? 1 : 0).toFixed(4)})`; // transform, not width: no layout per frame
     });
     if (cp >= 1) {
       elapsed.current = 0;

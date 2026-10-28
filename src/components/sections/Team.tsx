@@ -13,29 +13,8 @@ export function Team() {
   const ORDER = ["Karim", "Abdelmonim", "Niek", "Seyma", "Jonas", "Denise"];
   // Static layout is set once; each frame only writes `translate` (no layout reads per frame, so no forced reflow).
   const box = useRef({ w: 0, h: 0, ready: false });
-  useEffect(() => {
-    const r = root.current;
-    if (!r) return;
-    const bubbles = Array.from(r.querySelectorAll<HTMLElement>(".team-bubble"));
-    const W = 23;
-    bubbles.forEach((el) => {
-      el.style.transition = "none";
-      el.style.right = "auto";
-      el.style.bottom = "auto";
-      el.style.left = 50 - W / 2 + "%";
-      el.style.top = 50 - W / 2 + "%";
-      el.style.width = W + "%";
-      el.style.willChange = "translate";
-    });
-    const parent = bubbles[0]?.offsetParent as HTMLElement | null;
-    if (!parent) return;
-    const ro = new ResizeObserver(([e]) => {
-      box.current = { w: e.contentRect.width, h: e.contentRect.height, ready: true };
-    });
-    ro.observe(parent);
-    return () => ro.disconnect();
-  }, []);
-  useFrame((_now, _dt, t) => {
+  const lastT = useRef(0);
+  const place = (t: number) => {
     const r = root.current;
     if (!r || !box.current.ready) return;
     const bubbles = r.querySelectorAll<HTMLElement>(".team-bubble");
@@ -52,6 +31,37 @@ export function Team() {
       el.style.translate = `${(((cx - 50) * bw) / 100).toFixed(2)}px ${(((cy - 50) * bh) / 100).toFixed(2)}px`;
     });
     r.querySelectorAll("[data-orbit]").forEach((el) => el.setAttribute("transform", `rotate(${((t * 4) % 360).toFixed(2)} 50 50)`));
+  };
+  const placeRef = useRef(place);
+  useEffect(() => {
+    placeRef.current = place;
+  });
+  useEffect(() => {
+    const r = root.current;
+    if (!r) return;
+    const bubbles = Array.from(r.querySelectorAll<HTMLElement>(".team-bubble"));
+    const W = 23;
+    bubbles.forEach((el) => {
+      el.style.transition = "none";
+      el.style.right = "auto";
+      el.style.bottom = "auto";
+      el.style.left = 50 - W / 2 + "%";
+      el.style.top = 50 - W / 2 + "%";
+      el.style.width = W + "%";
+      el.style.willChange = "translate";
+    });
+    const parent = bubbles[0]?.parentElement ?? null; // positioned box of the orbit (offsetParent is null while the section is not rendered yet)
+    if (!parent) return;
+    const ro = new ResizeObserver(([e]) => {
+      box.current = { w: e.contentRect.width, h: e.contentRect.height, ready: true };
+      placeRef.current(lastT.current); // also when animations are paused / reduced motion
+    });
+    ro.observe(parent);
+    return () => ro.disconnect();
+  }, []);
+  useFrame((_now, _dt, t) => {
+    lastT.current = t;
+    place(t);
   });
   return (
     <>
@@ -148,7 +158,7 @@ export function Team() {
                     }}
                   >
                     <img
-                      src="/media/team/md/karim.webp"
+                      src="/media/team/small/karim.webp"
                       alt={ta("Portret van Karim")}
                       className="team-img"
                       style={{ maxWidth: "none", position: "absolute", left: "-14%", top: "0", width: "128%", height: "auto" }}
@@ -204,7 +214,7 @@ export function Team() {
                     }}
                   >
                     <img
-                      src="/media/team/md/abdelmonim.webp"
+                      src="/media/team/small/abdelmonim.webp"
                       alt={ta("Portret van Abdelmonim")}
                       className="team-img"
                       style={{ maxWidth: "none", position: "absolute", left: "-14%", top: "0", width: "128%", height: "auto" }}
@@ -260,7 +270,7 @@ export function Team() {
                     }}
                   >
                     <img
-                      src="/media/team/md/niek.webp"
+                      src="/media/team/small/niek.webp"
                       alt={ta("Portret van Niek")}
                       className="team-img"
                       style={{ maxWidth: "none", position: "absolute", left: "-14%", top: "0", width: "128%", height: "auto" }}
@@ -316,7 +326,7 @@ export function Team() {
                     }}
                   >
                     <img
-                      src="/media/team/md/jonas.webp"
+                      src="/media/team/small/jonas.webp"
                       alt={ta("Portret van Jonas")}
                       className="team-img"
                       style={{ maxWidth: "none", position: "absolute", left: "-14%", top: "0", width: "128%", height: "auto" }}
@@ -372,7 +382,7 @@ export function Team() {
                     }}
                   >
                     <img
-                      src="/media/team/md/seyma.webp"
+                      src="/media/team/small/seyma.webp"
                       alt={ta("Portret van Seyma")}
                       className="team-img"
                       style={{ maxWidth: "none", position: "absolute", left: "-5%", top: "0", width: "110%", height: "auto" }}
@@ -428,7 +438,7 @@ export function Team() {
                     }}
                   >
                     <img
-                      src="/media/team/md/denise.webp"
+                      src="/media/team/small/denise.webp"
                       alt={ta("Portret van Denise")}
                       className="team-img"
                       style={{ maxWidth: "none", position: "absolute", left: "-5%", top: "0", width: "110%", height: "auto" }}
