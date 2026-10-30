@@ -15,6 +15,9 @@ import { CaseBioNippyContent } from "@/components/cases/CaseBioNippyContent";
 import { CaseCherriesContent } from "@/components/cases/CaseCherriesContent";
 import { CasePlanLesContent } from "@/components/cases/CasePlanLesContent";
 import { CaseGromotionContent } from "@/components/cases/CaseGromotionContent";
+import { CaseCareerRebelsContent } from "@/components/cases/CaseCareerRebelsContent";
+import { CaseGreenTeamContent } from "@/components/cases/CaseGreenTeamContent";
+import { CaseKortingCentrumContent } from "@/components/cases/CaseKortingCentrumContent";
 import { CaseFrootieContent } from "@/components/cases/CaseFrootieContent";
 import { CaseWrppnContent } from "@/components/cases/CaseWrppnContent";
 import { CaseCryptoArchitectContent } from "@/components/cases/CaseCryptoArchitectContent";
@@ -151,6 +154,21 @@ const CASES: Record<CaseId, { Content: ComponentType; title: string; description
     Content: CaseFrootieContent,
     title: "Frootie: nieuwe huisstijl en website voor verse babyvoeding | Achieve",
     description: "Hoe Achieve voor Frootie een huisstijlhandboek en een nieuwe website ontwikkelde voor kinderdagverblijven en jonge ouders.",
+  },
+  CaseKortingCentrum: {
+    Content: CaseKortingCentrumContent,
+    title: "KortingCentrum: snel kortingsplatform op basis van affiliate links | Achieve",
+    description: "Hoe Achieve voor KortingCentrum een razendsnel platform bouwde dat kortingen uit verschillende bronnen op één plek bundelt.",
+  },
+  CaseGreenTeam: {
+    Content: CaseGreenTeamContent,
+    title: "GreenTeam: website met prijscalculator voor vloer- en traprenovatie | Achieve",
+    description: "Hoe Achieve voor GreenTeam een website met prijscalculator en CRM-koppeling bouwde die vertrouwen wekt door transparantie.",
+  },
+  CaseCareerRebels: {
+    Content: CaseCareerRebelsContent,
+    title: "Career Rebels: 100+ sollicitaties in één weekend met video en Meta Ads | Achieve",
+    description: "Hoe Achieve voor Career Rebels met korte video's en Social Media Advertising in één weekend meer dan 100 sollicitaties opleverde.",
   },
 };
 
