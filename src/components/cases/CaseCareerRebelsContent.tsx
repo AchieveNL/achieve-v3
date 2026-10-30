@@ -466,12 +466,20 @@ export function CaseCareerRebelsContent() {
             </p>
           </div>
           <div style={{ display: "flex", flexDirection: "column", gap: "40px" }}>
-            <figure style={{ margin: "0 auto", width: "100%", maxWidth: "640px", display: "flex", flexDirection: "column", gap: "12px" }}>
+            <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(100%, 320px), 1fr))", gap: "24px", alignItems: "start" }}>
+            <figure style={{ margin: "0", display: "flex", flexDirection: "column", gap: "12px" }}>
               <div style={{ position: "relative", aspectRatio: "1 / 1", borderRadius: "20px", overflow: "hidden", background: "#0E1116" }}>
                 <video src="/media/projects/career-rebels.mp4" poster="/media/projects/career-rebels-promo.webp" controls playsInline preload="none" aria-label={ta("Promovideo voor nieuwe medewerkers")} style={{ position: "absolute", inset: "0", width: "100%", height: "100%", objectFit: "cover", background: "#0E1116" }} />
               </div>
               <figcaption style={{ fontSize: "15px", lineHeight: "1.5", color: "#5A6273" }}>{t("Promovideo voor nieuwe medewerkers")}</figcaption>
             </figure>
+            <figure style={{ margin: "0", display: "flex", flexDirection: "column", gap: "12px" }}>
+              <div style={{ position: "relative", aspectRatio: "1 / 1", borderRadius: "20px", overflow: "hidden", background: "#0E1116" }}>
+                <video src="/media/projects/career-rebels-klantcontact.mp4" poster="/media/projects/career-rebels-klantcontact.webp" controls playsInline preload="none" aria-label={ta("Vacaturevideo: medewerkers klantcontact gezocht")} style={{ position: "absolute", inset: "0", width: "100%", height: "100%", objectFit: "cover", background: "#0E1116" }} />
+              </div>
+              <figcaption style={{ fontSize: "15px", lineHeight: "1.5", color: "#5A6273" }}>{t("Vacaturevideo: medewerkers klantcontact gezocht")}</figcaption>
+            </figure>
+            </div>
             <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(100%, 240px), 1fr))", gap: "24px", alignItems: "start" }}>
             <figure style={{ margin: "0", display: "flex", flexDirection: "column", gap: "12px" }}>
               <div style={{ position: "relative", aspectRatio: "9 / 16", borderRadius: "20px", overflow: "hidden", background: "#0E1116" }}>
