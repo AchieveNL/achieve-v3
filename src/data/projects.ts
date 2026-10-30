@@ -60,7 +60,7 @@ export const projects: Project[] = [
   {
     name: "RCpeptides",
     href: "CaseRCpeptides",
-    year: 2025,
+    year: 2026,
     sector: "Life sciences",
     cats: ["ads"],
     featured: true,
