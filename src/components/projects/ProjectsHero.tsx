@@ -150,7 +150,7 @@ export function ProjectsHero() {
             inset: "0",
             pointerEvents: "none",
             background:
-              "rgba(31, 36, 108, 0.4)",
+              "rgba(31, 36, 108, 0.2)",
           }}
         ></div>
         <div
