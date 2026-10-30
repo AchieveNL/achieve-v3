@@ -15,6 +15,7 @@ import { CaseBioNippyContent } from "@/components/cases/CaseBioNippyContent";
 import { CaseCherriesContent } from "@/components/cases/CaseCherriesContent";
 import { CasePlanLesContent } from "@/components/cases/CasePlanLesContent";
 import { CaseGromotionContent } from "@/components/cases/CaseGromotionContent";
+import { CaseSurpriseCompanyContent } from "@/components/cases/CaseSurpriseCompanyContent";
 import { CaseRegioWestBrabantContent } from "@/components/cases/CaseRegioWestBrabantContent";
 import { CaseZcnZzvContent } from "@/components/cases/CaseZcnZzvContent";
 import { CaseDecathlonContent } from "@/components/cases/CaseDecathlonContent";
@@ -193,6 +194,11 @@ const CASES: Record<CaseId, { Content: ComponentType; title: string; description
     Content: CaseRegioWestBrabantContent,
     title: "Regio West-Brabant: animatie over de arbeidsmarkt | Achieve",
     description: "Hoe Achieve voor Regio West-Brabant een rustige animatie maakte die medewerkers meeneemt in de veranderende arbeidsmarkt.",
+  },
+  CaseSurpriseCompany: {
+    Content: CaseSurpriseCompanyContent,
+    title: "Surprise Company: complete rebranding met brand book en website | Achieve",
+    description: "Hoe Achieve voor Surprise Company in tien weken een nieuw merk, brand book en website neerzette, op tijd voor de kerstperiode.",
   },
 };
 

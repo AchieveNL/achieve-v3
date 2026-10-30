@@ -51,6 +51,7 @@ export const routes = {
   CaseCherries: "projecten/cherries",
   CasePlanLes: "projecten/planles",
   CaseGromotion: "projecten/gromotion",
+  CaseSurpriseCompany: "projecten/surprise-company",
   CaseRegioWestBrabant: "projecten/regio-west-brabant",
   CaseZcnZzv: "projecten/zcn-zzv",
   CaseDecathlon: "projecten/decathlon",

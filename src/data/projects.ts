@@ -25,6 +25,45 @@ export type Project = {
 
 export const projects: Project[] = [
   {
+    name: "Surprise Company",
+    href: "CaseSurpriseCompany",
+    year: 2022,
+    sector: "Zakelijke cadeaus",
+    cats: ["brand", "web"],
+    tags: [
+      {
+        label: "Branding",
+        color: "#6B2BD9",
+        bg: "#EFE8FD",
+      },
+      {
+        label: "Brand Book",
+        color: "#6B2BD9",
+        bg: "#EFE8FD",
+      },
+      {
+        label: "WordPress Website",
+        color: "#0B6DB8",
+        bg: "#E3F1FD",
+      },
+    ],
+    result: "Complete rebranding met brand book en nieuwe website, in tien weken klaar voor de kerst",
+    quote: "",
+    challenge: "Het bestaande merk sloot niet meer aan en sprak potentiële klanten te weinig aan.",
+    initials: "SC",
+    tile: "linear-gradient(135deg, #1F246C 0%, #0F8AE5 100%)",
+    hasImg: true,
+    noImg: false,
+    img: "/media/projects/surprise-company-01.webp",
+    alt: "De nieuwe website van Surprise Company op een laptop, tablet en telefoon",
+    gallery: [
+      { img: "/media/projects/surprise-company-01.webp", alt: "De nieuwe website van Surprise Company op een laptop, tablet en telefoon" },
+      { img: "/media/projects/surprise-company-02.webp", alt: "Het brand book van Surprise Company met vormentaal, visitekaartje en social media" },
+      { img: "/media/projects/surprise-company-03.webp", alt: "Het brand book van Surprise Company met logogebruik en kleurenpalet" },
+      { img: "/media/projects/surprise-company-04.webp", alt: "De partners en de footer van de website van Surprise Company op een laptop, tablet en telefoon" },
+    ],
+  },
+  {
     name: "Regio West-Brabant",
     href: "CaseRegioWestBrabant",
     year: 2020,
@@ -1442,6 +1481,15 @@ export const heroProjects: HeroProject[] = [
     video: "/media/projects/regio-west-brabant-hero.mp4",
     poster: "/media/projects/regio-west-brabant-01.webp",
     initials: "RWB",
+    bg: "#2B3190",
+  },
+  {
+    name: "Surprise Company",
+    sector: "Zakelijke cadeaus",
+    sub: "Een complete rebranding met brand book en nieuwe website, in tien weken klaar voor de kerst.",
+    tag: "Branding · Brand Book · WordPress Website",
+    img: "/media/projects/surprise-company-01.webp",
+    initials: "SC",
     bg: "#2B3190",
   },
 ];
