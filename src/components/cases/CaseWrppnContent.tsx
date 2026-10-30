@@ -10,16 +10,16 @@ import { LazyVideo } from "@/components/ui/LazyVideo";
 
 export function CaseWrppnContent() {
   // Hero photo (the LCP image): fetch it right away.
-  preload("/media/projects/wrppn-01.webp", { as: "image", fetchPriority: "high", imageSrcSet: srcSet("/media/projects/wrppn-01.webp"), imageSizes: IMG_SIZES });
+  preload("/media/projects/wrppn-03.webp", { as: "image", fetchPriority: "high", imageSrcSet: srcSet("/media/projects/wrppn-03.webp"), imageSizes: IMG_SIZES });
   const { t, ta, href } = useTr();
 
   // Photo slider and media carousel are click-through.
   const [csI, setCsI] = useState(0);
   const [mkI, setMkI] = useState(0);
   const SLIDES: { img: string; alt: string; mpos?: string; video?: string }[] = [
+    { img: "/media/projects/wrppn-03.webp", alt: "Het huisstijlhandboek van WRPPN opengeslagen bij het visitekaartje" },
     { img: "/media/projects/wrppn-01.webp", alt: "Pagina's uit het huisstijlhandboek van WRPPN met logo, kleuren en fotografie" },
     { img: "/media/projects/wrppn-02.webp", alt: "Het huisstijlhandboek van WRPPN opengeslagen bij logo en kleuren" },
-    { img: "/media/projects/wrppn-03.webp", alt: "Het huisstijlhandboek van WRPPN opengeslagen bij het visitekaartje" },
   ];
   const N = SLIDES.length;
   const ci = csI % N;
@@ -59,8 +59,8 @@ export function CaseWrppnContent() {
       >
         <img
           fetchPriority="high"
-          src="/media/projects/wrppn-01.webp"
-          srcSet={srcSet("/media/projects/wrppn-01.webp")}
+          src="/media/projects/wrppn-03.webp"
+          srcSet={srcSet("/media/projects/wrppn-03.webp")}
           sizes={IMG_SIZES}
           alt=""
           aria-hidden="true"
