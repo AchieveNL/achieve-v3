@@ -47,7 +47,6 @@ export const projects: Project[] = [
     img: "/media/projects/regio-west-brabant-01.webp",
     alt: "Illustratie uit de animatie van RWB: twee mensen op een wereldbol met de vlag van West-Brabant",
     gallery: [
-      { img: "/media/projects/regio-west-brabant-01.webp", alt: "Illustratie uit de animatie van RWB: twee mensen op een wereldbol met de vlag van West-Brabant" },
       {
         video: "/media/projects/regio-west-brabant-hero.mp4",
         poster: "/media/projects/regio-west-brabant-01.webp",
@@ -78,7 +77,6 @@ export const projects: Project[] = [
     img: "/media/projects/zcn-zzv-01.webp",
     alt: "Animatiebeeld met een gele taxi van ZCN",
     gallery: [
-      { img: "/media/projects/zcn-zzv-01.webp", alt: "Animatiebeeld met een gele taxi van ZCN" },
       {
         video: "/media/projects/zcn-zzv-hero.mp4",
         poster: "/media/projects/zcn-zzv-01.webp",
@@ -114,7 +112,6 @@ export const projects: Project[] = [
     img: "/media/projects/decathlon-01.webp",
     alt: "Teamleader Robert in de winkel van Decathlon in Amsterdam",
     gallery: [
-      { img: "/media/projects/decathlon-01.webp", alt: "Teamleader Robert in de winkel van Decathlon in Amsterdam" },
       {
         video: "/media/projects/decathlon-hero.mp4",
         poster: "/media/projects/decathlon-01.webp",
