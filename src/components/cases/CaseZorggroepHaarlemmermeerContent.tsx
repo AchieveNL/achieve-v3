@@ -273,9 +273,19 @@ export function CaseZorggroepHaarlemmermeerContent() {
             </div>
             <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
               <dt style={{ fontSize: "12px", fontWeight: "700", letterSpacing: "0.1em", textTransform: "uppercase", color: "#8639FA" }}>
-                {t("Evenement")}
+                {t("Website")}
               </dt>
-              <dd style={{ margin: "0", fontSize: "16px", fontWeight: "600", color: "#1F246C" }}>{t("Praktijk van de Toekomst 2025")}</dd>
+              <dd style={{ margin: "0", fontSize: "16px", fontWeight: "600" }}>
+                <a
+                  href="https://zorggroephaarlemmermeer.nl/"
+                  target="_blank"
+                  rel="noopener"
+                  translate="no"
+                  style={{ color: "#1F246C", textUnderlineOffset: "4px" }}
+                >
+                  {"ZorggroepHaarlemmermeer.nl"}
+                </a>
+              </dd>
             </div>
             <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
               <dt style={{ fontSize: "12px", fontWeight: "700", letterSpacing: "0.1em", textTransform: "uppercase", color: "#8639FA" }}>
