@@ -417,7 +417,7 @@ export function CaseDeLimesContent() {
               </h3>
               <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.65", color: "#3A4150" }}>
                 {t(
-                  "Huisartsenposten De Limes is een coöperatieve organisatie die 24/7 spoedeisende huisartsen­zorg biedt in de regio Zuid-Holland. Hun missie is om toegankelijke en hoogwaardige spoedzorg te leveren, terwijl medewerkers zich gewaardeerd voelen en nieuwe zorgprofessionals worden aangemoedigd om zich aan te sluiten. Onze taak was om een informatieve en inspirerende video te maken die de rol van een triagist belicht — een sleutelpositie waar veel mensen nog niet bekend mee zijn — om zo nieuw personeel aan te trekken en uit te leggen hoe de huisartsenpost buiten kantoortijden werkt.",
+                  "Huisartsenposten De Limes is een coöperatieve organisatie die 24/7 spoedeisende huisartsen­zorg biedt in de regio Zuid-Holland. Hun missie is om toegankelijke en hoogwaardige spoedzorg te leveren, terwijl medewerkers zich gewaardeerd voelen en nieuwe zorgprofessionals worden aangemoedigd om zich aan te sluiten. Onze taak was om een informatieve en inspirerende video te maken die de rol van een triagist belicht, een sleutelpositie waar veel mensen nog niet bekend mee zijn, om zo nieuw personeel aan te trekken en uit te leggen hoe de huisartsenpost buiten kantoortijden werkt.",
                 )}
               </p>
             </li>

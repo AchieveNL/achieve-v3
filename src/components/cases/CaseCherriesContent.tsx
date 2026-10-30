@@ -426,7 +426,7 @@ export function CaseCherriesContent() {
               </h3>
               <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.65", color: "#3A4150" }}>
                 {t(
-                  "Cherries is een levendig en jong merk dat zich richt op trendy telefoonaccessoires zoals hoesjes, telefoonkoorden, beschermers en opladers. Het doel van dit project was het ontwerpen van een moderne en visueel aantrekkelijke website — inclusief een mobiele versie — die de speelse identiteit van het merk weerspiegelt, terwijl de winkelervaring duidelijk en plezierig blijft.",
+                  "Cherries is een levendig en jong merk dat zich richt op trendy telefoonaccessoires zoals hoesjes, telefoonkoorden, beschermers en opladers. Het doel van dit project was het ontwerpen van een moderne en visueel aantrekkelijke website, inclusief een mobiele versie, die de speelse identiteit van het merk weerspiegelt, terwijl de winkelervaring duidelijk en plezierig blijft.",
                 )}
               </p>
             </li>
