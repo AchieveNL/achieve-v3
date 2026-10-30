@@ -15,6 +15,9 @@ import { CaseBioNippyContent } from "@/components/cases/CaseBioNippyContent";
 import { CaseCherriesContent } from "@/components/cases/CaseCherriesContent";
 import { CasePlanLesContent } from "@/components/cases/CasePlanLesContent";
 import { CaseGromotionContent } from "@/components/cases/CaseGromotionContent";
+import { CaseRegioWestBrabantContent } from "@/components/cases/CaseRegioWestBrabantContent";
+import { CaseZcnZzvContent } from "@/components/cases/CaseZcnZzvContent";
+import { CaseDecathlonContent } from "@/components/cases/CaseDecathlonContent";
 import { CaseMevsenContent } from "@/components/cases/CaseMevsenContent";
 import { CaseCareerRebelsContent } from "@/components/cases/CaseCareerRebelsContent";
 import { CaseGreenTeamContent } from "@/components/cases/CaseGreenTeamContent";
@@ -175,6 +178,21 @@ const CASES: Record<CaseId, { Content: ComponentType; title: string; description
     Content: CaseMevsenContent,
     title: "Mevsen: moderne website voor taalcursussen en inburgering | Achieve",
     description: "Hoe Achieve voor Mevsen een moderne website bouwde die nieuwkomers wegwijs maakt in taalcursussen, roosters en tarieven.",
+  },
+  CaseDecathlon: {
+    Content: CaseDecathlonContent,
+    title: "Decathlon: wervingsvideo's met teamleaders in Amsterdam | Achieve",
+    description: "Hoe Achieve voor Decathlon wervingsvideo's maakte waarin teamleaders zelf vertellen, ingezet in social media-advertenties.",
+  },
+  CaseZcnZzv: {
+    Content: CaseZcnZzvContent,
+    title: "ZCN / ZZV: animatie over de overstap naar ZCN | Achieve",
+    description: "Hoe Achieve voor ZCN een animatie met heldere voice-over maakte die 23.000 verzekerden van Zilveren Kruis informeerde.",
+  },
+  CaseRegioWestBrabant: {
+    Content: CaseRegioWestBrabantContent,
+    title: "Regio West-Brabant: animatie over de arbeidsmarkt | Achieve",
+    description: "Hoe Achieve voor Regio West-Brabant een rustige animatie maakte die medewerkers meeneemt in de veranderende arbeidsmarkt.",
   },
 };
 
