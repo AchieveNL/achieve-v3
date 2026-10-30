@@ -708,19 +708,19 @@ export const projectFilters = [
     label: "Alle",
   },
   {
-    id: "web",
-    label: "Website & webshop",
-  },
-  {
     id: "brand",
     label: "Branding",
   },
   {
-    id: "ads",
-    label: "Advertising",
+    id: "web",
+    label: "Website & webshop",
   },
   {
     id: "video",
     label: "Video & content",
+  },
+  {
+    id: "ads",
+    label: "Advertising",
   },
 ] as const;
