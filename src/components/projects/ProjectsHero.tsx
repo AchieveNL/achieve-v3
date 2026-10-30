@@ -4,7 +4,10 @@ import { useTr } from "@/i18n/I18nProvider";
 import { srcSet, IMG_SIZES } from "@/lib/img";
 import { Fragment, useEffect, useState } from "react";
 import { useMotion, useTick } from "@/components/motion/MotionProvider";
-import { heroProjects } from "@/data/projects";
+import { heroProjects as ALL_HERO } from "@/data/projects";
+
+/** Slides shown per visit. The first project stays put (it is the LCP image); the others are a random pick. */
+const SHOW = 6;
 import { LazyVideo } from "@/components/ui/LazyVideo";
 
 export function ProjectsHero() {
@@ -12,22 +15,38 @@ export function ProjectsHero() {
 
   // Full-screen slides of recent projects; every 6 s the next one wipes in. Thumbnails pick a slide.
   const { paused, toggle } = useMotion();
+  // Server render: the first SHOW projects. After load, every visit gets a different selection in random order.
+  const [order, setOrder] = useState<number[]>(() => ALL_HERO.slice(0, SHOW).map((_, i) => i));
+  useEffect(() => {
+    const id = setTimeout(() => {
+      const rest = ALL_HERO.map((_, i) => i).slice(1);
+      for (let j = rest.length - 1; j > 0; j--) {
+        const r = Math.floor(Math.random() * (j + 1));
+        [rest[j], rest[r]] = [rest[r], rest[j]];
+      }
+      setOrder([0, ...rest.slice(0, SHOW - 1)]);
+    }, 0);
+    return () => clearTimeout(id);
+  }, []);
+  const heroProjects = order.map((i) => ALL_HERO[i]);
   const N = heroProjects.length;
   const [st, setSt] = useState({ i: 0, prev: -1, dir: "R" as "L" | "R" });
-  const [pool, setPool] = useState<Record<number, string>>({});
+  const [pool, setPool] = useState<Record<string, string>>({});
   // Projects with a photo pool show a random photo each time they come up (client only, so SSR stays stable).
+  const curPool = heroProjects[st.i].pool;
+  const curName = heroProjects[st.i].name;
   useEffect(() => {
-    const p = heroProjects[st.i].pool;
+    const p = curPool;
     if (!p?.length) return;
-    const id = setTimeout(() => setPool((o) => ({ ...o, [st.i]: p[Math.floor(Math.random() * p.length)] })), 0);
+    const id = setTimeout(() => setPool((o) => ({ ...o, [curName]: p[Math.floor(Math.random() * p.length)] })), 0);
     return () => clearTimeout(id);
-  }, [st.i]);
+  }, [curName, curPool]);
   useTick(6000, () => setSt((s) => ({ i: (s.i + 1) % N, prev: s.i, dir: "R" })));
   const cur = heroProjects[st.i];
   const h = {
     heroDim: "0.5",
     heroSlides: heroProjects.map((p, i) => {
-      const img = pool[i] ?? p.img;
+      const img = pool[p.name] ?? p.img;
       return {
         ...p,
         img,

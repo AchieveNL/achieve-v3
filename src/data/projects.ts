@@ -411,7 +411,7 @@ export type HeroProject = {
   thumb?: string;
   pool?: string[];
 };
-/** Slides in the hero of the projects page. `pool`: one random photo is picked per visit. */
+/** Slides in the hero of the projects page: the first one always, plus a random selection of the others per visit (see ProjectsHero). `pool`: one random photo is picked per visit. */
 export const heroProjects: HeroProject[] = [
   {
     name: "RCpeptides",
@@ -496,6 +496,28 @@ export const heroProjects: HeroProject[] = [
     tag: "Brand Strategy · WordPress Website · Photoshoot",
     img: "/media/projects/a-direct-automaterialen-01.webp",
     initials: "AD",
+    bg: "#2B3190",
+  },
+  {
+    name: "Beddenenzo",
+    sector: "Slaapcomfort",
+    sub: "Zoekadvertenties en Shopping voor een online beddenspecialist, zichtbaar bij de juiste kopers.",
+    tag: "Branding · Custom Website · SEA",
+    img: "/media/projects/beddenenzo-02.webp",
+    video: "/media/projects/beddenenzo-01.mp4",
+    poster: "/media/projects/beddenenzo-02.webp",
+    initials: "B",
+    bg: "linear-gradient(135deg, #1F246C 0%, #0F8AE5 100%)",
+  },
+  {
+    name: "Zorggroep Haarlemmermeer",
+    sector: "Zorg",
+    sub: "Een aftermovie van het regionale zorgcongres Praktijk van de Toekomst 2025.",
+    tag: "Video Marketing",
+    img: "/media/projects/zorggroep-haarlemmermeer-01.webp",
+    video: "/media/projects/zorggroep-haarlemmermeer-hero.mp4",
+    poster: "/media/projects/zorggroep-haarlemmermeer-01.webp",
+    initials: "ZH",
     bg: "#2B3190",
   },
 ];
