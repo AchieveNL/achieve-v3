@@ -125,7 +125,7 @@ export function CaseBioNippyContent() {
           }}
         >
           <span style={{ fontSize: "13px", fontWeight: "700", letterSpacing: "0.12em", textTransform: "uppercase", color: "#FAE84E" }}>
-            <span>{t("Food")}</span> <span aria-hidden="true">{t("·")}</span> <span>{t("Nederland")}</span>
+            <span>{t("Voeding")}</span> <span aria-hidden="true">{t("·")}</span> <span>{t("Nederland")}</span>
           </span>
           <h1
             translate="no"
@@ -204,7 +204,7 @@ export function CaseBioNippyContent() {
               <dt style={{ fontSize: "12px", fontWeight: "700", letterSpacing: "0.1em", textTransform: "uppercase", color: "#8639FA" }}>
                 {t("Sector")}
               </dt>
-              <dd style={{ margin: "0", fontSize: "16px", fontWeight: "600", color: "#1F246C" }}>{t("Food")}</dd>
+              <dd style={{ margin: "0", fontSize: "16px", fontWeight: "600", color: "#1F246C" }}>{t("Voeding")}</dd>
             </div>
             <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
               <dt style={{ fontSize: "12px", fontWeight: "700", letterSpacing: "0.1em", textTransform: "uppercase", color: "#8639FA" }}>

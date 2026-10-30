@@ -25,6 +25,39 @@ export type Project = {
 
 export const projects: Project[] = [
   {
+    name: "Logos Legal",
+    href: "CaseLogosLegal",
+    year: 2026,
+    sector: "Advocatuur",
+    cats: ["web", "brand"],
+    tags: [
+      {
+        label: "Branding",
+        color: "#6B2BD9",
+        bg: "#EFE8FD",
+      },
+      {
+        label: "Custom Website",
+        color: "#0B6DB8",
+        bg: "#E3F1FD",
+      },
+    ],
+    result: "Moderne website met een klassieke uitstraling voor een advocatenkantoor",
+    quote: "",
+    challenge: "De oude website voelde verouderd en leeg. Het advocatenkantoor wilde een site die modern én betrouwbaar overkomt.",
+    initials: "LL",
+    tile: "linear-gradient(135deg, #1F246C 0%, #0F8AE5 100%)",
+    hasImg: true,
+    noImg: false,
+    img: "/media/projects/logos-legal-01.webp",
+    alt: "De pagina's Over ons en Expertise van Logos Legal op twee iMacs",
+    gallery: [
+      { img: "/media/projects/logos-legal-01.webp", alt: "De pagina's Over ons en Expertise van Logos Legal op twee iMacs" },
+      { img: "/media/projects/logos-legal-02.webp", alt: "De homepage en de expertises van Logos Legal op twee laptops" },
+      { img: "/media/projects/logos-legal-03.webp", alt: "De website van Logos Legal op desktop, tablet en telefoon" },
+    ],
+  },
+  {
     name: "Gromotion",
     href: "CaseGromotion",
     year: 2025,
@@ -121,7 +154,7 @@ export const projects: Project[] = [
     name: "BioNippy",
     href: "CaseBioNippy",
     year: 2023,
-    sector: "Food",
+    sector: "Voeding",
     cats: ["web"],
     tags: [
       {
@@ -746,6 +779,15 @@ export const heroProjects: HeroProject[] = [
     bg: "#2B3190",
   },
   {
+    name: "Logos Legal",
+    sector: "Advocatuur",
+    sub: "Een moderne website met een klassieke uitstraling voor een advocatenkantoor.",
+    tag: "Branding · Custom Website",
+    img: "/media/projects/logos-legal-01.webp",
+    initials: "LL",
+    bg: "#2B3190",
+  },
+  {
     name: "Gromotion",
     sector: "Fysiotherapie",
     sub: "Een nieuw logo en een frisse website voor een fysiotherapiepraktijk.",
@@ -774,7 +816,7 @@ export const heroProjects: HeroProject[] = [
   },
   {
     name: "BioNippy",
-    sector: "Food",
+    sector: "Voeding",
     sub: "Een coming soon-website voor een duurzaam boodschappenplatform.",
     tag: "Custom Website",
     img: "/media/projects/bionippy-01.webp",

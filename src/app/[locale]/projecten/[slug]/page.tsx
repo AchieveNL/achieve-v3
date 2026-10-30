@@ -15,6 +15,7 @@ import { CaseBioNippyContent } from "@/components/cases/CaseBioNippyContent";
 import { CaseCherriesContent } from "@/components/cases/CaseCherriesContent";
 import { CasePlanLesContent } from "@/components/cases/CasePlanLesContent";
 import { CaseGromotionContent } from "@/components/cases/CaseGromotionContent";
+import { CaseLogosLegalContent } from "@/components/cases/CaseLogosLegalContent";
 import { PageShell } from "@/components/layout/PageShell";
 import { ProjectsCta } from "@/components/projects/ProjectsCta";
 import { ReadingProgress } from "@/components/ui/ReadingProgress";
@@ -97,6 +98,11 @@ const CASES: Record<CaseId, { Content: ComponentType; title: string; description
     Content: CaseGromotionContent,
     title: "Gromotion: nieuw logo en website voor een fysiotherapiepraktijk | Achieve",
     description: "Hoe Achieve voor fysiotherapiepraktijk Gromotion een nieuw logo en een frisse, toegankelijke website ontwierp.",
+  },
+  CaseLogosLegal: {
+    Content: CaseLogosLegalContent,
+    title: "Logos Legal: moderne website voor een advocatenkantoor | Achieve",
+    description: "Hoe Achieve voor advocatenkantoor Logos Legal een moderne website met een klassieke uitstraling ontwierp.",
   },
 };
 
