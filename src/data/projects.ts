@@ -88,7 +88,7 @@ export const projects: Project[] = [
     name: "Decathlon",
     href: "CaseDecathlon",
     year: 2024,
-    sector: "Sport",
+    sector: "Retail",
     cats: ["video", "ads"],
     tags: [
       {
@@ -1413,7 +1413,7 @@ export const heroProjects: HeroProject[] = [
   },
   {
     name: "Decathlon",
-    sector: "Sport",
+    sector: "Retail",
     sub: "Wervingsvideo's waarin teamleaders zelf vertellen over hun werk.",
     tag: "Video Marketing · SMA",
     img: "/media/projects/decathlon-01.webp",
