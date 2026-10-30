@@ -106,7 +106,7 @@ export function CaseDeLimesContent() {
           }}
         >
           <span style={{ fontSize: "13px", fontWeight: "700", letterSpacing: "0.12em", textTransform: "uppercase", color: "#FAE84E" }}>
-            <span>{t("Zorg")}</span> <span aria-hidden="true">{t("·")}</span> <span>{t("Nederland")}</span>
+            <span>{t("Zorg")}</span> <span aria-hidden="true">{t("·")}</span> <span>{t("Zuid-Holland")}</span>
           </span>
           <h1
             translate="no"
@@ -232,14 +232,15 @@ export function CaseDeLimesContent() {
               <dt style={{ fontSize: "12px", fontWeight: "700", letterSpacing: "0.1em", textTransform: "uppercase", color: "#8639FA" }}>
                 {t("Markt")}
               </dt>
-              <dd style={{ margin: "0", fontSize: "16px", fontWeight: "600", color: "#1F246C" }}>{t("Nederland")}</dd>
+              <dd style={{ margin: "0", fontSize: "16px", fontWeight: "600", color: "#1F246C" }}>{t("Zuid-Holland")}</dd>
             </div>
             <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
               <dt style={{ fontSize: "12px", fontWeight: "700", letterSpacing: "0.1em", textTransform: "uppercase", color: "#8639FA" }}>
                 {t("Doelgroep")}
               </dt>
               <dd style={{ margin: "0", fontSize: "16px", fontWeight: "600", color: "#1F246C" }}>
-                {t("Werkzoekenden in de zorg")}
+                {t("B2P")}
+                <Tip label={ta("Uitleg")}>{t("B2P (business-to-people): je richt je op mensen, hier op toekomstige medewerkers.")}</Tip>
               </dd>
             </div>
             <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
@@ -276,13 +277,13 @@ export function CaseDeLimesContent() {
               </dt>
               <dd style={{ margin: "0", fontSize: "16px", fontWeight: "600" }}>
                 <a
-                  href="https://werkenbijdelimes.nl/"
+                  href="https://zorggroephaarlemmermeer.nl/"
                   target="_blank"
                   rel="noopener"
                   translate="no"
                   style={{ color: "#1F246C", textUnderlineOffset: "4px" }}
                 >
-                  {"Werkenbijdelimes.nl"}
+                  {"ZorggroepHaarlemmermeer.nl"}
                 </a>
               </dd>
             </div>
@@ -373,7 +374,7 @@ export function CaseDeLimesContent() {
               </h3>
               <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.65", color: "#3A4150" }}>
                 {t(
-                  "HuisartsenSpoedpost De Limes zoekt triagisten. Een vacaturetekst laat niet zien hoe het werk echt voelt: het tempo, de samenwerking met de regiearts en het verschil dat je maakt in de eerste minuten van een gesprek. Mensen moesten zich in het werk herkennen voordat ze solliciteren.",
+                  "De grootste uitdaging was om een beroep dat meestal achter de schermen plaatsvindt zichtbaar te maken, zonder de professionaliteit en geloofwaardigheid te verliezen die in de medische sector zo belangrijk zijn. We moesten de rol van de triagist duidelijk, menselijk en aantrekkelijk neerzetten in een sector die kampt met personeelstekorten. Daarnaast vereiste de opnames planning over verschillende diensten en afdelingen om de dynamiek van de spoedzorg op een authentieke manier vast te leggen.",
                 )}
               </p>
             </li>
@@ -416,7 +417,7 @@ export function CaseDeLimesContent() {
               </h3>
               <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.65", color: "#3A4150" }}>
                 {t(
-                  "HuisartsenSpoedpost De Limes regelt de huisartsenzorg buiten kantoortijd in de regio rond Alphen aan den Rijn, Leiderdorp en Voorhout. Samen kozen we twee verhalen: een ervaren triagist die een junior begeleidt, en een triagist die je meeneemt door haar dienst. Echte medewerkers vertellen zelf wat hun werk inhoudt.",
+                  "Huisartsenposten De Limes is een coöperatieve organisatie die 24/7 spoedeisende huisartsen­zorg biedt in de regio Zuid-Holland. Hun missie is om toegankelijke en hoogwaardige spoedzorg te leveren, terwijl medewerkers zich gewaardeerd voelen en nieuwe zorgprofessionals worden aangemoedigd om zich aan te sluiten. Onze taak was om een informatieve en inspirerende video te maken die de rol van een triagist belicht — een sleutelpositie waar veel mensen nog niet bekend mee zijn — om zo nieuw personeel aan te trekken en uit te leggen hoe de huisartsenpost buiten kantoortijden werkt.",
                 )}
               </p>
             </li>
@@ -540,7 +541,7 @@ export function CaseDeLimesContent() {
               </h3>
               <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.65", color: "#3A4150" }}>
                 {t(
-                  "We filmden op de spoedpost zelf, tijdens het echte werk. Lotte en Bas laten zien hoe je als team samen groeit; Karin neemt je mee van de ingang tot het eerste telefoontje. Beide video's zijn ondertiteld, zodat ze ook zonder geluid te volgen zijn, en sluiten af met de vacatures op Werkenbijdelimes.nl.",
+                  "We kozen voor een documentaireachtige aanpak waarin storytelling werd gecombineerd met echte beelden uit het triagecentrum. Korte interviews met triagisten en andere medewerkers gaven inzicht in hun dagelijkse werk, terwijl heldere visuals en motion graphics toelichtten wat de functie inhoudt. De uiteindelijke montage kreeg een warme, professionele kleurcorrectie en een vloeiend tempo, wat zorgde voor een boeiende maar respectvolle toon.",
                 )}
               </p>
             </li>
@@ -583,7 +584,7 @@ export function CaseDeLimesContent() {
               </h3>
               <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.65", color: "#3A4150" }}>
                 {t(
-                  "Wie overweegt om triagist te worden, ziet nu hoe een dienst bij De Limes eruitziet en wie de collega's zijn. De video's geven de vacatures een gezicht, op de werkenbij-site en in de werving.",
+                  "De video versterkte het imago van Huisartsenposten De Limes als aantrekkelijke werkgever binnen de spoedhuisartsenzorg. De video werd ingezet bij wervingscampagnes en interne communicatie, waardoor de bekendheid van de functie van triagist toenam en nieuwe sollicitanten werden aangetrokken. Daarnaast hielp het project de organisatie om haar missie beter over te brengen aan het bredere publiek, wat zorgde voor meer begrip en zichtbaarheid binnen de regio.",
                 )}
               </p>
             </li>
