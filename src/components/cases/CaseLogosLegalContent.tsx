@@ -10,15 +10,15 @@ import { LazyVideo } from "@/components/ui/LazyVideo";
 
 export function CaseLogosLegalContent() {
   // Hero photo (the LCP image): fetch it right away.
-  preload("/media/projects/logos-legal-01.webp", { as: "image", fetchPriority: "high", imageSrcSet: srcSet("/media/projects/logos-legal-01.webp"), imageSizes: IMG_SIZES });
+  preload("/media/projects/logos-legal-02.webp", { as: "image", fetchPriority: "high", imageSrcSet: srcSet("/media/projects/logos-legal-02.webp"), imageSizes: IMG_SIZES });
   const { t, ta, href } = useTr();
 
   // Photo slider and media carousel are click-through.
   const [csI, setCsI] = useState(0);
   const [mkI, setMkI] = useState(0);
   const SLIDES: { img: string; alt: string; mpos?: string; video?: string }[] = [
-    { img: "/media/projects/logos-legal-01.webp", alt: "De pagina's Over ons en Expertise van Logos Legal op twee iMacs" },
     { img: "/media/projects/logos-legal-02.webp", alt: "De homepage en de expertises van Logos Legal op twee laptops" },
+    { img: "/media/projects/logos-legal-01.webp", alt: "De pagina's Over ons en Expertise van Logos Legal op twee iMacs" },
     { img: "/media/projects/logos-legal-03.webp", alt: "De website van Logos Legal op desktop, tablet en telefoon" },
   ];
   const N = SLIDES.length;
@@ -59,8 +59,8 @@ export function CaseLogosLegalContent() {
       >
         <img
           fetchPriority="high"
-          src="/media/projects/logos-legal-01.webp"
-          srcSet={srcSet("/media/projects/logos-legal-01.webp")}
+          src="/media/projects/logos-legal-02.webp"
+          srcSet={srcSet("/media/projects/logos-legal-02.webp")}
           sizes={IMG_SIZES}
           alt=""
           aria-hidden="true"
