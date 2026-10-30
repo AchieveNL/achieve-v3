@@ -17,8 +17,8 @@ export function CaseHorlogewinkelContent() {
   const [csI, setCsI] = useState(0);
   const [mkI, setMkI] = useState(0);
   const SLIDES: { img: string; alt: string; mpos?: string; video?: string }[] = [
-    { img: "/media/projects/horlogewinkel-01.webp", alt: "De webshop van Horlogewinkel.com op een desktop, laptop, tablet en telefoon" },
-    { img: "/media/projects/horlogewinkel-02.webp", alt: "Een productpagina en de winkelwagen van Horlogewinkel.com op twee laptops" },
+    { img: "/media/projects/horlogewinkel-01.webp", alt: "De webshop van Horlogewinkel op een desktop, laptop, tablet en telefoon" },
+    { img: "/media/projects/horlogewinkel-02.webp", alt: "Een productpagina en de winkelwagen van Horlogewinkel op twee laptops" },
   ];
   const N = SLIDES.length;
   const ci = csI % N;
@@ -101,7 +101,7 @@ export function CaseHorlogewinkelContent() {
               {t("/")}
             </span>{" "}
             <span aria-current="page" translate="no" style={{ color: "#FFFFFF", fontWeight: "600" }}>
-              {"Horlogewinkel.com"}
+              {"Horlogewinkel"}
             </span>
           </nav>
         </div>
@@ -139,7 +139,7 @@ export function CaseHorlogewinkelContent() {
               textShadow: "0 4px 32px rgba(14, 17, 40, 0.35)",
             }}
           >
-            {"Horlogewinkel.com"}
+            {"Horlogewinkel"}
           </h1>
           <p style={{ margin: "0", maxWidth: "640px", fontSize: "20px", lineHeight: "1.55", color: "#FFFFFF" }}>
             {t("Meer verkoop voor een horlogewebshop met CRO en Google Shopping")}
@@ -211,7 +211,7 @@ export function CaseHorlogewinkelContent() {
                 {t("Klant")}
               </dt>
               <dd translate="no" style={{ margin: "0", fontSize: "16px", fontWeight: "600", color: "#1F246C" }}>
-                {"Horlogewinkel.com"}
+                {"Horlogewinkel"}
               </dd>
             </div>
             <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
@@ -382,7 +382,7 @@ export function CaseHorlogewinkelContent() {
               </h3>
               <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.65", color: "#3A4150" }}>
                 {t(
-                  "De uitdaging voor Horlogewinkel.com is het aanzienlijk verhogen van de horlogeverkopen. Ondanks een breed assortiment van merken en modellen en uitstekende klantenservice, blijven de verkoopresultaten achter bij de verwachtingen. De ambitie is om de verkoopcijfers op een substantiële manier te verhogen door het verbeteren van de conversie, het aantrekken van een groter klantenbestand en het optimaliseren van de klantbeleving.",
+                  "De uitdaging voor Horlogewinkel is het aanzienlijk verhogen van de horlogeverkopen. Ondanks een breed assortiment van merken en modellen en uitstekende klantenservice, blijven de verkoopresultaten achter bij de verwachtingen. De ambitie is om de verkoopcijfers op een substantiële manier te verhogen door het verbeteren van de conversie, het aantrekken van een groter klantenbestand en het optimaliseren van de klantbeleving.",
                 )}
               </p>
             </li>
@@ -425,7 +425,7 @@ export function CaseHorlogewinkelContent() {
               </h3>
               <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.65", color: "#3A4150" }}>
                 {t(
-                  "Horlogewinkel.com is dé online bestemming voor horlogeliefhebbers, met een uitgebreid assortiment van hoogwaardige merken en modellen. Of je nu op zoek bent naar een klassiek, tijdloos ontwerp of een moderne, trendy uitstraling, wij hebben voor ieder wat wils. Wij zetten ons in voor het bieden van een uitstekende klantbeleving, met snelle levering en een servicegerichte benadering. Bij Horlogewinkel.com kun je rekenen op topkwaliteit en de beste zorg voor jouw horloge-aankoop.",
+                  "Horlogewinkel is dé online bestemming voor horlogeliefhebbers, met een uitgebreid assortiment van hoogwaardige merken en modellen. Of je nu op zoek bent naar een klassiek, tijdloos ontwerp of een moderne, trendy uitstraling, wij hebben voor ieder wat wils. Wij zetten ons in voor het bieden van een uitstekende klantbeleving, met snelle levering en een servicegerichte benadering. Bij Horlogewinkel kun je rekenen op topkwaliteit en de beste zorg voor jouw horloge-aankoop.",
                 )}
               </p>
             </li>
@@ -462,14 +462,14 @@ export function CaseHorlogewinkelContent() {
               </Accent>
             </h2>
             <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.65", color: "#3A4150" }}>
-              {t("De webshop van Horlogewinkel.com, op desktop, laptop, tablet en telefoon.")}
+              {t("De webshop van Horlogewinkel, op desktop, laptop, tablet en telefoon.")}
             </p>
           </div>
           <div
             className="cs-media mk-car"
             role="group"
             aria-roledescription="carrousel"
-            aria-label={ta("Beeld van Horlogewinkel.com")}
+            aria-label={ta("Beeld van Horlogewinkel")}
             style={{ position: "relative", aspectRatio: "16 / 9", borderRadius: "24px", overflow: "hidden", background: "#0E1116" }}
           >
             {h.csSlides.map((g, g_i) => (

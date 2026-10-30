@@ -131,8 +131,8 @@ const CASES: Record<CaseId, { Content: ComponentType; title: string; description
   },
   CaseHorlogewinkel: {
     Content: CaseHorlogewinkelContent,
-    title: "Horlogewinkel.com: 30% hogere ROAS met CRO en Google Shopping | Achieve",
-    description: "Hoe Achieve voor Horlogewinkel.com de conversie verbeterde en met een geoptimaliseerde productfeed en Google Shopping de ROAS met 30% verhoogde.",
+    title: "Horlogewinkel: 30% hogere ROAS met CRO en Google Shopping | Achieve",
+    description: "Hoe Achieve voor Horlogewinkel de conversie verbeterde en met een geoptimaliseerde productfeed en Google Shopping de ROAS met 30% verhoogde.",
   },
   CaseDermeClinic: {
     Content: CaseDermeClinicContent,

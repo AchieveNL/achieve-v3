@@ -397,7 +397,7 @@ export const projects: Project[] = [
     ],
   },
   {
-    name: "Horlogewinkel.com",
+    name: "Horlogewinkel",
     href: "CaseHorlogewinkel",
     year: 2024,
     sector: "Horloges",
@@ -422,10 +422,10 @@ export const projects: Project[] = [
     hasImg: true,
     noImg: false,
     img: "/media/projects/horlogewinkel-01.webp",
-    alt: "De webshop van Horlogewinkel.com op een desktop, laptop, tablet en telefoon",
+    alt: "De webshop van Horlogewinkel op een desktop, laptop, tablet en telefoon",
     gallery: [
-      { img: "/media/projects/horlogewinkel-01.webp", alt: "De webshop van Horlogewinkel.com op een desktop, laptop, tablet en telefoon" },
-      { img: "/media/projects/horlogewinkel-02.webp", alt: "Een productpagina en de winkelwagen van Horlogewinkel.com op twee laptops" },
+      { img: "/media/projects/horlogewinkel-01.webp", alt: "De webshop van Horlogewinkel op een desktop, laptop, tablet en telefoon" },
+      { img: "/media/projects/horlogewinkel-02.webp", alt: "Een productpagina en de winkelwagen van Horlogewinkel op twee laptops" },
     ],
   },
   {
@@ -1326,7 +1326,7 @@ export const heroProjects: HeroProject[] = [
     bg: "#2B3190",
   },
   {
-    name: "Horlogewinkel.com",
+    name: "Horlogewinkel",
     sector: "Horloges",
     sub: "Meer verkoop voor een horlogewebshop met CRO en Google Shopping.",
     tag: "CRO · SEA",
