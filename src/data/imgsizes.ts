@@ -17,6 +17,8 @@ export const imgWidths: Record<string, number> = {
   "/media/projects/logos-legal-01.webp": 1920,
   "/media/projects/logos-legal-02.webp": 1920,
   "/media/projects/logos-legal-03.webp": 1920,
+  "/media/projects/turned-government-01.webp": 1920,
+  "/media/projects/turned-government-02.webp": 1920,
   "/media/projects/de-limes-02.webp": 1920,
   "/media/cases/a-direct-pand.webp": 1920,
   "/media/cases/beddenenzo-homepage.webp": 1728,

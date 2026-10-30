@@ -21,13 +21,14 @@ const caseMap: Record<string, string> = {
   "plan-les": "planles",
   gromotion: "gromotion",
   "logos-legal": "logos-legal",
+  "turned-gov": "turned-government",
   "bouwvergunning-direct": "bouwvergunning-direct",
 };
 const oldCases = [
   "ayeway", "buru-construction", "cabby-rentals", "career-rebels",
   "crypto-architect", "decathlon", "dermeclinic", "frootie", "gemeente-west-brabant", "gifted-tigers",
   "greenteam", "horloge-winkel", "kortingcentrum", "mevsen", "surprise-company",
-  "the-cave-zanzibar", "turned-gov", "vnmshop", "winkwing", "wrppn", "zcn-zzv",
+  "the-cave-zanzibar", "vnmshop", "winkwing", "wrppn", "zcn-zzv",
 ];
 
 // Old service slugs → new service slugs (only the ones that changed).

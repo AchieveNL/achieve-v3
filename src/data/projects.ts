@@ -25,6 +25,33 @@ export type Project = {
 
 export const projects: Project[] = [
   {
+    name: "Turned Government International",
+    href: "CaseTurnedGov",
+    year: 2025,
+    sector: "Overheid",
+    cats: ["web"],
+    tags: [
+      {
+        label: "WordPress Website",
+        color: "#0B6DB8",
+        bg: "#E3F1FD",
+      },
+    ],
+    result: "Heldere WordPress-website voor een specialist in overheidscontracten",
+    quote: "",
+    challenge: "Complexe diensten rond overheidscontracten moesten helder en professioneel overkomen, in een competitieve sector.",
+    initials: "TG",
+    tile: "linear-gradient(135deg, #1F246C 0%, #0F8AE5 100%)",
+    hasImg: true,
+    noImg: false,
+    img: "/media/projects/turned-government-01.webp",
+    alt: "De homepage van Turned Government International op een iMac, met een mok met het nieuwe logo",
+    gallery: [
+      { img: "/media/projects/turned-government-01.webp", alt: "De homepage van Turned Government International op een iMac, met een mok met het nieuwe logo" },
+      { img: "/media/projects/turned-government-02.webp", alt: "Het bedrijfsprofiel van Turned Government International op een iMac" },
+    ],
+  },
+  {
     name: "Logos Legal",
     href: "CaseLogosLegal",
     year: 2026,
@@ -776,6 +803,15 @@ export const heroProjects: HeroProject[] = [
     video: "/media/projects/zorggroep-haarlemmermeer-hero.mp4",
     poster: "/media/projects/zorggroep-haarlemmermeer-01.webp",
     initials: "ZH",
+    bg: "#2B3190",
+  },
+  {
+    name: "Turned Government International",
+    sector: "Overheid",
+    sub: "Een heldere WordPress-website voor een specialist in overheidscontracten.",
+    tag: "WordPress Website",
+    img: "/media/projects/turned-government-01.webp",
+    initials: "TG",
     bg: "#2B3190",
   },
   {

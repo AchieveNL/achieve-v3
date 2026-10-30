@@ -52,6 +52,7 @@ export const routes = {
   CasePlanLes: "projecten/planles",
   CaseGromotion: "projecten/gromotion",
   CaseLogosLegal: "projecten/logos-legal",
+  CaseTurnedGov: "projecten/turned-government",
 } as const;
 export type PageId = keyof typeof routes;
 
