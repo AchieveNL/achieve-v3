@@ -79,7 +79,7 @@ export function ProjectsHero() {
         className="hero-dark pjh"
         style={{ position: "relative", overflow: "hidden", background: "#1F246C", color: "#FFFFFF", height: "820px" }}
       >
-        <div className="pjh-bg" aria-hidden="true" style={{ position: "absolute", inset: "0" }}>
+        <div className="pjh-bg" aria-hidden="true" style={{ position: "absolute", inset: "0", zIndex: "0" }}>
           {h.heroSlides.map((hh, hh_i) => (
             <Fragment key={hh_i}>
               <div className={`pjh-slide ${hh.cls}`} style={{ position: "absolute", inset: "0", background: hh.bg }}>
@@ -150,7 +150,7 @@ export function ProjectsHero() {
             inset: "0",
             pointerEvents: "none",
             background:
-              "linear-gradient(180deg, rgba(31, 36, 108, 0.65) 0%, rgba(31, 36, 108, 0.05) 24%, rgba(31, 36, 108, 0.2) 48%, rgba(31, 36, 108, 0.85) 76%, rgba(31, 36, 108, 0.97) 100%)",
+              "rgba(31, 36, 108, 0.5)",
           }}
         ></div>
         <div

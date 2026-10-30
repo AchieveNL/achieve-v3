@@ -175,7 +175,6 @@ export const projects: Project[] = [
     img: "/media/projects/career-rebels-01.webp",
     alt: "Campagnebeeld van Career Rebels met het logo en een juichende vrouw met telefoon",
     gallery: [
-      { img: "/media/projects/career-rebels-01.webp", alt: "Campagnebeeld van Career Rebels met het logo en een juichende vrouw met telefoon" },
       {
         video: "/media/projects/career-rebels-hero.mp4",
         poster: "/media/projects/career-rebels-promo.webp",
