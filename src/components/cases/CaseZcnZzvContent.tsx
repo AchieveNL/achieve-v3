@@ -268,7 +268,7 @@ export function CaseZcnZzvContent() {
               <dt style={{ fontSize: "12px", fontWeight: "700", letterSpacing: "0.1em", textTransform: "uppercase", color: "#8639FA" }}>
                 {t("Jaar")}
               </dt>
-              <dd style={{ margin: "0", fontSize: "16px", fontWeight: "600", color: "#1F246C" }}>{t("2022")}</dd>
+              <dd style={{ margin: "0", fontSize: "16px", fontWeight: "600", color: "#1F246C" }}>{t("2020")}</dd>
             </div>
           </dl>
         </div>

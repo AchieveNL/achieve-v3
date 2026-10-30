@@ -17,7 +17,7 @@ export function CaseRegioWestBrabantContent() {
   const [csI, setCsI] = useState(0);
   const [mkI, setMkI] = useState(0);
   const SLIDES: { img: string; alt: string; mpos?: string; video?: string }[] = [
-    { img: "/media/projects/regio-west-brabant-01.webp", alt: "Titelbeeld van de animatie West-Brabant werkt met talent" },
+    { img: "/media/projects/regio-west-brabant-01.webp", alt: "Illustratie uit de animatie van RWB: twee mensen op een wereldbol met de vlag van West-Brabant" },
   ];
   const N = SLIDES.length;
   const ci = csI % N;

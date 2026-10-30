@@ -45,9 +45,9 @@ export const projects: Project[] = [
     hasImg: true,
     noImg: false,
     img: "/media/projects/regio-west-brabant-01.webp",
-    alt: "Titelbeeld van de animatie West-Brabant werkt met talent",
+    alt: "Illustratie uit de animatie van RWB: twee mensen op een wereldbol met de vlag van West-Brabant",
     gallery: [
-      { img: "/media/projects/regio-west-brabant-01.webp", alt: "Titelbeeld van de animatie West-Brabant werkt met talent" },
+      { img: "/media/projects/regio-west-brabant-01.webp", alt: "Illustratie uit de animatie van RWB: twee mensen op een wereldbol met de vlag van West-Brabant" },
       {
         video: "/media/projects/regio-west-brabant-hero.mp4",
         poster: "/media/projects/regio-west-brabant-01.webp",
@@ -58,7 +58,7 @@ export const projects: Project[] = [
   {
     name: "ZCN / ZZV",
     href: "CaseZcnZzv",
-    year: 2022,
+    year: 2020,
     sector: "Zorg",
     cats: ["video"],
     tags: [
