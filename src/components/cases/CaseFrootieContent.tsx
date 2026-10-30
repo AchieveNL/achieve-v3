@@ -10,15 +10,15 @@ import { LazyVideo } from "@/components/ui/LazyVideo";
 
 export function CaseFrootieContent() {
   // Hero photo (the LCP image): fetch it right away.
-  preload("/media/projects/frootie-01.webp", { as: "image", fetchPriority: "high", imageSrcSet: srcSet("/media/projects/frootie-01.webp"), imageSizes: IMG_SIZES });
+  preload("/media/projects/frootie-02.webp", { as: "image", fetchPriority: "high", imageSrcSet: srcSet("/media/projects/frootie-02.webp"), imageSizes: IMG_SIZES });
   const { t, ta, href } = useTr();
 
   // Photo slider and media carousel are click-through.
   const [csI, setCsI] = useState(0);
   const [mkI, setMkI] = useState(0);
   const SLIDES: { img: string; alt: string; mpos?: string; video?: string }[] = [
-    { img: "/media/projects/frootie-01.webp", alt: "Het huisstijlhandboek van Frootie opengeslagen bij marges en formaten" },
     { img: "/media/projects/frootie-02.webp", alt: "Het huisstijlhandboek van Frootie met de illustraties" },
+    { img: "/media/projects/frootie-01.webp", alt: "Het huisstijlhandboek van Frootie opengeslagen bij marges en formaten" },
     { img: "/media/projects/frootie-03.webp", alt: "De kleurenpagina's uit het huisstijlhandboek van Frootie" },
     { img: "/media/projects/frootie-04.webp", alt: "Huisstijlelementen van Frootie in het handboek" },
   ];
@@ -60,8 +60,8 @@ export function CaseFrootieContent() {
       >
         <img
           fetchPriority="high"
-          src="/media/projects/frootie-01.webp"
-          srcSet={srcSet("/media/projects/frootie-01.webp")}
+          src="/media/projects/frootie-02.webp"
+          srcSet={srcSet("/media/projects/frootie-02.webp")}
           sizes={IMG_SIZES}
           alt=""
           aria-hidden="true"
