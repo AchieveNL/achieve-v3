@@ -25,6 +25,39 @@ export type Project = {
 
 export const projects: Project[] = [
   {
+    name: "Buru Construction",
+    href: "CaseBuru",
+    year: 2025,
+    sector: "Bouw",
+    cats: ["web", "brand"],
+    tags: [
+      {
+        label: "Branding",
+        color: "#6B2BD9",
+        bg: "#EFE8FD",
+      },
+      {
+        label: "Custom Website",
+        color: "#0B6DB8",
+        bg: "#E3F1FD",
+      },
+    ],
+    result: "Nieuw merk met een stier als mascotte, en een website die erbij past",
+    quote: "",
+    challenge: "Een renovatiebedrijf wilde een mascotte in de huisstijl. Buru betekent stier in het Japans; dat moest een karakter worden dat vriendelijk is en toch professioneel.",
+    initials: "BC",
+    tile: "linear-gradient(135deg, #1F246C 0%, #0F8AE5 100%)",
+    hasImg: true,
+    noImg: false,
+    img: "/media/projects/buru-construction-01.webp",
+    alt: "De website van Buru Construction op een desktop en een laptop, met de stier als mascotte",
+    gallery: [
+      { img: "/media/projects/buru-construction-01.webp", alt: "De website van Buru Construction op een desktop en een laptop, met de stier als mascotte" },
+      { img: "/media/projects/buru-construction-02.webp", alt: "De homepage en het stappenplan van Buru Construction op twee schermen" },
+      { img: "/media/projects/buru-construction-03.webp", alt: "De werkwijze van Buru Construction op een laptop, met de mascotte bij elke stap" },
+    ],
+  },
+  {
     name: "Turned Government International",
     href: "CaseTurnedGov",
     year: 2025,
@@ -803,6 +836,15 @@ export const heroProjects: HeroProject[] = [
     video: "/media/projects/zorggroep-haarlemmermeer-hero.mp4",
     poster: "/media/projects/zorggroep-haarlemmermeer-01.webp",
     initials: "ZH",
+    bg: "#2B3190",
+  },
+  {
+    name: "Buru Construction",
+    sector: "Bouw",
+    sub: "Een nieuw merk met een eigen stier als mascotte, en een website die erbij past.",
+    tag: "Branding · Custom Website",
+    img: "/media/projects/buru-construction-01.webp",
+    initials: "BC",
     bg: "#2B3190",
   },
   {

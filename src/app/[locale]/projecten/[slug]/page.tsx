@@ -17,6 +17,7 @@ import { CasePlanLesContent } from "@/components/cases/CasePlanLesContent";
 import { CaseGromotionContent } from "@/components/cases/CaseGromotionContent";
 import { CaseLogosLegalContent } from "@/components/cases/CaseLogosLegalContent";
 import { CaseTurnedGovContent } from "@/components/cases/CaseTurnedGovContent";
+import { CaseBuruContent } from "@/components/cases/CaseBuruContent";
 import { PageShell } from "@/components/layout/PageShell";
 import { ProjectsCta } from "@/components/projects/ProjectsCta";
 import { ReadingProgress } from "@/components/ui/ReadingProgress";
@@ -109,6 +110,11 @@ const CASES: Record<CaseId, { Content: ComponentType; title: string; description
     Content: CaseTurnedGovContent,
     title: "Turned Government International: WordPress-website voor overheidscontracten | Achieve",
     description: "Hoe Achieve voor Turned Government International een heldere en professionele WordPress-website ontwierp.",
+  },
+  CaseBuru: {
+    Content: CaseBuruContent,
+    title: "Buru Construction: nieuw merk met een stier als mascotte | Achieve",
+    description: "Hoe Achieve voor renovatiebedrijf Buru Construction een stier als mascotte ontwierp en een website die erbij past.",
   },
 };
 

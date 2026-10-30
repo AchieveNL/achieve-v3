@@ -22,10 +22,11 @@ const caseMap: Record<string, string> = {
   gromotion: "gromotion",
   "logos-legal": "logos-legal",
   "turned-gov": "turned-government",
+  "buru-construction": "buru-construction",
   "bouwvergunning-direct": "bouwvergunning-direct",
 };
 const oldCases = [
-  "ayeway", "buru-construction", "cabby-rentals", "career-rebels",
+  "ayeway", "cabby-rentals", "career-rebels",
   "crypto-architect", "decathlon", "dermeclinic", "frootie", "gemeente-west-brabant", "gifted-tigers",
   "greenteam", "horloge-winkel", "kortingcentrum", "mevsen", "surprise-company",
   "the-cave-zanzibar", "vnmshop", "winkwing", "wrppn", "zcn-zzv",
