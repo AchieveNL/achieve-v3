@@ -4,9 +4,10 @@ import { useTr } from "@/i18n/I18nProvider";
 import { useCallback, useEffect, useRef, useState, Fragment } from "react";
 import { Accent } from "@/components/ui/Accent";
 import { Tip } from "@/components/ui/Tip";
+import { AIAPricing } from "@/components/services/AIAPricing";
 
 /** Services on the price list; /tarieven#<id> opens one of them. */
-const TF_IDS = ["strategy", "legal", "brand", "custom", "shopify", "hosting", "onderhoud", "email", "ugc", "video", "sea", "sma", "smm", "dash"];
+const TF_IDS = ["strategy", "legal", "brand", "custom", "shopify", "hosting", "onderhoud", "email", "ugc", "video", "sea", "sma", "aia", "smm", "dash"];
 
 export function TarievenContent() {
   const { t, ta, href } = useTr();
@@ -25,6 +26,7 @@ export function TarievenContent() {
     { id: "video", name: "Video Marketing", sub: "Video's die je verhaal vertellen", price: "€1.447" },
     { id: "sea", name: "Search Engine Advertising", sub: "Gevonden worden in Google", price: "€1.197" },
     { id: "sma", name: "Social Media Advertising", sub: "Advertenties op Meta, TikTok en LinkedIn", price: "€897" },
+    { id: "aia", name: "AI Advertising", sub: "Advertenties in ChatGPT", price: "€999" },
     { id: "smm", name: "Social Media Management", sub: "Content en community op je kanalen", price: "€497" },
     { id: "dash", name: "Dashboard", sub: "Al je resultaten in één overzicht", price: "€997" },
   ];
@@ -120,6 +122,7 @@ export function TarievenContent() {
     tfIs_ugc: sel === "ugc",
     tfIs_video: sel === "video",
     tfIs_sma: sel === "sma",
+    tfIs_aia: sel === "aia",
     tfIs_smm: sel === "smm",
     tfIs_dash: sel === "dash",
     tfIs_hosting: sel === "hosting",
@@ -37793,6 +37796,7 @@ export function TarievenContent() {
           </section>
         </>
       )}
+      {h.tfIs_aia && <AIAPricing inTarieven />}
       {h.tfIs_smm && (
         <>
           <section className="pj-wrap pj-sec tf-res1" style={{ background: "#F2F8FE", padding: "88px 40px 112px" }}>

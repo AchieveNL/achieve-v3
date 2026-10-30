@@ -1399,7 +1399,7 @@ export function Header() {
                       {t("Vanaf")} <strong style={{ color: "#1F246C", fontWeight: "700" }}>{t("€897")}</strong> {t("ex. btw")}
                     </span>
                   </a>
-                  <a href={href("DienstAIA", "pakketten")} className="nav-dd-link" data-svc="ai-advertising">
+                  <a href={href("Tarieven", "aia")} className="nav-dd-link" data-svc="ai-advertising">
                     <span className="nav-dd-name">
                       {t("AI Advertising")}
                       <svg
