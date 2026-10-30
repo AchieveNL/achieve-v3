@@ -11,6 +11,7 @@ import { CaseSharkysContent } from "@/components/cases/CaseSharkysContent";
 import { CaseSushiTodayContent } from "@/components/cases/CaseSushiTodayContent";
 import { CaseZorggroepHaarlemmermeerContent } from "@/components/cases/CaseZorggroepHaarlemmermeerContent";
 import { CaseDeLimesContent } from "@/components/cases/CaseDeLimesContent";
+import { CaseBioNippyContent } from "@/components/cases/CaseBioNippyContent";
 import { PageShell } from "@/components/layout/PageShell";
 import { ProjectsCta } from "@/components/projects/ProjectsCta";
 import { ReadingProgress } from "@/components/ui/ReadingProgress";
@@ -73,6 +74,11 @@ const CASES: Record<CaseId, { Content: ComponentType; title: string; description
     Content: CaseDeLimesContent,
     title: "HuisartsenSpoedpost De Limes: wervingsvideo's voor triagisten | Achieve",
     description: "Hoe Achieve voor HuisartsenSpoedpost De Limes twee wervingsvideo's maakte waarin triagisten zelf vertellen over hun werk.",
+  },
+  CaseBioNippy: {
+    Content: CaseBioNippyContent,
+    title: "BioNippy: coming soon-website voor een duurzaam boodschappenplatform | Achieve",
+    description: "Hoe Achieve voor BioNippy een coming soon-website ontwierp ter voorbereiding op de internationale lancering van hun app.",
   },
 };
 

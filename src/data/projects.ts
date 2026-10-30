@@ -25,6 +25,33 @@ export type Project = {
 
 export const projects: Project[] = [
   {
+    name: "BioNippy",
+    href: "CaseBioNippy",
+    year: 2023,
+    sector: "Food",
+    cats: ["web"],
+    tags: [
+      {
+        label: "Custom Website",
+        color: "#0B6DB8",
+        bg: "#E3F1FD",
+      },
+    ],
+    result: "Coming soon-website voor de lancering van een duurzame boodschappenapp",
+    quote: "",
+    challenge: "Een duurzaam boodschappenplatform bereidt de lancering van zijn app voor. Er was een website nodig die het merk alvast neerzet en interesse wekt.",
+    initials: "BN",
+    tile: "linear-gradient(135deg, #1F246C 0%, #0F8AE5 100%)",
+    hasImg: true,
+    noImg: false,
+    img: "/media/projects/bionippy-01.webp",
+    alt: "De coming soon-website van BioNippy op twee laptops, tussen planten en vers fruit",
+    gallery: [
+      { img: "/media/projects/bionippy-02.webp", alt: "De duurzame doelen die BioNippy steunt, op drie telefoons" },
+      { img: "/media/projects/bionippy-03.webp", alt: "De nieuwspagina van BioNippy op een tablet" },
+    ],
+  },
+  {
     name: "HuisartsenSpoedpost De Limes",
     href: "CaseDeLimes",
     year: 2025,
@@ -622,6 +649,15 @@ export const heroProjects: HeroProject[] = [
     video: "/media/projects/zorggroep-haarlemmermeer-hero.mp4",
     poster: "/media/projects/zorggroep-haarlemmermeer-01.webp",
     initials: "ZH",
+    bg: "#2B3190",
+  },
+  {
+    name: "BioNippy",
+    sector: "Food",
+    sub: "Een coming soon-website voor een duurzaam boodschappenplatform.",
+    tag: "Custom Website",
+    img: "/media/projects/bionippy-01.webp",
+    initials: "BN",
     bg: "#2B3190",
   },
   {
