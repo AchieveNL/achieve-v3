@@ -711,6 +711,102 @@ export function CaseCryptoArchitectContent() {
         </div>
       </section>
       <section className="pj-wrap pj-sec" style={{ background: "#F2F8FE", padding: "0 40px 112px" }}>
+        <div
+          className="cs-qdark"
+          style={{
+            maxWidth: "1280px",
+            margin: "0 auto",
+            boxSizing: "border-box",
+            background: "#1F246C",
+            color: "#FFFFFF",
+            borderRadius: "24px",
+            padding: "80px 48px",
+          }}
+        >
+          <figure
+            style={{
+              maxWidth: "900px",
+              margin: "0 auto",
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+              textAlign: "center",
+              gap: "28px",
+            }}
+          >
+            <div style={{ display: "inline-flex", alignItems: "center", gap: "12px", flexWrap: "wrap", justifyContent: "center" }}>
+              <span role="img" aria-label={ta("5 van 5 sterren")} style={{ display: "inline-flex", gap: "2px" }}>
+                <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                    fill="#F2C811"
+                  ></path>
+                </svg>
+                <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                    fill="#F2C811"
+                  ></path>
+                </svg>
+                <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                    fill="#F2C811"
+                  ></path>
+                </svg>
+                <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                    fill="#F2C811"
+                  ></path>
+                </svg>
+                <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                    fill="#F2C811"
+                  ></path>
+                </svg>
+              </span>
+              <span
+                style={{ display: "inline-flex", alignItems: "center", gap: "8px", fontSize: "15px", fontWeight: "600", color: "#FFFFFF" }}
+              >
+                <img
+                  src="/media/icons/google.svg"
+                  alt=""
+                  width="18"
+                  height="18"
+                  style={{ display: "block", width: "18px", height: "18px" }}
+                />
+                <span>{t("Google review")}</span>
+              </span>
+            </div>
+            <blockquote style={{ margin: "0" }}>
+              <p
+                style={{
+                  margin: "0",
+                  fontFamily: "var(--font-display)",
+                  fontSize: "clamp(30px, 3.8vw, 50px)",
+                  lineHeight: "1.18",
+                  fontWeight: "700",
+                  letterSpacing: "-0.015em",
+                  color: "#FFFFFF",
+                }}
+              >
+                {t("“Vanaf het eerste contactmoment tot de oplevering was de communicatie helder en professioneel.”")}
+              </p>
+            </blockquote>
+            <figcaption style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "8px" }}>
+              <cite translate="no" style={{ fontStyle: "normal", fontSize: "18px", fontWeight: "600", color: "#FFFFFF" }}>
+                {"Davio Dakhouka"}
+              </cite>
+              <span style={{ display: "inline-flex", alignItems: "center", gap: "8px", fontSize: "15px", color: "#C9CFF0" }}>
+                <span>{t("Oprichter crypto-community")}</span>
+              </span>
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+      <section className="pj-wrap pj-sec" style={{ background: "#F2F8FE", padding: "0 40px 112px" }}>
         <div style={{ maxWidth: "1280px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "40px" }}>
           <div style={{ display: "flex", flexWrap: "wrap", alignItems: "end", justifyContent: "space-between", gap: "16px 40px" }}>
             <h2
