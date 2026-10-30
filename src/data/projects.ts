@@ -63,6 +63,36 @@ export const projects: Project[] = [
     ],
   },
   {
+    name: "Zorggroep Haarlemmermeer",
+    href: "CaseZorggroepHaarlemmermeer",
+    year: 2025,
+    sector: "Zorg",
+    cats: ["video"],
+    tags: [
+      {
+        label: "Video Marketing",
+        color: "#6E5A00",
+        bg: "#FFF6C7",
+      },
+    ],
+    result: "Aftermovie van het congres Praktijk van de Toekomst 2025",
+    quote: "",
+    challenge: "Een congresdag vol sprekers, gesprekken en nieuwe ideeën voor de eerstelijnszorg. Die energie moest vastgelegd worden, ook voor wie er niet bij was.",
+    initials: "ZH",
+    tile: "linear-gradient(135deg, #1F246C 0%, #0F8AE5 100%)",
+    hasImg: true,
+    noImg: false,
+    img: "/media/projects/zorggroep-haarlemmermeer-01.webp",
+    alt: "Volle zaal tijdens het congres Praktijk van de Toekomst 2025 met sprekers op het podium",
+    gallery: [
+      {
+        video: "/media/projects/zorggroep-haarlemmermeer-hero.mp4",
+        poster: "/media/projects/zorggroep-haarlemmermeer-01.webp",
+        alt: "Sfeerbeelden van het congres Praktijk van de Toekomst 2025",
+      },
+    ],
+  },
+  {
     name: "Minimasters Playground",
     href: "CaseMinimasters",
     sector: "Recreatie",

@@ -8,6 +8,7 @@ import { CaseRCpeptidesContent } from "@/components/cases/CaseRCpeptidesContent"
 import { CaseRonVanDamContent } from "@/components/cases/CaseRonVanDamContent";
 import { CaseSharkysContent } from "@/components/cases/CaseSharkysContent";
 import { CaseSushiTodayContent } from "@/components/cases/CaseSushiTodayContent";
+import { CaseZorggroepHaarlemmermeerContent } from "@/components/cases/CaseZorggroepHaarlemmermeerContent";
 import { PageShell } from "@/components/layout/PageShell";
 import { ProjectsCta } from "@/components/projects/ProjectsCta";
 import { ReadingProgress } from "@/components/ui/ReadingProgress";
@@ -55,6 +56,11 @@ const CASES: Record<CaseId, { Content: ComponentType; title: string; description
     Content: CaseRonVanDamContent,
     title: "Ron van Dam: webshop voor mixed media portretten | Achieve",
     description: "Hoe Achieve met Ron van Dam werkte: webshop voor mixed media portretten.",
+  },
+  CaseZorggroepHaarlemmermeer: {
+    Content: CaseZorggroepHaarlemmermeerContent,
+    title: "Zorggroep Haarlemmermeer: aftermovie van Praktijk van de Toekomst 2025 | Achieve",
+    description: "Hoe Achieve voor Zorggroep Haarlemmermeer het congres Praktijk van de Toekomst 2025 vastlegde in een aftermovie van 51 seconden.",
   },
 };
 
