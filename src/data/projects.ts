@@ -23,6 +23,39 @@ export type Project = {
 
 export const projects: Project[] = [
   {
+    name: "BouwvergunningDirect",
+    href: "CaseBouwvergunningDirect",
+    year: 2026,
+    sector: "Bouw",
+    cats: ["web"],
+    tags: [
+      {
+        label: "WordPress Website",
+        color: "#0B6DB8",
+        bg: "#E3F1FD",
+      },
+    ],
+    result: "Een heldere website die het vergunningstraject eenvoudig maakt",
+    quote: "",
+    challenge: "Complexe regelgeving, bouwkundige details en gemeentelijke eisen: voor veel mensen overweldigend. Die inhoud moest overzichtelijk en begrijpelijk worden, zonder in te leveren op expertise.",
+    initials: "BD",
+    tile: "linear-gradient(135deg, #1F246C 0%, #0F8AE5 100%)",
+    hasImg: true,
+    noImg: false,
+    img: "/media/projects/bouwvergunningdirect-01.webp",
+    alt: "De nieuwe website van BouwvergunningDirect op een laptop, tussen bouwtekeningen en een maquette",
+    gallery: [
+      {
+        img: "/media/projects/bouwvergunningdirect-01.webp",
+        alt: "De nieuwe website van BouwvergunningDirect op een laptop, tussen bouwtekeningen en een maquette",
+      },
+      {
+        img: "/media/projects/bouwvergunningdirect-02.webp",
+        alt: "Het dienstenoverzicht van BouwvergunningDirect op een tablet en een telefoon",
+      },
+    ],
+  },
+  {
     name: "Beddenenzo",
     href: "CaseBeddenenzo",
     year: 2026,
@@ -518,6 +551,15 @@ export const heroProjects: HeroProject[] = [
     video: "/media/projects/zorggroep-haarlemmermeer-hero.mp4",
     poster: "/media/projects/zorggroep-haarlemmermeer-01.webp",
     initials: "ZH",
+    bg: "#2B3190",
+  },
+  {
+    name: "BouwvergunningDirect",
+    sector: "Bouw",
+    sub: "Een heldere WordPress-website die het vergunningstraject eenvoudig maakt.",
+    tag: "WordPress Website",
+    img: "/media/projects/bouwvergunningdirect-01.webp",
+    initials: "BD",
     bg: "#2B3190",
   },
 ];

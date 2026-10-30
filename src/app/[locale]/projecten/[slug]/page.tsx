@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import type { ComponentType } from "react";
 import { CaseADirectContent } from "@/components/cases/CaseADirectContent";
+import { CaseBouwvergunningDirectContent } from "@/components/cases/CaseBouwvergunningDirectContent";
 import { CaseBeddenenzoContent } from "@/components/cases/CaseBeddenenzoContent";
 import { CaseMinimastersContent } from "@/components/cases/CaseMinimastersContent";
 import { CaseRCpeptidesContent } from "@/components/cases/CaseRCpeptidesContent";
@@ -20,6 +21,11 @@ import "@/styles/pages/case.css";
 
 type CaseId = Extract<PageId, `Case${string}`>;
 const CASES: Record<CaseId, { Content: ComponentType; title: string; description: string }> = {
+  CaseBouwvergunningDirect: {
+    Content: CaseBouwvergunningDirectContent,
+    title: "BouwvergunningDirect: een heldere website voor het vergunningstraject | Achieve",
+    description: "Hoe Achieve voor BouwvergunningDirect een WordPress-website bouwde die vergunningen, bouwtekeningen en constructieberekeningen begrijpelijk maakt voor particulieren en ondernemers.",
+  },
   CaseSharkys: {
     Content: CaseSharkysContent,
     title: "Sharkys: van eerste klik tot try-out | Achieve",
