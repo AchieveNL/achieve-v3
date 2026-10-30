@@ -282,9 +282,14 @@ export const projects: Project[] = [
   {
     name: "Sharkys",
     href: "CaseSharkys",
-    sector: "Sportschool",
-    cats: ["web"],
+    sector: "Sport",
+    cats: ["web", "brand"],
     tags: [
+      {
+        label: "Branding",
+        color: "#6B2BD9",
+        bg: "#EFE8FD",
+      },
       {
         label: "WordPress Website",
         color: "#0B6DB8",
@@ -528,9 +533,9 @@ export const heroProjects: HeroProject[] = [
   },
   {
     name: "Sharkys",
-    sector: "Sportschool",
+    sector: "Sport",
     sub: "Een nieuwe website voor een sportschool, die op dag 1 al nieuwe klanten opleverde.",
-    tag: "WordPress Website",
+    tag: "Branding · WordPress Website",
     img: "/media/projects/sharkys-01.webp",
     initials: "S",
     bg: "#2B3190",

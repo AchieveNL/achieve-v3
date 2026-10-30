@@ -1092,7 +1092,7 @@ export function CaseBeddenenzoContent() {
                       {"Sharkys"}
                     </a>
                   </strong>
-                  <span style={{ fontSize: "14px", color: "#5A6273" }}>{t("Sportschool")}</span>
+                  <span style={{ fontSize: "14px", color: "#5A6273" }}>{t("Sport")}</span>
                 </span>
                 <p style={{ margin: "0", fontSize: "16px", fontWeight: "600", lineHeight: "1.45", color: "#1F246C" }}>
                   {t("Nieuwe klanten op dag 1")}

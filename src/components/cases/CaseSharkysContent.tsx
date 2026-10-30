@@ -129,7 +129,7 @@ export function CaseSharkysContent() {
           }}
         >
           <span style={{ fontSize: "13px", fontWeight: "700", letterSpacing: "0.12em", textTransform: "uppercase", color: "#FAE84E" }}>
-            <span>{t("Sportschool")}</span> <span aria-hidden="true">{t("·")}</span> <span translate="no">{"Capelle a/d IJssel"}</span>
+            <span>{t("Sport")}</span> <span aria-hidden="true">{t("·")}</span> <span translate="no">{"Capelle a/d IJssel"}</span>
           </span>
           <h1
             translate="no"

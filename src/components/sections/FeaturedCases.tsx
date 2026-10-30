@@ -428,7 +428,7 @@ export function FeaturedCases() {
                             {t("Sharkys")}
                           </a>
                         </strong>
-                        <span style={{ fontSize: "15px", color: "#5A6273" }}>{t("Sportschool")}</span>
+                        <span style={{ fontSize: "15px", color: "#5A6273" }}>{t("Sport")}</span>
                       </span>
                       <span
                         translate="no"
