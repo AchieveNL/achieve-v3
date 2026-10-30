@@ -262,7 +262,7 @@ export function CaseBioNippyContent() {
                   translate="no"
                   style={{ color: "#1F246C", textUnderlineOffset: "4px" }}
                 >
-                  {"Bionippy.com"}
+                  {"BioNippy.com"}
                 </a>
               </dd>
             </div>
@@ -353,7 +353,7 @@ export function CaseBioNippyContent() {
               </h3>
               <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.65", color: "#3A4150" }}>
                 {t(
-                  "De uitdaging was het ontwerpen van een website die de kern van het platform duidelijk communiceert, terwijl de app nog in ontwikkeling is. De website moest interesse wekken, vertrouwen opbouwen en gebruikers informeren over het concept en de duurzame visie van Bionippy. Daarnaast was het belangrijk dat het ontwerp schaalbaar en internationaal inzetbaar is, passend bij het plan om de app in meerdere landen te lanceren.",
+                  "De uitdaging was het ontwerpen van een website die de kern van het platform duidelijk communiceert, terwijl de app nog in ontwikkeling is. De website moest interesse wekken, vertrouwen opbouwen en gebruikers informeren over het concept en de duurzame visie van BioNippy. Daarnaast was het belangrijk dat het ontwerp schaalbaar en internationaal inzetbaar is, passend bij het plan om de app in meerdere landen te lanceren.",
                 )}
               </p>
             </li>
@@ -396,7 +396,7 @@ export function CaseBioNippyContent() {
               </h3>
               <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.65", color: "#3A4150" }}>
                 {t(
-                  "Bionippy is een duurzaam boodschappenplatform dat zich richt op het snel leveren van biologische food- en non-foodproducten. Met levertijden tussen de 10 en 30 minuten laat Bionippy zien dat duurzaamheid, betaalbaarheid en gemak samen kunnen gaan. Ter voorbereiding op de internationale lancering van hun app had Bionippy behoefte aan een “coming soon”-website die fungeert als eerste kennismaking met het merk en alvast een webshop-achtige ervaring biedt.",
+                  "BioNippy is een duurzaam boodschappenplatform dat zich richt op het snel leveren van biologische food- en non-foodproducten. Met levertijden tussen de 10 en 30 minuten laat BioNippy zien dat duurzaamheid, betaalbaarheid en gemak samen kunnen gaan. Ter voorbereiding op de internationale lancering van hun app had BioNippy behoefte aan een “coming soon”-website die fungeert als eerste kennismaking met het merk en alvast een webshop-achtige ervaring biedt.",
                 )}
               </p>
             </li>
@@ -630,7 +630,7 @@ export function CaseBioNippyContent() {
               </h3>
               <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.65", color: "#3A4150" }}>
                 {t(
-                  "Wij hebben een app coming soon-website ontworpen die de functionaliteit en uitstraling van een webshop combineert met een duidelijke focus op branding en storytelling. Het ontwerp bevat een heldere structuur, overzichtelijke productpresentatie en content die de missie en impact van Bionippy benadrukt. De visuele stijl is fris, modern en duurzaam, en sluit aan bij een internationale doelgroep die bekend is met snelle, digitale platforms.",
+                  "Wij hebben een app coming soon-website ontworpen die de functionaliteit en uitstraling van een webshop combineert met een duidelijke focus op branding en storytelling. Het ontwerp bevat een heldere structuur, overzichtelijke productpresentatie en content die de missie en impact van BioNippy benadrukt. De visuele stijl is fris, modern en duurzaam, en sluit aan bij een internationale doelgroep die bekend is met snelle, digitale platforms.",
                 )}
               </p>
             </li>
@@ -673,7 +673,7 @@ export function CaseBioNippyContent() {
               </h3>
               <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.65", color: "#3A4150" }}>
                 {t(
-                  "De website biedt Bionippy een sterke eerste digitale aanwezigheid voorafgaand aan de app-lancering. Bezoekers krijgen een duidelijk beeld van het concept, de duurzame waarden en het toekomstige platform. De website helpt bij het opbouwen van merkbekendheid, het creëren van interesse rondom de app en het neerzetten van een consistente basis voor internationale groei.",
+                  "De website biedt BioNippy een sterke eerste digitale aanwezigheid voorafgaand aan de app-lancering. Bezoekers krijgen een duidelijk beeld van het concept, de duurzame waarden en het toekomstige platform. De website helpt bij het opbouwen van merkbekendheid, het creëren van interesse rondom de app en het neerzetten van een consistente basis voor internationale groei.",
                 )}
               </p>
             </li>
