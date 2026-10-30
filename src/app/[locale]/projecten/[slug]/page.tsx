@@ -15,6 +15,8 @@ import { CaseBioNippyContent } from "@/components/cases/CaseBioNippyContent";
 import { CaseCherriesContent } from "@/components/cases/CaseCherriesContent";
 import { CasePlanLesContent } from "@/components/cases/CasePlanLesContent";
 import { CaseGromotionContent } from "@/components/cases/CaseGromotionContent";
+import { CaseDermeClinicContent } from "@/components/cases/CaseDermeClinicContent";
+import { CaseHorlogewinkelContent } from "@/components/cases/CaseHorlogewinkelContent";
 import { CaseLogosLegalContent } from "@/components/cases/CaseLogosLegalContent";
 import { CaseTurnedGovContent } from "@/components/cases/CaseTurnedGovContent";
 import { CaseBuruContent } from "@/components/cases/CaseBuruContent";
@@ -115,6 +117,16 @@ const CASES: Record<CaseId, { Content: ComponentType; title: string; description
     Content: CaseBuruContent,
     title: "Buru Construction: nieuw merk met een stier als mascotte | Achieve",
     description: "Hoe Achieve voor renovatiebedrijf Buru Construction een stier als mascotte ontwierp en een website die erbij past.",
+  },
+  CaseHorlogewinkel: {
+    Content: CaseHorlogewinkelContent,
+    title: "Horlogewinkel.com: 30% hogere ROAS met CRO en Google Shopping | Achieve",
+    description: "Hoe Achieve voor Horlogewinkel.com de conversie verbeterde en met een geoptimaliseerde productfeed en Google Shopping de ROAS met 30% verhoogde.",
+  },
+  CaseDermeClinic: {
+    Content: CaseDermeClinicContent,
+    title: "Dermé Clinic: 23 afspraken in één maand met CRO en Google Ads | Achieve",
+    description: "Hoe Achieve voor Dermé Clinic de website optimaliseerde en met gerichte Google Ads-campagnes in één maand 23 afspraken opleverde.",
   },
 };
 

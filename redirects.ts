@@ -8,6 +8,8 @@ type Redirect = { source: string; destination: string; permanent: true };
 
 // Old case slugs that have a new case page; every other old case goes to the overview.
 const caseMap: Record<string, string> = {
+  "dermeclinic": "derme-clinic",
+  "horloge-winkel": "horlogewinkel",
   "a-direct-autoparts": "a-direct",
   beddenenzo: "beddenenzo",
   "minimasters-playground": "minimasters",
@@ -27,8 +29,8 @@ const caseMap: Record<string, string> = {
 };
 const oldCases = [
   "ayeway", "cabby-rentals", "career-rebels",
-  "crypto-architect", "decathlon", "dermeclinic", "frootie", "gemeente-west-brabant", "gifted-tigers",
-  "greenteam", "horloge-winkel", "kortingcentrum", "mevsen", "surprise-company",
+  "crypto-architect", "decathlon", "frootie", "gemeente-west-brabant", "gifted-tigers",
+  "greenteam", "kortingcentrum", "mevsen", "surprise-company",
   "the-cave-zanzibar", "vnmshop", "winkwing", "wrppn", "zcn-zzv",
 ];
 
