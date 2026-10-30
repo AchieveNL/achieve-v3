@@ -261,7 +261,7 @@ export function CaseBouwvergunningDirectContent() {
                   translate="no"
                   style={{ color: "#1F246C", textUnderlineOffset: "4px" }}
                 >
-                  {"bouwvergunningdirect.nl"}
+                  {"BouwvergunningDirect.nl"}
                 </a>
               </dd>
             </div>
