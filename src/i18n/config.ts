@@ -46,6 +46,7 @@ export const routes = {
   CaseRonVanDam: "projecten/ron-van-dam",
   CaseBouwvergunningDirect: "projecten/bouwvergunning-direct",
   CaseZorggroepHaarlemmermeer: "projecten/zorggroep-haarlemmermeer",
+  CaseDeLimes: "projecten/de-limes",
 } as const;
 export type PageId = keyof typeof routes;
 

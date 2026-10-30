@@ -10,6 +10,7 @@ import { CaseRonVanDamContent } from "@/components/cases/CaseRonVanDamContent";
 import { CaseSharkysContent } from "@/components/cases/CaseSharkysContent";
 import { CaseSushiTodayContent } from "@/components/cases/CaseSushiTodayContent";
 import { CaseZorggroepHaarlemmermeerContent } from "@/components/cases/CaseZorggroepHaarlemmermeerContent";
+import { CaseDeLimesContent } from "@/components/cases/CaseDeLimesContent";
 import { PageShell } from "@/components/layout/PageShell";
 import { ProjectsCta } from "@/components/projects/ProjectsCta";
 import { ReadingProgress } from "@/components/ui/ReadingProgress";
@@ -67,6 +68,11 @@ const CASES: Record<CaseId, { Content: ComponentType; title: string; description
     Content: CaseZorggroepHaarlemmermeerContent,
     title: "Zorggroep Haarlemmermeer: aftermovie van Praktijk van de Toekomst 2025 | Achieve",
     description: "Hoe Achieve voor Zorggroep Haarlemmermeer het congres Praktijk van de Toekomst 2025 vastlegde in een aftermovie van 51 seconden.",
+  },
+  CaseDeLimes: {
+    Content: CaseDeLimesContent,
+    title: "HuisartsenSpoedpost De Limes: wervingsvideo's voor triagisten | Achieve",
+    description: "Hoe Achieve voor HuisartsenSpoedpost De Limes twee wervingsvideo's maakte waarin triagisten zelf vertellen over hun werk.",
   },
 };
 

@@ -25,6 +25,36 @@ export type Project = {
 
 export const projects: Project[] = [
   {
+    name: "HuisartsenSpoedpost De Limes",
+    href: "CaseDeLimes",
+    year: 2025,
+    sector: "Zorg",
+    cats: ["video"],
+    tags: [
+      {
+        label: "Video Marketing",
+        color: "#6E5A00",
+        bg: "#FFF6C7",
+      },
+    ],
+    result: "Twee wervingsvideo's voor triagisten",
+    quote: "",
+    challenge: "Een huisartsenspoedpost zoekt triagisten. Kandidaten moesten zien hoe het werk echt voelt, verteld door collega's zelf.",
+    initials: "DL",
+    tile: "linear-gradient(135deg, #1F246C 0%, #0F8AE5 100%)",
+    hasImg: true,
+    noImg: false,
+    img: "/media/projects/de-limes-cover.webp",
+    alt: "Triagist Lotte aan de telefoon terwijl junior triagist Bas meekijkt",
+    gallery: [
+      {
+        video: "/media/projects/de-limes-hero.mp4",
+        poster: "/media/projects/de-limes-cover.webp",
+        alt: "Triagisten aan het werk op HuisartsenSpoedpost De Limes",
+      },
+    ],
+  },
+  {
     name: "BouwvergunningDirect",
     href: "CaseBouwvergunningDirect",
     year: 2026,
@@ -592,6 +622,17 @@ export const heroProjects: HeroProject[] = [
     video: "/media/projects/zorggroep-haarlemmermeer-hero.mp4",
     poster: "/media/projects/zorggroep-haarlemmermeer-01.webp",
     initials: "ZH",
+    bg: "#2B3190",
+  },
+  {
+    name: "HuisartsenSpoedpost De Limes",
+    sector: "Zorg",
+    sub: "Twee wervingsvideo's waarin triagisten zelf vertellen over hun werk.",
+    tag: "Video Marketing",
+    img: "/media/projects/de-limes-cover.webp",
+    video: "/media/projects/de-limes-hero.mp4",
+    poster: "/media/projects/de-limes-cover.webp",
+    initials: "DL",
     bg: "#2B3190",
   },
   {
