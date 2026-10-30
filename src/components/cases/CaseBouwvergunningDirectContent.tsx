@@ -216,15 +216,16 @@ export function CaseBouwvergunningDirectContent() {
                 {t("Doelgroep")}
               </dt>
               <dd style={{ margin: "0", fontSize: "16px", fontWeight: "600", color: "#1F246C" }}>
-                {t("Particulieren en ondernemers")}
+                {t("B2C en B2B")}
+                <Tip label={ta("Uitleg")}>{t("B2C: je verkoopt aan consumenten. B2B: je verkoopt aan bedrijven. BouwvergunningDirect helpt allebei.")}</Tip>
                 
               </dd>
             </div>
             <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
               <dt style={{ fontSize: "12px", fontWeight: "700", letterSpacing: "0.1em", textTransform: "uppercase", color: "#8639FA" }}>
-                {t("Specialisme")}
+                {t("Looptijd")}
               </dt>
-              <dd style={{ margin: "0", fontSize: "16px", fontWeight: "600", color: "#1F246C" }}>{t("Vergunningsaanvragen")}</dd>
+              <dd style={{ margin: "0", fontSize: "16px", fontWeight: "600", color: "#1F246C" }}>{t("1 maand")}</dd>
             </div>
             <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
               <dt style={{ fontSize: "12px", fontWeight: "700", letterSpacing: "0.1em", textTransform: "uppercase", color: "#8639FA" }}>

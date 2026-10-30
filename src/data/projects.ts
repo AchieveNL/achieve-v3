@@ -19,6 +19,8 @@ export type Project = {
   img?: string;
   alt?: string;
   gallery?: Media[];
+  /** Shown as the featured case above the grid; in the grid only under a matching filter (not under "Alle"). */
+  featured?: boolean;
 };
 
 export const projects: Project[] = [
@@ -52,6 +54,40 @@ export const projects: Project[] = [
       {
         img: "/media/projects/bouwvergunningdirect-02.webp",
         alt: "Het dienstenoverzicht van BouwvergunningDirect op een tablet en een telefoon",
+      },
+    ],
+  },
+  {
+    name: "RCpeptides",
+    href: "CaseRCpeptides",
+    year: 2025,
+    sector: "Life sciences",
+    cats: ["ads"],
+    featured: true,
+    tags: [
+      {
+        label: "SEA",
+        color: "#6E5A00",
+        bg: "#FFF6C7",
+      },
+    ],
+    result: "8,3x ROAS in de eerste maand",
+    quote: "",
+    challenge: "Een jonge webshop, nog zonder bewezen advertentiekanaal.",
+    initials: "RC",
+    tile: "linear-gradient(135deg, #1F246C 0%, #8639FA 100%)",
+    hasImg: true,
+    noImg: false,
+    img: "/media/projects/rcpeptides-03.webp",
+    alt: "De webshop RCpeptides op een laptop en een telefoon in een modern lab",
+    gallery: [
+      {
+        img: "/media/projects/rcpeptides-03.webp",
+        alt: "De webshop RCpeptides op een laptop en een telefoon in een modern lab",
+      },
+      {
+        img: "/media/projects/rcpeptides-04.webp",
+        alt: "De productpagina van RCpeptides op een laptop en een telefoon in een modern lab",
       },
     ],
   },

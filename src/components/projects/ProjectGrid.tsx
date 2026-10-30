@@ -12,12 +12,13 @@ export function ProjectGrid() {
 
   const [flt, setFlt] = useState<string>("alle");
   const [cardGal, setCardGal] = useState<Record<string, number>>({});
-  const list = ALL.filter((p) => flt === "alle" || p.cats.includes(flt));
+  // The featured case sits above the grid; it only joins the grid when a category filter is on.
+  const list = ALL.filter((p) => (flt === "alle" ? !p.featured : p.cats.includes(flt)));
   const h = {
     countLabel: list.length + (list.length === 1 ? " project" : " projecten"),
     filters: projectFilters.map((f) => {
       const on = f.id === flt;
-      const n = f.id === "alle" ? ALL.length : ALL.filter((p) => p.cats.includes(f.id)).length;
+      const n = f.id === "alle" ? ALL.filter((p) => !p.featured).length : ALL.filter((p) => p.cats.includes(f.id)).length;
       return {
         label: f.label,
         count: String(n),
