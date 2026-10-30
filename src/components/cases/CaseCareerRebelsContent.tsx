@@ -480,26 +480,6 @@ export function CaseCareerRebelsContent() {
               <figcaption style={{ fontSize: "15px", lineHeight: "1.5", color: "#5A6273" }}>{t("Vacaturevideo: medewerkers klantcontact gezocht")}</figcaption>
             </figure>
             </div>
-            <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(100%, 240px), 1fr))", gap: "24px", alignItems: "start" }}>
-            <figure style={{ margin: "0", display: "flex", flexDirection: "column", gap: "12px" }}>
-              <div style={{ position: "relative", aspectRatio: "9 / 16", borderRadius: "20px", overflow: "hidden", background: "#0E1116" }}>
-                <video src="/media/projects/career-rebels-story-02.mp4" poster="/media/projects/career-rebels-story-02.webp" controls playsInline preload="none" aria-label={ta("Story: Are you ready to rock that job?")} style={{ position: "absolute", inset: "0", width: "100%", height: "100%", objectFit: "cover", background: "#0E1116" }} />
-              </div>
-              <figcaption style={{ fontSize: "15px", lineHeight: "1.5", color: "#5A6273" }}>{t("Story: Are you ready to rock that job?")}</figcaption>
-            </figure>
-            <figure style={{ margin: "0", display: "flex", flexDirection: "column", gap: "12px" }}>
-              <div style={{ position: "relative", aspectRatio: "9 / 16", borderRadius: "20px", overflow: "hidden", background: "#0E1116" }}>
-                <video src="/media/projects/career-rebels-story-01.mp4" poster="/media/projects/career-rebels-story-01.webp" controls playsInline preload="none" aria-label={ta("Story: Ambition, progress, motivation")} style={{ position: "absolute", inset: "0", width: "100%", height: "100%", objectFit: "cover", background: "#0E1116" }} />
-              </div>
-              <figcaption style={{ fontSize: "15px", lineHeight: "1.5", color: "#5A6273" }}>{t("Story: Ambition, progress, motivation")}</figcaption>
-            </figure>
-            <figure style={{ margin: "0", display: "flex", flexDirection: "column", gap: "12px" }}>
-              <div style={{ position: "relative", aspectRatio: "9 / 16", borderRadius: "20px", overflow: "hidden", background: "#0E1116" }}>
-                <video src="/media/projects/career-rebels-story-03.mp4" poster="/media/projects/career-rebels-story-03.webp" controls playsInline preload="none" aria-label={ta("Story: Op zoek naar de juiste baan?")} style={{ position: "absolute", inset: "0", width: "100%", height: "100%", objectFit: "cover", background: "#0E1116" }} />
-              </div>
-              <figcaption style={{ fontSize: "15px", lineHeight: "1.5", color: "#5A6273" }}>{t("Story: Op zoek naar de juiste baan?")}</figcaption>
-            </figure>
-          </div>
           </div>
         </div>
       </section>
@@ -603,6 +583,30 @@ export function CaseCareerRebelsContent() {
               </p>
             </li>
           </ol>
+        </div>
+      </section>
+      <section className="pj-wrap pj-sec" style={{ background: "#F2F8FE", padding: "0 40px 112px" }}>
+        <div style={{ maxWidth: "1280px", margin: "0 auto" }}>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(100%, 240px), 1fr))", gap: "24px", alignItems: "start" }}>
+            <figure style={{ margin: "0", display: "flex", flexDirection: "column", gap: "12px" }}>
+              <div style={{ position: "relative", aspectRatio: "9 / 16", borderRadius: "20px", overflow: "hidden", background: "#0E1116" }}>
+                <video src="/media/projects/career-rebels-story-02.mp4" poster="/media/projects/career-rebels-story-02.webp" controls playsInline preload="none" aria-label={ta("Story: Are you ready to rock that job?")} style={{ position: "absolute", inset: "0", width: "100%", height: "100%", objectFit: "cover", background: "#0E1116" }} />
+              </div>
+              <figcaption style={{ fontSize: "15px", lineHeight: "1.5", color: "#5A6273" }}>{t("Story: Are you ready to rock that job?")}</figcaption>
+            </figure>
+            <figure style={{ margin: "0", display: "flex", flexDirection: "column", gap: "12px" }}>
+              <div style={{ position: "relative", aspectRatio: "9 / 16", borderRadius: "20px", overflow: "hidden", background: "#0E1116" }}>
+                <video src="/media/projects/career-rebels-story-01.mp4" poster="/media/projects/career-rebels-story-01.webp" controls playsInline preload="none" aria-label={ta("Story: Ambition, progress, motivation")} style={{ position: "absolute", inset: "0", width: "100%", height: "100%", objectFit: "cover", background: "#0E1116" }} />
+              </div>
+              <figcaption style={{ fontSize: "15px", lineHeight: "1.5", color: "#5A6273" }}>{t("Story: Ambition, progress, motivation")}</figcaption>
+            </figure>
+            <figure style={{ margin: "0", display: "flex", flexDirection: "column", gap: "12px" }}>
+              <div style={{ position: "relative", aspectRatio: "9 / 16", borderRadius: "20px", overflow: "hidden", background: "#0E1116" }}>
+                <video src="/media/projects/career-rebels-story-03.mp4" poster="/media/projects/career-rebels-story-03.webp" controls playsInline preload="none" aria-label={ta("Story: Op zoek naar de juiste baan?")} style={{ position: "absolute", inset: "0", width: "100%", height: "100%", objectFit: "cover", background: "#0E1116" }} />
+              </div>
+              <figcaption style={{ fontSize: "15px", lineHeight: "1.5", color: "#5A6273" }}>{t("Story: Op zoek naar de juiste baan?")}</figcaption>
+            </figure>
+          </div>
         </div>
       </section>
       <section className="pj-wrap pj-sec" style={{ background: "#F2F8FE", padding: "0 40px 112px" }}>
