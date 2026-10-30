@@ -309,7 +309,7 @@ export function CaseRonVanDamContent() {
                   translate="no"
                   style={{ color: "#1F246C", textUnderlineOffset: "4px" }}
                 >
-                  {"ronvandamart.com"}
+                  {"RonVanDamArt.com"}
                 </a>
               </dd>
             </div>

@@ -339,7 +339,18 @@ export function CaseADirectContent() {
               <dt style={{ fontSize: "12px", fontWeight: "700", letterSpacing: "0.1em", textTransform: "uppercase", color: "#8639FA" }}>
                 {t("Website")}
               </dt>
-              <dd style={{ margin: "0", fontSize: "16px", fontWeight: "600", color: "#1F246C" }}>{t("Offline")}</dd>
+              <dd style={{ margin: "0", fontSize: "16px", fontWeight: "600", color: "#1F246C" }}>
+                <a
+                  href="https://adirect-autoparts.nl/"
+                  target="_blank"
+                  rel="noopener"
+                  translate="no"
+                  style={{ color: "#1F246C", textUnderlineOffset: "4px" }}
+                >
+                  {"ADirect-Autoparts.nl"}
+                </a>{" "}
+                <span style={{ color: "#5A6273", fontWeight: "500" }}>{t("(offline)")}</span>
+              </dd>
             </div>
             <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
               <dt style={{ fontSize: "12px", fontWeight: "700", letterSpacing: "0.1em", textTransform: "uppercase", color: "#8639FA" }}>

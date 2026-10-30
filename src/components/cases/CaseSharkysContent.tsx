@@ -340,7 +340,7 @@ export function CaseSharkysContent() {
                   translate="no"
                   style={{ color: "#1F246C", textUnderlineOffset: "4px" }}
                 >
-                  {"sharkys.nl"}
+                  {"Sharkys.nl"}
                 </a>
               </dd>
             </div>

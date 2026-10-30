@@ -315,7 +315,7 @@ export function CaseRCpeptidesContent() {
                   translate="no"
                   style={{ color: "#1F246C", textUnderlineOffset: "4px" }}
                 >
-                  {"rcpeptides.com"}
+                  {"RCpeptides.com"}
                 </a>
               </dd>
             </div>

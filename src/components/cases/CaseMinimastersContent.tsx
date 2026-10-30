@@ -299,7 +299,7 @@ export function CaseMinimastersContent() {
                   translate="no"
                   style={{ color: "#1F246C", textUnderlineOffset: "4px" }}
                 >
-                  {"minimastersplayground.nl"}
+                  {"MinimastersPlayground.nl"}
                 </a>
               </dd>
             </div>

@@ -374,7 +374,7 @@ export function CaseBeddenenzoContent() {
                   translate="no"
                   style={{ color: "#1F246C", textUnderlineOffset: "4px" }}
                 >
-                  {"beddenenzo.nl"}
+                  {"Beddenenzo.nl"}
                 </a>
               </dd>
             </div>

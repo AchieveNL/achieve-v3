@@ -290,7 +290,7 @@ export function CaseSushiTodayContent() {
                   translate="no"
                   style={{ color: "#1F246C", textUnderlineOffset: "4px" }}
                 >
-                  {"sushitoday.nl"}
+                  {"SushiToday.nl"}
                 </a>
               </dd>
             </div>
