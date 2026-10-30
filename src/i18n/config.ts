@@ -51,6 +51,7 @@ export const routes = {
   CaseCherries: "projecten/cherries",
   CasePlanLes: "projecten/planles",
   CaseGromotion: "projecten/gromotion",
+  CaseMevsen: "projecten/mevsen",
   CaseCareerRebels: "projecten/career-rebels",
   CaseGreenTeam: "projecten/greenteam",
   CaseKortingCentrum: "projecten/kortingcentrum",

@@ -25,6 +25,34 @@ export type Project = {
 
 export const projects: Project[] = [
   {
+    name: "Mevsen",
+    href: "CaseMevsen",
+    year: 2024,
+    sector: "Onderwijs",
+    cats: ["web"],
+    tags: [
+      {
+        label: "Custom Website",
+        color: "#0B6DB8",
+        bg: "#E3F1FD",
+      },
+    ],
+    result: "Moderne website die nieuwkomers wegwijs maakt in taal en samenleving",
+    quote: "",
+    challenge: "Mevsen wilde een moderne website en gaf ons alle creatieve vrijheid.",
+    initials: "MV",
+    tile: "linear-gradient(135deg, #1F246C 0%, #0F8AE5 100%)",
+    hasImg: true,
+    noImg: false,
+    img: "/media/projects/mevsen-01.webp",
+    alt: "De homepage van Mevsen met Welkom bij Mevsen op een laptop",
+    gallery: [
+      { img: "/media/projects/mevsen-01.webp", alt: "De homepage van Mevsen met Welkom bij Mevsen op een laptop" },
+      { img: "/media/projects/mevsen-02.webp", alt: "De contactpagina en de cursuspagina van Mevsen op twee laptops" },
+      { img: "/media/projects/mevsen-03.webp", alt: "De pagina's Wie ben ik en Missie en visie van Mevsen op een desktop en een laptop" },
+    ],
+  },
+  {
     name: "Career Rebels",
     href: "CaseCareerRebels",
     year: 2024,
@@ -1278,6 +1306,15 @@ export const heroProjects: HeroProject[] = [
     tag: "Video Marketing · SMA",
     img: "/media/projects/career-rebels-01.webp",
     initials: "CR",
+    bg: "#2B3190",
+  },
+  {
+    name: "Mevsen",
+    sector: "Onderwijs",
+    sub: "Een moderne website die nieuwkomers wegwijs maakt in taal en samenleving.",
+    tag: "Custom Website",
+    img: "/media/projects/mevsen-01.webp",
+    initials: "MV",
     bg: "#2B3190",
   },
 ];

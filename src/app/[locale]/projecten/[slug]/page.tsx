@@ -15,6 +15,7 @@ import { CaseBioNippyContent } from "@/components/cases/CaseBioNippyContent";
 import { CaseCherriesContent } from "@/components/cases/CaseCherriesContent";
 import { CasePlanLesContent } from "@/components/cases/CasePlanLesContent";
 import { CaseGromotionContent } from "@/components/cases/CaseGromotionContent";
+import { CaseMevsenContent } from "@/components/cases/CaseMevsenContent";
 import { CaseCareerRebelsContent } from "@/components/cases/CaseCareerRebelsContent";
 import { CaseGreenTeamContent } from "@/components/cases/CaseGreenTeamContent";
 import { CaseKortingCentrumContent } from "@/components/cases/CaseKortingCentrumContent";
@@ -169,6 +170,11 @@ const CASES: Record<CaseId, { Content: ComponentType; title: string; description
     Content: CaseCareerRebelsContent,
     title: "Career Rebels: 100+ sollicitaties in één weekend met video en Meta Ads | Achieve",
     description: "Hoe Achieve voor Career Rebels met korte video's en Social Media Advertising in één weekend meer dan 100 sollicitaties opleverde.",
+  },
+  CaseMevsen: {
+    Content: CaseMevsenContent,
+    title: "Mevsen: moderne website voor taalcursussen en inburgering | Achieve",
+    description: "Hoe Achieve voor Mevsen een moderne website bouwde die nieuwkomers wegwijs maakt in taalcursussen, roosters en tarieven.",
   },
 };
 
