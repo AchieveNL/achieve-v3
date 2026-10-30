@@ -245,9 +245,9 @@ export function CaseZorggroepHaarlemmermeerContent() {
             </div>
             <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
               <dt style={{ fontSize: "12px", fontWeight: "700", letterSpacing: "0.1em", textTransform: "uppercase", color: "#8639FA" }}>
-                {t("Video")}
+                {t("Looptijd")}
               </dt>
-              <dd style={{ margin: "0", fontSize: "16px", fontWeight: "600", color: "#1F246C" }}>{t("Aftermovie, 51 seconden")}</dd>
+              <dd style={{ margin: "0", fontSize: "16px", fontWeight: "600", color: "#1F246C" }}>{t("2 weken")}</dd>
             </div>
             <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
               <dt style={{ fontSize: "12px", fontWeight: "700", letterSpacing: "0.1em", textTransform: "uppercase", color: "#8639FA" }}>
