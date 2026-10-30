@@ -18,6 +18,7 @@ const caseMap: Record<string, string> = {
   "de-limes": "de-limes",
   "bionippy": "bionippy",
   "cherries": "cherries",
+  "planles": "planles",
   "bouwvergunning-direct": "bouwvergunning-direct",
 };
 const oldCases = [

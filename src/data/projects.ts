@@ -25,6 +25,34 @@ export type Project = {
 
 export const projects: Project[] = [
   {
+    name: "PlanLes",
+    href: "CasePlanLes",
+    year: 2025,
+    sector: "Rijschool",
+    cats: ["web", "brand"],
+    tags: [
+      {
+        label: "Branding",
+        color: "#6B2BD9",
+        bg: "#EFE8FD",
+      },
+      {
+        label: "Mobile App",
+        color: "#0B6DB8",
+        bg: "#E3F1FD",
+      },
+    ],
+    result: "App om rijlessen te plannen, betalen en volgen",
+    quote: "",
+    challenge: "Leerlingen en instructeurs in één app: lessen plannen, pakketten kopen, facturen betalen en voortgang volgen, zonder dat het ingewikkeld wordt.",
+    initials: "PL",
+    tile: "linear-gradient(135deg, #1F246C 0%, #0F8AE5 100%)",
+    hasImg: true,
+    noImg: false,
+    img: "/media/projects/planles-01.webp",
+    alt: "Schermen van de PlanLes-app op zes telefoons: inloggen, lespakketten, rijles plannen en lesoverzicht",
+  },
+  {
     name: "Cherries",
     href: "CaseCherries",
     year: 2025,
@@ -683,6 +711,15 @@ export const heroProjects: HeroProject[] = [
     video: "/media/projects/zorggroep-haarlemmermeer-hero.mp4",
     poster: "/media/projects/zorggroep-haarlemmermeer-01.webp",
     initials: "ZH",
+    bg: "#2B3190",
+  },
+  {
+    name: "PlanLes",
+    sector: "Rijschool",
+    sub: "Een app die rijlessen plannen, betalen en volgen eenvoudig maakt.",
+    tag: "Branding · Mobile App",
+    img: "/media/projects/planles-01.webp",
+    initials: "PL",
     bg: "#2B3190",
   },
   {

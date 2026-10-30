@@ -13,6 +13,7 @@ import { CaseZorggroepHaarlemmermeerContent } from "@/components/cases/CaseZorgg
 import { CaseDeLimesContent } from "@/components/cases/CaseDeLimesContent";
 import { CaseBioNippyContent } from "@/components/cases/CaseBioNippyContent";
 import { CaseCherriesContent } from "@/components/cases/CaseCherriesContent";
+import { CasePlanLesContent } from "@/components/cases/CasePlanLesContent";
 import { PageShell } from "@/components/layout/PageShell";
 import { ProjectsCta } from "@/components/projects/ProjectsCta";
 import { ReadingProgress } from "@/components/ui/ReadingProgress";
@@ -85,6 +86,11 @@ const CASES: Record<CaseId, { Content: ComponentType; title: string; description
     Content: CaseCherriesContent,
     title: "Cherries: speelse Shopify-webshop voor telefoonaccessoires | Achieve",
     description: "Hoe Achieve voor Cherries een speelse en overzichtelijke Shopify-webshop ontwierp, op desktop en mobiel.",
+  },
+  CasePlanLes: {
+    Content: CasePlanLesContent,
+    title: "PlanLes: app om rijlessen te plannen, betalen en volgen | Achieve",
+    description: "Hoe Achieve voor PlanLes een app ontwierp waarin leerlingen en instructeurs lessen plannen, betalen en voortgang volgen.",
   },
 };
 

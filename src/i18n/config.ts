@@ -49,6 +49,7 @@ export const routes = {
   CaseDeLimes: "projecten/de-limes",
   CaseBioNippy: "projecten/bionippy",
   CaseCherries: "projecten/cherries",
+  CasePlanLes: "projecten/planles",
 } as const;
 export type PageId = keyof typeof routes;
 
