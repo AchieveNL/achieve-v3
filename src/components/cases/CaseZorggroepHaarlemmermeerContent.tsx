@@ -364,7 +364,7 @@ export function CaseZorggroepHaarlemmermeerContent() {
               </h3>
               <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.65", color: "#3A4150" }}>
                 {t(
-                  "Zorggroep Haarlemmermeer organiseerde samen met Zorg en Zekerheid en MeerKracht het congres Praktijk van de Toekomst: een dag vol sprekers, gesprekken en nieuwe ideeën voor de eerstelijnszorg. Die energie wilden ze vastleggen, voor iedereen die erbij was en iedereen die er niet bij kon zijn.",
+                  "De grootste uitdaging was het visueel vertalen van een professioneel zorgevent naar een energieke en authentieke video. We moesten een respectvolle toon behouden die passend is voor de medische sector, terwijl de content toch aantrekkelijk en toegankelijk blijft voor een breder publiek. Het filmen in meerdere ruimtes, tijdens zowel formele sessies als informele momenten, vereiste daarnaast een zorgvuldige planning en coördinatie.",
                 )}
               </p>
             </li>
@@ -407,7 +407,7 @@ export function CaseZorggroepHaarlemmermeerContent() {
               </h3>
               <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.65", color: "#3A4150" }}>
                 {t(
-                  "We filmden de hele dag: de sprekers op het podium, het publiek en de momenten tussendoor. In korte interviews lieten we de dagvoorzitter en de sprekers zelf aan het woord.",
+                  "Zorggroep Haarlemmermeer is een multidisciplinaire eerstelijnsorganisatie in de regio Haarlemmermeer. Zij organiseerden Praktijk van de Toekomst, een regionaal zorgcongres in The B House in Hoofddorp. Het evenement bracht professionals uit de eerstelijnszorg, ouderenzorg, sociale diensten en lokale overheid samen om de toekomst van slimmere en beter verbonden zorg te bespreken. Onze taak was het filmen en monteren van een boeiende aftermovie die de essentie van de dag vastlegt: van keynotes en panelgesprekken tot netwerken en interviews tijdens de borrel aan het einde van de dag.",
                 )}
               </p>
             </li>
@@ -512,7 +512,7 @@ export function CaseZorggroepHaarlemmermeerContent() {
               </h3>
               <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.65", color: "#3A4150" }}>
                 {t(
-                  "In de montage brachten we alles terug tot de kern: een strak tempo, muziek die past bij de sfeer en de namen van de sprekers in beeld. Zo blijft de video kort genoeg om tot het einde te kijken, en vertelt hij toch het verhaal van de hele dag.",
+                  "We benaderden de opname met een documentaire-achtige stijl, met focus op echte interacties, natuurlijk licht en spontane momenten die samenwerking en inspiratie weerspiegelen. Gedurende de dag hebben we korte interviews afgenomen met deelnemers en de CEO, waardoor er een persoonlijke laag aan de video werd toegevoegd. Het materiaal is gemonteerd tot een dynamische aftermovie met vloeiende overgangen en een warme kleurcorrectie die de positieve sfeer van het event benadrukt.",
                 )}
               </p>
             </li>
@@ -555,7 +555,7 @@ export function CaseZorggroepHaarlemmermeerContent() {
               </h3>
               <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.65", color: "#3A4150" }}>
                 {t(
-                  "Zorggroep Haarlemmermeer heeft nu een video om te delen op social media en de website, en om deelnemers enthousiast te maken voor de volgende editie.",
+                  "De aftermovie laat zien hoe inspirerend, toekomstgericht en innovatief het symposium was. Het helpt Zorggroep Haarlemmermeer om de boodschap van het event te delen met zorgprofessionals, partners en andere geïnteresseerden, en biedt een blijvende herinnering aan een dag vol kennis, inspiratie en samenwerking.",
                 )}
               </p>
             </li>

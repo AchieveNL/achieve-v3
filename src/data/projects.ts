@@ -77,7 +77,7 @@ export const projects: Project[] = [
     ],
     result: "Aftermovie van het congres Praktijk van de Toekomst 2025",
     quote: "",
-    challenge: "Een congresdag vol sprekers, gesprekken en nieuwe ideeën voor de eerstelijnszorg. Die energie moest vastgelegd worden, ook voor wie er niet bij was.",
+    challenge: "Een regionaal zorgcongres in Hoofddorp voor professionals uit de zorg, het sociaal domein en de lokale overheid. De essentie van de dag moest vastgelegd worden in een boeiende aftermovie.",
     initials: "ZH",
     tile: "linear-gradient(135deg, #1F246C 0%, #0F8AE5 100%)",
     hasImg: true,
