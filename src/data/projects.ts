@@ -735,9 +735,13 @@ export const projects: Project[] = [
     tile: "linear-gradient(135deg, #0F8AE5 0%, #1F246C 100%)",
     hasImg: true,
     noImg: false,
-    img: "/media/projects/minimasters-playground-01.webp",
-    alt: "Kinderen spelen verkleed als kok, verpleegkundige, brandweer en politie in Minimasters Playground",
+    img: "/media/projects/minimasters-playground-22.webp",
+    alt: "Kinderen glijden lachend de ballenbak in bij Minimasters Playground",
     gallery: [
+      {
+        img: "/media/projects/minimasters-playground-22.webp",
+        alt: "Kinderen glijden lachend de ballenbak in bij Minimasters Playground",
+      },
       {
         img: "/media/projects/minimasters-playground-01.webp",
         alt: "Kinderen spelen verkleed als kok, verpleegkundige, brandweer en politie in Minimasters Playground",
@@ -821,10 +825,6 @@ export const projects: Project[] = [
       {
         img: "/media/projects/minimasters-playground-21.webp",
         alt: "Peuters in hesjes sleutelen aan auto's in de garage van Minimasters Playground",
-      },
-      {
-        img: "/media/projects/minimasters-playground-22.webp",
-        alt: "Kinderen glijden lachend de ballenbak in bij Minimasters Playground",
       },
     ],
     year: 2026,
@@ -1055,8 +1055,9 @@ export const heroProjects: HeroProject[] = [
     tag: "Window Graphics · Custom Website",
     bg: "linear-gradient(135deg, #0F8AE5 0%, #1F246C 100%)",
     initials: "MP",
-    img: "/media/projects/minimasters-playground-01.webp",
+    img: "/media/projects/minimasters-playground-22.webp",
     pool: [
+      "/media/projects/minimasters-playground-22.webp",
       "/media/projects/minimasters-playground-01.webp",
       "/media/projects/minimasters-playground-02.webp",
       "/media/projects/minimasters-playground-03.webp",
@@ -1078,7 +1079,6 @@ export const heroProjects: HeroProject[] = [
       "/media/projects/minimasters-playground-19.webp",
       "/media/projects/minimasters-playground-20.webp",
       "/media/projects/minimasters-playground-21.webp",
-      "/media/projects/minimasters-playground-22.webp",
     ],
   },
   {

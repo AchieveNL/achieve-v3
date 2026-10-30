@@ -65,8 +65,8 @@ export function CaseMinimastersContent() {
       >
         <img
           fetchPriority="high"
-          src="/media/projects/minimasters-playground-01.webp"
-          srcSet="/media/projects/minimasters-playground-01-800.webp 800w, /media/projects/minimasters-playground-01.webp 1536w"
+          src="/media/projects/minimasters-playground-22.webp"
+          srcSet="/media/projects/minimasters-playground-22-800.webp 800w, /media/projects/minimasters-playground-22.webp 1536w"
           sizes="(max-width: 720px) 100vw, (max-width: 1100px) 70vw, 60vw"
           alt=""
           aria-hidden="true"
