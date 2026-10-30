@@ -15,6 +15,10 @@ import { CaseBioNippyContent } from "@/components/cases/CaseBioNippyContent";
 import { CaseCherriesContent } from "@/components/cases/CaseCherriesContent";
 import { CasePlanLesContent } from "@/components/cases/CasePlanLesContent";
 import { CaseGromotionContent } from "@/components/cases/CaseGromotionContent";
+import { CaseFrootieContent } from "@/components/cases/CaseFrootieContent";
+import { CaseWrppnContent } from "@/components/cases/CaseWrppnContent";
+import { CaseCryptoArchitectContent } from "@/components/cases/CaseCryptoArchitectContent";
+import { CaseWinkWingContent } from "@/components/cases/CaseWinkWingContent";
 import { CaseDermeClinicContent } from "@/components/cases/CaseDermeClinicContent";
 import { CaseHorlogewinkelContent } from "@/components/cases/CaseHorlogewinkelContent";
 import { CaseLogosLegalContent } from "@/components/cases/CaseLogosLegalContent";
@@ -127,6 +131,26 @@ const CASES: Record<CaseId, { Content: ComponentType; title: string; description
     Content: CaseDermeClinicContent,
     title: "Dermé Clinic: 23 afspraken in één maand met CRO en Google Ads | Achieve",
     description: "Hoe Achieve voor Dermé Clinic de website optimaliseerde en met gerichte Google Ads-campagnes in één maand 23 afspraken opleverde.",
+  },
+  CaseWinkWing: {
+    Content: CaseWinkWingContent,
+    title: "WinkWing: platform dat 750+ verhuursites doorzoekt | Achieve",
+    description: "Hoe Achieve voor WinkWing een platform bouwde dat 750+ verhuursites doorzoekt en huurders binnen seconden een melding stuurt.",
+  },
+  CaseCryptoArchitect: {
+    Content: CaseCryptoArchitectContent,
+    title: "Crypto Architect: web-app, Telegram-bot en dashboard voor abonnementen | Achieve",
+    description: "Hoe Achieve voor Crypto Architect een web-app, Telegram-bot en dashboard bouwde die de abonnementen van de community automatisch regelen.",
+  },
+  CaseWrppn: {
+    Content: CaseWrppnContent,
+    title: "WRPPN: huisstijlhandboek voor de zakelijke markt | Achieve",
+    description: "Hoe Achieve voor WRPPN een huisstijlhandboek maakte dat luxe en eenvoud combineert voor de zakelijke markt.",
+  },
+  CaseFrootie: {
+    Content: CaseFrootieContent,
+    title: "Frootie: nieuwe huisstijl en website voor verse babyvoeding | Achieve",
+    description: "Hoe Achieve voor Frootie een huisstijlhandboek en een nieuwe website ontwikkelde voor kinderdagverblijven en jonge ouders.",
   },
 };
 

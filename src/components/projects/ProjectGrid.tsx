@@ -3,9 +3,12 @@
 import { useTr } from "@/i18n/I18nProvider";
 import { srcSet, IMG_SIZES } from "@/lib/img";
 import { Fragment, useState } from "react";
-import { projectFilters, projects as ALL } from "@/data/projects";
+import { projectFilters, projects } from "@/data/projects";
 import { Accent } from "@/components/ui/Accent";
 import { LazyVideo } from "@/components/ui/LazyVideo";
+
+/** Newest year first, oldest at the bottom; within a year the order in projects.ts holds. */
+const ALL = [...projects].sort((a, b) => (b.year || 0) - (a.year || 0));
 
 export function ProjectGrid() {
   const { t, ta, href } = useTr();
