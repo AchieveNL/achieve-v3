@@ -47,6 +47,7 @@ export const projects: Project[] = [
     img: "/media/projects/bionippy-01.webp",
     alt: "De coming soon-website van BioNippy op twee laptops, tussen planten en vers fruit",
     gallery: [
+      { img: "/media/projects/bionippy-01.webp", alt: "De coming soon-website van BioNippy op twee laptops, tussen planten en vers fruit" },
       { img: "/media/projects/bionippy-02.webp", alt: "De duurzame doelen die BioNippy steunt, op drie telefoons" },
       { img: "/media/projects/bionippy-03.webp", alt: "De nieuwspagina van BioNippy op een tablet" },
     ],
