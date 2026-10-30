@@ -25,6 +25,38 @@ export type Project = {
 
 export const projects: Project[] = [
   {
+    name: "Gromotion",
+    href: "CaseGromotion",
+    year: 2025,
+    sector: "Fysiotherapie",
+    cats: ["web", "brand"],
+    tags: [
+      {
+        label: "Branding",
+        color: "#6B2BD9",
+        bg: "#EFE8FD",
+      },
+      {
+        label: "Custom Website",
+        color: "#0B6DB8",
+        bg: "#E3F1FD",
+      },
+    ],
+    result: "Nieuw logo en website voor een fysiotherapiepraktijk",
+    quote: "",
+    challenge: "Een fysiotherapiepraktijk wilde een merk en website die professioneel en betrouwbaar overkomen, zonder het klinische gevoel van veel zorgmerken.",
+    initials: "G",
+    tile: "linear-gradient(135deg, #1F246C 0%, #0F8AE5 100%)",
+    hasImg: true,
+    noImg: false,
+    img: "/media/projects/gromotion-01.webp",
+    alt: "De nieuwe website van Gromotion op twee laptops, buiten op een stenen bank",
+    gallery: [
+      { img: "/media/projects/gromotion-01.webp", alt: "De nieuwe website van Gromotion op twee laptops, buiten op een stenen bank" },
+      { img: "/media/projects/gromotion-02.webp", alt: "De dienstenpagina van Gromotion op twee telefoons in handen" },
+    ],
+  },
+  {
     name: "PlanLes",
     href: "CasePlanLes",
     year: 2025,
@@ -711,6 +743,15 @@ export const heroProjects: HeroProject[] = [
     video: "/media/projects/zorggroep-haarlemmermeer-hero.mp4",
     poster: "/media/projects/zorggroep-haarlemmermeer-01.webp",
     initials: "ZH",
+    bg: "#2B3190",
+  },
+  {
+    name: "Gromotion",
+    sector: "Fysiotherapie",
+    sub: "Een nieuw logo en een frisse website voor een fysiotherapiepraktijk.",
+    tag: "Branding · Custom Website",
+    img: "/media/projects/gromotion-01.webp",
+    initials: "G",
     bg: "#2B3190",
   },
   {

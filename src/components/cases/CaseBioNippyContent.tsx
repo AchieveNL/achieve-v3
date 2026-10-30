@@ -73,7 +73,7 @@ export function CaseBioNippyContent() {
             inset: "0",
             pointerEvents: "none",
             background:
-              "linear-gradient(180deg, rgba(31, 36, 108, 0.7) 0%, rgba(31, 36, 108, 0.15) 26%, rgba(31, 36, 108, 0.3) 50%, rgba(31, 36, 108, 0.9) 80%, rgba(31, 36, 108, 0.98) 100%)",
+              "linear-gradient(90deg, rgba(31, 36, 108, 0.8) 0%, rgba(31, 36, 108, 0.45) 45%, rgba(31, 36, 108, 0) 70%), linear-gradient(180deg, rgba(31, 36, 108, 0.7) 0%, rgba(31, 36, 108, 0.15) 26%, rgba(31, 36, 108, 0.3) 50%, rgba(31, 36, 108, 0.9) 80%, rgba(31, 36, 108, 0.98) 100%)",
           }}
         ></div>
         <div

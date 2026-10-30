@@ -14,6 +14,7 @@ import { CaseDeLimesContent } from "@/components/cases/CaseDeLimesContent";
 import { CaseBioNippyContent } from "@/components/cases/CaseBioNippyContent";
 import { CaseCherriesContent } from "@/components/cases/CaseCherriesContent";
 import { CasePlanLesContent } from "@/components/cases/CasePlanLesContent";
+import { CaseGromotionContent } from "@/components/cases/CaseGromotionContent";
 import { PageShell } from "@/components/layout/PageShell";
 import { ProjectsCta } from "@/components/projects/ProjectsCta";
 import { ReadingProgress } from "@/components/ui/ReadingProgress";
@@ -91,6 +92,11 @@ const CASES: Record<CaseId, { Content: ComponentType; title: string; description
     Content: CasePlanLesContent,
     title: "PlanLes: app om rijlessen te plannen, betalen en volgen | Achieve",
     description: "Hoe Achieve voor PlanLes een app ontwierp waarin leerlingen en instructeurs lessen plannen, betalen en voortgang volgen.",
+  },
+  CaseGromotion: {
+    Content: CaseGromotionContent,
+    title: "Gromotion: nieuw logo en website voor een fysiotherapiepraktijk | Achieve",
+    description: "Hoe Achieve voor fysiotherapiepraktijk Gromotion een nieuw logo en een frisse, toegankelijke website ontwierp.",
   },
 };
 
