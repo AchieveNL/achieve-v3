@@ -338,7 +338,7 @@ export const projects: Project[] = [
   {
     name: "Ron van Dam",
     href: "CaseRonVanDam",
-    sector: "Kunstenaar",
+    sector: "Kunst",
     cats: ["web"],
     tags: [
       {
@@ -549,7 +549,7 @@ export const heroProjects: HeroProject[] = [
   },
   {
     name: "Ron van Dam",
-    sector: "Kunstenaar",
+    sector: "Kunst",
     sub: "Een webshop in Shopify voor een kunstenaar met mixed media portretten.",
     tag: "Shopify Webshop",
     bg: "linear-gradient(135deg, #8639FA 0%, #2B3190 100%)",
