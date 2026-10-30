@@ -25,6 +25,39 @@ export type Project = {
 
 export const projects: Project[] = [
   {
+    name: "Cherries",
+    href: "CaseCherries",
+    year: 2025,
+    sector: "Accessoires",
+    cats: ["web", "brand"],
+    tags: [
+      {
+        label: "Branding",
+        color: "#6B2BD9",
+        bg: "#EFE8FD",
+      },
+      {
+        label: "Shopify Webshop",
+        color: "#0B6DB8",
+        bg: "#E3F1FD",
+      },
+    ],
+    result: "Speelse webshop voor trendy telefoonaccessoires",
+    quote: "",
+    challenge: "Een jong merk met kleurrijke telefoonaccessoires wilde een webshop die energiek aanvoelt, maar overzichtelijk blijft op elk apparaat.",
+    initials: "C",
+    tile: "linear-gradient(135deg, #1F246C 0%, #0F8AE5 100%)",
+    hasImg: true,
+    noImg: false,
+    img: "/media/projects/cherries-01.webp",
+    alt: "De homepage van Cherries op een laptop, met een rood telefoonhoesje aan een koord",
+    gallery: [
+      { img: "/media/projects/cherries-01.webp", alt: "De homepage van Cherries op een laptop, met een rood telefoonhoesje aan een koord" },
+      { img: "/media/projects/cherries-02.webp", alt: "De webshop van Cherries op een desktop en een laptop, tussen verse kersen" },
+      { img: "/media/projects/cherries-03.webp", alt: "De mobiele webshop van Cherries op twee telefoons" },
+    ],
+  },
+  {
     name: "BioNippy",
     href: "CaseBioNippy",
     year: 2023,
@@ -650,6 +683,15 @@ export const heroProjects: HeroProject[] = [
     video: "/media/projects/zorggroep-haarlemmermeer-hero.mp4",
     poster: "/media/projects/zorggroep-haarlemmermeer-01.webp",
     initials: "ZH",
+    bg: "#2B3190",
+  },
+  {
+    name: "Cherries",
+    sector: "Accessoires",
+    sub: "Een speelse Shopify-webshop voor trendy telefoonaccessoires.",
+    tag: "Branding · Shopify Webshop",
+    img: "/media/projects/cherries-01.webp",
+    initials: "C",
     bg: "#2B3190",
   },
   {

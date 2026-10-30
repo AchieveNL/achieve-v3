@@ -48,6 +48,7 @@ export const routes = {
   CaseZorggroepHaarlemmermeer: "projecten/zorggroep-haarlemmermeer",
   CaseDeLimes: "projecten/de-limes",
   CaseBioNippy: "projecten/bionippy",
+  CaseCherries: "projecten/cherries",
 } as const;
 export type PageId = keyof typeof routes;
 
