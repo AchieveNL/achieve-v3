@@ -10,16 +10,16 @@ import { LazyVideo } from "@/components/ui/LazyVideo";
 
 export function CaseCherriesContent() {
   // Hero photo (the LCP image): fetch it right away.
-  preload("/media/projects/cherries-01.webp", { as: "image", fetchPriority: "high", imageSrcSet: srcSet("/media/projects/cherries-01.webp"), imageSizes: IMG_SIZES });
+  preload("/media/projects/cherries-03.webp", { as: "image", fetchPriority: "high", imageSrcSet: srcSet("/media/projects/cherries-03.webp"), imageSizes: IMG_SIZES });
   const { t, ta, href } = useTr();
 
   // Photo slider and media carousel are click-through.
   const [csI, setCsI] = useState(0);
   const [mkI, setMkI] = useState(0);
   const SLIDES: { img: string; alt: string; mpos?: string; video?: string }[] = [
+    { img: "/media/projects/cherries-03.webp", alt: "De mobiele webshop van Cherries op twee telefoons" },
     { img: "/media/projects/cherries-01.webp", alt: "De homepage van Cherries op een laptop, met een rood telefoonhoesje aan een koord" },
     { img: "/media/projects/cherries-02.webp", alt: "De webshop van Cherries op een desktop en een laptop, tussen verse kersen" },
-    { img: "/media/projects/cherries-03.webp", alt: "De mobiele webshop van Cherries op twee telefoons" },
   ];
   const N = SLIDES.length;
   const ci = csI % N;
@@ -59,8 +59,8 @@ export function CaseCherriesContent() {
       >
         <img
           fetchPriority="high"
-          src="/media/projects/cherries-01.webp"
-          srcSet={srcSet("/media/projects/cherries-01.webp")}
+          src="/media/projects/cherries-03.webp"
+          srcSet={srcSet("/media/projects/cherries-03.webp")}
           sizes={IMG_SIZES}
           alt=""
           aria-hidden="true"
