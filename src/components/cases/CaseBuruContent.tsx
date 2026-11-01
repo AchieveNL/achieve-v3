@@ -426,7 +426,7 @@ export function CaseBuruContent() {
               </h3>
               <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.65", color: "#3A4150" }}>
                 {t(
-                  "Buru Construction is een gerenommeerd renovatiebedrijf in Rotterdam dat zich heeft gespecialiseerd in complete woningrenovaties. Met passie voor het vak transformeren wij dagelijks woningen in moderne, comfortabele leefruimtes. Onze expertise ligt vooral in badkamer- en toiletrenovaties, maar we verzorgen ook complete woningtransformaties waarbij we elk detail onder handen nemen. Wat ons werk bijzonder maakt is de combinatie van traditioneel vakmanschap met moderne technieken.",
+                  "Buru Construction is een gerenommeerd renovatiebedrijf in Rotterdam dat zich heeft gespecialiseerd in complete woningrenovaties. Met passie voor het vak transformeren wij dagelijks woningen in moderne, comfortabele leefruimtes. Onze expertise ligt vooral in badkamer- en toiletrenovaties, maar we verzorgen ook complete woningtransformaties waarbij we elk detail onder handen nemen. Wat ons werk bijzonder maakt, is de combinatie van traditioneel vakmanschap met moderne technieken.",
                 )}
               </p>
             </li>

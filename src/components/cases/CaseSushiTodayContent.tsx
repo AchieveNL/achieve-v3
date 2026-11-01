@@ -436,7 +436,7 @@ export function CaseSushiTodayContent() {
                   )}
                 </Tip>
                 {t(
-                  ", met een focus op foodie influencers. Omdat het publiek van foodie influencers echte eetliefhebbers is, vergrootten we de kans om de juiste doelgroep te bereiken. Verschillende foodies werden uitgenodigd om het restaurant te bezoeken en zelf foto's en video's te maken van de sfeer en de gerechten. Ze deelden deze beelden met hun volgers, waarbij ze de kleurrijke signature rolls en het “All You Can Eat & Drink”-concept in de spotlight zetten, wat de zintuigen van hun volgers prikkelde.",
+                  ", met een focus op foodie influencers. Omdat het publiek van foodie influencers uit echte eetliefhebbers bestaat, vergrootten we de kans om de juiste doelgroep te bereiken. Verschillende foodies werden uitgenodigd om het restaurant te bezoeken en zelf foto's en video's te maken van de sfeer en de gerechten. Ze deelden deze beelden met hun volgers, waarbij ze de kleurrijke signature rolls en het “All You Can Eat & Drink”-concept in de spotlight zetten, wat de zintuigen van hun volgers prikkelde.",
                 )}
               </p>
             </li>
@@ -545,7 +545,7 @@ export function CaseSushiTodayContent() {
               </h3>
               <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.65", color: "#3A4150" }}>
                 {t(
-                  "Om de betrokkenheid te vergroten, bedachten we een winactie waarbij volgers kans maakten op een gratis sushi date voor 2 personen. Deelnemers moesten de foodie influencer en @sushitoday volgen, de video liken, degene taggen met wie ze op sushi date wilden en kregen een extra kans door de post in hun story te delen. Deze strategie hielp ons niet alleen om de lokale klanten te bereiken, maar ook om hen actief te betrekken en hen weer naar de vestigingen te krijgen.",
+                  "Om de betrokkenheid te vergroten, bedachten we een winactie waarbij volgers kans maakten op een gratis sushi date voor 2 personen. Deelnemers moesten de foodie influencer en @sushitoday volgen, de video liken en degene taggen met wie ze op sushi date wilden. Door de post in hun story te delen, kregen ze een extra kans. Deze strategie hielp ons niet alleen om de lokale klanten te bereiken, maar ook om hen actief te betrekken en hen weer naar de vestigingen te krijgen.",
                 )}
               </p>
             </li>
@@ -588,7 +588,7 @@ export function CaseSushiTodayContent() {
               </h3>
               <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.65", color: "#3A4150" }}>
                 {t(
-                  "De impact van de campagne was groot. Door gerichte influencer marketing zagen we een aanzienlijke stijging in de zichtbaarheid van Sushi Today binnen de lokale gemeenschap. De samenwerking met foodie influencers leidde niet alleen tot duizenden nieuwe likes en volgers op de social media kanalen van Sushi Today, maar ook tot een verhoogde merkbekendheid en meer reserveringen. De winactie behaalde maar liefst 7.378 likes en 7.009 reacties op de post, wat zorgde voor enorme betrokkenheid. De visuele content van de influencers en de aantrekkelijke winactie zorgden voor actieve interactie, wat resulteerde in nieuwe klanten en mond-tot-mondreclame. Deze strategie hielp ook om de hernieuwde interesse in het restaurant te stimuleren, wat een directe positieve invloed had op het voetverkeer",
+                  "De impact van de campagne was groot. Door gerichte influencer marketing zagen we een aanzienlijke stijging in de zichtbaarheid van Sushi Today binnen de lokale gemeenschap. De samenwerking met foodie influencers leidde niet alleen tot duizenden nieuwe likes en volgers op de socialmediakanalen van Sushi Today, maar ook tot een verhoogde merkbekendheid en meer reserveringen. De winactie behaalde maar liefst 7.378 likes en 7.009 reacties op de post, wat zorgde voor enorme betrokkenheid. De visuele content van de influencers en de aantrekkelijke winactie zorgden voor actieve interactie, wat resulteerde in nieuwe klanten en mond-tot-mondreclame. Deze strategie hielp ook om de hernieuwde interesse in het restaurant te stimuleren, wat een directe positieve invloed had op het voetverkeer.",
                 )}
                 <Tip label={ta("Uitleg")}>{t("Voetverkeer: het aantal mensen dat echt het restaurant binnenloopt.")}</Tip>{" "}
                 {t("en de omzet, vooral na de coronamaatregelen.")}

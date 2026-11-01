@@ -385,7 +385,7 @@ export function CaseFrootieContent() {
               </h3>
               <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.65", color: "#3A4150" }}>
                 {t(
-                  "Frootie richtte zich op twee verschillende doelgroepen namelijk de KDV (leidster, directieleden ouders van de kinderen) en jonge ouders. Beide zouden aangesproken moeten worden door de nieuwe visuele identiteit. Met een goed doordachte visuele identiteit kunnen ze hun boodschap effectief communiceren naar zowel hun huidige als potentiële klantenkring, waardoor ze een breder publiek kunnen bereiken en hun merk kunnen laten groeien.",
+                  "Frootie richtte zich op twee verschillende doelgroepen, namelijk het KDV (leidsters, directieleden en ouders van de kinderen) en jonge ouders. Beide zouden aangesproken moeten worden door de nieuwe visuele identiteit. Met een goed doordachte visuele identiteit kunnen ze hun boodschap effectief communiceren naar zowel hun huidige als potentiële klantenkring, waardoor ze een breder publiek kunnen bereiken en hun merk kunnen laten groeien.",
                 )}
               </p>
             </li>
@@ -662,7 +662,7 @@ export function CaseFrootieContent() {
               </h3>
               <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.65", color: "#3A4150" }}>
                 {t(
-                  "Bij de visuele identiteit hebben we meer gefocust op kernwoorden zoals: Zorgzaamheid, tederheid, zacht, lief, kinderlijk. Terwijl in de berichtgeving Frootie transparant wilde zijn naar ouders. bijv. in persberichten, op social media of op de website. Frootie wil zaken helder en duidelijk uitleggen. Daarom hebben we ervoor gezorgd dat de berichtgeving vragen beantwoord en geen vragen oproept. Op deze manier bieden we een geruststellende ervaring met verse babyvoeding. Het is belangrijk om in de communicatie te laten zien dat Frootie een betrouwbare partner is in de belangrijkste fase in dit leven van de ouders.",
+                  "Bij de visuele identiteit hebben we meer gefocust op kernwoorden zoals zorgzaamheid, tederheid, zacht, lief en kinderlijk. In de berichtgeving wilde Frootie juist transparant zijn naar ouders, bijvoorbeeld in persberichten, op social media of op de website. Frootie wil zaken helder en duidelijk uitleggen. Daarom hebben we ervoor gezorgd dat de berichtgeving vragen beantwoordt en geen vragen oproept. Op deze manier bieden we een geruststellende ervaring met verse babyvoeding. Het is belangrijk om in de communicatie te laten zien dat Frootie een betrouwbare partner is in de belangrijkste fase in het leven van de ouders.",
                 )}
               </p>
             </li>
@@ -705,7 +705,7 @@ export function CaseFrootieContent() {
               </h3>
               <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.65", color: "#3A4150" }}>
                 {t(
-                  "Een brandbook heeft een impactvolle rol binnen een merk, omdat het consistentie, herkenbaarheid, professionaliteit, efficiëntie en richting biedt. Door richtlijnen voor het gebruik van het merkimago, inclusief het logo, kleurenpalet, typografie en andere visuele elementen, zorgt het voor een uniforme uitstraling in alle communicatie-uitingen, verhoogt het de merkwaarde, straalt het professionaliteit uit en bespaart het tijd en moeite. Bovendien biedt het een duidelijke richting voor interne en externe stakeholders over hoe het merk moet worden gepositioneerd en gecommuniceerd.",
+                  "Een brandbook heeft een impactvolle rol binnen een merk, omdat het consistentie, herkenbaarheid, professionaliteit, efficiëntie en richting biedt. Door richtlijnen te geven voor het gebruik van het merkimago, inclusief het logo, kleurenpalet, typografie en andere visuele elementen, zorgt het voor een uniforme uitstraling in alle communicatie-uitingen, verhoogt het de merkwaarde, straalt het professionaliteit uit en bespaart het tijd en moeite. Bovendien biedt het een duidelijke richting voor interne en externe stakeholders over hoe het merk moet worden gepositioneerd en gecommuniceerd.",
                 )}
               </p>
             </li>

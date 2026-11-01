@@ -630,7 +630,7 @@ export function CaseBioNippyContent() {
               </h3>
               <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.65", color: "#3A4150" }}>
                 {t(
-                  "Wij hebben een app coming soon-website ontworpen die de functionaliteit en uitstraling van een webshop combineert met een duidelijke focus op branding en storytelling. Het ontwerp bevat een heldere structuur, overzichtelijke productpresentatie en content die de missie en impact van BioNippy benadrukt. De visuele stijl is fris, modern en duurzaam, en sluit aan bij een internationale doelgroep die bekend is met snelle, digitale platforms.",
+                  "Wij hebben een coming soon-website voor de app ontworpen die de functionaliteit en uitstraling van een webshop combineert met een duidelijke focus op branding en storytelling. Het ontwerp bevat een heldere structuur, overzichtelijke productpresentatie en content die de missie en impact van BioNippy benadrukt. De visuele stijl is fris, modern en duurzaam, en sluit aan bij een internationale doelgroep die bekend is met snelle, digitale platforms.",
                 )}
               </p>
             </li>

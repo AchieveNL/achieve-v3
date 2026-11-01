@@ -458,7 +458,7 @@ export function CaseSurpriseCompanyContent() {
               </h3>
               <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.65", color: "#3A4150" }}>
                 {t(
-                  "Het is altijd geweldig als een klant vraagt of we willen helpen met de rebranding van het huidige merk. Dat betekent namelijk dat we onze creativiteit weer mogen inzetten om een nieuwe en vooral sterke identiteit neer te zetten waar potentiële klanten meer feeling mee hebben. Dat hebben we dan ook gedaan, neem snel een kijkje om het resultaat te bewonderen.",
+                  "Het is altijd geweldig als een klant vraagt of we willen helpen met de rebranding van het huidige merk. Dat betekent namelijk dat we onze creativiteit weer mogen inzetten om een nieuwe en vooral sterke identiteit neer te zetten waar potentiële klanten meer feeling mee hebben. Dat hebben we dan ook gedaan. Neem snel een kijkje om het resultaat te bewonderen.",
                 )}
               </p>
             </li>
@@ -692,7 +692,7 @@ export function CaseSurpriseCompanyContent() {
               </h3>
               <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.65", color: "#3A4150" }}>
                 {t(
-                  "Na meerdere goede gesprekken over de missie, visie en kernwaarden en een hele lange vragenlijst, werd het ons duidelijk welke richting we op moesten. Het Huisstijl handboek werd eerst ontworpen, zodat de complete vormgeving eenduidig zou zijn. Deze is ook doorgevoerd in de vernieuwde website. We hebben wat animatie elementen toegepast om echt het surprise gevoel over te brengen.",
+                  "Na meerdere goede gesprekken over de missie, visie en kernwaarden en een heel lange vragenlijst, werd het ons duidelijk welke richting we op moesten. Het huisstijlhandboek werd eerst ontworpen, zodat de complete vormgeving eenduidig zou zijn. Dit is ook doorgevoerd in de vernieuwde website. We hebben wat animatie-elementen toegepast om echt het surprisegevoel over te brengen.",
                 )}
               </p>
             </li>
@@ -735,7 +735,7 @@ export function CaseSurpriseCompanyContent() {
               </h3>
               <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.65", color: "#3A4150" }}>
                 {t(
-                  "De complete rebranding inclusief website af te hebben in 10 weken tijd i.v.m de kerstperiode. Dit is een belangrijke periode voor de zakelijke cadeaus. Het doel is behaald!",
+                  "Het doel was om de complete rebranding inclusief website binnen 10 weken af te hebben, op tijd voor de kerstperiode. Dit is een belangrijke periode voor de zakelijke cadeaus. Het doel is behaald!",
                 )}
               </p>
             </li>

@@ -374,7 +374,7 @@ export function CaseDeLimesContent() {
               </h3>
               <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.65", color: "#3A4150" }}>
                 {t(
-                  "De grootste uitdaging was om een beroep dat meestal achter de schermen plaatsvindt zichtbaar te maken, zonder de professionaliteit en geloofwaardigheid te verliezen die in de medische sector zo belangrijk zijn. We moesten de rol van de triagist duidelijk, menselijk en aantrekkelijk neerzetten in een sector die kampt met personeelstekorten. Daarnaast vereiste de opnames planning over verschillende diensten en afdelingen om de dynamiek van de spoedzorg op een authentieke manier vast te leggen.",
+                  "De grootste uitdaging was om een beroep dat meestal achter de schermen plaatsvindt zichtbaar te maken, zonder de professionaliteit en geloofwaardigheid te verliezen die in de medische sector zo belangrijk zijn. We moesten de rol van de triagist duidelijk, menselijk en aantrekkelijk neerzetten in een sector die kampt met personeelstekorten. Daarnaast vereisten de opnames een planning over verschillende diensten en afdelingen om de dynamiek van de spoedzorg op een authentieke manier vast te leggen.",
                 )}
               </p>
             </li>

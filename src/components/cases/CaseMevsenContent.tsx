@@ -630,7 +630,7 @@ export function CaseMevsenContent() {
               </h3>
               <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.65", color: "#3A4150" }}>
                 {t(
-                  "Hierdoor konden we een ontwerp creëren dat niet alleen visueel aantrekkelijk is, maar ook gebruik maakt van eigentijdse kleuren. Onze focus lag op een strakke, intuïtieve gebruikerservaring om nieuwkomers in Nederland effectief te ondersteunen. Door nauw samen te werken met Mevsen hebben we hun specifieke behoeften grondig begrepen en vertaald naar een effectieve online oplossing. Deze oplossing ondersteunt Mevsen bij het vervullen van hun missie om nieuwkomers actief te integreren in de Nederlandse samenleving, door hen de juiste middelen en informatie te bieden voor succesvolle participatie.",
+                  "Hierdoor konden we een ontwerp creëren dat niet alleen visueel aantrekkelijk is, maar ook gebruikmaakt van eigentijdse kleuren. Onze focus lag op een strakke, intuïtieve gebruikerservaring om nieuwkomers in Nederland effectief te ondersteunen. Door nauw samen te werken met Mevsen hebben we hun specifieke behoeften grondig begrepen en vertaald naar een effectieve online oplossing. Deze oplossing ondersteunt Mevsen bij het vervullen van hun missie om nieuwkomers actief te integreren in de Nederlandse samenleving, door hen de juiste middelen en informatie te bieden voor succesvolle participatie.",
                 )}
               </p>
             </li>
@@ -673,7 +673,7 @@ export function CaseMevsenContent() {
               </h3>
               <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.65", color: "#3A4150" }}>
                 {t(
-                  "Om een centrale plek waar nieuwkomers alle benodigde informatie kunnen vinden over Mevsen, inclusief het verhaal van de eigenaresse, de missie en visie, het cursusaanbod, roosters, tarieven, en een gemakkelijke manier om contact op te nemen. Dit heeft de toegankelijkheid van informatie sterk verbeterd en vergemakkelijkt directe communicatie met Mevsen voor vragen, ondersteuning en meer.",
+                  "Het doel was een centrale plek te creëren waar nieuwkomers alle benodigde informatie kunnen vinden over Mevsen, inclusief het verhaal van de eigenaresse, de missie en visie, het cursusaanbod, roosters, tarieven, en een gemakkelijke manier om contact op te nemen. Dit heeft de toegankelijkheid van informatie sterk verbeterd en de directe communicatie met Mevsen voor vragen, ondersteuning en meer.",
                 )}
               </p>
             </li>

@@ -353,7 +353,7 @@ export function CaseGreenTeamContent() {
               </h3>
               <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.65", color: "#3A4150" }}>
                 {t(
-                  "De grootste uitdaging is om het vertrouwen van de bezoekers te winnen, vooral gezien de vele 'cowboys' die de branche overspoelen. GreenTeam wil zich onderscheiden door volledige transparantie te bieden over de kosten en processen, zodat bezoekers direct weten waar ze aan toe zijn. Dit alles moet op een manier die niet alleen duidelijk en eerlijk is, maar ook eenvoudig en gebruiksvriendelijk. Het is cruciaal om een website te creëren die niet alleen vertrouwen wekt, maar ook naadloos inspeelt op de behoefte van de bezoekers om snel en eenvoudig de juiste informatie te vinden, zonder onnodige drempels.",
+                  "De grootste uitdaging is om het vertrouwen van de bezoekers te winnen, vooral gezien de vele 'cowboys' die de branche overspoelen. GreenTeam wil zich onderscheiden door volledige transparantie te bieden over de kosten en processen, zodat bezoekers direct weten waar ze aan toe zijn. Dit alles moet gebeuren op een manier die niet alleen duidelijk en eerlijk is, maar ook eenvoudig en gebruiksvriendelijk. Het is cruciaal om een website te creëren die niet alleen vertrouwen wekt, maar ook naadloos inspeelt op de behoefte van de bezoekers om snel en eenvoudig de juiste informatie te vinden, zonder onnodige drempels.",
                 )}
               </p>
             </li>

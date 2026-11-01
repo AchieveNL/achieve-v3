@@ -426,7 +426,7 @@ export function CaseCryptoArchitectContent() {
               </h3>
               <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.65", color: "#3A4150" }}>
                 {t(
-                  "Crypto Architect is een community die zich richt op het behalen van langetermijnsucces in de crypto-markt. Sinds 2022 biedt de community een platform voor het delen van kennis, strategische inzichten en samenwerking. Leden krijgen toegang tot exclusieve informatie, zoals marktanalyses, portfolio-updates en live sessies, en worden ondersteund door een netwerk van gelijkgestemde mensen. De focus ligt op duurzame groei en het ontwikkelen van strategische vaardigheden om succesvol te blijven in een snel veranderende markt. Crypto Architect is de plek voor wie serieus wil investeren in crypto en samen wil groeien met de community.",
+                  "Crypto Architect is een community die zich richt op het behalen van langetermijnsucces in de cryptomarkt. Sinds 2022 biedt de community een platform voor het delen van kennis, strategische inzichten en samenwerking. Leden krijgen toegang tot exclusieve informatie, zoals marktanalyses, portfolio-updates en live sessies, en worden ondersteund door een netwerk van gelijkgestemde mensen. De focus ligt op duurzame groei en het ontwikkelen van strategische vaardigheden om succesvol te blijven in een snel veranderende markt. Crypto Architect is de plek voor wie serieus wil investeren in crypto en samen wil groeien met de community.",
                 )}
               </p>
             </li>

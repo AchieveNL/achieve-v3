@@ -383,7 +383,7 @@ export function CaseCherriesContent() {
               </h3>
               <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.65", color: "#3A4150" }}>
                 {t(
-                  "De grootste uitdaging was om het brede scala aan kleurrijke en patterned producten van Cherries op een manier te presenteren die energiek aanvoelde, maar niet overweldigend was. De klant wilde een ontwerp dat aanslaat bij een jong, trendgericht publiek, terwijl structuur, overzicht en gebruiksgemak op verschillende apparaten behouden blijven.",
+                  "De grootste uitdaging was om het brede scala aan kleurrijke producten met patronen van Cherries op een manier te presenteren die energiek aanvoelde, maar niet overweldigend was. De klant wilde een ontwerp dat aanslaat bij een jong, trendgericht publiek, terwijl structuur, overzicht en gebruiksgemak op verschillende apparaten behouden blijven.",
                 )}
               </p>
             </li>
@@ -660,7 +660,7 @@ export function CaseCherriesContent() {
               </h3>
               <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.65", color: "#3A4150" }}>
                 {t(
-                  "Om dit te bereiken hebben we een strak maar levendig ontwerp gemaakt met veel witruimte en pastelkleuraccenten die aansluiten bij de esthetiek van het merk. De homepage legt de nadruk op productvisuals en lifestyle-afbeeldingen, terwijl de mobiele mockups focussen op intuïtieve navigatie, snelle toegang tot categorieën en duidelijke call-to-action knoppen voor een naadloze winkelervaring.",
+                  "Om dit te bereiken hebben we een strak maar levendig ontwerp gemaakt met veel witruimte en pastelkleuraccenten die aansluiten bij de esthetiek van het merk. De homepage legt de nadruk op productvisuals en lifestyle-afbeeldingen, terwijl de mobiele mockups focussen op intuïtieve navigatie, snelle toegang tot categorieën en duidelijke call-to-actionknoppen voor een naadloze winkelervaring.",
                 )}
               </p>
             </li>
@@ -703,7 +703,7 @@ export function CaseCherriesContent() {
               </h3>
               <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.65", color: "#3A4150" }}>
                 {t(
-                  "Het nieuwe ontwerpconcept geeft Cherries een sterke en samenhangende online aanwezigheid die resoneert met de jonge doelgroep. De website en mobiele mockups laten zien hoe een speels merk toch een professionele, gebruiksvriendelijke en consistente e-commerce ervaring kan bieden op alle apparaten.",
+                  "Het nieuwe ontwerpconcept geeft Cherries een sterke en samenhangende online aanwezigheid die resoneert met de jonge doelgroep. De website en mobiele mockups laten zien hoe een speels merk toch een professionele, gebruiksvriendelijke en consistente e-commerce-ervaring kan bieden op alle apparaten.",
                 )}
               </p>
             </li>

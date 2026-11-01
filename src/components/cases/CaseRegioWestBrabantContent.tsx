@@ -351,7 +351,7 @@ export function CaseRegioWestBrabantContent() {
               </h3>
               <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.65", color: "#3A4150" }}>
                 {t(
-                  "De uitdaging voor RWB was het creëren van een duidelijke en overzichtelijke animatie om interne medewerkers te informeren over de veranderende arbeidsmarkt en de grote opgaven die daarbij komen kijken. De regio heeft iedereen nodig op de arbeidsmarkt, van jong tot oud, en moet daarom talent aantrekken, benutten, ontwikkelen en behouden. De animatie moest laten zien hoe de regio aantrekkelijk wordt voor studenten en arbeidskrachten van buitenaf, hoe mensen met een grotere afstand tot de arbeidsmarkt kunnen participeren, en hoe een leven lang ontwikkelen gestimuleerd wordt. Ook moest het benadrukken hoe onderwijs en werkgelegenheid beter op elkaar worden afgestemd om talent in de regio te behouden. De uitdaging was om deze complexe boodschap helder en visueel aantrekkelijk over te brengen.",
+                  "De uitdaging voor RWB was het creëren van een duidelijke en overzichtelijke animatie om interne medewerkers te informeren over de veranderende arbeidsmarkt en de grote opgaven die daarbij komen kijken. De regio heeft iedereen nodig op de arbeidsmarkt, van jong tot oud, en moet daarom talent aantrekken, benutten, ontwikkelen en behouden. De animatie moest laten zien hoe de regio aantrekkelijk wordt voor studenten en arbeidskrachten van buitenaf, hoe mensen met een grotere afstand tot de arbeidsmarkt kunnen participeren, en hoe een leven lang ontwikkelen gestimuleerd wordt. Ook moest de animatie benadrukken hoe onderwijs en werkgelegenheid beter op elkaar worden afgestemd om talent in de regio te behouden. De uitdaging was om deze complexe boodschap helder en visueel aantrekkelijk over te brengen.",
                 )}
               </p>
             </li>
@@ -539,7 +539,7 @@ export function CaseRegioWestBrabantContent() {
               </h3>
               <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.65", color: "#3A4150" }}>
                 {t(
-                  "De impact van de animatie was groot in het effectief informeren van interne medewerkers over de veranderende arbeidsmarkt. Door complexe onderwerpen op een duidelijke en visueel aantrekkelijke manier te presenteren, konden medewerkers snel de belangrijkste uitdagingen en strategische prioriteiten begrijpen. De animatie versterkte het bewustzijn binnen de organisatie over het belang van het aantrekken, ontwikkelen en behouden van talent, en ondersteunde de regio’s inspanningen om medewerkers te betrekken bij een gezamenlijke visie voor de toekomst.",
+                  "De impact van de animatie was groot in het effectief informeren van interne medewerkers over de veranderende arbeidsmarkt. Door complexe onderwerpen op een duidelijke en visueel aantrekkelijke manier te presenteren, konden medewerkers snel de belangrijkste uitdagingen en strategische prioriteiten begrijpen. De animatie versterkte het bewustzijn binnen de organisatie over het belang van het aantrekken, ontwikkelen en behouden van talent, en ondersteunde de inspanningen van de regio om medewerkers te betrekken bij een gezamenlijke visie voor de toekomst.",
                 )}
               </p>
             </li>

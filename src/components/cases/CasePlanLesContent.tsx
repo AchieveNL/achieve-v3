@@ -705,7 +705,7 @@ export function CasePlanLesContent() {
               </h3>
               <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.65", color: "#3A4150" }}>
                 {t(
-                  "De PlanLes-app heeft de rijleservaring aanzienlijk verbeterd. Studenten hebben sneller en gemakkelijker toegang tot lessen, betalingen en voortgangsupdates, terwijl instructeurs feedback kunnen beheren en prestaties efficiënter kunnen volgen. Al met al heeft de app het hele leerproces transparanter, georganiseerder en gebruiksvriendelijker gemaakt, wat een positieve impact heeft voor zowel studenten als instructeurs.",
+                  "De PlanLes-app heeft de rijleservaring aanzienlijk verbeterd. Studenten hebben sneller en gemakkelijker toegang tot lessen, betalingen en voortgangsupdates, terwijl instructeurs feedback kunnen beheren en prestaties efficiënter kunnen volgen. Al met al heeft de app het hele leerproces transparanter, georganiseerder en gebruiksvriendelijker gemaakt, wat een positieve impact heeft op zowel studenten als instructeurs.",
                 )}
               </p>
             </li>

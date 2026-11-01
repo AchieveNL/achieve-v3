@@ -522,7 +522,7 @@ export function CaseZorggroepHaarlemmermeerContent() {
               </h3>
               <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.65", color: "#3A4150" }}>
                 {t(
-                  "We benaderden de opname met een documentaire-achtige stijl, met focus op echte interacties, natuurlijk licht en spontane momenten die samenwerking en inspiratie weerspiegelen. Gedurende de dag hebben we korte interviews afgenomen met deelnemers en de CEO, waardoor er een persoonlijke laag aan de video werd toegevoegd. Het materiaal is gemonteerd tot een dynamische aftermovie met vloeiende overgangen en een warme kleurcorrectie die de positieve sfeer van het event benadrukt.",
+                  "We benaderden de opname met een documentaireachtige stijl, met focus op echte interacties, natuurlijk licht en spontane momenten die samenwerking en inspiratie weerspiegelen. Gedurende de dag hebben we korte interviews afgenomen met deelnemers en de CEO, waardoor er een persoonlijke laag aan de video werd toegevoegd. Het materiaal is gemonteerd tot een dynamische aftermovie met vloeiende overgangen en een warme kleurcorrectie die de positieve sfeer van het event benadrukt.",
                 )}
               </p>
             </li>

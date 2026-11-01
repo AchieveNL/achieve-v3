@@ -396,7 +396,7 @@ export function CaseWinkWingContent() {
               </h3>
               <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.65", color: "#3A4150" }}>
                 {t(
-                  "WinkWing is een slim platform dat de zoektocht naar een huurwoning vereenvoudigt. Door meer dan 750 verhuurwebsites elke minuut te doorzoeken, ontvangt u real-time meldingen direct op uw e-mail of WhatsApp. Deze geautomatiseerde service helpt je sneller je ideale appartement te vinden, waardoor de stress van het zoeken naar een huis vermindert. Of je nu op zoek bent naar een huisdiervriendelijke plek of een specifieke buurt, WinkWing maakt het vinden van een woning makkelijker en sneller.",
+                  "WinkWing is een slim platform dat de zoektocht naar een huurwoning vereenvoudigt. Doordat WinkWing elke minuut meer dan 750 verhuurwebsites doorzoekt, ontvang je real-time meldingen direct via e-mail of WhatsApp. Deze geautomatiseerde service helpt je sneller je ideale appartement te vinden, waardoor de stress van het zoeken naar een huis vermindert. Of je nu op zoek bent naar een huisdiervriendelijke plek of een specifieke buurt, WinkWing maakt het vinden van een woning makkelijker en sneller.",
                 )}
               </p>
             </li>

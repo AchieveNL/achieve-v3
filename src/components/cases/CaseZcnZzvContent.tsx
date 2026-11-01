@@ -351,7 +351,7 @@ export function CaseZcnZzvContent() {
               </h3>
               <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.65", color: "#3A4150" }}>
                 {t(
-                  "ZCN word verantwoordelijk voor het taxivervoer van 23.000 verzekerden van het Zilveren Kruis. Wij willen graag goed communiceren wat er allemaal gaat veranderen voor de verzekerden.",
+                  "ZCN wordt verantwoordelijk voor het taxivervoer van 23.000 verzekerden van het Zilveren Kruis. Wij willen graag goed communiceren wat er allemaal gaat veranderen voor de verzekerden.",
                 )}
               </p>
             </li>
@@ -394,7 +394,7 @@ export function CaseZcnZzvContent() {
               </h3>
               <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.65", color: "#3A4150" }}>
                 {t(
-                  "ZCN zorgt voor vervoer. Voor zorgvervoer. Dat is vervoer waar je in Nederland recht op hebt als je ergens naartoe moet waar je zorgt ontvangt, waar je bijzonder onderwijs volgt of waar je een beschutte werkplek hebt. En je niet de middelen of mogelijkheden hebt om de zorgbestemming zelfstandig te bereiken. De overheid of een verzekeraar betaalt de reis dan meestal. Als onze reizigers er zelf al voor betalen dan is dat met een bescheiden eigen bijdrage.",
+                  "ZCN zorgt voor vervoer. Voor zorgvervoer. Dat is vervoer waar je in Nederland recht op hebt als je ergens naartoe moet waar je zorg ontvangt, waar je bijzonder onderwijs volgt of waar je een beschutte werkplek hebt, en je niet de middelen of mogelijkheden hebt om de zorgbestemming zelfstandig te bereiken. De overheid of een verzekeraar betaalt de reis dan meestal. Als onze reizigers er zelf al voor betalen, dan is dat met een bescheiden eigen bijdrage.",
                 )}
               </p>
             </li>
@@ -496,7 +496,7 @@ export function CaseZcnZzvContent() {
               </h3>
               <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.65", color: "#3A4150" }}>
                 {t(
-                  "De doelgroep van deze verzekerden loopt heel erg uiteen. Vandaar dat het extra belangrijk was dat de communicatie laagdrempelig werd gevoerd zodat we zeker weten dat het voor iedereen begrijpelijk is. We kozen voor een animatie met een duidelijk verstaanbare voice-over.",
+                  "Deze groep verzekerden loopt heel erg uiteen. Vandaar dat het extra belangrijk was dat de communicatie laagdrempelig werd gevoerd, zodat we zeker wisten dat het voor iedereen begrijpelijk was. We kozen voor een animatie met een duidelijk verstaanbare voice-over.",
                 )}
               </p>
             </li>
@@ -539,7 +539,7 @@ export function CaseZcnZzvContent() {
               </h3>
               <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.65", color: "#3A4150" }}>
                 {t(
-                  "De verzekerden van het Zilveren Kruis correct en duidelijk informeren over de transitie naar ZCN en de veranderingen die daar mee gepaard gaan.",
+                  "Het doel was om de verzekerden van het Zilveren Kruis correct en duidelijk te informeren over de transitie naar ZCN en de veranderingen die daarmee gepaard gaan.",
                 )}
               </p>
             </li>

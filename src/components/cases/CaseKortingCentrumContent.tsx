@@ -396,7 +396,7 @@ export function CaseKortingCentrumContent() {
               </h3>
               <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.65", color: "#3A4150" }}>
                 {t(
-                  "Wij zijn gestart met KortingCentrum, omdat wij het helemaal niet praktisch vonden dat we elke keer weer meerdere websites moeten bekijken om erachter te komen waar de beste kortingen te vinden waren. Daardoor kwamen we op het fantastische idee om een website te beginnen waar alle kortingen op één plek samenkomen. Zo hebben we het voor onszelf makkelijk gemaakt, maar natuurlijk ook voor jou!",
+                  "Wij zijn gestart met KortingCentrum, omdat wij het helemaal niet praktisch vonden dat we elke keer weer meerdere websites moesten bekijken om erachter te komen waar de beste kortingen te vinden waren. Daardoor kwamen we op het fantastische idee om een website te beginnen waar alle kortingen op één plek samenkomen. Zo hebben we het voor onszelf makkelijk gemaakt, maar natuurlijk ook voor jou!",
                 )}
               </p>
             </li>
@@ -630,7 +630,7 @@ export function CaseKortingCentrumContent() {
               </h3>
               <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.65", color: "#3A4150" }}>
                 {t(
-                  "De oplossing voor deze uitdaging was het ontwikkelen van een geavanceerd systeem dat op basis van affiliate links de kortingen uit verschillende bronnen combineerde en deze razendsnel inlaadde. We maakten gebruik van slimme API-integraties en caching-technieken, zodat we altijd de meest actuele kortingen konden tonen zonder de snelheid van de website te beïnvloeden. Door deze technologieën te combineren met een goed geoptimaliseerde infrastructuur, konden we een platform creëren dat efficiënt werkt, waarbij de affiliate links snel en nauwkeurig worden verwerkt, zodat bezoekers snel de beste deals kunnen vinden.",
+                  "De oplossing voor deze uitdaging was het ontwikkelen van een geavanceerd systeem dat op basis van affiliatelinks de kortingen uit verschillende bronnen combineerde en deze razendsnel inlaadde. We maakten gebruik van slimme API-integraties en caching-technieken, zodat we altijd de meest actuele kortingen konden tonen zonder de snelheid van de website te beïnvloeden. Door deze technologieën te combineren met een goed geoptimaliseerde infrastructuur, konden we een platform creëren dat efficiënt werkt, waarbij de affiliatelinks snel en nauwkeurig worden verwerkt, zodat bezoekers snel de beste deals kunnen vinden.",
                 )}
               </p>
             </li>
@@ -673,7 +673,7 @@ export function CaseKortingCentrumContent() {
               </h3>
               <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.65", color: "#3A4150" }}>
                 {t(
-                  "De impact van dit geavanceerde systeem was aanzienlijk: bezoekers konden nu sneller en gemakkelijker de beste kortingen vinden, wat de gebruikservaring verbeterde en de conversieratio's verhoogde. Door de snelheid van de website te waarborgen zonder in te boeten op de nauwkeurigheid van de aangeboden deals, werd het platform een betrouwbare bron voor consumenten die op zoek zijn naar de beste aanbiedingen. Dit resulteerde in een hogere klanttevredenheid, meer terugkerende gebruikers en een groei in affiliate-inkomsten.",
+                  "De impact van dit geavanceerde systeem was aanzienlijk: bezoekers konden nu sneller en gemakkelijker de beste kortingen vinden, wat de gebruikservaring verbeterde en de conversieratio's verhoogde. Door de snelheid van de website te waarborgen zonder in te boeten aan nauwkeurigheid van de aangeboden deals, werd het platform een betrouwbare bron voor consumenten die op zoek zijn naar de beste aanbiedingen. Dit resulteerde in een hogere klanttevredenheid, meer terugkerende gebruikers en een groei in affiliate-inkomsten.",
                 )}
               </p>
             </li>

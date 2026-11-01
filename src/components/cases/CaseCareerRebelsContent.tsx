@@ -425,7 +425,7 @@ export function CaseCareerRebelsContent() {
               </h3>
               <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.65", color: "#3A4150" }}>
                 {t(
-                  "Career Rebels. Het eigenwijze en innovatieve uitzendbureau met lef en durf, dat net als jij geeft om jouw ontwikkeling. Ons doel is om jou als flex rebel een carrièreboost te geven, zodat jij net als wij van je werk gaat houden #ThankGoditsMonday! We willen écht weten wie jij bent en wat je wilt (het CV is daarin wat ons betreft volledig passé). We zijn jouw collega. We praten samen, we lachen samen en we groeien samen. Voor jou als opdrachtgever nemen wij problemen uit handen waar jij wakker van kunt liggen. We denken mee, helpen je onderscheidend te zijn en kunnen je helpen bij al je HR vraagstukken. Geen saaie werkrelatie, maar echt een partnerschap. Wil je meer van ons weten? Vraag maar raak. We zijn een open boek. Tot snel!",
+                  "Career Rebels. Het eigenwijze en innovatieve uitzendbureau met lef en durf, dat net als jij geeft om jouw ontwikkeling. Ons doel is om jou als flex rebel een carrièreboost te geven, zodat jij net als wij van je werk gaat houden #ThankGoditsMonday! We willen écht weten wie jij bent en wat je wilt (het cv is daarin wat ons betreft volledig passé). We zijn jouw collega. We praten samen, we lachen samen en we groeien samen. Voor jou als opdrachtgever nemen wij problemen uit handen waar jij wakker van kunt liggen. We denken mee, helpen je onderscheidend te zijn en kunnen je helpen bij al je HR-vraagstukken. Geen saaie werkrelatie, maar echt een partnerschap. Wil je meer van ons weten? Vraag maar raak. We zijn een open boek. Tot snel!",
                 )}
               </p>
             </li>

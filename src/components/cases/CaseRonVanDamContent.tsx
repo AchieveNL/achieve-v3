@@ -400,7 +400,7 @@ export function CaseRonVanDamContent() {
               </h3>
               <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.65", color: "#3A4150" }}>
                 {t(
-                  "Het platform moest eenvoudig te beheren zijn, zodat Ron zelf kunstwerken kon toevoegen en verwijderen zonder technische kennis. Daarnaast was het cruciaal om een ontwerp te creëren dat de visuele impact van Ron’s kunstwerken versterkt en de aandacht van bezoekers trekt. Gezien het visueel intensieve karakter van de website, was het belangrijk om snelle laadtijden en een soepele navigatie te garanderen. Bovendien moest de webshop optimaal functioneren op zowel desktop als mobiele apparaten, zodat bezoekers een naadloze ervaring hebben ongeacht het gebruikte apparaat.",
+                  "Het platform moest eenvoudig te beheren zijn, zodat Ron zelf kunstwerken kon toevoegen en verwijderen zonder technische kennis. Daarnaast was het cruciaal om een ontwerp te creëren dat de visuele impact van Rons kunstwerken versterkt en de aandacht van bezoekers trekt. Gezien het visueel intensieve karakter van de website, was het belangrijk om snelle laadtijden en een soepele navigatie te garanderen. Bovendien moest de webshop optimaal functioneren op zowel desktop als mobiele apparaten, zodat bezoekers een naadloze ervaring hebben ongeacht het gebruikte apparaat.",
                 )}
               </p>
             </li>
@@ -677,7 +677,7 @@ export function CaseRonVanDamContent() {
               </h3>
               <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.65", color: "#3A4150" }}>
                 {t(
-                  "Shopify was de ideale oplossing voor het creëren van een platform waarop Ron van Dam zelf eenvoudig kunstwerken kon beheren zonder technische kennis. Het platform biedt gebruiksvriendelijkheid, professionele ontwerpmogelijkheden die de visuele impact van Ron’s kunstwerken versterken, en garandeert snelle laadtijden en een soepele navigatie. De webshop is volledig responsive",
+                  "Shopify was de ideale oplossing voor het creëren van een platform waarop Ron van Dam zelf eenvoudig kunstwerken kon beheren zonder technische kennis. Het platform biedt gebruiksvriendelijkheid, professionele ontwerpmogelijkheden die de visuele impact van Rons kunstwerken versterken, en garandeert snelle laadtijden en een soepele navigatie. De webshop is volledig responsive",
                 )}
                 <Tip label={ta("Uitleg")}>
                   {t("Responsive: de website past zich automatisch aan elk scherm aan, van computer tot telefoon.")}
@@ -726,7 +726,7 @@ export function CaseRonVanDamContent() {
               </h3>
               <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.65", color: "#3A4150" }}>
                 {t(
-                  "Een Shopify-winkel biedt Ron van Dam Art een direct verkoopplatform waarmee kunstwerken rechtstreeks aan klanten kunnen worden verkocht, zonder tussenpersonen. Dit vergroot de omzetpotentie en stelt hem in staat om op elk moment verkopen te genereren, wat de flexibiliteit en groeimogelijkheden van zijn kunstbedrijf aanzienlijk versterkt. Daarnaast maakt de webshop het eenvoudig om kunstwerken online beschikbaar te stellen, waardoor een breder publiek wordt bereikt en de zichtbaarheid en toegankelijkheid van Ron's kunstwerken wereldwijd worden vergroot.",
+                  "Een Shopify-winkel biedt Ron van Dam Art een direct verkoopplatform waarmee kunstwerken rechtstreeks aan klanten kunnen worden verkocht, zonder tussenpersonen. Dit vergroot de omzetpotentie en stelt hem in staat om op elk moment verkopen te genereren, wat de flexibiliteit en groeimogelijkheden van zijn kunstbedrijf aanzienlijk versterkt. Daarnaast maakt de webshop het eenvoudig om kunstwerken online beschikbaar te stellen, waardoor een breder publiek wordt bereikt en de zichtbaarheid en toegankelijkheid van Rons kunstwerken wereldwijd worden vergroot.",
                 )}
               </p>
             </li>
