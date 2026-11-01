@@ -281,7 +281,7 @@ export const projects: Project[] = [
     name: "Frootie",
     href: "CaseFrootie",
     year: 2024,
-    sector: "Babyvoeding",
+    sector: "Voeding",
     cats: ["brand", "web"],
     tags: [
       {
@@ -315,7 +315,7 @@ export const projects: Project[] = [
     name: "WRPPN",
     href: "CaseWrppn",
     year: 2024,
-    sector: "Interieur",
+    sector: "Wonen",
     cats: ["brand"],
     tags: [
       {
@@ -403,7 +403,7 @@ export const projects: Project[] = [
     name: "Dermé Clinic",
     href: "CaseDermeClinic",
     year: 2025,
-    sector: "Huidkliniek",
+    sector: "Zorg",
     cats: ["ads"],
     tags: [
       {
@@ -435,7 +435,7 @@ export const projects: Project[] = [
     name: "Horlogewinkel",
     href: "CaseHorlogewinkel",
     year: 2024,
-    sector: "Horloges",
+    sector: "Retail",
     cats: ["ads"],
     tags: [
       {
@@ -560,7 +560,7 @@ export const projects: Project[] = [
     name: "Gromotion",
     href: "CaseGromotion",
     year: 2025,
-    sector: "Fysiotherapie",
+    sector: "Zorg",
     cats: ["web", "brand"],
     tags: [
       {
@@ -620,7 +620,7 @@ export const projects: Project[] = [
     name: "Cherries",
     href: "CaseCherries",
     year: 2025,
-    sector: "Accessoires",
+    sector: "Retail",
     cats: ["web", "brand"],
     tags: [
       {
@@ -778,7 +778,7 @@ export const projects: Project[] = [
     name: "Beddenenzo",
     href: "CaseBeddenenzo",
     year: 2026,
-    sector: "Slaapcomfort",
+    sector: "Wonen",
     cats: ["brand", "web", "ads"],
     tags: [
       {
@@ -1257,7 +1257,7 @@ export const heroProjects: HeroProject[] = [
   },
   {
     name: "Beddenenzo",
-    sector: "Slaapcomfort",
+    sector: "Wonen",
     sub: "Zoekadvertenties en Shopping voor een online beddenspecialist, zichtbaar bij de juiste kopers.",
     tag: "Branding · Custom Website · SEA",
     img: "/media/projects/beddenenzo-02.webp",
@@ -1306,7 +1306,7 @@ export const heroProjects: HeroProject[] = [
   },
   {
     name: "Gromotion",
-    sector: "Fysiotherapie",
+    sector: "Zorg",
     sub: "Een nieuw logo en een frisse website voor een fysiotherapiepraktijk.",
     tag: "Branding · Custom Website",
     img: "/media/projects/gromotion-01.webp",
@@ -1324,7 +1324,7 @@ export const heroProjects: HeroProject[] = [
   },
   {
     name: "Cherries",
-    sector: "Accessoires",
+    sector: "Retail",
     sub: "Een speelse Shopify-webshop voor trendy telefoonaccessoires.",
     tag: "Branding · Shopify Webshop",
     img: "/media/projects/cherries-03.webp",
@@ -1362,7 +1362,7 @@ export const heroProjects: HeroProject[] = [
   },
   {
     name: "Horlogewinkel",
-    sector: "Horloges",
+    sector: "Retail",
     sub: "Meer verkoop voor een horlogewebshop met CRO en Google Shopping.",
     tag: "CRO · SEA",
     img: "/media/projects/horlogewinkel-01.webp",
@@ -1371,7 +1371,7 @@ export const heroProjects: HeroProject[] = [
   },
   {
     name: "Dermé Clinic",
-    sector: "Huidkliniek",
+    sector: "Zorg",
     sub: "Meer online boekingen voor een huidkliniek met CRO en Google Ads.",
     tag: "CRO · SEA",
     img: "/media/projects/derme-clinic-01.webp",
@@ -1398,7 +1398,7 @@ export const heroProjects: HeroProject[] = [
   },
   {
     name: "WRPPN",
-    sector: "Interieur",
+    sector: "Wonen",
     sub: "Een huisstijlhandboek dat luxe en eenvoud combineert voor de zakelijke markt.",
     tag: "Brand Book",
     img: "/media/projects/wrppn-03.webp",
@@ -1407,7 +1407,7 @@ export const heroProjects: HeroProject[] = [
   },
   {
     name: "Frootie",
-    sector: "Babyvoeding",
+    sector: "Voeding",
     sub: "Een nieuwe huisstijl en website voor verse babyvoeding.",
     tag: "Brand Book · WordPress Website",
     img: "/media/projects/frootie-02.webp",
