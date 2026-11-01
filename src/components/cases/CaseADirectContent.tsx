@@ -273,7 +273,7 @@ export function CaseADirectContent() {
                 {t("Doelgroep")}
               </dt>
               <dd style={{ margin: "0", fontSize: "16px", fontWeight: "600", color: "#1F246C" }}>
-                {t("Consumenten (B2C)")}
+                {t("B2C")}
                 <Tip label={ta("Uitleg")}>{t("B2C (business-to-consumer): je verkoopt aan consumenten.")}</Tip>
               </dd>
             </div>

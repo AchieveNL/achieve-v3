@@ -239,7 +239,7 @@ export function CaseZorggroepHaarlemmermeerContent() {
                 {t("Doelgroep")}
               </dt>
               <dd style={{ margin: "0", fontSize: "16px", fontWeight: "600", color: "#1F246C" }}>
-                {t("Zorgprofessionals (B2B)")}
+                {t("B2B")}
                 <Tip label={ta("Uitleg")}>{t("B2B (business-to-business): je richt je op bedrijven en professionals.")}</Tip>
               </dd>
             </div>

@@ -269,7 +269,7 @@ export function CaseRCpeptidesContent() {
                 {t("Doelgroep")}
               </dt>
               <dd style={{ margin: "0", fontSize: "16px", fontWeight: "600", color: "#1F246C" }}>
-                {t("Onderzoekers en labs (B2B)")}
+                {t("B2B")}
                 <Tip label={ta("Uitleg")}>{t("B2B (business-to-business): je verkoopt aan bedrijven en organisaties.")}</Tip>
               </dd>
             </div>
