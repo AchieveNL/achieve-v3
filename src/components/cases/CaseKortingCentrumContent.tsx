@@ -18,8 +18,8 @@ export function CaseKortingCentrumContent() {
   const [mkI, setMkI] = useState(0);
   const SLIDES: { img: string; alt: string; mpos?: string; video?: string }[] = [
     { img: "/media/projects/kortingcentrum-01.webp", alt: "De homepage van KortingCentrum met de deals van de dag op een desktop" },
-    { img: "/media/projects/kortingcentrum-02.webp", alt: "Het overzicht met kortingen van KortingCentrum op een tablet" },
-    { img: "/media/projects/kortingcentrum-03.webp", alt: "Kortingen sorteren bij KortingCentrum op een desktop en een telefoon" },
+    { img: "/media/projects/kortingcentrum-02.webp", alt: "Kortingen sorteren bij KortingCentrum op een desktop" },
+    { img: "/media/projects/kortingcentrum-03.webp", alt: "Het overzicht met kortingen van KortingCentrum op een tablet" },
   ];
   const N = SLIDES.length;
   const ci = csI % N;
@@ -433,7 +433,7 @@ export function CaseKortingCentrumContent() {
               </Accent>
             </h2>
             <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.65", color: "#3A4150" }}>
-              {t("Het platform van KortingCentrum, op desktop, tablet en telefoon.")}
+              {t("Het platform van KortingCentrum, op desktop en tablet.")}
             </p>
           </div>
           <div

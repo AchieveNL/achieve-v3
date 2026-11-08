@@ -182,8 +182,8 @@ export const projects: Project[] = [
     alt: "De homepage van Mevsen met Welkom bij Mevsen op een laptop",
     gallery: [
       { img: "/media/projects/mevsen-01.webp", alt: "De homepage van Mevsen met Welkom bij Mevsen op een laptop" },
-      { img: "/media/projects/mevsen-02.webp", alt: "De contactpagina en de cursuspagina van Mevsen op twee laptops" },
-      { img: "/media/projects/mevsen-03.webp", alt: "De pagina's Wie ben ik en Missie en visie van Mevsen op een desktop en een laptop" },
+      { img: "/media/projects/mevsen-02.webp", alt: "De pagina Wie ben ik? van Mevsen op een laptop" },
+      { img: "/media/projects/mevsen-03.webp", alt: "De pagina Missie en visie van Mevsen op een laptop" },
     ],
   },
   {
@@ -242,9 +242,9 @@ export const projects: Project[] = [
     hasImg: true,
     noImg: false,
     img: "/media/projects/greenteam-01.webp",
-    alt: "De homepage van GreenTeam met de prijscalculator op een laptop en een telefoon",
+    alt: "De homepage van GreenTeam met de prijscalculator op een laptop",
     gallery: [
-      { img: "/media/projects/greenteam-01.webp", alt: "De homepage van GreenTeam met de prijscalculator op een laptop en een telefoon" },
+      { img: "/media/projects/greenteam-01.webp", alt: "De homepage van GreenTeam met de prijscalculator op een laptop" },
       { img: "/media/projects/greenteam-02.webp", alt: "De dienstenpagina's van GreenTeam op een desktop en een laptop" },
       { img: "/media/projects/greenteam-03.webp", alt: "Waarom kiezen voor GreenTeam, op een desktop en een laptop" },
     ],
@@ -273,8 +273,8 @@ export const projects: Project[] = [
     alt: "De homepage van KortingCentrum met de deals van de dag op een desktop",
     gallery: [
       { img: "/media/projects/kortingcentrum-01.webp", alt: "De homepage van KortingCentrum met de deals van de dag op een desktop" },
-      { img: "/media/projects/kortingcentrum-02.webp", alt: "Het overzicht met kortingen van KortingCentrum op een tablet" },
-      { img: "/media/projects/kortingcentrum-03.webp", alt: "Kortingen sorteren bij KortingCentrum op een desktop en een telefoon" },
+      { img: "/media/projects/kortingcentrum-02.webp", alt: "Kortingen sorteren bij KortingCentrum op een desktop" },
+      { img: "/media/projects/kortingcentrum-03.webp", alt: "Het overzicht met kortingen van KortingCentrum op een tablet" },
     ],
   },
   {
@@ -365,10 +365,11 @@ export const projects: Project[] = [
     hasImg: true,
     noImg: false,
     img: "/media/projects/crypto-architect-01.webp",
-    alt: "De homepage en de abonnementen van Crypto Architect op twee laptops",
+    alt: "De homepage van Crypto Architect op een laptop",
     gallery: [
-      { img: "/media/projects/crypto-architect-01.webp", alt: "De homepage en de abonnementen van Crypto Architect op twee laptops" },
-      { img: "/media/projects/crypto-architect-02.webp", alt: "De community-pagina en reviews van Crypto Architect op twee laptops" },
+      { img: "/media/projects/crypto-architect-01.webp", alt: "De homepage van Crypto Architect op een laptop" },
+      { img: "/media/projects/crypto-architect-02.webp", alt: "De abonnementen van Crypto Architect op een tablet" },
+      { img: "/media/projects/crypto-architect-03.webp", alt: "Reviews uit de community van Crypto Architect op een laptop" },
     ],
   },
   {
@@ -392,11 +393,11 @@ export const projects: Project[] = [
     hasImg: true,
     noImg: false,
     img: "/media/projects/winkwing-01.webp",
-    alt: "Een zoekopdracht instellen bij WinkWing op twee laptops",
+    alt: "Een huurwaarschuwing instellen bij WinkWing op een laptop",
     gallery: [
-      { img: "/media/projects/winkwing-01.webp", alt: "Een zoekopdracht instellen bij WinkWing op twee laptops" },
-      { img: "/media/projects/winkwing-02.webp", alt: "De homepage en het woningaanbod van WinkWing op een tablet en een telefoon" },
-      { img: "/media/projects/winkwing-03.webp", alt: "Het woningaanbod van WinkWing op een laptop" },
+      { img: "/media/projects/winkwing-01.webp", alt: "Een huurwaarschuwing instellen bij WinkWing op een laptop" },
+      { img: "/media/projects/winkwing-02.webp", alt: "Het woningaanbod van WinkWing op een telefoon" },
+      { img: "/media/projects/winkwing-03.webp", alt: "Recent gecontroleerde huurwoningen van WinkWing op een laptop" },
     ],
   },
   {
@@ -425,10 +426,11 @@ export const projects: Project[] = [
     hasImg: true,
     noImg: false,
     img: "/media/projects/derme-clinic-01.webp",
-    alt: "De boekingspagina en de homepage van Dermé Clinic op een laptop en een tablet",
+    alt: "De boekingspagina van Dermé Clinic op een laptop",
     gallery: [
-      { img: "/media/projects/derme-clinic-01.webp", alt: "De boekingspagina en de homepage van Dermé Clinic op een laptop en een tablet" },
-      { img: "/media/projects/derme-clinic-02.webp", alt: "De behandelingen en de pagina Over ons van Dermé Clinic op twee laptops" },
+      { img: "/media/projects/derme-clinic-01.webp", alt: "De boekingspagina van Dermé Clinic op een laptop" },
+      { img: "/media/projects/derme-clinic-02.webp", alt: "De homepage van Dermé Clinic op een tablet" },
+      { img: "/media/projects/derme-clinic-03.webp", alt: "De pagina Over ons van Dermé Clinic op een laptop" },
     ],
   },
   {
@@ -457,10 +459,11 @@ export const projects: Project[] = [
     hasImg: true,
     noImg: false,
     img: "/media/projects/horlogewinkel-01.webp",
-    alt: "De webshop van Horlogewinkel op een desktop, laptop, tablet en telefoon",
+    alt: "De winkelwagen van Horlogewinkel op een telefoon",
     gallery: [
-      { img: "/media/projects/horlogewinkel-01.webp", alt: "De webshop van Horlogewinkel op een desktop, laptop, tablet en telefoon" },
-      { img: "/media/projects/horlogewinkel-02.webp", alt: "Een productpagina en de winkelwagen van Horlogewinkel op twee laptops" },
+      { img: "/media/projects/horlogewinkel-01.webp", alt: "De winkelwagen van Horlogewinkel op een telefoon" },
+      { img: "/media/projects/horlogewinkel-02.webp", alt: "Een productpagina van Horlogewinkel op een laptop" },
+      { img: "/media/projects/horlogewinkel-03.webp", alt: "Het horlogeoverzicht van Horlogewinkel op een desktop" },
     ],
   },
   {
@@ -489,11 +492,11 @@ export const projects: Project[] = [
     hasImg: true,
     noImg: false,
     img: "/media/projects/buru-construction-01.webp",
-    alt: "De website van Buru Construction op een desktop en een laptop, met de stier als mascotte",
+    alt: "De werkwijze van Buru Construction op een laptop, met de mascotte bij elke stap",
     gallery: [
-      { img: "/media/projects/buru-construction-01.webp", alt: "De website van Buru Construction op een desktop en een laptop, met de stier als mascotte" },
-      { img: "/media/projects/buru-construction-02.webp", alt: "De homepage en het stappenplan van Buru Construction op twee schermen" },
-      { img: "/media/projects/buru-construction-03.webp", alt: "De werkwijze van Buru Construction op een laptop, met de mascotte bij elke stap" },
+      { img: "/media/projects/buru-construction-01.webp", alt: "De werkwijze van Buru Construction op een laptop, met de mascotte bij elke stap" },
+      { img: "/media/projects/buru-construction-02.webp", alt: "De homepage van Buru Construction op een laptop, met de stier als mascotte" },
+      { img: "/media/projects/buru-construction-03.webp", alt: "De pagina over de aanpak van Buru Construction op een laptop, met de mascotte aan het werk in een huis" },
     ],
   },
   {
@@ -549,11 +552,11 @@ export const projects: Project[] = [
     hasImg: true,
     noImg: false,
     img: "/media/projects/logos-legal-02.webp",
-    alt: "De homepage en de expertises van Logos Legal op twee laptops",
+    alt: "De homepage van Logos Legal op een laptop",
     gallery: [
-      { img: "/media/projects/logos-legal-02.webp", alt: "De homepage en de expertises van Logos Legal op twee laptops" },
-      { img: "/media/projects/logos-legal-01.webp", alt: "De pagina's Over ons en Expertise van Logos Legal op twee iMacs" },
-      { img: "/media/projects/logos-legal-03.webp", alt: "De website van Logos Legal op desktop, tablet en telefoon" },
+      { img: "/media/projects/logos-legal-02.webp", alt: "De homepage van Logos Legal op een laptop" },
+      { img: "/media/projects/logos-legal-01.webp", alt: "De pagina Over ons van Logos Legal op een desktop" },
+      { img: "/media/projects/logos-legal-03.webp", alt: "De pagina Arbeidsrecht van Logos Legal op een tablet" },
     ],
   },
   {
@@ -582,10 +585,11 @@ export const projects: Project[] = [
     hasImg: true,
     noImg: false,
     img: "/media/projects/gromotion-01.webp",
-    alt: "De nieuwe website van Gromotion op twee laptops, buiten op een stenen bank",
+    alt: "De homepage van Gromotion op een laptop, buiten op een stenen muur",
     gallery: [
-      { img: "/media/projects/gromotion-01.webp", alt: "De nieuwe website van Gromotion op twee laptops, buiten op een stenen bank" },
-      { img: "/media/projects/gromotion-02.webp", alt: "De dienstenpagina van Gromotion op twee telefoons in handen" },
+      { img: "/media/projects/gromotion-01.webp", alt: "De homepage van Gromotion op een laptop, buiten op een stenen muur" },
+      { img: "/media/projects/gromotion-02.webp", alt: "De pagina Wie zijn wij? van Gromotion op een laptop" },
+      { img: "/media/projects/gromotion-03.webp", alt: "De dienstenpagina van Gromotion op twee telefoons in handen" },
     ],
   },
   {
@@ -730,14 +734,9 @@ export const projects: Project[] = [
     img: "/media/projects/bouwvergunningdirect-01.webp",
     alt: "De nieuwe website van BouwvergunningDirect op een laptop, tussen bouwtekeningen en een maquette",
     gallery: [
-      {
-        img: "/media/projects/bouwvergunningdirect-01.webp",
-        alt: "De nieuwe website van BouwvergunningDirect op een laptop, tussen bouwtekeningen en een maquette",
-      },
-      {
-        img: "/media/projects/bouwvergunningdirect-02.webp",
-        alt: "Het dienstenoverzicht van BouwvergunningDirect op een tablet en een telefoon",
-      },
+      { img: "/media/projects/bouwvergunningdirect-01.webp", alt: "De nieuwe website van BouwvergunningDirect op een laptop, tussen bouwtekeningen en een maquette" },
+      { img: "/media/projects/bouwvergunningdirect-02.webp", alt: "De pagina over de vergunningsaanvraag van BouwvergunningDirect op een tablet" },
+      { img: "/media/projects/bouwvergunningdirect-03.webp", alt: "Het dienstenoverzicht van BouwvergunningDirect op een desktopscherm" },
     ],
   },
   {

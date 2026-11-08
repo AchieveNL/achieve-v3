@@ -1,5 +1,10 @@
 /** Original widths of large images that also have an 800px "-800.webp" variant (generated). */
 export const imgWidths: Record<string, number> = {
+  "/media/projects/horlogewinkel-03.webp": 1920,
+  "/media/projects/gromotion-03.webp": 1920,
+  "/media/projects/derme-clinic-03.webp": 1920,
+  "/media/projects/crypto-architect-03.webp": 1920,
+  "/media/projects/bouwvergunningdirect-03.webp": 1920,
   "/media/projects/bouwvergunningdirect-01.webp": 1920,
   "/media/projects/bouwvergunningdirect-02.webp": 1920,
   "/media/projects/zorggroep-haarlemmermeer-01.webp": 1920,

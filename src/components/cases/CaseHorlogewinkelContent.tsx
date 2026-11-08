@@ -17,8 +17,9 @@ export function CaseHorlogewinkelContent() {
   const [csI, setCsI] = useState(0);
   const [mkI, setMkI] = useState(0);
   const SLIDES: { img: string; alt: string; mpos?: string; video?: string }[] = [
-    { img: "/media/projects/horlogewinkel-01.webp", alt: "De webshop van Horlogewinkel op een desktop, laptop, tablet en telefoon" },
-    { img: "/media/projects/horlogewinkel-02.webp", alt: "Een productpagina en de winkelwagen van Horlogewinkel op twee laptops" },
+    { img: "/media/projects/horlogewinkel-01.webp", alt: "De winkelwagen van Horlogewinkel op een telefoon" },
+    { img: "/media/projects/horlogewinkel-02.webp", alt: "Een productpagina van Horlogewinkel op een laptop" },
+    { img: "/media/projects/horlogewinkel-03.webp", alt: "Het horlogeoverzicht van Horlogewinkel op een desktop" },
   ];
   const N = SLIDES.length;
   const ci = csI % N;
@@ -462,7 +463,7 @@ export function CaseHorlogewinkelContent() {
               </Accent>
             </h2>
             <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.65", color: "#3A4150" }}>
-              {t("De webshop van Horlogewinkel, op desktop, laptop, tablet en telefoon.")}
+              {t("De webshop van Horlogewinkel, op telefoon, laptop en desktop.")}
             </p>
           </div>
           <div
