@@ -17,9 +17,9 @@ export function CaseGreenTeamContent() {
   const [csI, setCsI] = useState(0);
   const [mkI, setMkI] = useState(0);
   const SLIDES: { img: string; alt: string; mpos?: string; video?: string }[] = [
-    { img: "/media/projects/greenteam-01.webp", alt: "De homepage van GreenTeam met de prijscalculator op een laptop" },
-    { img: "/media/projects/greenteam-02.webp", alt: "De dienstenpagina's van GreenTeam op een desktop en een laptop" },
-    { img: "/media/projects/greenteam-03.webp", alt: "Waarom kiezen voor GreenTeam, op een desktop en een laptop" },
+    { img: "/media/projects/greenteam-01.webp", alt: "De homepage van GreenTeam met de prijscalculator op een telefoon" },
+    { img: "/media/projects/greenteam-02.webp", alt: "De pagina over trapbekleding van GreenTeam op een desktop" },
+    { img: "/media/projects/greenteam-03.webp", alt: "Waarom kiezen voor GreenTeam, op een laptop" },
   ];
   const N = SLIDES.length;
   const ci = csI % N;

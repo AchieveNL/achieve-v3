@@ -242,11 +242,11 @@ export const projects: Project[] = [
     hasImg: true,
     noImg: false,
     img: "/media/projects/greenteam-01.webp",
-    alt: "De homepage van GreenTeam met de prijscalculator op een laptop",
+    alt: "De homepage van GreenTeam met de prijscalculator op een telefoon",
     gallery: [
-      { img: "/media/projects/greenteam-01.webp", alt: "De homepage van GreenTeam met de prijscalculator op een laptop" },
-      { img: "/media/projects/greenteam-02.webp", alt: "De dienstenpagina's van GreenTeam op een desktop en een laptop" },
-      { img: "/media/projects/greenteam-03.webp", alt: "Waarom kiezen voor GreenTeam, op een desktop en een laptop" },
+      { img: "/media/projects/greenteam-01.webp", alt: "De homepage van GreenTeam met de prijscalculator op een telefoon" },
+      { img: "/media/projects/greenteam-02.webp", alt: "De pagina over trapbekleding van GreenTeam op een desktop" },
+      { img: "/media/projects/greenteam-03.webp", alt: "Waarom kiezen voor GreenTeam, op een laptop" },
     ],
   },
   {
