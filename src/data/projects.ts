@@ -459,10 +459,10 @@ export const projects: Project[] = [
     hasImg: true,
     noImg: false,
     img: "/media/projects/horlogewinkel-01.webp",
-    alt: "De winkelwagen van Horlogewinkel op een telefoon",
+    alt: "Een productpagina van Horlogewinkel op een laptop",
     gallery: [
-      { img: "/media/projects/horlogewinkel-01.webp", alt: "De winkelwagen van Horlogewinkel op een telefoon" },
-      { img: "/media/projects/horlogewinkel-02.webp", alt: "Een productpagina van Horlogewinkel op een laptop" },
+      { img: "/media/projects/horlogewinkel-01.webp", alt: "Een productpagina van Horlogewinkel op een laptop" },
+      { img: "/media/projects/horlogewinkel-02.webp", alt: "De winkelwagen van Horlogewinkel op een telefoon" },
       { img: "/media/projects/horlogewinkel-03.webp", alt: "Het horlogeoverzicht van Horlogewinkel op een desktop" },
     ],
   },
