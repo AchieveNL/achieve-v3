@@ -32,7 +32,7 @@ export const projects: Project[] = [
     cats: ["brand", "web"],
     tags: [
       {
-        label: "Branding",
+        label: "Brand Strategy",
         color: "#6B2BD9",
         bg: "#EFE8FD",
       },
@@ -474,7 +474,7 @@ export const projects: Project[] = [
     cats: ["web", "brand"],
     tags: [
       {
-        label: "Branding",
+        label: "Graphic Design",
         color: "#6B2BD9",
         bg: "#EFE8FD",
       },
@@ -534,7 +534,7 @@ export const projects: Project[] = [
     cats: ["web", "brand"],
     tags: [
       {
-        label: "Branding",
+        label: "Graphic Design",
         color: "#6B2BD9",
         bg: "#EFE8FD",
       },
@@ -567,7 +567,7 @@ export const projects: Project[] = [
     cats: ["web", "brand"],
     tags: [
       {
-        label: "Branding",
+        label: "Brand Book",
         color: "#6B2BD9",
         bg: "#EFE8FD",
       },
@@ -600,7 +600,12 @@ export const projects: Project[] = [
     cats: ["web", "brand"],
     tags: [
       {
-        label: "Branding",
+        label: "Brand Strategy",
+        color: "#6B2BD9",
+        bg: "#EFE8FD",
+      },
+      {
+        label: "Brand Book",
         color: "#6B2BD9",
         bg: "#EFE8FD",
       },
@@ -628,7 +633,7 @@ export const projects: Project[] = [
     cats: ["web", "brand"],
     tags: [
       {
-        label: "Branding",
+        label: "Brand Book",
         color: "#6B2BD9",
         bg: "#EFE8FD",
       },
@@ -781,7 +786,7 @@ export const projects: Project[] = [
     cats: ["brand", "web", "ads"],
     tags: [
       {
-        label: "Branding",
+        label: "Graphic Design",
         color: "#6B2BD9",
         bg: "#EFE8FD",
       },
@@ -968,11 +973,6 @@ export const projects: Project[] = [
     cats: ["web", "brand"],
     tags: [
       {
-        label: "Branding",
-        color: "#6B2BD9",
-        bg: "#EFE8FD",
-      },
-      {
         label: "WordPress Website",
         color: "#0B6DB8",
         bg: "#E3F1FD",
@@ -1053,7 +1053,7 @@ export const projects: Project[] = [
     year: 2023,
   },
   {
-    name: "A-direct Automaterialen",
+    name: "A-Direct Autoparts",
     href: "CaseADirect",
     sector: "Automotive",
     cats: ["web", "brand"],
@@ -1078,7 +1078,7 @@ export const projects: Project[] = [
     quote: "“De persoonlijke communicatie zorgde ervoor dat het project soepel verliep.”",
     challenge: "Een familiebedrijf met een breed aanbod, van onderdelen tot kentekenplaten, maar zonder heldere structuur en met een verouderde uitstraling.",
     img: "/media/projects/a-direct-automaterialen-01.webp",
-    alt: "Bedrijfsbus van A-direct Autoparts met logo en belettering",
+    alt: "Bedrijfsbus van A-Direct Autoparts met logo en belettering",
     initials: "AD",
     tile: "linear-gradient(135deg, #1F246C 0%, #8639FA 100%)",
     hasImg: true,
@@ -1086,27 +1086,27 @@ export const projects: Project[] = [
     gallery: [
       {
         img: "/media/projects/a-direct-automaterialen-01.webp",
-        alt: "Bedrijfsbus van A-direct Autoparts met logo en belettering",
+        alt: "Bedrijfsbus van A-Direct Autoparts met logo en belettering",
       },
       {
         img: "/media/cases/a-direct-pand.webp",
-        alt: "Het pand van A-direct Autoparts met bedrijfsbussen voor de deur",
+        alt: "Het pand van A-Direct Autoparts met bedrijfsbussen voor de deur",
       },
       {
         img: "/media/projects/a-direct-automaterialen-02.webp",
-        alt: "De winkelingang van A-direct Autoparts met raambelettering in eigen huisstijl",
+        alt: "De winkelingang van A-Direct Autoparts met raambelettering in eigen huisstijl",
       },
       {
         img: "/media/projects/a-direct-automaterialen-03.webp",
-        alt: "Gevelbord met het logo van A-direct Autoparts",
+        alt: "Gevelbord met het logo van A-Direct Autoparts",
       },
       {
         img: "/media/projects/a-direct-automaterialen-04.webp",
-        alt: "Het team van A-direct Autoparts achter de balie in de winkel",
+        alt: "Het team van A-Direct Autoparts achter de balie in de winkel",
       },
       {
         img: "/media/projects/a-direct-automaterialen-05.webp",
-        alt: "Medewerker van A-direct Autoparts pakt een band uit het bandenrek",
+        alt: "Medewerker van A-Direct Autoparts pakt een band uit het bandenrek",
       },
       {
         img: "/media/projects/a-direct-automaterialen-06.webp",
@@ -1122,11 +1122,11 @@ export const projects: Project[] = [
       },
       {
         img: "/media/projects/a-direct-automaterialen-09.webp",
-        alt: "Medewerker aan het werk in de verfmengkamer van A-direct Autoparts",
+        alt: "Medewerker aan het werk in de verfmengkamer van A-Direct Autoparts",
       },
       {
         img: "/media/projects/a-direct-automaterialen-10.webp",
-        alt: "Medewerker laadt onderdelen in een bedrijfsbus van A-direct Autoparts",
+        alt: "Medewerker laadt onderdelen in een bedrijfsbus van A-Direct Autoparts",
       },
       {
         img: "/media/projects/a-direct-automaterialen-11.webp",
@@ -1217,7 +1217,7 @@ export const heroProjects: HeroProject[] = [
     name: "Sharkys",
     sector: "Sport",
     sub: "Een nieuwe website voor een sportschool, die op dag 1 al nieuwe klanten opleverde.",
-    tag: "Branding · WordPress Website",
+    tag: "WordPress Website",
     img: "/media/projects/sharkys-01.webp",
     initials: "S",
     bg: "#2B3190",
@@ -1246,7 +1246,7 @@ export const heroProjects: HeroProject[] = [
     poster: "/media/projects/ron-van-dam-01.webp",
   },
   {
-    name: "A-direct Automaterialen",
+    name: "A-Direct Autoparts",
     sector: "Automotive",
     sub: "Een nieuw merk en een website in eigen huisstijl voor een specialist in auto-onderdelen.",
     tag: "Brand Strategy · WordPress Website · Photoshoot",
@@ -1258,7 +1258,7 @@ export const heroProjects: HeroProject[] = [
     name: "Beddenenzo",
     sector: "Wonen",
     sub: "Zoekadvertenties en Shopping voor een online beddenspecialist, zichtbaar bij de juiste kopers.",
-    tag: "Branding · Custom Website · SEA",
+    tag: "Graphic Design · Custom Website · SEA",
     img: "/media/projects/beddenenzo-02.webp",
     video: "/media/projects/beddenenzo-01.mp4",
     poster: "/media/projects/beddenenzo-02.webp",
@@ -1280,7 +1280,7 @@ export const heroProjects: HeroProject[] = [
     name: "Buru Construction",
     sector: "Bouw",
     sub: "Een nieuw merk met een eigen stier als mascotte, en een website die erbij past.",
-    tag: "Branding · Custom Website",
+    tag: "Graphic Design · Custom Website",
     img: "/media/projects/buru-construction-01.webp",
     initials: "BC",
     bg: "#2B3190",
@@ -1298,7 +1298,7 @@ export const heroProjects: HeroProject[] = [
     name: "Logos Legal",
     sector: "Advocatuur",
     sub: "Een moderne website met een klassieke uitstraling voor een advocatenkantoor.",
-    tag: "Branding · Custom Website",
+    tag: "Graphic Design · Custom Website",
     img: "/media/projects/logos-legal-02.webp",
     initials: "LL",
     bg: "#2B3190",
@@ -1307,7 +1307,7 @@ export const heroProjects: HeroProject[] = [
     name: "Gromotion",
     sector: "Zorg",
     sub: "Een nieuw logo en een frisse website voor een fysiotherapiepraktijk.",
-    tag: "Branding · Custom Website",
+    tag: "Brand Book · Custom Website",
     img: "/media/projects/gromotion-01.webp",
     initials: "G",
     bg: "#2B3190",
@@ -1316,7 +1316,7 @@ export const heroProjects: HeroProject[] = [
     name: "PlanLes",
     sector: "Rijschool",
     sub: "Een app die rijlessen plannen, betalen en volgen eenvoudig maakt.",
-    tag: "Branding · Mobile App",
+    tag: "Brand Strategy · Brand Book · Mobile App",
     img: "/media/projects/planles-01.webp",
     initials: "PL",
     bg: "#2B3190",
@@ -1325,7 +1325,7 @@ export const heroProjects: HeroProject[] = [
     name: "Cherries",
     sector: "Retail",
     sub: "Een speelse Shopify-webshop voor trendy telefoonaccessoires.",
-    tag: "Branding · Shopify Webshop",
+    tag: "Brand Book · Shopify Webshop",
     img: "/media/projects/cherries-03.webp",
     initials: "C",
     bg: "#2B3190",
@@ -1486,7 +1486,7 @@ export const heroProjects: HeroProject[] = [
     name: "Surprise Company",
     sector: "Zakelijke cadeaus",
     sub: "Een complete rebranding met brand book en nieuwe website, in tien weken klaar voor de kerst.",
-    tag: "Branding · Brand Book · WordPress Website",
+    tag: "Brand Strategy · Brand Book · WordPress Website",
     img: "/media/projects/surprise-company-01.webp",
     initials: "SC",
     bg: "#2B3190",

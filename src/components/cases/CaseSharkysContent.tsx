@@ -159,21 +159,6 @@ export function CaseSharkysContent() {
                 fontWeight: "600",
                 letterSpacing: "0.06em",
                 textTransform: "uppercase",
-                color: "#6B2BD9",
-                background: "#EFE8FD",
-                padding: "8px 16px",
-                borderRadius: "999px",
-              }}
-            >
-              {"Branding"}
-            </span>
-            <span
-              translate="no"
-              style={{
-                fontSize: "12px",
-                fontWeight: "600",
-                letterSpacing: "0.06em",
-                textTransform: "uppercase",
                 color: "#0B6DB8",
                 background: "#E3F1FD",
                 padding: "8px 16px",
@@ -296,21 +281,6 @@ export function CaseSharkysContent() {
                 {t("Diensten")}
               </dt>
               <dd style={{ margin: "0", display: "flex", flexWrap: "wrap", gap: "8px" }}>
-                <span
-                  translate="no"
-                  style={{
-                    fontSize: "11px",
-                    fontWeight: "600",
-                    letterSpacing: "0.06em",
-                    textTransform: "uppercase",
-                    color: "#6B2BD9",
-                    background: "#EFE8FD",
-                    padding: "4px 12px",
-                    borderRadius: "999px",
-                  }}
-                >
-                  {"Branding"}
-                </span>
                 <span
                   translate="no"
                   style={{

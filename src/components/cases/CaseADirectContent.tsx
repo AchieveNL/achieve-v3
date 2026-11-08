@@ -16,25 +16,25 @@ export function CaseADirectContent() {
   const [csI, setCsI] = useState(0);
   const [mkI, setMkI] = useState(0);
   const SLIDES: { img: string; alt: string }[] = [
-    { img: "/media/projects/a-direct-automaterialen-01.webp", alt: "Bedrijfsbus van A-direct Autoparts met logo en belettering" },
-    { img: "/media/cases/a-direct-pand.webp", alt: "Het pand van A-direct Autoparts met bedrijfsbussen voor de deur" },
+    { img: "/media/projects/a-direct-automaterialen-01.webp", alt: "Bedrijfsbus van A-Direct Autoparts met logo en belettering" },
+    { img: "/media/cases/a-direct-pand.webp", alt: "Het pand van A-Direct Autoparts met bedrijfsbussen voor de deur" },
     {
       img: "/media/projects/a-direct-automaterialen-02.webp",
-      alt: "De winkelingang van A-direct Autoparts met raambelettering in eigen huisstijl",
+      alt: "De winkelingang van A-Direct Autoparts met raambelettering in eigen huisstijl",
     },
-    { img: "/media/projects/a-direct-automaterialen-03.webp", alt: "Gevelbord met het logo van A-direct Autoparts" },
-    { img: "/media/projects/a-direct-automaterialen-04.webp", alt: "Het team van A-direct Autoparts achter de balie in de winkel" },
-    { img: "/media/projects/a-direct-automaterialen-05.webp", alt: "Medewerker van A-direct Autoparts pakt een band uit het bandenrek" },
+    { img: "/media/projects/a-direct-automaterialen-03.webp", alt: "Gevelbord met het logo van A-Direct Autoparts" },
+    { img: "/media/projects/a-direct-automaterialen-04.webp", alt: "Het team van A-Direct Autoparts achter de balie in de winkel" },
+    { img: "/media/projects/a-direct-automaterialen-05.webp", alt: "Medewerker van A-Direct Autoparts pakt een band uit het bandenrek" },
     { img: "/media/projects/a-direct-automaterialen-06.webp", alt: "Medewerker rijdt een steekwagen met banden door het bandenmagazijn" },
     {
       img: "/media/projects/a-direct-automaterialen-07.webp",
       alt: "Medewerker controleert de voorraad remschijven en filters in het magazijn",
     },
     { img: "/media/projects/a-direct-automaterialen-08.webp", alt: "Medewerker met adembeschermingsmasker achter de verfmengmachine" },
-    { img: "/media/projects/a-direct-automaterialen-09.webp", alt: "Medewerker aan het werk in de verfmengkamer van A-direct Autoparts" },
+    { img: "/media/projects/a-direct-automaterialen-09.webp", alt: "Medewerker aan het werk in de verfmengkamer van A-Direct Autoparts" },
     {
       img: "/media/projects/a-direct-automaterialen-10.webp",
-      alt: "Medewerker laadt onderdelen in een bedrijfsbus van A-direct Autoparts",
+      alt: "Medewerker laadt onderdelen in een bedrijfsbus van A-Direct Autoparts",
     },
     { img: "/media/projects/a-direct-automaterialen-11.webp", alt: "Medewerker achter de kassa met wanden vol gereedschap" },
     { img: "/media/projects/a-direct-automaterialen-12.webp", alt: "Medewerker scant een Mann-filter aan de balie" },
@@ -128,7 +128,7 @@ export function CaseADirectContent() {
               {t("/")}
             </span>{" "}
             <span aria-current="page" translate="no" style={{ color: "#FFFFFF", fontWeight: "600" }}>
-              {"A-direct Automaterialen"}
+              {"A-Direct Autoparts"}
             </span>
           </nav>
         </div>
@@ -166,7 +166,7 @@ export function CaseADirectContent() {
               textShadow: "0 4px 32px rgba(14, 17, 40, 0.35)",
             }}
           >
-            {"A-direct Automaterialen"}
+            {"A-Direct Autoparts"}
           </h1>
           <p style={{ margin: "0", maxWidth: "640px", fontSize: "20px", lineHeight: "1.55", color: "#FFFFFF" }}>
             {t("Nieuw merk en website in eigen huisstijl")}
@@ -253,7 +253,7 @@ export function CaseADirectContent() {
                 {t("Klant")}
               </dt>
               <dd translate="no" style={{ margin: "0", fontSize: "16px", fontWeight: "600", color: "#1F246C" }}>
-                {"A-direct Automaterialen"}
+                {"A-Direct Autoparts"}
               </dd>
             </div>
             <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
@@ -526,7 +526,7 @@ export function CaseADirectContent() {
             className="cs-media mk-car"
             role="group"
             aria-roledescription="carrousel"
-            aria-label={ta("Beeld van A-direct Automaterialen")}
+            aria-label={ta("Beeld van A-Direct Autoparts")}
             style={{ position: "relative", aspectRatio: "16 / 9", borderRadius: "24px", overflow: "hidden", background: "#0E1116" }}
           >
             {h.csSlides.map((g, g_i) => (
@@ -943,21 +943,6 @@ export function CaseADirectContent() {
                   {t("Nieuwe klanten op dag 1")}
                 </p>
                 <span style={{ display: "flex", flexWrap: "wrap", gap: "8px" }}>
-                  <span
-                    translate="no"
-                    style={{
-                      fontSize: "11px",
-                      fontWeight: "600",
-                      letterSpacing: "0.06em",
-                      textTransform: "uppercase",
-                      color: "#6B2BD9",
-                      background: "#EFE8FD",
-                      padding: "4px 12px",
-                      borderRadius: "999px",
-                    }}
-                  >
-                    {"Branding"}
-                  </span>
                   <span
                     translate="no"
                     style={{

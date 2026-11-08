@@ -14,7 +14,7 @@ export const clientLogos: ClientLogo[] = [
   { name: "ZCN", src: "/media/logos/zcn.svg", height: 30, width: 91 },
   { name: "Huisartsenspoedpost De Limes", src: "/media/logos/de-limes.svg", height: 44, width: 133 },
   { name: "Career Rebels", src: "/media/logos/career-rebels.svg", height: 48, width: 74 },
-  { name: "A-direct Autoparts", src: "/media/logos/a-direct.svg", height: 34, width: 177 },
+  { name: "A-Direct Autoparts", src: "/media/logos/a-direct.svg", height: 34, width: 177 },
   { name: "Solvism", src: "/media/logos/solvism.svg", height: 30, width: 127 },
   { name: "The Cave", src: "/media/logos/the-cave.svg", height: 44, width: 113 },
   { name: "wrppn", src: "/media/logos/wrppn.svg", height: 40, width: 100 },

@@ -48,7 +48,7 @@ export function FeaturedCases() {
   const CASES = [
     { name: "RCpeptides", label: ta("Toon case RCpeptides") },
     { name: "Sharkys", label: ta("Toon case Sharkys") },
-    { name: "A-direct Automaterialen", label: ta("Toon case A-direct Automaterialen") },
+    { name: "A-Direct Autoparts", label: ta("Toon case A-Direct Autoparts") },
   ];
   const bars = (
     <div className="fc-bars">
@@ -637,7 +637,7 @@ export function FeaturedCases() {
                       sizes="(max-width: 1024px) 100vw, 60vw"
                       loading="lazy"
                       decoding="async"
-                      alt={ta("Bedrijfsbus van A-direct Autoparts met logo en belettering")}
+                      alt={ta("Bedrijfsbus van A-Direct Autoparts met logo en belettering")}
                       style={{
                         position: "absolute",
                         top: "0",
@@ -669,7 +669,7 @@ export function FeaturedCases() {
                           }}
                         >
                           <a href={href("CaseADirect")} className="pj-title">
-                            {t("A-direct Automaterialen")}
+                            {t("A-Direct Autoparts")}
                           </a>
                         </strong>
                         <span style={{ fontSize: "15px", color: "#5A6273" }}>{t("Familiebedrijf")}</span>

@@ -67,8 +67,8 @@ const CASES: Record<CaseId, { Content: ComponentType; title: string; description
   },
   CaseADirect: {
     Content: CaseADirectContent,
-    title: "A-direct Automaterialen: nieuw merk en website in eigen huisstijl | Achieve",
-    description: "Hoe Achieve met A-direct Automaterialen werkte: nieuw merk en website in eigen huisstijl.",
+    title: "A-Direct Autoparts: nieuw merk en website in eigen huisstijl | Achieve",
+    description: "Hoe Achieve met A-Direct Autoparts werkte: nieuw merk en website in eigen huisstijl.",
   },
   CaseBeddenenzo: {
     Content: CaseBeddenenzoContent,

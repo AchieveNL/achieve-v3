@@ -171,7 +171,7 @@ export function CaseBeddenenzoContent() {
                 borderRadius: "999px",
               }}
             >
-              {"Branding"}
+              {"Graphic Design"}
             </span>
             <span
               translate="no"
@@ -328,7 +328,7 @@ export function CaseBeddenenzoContent() {
                     borderRadius: "999px",
                   }}
                 >
-                  {"Branding"}
+                  {"Graphic Design"}
                 </span>
                 <span
                   translate="no"
@@ -1098,21 +1098,6 @@ export function CaseBeddenenzoContent() {
                   {t("Nieuwe klanten op dag 1")}
                 </p>
                 <span style={{ display: "flex", flexWrap: "wrap", gap: "8px" }}>
-                  <span
-                    translate="no"
-                    style={{
-                      fontSize: "11px",
-                      fontWeight: "600",
-                      letterSpacing: "0.06em",
-                      textTransform: "uppercase",
-                      color: "#6B2BD9",
-                      background: "#EFE8FD",
-                      padding: "4px 12px",
-                      borderRadius: "999px",
-                    }}
-                  >
-                    {"Branding"}
-                  </span>
                   <span
                     translate="no"
                     style={{

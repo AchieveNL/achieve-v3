@@ -841,21 +841,6 @@ export function CaseSushiTodayContent() {
                       fontWeight: "600",
                       letterSpacing: "0.06em",
                       textTransform: "uppercase",
-                      color: "#6B2BD9",
-                      background: "#EFE8FD",
-                      padding: "4px 12px",
-                      borderRadius: "999px",
-                    }}
-                  >
-                    {"Branding"}
-                  </span>
-                  <span
-                    translate="no"
-                    style={{
-                      fontSize: "11px",
-                      fontWeight: "600",
-                      letterSpacing: "0.06em",
-                      textTransform: "uppercase",
                       color: "#0B6DB8",
                       background: "#E3F1FD",
                       padding: "4px 12px",
