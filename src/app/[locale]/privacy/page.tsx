@@ -14,7 +14,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
   const meta = await pageMetadata(locale as Locale, "Privacy", {
     title: "Privacyverklaring | Achieve",
-    description: "",
+    description: "Hoe Achieve met je persoonsgegevens omgaat: welke gegevens we gebruiken, waarom, hoe lang en met wie.",
   });
   return meta;
 }
