@@ -17,8 +17,9 @@ export function CaseCryptoArchitectContent() {
   const [csI, setCsI] = useState(0);
   const [mkI, setMkI] = useState(0);
   const SLIDES: { img: string; alt: string; mpos?: string; video?: string }[] = [
-    { img: "/media/projects/crypto-architect-01.webp", alt: "De homepage en de abonnementen van Crypto Architect op twee laptops" },
-    { img: "/media/projects/crypto-architect-02.webp", alt: "De community-pagina en reviews van Crypto Architect op twee laptops" },
+    { img: "/media/projects/crypto-architect-01.webp", alt: "De homepage van Crypto Architect op een laptop" },
+    { img: "/media/projects/crypto-architect-02.webp", alt: "De abonnementen van Crypto Architect op een tablet" },
+    { img: "/media/projects/crypto-architect-03.webp", alt: "Reviews uit de community van Crypto Architect op een laptop" },
   ];
   const N = SLIDES.length;
   const ci = csI % N;
@@ -463,7 +464,7 @@ export function CaseCryptoArchitectContent() {
               </Accent>
             </h2>
             <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.65", color: "#3A4150" }}>
-              {t("De web-app van Crypto Architect, op twee laptops.")}
+              {t("De web-app van Crypto Architect, op laptop en tablet.")}
             </p>
           </div>
           <div

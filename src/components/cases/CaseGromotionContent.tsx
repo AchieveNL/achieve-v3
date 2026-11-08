@@ -17,8 +17,9 @@ export function CaseGromotionContent() {
   const [csI, setCsI] = useState(0);
   const [mkI, setMkI] = useState(0);
   const SLIDES: { img: string; alt: string; mpos?: string; video?: string }[] = [
-    { img: "/media/projects/gromotion-01.webp", alt: "De nieuwe website van Gromotion op twee laptops, buiten op een stenen bank" },
-    { img: "/media/projects/gromotion-02.webp", alt: "De dienstenpagina van Gromotion op twee telefoons in handen" },
+    { img: "/media/projects/gromotion-01.webp", alt: "De homepage van Gromotion op een laptop, buiten op een stenen muur" },
+    { img: "/media/projects/gromotion-02.webp", alt: "De pagina Wie zijn wij? van Gromotion op een laptop" },
+    { img: "/media/projects/gromotion-03.webp", alt: "De dienstenpagina van Gromotion op twee telefoons in handen" },
   ];
   const N = SLIDES.length;
   const ci = csI % N;

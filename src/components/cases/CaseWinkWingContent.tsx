@@ -17,9 +17,9 @@ export function CaseWinkWingContent() {
   const [csI, setCsI] = useState(0);
   const [mkI, setMkI] = useState(0);
   const SLIDES: { img: string; alt: string; mpos?: string; video?: string }[] = [
-    { img: "/media/projects/winkwing-01.webp", alt: "Een zoekopdracht instellen bij WinkWing op twee laptops" },
-    { img: "/media/projects/winkwing-02.webp", alt: "De homepage en het woningaanbod van WinkWing op een tablet en een telefoon" },
-    { img: "/media/projects/winkwing-03.webp", alt: "Het woningaanbod van WinkWing op een laptop" },
+    { img: "/media/projects/winkwing-01.webp", alt: "Een huurwaarschuwing instellen bij WinkWing op een laptop" },
+    { img: "/media/projects/winkwing-02.webp", alt: "Het woningaanbod van WinkWing op een telefoon" },
+    { img: "/media/projects/winkwing-03.webp", alt: "Recent gecontroleerde huurwoningen van WinkWing op een laptop" },
   ];
   const N = SLIDES.length;
   const ci = csI % N;
@@ -433,7 +433,7 @@ export function CaseWinkWingContent() {
               </Accent>
             </h2>
             <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.65", color: "#3A4150" }}>
-              {t("Het platform van WinkWing, op laptop, tablet en telefoon.")}
+              {t("Het platform van WinkWing, op laptop en telefoon.")}
             </p>
           </div>
           <div

@@ -17,9 +17,9 @@ export function CaseBuruContent() {
   const [csI, setCsI] = useState(0);
   const [mkI, setMkI] = useState(0);
   const SLIDES: { img: string; alt: string; mpos?: string; video?: string }[] = [
-    { img: "/media/projects/buru-construction-01.webp", alt: "De website van Buru Construction op een desktop en een laptop, met de stier als mascotte" },
-    { img: "/media/projects/buru-construction-02.webp", alt: "De homepage en het stappenplan van Buru Construction op twee schermen" },
-    { img: "/media/projects/buru-construction-03.webp", alt: "De werkwijze van Buru Construction op een laptop, met de mascotte bij elke stap" },
+    { img: "/media/projects/buru-construction-01.webp", alt: "De werkwijze van Buru Construction op een laptop, met de mascotte bij elke stap" },
+    { img: "/media/projects/buru-construction-02.webp", alt: "De homepage van Buru Construction op een laptop, met de stier als mascotte" },
+    { img: "/media/projects/buru-construction-03.webp", alt: "De pagina over de aanpak van Buru Construction op een laptop, met de mascotte aan het werk in een huis" },
   ];
   const N = SLIDES.length;
   const ci = csI % N;

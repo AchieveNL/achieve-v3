@@ -18,7 +18,8 @@ export function CaseBouwvergunningDirectContent() {
   const [mkI, setMkI] = useState(0);
   const SLIDES: { img: string; alt: string; mpos?: string; video?: string }[] = [
     { img: "/media/projects/bouwvergunningdirect-01.webp", alt: "De nieuwe website van BouwvergunningDirect op een laptop, tussen bouwtekeningen en een maquette" },
-    { img: "/media/projects/bouwvergunningdirect-02.webp", alt: "Het dienstenoverzicht van BouwvergunningDirect op een tablet en een telefoon" },
+    { img: "/media/projects/bouwvergunningdirect-02.webp", alt: "De pagina over de vergunningsaanvraag van BouwvergunningDirect op een tablet" },
+    { img: "/media/projects/bouwvergunningdirect-03.webp", alt: "Het dienstenoverzicht van BouwvergunningDirect op een desktopscherm" },
   ];
   const N = 2;
   const ci = csI % N;
@@ -432,7 +433,7 @@ export function CaseBouwvergunningDirectContent() {
               </Accent>
             </h2>
             <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.65", color: "#3A4150" }}>
-              {t("De nieuwe website van BouwvergunningDirect, op laptop, tablet en telefoon.")}
+              {t("De nieuwe website van BouwvergunningDirect, op laptop, tablet en desktop.")}
             </p>
           </div>
           <div

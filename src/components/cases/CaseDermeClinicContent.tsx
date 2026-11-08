@@ -17,8 +17,9 @@ export function CaseDermeClinicContent() {
   const [csI, setCsI] = useState(0);
   const [mkI, setMkI] = useState(0);
   const SLIDES: { img: string; alt: string; mpos?: string; video?: string }[] = [
-    { img: "/media/projects/derme-clinic-01.webp", alt: "De boekingspagina en de homepage van Dermé Clinic op een laptop en een tablet" },
-    { img: "/media/projects/derme-clinic-02.webp", alt: "De behandelingen en de pagina Over ons van Dermé Clinic op twee laptops" },
+    { img: "/media/projects/derme-clinic-01.webp", alt: "De boekingspagina van Dermé Clinic op een laptop" },
+    { img: "/media/projects/derme-clinic-02.webp", alt: "De homepage van Dermé Clinic op een tablet" },
+    { img: "/media/projects/derme-clinic-03.webp", alt: "De pagina Over ons van Dermé Clinic op een laptop" },
   ];
   const N = SLIDES.length;
   const ci = csI % N;

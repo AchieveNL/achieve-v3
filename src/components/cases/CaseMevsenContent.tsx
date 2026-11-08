@@ -18,8 +18,8 @@ export function CaseMevsenContent() {
   const [mkI, setMkI] = useState(0);
   const SLIDES: { img: string; alt: string; mpos?: string; video?: string }[] = [
     { img: "/media/projects/mevsen-01.webp", alt: "De homepage van Mevsen met Welkom bij Mevsen op een laptop" },
-    { img: "/media/projects/mevsen-02.webp", alt: "De contactpagina en de cursuspagina van Mevsen op twee laptops" },
-    { img: "/media/projects/mevsen-03.webp", alt: "De pagina's Wie ben ik en Missie en visie van Mevsen op een desktop en een laptop" },
+    { img: "/media/projects/mevsen-02.webp", alt: "De pagina Wie ben ik? van Mevsen op een laptop" },
+    { img: "/media/projects/mevsen-03.webp", alt: "De pagina Missie en visie van Mevsen op een laptop" },
   ];
   const N = SLIDES.length;
   const ci = csI % N;

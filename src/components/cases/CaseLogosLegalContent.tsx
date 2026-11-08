@@ -17,9 +17,9 @@ export function CaseLogosLegalContent() {
   const [csI, setCsI] = useState(0);
   const [mkI, setMkI] = useState(0);
   const SLIDES: { img: string; alt: string; mpos?: string; video?: string }[] = [
-    { img: "/media/projects/logos-legal-02.webp", alt: "De homepage en de expertises van Logos Legal op twee laptops" },
-    { img: "/media/projects/logos-legal-01.webp", alt: "De pagina's Over ons en Expertise van Logos Legal op twee iMacs" },
-    { img: "/media/projects/logos-legal-03.webp", alt: "De website van Logos Legal op desktop, tablet en telefoon" },
+    { img: "/media/projects/logos-legal-02.webp", alt: "De homepage van Logos Legal op een laptop" },
+    { img: "/media/projects/logos-legal-01.webp", alt: "De pagina Over ons van Logos Legal op een desktop" },
+    { img: "/media/projects/logos-legal-03.webp", alt: "De pagina Arbeidsrecht van Logos Legal op een tablet" },
   ];
   const N = SLIDES.length;
   const ci = csI % N;
@@ -463,7 +463,7 @@ export function CaseLogosLegalContent() {
               </Accent>
             </h2>
             <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.65", color: "#3A4150" }}>
-              {t("De nieuwe website van Logos Legal, op desktop, laptop, tablet en telefoon.")}
+              {t("De nieuwe website van Logos Legal, op laptop, desktop en tablet.")}
             </p>
           </div>
           <div
