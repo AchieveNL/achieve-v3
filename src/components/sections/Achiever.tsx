@@ -4,6 +4,7 @@ import { useTr } from "@/i18n/I18nProvider";
 import { Accent } from "@/components/ui/Accent";
 import { LogoMarquee } from "@/components/ui/LogoMarquee";
 import { LazyVideo } from "@/components/ui/LazyVideo";
+import { VidButton } from "@/components/ui/VidButton";
 
 export function Achiever() {
   const { t, ta, href } = useTr();
@@ -296,6 +297,7 @@ export function Achiever() {
             <LogoMarquee speed={14} direction="left" style={{ flex: "1 1 420px", minWidth: "0" }} />
           </div>
         </div>
+        <VidButton />
       </section>
     </>
   );

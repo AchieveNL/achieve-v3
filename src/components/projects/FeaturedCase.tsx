@@ -7,6 +7,7 @@ import { useFrame } from "@/components/motion/MotionProvider";
 import { featuredGallery as GAL } from "@/data/projects";
 import { Tip } from "@/components/ui/Tip";
 import { LazyVideo } from "@/components/ui/LazyVideo";
+import { VidButton } from "@/components/ui/VidButton";
 
 export function FeaturedCase() {
   const { t, ta, href } = useTr();
@@ -108,6 +109,7 @@ export function FeaturedCase() {
                   )}
                 </Fragment>
               ))}
+              {h.galSlides.some((g) => g.isVid && g.op === "1") && <VidButton style={{ top: "20px", right: "20px", bottom: "auto" }} />}
               <div
                 aria-hidden="true"
                 ref={galBarRef}

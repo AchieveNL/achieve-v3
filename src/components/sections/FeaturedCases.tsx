@@ -6,6 +6,7 @@ import { useFrame } from "@/components/motion/MotionProvider";
 import { Accent } from "@/components/ui/Accent";
 import { Tip } from "@/components/ui/Tip";
 import { LazyVideo } from "@/components/ui/LazyVideo";
+import { VidButton } from "@/components/ui/VidButton";
 
 export function FeaturedCases() {
   const { t, ta, href } = useTr();
@@ -404,6 +405,7 @@ export function FeaturedCases() {
                       aria-label={ta("Sporter traint met battle ropes in de sportschool van Sharkys")}
                       style={{ position: "absolute", top: "0", left: "0", width: "100%", height: "100%", objectFit: "cover" }}
                     />
+                    <VidButton style={{ top: "24px", right: "24px", bottom: "auto" }} />
                   </div>
                   <div
                     style={{
