@@ -163,7 +163,7 @@ export const reviews: Review[] = [
     name: "Melike Cagan",
     role: "Docente",
     quote: "“Ze doen geweldig werk. Dankzij hen heb ik nu een zeer stijlvolle, moderne en creatieve website. 😇”",
-    tags: "Custom Website · Branding",
+    tags: "Graphic Design · Custom Website",
     src: "google",
   },
   {
@@ -649,14 +649,14 @@ export const reviewCards: ReviewCard[] = [
     src: "google",
     tags: [
       {
+        t: "Graphic Design",
+        c: "#6B2BD9",
+        b: "#EFE8FD",
+      },
+      {
         t: "Custom Website",
         c: "#0B6DB8",
         b: "#E3F1FD",
-      },
-      {
-        t: "Branding",
-        c: "#6B2BD9",
-        b: "#EFE8FD",
       },
     ],
   },
@@ -857,14 +857,15 @@ export const tagColors: Record<string, [string, string]> = {
   "Custom Website": ["#0B6DB8", "#E3F1FD"],
   "Video Marketing": ["#6E5A00", "#FFF6C7"],
   "Brand Book": ["#6B2BD9", "#EFE8FD"],
-  Branding: ["#6B2BD9", "#EFE8FD"],
   "Window Graphics": ["#6B2BD9", "#EFE8FD"],
   Photoshoot: ["#6E5A00", "#FFF6C7"],
   "Web App": ["#0B6DB8", "#E3F1FD"],
+  "Mobile App": ["#0B6DB8", "#E3F1FD"],
   "Email Marketing": ["#6E5A00", "#FFF6C7"],
   "UGC Marketing": ["#6E5A00", "#FFF6C7"],
   "Graphic Design": ["#6B2BD9", "#EFE8FD"],
   "Brand Strategy": ["#6B2BD9", "#EFE8FD"],
+  Strategy: ["#6B2BD9", "#EFE8FD"],
   "Shopify Webshop": ["#0B6DB8", "#E3F1FD"],
   "WordPress Website": ["#0B6DB8", "#E3F1FD"],
 };

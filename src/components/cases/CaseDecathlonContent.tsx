@@ -685,21 +685,6 @@ export function CaseDecathlonContent() {
                       fontWeight: "600",
                       letterSpacing: "0.06em",
                       textTransform: "uppercase",
-                      color: "#6B2BD9",
-                      background: "#EFE8FD",
-                      padding: "4px 12px",
-                      borderRadius: "999px",
-                    }}
-                  >
-                    {"Branding"}
-                  </span>
-                  <span
-                    translate="no"
-                    style={{
-                      fontSize: "11px",
-                      fontWeight: "600",
-                      letterSpacing: "0.06em",
-                      textTransform: "uppercase",
                       color: "#0B6DB8",
                       background: "#E3F1FD",
                       padding: "4px 12px",
@@ -866,7 +851,7 @@ export function CaseDecathlonContent() {
                   src="/media/projects/a-direct-automaterialen-01.webp"
                   srcSet="/media/projects/a-direct-automaterialen-01-800.webp 800w, /media/projects/a-direct-automaterialen-01.webp 1800w"
                   sizes="(max-width: 720px) 100vw, (max-width: 1100px) 70vw, 60vw"
-                  alt={ta("Bedrijfsbus van A-direct Autoparts met logo en belettering")}
+                  alt={ta("Bedrijfsbus van A-Direct Autoparts met logo en belettering")}
                   loading="lazy"
                   style={{ position: "absolute", inset: "0", width: "100%", height: "100%", objectFit: "cover" }}
                 />
@@ -878,7 +863,7 @@ export function CaseDecathlonContent() {
                     style={{ fontFamily: "var(--font-display)", fontSize: "24px", fontWeight: "700", color: "#1F246C", lineHeight: "1.1" }}
                   >
                     <a href={href("CaseADirect")} className="pj-title">
-                      {"A-direct Automaterialen"}
+                      {"A-Direct Autoparts"}
                     </a>
                   </strong>
                   <span style={{ fontSize: "14px", color: "#5A6273" }}>{t("Automotive")}</span>
