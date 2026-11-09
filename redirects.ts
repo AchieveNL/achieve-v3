@@ -103,4 +103,24 @@ const renamed: Redirect[] = (["nl", "en", "es", "fr", "de", "pl", "tr", "ar"] as
       ],
 );
 
-export const oldSiteRedirects: Redirect[] = [...forLocale(true), ...forLocale(false), ...renamed];
+// Old addresses Google still reported as 404 (Search Console, 9 Nov 2026).
+const all: Locale[] = ["nl", "en", "es", "fr", "de", "pl", "tr", "ar"];
+const at = (l: Locale, nlPath: string) => (l === "nl" ? nlPath : loc(l, `/${l}${nlPath}`));
+const found404: Redirect[] = [
+  // Old personal pages of the team → Over ons.
+  ...["karim", "abdelmonim", "niek", "seyma", "jonas", "denise"].map((n) => r(`/${n}`, "/over-ons")),
+  // Old service and vacancy slugs, in every language (Dutch and translated words).
+  ...all.flatMap((l) =>
+    [
+      ["/diensten/custom-website", "/diensten/web-development"],
+      ["/werken-bij/sales-stage", "/werken-bij/sales"],
+      ["/werken-bij/content-stage", "/werken-bij/content"],
+    ].flatMap(([from, to]) => {
+      const out = [r(at(l, from), at(l, to))];
+      if (l !== "nl") out.push(r(`/${l}${from}`, at(l, to)));
+      return out;
+    }),
+  ),
+].filter((x, i, a) => x.source !== x.destination && a.findIndex((y) => y.source === x.source) === i);
+
+export const oldSiteRedirects: Redirect[] = [...forLocale(true), ...forLocale(false), ...renamed, ...found404];
