@@ -1,5 +1,5 @@
 import { NextResponse, type NextRequest } from "next/server";
-import { defaultLocale, isLocale } from "@/i18n/config";
+import { defaultLocale, delocalizeSegments, isLocale, localizeSlug } from "@/i18n/config";
 
 /**
  * Dutch lives at the root (/projecten), other languages get a prefix (/en/projecten).
@@ -17,6 +17,23 @@ export function proxy(req: NextRequest) {
   const headers = new Headers(req.headers);
   if (isLocale(first)) {
     headers.set("x-locale", first);
+    // Other languages use translated URL words (/en/services/...). Page folders keep the Dutch names,
+    // so translated URLs are rewritten to them and old Dutch words are redirected to the translated ones.
+    const rest = pathname.split("/").slice(2).filter(Boolean);
+    if (rest.length) {
+      const nl = delocalizeSegments(first, rest);
+      const wanted = localizeSlug(first, nl.join("/"));
+      if (wanted !== rest.join("/")) {
+        const url = req.nextUrl.clone();
+        url.pathname = `/${first}/${wanted}`;
+        return NextResponse.redirect(url, 308);
+      }
+      if (nl.join("/") !== rest.join("/")) {
+        const url = req.nextUrl.clone();
+        url.pathname = `/${first}/${nl.join("/")}`;
+        return NextResponse.rewrite(url, { request: { headers } });
+      }
+    }
     return NextResponse.next({ request: { headers } });
   }
   headers.set("x-locale", defaultLocale);

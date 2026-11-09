@@ -2,8 +2,9 @@
  * 301/308 redirects from the old achieve.nl (project "achieve-last") to the new site,
  * so visitors with old links and Google rankings land on the right page.
  * Old site: Dutch at the root, English under /en with English slugs.
- * New site: Dutch slugs for every language, English under /en.
+ * New site: Dutch at the root, other languages under /<locale> with translated URL words (see i18n/config segments).
  */
+import { localizeSlug, type Locale } from "./src/i18n/config";
 type Redirect = { source: string; destination: string; permanent: true };
 
 // Old case slugs that have a new case page; every other old case goes to the overview.
@@ -53,6 +54,13 @@ const services = [
   "social-media-management", "email-marketing", "ugc-marketing", "social-media-advertising", "dashboard", "legal",
 ];
 
+/** "/en/diensten/x" -> "/en/services/x" (keeps a #hash). */
+function loc(l: Locale, path: string): string {
+  const [p, hash] = path.split("#");
+  const rest = p.replace(new RegExp(`^/${l}/?`), "");
+  return `/${l}${rest ? "/" + localizeSlug(l, rest) : ""}${hash !== undefined ? "#" + hash : ""}`;
+}
+
 const r = (source: string, destination: string): Redirect => ({ source, destination, permanent: true });
 
 function forLocale(nl: boolean): Redirect[] {
@@ -81,13 +89,18 @@ function forLocale(nl: boolean): Redirect[] {
   if (!nl) out.push(r("/en/careers", "/en/werken-bij"));
   out.push(r(old("/privacy-policy", "/privacy-policy"), `${p}/privacy`));
   out.push(r(old("/algemene-voorwaarden", "/algemene-voorwaarden"), `${p}/voorwaarden`));
-  // A redirect onto itself would loop; drop those.
-  return out.filter((x) => x.source !== x.destination);
+  // English destinations use the translated URL words; a redirect onto itself would loop, so drop those.
+  return out.map((x) => (nl ? x : { ...x, destination: loc("en", x.destination) })).filter((x) => x.source !== x.destination);
 }
 
 // Strategy was renamed Brand Strategy on 24 Oct 2026: its old new-site address points to the new one in every language.
-const renamed: Redirect[] = ["", "/en", "/es", "/fr", "/de", "/pl", "/tr", "/ar"].map((b) =>
-  r(`${b}/diensten/strategy`, `${b}/diensten/brand-strategy`),
+const renamed: Redirect[] = (["nl", "en", "es", "fr", "de", "pl", "tr", "ar"] as Locale[]).flatMap((l) =>
+  l === "nl"
+    ? [r("/diensten/strategy", "/diensten/brand-strategy")]
+    : [
+        r(`/${l}/diensten/strategy`, loc(l, `/${l}/diensten/brand-strategy`)),
+        r(loc(l, `/${l}/diensten/strategy`), loc(l, `/${l}/diensten/brand-strategy`)),
+      ],
 );
 
 export const oldSiteRedirects: Redirect[] = [...forLocale(true), ...forLocale(false), ...renamed];
