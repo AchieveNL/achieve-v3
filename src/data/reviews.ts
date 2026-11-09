@@ -2,7 +2,10 @@
 export type ReviewSource = "google" | "trustpilot";
 export type Review = { name: string; role: string; quote: string; tags: string; src: ReviewSource };
 
-export const reviews: Review[] = [
+/** Reviews temporarily taken offline (Karim, 9 Nov 2026: Rutger Jenner). Remove a name to show it again. */
+export const offlineReviews = new Set<string>(["Rutger Jenner"]);
+
+const allReviews: Review[] = [
   {
     name: "Boris Boot",
     role: "Webshopeigenaar",
@@ -264,7 +267,7 @@ export type ReviewCard = {
   src: ReviewSource;
   tags: { t: string; c: string; b: string }[];
 };
-export const reviewCards: ReviewCard[] = [
+const allReviewCards: ReviewCard[] = [
   {
     name: "Boris Boot",
     role: "Webshopeigenaar",
@@ -844,6 +847,12 @@ export const reviewCards: ReviewCard[] = [
     ],
   },
 ];
+
+export const reviews: Review[] = allReviews.filter((r) => !offlineReviews.has(r.name));
+// `open` pointed into allReviews; re-point it into the filtered list.
+export const reviewCards: ReviewCard[] = allReviewCards
+  .filter((c) => !offlineReviews.has(c.name))
+  .map((c) => ({ ...c, open: c.open >= 0 ? reviews.indexOf(allReviews[c.open]) : -1 }));
 
 export const reviewLinks = {
   google: "https://maps.app.goo.gl/gG6kKMrUMjbeg3ZPA",
