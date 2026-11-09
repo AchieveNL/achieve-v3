@@ -71,8 +71,64 @@ export const routes = {
 } as const;
 export type PageId = keyof typeof routes;
 
+/**
+ * Translated URL words per language. The pages themselves live under the Dutch folder names;
+ * proxy.ts rewrites translated URLs to them and redirects old Dutch words to the translated ones.
+ * Service and project names that are already names (brand-strategy, sharkys) stay the same everywhere.
+ */
+const EN_SEG = {
+  diensten: "services", projecten: "projects", tarieven: "pricing", "werken-bij": "careers", "over-ons": "about-us",
+  contact: "contact", bedankt: "thank-you", privacy: "privacy", voorwaarden: "terms", disclaimer: "disclaimer",
+  faq: "faq", onderhoud: "maintenance", looptijd: "duration",
+};
+export const segments: Record<Exclude<Locale, "nl">, Record<string, string>> = {
+  en: EN_SEG,
+  ar: EN_SEG,
+  de: {
+    diensten: "leistungen", projecten: "projekte", tarieven: "preise", "werken-bij": "karriere", "over-ons": "ueber-uns",
+    contact: "kontakt", bedankt: "danke", privacy: "datenschutz", voorwaarden: "agb", disclaimer: "haftungsausschluss",
+    faq: "faq", onderhoud: "wartung", looptijd: "laufzeit",
+  },
+  fr: {
+    diensten: "services", projecten: "projets", tarieven: "tarifs", "werken-bij": "carrieres", "over-ons": "a-propos",
+    contact: "contact", bedankt: "merci", privacy: "confidentialite", voorwaarden: "conditions", disclaimer: "avertissement",
+    faq: "faq", onderhoud: "maintenance", looptijd: "duree",
+  },
+  es: {
+    diensten: "servicios", projecten: "proyectos", tarieven: "precios", "werken-bij": "empleo", "over-ons": "sobre-nosotros",
+    contact: "contacto", bedankt: "gracias", privacy: "privacidad", voorwaarden: "condiciones", disclaimer: "aviso-legal",
+    faq: "preguntas-frecuentes", onderhoud: "mantenimiento", looptijd: "duracion",
+  },
+  pl: {
+    diensten: "uslugi", projecten: "projekty", tarieven: "cennik", "werken-bij": "kariera", "over-ons": "o-nas",
+    contact: "kontakt", bedankt: "dziekujemy", privacy: "prywatnosc", voorwaarden: "regulamin", disclaimer: "zastrzezenia",
+    faq: "faq", onderhoud: "utrzymanie", looptijd: "okres",
+  },
+  tr: {
+    diensten: "hizmetler", projecten: "projeler", tarieven: "fiyatlar", "werken-bij": "kariyer", "over-ons": "hakkimizda",
+    contact: "iletisim", bedankt: "tesekkurler", privacy: "gizlilik", voorwaarden: "kosullar", disclaimer: "sorumluluk-reddi",
+    faq: "sss", onderhoud: "bakim", looptijd: "sure",
+  },
+};
+
+/** Dutch slug ("diensten/onderhoud") -> slug in the given language ("services/maintenance"). */
+export function localizeSlug(locale: Locale, slug: string): string {
+  if (locale === defaultLocale) return slug;
+  const map = segments[locale as Exclude<Locale, "nl">];
+  return slug.split("/").map((s) => map[s] ?? s).join("/");
+}
+
+/** Translated path segments -> Dutch segments, as the page folders are named. */
+export function delocalizeSegments(locale: Locale, segs: string[]): string[] {
+  if (locale === defaultLocale) return segs;
+  const map = segments[locale as Exclude<Locale, "nl">];
+  const rev: Record<string, string> = {};
+  for (const [nl, t] of Object.entries(map)) rev[t] = nl;
+  return segs.map((s) => rev[s] ?? s);
+}
+
 export function pathFor(locale: Locale, page: PageId | string, anchor?: string): string {
-  const slug = (routes as Record<string, string>)[page] ?? "";
+  const slug = localizeSlug(locale, (routes as Record<string, string>)[page] ?? "");
   const base = locale === defaultLocale ? "" : `/${locale}`;
   const p = `${base}/${slug}`.replace(/\/+$/, "") || "/";
   return anchor ? `${p}#${anchor}` : p;
