@@ -22,6 +22,8 @@ export const routes = {
   Voorwaarden: "voorwaarden",
   Disclaimer: "disclaimer",
   FAQ: "faq",
+  Handleidingen: "handleidingen",
+  HandleidingMeta: "handleidingen/meta-toegang",
   DienstStrategy: "diensten/brand-strategy",
   DienstLegal: "diensten/legal",
   DienstBrandBook: "diensten/brand-book",
