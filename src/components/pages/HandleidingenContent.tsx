@@ -9,6 +9,12 @@ const guides = [
     title: "Geef ons toegang tot Meta",
     text: "Zet alles klaar voor advertenties op Facebook en Instagram en geef Achieve veilig toegang als partner.",
   },
+  {
+    href: pathFor("nl", "HandleidingTikTok"),
+    label: "TikTok",
+    title: "Geef ons toegang tot TikTok",
+    text: "Zet alles klaar voor advertenties op TikTok en geef Achieve veilig toegang via je Business Center.",
+  },
 ];
 
 export function HandleidingenContent() {

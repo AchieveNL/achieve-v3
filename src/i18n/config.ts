@@ -24,6 +24,7 @@ export const routes = {
   FAQ: "faq",
   Handleidingen: "handleidingen",
   HandleidingMeta: "handleidingen/meta-toegang",
+  HandleidingTikTok: "handleidingen/tiktok-toegang",
   DienstStrategy: "diensten/brand-strategy",
   DienstLegal: "diensten/legal",
   DienstBrandBook: "diensten/brand-book",
