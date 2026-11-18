@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next";
 import { locales, pathFor, routes, type PageId } from "@/i18n/config";
 
 /** Every page in all 8 languages, with hreflang alternates. Thank-you, 404, the SMA term variant and the client guides (Dutch only, noindex) are left out. */
-const SKIP: PageId[] = ["Bedankt", "NietGevonden", "DienstSMALooptijd", "Handleidingen", "HandleidingMeta"];
+const SKIP: PageId[] = ["Bedankt", "NietGevonden", "DienstSMALooptijd", "Handleidingen", "HandleidingMeta", "HandleidingTikTok"];
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = "https://achieve.nl";
