@@ -728,6 +728,16 @@ export function Footer({ tr }: { tr: ServerTr }) {
                   </li>
                   <li>
                     <a
+                      href={href("Handleidingen")}
+                      aria-current={navSection(page).startsWith("Handleiding") ? "page" : undefined}
+                      className="foot-link"
+                      style={{ color: "#D5DAE3", textDecoration: "none", padding: "8px 0", display: "inline-block" }}
+                    >
+                      {t("Handleidingen")}
+                    </a>
+                  </li>
+                  <li>
+                    <a
                       href={href("Disclaimer")}
                       aria-current={navSection(page) === "Disclaimer" ? "page" : undefined}
                       className="foot-link"
