@@ -3,8 +3,8 @@
 import { useRef, useState, useSyncExternalStore, type ReactNode } from "react";
 import { Accent } from "@/components/ui/Accent";
 
-/** Business Center-ID van Achieve in TikTok. Leeg = placeholder op de pagina (nog aan te leveren door Karim). */
-const BUSINESS_ID = "";
+/** Business Center-ID van Achieve in TikTok (AchieveNL, Karim 18 nov 2026). Leeg = placeholder op de pagina. */
+const BUSINESS_ID = "7325794331707736066";
 const SHOW_ID = BUSINESS_ID || "[Business Center-ID Achieve]";
 const BC = "https://business.tiktok.com/";
 const STORE = "achieve-tiktok-stappen";
