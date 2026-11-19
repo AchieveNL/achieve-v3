@@ -83,6 +83,7 @@ const EN_SEG = {
   diensten: "services", projecten: "projects", tarieven: "pricing", "werken-bij": "careers", "over-ons": "about-us",
   contact: "contact", bedankt: "thank-you", privacy: "privacy", voorwaarden: "terms", disclaimer: "disclaimer",
   faq: "faq", onderhoud: "maintenance", looptijd: "duration",
+  handleidingen: "guides", "meta-toegang": "meta-access", "tiktok-toegang": "tiktok-access",
 };
 export const segments: Record<Exclude<Locale, "nl">, Record<string, string>> = {
   en: EN_SEG,
@@ -91,26 +92,31 @@ export const segments: Record<Exclude<Locale, "nl">, Record<string, string>> = {
     diensten: "leistungen", projecten: "projekte", tarieven: "preise", "werken-bij": "karriere", "over-ons": "ueber-uns",
     contact: "kontakt", bedankt: "danke", privacy: "datenschutz", voorwaarden: "agb", disclaimer: "haftungsausschluss",
     faq: "faq", onderhoud: "wartung", looptijd: "laufzeit",
+    handleidingen: "anleitungen", "meta-toegang": "meta-zugang", "tiktok-toegang": "tiktok-zugang",
   },
   fr: {
     diensten: "services", projecten: "projets", tarieven: "tarifs", "werken-bij": "carrieres", "over-ons": "a-propos",
     contact: "contact", bedankt: "merci", privacy: "confidentialite", voorwaarden: "conditions", disclaimer: "avertissement",
     faq: "faq", onderhoud: "maintenance", looptijd: "duree",
+    handleidingen: "guides", "meta-toegang": "acces-meta", "tiktok-toegang": "acces-tiktok",
   },
   es: {
     diensten: "servicios", projecten: "proyectos", tarieven: "precios", "werken-bij": "empleo", "over-ons": "sobre-nosotros",
     contact: "contacto", bedankt: "gracias", privacy: "privacidad", voorwaarden: "condiciones", disclaimer: "aviso-legal",
     faq: "preguntas-frecuentes", onderhoud: "mantenimiento", looptijd: "duracion",
+    handleidingen: "guias", "meta-toegang": "acceso-meta", "tiktok-toegang": "acceso-tiktok",
   },
   pl: {
     diensten: "uslugi", projecten: "projekty", tarieven: "cennik", "werken-bij": "kariera", "over-ons": "o-nas",
     contact: "kontakt", bedankt: "dziekujemy", privacy: "prywatnosc", voorwaarden: "regulamin", disclaimer: "zastrzezenia",
     faq: "faq", onderhoud: "utrzymanie", looptijd: "okres",
+    handleidingen: "poradniki", "meta-toegang": "dostep-meta", "tiktok-toegang": "dostep-tiktok",
   },
   tr: {
     diensten: "hizmetler", projecten: "projeler", tarieven: "fiyatlar", "werken-bij": "kariyer", "over-ons": "hakkimizda",
     contact: "iletisim", bedankt: "tesekkurler", privacy: "gizlilik", voorwaarden: "kosullar", disclaimer: "sorumluluk-reddi",
     faq: "sss", onderhoud: "bakim", looptijd: "sure",
+    handleidingen: "kilavuzlar", "meta-toegang": "meta-erisimi", "tiktok-toegang": "tiktok-erisimi",
   },
 };
 
