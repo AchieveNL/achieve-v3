@@ -5,6 +5,7 @@ import { useEffect, useRef, useState } from "react";
 import { useFrame, useMotion, useTick } from "@/components/motion/MotionProvider";
 import { Accent } from "@/components/ui/Accent";
 import { Tip } from "@/components/ui/Tip";
+import { reviewLinks } from "@/data/reviews";
 
 export function Hero() {
   const { t, ta, href } = useTr();
@@ -185,7 +186,13 @@ export function Hero() {
                 color: "#1F246C",
               }}
             >
-              <span style={{ display: "inline-flex", alignItems: "center", gap: "8px" }}>
+              <a
+                href={reviewLinks.google}
+                target="_blank"
+                rel="noopener"
+                className="hero-rate-link"
+                style={{ display: "inline-flex", alignItems: "center", gap: "8px", color: "inherit", textDecoration: "none" }}
+              >
                 <img className="hero-rate-logo" src="/media/icons/google.svg" alt="" style={{ width: "16px", height: "16px" }} />
                 <span role="img" aria-label={ta("5 van 5 sterren op Google")} style={{ display: "inline-flex", gap: "2px" }}>
                   <svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true">
@@ -223,8 +230,14 @@ export function Hero() {
                   <strong style={{ fontWeight: "700" }}>{t("5,0")}</strong>
                   <span className="hero-rate-name"> {t("Google")}</span>
                 </span>
-              </span>
-              <span style={{ display: "inline-flex", alignItems: "center", gap: "8px" }}>
+              </a>
+              <a
+                href={reviewLinks.trustpilot}
+                target="_blank"
+                rel="noopener"
+                className="hero-rate-link"
+                style={{ display: "inline-flex", alignItems: "center", gap: "8px", color: "inherit", textDecoration: "none" }}
+              >
                 <img className="hero-rate-logo" src="/media/icons/trustpilot.svg" alt="" style={{ width: "16px", height: "16px" }} />
                 <span role="img" aria-label={ta("4,5 van 5 sterren op Trustpilot")} style={{ display: "inline-flex", gap: "2px" }}>
                   <svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true">
@@ -272,7 +285,7 @@ export function Hero() {
                   <strong style={{ fontWeight: "700" }}>{t("4,5")}</strong>
                   <span className="hero-rate-name"> {t("Trustpilot")}</span>
                 </span>
-              </span>
+              </a>
             </p>
             <h1
               style={{
