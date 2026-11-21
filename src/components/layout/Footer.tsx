@@ -1,6 +1,7 @@
 import type { ServerTr } from "@/i18n/server";
 
 import { navSection } from "@/i18n/config";
+import { reviewLinks } from "@/data/reviews";
 export function Footer({ tr }: { tr: ServerTr }) {
   const { t, ta, href } = tr;
 
@@ -320,12 +321,18 @@ export function Footer({ tr }: { tr: ServerTr }) {
                         ></path>
                       </svg>
                     </span>
-                    <span style={{ display: "inline-flex", alignItems: "center", gap: "8px" }}>
+                    <a
+                      href={reviewLinks.google}
+                      target="_blank"
+                      rel="noopener"
+                      className="foot-link"
+                      style={{ display: "inline-flex", alignItems: "center", gap: "8px", color: "#FFFFFF", textDecoration: "none" }}
+                    >
                       <img src="/media/icons/google.svg" alt="" style={{ width: "16px", height: "16px", display: "block" }} />
                       <span>
                         <strong style={{ fontWeight: "700" }}>{t("5,0")}</strong> {t("Google")}
                       </span>
-                    </span>
+                    </a>
                   </span>
                   <span style={{ display: "inline-flex", alignItems: "center", gap: "8px" }}>
                     <span role="img" aria-label={ta("4,5 van 5 sterren op Trustpilot")} style={{ display: "inline-flex", gap: "2px" }}>
@@ -366,12 +373,18 @@ export function Footer({ tr }: { tr: ServerTr }) {
                         ></path>
                       </svg>
                     </span>
-                    <span style={{ display: "inline-flex", alignItems: "center", gap: "8px" }}>
+                    <a
+                      href={reviewLinks.trustpilot}
+                      target="_blank"
+                      rel="noopener"
+                      className="foot-link"
+                      style={{ display: "inline-flex", alignItems: "center", gap: "8px", color: "#FFFFFF", textDecoration: "none" }}
+                    >
                       <img src="/media/icons/trustpilot.svg" alt="" style={{ width: "16px", height: "16px", display: "block" }} />
                       <span>
                         <strong style={{ fontWeight: "700" }}>{t("4,5")}</strong> {t("Trustpilot")}
                       </span>
-                    </span>
+                    </a>
                   </span>
                 </p>
               </div>

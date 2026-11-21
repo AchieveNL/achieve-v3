@@ -28262,6 +28262,241 @@ export function TarievenContent() {
               </div>
             </div>
           </section>
+          <section id="faq" className="pj-wrap pj-sec" style={{ background: "#FFFFFF", padding: "112px 40px 112px" }}>
+            <div style={{ maxWidth: "900px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "32px" }}>
+              <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "16px", textAlign: "center" }}>
+                <h2
+                  style={{
+                    margin: "0",
+                    color: "#1F246C",
+                    fontFamily: "var(--font-display)",
+                    fontWeight: "700",
+                    fontSize: "clamp(34px, 4vw, 52px)",
+                    lineHeight: "1",
+                    letterSpacing: "-0.025em",
+                  }}
+                >
+                  {t("Goed om te")}{" "}
+                  <Accent from="#8639FA" to="#0F8AE5">
+                    <span
+                      className="grad-text"
+                      style={{
+                        background: "linear-gradient(90deg, #8639FA 0%, #0F8AE5 100%)",
+                        WebkitBackgroundClip: "text",
+                        backgroundClip: "text",
+                        WebkitTextFillColor: "transparent",
+                      }}
+                    >
+                      {t("weten.")}
+                    </span>
+                  </Accent>
+                </h2>
+                <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.65", color: "#3A4150" }}>
+                  {t("Duidelijkheid vooraf, zodat je precies weet waar je aan toe bent.")}
+                </p>
+              </div>
+              <div style={{ display: "flex", flexDirection: "column", gap: "12px" }}>
+                <details className="tf-faq" style={{ background: "#F2F8FE", borderRadius: "16px", padding: "0 24px" }}>
+                  <summary
+                    style={{
+                      listStyle: "none",
+                      cursor: "pointer",
+                      minHeight: "60px",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "space-between",
+                      gap: "16px",
+                      fontSize: "16px",
+                      fontWeight: "600",
+                      color: "#1F246C",
+                    }}
+                  >
+                    {t("Gebruik je al een e-mailplatform?")}
+                    <svg
+                      className="tf-faq-ar"
+                      width="18"
+                      height="18"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2.2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      aria-hidden="true"
+                    >
+                      <path d="M9 6l6 6-6 6"></path>
+                    </svg>
+                  </summary>
+                  <p style={{ margin: "0 0 12px", fontSize: "15px", lineHeight: "1.65", color: "#3A4150" }}>
+                    {t("Dan analyseren we in de eerste maand je huidige systemen en strategie, en bouwen we verder op wat je al hebt.")}
+                  </p>
+                  <p style={{ margin: "0 0 20px", fontSize: "15px", lineHeight: "1.65", color: "#3A4150" }}>
+                    {t("Heb je nog niets? Dan koppelen we de systemen en richten we alles voor je in.")}
+                  </p>
+                </details>
+                <details className="tf-faq" style={{ background: "#F2F8FE", borderRadius: "16px", padding: "0 24px" }}>
+                  <summary
+                    style={{
+                      listStyle: "none",
+                      cursor: "pointer",
+                      minHeight: "60px",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "space-between",
+                      gap: "16px",
+                      fontSize: "16px",
+                      fontWeight: "600",
+                      color: "#1F246C",
+                    }}
+                  >
+                    {t("Wat we van jou nodig hebben")}
+                    <svg
+                      className="tf-faq-ar"
+                      width="18"
+                      height="18"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2.2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      aria-hidden="true"
+                    >
+                      <path d="M9 6l6 6-6 6"></path>
+                    </svg>
+                  </summary>
+                  <p style={{ margin: "0 0 12px", fontSize: "15px", lineHeight: "1.65", color: "#3A4150" }}>
+                    {t("Toegang tot je e-mailplatform en tot je website of webshop, zodat we formulieren en automations")}
+                    <Tip label={ta("Uitleg")}>
+                      {t("Automation: een e-mail of reeks e-mails die vanzelf verstuurd wordt zodra iemand iets doet, zoals een product bekijken.")}
+                    </Tip>{" "}
+                    {t("kunnen koppelen.")}
+                  </p>
+                  <p style={{ margin: "0 0 20px", fontSize: "15px", lineHeight: "1.65", color: "#3A4150" }}>
+                    {t("Daarnaast je huisstijl, zodat je mails bij je merk passen. En jouw kennis van je klanten: daar beginnen we mee.")}
+                  </p>
+                </details>
+                <details className="tf-faq" style={{ background: "#F2F8FE", borderRadius: "16px", padding: "0 24px" }}>
+                  <summary
+                    style={{
+                      listStyle: "none",
+                      cursor: "pointer",
+                      minHeight: "60px",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "space-between",
+                      gap: "16px",
+                      fontSize: "16px",
+                      fontWeight: "600",
+                      color: "#1F246C",
+                    }}
+                  >
+                    {t("Wat er niet in zit")}
+                    <svg
+                      className="tf-faq-ar"
+                      width="18"
+                      height="18"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2.2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      aria-hidden="true"
+                    >
+                      <path d="M9 6l6 6-6 6"></path>
+                    </svg>
+                  </summary>
+                  <p style={{ margin: "0 0 12px", fontSize: "15px", lineHeight: "1.65", color: "#3A4150" }}>
+                    {t("Werk dat niet in je pakket staat, zoals een nieuwe website bouwen of foto's en video's maken, valt erbuiten.")}
+                  </p>
+                  <p style={{ margin: "0 0 20px", fontSize: "15px", lineHeight: "1.65", color: "#3A4150" }}>
+                    {t("Dat kan wel als meerwerk voor €130 per uur of via onze andere diensten, altijd pas na jouw akkoord.")}
+                  </p>
+                </details>
+                <details className="tf-faq" style={{ background: "#F2F8FE", borderRadius: "16px", padding: "0 24px" }}>
+                  <summary
+                    style={{
+                      listStyle: "none",
+                      cursor: "pointer",
+                      minHeight: "60px",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "space-between",
+                      gap: "16px",
+                      fontSize: "16px",
+                      fontWeight: "600",
+                      color: "#1F246C",
+                    }}
+                  >
+                    {t("Is het volgens de AVG?")}
+                    <svg
+                      className="tf-faq-ar"
+                      width="18"
+                      height="18"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2.2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      aria-hidden="true"
+                    >
+                      <path d="M9 6l6 6-6 6"></path>
+                    </svg>
+                  </summary>
+                  <p style={{ margin: "0 0 12px", fontSize: "15px", lineHeight: "1.65", color: "#3A4150" }}>
+                    {t("Ja. We werken volgens de AVG")}
+                    <Tip label={ta("Uitleg")}>
+                      {t("AVG: de Europese privacywet die regelt hoe je met persoonsgegevens omgaat.")}
+                    </Tip>{" "}
+                    {t("en checken als je wilt je privacybeleid.")}
+                  </p>
+                  <p style={{ margin: "0 0 20px", fontSize: "15px", lineHeight: "1.65", color: "#3A4150" }}>
+                    {t("Zo ga je goed om met persoonsgegevens en voorkom je reputatieschade.")}
+                  </p>
+                </details>
+                <details className="tf-faq" style={{ background: "#F2F8FE", borderRadius: "16px", padding: "0 24px" }}>
+                  <summary
+                    style={{
+                      listStyle: "none",
+                      cursor: "pointer",
+                      minHeight: "60px",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "space-between",
+                      gap: "16px",
+                      fontSize: "16px",
+                      fontWeight: "600",
+                      color: "#1F246C",
+                    }}
+                  >
+                    {t("Na afloop van je pakket")}
+                    <svg
+                      className="tf-faq-ar"
+                      width="18"
+                      height="18"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2.2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      aria-hidden="true"
+                    >
+                      <path d="M9 6l6 6-6 6"></path>
+                    </svg>
+                  </summary>
+                  <p style={{ margin: "0 0 12px", fontSize: "15px", lineHeight: "1.65", color: "#3A4150" }}>
+                    {t("In de laatste maand bespreken we hoe je verder wilt: verlengen, overstappen naar een ander pakket of stoppen.")}
+                  </p>
+                  <p style={{ margin: "0 0 20px", fontSize: "15px", lineHeight: "1.65", color: "#3A4150" }}>
+                    {t("Stop je? Dan houd je alles wat we in je eigen account hebben opgebouwd, zoals je automations, templates en formulieren.")}
+                  </p>
+                </details>
+              </div>
+            </div>
+          </section>
         </>
       )}
       {h.tfIs_ugc && (
