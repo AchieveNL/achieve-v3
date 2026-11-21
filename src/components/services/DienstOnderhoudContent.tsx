@@ -1839,6 +1839,148 @@ export function DienstOnderhoudContent() {
           </p>
         </div>
       </section>
+      <section id="goed-om-te-weten" className="pj-wrap pj-sec" style={{ background: "#FFFFFF", padding: "112px 40px 112px" }}>
+        <div style={{ maxWidth: "900px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "32px" }}>
+          <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "16px", textAlign: "center" }}>
+            <h2
+              style={{
+                margin: "0",
+                color: "#1F246C",
+                fontFamily: "var(--font-display)",
+                fontWeight: "700",
+                fontSize: "clamp(34px, 4vw, 52px)",
+                lineHeight: "1",
+                letterSpacing: "-0.025em",
+              }}
+            >
+              {t("Goed om te")}{" "}
+              <Accent from="#8639FA" to="#0F8AE5">
+                <span
+                  className="grad-text"
+                  style={{
+                    background: "linear-gradient(90deg, #8639FA 0%, #0F8AE5 100%)",
+                    WebkitBackgroundClip: "text",
+                    backgroundClip: "text",
+                    WebkitTextFillColor: "transparent",
+                  }}
+                >
+                  {t("weten.")}
+                </span>
+              </Accent>
+            </h2>
+            <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.65", color: "#3A4150" }}>
+              {t("Duidelijkheid vooraf, zodat je precies weet waar je aan toe bent.")}
+            </p>
+          </div>
+          <div style={{ display: "flex", flexDirection: "column", gap: "12px" }}>
+            <details className="tf-faq" style={{ background: "#F2F8FE", borderRadius: "16px", padding: "0 24px" }}>
+              <summary
+                style={{
+                  listStyle: "none",
+                  cursor: "pointer",
+                  minHeight: "60px",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "space-between",
+                  gap: "16px",
+                  fontSize: "16px",
+                  fontWeight: "600",
+                  color: "#1F246C",
+                }}
+              >
+                {t("Wat doen jullie elke maand?")}
+                <svg
+                  className="tf-faq-ar"
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2.2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  aria-hidden="true"
+                >
+                  <path d="M9 6l6 6-6 6"></path>
+                </svg>
+              </summary>
+              <p style={{ margin: "0 0 20px", fontSize: "15px", lineHeight: "1.65", color: "#3A4150" }}>
+                {t("We houden je software up-to-date, controleren de beveiliging en maken elke dag een reservekopie van je website.")}
+              </p>
+            </details>
+            <details className="tf-faq" style={{ background: "#F2F8FE", borderRadius: "16px", padding: "0 24px" }}>
+              <summary
+                style={{
+                  listStyle: "none",
+                  cursor: "pointer",
+                  minHeight: "60px",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "space-between",
+                  gap: "16px",
+                  fontSize: "16px",
+                  fontWeight: "600",
+                  color: "#1F246C",
+                }}
+              >
+                {t("Hoe snel reageren jullie?")}
+                <svg
+                  className="tf-faq-ar"
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2.2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  aria-hidden="true"
+                >
+                  <path d="M9 6l6 6-6 6"></path>
+                </svg>
+              </summary>
+              <p style={{ margin: "0 0 20px", fontSize: "15px", lineHeight: "1.65", color: "#3A4150" }}>
+                {t("Bij Basic krijg je support per e-mail en bij Standard per telefoon en e-mail. Bij Premium reageren we binnen 4 uur.")}
+              </p>
+            </details>
+            <details className="tf-faq" style={{ background: "#F2F8FE", borderRadius: "16px", padding: "0 24px" }}>
+              <summary
+                style={{
+                  listStyle: "none",
+                  cursor: "pointer",
+                  minHeight: "60px",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "space-between",
+                  gap: "16px",
+                  fontSize: "16px",
+                  fontWeight: "600",
+                  color: "#1F246C",
+                }}
+              >
+                {t("Wat als ik meer tijd nodig heb?")}
+                <svg
+                  className="tf-faq-ar"
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2.2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  aria-hidden="true"
+                >
+                  <path d="M9 6l6 6-6 6"></path>
+                </svg>
+              </summary>
+              <p style={{ margin: "0 0 20px", fontSize: "15px", lineHeight: "1.65", color: "#3A4150" }}>
+                {t("Standard heeft 1 uur en Premium 3 uur aanpassingen per maand. Werk buiten je pakket doen we als meerwerk voor €130 per uur, altijd pas na jouw akkoord.")}
+              </p>
+            </details>
+          </div>
+        </div>
+      </section>
       <section
         id="start"
         className="pj-wrap cta-arrows"

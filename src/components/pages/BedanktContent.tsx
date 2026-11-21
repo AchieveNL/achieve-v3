@@ -2,6 +2,7 @@
 
 import { useTr } from "@/i18n/I18nProvider";
 import { Accent } from "@/components/ui/Accent";
+import { reviewLinks } from "@/data/reviews";
 
 export function BedanktContent() {
   const { t, ta, href } = useTr();
@@ -383,18 +384,30 @@ export function BedanktContent() {
               color: "#1F246C",
             }}
           >
-            <span style={{ display: "inline-flex", alignItems: "center", gap: "8px" }}>
+            <a
+              href={reviewLinks.google}
+              target="_blank"
+              rel="noopener"
+              className="rate-link"
+              style={{ display: "inline-flex", alignItems: "center", gap: "8px", color: "inherit", textDecoration: "none" }}
+            >
               <img src="/media/icons/google.svg" alt="" style={{ width: "18px", height: "18px" }} />
               <span>
                 <strong style={{ fontWeight: "700" }}>{t("5,0")}</strong> {t("op Google")}
               </span>
-            </span>
-            <span style={{ display: "inline-flex", alignItems: "center", gap: "8px" }}>
+            </a>
+            <a
+              href={reviewLinks.trustpilot}
+              target="_blank"
+              rel="noopener"
+              className="rate-link"
+              style={{ display: "inline-flex", alignItems: "center", gap: "8px", color: "inherit", textDecoration: "none" }}
+            >
               <img src="/media/icons/trustpilot.svg" alt="" style={{ width: "18px", height: "18px" }} />
               <span>
                 <strong style={{ fontWeight: "700" }}>{t("4,5")}</strong> {t("op Trustpilot")}
               </span>
-            </span>
+            </a>
           </div>
         </div>
       </section>

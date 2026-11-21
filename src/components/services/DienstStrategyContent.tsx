@@ -3853,6 +3853,191 @@ export function DienstStrategyContent() {
           </figcaption>
         </figure>
       </section>
+      <section id="goed-om-te-weten" className="pj-wrap pj-sec" style={{ background: "#FFFFFF", padding: "112px 40px 112px" }}>
+        <div style={{ maxWidth: "900px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "32px" }}>
+          <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "16px", textAlign: "center" }}>
+            <h2
+              style={{
+                margin: "0",
+                color: "#1F246C",
+                fontFamily: "var(--font-display)",
+                fontWeight: "700",
+                fontSize: "clamp(34px, 4vw, 52px)",
+                lineHeight: "1",
+                letterSpacing: "-0.025em",
+              }}
+            >
+              {t("Goed om te")}{" "}
+              <Accent from="#8639FA" to="#0F8AE5">
+                <span
+                  className="grad-text"
+                  style={{
+                    background: "linear-gradient(90deg, #8639FA 0%, #0F8AE5 100%)",
+                    WebkitBackgroundClip: "text",
+                    backgroundClip: "text",
+                    WebkitTextFillColor: "transparent",
+                  }}
+                >
+                  {t("weten.")}
+                </span>
+              </Accent>
+            </h2>
+            <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.65", color: "#3A4150" }}>
+              {t("Duidelijkheid vooraf, zodat je precies weet waar je aan toe bent.")}
+            </p>
+          </div>
+          <div style={{ display: "flex", flexDirection: "column", gap: "12px" }}>
+            <details className="tf-faq" style={{ background: "#F2F8FE", borderRadius: "16px", padding: "0 24px" }}>
+              <summary
+                style={{
+                  listStyle: "none",
+                  cursor: "pointer",
+                  minHeight: "60px",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "space-between",
+                  gap: "16px",
+                  fontSize: "16px",
+                  fontWeight: "600",
+                  color: "#1F246C",
+                }}
+              >
+                {t("Wat heb je van mij nodig?")}
+                <svg
+                  className="tf-faq-ar"
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2.2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  aria-hidden="true"
+                >
+                  <path d="M9 6l6 6-6 6"></path>
+                </svg>
+              </summary>
+              <p style={{ margin: "0 0 20px", fontSize: "15px", lineHeight: "1.65", color: "#3A4150" }}>
+                {t(
+                  "Dat je de vragenlijst invult en tijd vrijmaakt voor de consults: 2, 3 of 4, afhankelijk van je pakket. Jij kent je bedrijf en je klanten het best. Wij stellen de vragen en doen het denkwerk.",
+                )}
+              </p>
+            </details>
+            <details className="tf-faq" style={{ background: "#F2F8FE", borderRadius: "16px", padding: "0 24px" }}>
+              <summary
+                style={{
+                  listStyle: "none",
+                  cursor: "pointer",
+                  minHeight: "60px",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "space-between",
+                  gap: "16px",
+                  fontSize: "16px",
+                  fontWeight: "600",
+                  color: "#1F246C",
+                }}
+              >
+                {t("Ik heb al een logo en huisstijl. Heeft dit dan zin?")}
+                <svg
+                  className="tf-faq-ar"
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2.2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  aria-hidden="true"
+                >
+                  <path d="M9 6l6 6-6 6"></path>
+                </svg>
+              </summary>
+              <p style={{ margin: "0 0 20px", fontSize: "15px", lineHeight: "1.65", color: "#3A4150" }}>
+                {t(
+                  "Ja. Een merkstrategie gaat niet over hoe je merk eruitziet, maar over waar het voor staat en voor wie. Je bestaande logo en huisstijl nemen we gewoon mee. Wil je daarna ook je uitstraling vernieuwen, dan sluit ons huisstijlhandboek daarop aan.",
+                )}
+              </p>
+            </details>
+            <details className="tf-faq" style={{ background: "#F2F8FE", borderRadius: "16px", padding: "0 24px" }}>
+              <summary
+                style={{
+                  listStyle: "none",
+                  cursor: "pointer",
+                  minHeight: "60px",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "space-between",
+                  gap: "16px",
+                  fontSize: "16px",
+                  fontWeight: "600",
+                  color: "#1F246C",
+                }}
+              >
+                {t("Kan ik later overstappen naar een groter pakket?")}
+                <svg
+                  className="tf-faq-ar"
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2.2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  aria-hidden="true"
+                >
+                  <path d="M9 6l6 6-6 6"></path>
+                </svg>
+              </summary>
+              <p style={{ margin: "0 0 20px", fontSize: "15px", lineHeight: "1.65", color: "#3A4150" }}>
+                {t(
+                  "Ja. Begin je met Basic of Standard, dan kunnen we de onderdelen van een groter pakket later alsnog toevoegen. Wat dat kost, bespreken we vooraf met je.",
+                )}
+              </p>
+            </details>
+            <details className="tf-faq" style={{ background: "#F2F8FE", borderRadius: "16px", padding: "0 24px" }}>
+              <summary
+                style={{
+                  listStyle: "none",
+                  cursor: "pointer",
+                  minHeight: "60px",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "space-between",
+                  gap: "16px",
+                  fontSize: "16px",
+                  fontWeight: "600",
+                  color: "#1F246C",
+                }}
+              >
+                {t("Wat gebeurt er na de oplevering?")}
+                <svg
+                  className="tf-faq-ar"
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2.2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  aria-hidden="true"
+                >
+                  <path d="M9 6l6 6-6 6"></path>
+                </svg>
+              </summary>
+              <p style={{ margin: "0 0 20px", fontSize: "15px", lineHeight: "1.65", color: "#3A4150" }}>
+                {t(
+                  "Je krijgt je strategie zo uitgewerkt dat jij en je team er direct mee verder kunnen. Bij Premium presenteren we hem ook aan je team. Daarna ga je er zelf mee aan de slag, of kiezen we samen de volgende stap, zoals je website of je marketing.",
+                )}
+              </p>
+            </details>
+          </div>
+        </div>
+      </section>
       <Reviews />
       <section
         id="start"
