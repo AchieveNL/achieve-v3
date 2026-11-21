@@ -24399,7 +24399,18 @@ export function TarievenContent() {
                     }}
                   >
                     <div style={{ padding: "20px 24px", display: "flex", alignItems: "center" }}>
-                      <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Maand 1")}</strong>
+                      <span style={{ display: "flex", flexDirection: "column", gap: "4px", minWidth: "0", textAlign: "left" }}>
+                        <strong style={{ fontSize: "15px", color: "#1F246C" }}>
+                          {t("Maand 1")}
+                          <span aria-hidden="true"> {t("–")} </span>
+                          <span>{t("Fundament en koppelingen")}</span>
+                        </strong>
+                        <span style={{ fontSize: "14px", fontWeight: "400", lineHeight: "1.6", color: "#3A4150" }}>
+                          {t(
+                            "Analyse huidige systemen en strategieën, systemen koppelen en correct inrichten | Opzet en onderhoud formulieren | Opzet en onderhoud welkomstautomation | Opzet en onderhoud opschoningsautomation",
+                          )}
+                        </span>
+                      </span>
                     </div>
                     <div
                       className="tf-cell"
@@ -24555,7 +24566,18 @@ export function TarievenContent() {
                     }}
                   >
                     <div style={{ padding: "20px 24px", display: "flex", alignItems: "center" }}>
-                      <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Maand 2")}</strong>
+                      <span style={{ display: "flex", flexDirection: "column", gap: "4px", minWidth: "0", textAlign: "left" }}>
+                        <strong style={{ fontSize: "15px", color: "#1F246C" }}>
+                          {t("Maand 2")}
+                          <span aria-hidden="true"> {t("–")} </span>
+                          <span>{t("Nieuwsbrief, dashboard en templates")}</span>
+                        </strong>
+                        <span style={{ fontSize: "14px", fontWeight: "400", lineHeight: "1.6", color: "#3A4150" }}>
+                          {t(
+                            "Opzet en onderhoud nieuwsbriefautomation | Opzet van het datadashboard | Ontwikkeling e-mailtemplates | Maandelijkse call voor evaluatie en vervolgstappen",
+                          )}
+                        </span>
+                      </span>
                     </div>
                     <div
                       className="tf-cell"
@@ -24688,7 +24710,16 @@ export function TarievenContent() {
                     }}
                   >
                     <div style={{ padding: "20px 24px", display: "flex", alignItems: "center" }}>
-                      <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Maand 3")}</strong>
+                      <span style={{ display: "flex", flexDirection: "column", gap: "4px", minWidth: "0", textAlign: "left" }}>
+                        <strong style={{ fontSize: "15px", color: "#1F246C" }}>
+                          {t("Maand 3")}
+                          <span aria-hidden="true"> {t("–")} </span>
+                          <span>{t("Verlaten winkelwagens")}</span>
+                        </strong>
+                        <span style={{ fontSize: "14px", fontWeight: "400", lineHeight: "1.6", color: "#3A4150" }}>
+                          {t("Opzet en onderhoud abandoned-cart-flow | Opzet en onderhoud nieuwsbriefautomation")}
+                        </span>
+                      </span>
                     </div>
                     <div
                       className="tf-cell"
@@ -24821,7 +24852,16 @@ export function TarievenContent() {
                     }}
                   >
                     <div style={{ padding: "20px 24px", display: "flex", alignItems: "center" }}>
-                      <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Maand 4")}</strong>
+                      <span style={{ display: "flex", flexDirection: "column", gap: "4px", minWidth: "0", textAlign: "left" }}>
+                        <strong style={{ fontSize: "15px", color: "#1F246C" }}>
+                          {t("Maand 4")}
+                          <span aria-hidden="true"> {t("–")} </span>
+                          <span>{t("Herhaalaankopen")}</span>
+                        </strong>
+                        <span style={{ fontSize: "14px", fontWeight: "400", lineHeight: "1.6", color: "#3A4150" }}>
+                          {t("Opzet en onderhoud herhaalaankoopautomation | Opzet en onderhoud nieuwsbriefautomation")}
+                        </span>
+                      </span>
                     </div>
                     <div
                       className="tf-cell"
@@ -24954,7 +24994,16 @@ export function TarievenContent() {
                     }}
                   >
                     <div style={{ padding: "20px 24px", display: "flex", alignItems: "center" }}>
-                      <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Maand 5")}</strong>
+                      <span style={{ display: "flex", flexDirection: "column", gap: "4px", minWidth: "0", textAlign: "left" }}>
+                        <strong style={{ fontSize: "15px", color: "#1F246C" }}>
+                          {t("Maand 5")}
+                          <span aria-hidden="true"> {t("–")} </span>
+                          <span>{t("Klanten terugwinnen")}</span>
+                        </strong>
+                        <span style={{ fontSize: "14px", fontWeight: "400", lineHeight: "1.6", color: "#3A4150" }}>
+                          {t("Opzet en onderhoud winback-automation | Opzet en onderhoud nieuwsbriefautomation")}
+                        </span>
+                      </span>
                     </div>
                     <div
                       className="tf-cell"
@@ -25087,7 +25136,16 @@ export function TarievenContent() {
                     }}
                   >
                     <div style={{ padding: "20px 24px", display: "flex", alignItems: "center" }}>
-                      <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Maand 6")}</strong>
+                      <span style={{ display: "flex", flexDirection: "column", gap: "4px", minWidth: "0", textAlign: "left" }}>
+                        <strong style={{ fontSize: "15px", color: "#1F246C" }}>
+                          {t("Maand 6")}
+                          <span aria-hidden="true"> {t("–")} </span>
+                          <span>{t("Verjaardagen en evaluatie")}</span>
+                        </strong>
+                        <span style={{ fontSize: "14px", fontWeight: "400", lineHeight: "1.6", color: "#3A4150" }}>
+                          {t("Opzet en onderhoud verjaardagsautomation | Evaluatie na 6 maanden | Opzet en onderhoud nieuwsbriefautomation")}
+                        </span>
+                      </span>
                     </div>
                     <div
                       className="tf-cell"
@@ -25220,7 +25278,26 @@ export function TarievenContent() {
                     }}
                   >
                     <div style={{ padding: "20px 24px", display: "flex", alignItems: "center" }}>
-                      <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Maand 7")}</strong>
+                      <span style={{ display: "flex", flexDirection: "column", gap: "4px", minWidth: "0", textAlign: "left" }}>
+                        <strong style={{ fontSize: "15px", color: "#1F246C" }}>
+                          {t("Maand 7")}
+                          <span aria-hidden="true"> {t("–")} </span>
+                          <span>{t("Gedrag en lead scoring")}</span>
+                        </strong>
+                        <span style={{ fontSize: "14px", fontWeight: "400", lineHeight: "1.6", color: "#3A4150" }}>
+                          {t("Inrichten van gedragstracking en lead scoring")}
+                          <Tip label={ta("Uitleg")}>
+                            {t(
+                              "Lead scoring: elke bezoeker krijgt punten voor wat hij doet, zoals pagina's bekijken of mails openen. Zo zie je wie klaar is voor contact.",
+                            )}
+                          </Tip>{" "}
+                          {t("| Meten van websitebezoeken, bekeken producten en klikken in e-mails | Opbouwen van segmenten")}
+                          <Tip label={ta("Uitleg")}>
+                            {t("Segment: een groep contacten met iets gemeen, zoals dezelfde interesse of hoe vaak ze je mails openen.")}
+                          </Tip>{" "}
+                          {t("op basis van interesse en betrokkenheid")}
+                        </span>
+                      </span>
                     </div>
                     <div
                       className="tf-cell"
@@ -25330,7 +25407,24 @@ export function TarievenContent() {
                     }}
                   >
                     <div style={{ padding: "20px 24px", display: "flex", alignItems: "center" }}>
-                      <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Maand 8")}</strong>
+                      <span style={{ display: "flex", flexDirection: "column", gap: "4px", minWidth: "0", textAlign: "left" }}>
+                        <strong style={{ fontSize: "15px", color: "#1F246C" }}>
+                          {t("Maand 8")}
+                          <span aria-hidden="true"> {t("–")} </span>
+                          <span>{t("Gedrag en lead scoring verder uitbouwen")}</span>
+                        </strong>
+                        <span style={{ fontSize: "14px", fontWeight: "400", lineHeight: "1.6", color: "#3A4150" }}>
+                          {t("Opzetten van automations")}
+                          <Tip label={ta("Uitleg")}>
+                            {t(
+                              "Automation: een e-mail of reeks e-mails die vanzelf verstuurd wordt zodra iemand iets doet, zoals een product bekijken.",
+                            )}
+                          </Tip>{" "}
+                          {t(
+                            "per product- of dienstcategorie met de verzamelde data | Automatisch versturen van passende e-mails aan geïnteresseerde contacten | Testen en optimaliseren van de segmenten, verzendmomenten en lead scoring",
+                          )}
+                        </span>
+                      </span>
                     </div>
                     <div
                       className="tf-cell"
@@ -25440,7 +25534,18 @@ export function TarievenContent() {
                     }}
                   >
                     <div style={{ padding: "20px 24px", display: "flex", alignItems: "center" }}>
-                      <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Maand 9")}</strong>
+                      <span style={{ display: "flex", flexDirection: "column", gap: "4px", minWidth: "0", textAlign: "left" }}>
+                        <strong style={{ fontSize: "15px", color: "#1F246C" }}>
+                          {t("Maand 9")}
+                          <span aria-hidden="true"> {t("–")} </span>
+                          <span>{t("Gedrag en break-even")}</span>
+                        </strong>
+                        <span style={{ fontSize: "14px", fontWeight: "400", lineHeight: "1.6", color: "#3A4150" }}>
+                          {t(
+                            "Opzet en onderhoud automations per product- of dienstcategorie op basis van gedragstracking | Opzet en onderhoud nieuwsbriefautomation | Opzet en onderhoud break-evenautomation",
+                          )}
+                        </span>
+                      </span>
                     </div>
                     <div
                       className="tf-cell"
@@ -25550,7 +25655,18 @@ export function TarievenContent() {
                     }}
                   >
                     <div style={{ padding: "20px 24px", display: "flex", alignItems: "center" }}>
-                      <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Maand 10")}</strong>
+                      <span style={{ display: "flex", flexDirection: "column", gap: "4px", minWidth: "0", textAlign: "left" }}>
+                        <strong style={{ fontSize: "15px", color: "#1F246C" }}>
+                          {t("Maand 10")}
+                          <span aria-hidden="true"> {t("–")} </span>
+                          <span>{t("Reviews en feedback")}</span>
+                        </strong>
+                        <span style={{ fontSize: "14px", fontWeight: "400", lineHeight: "1.6", color: "#3A4150" }}>
+                          {t(
+                            "Opzet en onderhoud automations per product- of dienstcategorie op basis van gedragstracking | Opzet en onderhoud nieuwsbriefautomation | Opzet en onderhoud review- en feedbackautomation",
+                          )}
+                        </span>
+                      </span>
                     </div>
                     <div
                       className="tf-cell"
@@ -25660,7 +25776,18 @@ export function TarievenContent() {
                     }}
                   >
                     <div style={{ padding: "20px 24px", display: "flex", alignItems: "center" }}>
-                      <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Maand 11")}</strong>
+                      <span style={{ display: "flex", flexDirection: "column", gap: "4px", minWidth: "0", textAlign: "left" }}>
+                        <strong style={{ fontSize: "15px", color: "#1F246C" }}>
+                          {t("Maand 11")}
+                          <span aria-hidden="true"> {t("–")} </span>
+                          <span>{t("Verfijnen op gedrag")}</span>
+                        </strong>
+                        <span style={{ fontSize: "14px", fontWeight: "400", lineHeight: "1.6", color: "#3A4150" }}>
+                          {t(
+                            "Opzet en onderhoud automations per product- of dienstcategorie op basis van gedragstracking | Opzet en onderhoud nieuwsbriefautomation",
+                          )}
+                        </span>
+                      </span>
                     </div>
                     <div
                       className="tf-cell"
@@ -25770,7 +25897,18 @@ export function TarievenContent() {
                     }}
                   >
                     <div style={{ padding: "20px 24px", display: "flex", alignItems: "center" }}>
-                      <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Maand 12")}</strong>
+                      <span style={{ display: "flex", flexDirection: "column", gap: "4px", minWidth: "0", textAlign: "left" }}>
+                        <strong style={{ fontSize: "15px", color: "#1F246C" }}>
+                          {t("Maand 12")}
+                          <span aria-hidden="true"> {t("–")} </span>
+                          <span>{t("Verfijnen en vooruitkijken")}</span>
+                        </strong>
+                        <span style={{ fontSize: "14px", fontWeight: "400", lineHeight: "1.6", color: "#3A4150" }}>
+                          {t(
+                            "Opzet en onderhoud automations per product- of dienstcategorie op basis van gedragstracking | Opzet en onderhoud nieuwsbriefautomation",
+                          )}
+                        </span>
+                      </span>
                     </div>
                     <div
                       className="tf-cell"
@@ -26063,7 +26201,18 @@ export function TarievenContent() {
                         gap: "12px",
                       }}
                     >
-                      <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Maand 1")}</strong>
+                      <span style={{ display: "flex", flexDirection: "column", gap: "4px", minWidth: "0", textAlign: "left" }}>
+                        <strong style={{ fontSize: "15px", color: "#1F246C" }}>
+                          {t("Maand 1")}
+                          <span aria-hidden="true"> {t("–")} </span>
+                          <span>{t("Fundament en koppelingen")}</span>
+                        </strong>
+                        <span style={{ fontSize: "14px", fontWeight: "400", lineHeight: "1.6", color: "#3A4150" }}>
+                          {t(
+                            "Analyse huidige systemen en strategieën, systemen koppelen en correct inrichten | Opzet en onderhoud formulieren | Opzet en onderhoud welkomstautomation | Opzet en onderhoud opschoningsautomation",
+                          )}
+                        </span>
+                      </span>
                       <span style={{ flexShrink: "0", display: "inline-flex" }}>
                         <span
                           aria-hidden="true"
@@ -26109,7 +26258,18 @@ export function TarievenContent() {
                         gap: "12px",
                       }}
                     >
-                      <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Maand 2")}</strong>
+                      <span style={{ display: "flex", flexDirection: "column", gap: "4px", minWidth: "0", textAlign: "left" }}>
+                        <strong style={{ fontSize: "15px", color: "#1F246C" }}>
+                          {t("Maand 2")}
+                          <span aria-hidden="true"> {t("–")} </span>
+                          <span>{t("Nieuwsbrief, dashboard en templates")}</span>
+                        </strong>
+                        <span style={{ fontSize: "14px", fontWeight: "400", lineHeight: "1.6", color: "#3A4150" }}>
+                          {t(
+                            "Opzet en onderhoud nieuwsbriefautomation | Opzet van het datadashboard | Ontwikkeling e-mailtemplates | Maandelijkse call voor evaluatie en vervolgstappen",
+                          )}
+                        </span>
+                      </span>
                       <span style={{ flexShrink: "0", display: "inline-flex" }}>
                         <span aria-hidden="true" style={{ color: "#B8BFCC" }}>
                           {t("–")}
@@ -26132,7 +26292,16 @@ export function TarievenContent() {
                         gap: "12px",
                       }}
                     >
-                      <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Maand 3")}</strong>
+                      <span style={{ display: "flex", flexDirection: "column", gap: "4px", minWidth: "0", textAlign: "left" }}>
+                        <strong style={{ fontSize: "15px", color: "#1F246C" }}>
+                          {t("Maand 3")}
+                          <span aria-hidden="true"> {t("–")} </span>
+                          <span>{t("Verlaten winkelwagens")}</span>
+                        </strong>
+                        <span style={{ fontSize: "14px", fontWeight: "400", lineHeight: "1.6", color: "#3A4150" }}>
+                          {t("Opzet en onderhoud abandoned-cart-flow | Opzet en onderhoud nieuwsbriefautomation")}
+                        </span>
+                      </span>
                       <span style={{ flexShrink: "0", display: "inline-flex" }}>
                         <span aria-hidden="true" style={{ color: "#B8BFCC" }}>
                           {t("–")}
@@ -26155,7 +26324,16 @@ export function TarievenContent() {
                         gap: "12px",
                       }}
                     >
-                      <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Maand 4")}</strong>
+                      <span style={{ display: "flex", flexDirection: "column", gap: "4px", minWidth: "0", textAlign: "left" }}>
+                        <strong style={{ fontSize: "15px", color: "#1F246C" }}>
+                          {t("Maand 4")}
+                          <span aria-hidden="true"> {t("–")} </span>
+                          <span>{t("Herhaalaankopen")}</span>
+                        </strong>
+                        <span style={{ fontSize: "14px", fontWeight: "400", lineHeight: "1.6", color: "#3A4150" }}>
+                          {t("Opzet en onderhoud herhaalaankoopautomation | Opzet en onderhoud nieuwsbriefautomation")}
+                        </span>
+                      </span>
                       <span style={{ flexShrink: "0", display: "inline-flex" }}>
                         <span aria-hidden="true" style={{ color: "#B8BFCC" }}>
                           {t("–")}
@@ -26178,7 +26356,16 @@ export function TarievenContent() {
                         gap: "12px",
                       }}
                     >
-                      <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Maand 5")}</strong>
+                      <span style={{ display: "flex", flexDirection: "column", gap: "4px", minWidth: "0", textAlign: "left" }}>
+                        <strong style={{ fontSize: "15px", color: "#1F246C" }}>
+                          {t("Maand 5")}
+                          <span aria-hidden="true"> {t("–")} </span>
+                          <span>{t("Klanten terugwinnen")}</span>
+                        </strong>
+                        <span style={{ fontSize: "14px", fontWeight: "400", lineHeight: "1.6", color: "#3A4150" }}>
+                          {t("Opzet en onderhoud winback-automation | Opzet en onderhoud nieuwsbriefautomation")}
+                        </span>
+                      </span>
                       <span style={{ flexShrink: "0", display: "inline-flex" }}>
                         <span aria-hidden="true" style={{ color: "#B8BFCC" }}>
                           {t("–")}
@@ -26201,7 +26388,16 @@ export function TarievenContent() {
                         gap: "12px",
                       }}
                     >
-                      <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Maand 6")}</strong>
+                      <span style={{ display: "flex", flexDirection: "column", gap: "4px", minWidth: "0", textAlign: "left" }}>
+                        <strong style={{ fontSize: "15px", color: "#1F246C" }}>
+                          {t("Maand 6")}
+                          <span aria-hidden="true"> {t("–")} </span>
+                          <span>{t("Verjaardagen en evaluatie")}</span>
+                        </strong>
+                        <span style={{ fontSize: "14px", fontWeight: "400", lineHeight: "1.6", color: "#3A4150" }}>
+                          {t("Opzet en onderhoud verjaardagsautomation | Evaluatie na 6 maanden | Opzet en onderhoud nieuwsbriefautomation")}
+                        </span>
+                      </span>
                       <span style={{ flexShrink: "0", display: "inline-flex" }}>
                         <span aria-hidden="true" style={{ color: "#B8BFCC" }}>
                           {t("–")}
@@ -26224,7 +26420,26 @@ export function TarievenContent() {
                         gap: "12px",
                       }}
                     >
-                      <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Maand 7")}</strong>
+                      <span style={{ display: "flex", flexDirection: "column", gap: "4px", minWidth: "0", textAlign: "left" }}>
+                        <strong style={{ fontSize: "15px", color: "#1F246C" }}>
+                          {t("Maand 7")}
+                          <span aria-hidden="true"> {t("–")} </span>
+                          <span>{t("Gedrag en lead scoring")}</span>
+                        </strong>
+                        <span style={{ fontSize: "14px", fontWeight: "400", lineHeight: "1.6", color: "#3A4150" }}>
+                          {t("Inrichten van gedragstracking en lead scoring")}
+                          <Tip label={ta("Uitleg")}>
+                            {t(
+                              "Lead scoring: elke bezoeker krijgt punten voor wat hij doet, zoals pagina's bekijken of mails openen. Zo zie je wie klaar is voor contact.",
+                            )}
+                          </Tip>{" "}
+                          {t("| Meten van websitebezoeken, bekeken producten en klikken in e-mails | Opbouwen van segmenten")}
+                          <Tip label={ta("Uitleg")}>
+                            {t("Segment: een groep contacten met iets gemeen, zoals dezelfde interesse of hoe vaak ze je mails openen.")}
+                          </Tip>{" "}
+                          {t("op basis van interesse en betrokkenheid")}
+                        </span>
+                      </span>
                       <span style={{ flexShrink: "0", display: "inline-flex" }}>
                         <span aria-hidden="true" style={{ color: "#B8BFCC" }}>
                           {t("–")}
@@ -26247,7 +26462,24 @@ export function TarievenContent() {
                         gap: "12px",
                       }}
                     >
-                      <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Maand 8")}</strong>
+                      <span style={{ display: "flex", flexDirection: "column", gap: "4px", minWidth: "0", textAlign: "left" }}>
+                        <strong style={{ fontSize: "15px", color: "#1F246C" }}>
+                          {t("Maand 8")}
+                          <span aria-hidden="true"> {t("–")} </span>
+                          <span>{t("Gedrag en lead scoring verder uitbouwen")}</span>
+                        </strong>
+                        <span style={{ fontSize: "14px", fontWeight: "400", lineHeight: "1.6", color: "#3A4150" }}>
+                          {t("Opzetten van automations")}
+                          <Tip label={ta("Uitleg")}>
+                            {t(
+                              "Automation: een e-mail of reeks e-mails die vanzelf verstuurd wordt zodra iemand iets doet, zoals een product bekijken.",
+                            )}
+                          </Tip>{" "}
+                          {t(
+                            "per product- of dienstcategorie met de verzamelde data | Automatisch versturen van passende e-mails aan geïnteresseerde contacten | Testen en optimaliseren van de segmenten, verzendmomenten en lead scoring",
+                          )}
+                        </span>
+                      </span>
                       <span style={{ flexShrink: "0", display: "inline-flex" }}>
                         <span aria-hidden="true" style={{ color: "#B8BFCC" }}>
                           {t("–")}
@@ -26270,7 +26502,18 @@ export function TarievenContent() {
                         gap: "12px",
                       }}
                     >
-                      <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Maand 9")}</strong>
+                      <span style={{ display: "flex", flexDirection: "column", gap: "4px", minWidth: "0", textAlign: "left" }}>
+                        <strong style={{ fontSize: "15px", color: "#1F246C" }}>
+                          {t("Maand 9")}
+                          <span aria-hidden="true"> {t("–")} </span>
+                          <span>{t("Gedrag en break-even")}</span>
+                        </strong>
+                        <span style={{ fontSize: "14px", fontWeight: "400", lineHeight: "1.6", color: "#3A4150" }}>
+                          {t(
+                            "Opzet en onderhoud automations per product- of dienstcategorie op basis van gedragstracking | Opzet en onderhoud nieuwsbriefautomation | Opzet en onderhoud break-evenautomation",
+                          )}
+                        </span>
+                      </span>
                       <span style={{ flexShrink: "0", display: "inline-flex" }}>
                         <span aria-hidden="true" style={{ color: "#B8BFCC" }}>
                           {t("–")}
@@ -26293,7 +26536,18 @@ export function TarievenContent() {
                         gap: "12px",
                       }}
                     >
-                      <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Maand 10")}</strong>
+                      <span style={{ display: "flex", flexDirection: "column", gap: "4px", minWidth: "0", textAlign: "left" }}>
+                        <strong style={{ fontSize: "15px", color: "#1F246C" }}>
+                          {t("Maand 10")}
+                          <span aria-hidden="true"> {t("–")} </span>
+                          <span>{t("Reviews en feedback")}</span>
+                        </strong>
+                        <span style={{ fontSize: "14px", fontWeight: "400", lineHeight: "1.6", color: "#3A4150" }}>
+                          {t(
+                            "Opzet en onderhoud automations per product- of dienstcategorie op basis van gedragstracking | Opzet en onderhoud nieuwsbriefautomation | Opzet en onderhoud review- en feedbackautomation",
+                          )}
+                        </span>
+                      </span>
                       <span style={{ flexShrink: "0", display: "inline-flex" }}>
                         <span aria-hidden="true" style={{ color: "#B8BFCC" }}>
                           {t("–")}
@@ -26316,7 +26570,18 @@ export function TarievenContent() {
                         gap: "12px",
                       }}
                     >
-                      <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Maand 11")}</strong>
+                      <span style={{ display: "flex", flexDirection: "column", gap: "4px", minWidth: "0", textAlign: "left" }}>
+                        <strong style={{ fontSize: "15px", color: "#1F246C" }}>
+                          {t("Maand 11")}
+                          <span aria-hidden="true"> {t("–")} </span>
+                          <span>{t("Verfijnen op gedrag")}</span>
+                        </strong>
+                        <span style={{ fontSize: "14px", fontWeight: "400", lineHeight: "1.6", color: "#3A4150" }}>
+                          {t(
+                            "Opzet en onderhoud automations per product- of dienstcategorie op basis van gedragstracking | Opzet en onderhoud nieuwsbriefautomation",
+                          )}
+                        </span>
+                      </span>
                       <span style={{ flexShrink: "0", display: "inline-flex" }}>
                         <span aria-hidden="true" style={{ color: "#B8BFCC" }}>
                           {t("–")}
@@ -26339,7 +26604,18 @@ export function TarievenContent() {
                         gap: "12px",
                       }}
                     >
-                      <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Maand 12")}</strong>
+                      <span style={{ display: "flex", flexDirection: "column", gap: "4px", minWidth: "0", textAlign: "left" }}>
+                        <strong style={{ fontSize: "15px", color: "#1F246C" }}>
+                          {t("Maand 12")}
+                          <span aria-hidden="true"> {t("–")} </span>
+                          <span>{t("Verfijnen en vooruitkijken")}</span>
+                        </strong>
+                        <span style={{ fontSize: "14px", fontWeight: "400", lineHeight: "1.6", color: "#3A4150" }}>
+                          {t(
+                            "Opzet en onderhoud automations per product- of dienstcategorie op basis van gedragstracking | Opzet en onderhoud nieuwsbriefautomation",
+                          )}
+                        </span>
+                      </span>
                       <span style={{ flexShrink: "0", display: "inline-flex" }}>
                         <span aria-hidden="true" style={{ color: "#B8BFCC" }}>
                           {t("–")}
@@ -26491,7 +26767,18 @@ export function TarievenContent() {
                         gap: "12px",
                       }}
                     >
-                      <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Maand 1")}</strong>
+                      <span style={{ display: "flex", flexDirection: "column", gap: "4px", minWidth: "0", textAlign: "left" }}>
+                        <strong style={{ fontSize: "15px", color: "#1F246C" }}>
+                          {t("Maand 1")}
+                          <span aria-hidden="true"> {t("–")} </span>
+                          <span>{t("Fundament en koppelingen")}</span>
+                        </strong>
+                        <span style={{ fontSize: "14px", fontWeight: "400", lineHeight: "1.6", color: "#3A4150" }}>
+                          {t(
+                            "Analyse huidige systemen en strategieën, systemen koppelen en correct inrichten | Opzet en onderhoud formulieren | Opzet en onderhoud welkomstautomation | Opzet en onderhoud opschoningsautomation",
+                          )}
+                        </span>
+                      </span>
                       <span style={{ flexShrink: "0", display: "inline-flex" }}>
                         <span
                           aria-hidden="true"
@@ -26537,7 +26824,18 @@ export function TarievenContent() {
                         gap: "12px",
                       }}
                     >
-                      <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Maand 2")}</strong>
+                      <span style={{ display: "flex", flexDirection: "column", gap: "4px", minWidth: "0", textAlign: "left" }}>
+                        <strong style={{ fontSize: "15px", color: "#1F246C" }}>
+                          {t("Maand 2")}
+                          <span aria-hidden="true"> {t("–")} </span>
+                          <span>{t("Nieuwsbrief, dashboard en templates")}</span>
+                        </strong>
+                        <span style={{ fontSize: "14px", fontWeight: "400", lineHeight: "1.6", color: "#3A4150" }}>
+                          {t(
+                            "Opzet en onderhoud nieuwsbriefautomation | Opzet van het datadashboard | Ontwikkeling e-mailtemplates | Maandelijkse call voor evaluatie en vervolgstappen",
+                          )}
+                        </span>
+                      </span>
                       <span style={{ flexShrink: "0", display: "inline-flex" }}>
                         <span
                           aria-hidden="true"
@@ -26583,7 +26881,16 @@ export function TarievenContent() {
                         gap: "12px",
                       }}
                     >
-                      <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Maand 3")}</strong>
+                      <span style={{ display: "flex", flexDirection: "column", gap: "4px", minWidth: "0", textAlign: "left" }}>
+                        <strong style={{ fontSize: "15px", color: "#1F246C" }}>
+                          {t("Maand 3")}
+                          <span aria-hidden="true"> {t("–")} </span>
+                          <span>{t("Verlaten winkelwagens")}</span>
+                        </strong>
+                        <span style={{ fontSize: "14px", fontWeight: "400", lineHeight: "1.6", color: "#3A4150" }}>
+                          {t("Opzet en onderhoud abandoned-cart-flow | Opzet en onderhoud nieuwsbriefautomation")}
+                        </span>
+                      </span>
                       <span style={{ flexShrink: "0", display: "inline-flex" }}>
                         <span
                           aria-hidden="true"
@@ -26629,7 +26936,16 @@ export function TarievenContent() {
                         gap: "12px",
                       }}
                     >
-                      <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Maand 4")}</strong>
+                      <span style={{ display: "flex", flexDirection: "column", gap: "4px", minWidth: "0", textAlign: "left" }}>
+                        <strong style={{ fontSize: "15px", color: "#1F246C" }}>
+                          {t("Maand 4")}
+                          <span aria-hidden="true"> {t("–")} </span>
+                          <span>{t("Herhaalaankopen")}</span>
+                        </strong>
+                        <span style={{ fontSize: "14px", fontWeight: "400", lineHeight: "1.6", color: "#3A4150" }}>
+                          {t("Opzet en onderhoud herhaalaankoopautomation | Opzet en onderhoud nieuwsbriefautomation")}
+                        </span>
+                      </span>
                       <span style={{ flexShrink: "0", display: "inline-flex" }}>
                         <span
                           aria-hidden="true"
@@ -26675,7 +26991,16 @@ export function TarievenContent() {
                         gap: "12px",
                       }}
                     >
-                      <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Maand 5")}</strong>
+                      <span style={{ display: "flex", flexDirection: "column", gap: "4px", minWidth: "0", textAlign: "left" }}>
+                        <strong style={{ fontSize: "15px", color: "#1F246C" }}>
+                          {t("Maand 5")}
+                          <span aria-hidden="true"> {t("–")} </span>
+                          <span>{t("Klanten terugwinnen")}</span>
+                        </strong>
+                        <span style={{ fontSize: "14px", fontWeight: "400", lineHeight: "1.6", color: "#3A4150" }}>
+                          {t("Opzet en onderhoud winback-automation | Opzet en onderhoud nieuwsbriefautomation")}
+                        </span>
+                      </span>
                       <span style={{ flexShrink: "0", display: "inline-flex" }}>
                         <span
                           aria-hidden="true"
@@ -26721,7 +27046,16 @@ export function TarievenContent() {
                         gap: "12px",
                       }}
                     >
-                      <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Maand 6")}</strong>
+                      <span style={{ display: "flex", flexDirection: "column", gap: "4px", minWidth: "0", textAlign: "left" }}>
+                        <strong style={{ fontSize: "15px", color: "#1F246C" }}>
+                          {t("Maand 6")}
+                          <span aria-hidden="true"> {t("–")} </span>
+                          <span>{t("Verjaardagen en evaluatie")}</span>
+                        </strong>
+                        <span style={{ fontSize: "14px", fontWeight: "400", lineHeight: "1.6", color: "#3A4150" }}>
+                          {t("Opzet en onderhoud verjaardagsautomation | Evaluatie na 6 maanden | Opzet en onderhoud nieuwsbriefautomation")}
+                        </span>
+                      </span>
                       <span style={{ flexShrink: "0", display: "inline-flex" }}>
                         <span
                           aria-hidden="true"
@@ -26767,7 +27101,26 @@ export function TarievenContent() {
                         gap: "12px",
                       }}
                     >
-                      <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Maand 7")}</strong>
+                      <span style={{ display: "flex", flexDirection: "column", gap: "4px", minWidth: "0", textAlign: "left" }}>
+                        <strong style={{ fontSize: "15px", color: "#1F246C" }}>
+                          {t("Maand 7")}
+                          <span aria-hidden="true"> {t("–")} </span>
+                          <span>{t("Gedrag en lead scoring")}</span>
+                        </strong>
+                        <span style={{ fontSize: "14px", fontWeight: "400", lineHeight: "1.6", color: "#3A4150" }}>
+                          {t("Inrichten van gedragstracking en lead scoring")}
+                          <Tip label={ta("Uitleg")}>
+                            {t(
+                              "Lead scoring: elke bezoeker krijgt punten voor wat hij doet, zoals pagina's bekijken of mails openen. Zo zie je wie klaar is voor contact.",
+                            )}
+                          </Tip>{" "}
+                          {t("| Meten van websitebezoeken, bekeken producten en klikken in e-mails | Opbouwen van segmenten")}
+                          <Tip label={ta("Uitleg")}>
+                            {t("Segment: een groep contacten met iets gemeen, zoals dezelfde interesse of hoe vaak ze je mails openen.")}
+                          </Tip>{" "}
+                          {t("op basis van interesse en betrokkenheid")}
+                        </span>
+                      </span>
                       <span style={{ flexShrink: "0", display: "inline-flex" }}>
                         <span aria-hidden="true" style={{ color: "#B8BFCC" }}>
                           {t("–")}
@@ -26790,7 +27143,24 @@ export function TarievenContent() {
                         gap: "12px",
                       }}
                     >
-                      <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Maand 8")}</strong>
+                      <span style={{ display: "flex", flexDirection: "column", gap: "4px", minWidth: "0", textAlign: "left" }}>
+                        <strong style={{ fontSize: "15px", color: "#1F246C" }}>
+                          {t("Maand 8")}
+                          <span aria-hidden="true"> {t("–")} </span>
+                          <span>{t("Gedrag en lead scoring verder uitbouwen")}</span>
+                        </strong>
+                        <span style={{ fontSize: "14px", fontWeight: "400", lineHeight: "1.6", color: "#3A4150" }}>
+                          {t("Opzetten van automations")}
+                          <Tip label={ta("Uitleg")}>
+                            {t(
+                              "Automation: een e-mail of reeks e-mails die vanzelf verstuurd wordt zodra iemand iets doet, zoals een product bekijken.",
+                            )}
+                          </Tip>{" "}
+                          {t(
+                            "per product- of dienstcategorie met de verzamelde data | Automatisch versturen van passende e-mails aan geïnteresseerde contacten | Testen en optimaliseren van de segmenten, verzendmomenten en lead scoring",
+                          )}
+                        </span>
+                      </span>
                       <span style={{ flexShrink: "0", display: "inline-flex" }}>
                         <span aria-hidden="true" style={{ color: "#B8BFCC" }}>
                           {t("–")}
@@ -26813,7 +27183,18 @@ export function TarievenContent() {
                         gap: "12px",
                       }}
                     >
-                      <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Maand 9")}</strong>
+                      <span style={{ display: "flex", flexDirection: "column", gap: "4px", minWidth: "0", textAlign: "left" }}>
+                        <strong style={{ fontSize: "15px", color: "#1F246C" }}>
+                          {t("Maand 9")}
+                          <span aria-hidden="true"> {t("–")} </span>
+                          <span>{t("Gedrag en break-even")}</span>
+                        </strong>
+                        <span style={{ fontSize: "14px", fontWeight: "400", lineHeight: "1.6", color: "#3A4150" }}>
+                          {t(
+                            "Opzet en onderhoud automations per product- of dienstcategorie op basis van gedragstracking | Opzet en onderhoud nieuwsbriefautomation | Opzet en onderhoud break-evenautomation",
+                          )}
+                        </span>
+                      </span>
                       <span style={{ flexShrink: "0", display: "inline-flex" }}>
                         <span aria-hidden="true" style={{ color: "#B8BFCC" }}>
                           {t("–")}
@@ -26836,7 +27217,18 @@ export function TarievenContent() {
                         gap: "12px",
                       }}
                     >
-                      <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Maand 10")}</strong>
+                      <span style={{ display: "flex", flexDirection: "column", gap: "4px", minWidth: "0", textAlign: "left" }}>
+                        <strong style={{ fontSize: "15px", color: "#1F246C" }}>
+                          {t("Maand 10")}
+                          <span aria-hidden="true"> {t("–")} </span>
+                          <span>{t("Reviews en feedback")}</span>
+                        </strong>
+                        <span style={{ fontSize: "14px", fontWeight: "400", lineHeight: "1.6", color: "#3A4150" }}>
+                          {t(
+                            "Opzet en onderhoud automations per product- of dienstcategorie op basis van gedragstracking | Opzet en onderhoud nieuwsbriefautomation | Opzet en onderhoud review- en feedbackautomation",
+                          )}
+                        </span>
+                      </span>
                       <span style={{ flexShrink: "0", display: "inline-flex" }}>
                         <span aria-hidden="true" style={{ color: "#B8BFCC" }}>
                           {t("–")}
@@ -26859,7 +27251,18 @@ export function TarievenContent() {
                         gap: "12px",
                       }}
                     >
-                      <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Maand 11")}</strong>
+                      <span style={{ display: "flex", flexDirection: "column", gap: "4px", minWidth: "0", textAlign: "left" }}>
+                        <strong style={{ fontSize: "15px", color: "#1F246C" }}>
+                          {t("Maand 11")}
+                          <span aria-hidden="true"> {t("–")} </span>
+                          <span>{t("Verfijnen op gedrag")}</span>
+                        </strong>
+                        <span style={{ fontSize: "14px", fontWeight: "400", lineHeight: "1.6", color: "#3A4150" }}>
+                          {t(
+                            "Opzet en onderhoud automations per product- of dienstcategorie op basis van gedragstracking | Opzet en onderhoud nieuwsbriefautomation",
+                          )}
+                        </span>
+                      </span>
                       <span style={{ flexShrink: "0", display: "inline-flex" }}>
                         <span aria-hidden="true" style={{ color: "#B8BFCC" }}>
                           {t("–")}
@@ -26882,7 +27285,18 @@ export function TarievenContent() {
                         gap: "12px",
                       }}
                     >
-                      <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Maand 12")}</strong>
+                      <span style={{ display: "flex", flexDirection: "column", gap: "4px", minWidth: "0", textAlign: "left" }}>
+                        <strong style={{ fontSize: "15px", color: "#1F246C" }}>
+                          {t("Maand 12")}
+                          <span aria-hidden="true"> {t("–")} </span>
+                          <span>{t("Verfijnen en vooruitkijken")}</span>
+                        </strong>
+                        <span style={{ fontSize: "14px", fontWeight: "400", lineHeight: "1.6", color: "#3A4150" }}>
+                          {t(
+                            "Opzet en onderhoud automations per product- of dienstcategorie op basis van gedragstracking | Opzet en onderhoud nieuwsbriefautomation",
+                          )}
+                        </span>
+                      </span>
                       <span style={{ flexShrink: "0", display: "inline-flex" }}>
                         <span aria-hidden="true" style={{ color: "#B8BFCC" }}>
                           {t("–")}
@@ -27012,7 +27426,18 @@ export function TarievenContent() {
                         gap: "12px",
                       }}
                     >
-                      <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Maand 1")}</strong>
+                      <span style={{ display: "flex", flexDirection: "column", gap: "4px", minWidth: "0", textAlign: "left" }}>
+                        <strong style={{ fontSize: "15px", color: "#1F246C" }}>
+                          {t("Maand 1")}
+                          <span aria-hidden="true"> {t("–")} </span>
+                          <span>{t("Fundament en koppelingen")}</span>
+                        </strong>
+                        <span style={{ fontSize: "14px", fontWeight: "400", lineHeight: "1.6", color: "#3A4150" }}>
+                          {t(
+                            "Analyse huidige systemen en strategieën, systemen koppelen en correct inrichten | Opzet en onderhoud formulieren | Opzet en onderhoud welkomstautomation | Opzet en onderhoud opschoningsautomation",
+                          )}
+                        </span>
+                      </span>
                       <span style={{ flexShrink: "0", display: "inline-flex" }}>
                         <span
                           aria-hidden="true"
@@ -27058,7 +27483,18 @@ export function TarievenContent() {
                         gap: "12px",
                       }}
                     >
-                      <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Maand 2")}</strong>
+                      <span style={{ display: "flex", flexDirection: "column", gap: "4px", minWidth: "0", textAlign: "left" }}>
+                        <strong style={{ fontSize: "15px", color: "#1F246C" }}>
+                          {t("Maand 2")}
+                          <span aria-hidden="true"> {t("–")} </span>
+                          <span>{t("Nieuwsbrief, dashboard en templates")}</span>
+                        </strong>
+                        <span style={{ fontSize: "14px", fontWeight: "400", lineHeight: "1.6", color: "#3A4150" }}>
+                          {t(
+                            "Opzet en onderhoud nieuwsbriefautomation | Opzet van het datadashboard | Ontwikkeling e-mailtemplates | Maandelijkse call voor evaluatie en vervolgstappen",
+                          )}
+                        </span>
+                      </span>
                       <span style={{ flexShrink: "0", display: "inline-flex" }}>
                         <span
                           aria-hidden="true"
@@ -27104,7 +27540,16 @@ export function TarievenContent() {
                         gap: "12px",
                       }}
                     >
-                      <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Maand 3")}</strong>
+                      <span style={{ display: "flex", flexDirection: "column", gap: "4px", minWidth: "0", textAlign: "left" }}>
+                        <strong style={{ fontSize: "15px", color: "#1F246C" }}>
+                          {t("Maand 3")}
+                          <span aria-hidden="true"> {t("–")} </span>
+                          <span>{t("Verlaten winkelwagens")}</span>
+                        </strong>
+                        <span style={{ fontSize: "14px", fontWeight: "400", lineHeight: "1.6", color: "#3A4150" }}>
+                          {t("Opzet en onderhoud abandoned-cart-flow | Opzet en onderhoud nieuwsbriefautomation")}
+                        </span>
+                      </span>
                       <span style={{ flexShrink: "0", display: "inline-flex" }}>
                         <span
                           aria-hidden="true"
@@ -27150,7 +27595,16 @@ export function TarievenContent() {
                         gap: "12px",
                       }}
                     >
-                      <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Maand 4")}</strong>
+                      <span style={{ display: "flex", flexDirection: "column", gap: "4px", minWidth: "0", textAlign: "left" }}>
+                        <strong style={{ fontSize: "15px", color: "#1F246C" }}>
+                          {t("Maand 4")}
+                          <span aria-hidden="true"> {t("–")} </span>
+                          <span>{t("Herhaalaankopen")}</span>
+                        </strong>
+                        <span style={{ fontSize: "14px", fontWeight: "400", lineHeight: "1.6", color: "#3A4150" }}>
+                          {t("Opzet en onderhoud herhaalaankoopautomation | Opzet en onderhoud nieuwsbriefautomation")}
+                        </span>
+                      </span>
                       <span style={{ flexShrink: "0", display: "inline-flex" }}>
                         <span
                           aria-hidden="true"
@@ -27196,7 +27650,16 @@ export function TarievenContent() {
                         gap: "12px",
                       }}
                     >
-                      <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Maand 5")}</strong>
+                      <span style={{ display: "flex", flexDirection: "column", gap: "4px", minWidth: "0", textAlign: "left" }}>
+                        <strong style={{ fontSize: "15px", color: "#1F246C" }}>
+                          {t("Maand 5")}
+                          <span aria-hidden="true"> {t("–")} </span>
+                          <span>{t("Klanten terugwinnen")}</span>
+                        </strong>
+                        <span style={{ fontSize: "14px", fontWeight: "400", lineHeight: "1.6", color: "#3A4150" }}>
+                          {t("Opzet en onderhoud winback-automation | Opzet en onderhoud nieuwsbriefautomation")}
+                        </span>
+                      </span>
                       <span style={{ flexShrink: "0", display: "inline-flex" }}>
                         <span
                           aria-hidden="true"
@@ -27242,7 +27705,16 @@ export function TarievenContent() {
                         gap: "12px",
                       }}
                     >
-                      <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Maand 6")}</strong>
+                      <span style={{ display: "flex", flexDirection: "column", gap: "4px", minWidth: "0", textAlign: "left" }}>
+                        <strong style={{ fontSize: "15px", color: "#1F246C" }}>
+                          {t("Maand 6")}
+                          <span aria-hidden="true"> {t("–")} </span>
+                          <span>{t("Verjaardagen en evaluatie")}</span>
+                        </strong>
+                        <span style={{ fontSize: "14px", fontWeight: "400", lineHeight: "1.6", color: "#3A4150" }}>
+                          {t("Opzet en onderhoud verjaardagsautomation | Evaluatie na 6 maanden | Opzet en onderhoud nieuwsbriefautomation")}
+                        </span>
+                      </span>
                       <span style={{ flexShrink: "0", display: "inline-flex" }}>
                         <span
                           aria-hidden="true"
@@ -27288,7 +27760,26 @@ export function TarievenContent() {
                         gap: "12px",
                       }}
                     >
-                      <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Maand 7")}</strong>
+                      <span style={{ display: "flex", flexDirection: "column", gap: "4px", minWidth: "0", textAlign: "left" }}>
+                        <strong style={{ fontSize: "15px", color: "#1F246C" }}>
+                          {t("Maand 7")}
+                          <span aria-hidden="true"> {t("–")} </span>
+                          <span>{t("Gedrag en lead scoring")}</span>
+                        </strong>
+                        <span style={{ fontSize: "14px", fontWeight: "400", lineHeight: "1.6", color: "#3A4150" }}>
+                          {t("Inrichten van gedragstracking en lead scoring")}
+                          <Tip label={ta("Uitleg")}>
+                            {t(
+                              "Lead scoring: elke bezoeker krijgt punten voor wat hij doet, zoals pagina's bekijken of mails openen. Zo zie je wie klaar is voor contact.",
+                            )}
+                          </Tip>{" "}
+                          {t("| Meten van websitebezoeken, bekeken producten en klikken in e-mails | Opbouwen van segmenten")}
+                          <Tip label={ta("Uitleg")}>
+                            {t("Segment: een groep contacten met iets gemeen, zoals dezelfde interesse of hoe vaak ze je mails openen.")}
+                          </Tip>{" "}
+                          {t("op basis van interesse en betrokkenheid")}
+                        </span>
+                      </span>
                       <span style={{ flexShrink: "0", display: "inline-flex" }}>
                         <span
                           aria-hidden="true"
@@ -27334,7 +27825,24 @@ export function TarievenContent() {
                         gap: "12px",
                       }}
                     >
-                      <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Maand 8")}</strong>
+                      <span style={{ display: "flex", flexDirection: "column", gap: "4px", minWidth: "0", textAlign: "left" }}>
+                        <strong style={{ fontSize: "15px", color: "#1F246C" }}>
+                          {t("Maand 8")}
+                          <span aria-hidden="true"> {t("–")} </span>
+                          <span>{t("Gedrag en lead scoring verder uitbouwen")}</span>
+                        </strong>
+                        <span style={{ fontSize: "14px", fontWeight: "400", lineHeight: "1.6", color: "#3A4150" }}>
+                          {t("Opzetten van automations")}
+                          <Tip label={ta("Uitleg")}>
+                            {t(
+                              "Automation: een e-mail of reeks e-mails die vanzelf verstuurd wordt zodra iemand iets doet, zoals een product bekijken.",
+                            )}
+                          </Tip>{" "}
+                          {t(
+                            "per product- of dienstcategorie met de verzamelde data | Automatisch versturen van passende e-mails aan geïnteresseerde contacten | Testen en optimaliseren van de segmenten, verzendmomenten en lead scoring",
+                          )}
+                        </span>
+                      </span>
                       <span style={{ flexShrink: "0", display: "inline-flex" }}>
                         <span
                           aria-hidden="true"
@@ -27380,7 +27888,18 @@ export function TarievenContent() {
                         gap: "12px",
                       }}
                     >
-                      <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Maand 9")}</strong>
+                      <span style={{ display: "flex", flexDirection: "column", gap: "4px", minWidth: "0", textAlign: "left" }}>
+                        <strong style={{ fontSize: "15px", color: "#1F246C" }}>
+                          {t("Maand 9")}
+                          <span aria-hidden="true"> {t("–")} </span>
+                          <span>{t("Gedrag en break-even")}</span>
+                        </strong>
+                        <span style={{ fontSize: "14px", fontWeight: "400", lineHeight: "1.6", color: "#3A4150" }}>
+                          {t(
+                            "Opzet en onderhoud automations per product- of dienstcategorie op basis van gedragstracking | Opzet en onderhoud nieuwsbriefautomation | Opzet en onderhoud break-evenautomation",
+                          )}
+                        </span>
+                      </span>
                       <span style={{ flexShrink: "0", display: "inline-flex" }}>
                         <span
                           aria-hidden="true"
@@ -27426,7 +27945,18 @@ export function TarievenContent() {
                         gap: "12px",
                       }}
                     >
-                      <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Maand 10")}</strong>
+                      <span style={{ display: "flex", flexDirection: "column", gap: "4px", minWidth: "0", textAlign: "left" }}>
+                        <strong style={{ fontSize: "15px", color: "#1F246C" }}>
+                          {t("Maand 10")}
+                          <span aria-hidden="true"> {t("–")} </span>
+                          <span>{t("Reviews en feedback")}</span>
+                        </strong>
+                        <span style={{ fontSize: "14px", fontWeight: "400", lineHeight: "1.6", color: "#3A4150" }}>
+                          {t(
+                            "Opzet en onderhoud automations per product- of dienstcategorie op basis van gedragstracking | Opzet en onderhoud nieuwsbriefautomation | Opzet en onderhoud review- en feedbackautomation",
+                          )}
+                        </span>
+                      </span>
                       <span style={{ flexShrink: "0", display: "inline-flex" }}>
                         <span
                           aria-hidden="true"
@@ -27472,7 +28002,18 @@ export function TarievenContent() {
                         gap: "12px",
                       }}
                     >
-                      <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Maand 11")}</strong>
+                      <span style={{ display: "flex", flexDirection: "column", gap: "4px", minWidth: "0", textAlign: "left" }}>
+                        <strong style={{ fontSize: "15px", color: "#1F246C" }}>
+                          {t("Maand 11")}
+                          <span aria-hidden="true"> {t("–")} </span>
+                          <span>{t("Verfijnen op gedrag")}</span>
+                        </strong>
+                        <span style={{ fontSize: "14px", fontWeight: "400", lineHeight: "1.6", color: "#3A4150" }}>
+                          {t(
+                            "Opzet en onderhoud automations per product- of dienstcategorie op basis van gedragstracking | Opzet en onderhoud nieuwsbriefautomation",
+                          )}
+                        </span>
+                      </span>
                       <span style={{ flexShrink: "0", display: "inline-flex" }}>
                         <span
                           aria-hidden="true"
@@ -27518,7 +28059,18 @@ export function TarievenContent() {
                         gap: "12px",
                       }}
                     >
-                      <strong style={{ fontSize: "15px", color: "#1F246C" }}>{t("Maand 12")}</strong>
+                      <span style={{ display: "flex", flexDirection: "column", gap: "4px", minWidth: "0", textAlign: "left" }}>
+                        <strong style={{ fontSize: "15px", color: "#1F246C" }}>
+                          {t("Maand 12")}
+                          <span aria-hidden="true"> {t("–")} </span>
+                          <span>{t("Verfijnen en vooruitkijken")}</span>
+                        </strong>
+                        <span style={{ fontSize: "14px", fontWeight: "400", lineHeight: "1.6", color: "#3A4150" }}>
+                          {t(
+                            "Opzet en onderhoud automations per product- of dienstcategorie op basis van gedragstracking | Opzet en onderhoud nieuwsbriefautomation",
+                          )}
+                        </span>
+                      </span>
                       <span style={{ flexShrink: "0", display: "inline-flex" }}>
                         <span
                           aria-hidden="true"
