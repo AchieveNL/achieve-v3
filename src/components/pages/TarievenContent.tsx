@@ -29405,11 +29405,8 @@ export function TarievenContent() {
                       <path d="M9 6l6 6-6 6"></path>
                     </svg>
                   </summary>
-                  <p style={{ margin: "0 0 12px", fontSize: "15px", lineHeight: "1.65", color: "#3A4150" }}>
-                    {t("In de laatste maand bespreken we hoe je verder wilt: verlengen, overstappen naar een ander pakket of stoppen.")}
-                  </p>
                   <p style={{ margin: "0 0 20px", fontSize: "15px", lineHeight: "1.65", color: "#3A4150" }}>
-                    {t("Stop je? Dan houd je alles wat we in je eigen account hebben opgebouwd, zoals je automations, templates en formulieren.")}
+                    {t("In de laatste maand bespreken we hoe je verder wilt: verlengen, overstappen naar een ander pakket of stoppen.")}
                   </p>
                 </details>
               </div>
@@ -44540,7 +44537,7 @@ export function TarievenContent() {
                     <Tip label={ta("Uitleg")}>
                       {t("De systemen waar je cijfers vandaan komen, zoals Google Analytics, je webshop of je advertentieaccounts.")}
                     </Tip>{" "}
-                    {t("je koppelt, hangt af van je pakket. Denk aan Google Analytics, je webshop of je advertentieaccounts.")}
+                    {t("je koppelt, hangt af van je pakket: 1 bij Basic, maximaal 2 bij Standard en maximaal 4 bij Premium. Denk aan Google Analytics, je webshop of je advertentieaccounts.")}
                   </p>
                 </details>
                 <details className="tf-faq" style={{ background: "#F2F8FE", borderRadius: "16px", padding: "0 24px" }}>
@@ -44575,7 +44572,7 @@ export function TarievenContent() {
                     </svg>
                   </summary>
                   <p style={{ margin: "0 0 20px", fontSize: "15px", lineHeight: "1.65", color: "#3A4150" }}>
-                    {t("Afhankelijk van je pakket is je dashboard in 2 weken klaar, of vanaf 4 weken bij een groter pakket.")}
+                    {t("Basic en Standard zijn in 2 weken klaar, Premium vanaf 4 weken.")}
                   </p>
                 </details>
                 <details className="tf-faq" style={{ background: "#F2F8FE", borderRadius: "16px", padding: "0 24px" }}>

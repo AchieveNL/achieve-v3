@@ -564,3 +564,4 @@ body .tfm-slide .tf-tip-box{position:fixed;left:16px;right:16px;top:auto;margin-
 @media (max-width: 720px){#achiever .vid-btn{right:20px !important;bottom:20px !important}.fc-img .vid-btn,.story-card .vid-btn{top:16px !important;right:16px !important}}
 
 .hero-rate-link{border-radius:8px}.hero-rate-link:hover .hero-rate-name,.hero-rate-link:focus-visible .hero-rate-name{text-decoration:underline;text-underline-offset:3px}
+.rate-link{border-radius:6px}.rate-link:hover span,.rate-link:focus-visible span{text-decoration:underline;text-underline-offset:3px}

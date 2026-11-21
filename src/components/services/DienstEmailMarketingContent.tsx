@@ -6770,11 +6770,8 @@ export function DienstEmailMarketingContent() {
                   <path d="M9 6l6 6-6 6"></path>
                 </svg>
               </summary>
-              <p style={{ margin: "0 0 12px", fontSize: "15px", lineHeight: "1.65", color: "#3A4150" }}>
-                {t("In de laatste maand bespreken we hoe je verder wilt: verlengen, overstappen naar een ander pakket of stoppen.")}
-              </p>
               <p style={{ margin: "0 0 20px", fontSize: "15px", lineHeight: "1.65", color: "#3A4150" }}>
-                {t("Stop je? Dan houd je alles wat we in je eigen account hebben opgebouwd, zoals je automations, templates en formulieren.")}
+                {t("In de laatste maand bespreken we hoe je verder wilt: verlengen, overstappen naar een ander pakket of stoppen.")}
               </p>
             </details>
           </div>
