@@ -24133,6 +24133,7 @@ export function TarievenContent() {
                         >
                           {"Basic"}
                         </h3>
+                        <span style={{ fontSize: "14px", color: "#5A6273" }}>{t("1 maand")}</span>
                         <span
                           className="tf-price"
                           style={{
@@ -24150,6 +24151,8 @@ export function TarievenContent() {
                         <span className="tf-pm" style={{ fontSize: "14px", fontWeight: "600", color: "#5A6273" }}>
                           {t("eenmalig, ex. btw")}
                         </span>
+                        <span style={{ width: "100%", height: "1px", background: "#E4E6EA", margin: "16px 0 12px" }}></span>
+                        <span style={{ fontSize: "16px", fontWeight: "700", color: "inherit" }}>{t("€997 in totaal")}</span>
                         <div style={{ marginTop: "auto", paddingTop: "24px", width: "100%" }}>
                           <a
                             href="https://calendly.com/vrijblijvendgesprek/"
@@ -24243,6 +24246,7 @@ export function TarievenContent() {
                         >
                           {"Standard"}
                         </h3>
+                        <span style={{ fontSize: "14px", color: "#E6E9F8" }}>{t("6 maanden")}</span>
                         <span
                           className="tf-price"
                           style={{
@@ -24255,10 +24259,24 @@ export function TarievenContent() {
                             color: "inherit",
                           }}
                         >
-                          {t("€5.997")}
+                          {t("€897")}
                         </span>
                         <span className="tf-pm" style={{ fontSize: "14px", fontWeight: "600", color: "#E6E9F8" }}>
-                          {t("per halfjaar, ex. btw")}
+                          {t("per maand, ex. btw")}
+                        </span>
+                        <span style={{ width: "100%", height: "1px", background: "rgba(255,255,255,.25)", margin: "16px 0 12px" }}></span>
+                        <span style={{ fontSize: "16px", fontWeight: "700", color: "inherit" }}>{t("€5.382 in totaal")}</span>
+                        <span
+                          style={{
+                            fontSize: "12px",
+                            fontWeight: "600",
+                            padding: "4px 12px",
+                            borderRadius: "999px",
+                            background: "rgba(255, 255, 255, 0.2)",
+                            color: "#FFFFFF",
+                          }}
+                        >
+                          {t("€600 voordeel")}
                         </span>
                         <div style={{ marginTop: "auto", paddingTop: "24px", width: "100%" }}>
                           <a
@@ -24332,6 +24350,7 @@ export function TarievenContent() {
                         >
                           {"Premium"}
                         </h3>
+                        <span style={{ fontSize: "14px", color: "#5A6273" }}>{t("12 maanden")}</span>
                         <span
                           className="tf-price"
                           style={{
@@ -24344,10 +24363,24 @@ export function TarievenContent() {
                             color: "inherit",
                           }}
                         >
-                          {t("€11.997")}
+                          {t("€797")}
                         </span>
                         <span className="tf-pm" style={{ fontSize: "14px", fontWeight: "600", color: "#5A6273" }}>
-                          {t("per jaar, ex. btw")}
+                          {t("per maand, ex. btw")}
+                        </span>
+                        <span style={{ width: "100%", height: "1px", background: "#E4E6EA", margin: "16px 0 12px" }}></span>
+                        <span style={{ fontSize: "16px", fontWeight: "700", color: "inherit" }}>{t("€9.564 in totaal")}</span>
+                        <span
+                          style={{
+                            fontSize: "12px",
+                            fontWeight: "600",
+                            padding: "4px 12px",
+                            borderRadius: "999px",
+                            background: "#EFE8FD",
+                            color: "#6B2BD9",
+                          }}
+                        >
+                          {t("€2.400 voordeel")}
                         </span>
                         <div style={{ marginTop: "auto", paddingTop: "24px", width: "100%" }}>
                           <a
@@ -26135,6 +26168,7 @@ export function TarievenContent() {
                       >
                         {"Basic"}
                       </h3>
+                      <span style={{ fontSize: "14px", color: "#5A6273" }}>{t("1 maand")}</span>
                       <span
                         className="tf-price"
                         style={{
@@ -26152,6 +26186,8 @@ export function TarievenContent() {
                       <span className="tf-pm" style={{ fontSize: "14px", fontWeight: "600", color: "#5A6273" }}>
                         {t("eenmalig, ex. btw")}
                       </span>
+                      <span style={{ width: "100%", height: "1px", background: "#E4E6EA", margin: "16px 0 12px" }}></span>
+                      <span style={{ fontSize: "16px", fontWeight: "700", color: "inherit" }}>{t("€997 in totaal")}</span>
                       <div style={{ marginTop: "auto", paddingTop: "24px", width: "100%" }}>
                         <a
                           href="https://calendly.com/vrijblijvendgesprek/"
@@ -26701,6 +26737,7 @@ export function TarievenContent() {
                       >
                         {"Standard"}
                       </h3>
+                      <span style={{ fontSize: "14px", color: "#E6E9F8" }}>{t("6 maanden")}</span>
                       <span
                         className="tf-price"
                         style={{
@@ -26713,10 +26750,24 @@ export function TarievenContent() {
                           color: "inherit",
                         }}
                       >
-                        {t("€5.997")}
+                        {t("€897")}
                       </span>
                       <span className="tf-pm" style={{ fontSize: "14px", fontWeight: "600", color: "#E6E9F8" }}>
-                        {t("per halfjaar, ex. btw")}
+                        {t("per maand, ex. btw")}
+                      </span>
+                      <span style={{ width: "100%", height: "1px", background: "rgba(255,255,255,.25)", margin: "16px 0 12px" }}></span>
+                      <span style={{ fontSize: "16px", fontWeight: "700", color: "inherit" }}>{t("€5.382 in totaal")}</span>
+                      <span
+                        style={{
+                          fontSize: "12px",
+                          fontWeight: "600",
+                          padding: "4px 12px",
+                          borderRadius: "999px",
+                          background: "rgba(255, 255, 255, 0.2)",
+                          color: "#FFFFFF",
+                        }}
+                      >
+                        {t("€600 voordeel")}
                       </span>
                       <div style={{ marginTop: "auto", paddingTop: "24px", width: "100%" }}>
                         <a
@@ -27360,6 +27411,7 @@ export function TarievenContent() {
                       >
                         {"Premium"}
                       </h3>
+                      <span style={{ fontSize: "14px", color: "#5A6273" }}>{t("12 maanden")}</span>
                       <span
                         className="tf-price"
                         style={{
@@ -27372,10 +27424,24 @@ export function TarievenContent() {
                           color: "inherit",
                         }}
                       >
-                        {t("€11.997")}
+                        {t("€797")}
                       </span>
                       <span className="tf-pm" style={{ fontSize: "14px", fontWeight: "600", color: "#5A6273" }}>
-                        {t("per jaar, ex. btw")}
+                        {t("per maand, ex. btw")}
+                      </span>
+                      <span style={{ width: "100%", height: "1px", background: "#E4E6EA", margin: "16px 0 12px" }}></span>
+                      <span style={{ fontSize: "16px", fontWeight: "700", color: "inherit" }}>{t("€9.564 in totaal")}</span>
+                      <span
+                        style={{
+                          fontSize: "12px",
+                          fontWeight: "600",
+                          padding: "4px 12px",
+                          borderRadius: "999px",
+                          background: "#EFE8FD",
+                          color: "#6B2BD9",
+                        }}
+                      >
+                        {t("€2.400 voordeel")}
                       </span>
                       <div style={{ marginTop: "auto", paddingTop: "24px", width: "100%" }}>
                         <a
